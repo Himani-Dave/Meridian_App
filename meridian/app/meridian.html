@@ -1,0 +1,781 @@
+<title>Meridian Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --bg:#f6f5f1;
+    --surface:#ffffff;
+    --surface-2:#efede6;
+    --ink:#15171c;
+    --ink-soft:#4a4d55;
+    --muted:#80828a;
+    --hairline:#e2dfd6;
+    --accent:#a8701b;
+    --accent-ink:#ffffff;
+
+    --cat-geo:#a33f30;
+    --cat-econ:#8f6d12;
+    --cat-sec:#34497a;
+    --cat-mob:#1f7a62;
+
+    --ok:#2c6f52;
+    --warn:#8a6113;
+    --alert:#a1442f;
+
+    --serif:"Source Serif 4","Iowan Old Style",Georgia,serif;
+    --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --ease:cubic-bezier(.22,.8,.26,1);
+
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111216; --surface:#191b21; --surface-2:#20232a;
+      --ink:#ecebe6; --ink-soft:#b4b3ad; --muted:#85858a; --hairline:#2a2d35;
+      --accent:#e0ac52; --accent-ink:#1a1204;
+      --cat-geo:#d8796a; --cat-econ:#cfa84d; --cat-sec:#8aa2d6; --cat-mob:#4fae93;
+      --ok:#5aa781; --warn:#d6ac4e; --alert:#d4826f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111216; --surface:#191b21; --surface-2:#20232a;
+    --ink:#ecebe6; --ink-soft:#b4b3ad; --muted:#85858a; --hairline:#2a2d35;
+    --accent:#e0ac52; --accent-ink:#1a1204;
+    --cat-geo:#d8796a; --cat-econ:#cfa84d; --cat-sec:#8aa2d6; --cat-mob:#4fae93;
+    --ok:#5aa781; --warn:#d6ac4e; --alert:#d4826f;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); overflow:hidden; -webkit-font-smoothing:antialiased; -webkit-tap-highlight-color:transparent;}
+  h1,h2{margin:0; font-family:var(--serif); text-wrap:balance; font-weight:600;}
+  p{margin:0;}
+  a{color:var(--ink-soft); text-underline-offset:2px;}
+  button{font-family:inherit; -webkit-tap-highlight-color:transparent;}
+  button:focus-visible, a:focus-visible, summary:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  [hidden]{display:none!important;}
+
+  .shell{height:100%; display:flex; flex-direction:column;}
+  .wrap{max-width:620px; margin-inline:auto; padding-inline:20px; width:100%;}
+
+  .topbar{flex:0 0 auto; padding-block:12px 10px; background:var(--bg);}
+  .progress{display:flex; gap:3px; height:3px;}
+  .seg{flex:1; border-radius:2px; background:var(--hairline); overflow:hidden;}
+  .seg i{display:block; height:100%; width:0; background:var(--ink); transition:width .45s var(--ease);}
+  .seg.done i{width:100%; background:var(--muted);}
+  .seg.active i{width:100%;}
+  .topmeta{display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:12px;}
+  .brand{font-family:var(--serif); font-weight:600; font-size:17px;}
+  .counter{font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums; font-weight:500;}
+
+  .track{flex:1 1 auto; min-height:0; display:flex; overflow-x:auto; overflow-y:hidden; scroll-snap-type:x mandatory; overscroll-behavior-x:contain; scrollbar-width:none;}
+  .track::-webkit-scrollbar{display:none;}
+  .slide{flex:0 0 100%; width:100%; height:100%; scroll-snap-align:start; scroll-snap-stop:always; overflow-y:auto; overscroll-behavior-y:contain; scrollbar-width:none;}
+  .slide::-webkit-scrollbar{display:none;}
+  .slide .wrap{padding-block:8px 44px;}
+
+  /* intro */
+  .intro{min-height:100%; display:flex; flex-direction:column; justify-content:center; gap:24px;}
+  .eyebrow{font-size:11.5px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);}
+  .weekday{font-family:var(--serif); font-size:clamp(40px,12vw,54px); font-weight:600; line-height:1; letter-spacing:-.015em; margin-top:10px;}
+  .fulldate{font-family:var(--serif); font-size:20px; color:var(--ink-soft); margin-top:8px;}
+  .summary-line{padding-block:15px; border-block:1px solid var(--hairline); font-size:15px; color:var(--ink-soft); line-height:1.5;}
+  .summary-line b{color:var(--ink); font-weight:600;}
+  .filter-label{font-size:11.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:10px;}
+  .chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .chip{font-family:var(--sans); font-size:13px; font-weight:500; padding:8px 13px; border-radius:100px; background:var(--surface); border:1px solid var(--hairline); color:var(--ink-soft); cursor:pointer;}
+  .chip[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--bg);}
+  .cat-row{display:flex; align-items:center; justify-content:space-between; padding-block:10px; border-bottom:1px solid var(--hairline); font-size:14.5px;}
+  .cat-row:last-child{border-bottom:none;}
+  .cat-name{display:flex; align-items:center; gap:10px; font-weight:500;}
+  .dot{width:8px; height:8px; border-radius:50%; background:var(--c); flex:0 0 auto;}
+  .cat-count{color:var(--muted); font-variant-numeric:tabular-nums;}
+  details.method{border-top:1px solid var(--hairline); padding-top:14px;}
+  details.method summary{font-size:13.5px; font-weight:600; color:var(--ink); cursor:pointer; list-style:none;}
+  details.method summary::-webkit-details-marker{display:none;}
+  details.method summary::before{content:"＋ "; color:var(--muted);}
+  details.method[open] summary::before{content:"− ";}
+  .method-body{font-size:13.5px; line-height:1.6; color:var(--ink-soft); margin-top:12px; display:flex; flex-direction:column; gap:10px;}
+  .method-body b{color:var(--ink);}
+
+  /* story */
+  .story{display:flex; flex-direction:column; gap:20px;}
+  .cover{position:relative; aspect-ratio:16/9; max-width:100%; border-radius:12px; overflow:hidden; color:var(--c);
+    background:
+      repeating-linear-gradient(0deg, color-mix(in srgb, var(--c) 9%, transparent) 0 1px, transparent 1px 28px),
+      repeating-linear-gradient(90deg, color-mix(in srgb, var(--c) 9%, transparent) 0 1px, transparent 1px 28px),
+      linear-gradient(140deg, color-mix(in srgb, var(--c) 24%, var(--surface)) 0%, color-mix(in srgb, var(--c) 6%, var(--surface)) 100%);
+    display:flex; align-items:center; justify-content:center;}
+  .cover svg{width:28%; height:auto; max-height:58%;}
+  .kicker{font-size:11.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--c); line-height:1.5;}
+  .kicker span{color:var(--muted); font-weight:600;}
+  .headline{font-size:clamp(25px,6.8vw,31px); line-height:1.15; letter-spacing:-.01em; margin-top:8px;}
+  .dateline{font-size:13px; color:var(--muted); margin-top:11px; display:flex; flex-wrap:wrap; gap:8px; align-items:center;}
+  .rtag{font-size:10.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft); background:var(--surface-2); padding:3px 7px; border-radius:5px;}
+
+  .section{padding-top:18px; border-top:1px solid var(--hairline); display:flex; flex-direction:column; gap:12px;}
+  .label{font-size:11px; font-weight:700; letter-spacing:.11em; text-transform:uppercase; color:var(--muted); display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+  .body{font-family:var(--serif); font-size:17.5px; line-height:1.6; color:var(--ink);}
+  .context-text{font-size:15px; line-height:1.55; color:var(--ink-soft);}
+
+  .facts{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px;}
+  .facts li{font-family:var(--serif); font-size:17px; line-height:1.55;}
+  .tier{display:inline-flex; align-items:center; gap:4px; font-family:var(--sans); font-size:10.5px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:2px 6px; border-radius:5px; margin-right:7px; vertical-align:2px; white-space:nowrap;}
+  .tier.multi{color:var(--ok); background:color-mix(in srgb, var(--ok) 12%, transparent);}
+  .tier.primary{color:var(--cat-sec); background:color-mix(in srgb, var(--cat-sec) 12%, transparent);}
+  .tier.single{color:var(--warn); background:color-mix(in srgb, var(--warn) 14%, transparent);}
+  .ref{font-family:var(--sans); font-size:11px; font-weight:600; text-decoration:none; color:var(--muted); vertical-align:4px; padding-inline:1px;}
+  .ref:hover{color:var(--ink);}
+
+  .disputed{background:color-mix(in srgb, var(--alert) 8%, var(--surface)); border-radius:12px; padding:18px; border:1px solid color-mix(in srgb, var(--alert) 22%, transparent);}
+  .disputed .label{color:var(--alert);}
+  .disputed p{font-size:15.5px; line-height:1.6; color:var(--ink); font-family:var(--serif);}
+  .dlist{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:11px;}
+  .dlist li{font-family:var(--serif); font-size:16px; line-height:1.55;}
+
+  .view{border-top:1px solid var(--hairline); padding-top:14px;}
+  .view:first-of-type{border-top:none; padding-top:0;}
+  .view-head{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:7px;}
+  .side{font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase;}
+  .side.left{color:#3a6ea8;} .side.centre{color:var(--muted);} .side.right{color:#a1553a;}
+  :root[data-theme="dark"] .side.left{color:#87a8d8;} :root[data-theme="dark"] .side.right{color:#d09a82;}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .side.left{color:#87a8d8;} :root:not([data-theme="light"]) .side.right{color:#d09a82;} }
+  .outlet{font-size:12.5px; color:var(--muted);}
+  .view p{font-size:16px; line-height:1.55; font-family:var(--serif);}
+  .view.missing p{font-family:var(--sans); font-size:14.5px; color:var(--muted); font-style:italic;}
+
+  .cov{background:var(--surface-2); border-radius:12px; padding:18px;}
+  .cov .label{color:var(--accent);}
+  .cov p{font-size:15.5px; line-height:1.6; color:var(--ink);}
+
+  .watch-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:12px;}
+  .watch-list li{position:relative; padding-left:22px; font-size:15.5px; line-height:1.5; color:var(--ink-soft);}
+  .watch-list li::before{content:""; position:absolute; left:2px; top:.5em; width:7px; height:7px; border-radius:50%; border:1.5px solid var(--c);}
+
+  .srclist{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px; counter-reset:s;}
+  .srclist li{font-size:13px; line-height:1.5; color:var(--muted); display:flex; gap:8px;}
+  .snum{font-weight:700; color:var(--ink-soft); flex:0 0 auto; font-variant-numeric:tabular-nums;}
+  .bias{font-size:10.5px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--ink-soft); background:var(--surface-2); padding:2px 6px; border-radius:5px; white-space:nowrap;}
+  .sent-note{font-size:12.5px; color:var(--muted); font-style:italic; line-height:1.5; padding-top:16px; border-top:1px solid var(--hairline);}
+
+  /* done */
+  .done{min-height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:13px;}
+  .ring{width:72px; height:72px; border-radius:50%; border:1.5px solid var(--hairline); display:flex; align-items:center; justify-content:center; color:var(--accent); margin-bottom:4px;}
+  .ring path{stroke-dasharray:24; stroke-dashoffset:24;}
+  .slide.is-current .ring path{animation:draw .6s .15s var(--ease) forwards;}
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  .done h2{font-size:32px; letter-spacing:-.01em;}
+  .done-sub{font-size:15.5px; color:var(--ink-soft); line-height:1.5; max-width:34ch;}
+  .done-note{font-size:13px; color:var(--muted); max-width:34ch; line-height:1.5;}
+  .ghost-btn{margin-top:12px; background:none; border:1px solid var(--hairline); color:var(--ink); padding:12px 22px; border-radius:100px; font-size:14.5px; font-weight:600; cursor:pointer;}
+
+  /* bottom */
+  .bottombar{flex:0 0 auto; border-top:1px solid var(--hairline); background:var(--bg);}
+  .bottombar .wrap{display:flex; align-items:center; justify-content:space-between; padding-block:10px;}
+  .btn{border:none; cursor:pointer; font-size:14.5px; font-weight:600; border-radius:100px; padding:11px 18px; display:inline-flex; align-items:center; gap:6px; transition:opacity .2s, transform .15s;}
+  .btn:active{transform:scale(.97);}
+  .btn-prev{background:none; color:var(--ink-soft); padding-inline:6px;}
+  .btn-prev:disabled{opacity:0; pointer-events:none;}
+  .btn-next{background:var(--ink); color:var(--bg); min-width:112px; justify-content:center;}
+  .btn-next.is-hidden{opacity:0; pointer-events:none;}
+
+  /* splash */
+  .splash{position:fixed; inset:0; z-index:10; background:var(--bg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; transition:opacity .55s var(--ease), transform .55s var(--ease); cursor:pointer;}
+  .splash.out{opacity:0; transform:scale(1.02); pointer-events:none;}
+  .mark{width:46px; height:46px; color:var(--ink);}
+  .mark .meridian{stroke:var(--accent);}
+  .wordmark{font-family:var(--serif); font-size:40px; font-weight:600; letter-spacing:-.01em;}
+  .splash .eyebrow{letter-spacing:.2em;}
+  .anim{animation:rise .8s var(--ease) both;}
+  @keyframes rise{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+
+  @media (prefers-reduced-motion: reduce){
+    .splash,.seg i,.btn{transition:none;}
+    .anim{animation:none;}
+    .slide.is-current .ring path{animation:none; stroke-dashoffset:0;}
+  }
+</style>
+
+<div class="splash" id="splash" role="button" aria-label="Open briefing">
+  <svg class="mark anim" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+    <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.6"/>
+    <ellipse class="meridian" cx="24" cy="24" rx="8" ry="20" stroke-width="1.6"/>
+    <path d="M4 24h40" stroke="currentColor" stroke-width="1.2" opacity=".45"/>
+  </svg>
+  <div class="wordmark anim">Meridian</div>
+  <div class="eyebrow anim">The world, verified</div>
+</div>
+
+<div class="shell">
+  <header class="topbar">
+    <div class="wrap">
+      <div class="progress" id="progress"></div>
+      <div class="topmeta">
+        <div class="brand">Meridian</div>
+        <div class="counter" id="counter"></div>
+      </div>
+    </div>
+  </header>
+  <main class="track" id="track" tabindex="0" aria-label="Briefing"></main>
+  <nav class="bottombar">
+    <div class="wrap">
+      <button class="btn btn-prev" id="prevBtn" aria-label="Previous">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Previous
+      </button>
+      <button class="btn btn-next" id="nextBtn">
+        <span id="nextLabel">Begin</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </nav>
+</div>
+
+<script>
+(function(){
+  const CATS = {
+    geo:  {name:"Geopolitics & Conflict", v:"--cat-geo",  icon:iconGlobe},
+    econ: {name:"Economy & Trade",        v:"--cat-econ", icon:iconChart},
+    sec:  {name:"Security & Defence",     v:"--cat-sec",  icon:iconRadar},
+    mob:  {name:"Migration & Mobility",   v:"--cat-mob",  icon:iconPassport}
+  };
+  function iconGlobe(){return `<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="32" cy="32" r="24"/><ellipse cx="32" cy="32" rx="10" ry="24"/><path d="M8 32h48M12 20h40M12 44h40"/></svg>`;}
+  function iconChart(){return `<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 52h48M8 52V10"/><path d="M14 22l10 10 8-6 16 18"/><path d="M40 44h8v-8"/></svg>`;}
+  function iconRadar(){return `<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="32" cy="34" r="22"/><circle cx="32" cy="34" r="13"/><circle cx="32" cy="34" r="3" fill="currentColor" stroke="none"/><path d="M32 34L50 18"/></svg>`;}
+  function iconPassport(){return `<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="14" y="8" width="32" height="48" rx="4"/><circle cx="30" cy="28" r="8"/><path d="M24 44h14M22 28h16"/><path d="M48 32h10m0 0l-4-4m4 4l-4 4" stroke-linecap="round"/></svg>`;}
+
+  const STORIES = [
+    /* ---------------- 1. CANADA / TARIFFS ---------------- */
+    {
+      cat:"econ", sub:"Trade Policy · Canada–U.S.", regions:["Canada"],
+      dateline:"Ottawa & Washington · Aug 22 – Sept 8, 2026",
+      headline:"Canada's dollar-for-dollar tariffs on the U.S. took effect after trade talks collapsed",
+      context:"Canada sends close to 70% of its exports to the United States. Negotiations to settle the tariff dispute broke down on Aug 21–22, and both governments escalated within days.",
+      facts:[
+        {t:"The U.S. imposed 50% tariffs on Canadian goods, effective just after midnight on Aug 22, 2026.", s:[0,1,2], tier:"multi"},
+        {t:"Canada is matching the tariffs “dollar for dollar” from Sept 8, 2026, targeting U.S. steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics.", s:[0,1,2], tier:"multi"},
+        {t:"The U.S. measures cover roughly $20 billion in Canadian goods — about 5.5% of Canada's exports — including wine, furniture, dairy, cement, clothing and hockey equipment.", s:[1,0], tier:"multi"},
+        {t:"Carney: “You're at war when you get attacked. We got attacked,” and Canada “will match those tariffs dollar for dollar to protect our workers and businesses.”", s:[0], tier:"single"},
+        {t:"U.S. Trade Representative Jamieson Greer said Canada “declined to finalize the trade deal under the terms agreed earlier this week,” citing “new demands and walk backs,” and said the U.S. had offered “significant tariff reductions on steel, aluminum, autos and lumber.”", s:[2], tier:"single"},
+        {t:"Carney says the U.S. made late changes restricting Canada's ability to strike other trade deals: “The U.S. introduced at the last hours…efforts to restrict our ability to have other trade deals.”", s:[2], tier:"single"},
+        {t:"Canada relies on the U.S. for nearly 70% of its exports. The Business Roundtable warned the tariffs “risk raising costs for American businesses and families.”", s:[1], tier:"single"}
+      ],
+      disputed:[
+        {t:"The value of Canadian goods hit. NPR and Al Jazeera both report about $20 billion; Fox Business reports approximately $28 billion. I could not confirm either against a primary U.S. document, so treat the scope as approximate."},
+        {t:"Who walked away. Ottawa says Washington made last-minute demands on Canada's other trade deals; USTR says Canada added new demands and reversed agreed terms. These accounts are irreconcilable and neither side has published the text."}
+      ],
+      views:[
+        {side:"left", label:"Left / progressive", outlet:"NPR (lean left); Al Jazeera (Qatari state-funded)", s:[0,1],
+         text:"Frames Canada as the party attacked and foregrounds Carney's sovereignty language. Al Jazeera's Calgary reporting emphasises expected price rises, higher unemployment, and the risk of bankruptcies among small and medium-sized businesses."},
+        {side:"centre", label:"Centre / business", outlet:"Business Roundtable, quoted in Al Jazeera", s:[1],
+         text:"Treats the dispute as mutually damaging rather than a moral contest: the tariffs raise costs for American businesses and families too, and the fight is over deal terms, not principle."},
+        {side:"right", label:"Right / conservative", outlet:"Fox Business (right); Pierre Poilievre via The Deep Dive", s:[2,3],
+         text:"U.S. right coverage amplifies USTR's account that Ottawa moved the goalposts. Canada's Conservative leader backs the rejection — “Canada cannot accept a bad deal” — but attacks the secrecy: he wants the U.S. offer published, cost estimates for groceries and gasoline, and Parliament recalled before its Sept 21 return."}
+      ],
+      coverage:"American and Canadian outlets report nearly identical facts and assign blame in opposite directions. Note that the Canadian opposition's criticism is about transparency, not about retaliating — on the tariff response itself, Canada's two main parties broadly agree, which is unusual and easy to miss if you only read U.S. coverage.",
+      watch:[
+        "Whether Parliament is recalled before Sept 21, or the tariffs run without a parliamentary vote.",
+        "Whether either government publishes the rejected deal text — the only thing that would settle the competing accounts.",
+        "Whether the $20bn vs $28bn discrepancy is resolved by an official U.S. tariff schedule."
+      ],
+      sources:[
+        {n:"NPR", b:"Lean left", t:"As Canada readies retaliatory tariffs, Mark Carney says his nation is 'at war' with U.S.", u:"https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"},
+        {n:"Al Jazeera", b:"Qatari state-funded", t:"Canada to hit US with retaliatory tariffs as trade war escalates", u:"https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"},
+        {n:"Fox Business", b:"Right", t:"Canada's Carney says US made last-minute 'power play' as trade talks collapse", u:"https://www.foxbusiness.com/politics/canadas-carney-us-last-minute-power-play-trade-talks-collapse-retaliatory-tariffs"},
+        {n:"The Deep Dive", b:"Canadian business press", t:"Poilievre backs Carney rejection but calls out secrecy on rejected US trade deal", u:"https://thedeepdive.ca/poilievre-carney-rejected-us-trade-deal/"}
+      ]
+    },
+
+    /* ---------------- 2. INDIA–CANADA ---------------- */
+    {
+      cat:"geo", sub:"Bilateral Relations · India–Canada", regions:["Canada","India"],
+      dateline:"New Delhi & Ottawa · May–Sept 2026",
+      headline:"India and Canada aim to close a trade deal by year-end, while Canada's spy agency names India a foreign-interference actor",
+      context:"Both governments describe a reset underway since June 2025 after a period of severe strain. The trade track and the security track are advancing at the same time, in opposite emotional directions.",
+      facts:[
+        {t:"At Foreign Office Consultations in New Delhi on Sept 2, 2026, India's Secretary (East) Rudrendra Tandon and Canada's Deputy Minister of Foreign Affairs Arun Thangaraj led delegations. Both sides committed to finalising a Comprehensive Economic Partnership Agreement by year-end and to more than doubling bilateral trade to CAD 70 billion by 2030.", s:[0], tier:"primary"},
+        {t:"The Canada–India Trade and Investment Forum was launched on May 29, 2026 by Ministers Sidhu and Goyal, with priority sectors of clean energy, critical minerals, agri-food, advanced manufacturing, digital technologies and skills development.", s:[1], tier:"primary"},
+        {t:"A Team Canada Trade Mission to India is scheduled for October 2026.", s:[1], tier:"primary"},
+        {t:"CSIS's 2025 Public Report lists India among the main perpetrators of foreign interference and espionage against Canada, stating: “Historically, India has cultivated covert relationships with Canadian politicians, journalists, and members of the Indo-Canadian community, to exert its influence and advance its interests.”", s:[2], tier:"primary"},
+        {t:"The same CSIS report notes involvement by some Canada-based Khalistani extremist groups poses national security threats, records no such attacks in Canada in 2025, and states plainly: “Non-violent advocacy for the creation of a state of Khalistan is not considered extremism.” It also describes Indian transnational repression, including surveillance of Khalistan supporters in Canada.", s:[2], tier:"primary"}
+      ],
+      disputed:[
+        {t:"How the CSIS report is being characterised. Several Indian outlets reported it as Canada formally labelling Khalistani extremists a national security threat, framed as a diplomatic win for India. That element is in the report — but in my searches, none of those outlets mentioned that the same report names India as a foreign-interference actor engaged in transnational repression. I also found no non-Indian outlet making the “diplomatic win” claim."},
+        {t:"Whether CEPA is real or aspirational. Both governments state a year-end target. Neither has published a text or a chapter list, and year-end trade-deal targets slip routinely."}
+      ],
+      views:[
+        {side:"right", label:"Right / Indian nationalist", outlet:"Organiser, OpIndia, Punjab Kesari (Indian nationalist lean)", s:[3],
+         text:"Present the CSIS findings on Khalistani extremism as vindication of India's long-standing position and a diplomatic victory — one headline reads “major diplomatic win for India.” These outlets are openly aligned with the governing party's worldview. Caveat on my own work: I read headlines and search summaries for these outlets, not the full articles, so treat this as a characterisation of framing rather than a close reading."},
+        {side:"centre", label:"Centre / official record", outlet:"Global Affairs Canada, PIB India, CSIS (primary documents)", s:[0,1,2],
+         text:"The primary documents show two tracks running in parallel: an economic relationship being rebuilt deliberately, and security disagreements that neither side has resolved or dropped. Neither government's readout mentions the other track."},
+        {side:"left", label:"Civil-liberties reading", outlet:"Drawn from the CSIS report's own text", s:[2],
+         text:"The report's caveats cut against a one-directional reading: it names India's surveillance of Khalistan supporters in Canada as transnational repression and states that peaceful Khalistan advocacy is lawful. I should be clear that I did not find an outlet making this argument in my searches — this reading comes from the primary document, not from sourced commentary."}
+      ],
+      coverage:"This is the sharpest coverage asymmetry in today's briefing. Indian outlets covered one half of the CSIS report; I found no Canadian outlet coverage of the India-interference finding in these searches at all. Reading either country's press alone gives you a systematically incomplete picture of a document that is public and free to read.",
+      watch:[
+        "Whether CEPA is actually signed by Dec 31, 2026, or the target slips into 2027.",
+        "Whether the October Team Canada mission proceeds on schedule.",
+        "Whether either government publicly acknowledges the security track while the trade track is live."
+      ],
+      sources:[
+        {n:"Global Affairs Canada", b:"Primary — Canadian govt", t:"India-Canada Foreign Office Consultations (Sept 2, 2026)", u:"https://www.canada.ca/en/global-affairs/news/2026/09/india-canada-foreign-office-consultations.html"},
+        {n:"PIB India", b:"Primary — Indian govt", t:"Canada-India Joint Statement, Trade and Investment Forum", u:"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2266457&reg=3&lang=1"},
+        {n:"CSIS", b:"Primary — Canadian intelligence", t:"CSIS Public Report 2025 — Operations and analysis", u:"https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html"},
+        {n:"Organiser", b:"Indian nationalist", t:"Canadian Intel labels Khalistani extremists “national security threat”", u:"https://organiser.org/2026/05/04/351773/world/canadian-intel-labels-khalistani-extremists-a-national-security-threat-major-diplomatic-win-for-india/"}
+      ]
+    },
+
+    /* ---------------- 3. OCI RULES ---------------- */
+    {
+      cat:"mob", sub:"Citizenship & OCI · India", regions:["India"],
+      dateline:"New Delhi · Apr–May 2026",
+      headline:"India overhauled its OCI rules: filings move online and passport updates now carry a three-month deadline",
+      context:"This is the first substantial revision of the Overseas Citizen of India framework in more than a decade, and it changes routine obligations for existing cardholders, not just new applicants.",
+      facts:[
+        {t:"India's Ministry of Home Affairs notified the Citizenship (Amendment) Rules, 2026 on May 1, 2026; the overhaul was announced on April 29, 2026.", s:[0,1], tier:"multi"},
+        {t:"All OCI registration, re-issuance, renunciation and cancellation requests must now be submitted electronically through the OCI Services portal, with records held digitally and no duplicate submissions required.", s:[1], tier:"single"},
+        {t:"OCI cardholders must update passport details on the OCI portal within three months of receiving a new passport. Failure to do so carries a USD 25 fine or local equivalent.", s:[0], tier:"single"},
+        {t:"The previous six-month-stay requirement was removed: applicants can apply on arrival in India with a valid long-term visa and the required documents.", s:[0], tier:"single"},
+        {t:"Minors may not hold Indian and foreign passports simultaneously.", s:[1], tier:"single"},
+        {t:"Those renouncing OCI must return the physical card to an Indian Mission or FRRO, but a cancelled registration stays cancelled whether or not the card is returned.", s:[1], tier:"single"},
+        {t:"Fifth- and sixth-generation Indian-origin Tamils in Sri Lanka are newly eligible, up from a fourth-generation limit.", s:[0], tier:"single"},
+        {t:"Applicants using the Fast Track Immigration Programme must consent to biometric collection.", s:[1], tier:"single"}
+      ],
+      disputed:[
+        {t:"Dates differ slightly between the two sources — announcement April 29 versus notification May 1, 2026. These are probably describing different steps of the same process, but I did not retrieve the MHA gazette notification itself to confirm."},
+        {t:"Both sources are immigration law and mobility-services firms with a commercial interest in compliance work. Their factual accounts agree where they overlap, but nothing here is independently audited journalism."}
+      ],
+      views:[
+        {side:"centre", label:"No ideological split", outlet:"Observation about the coverage itself", s:[],
+         text:"There is no left/right divide in the available coverage of this story — it is an administrative change reported by practitioners. Forcing a three-sided political frame onto it would be manufactured. What follows is the real division: two practitioner readings, and a missing one."},
+        {side:"left", label:"Practitioner — compliance emphasis", outlet:"Fragomen (immigration law firm)", s:[0],
+         text:"Reads the change as broader eligibility paired with stricter compliance, and treats the three-month passport-update deadline as the main new exposure for existing cardholders who may not know the obligation exists."},
+        {side:"right", label:"Practitioner — process emphasis", outlet:"Envoy Global (mobility services)", s:[1],
+         text:"Emphasises digitisation and simplification: end-to-end online filing, digital records, no duplicate paperwork, and biometric-enabled fast-track processing at Indian airports."}
+      ],
+      coverage:"The gap here is independent scrutiny. I found no journalism and no diaspora-organisation analysis of these rules — only immigration-industry summaries and a long tail of consultancy blogs I excluded as unreliable. For anything with a penalty attached, verify against the MHA gazette or a consulate before acting.",
+      watch:[
+        "Whether MHA publishes consolidated guidance or an FAQ on the three-month passport rule.",
+        "Whether the USD 25 penalty is actually enforced at renewal or waived in practice.",
+        "Whether physical cards are phased out entirely in favour of digital records."
+      ],
+      sources:[
+        {n:"Fragomen", b:"Immigration law firm", t:"India: New OCI Rules Bring Broader Eligibility but Stricter Compliance Measures", u:"https://www.fragomen.com/insights/india-new-oci-rules-bring-broader-eligibility-but-stricter-compliance-measures.html"},
+        {n:"Envoy Global", b:"Mobility services firm", t:"India Notifies Citizenship Amendment Rules with New Provisions for OCI Cardholders", u:"https://www.envoyglobal.com/news-alert/india-notifies-citizenship-amendment-rules-with-new-provisions-for-oci-cardholders/"}
+      ]
+    },
+
+    /* ---------------- 4. EUROPE MOBILITY ---------------- */
+    {
+      cat:"mob", sub:"Work Migration · European Union", regions:["Europe"],
+      dateline:"Brussels & Paris · 2025–2026",
+      headline:"Europe's skilled-work routes loosened while new border checks phase in for every non-EU traveller",
+      context:"The EU Blue Card recast lets member states set salary thresholds within a band rather than at one fixed level. The result is divergence: the same permit is now easier in some countries and harder in others.",
+      facts:[
+        {t:"Under the recast, the minimum contract duration fell to six months, and salary thresholds now range between 1.0 and 1.6 times average gross annual salary, replacing a fixed 1.5x.", s:[0], tier:"single"},
+        {t:"Time spent across multiple member states now counts toward long-term residence; family members get immediate labour-market access; intra-EU mobility is formalised; and professional experience can substitute for a formal degree, particularly in ICT roles.", s:[0], tier:"single"},
+        {t:"Germany is the largest Blue Card issuer and lowered its thresholds. Poland was the second-largest issuer in 2024 and implemented key provisions in June 2025. Luxembourg, Lithuania and Italy show strong uptake.", s:[0], tier:"single"},
+        {t:"In France, the Netherlands, Spain, Finland, Sweden, Austria and Czechia, national permits remained more competitive than the Blue Card on cost, speed or processing as of February 2026.", s:[0], tier:"single"},
+        {t:"A French decree reported on June 5, 2026 set France's Blue Card threshold at 1.5x the national average gross salary, targets 30-day decisions, allows long-term residence applications after three years instead of five, gives spouses immediate labour-market access, and brings IT, AI, cybersecurity, renewable energy and healthcare under streamlined procedures.", s:[1], tier:"single"},
+        {t:"The EU Entry/Exit System began a progressive rollout on Oct 12, 2025 and reaches full implementation on April 10, 2026, with biometric registration phased in over that period. France's foreign ministry gives the same April 10, 2026 date.", s:[0,2], tier:"multi"},
+        {t:"A “Travel to Europe” app lets non-EU nationals pre-register passport data and a facial image up to 72 hours before crossing, initially at selected Swedish crossing points.", s:[0], tier:"single"},
+        {t:"ETIAS is expected in the last quarter of 2026, followed by a six-month transitional period in which all travellers may enter without authorisation, then a six-month grace period in which only first-time arrivals are exempt.", s:[0], tier:"single"}
+      ],
+      disputed:[
+        {t:"Whether France is now a good Blue Card destination. Fragomen's EU-wide assessment (February 2026) places France among countries where national permits still beat the Blue Card. Business Standard (June 2026) frames the French decree as making it substantially more attractive. Both can hold if the decree post-dates the assessment — but I could not confirm France's current relative standing from a primary French source."},
+        {t:"“Eased” is relative. France's 1.5x threshold sits near the top of the EU's 1.0–1.6x band. It is a loosening of France's own prior rules, not a low bar by European standards."},
+        {t:"ETIAS timing has slipped repeatedly. The Q4 2026 date is an expectation pending European Parliament approval, not a confirmed launch."}
+      ],
+      views:[
+        {side:"left", label:"Pro-mobility / business", outlet:"Fragomen; Business Standard (Indian business press)", s:[0,1],
+         text:"Competition for skilled migrants is intensifying and the recast makes Europe more competitive against Canada, the UK and Australia. Business Standard explicitly frames the French reforms as aimed at Indian professionals. Both sources have a commercial stake in mobility increasing."},
+        {side:"centre", label:"Institutional", outlet:"France, Ministry for Europe and Foreign Affairs (primary)", s:[2],
+         text:"The official framing is harmonisation and border modernisation rather than liberalisation. Note what this means in practice: work routes are loosening and border friction is increasing at the same time, driven by different parts of the same institution."},
+        {side:"right", label:"Restrictionist / right", outlet:"Not sourced", s:[], missing:true,
+         text:"I found no European right or restrictionist coverage of the Blue Card recast in these searches. Organised opposition to expanded skilled migration exists in several member states, but I am not going to characterise positions I did not actually read. Treat this side of the card as missing rather than absent."}
+      ],
+      coverage:"English-language coverage of European work migration is dominated by immigration law firms and consultancies that profit from mobility, plus Indian business press writing for prospective applicants. Independent journalism was thin in my searches, and search results for terms like “Germany opportunity card” return almost entirely consultancy marketing, which I excluded. Verify thresholds against the relevant consulate before making decisions.",
+      watch:[
+        "Whether ETIAS actually launches in Q4 2026 after repeated delays.",
+        "Whether France's 30-day processing target holds once volumes rise.",
+        "Which member states next revise thresholds inside the 1.0–1.6x band — the band is where the real competition now happens."
+      ],
+      sources:[
+        {n:"Fragomen", b:"Immigration law firm", t:"EU Blue Card Recast 2026: How Employers Are Rethinking Hiring Across Europe; and EES/ETIAS launch status", u:"https://www.fragomen.com/insights/eu-blue-card-recast-employers.html"},
+        {n:"Business Standard", b:"Indian business press", t:"France eases EU Blue Card rules for skilled foreign workers", u:"https://www.business-standard.com/immigration/france-eases-eu-blue-card-rules-for-skilled-foreign-workers-details-126060500513_1.html"},
+        {n:"France Diplomatie", b:"Primary — French govt", t:"EES: the new European border Entry/Exit System goes live on 10 April 2026", u:"https://www.diplomatie.gouv.fr/en/services-to-foreigners/visiting-france/ees-the-new-european-border-entryexit-system-goes-live-on-10-april-2026"}
+      ]
+    },
+
+    /* ---------------- 5. FED ---------------- */
+    {
+      cat:"econ", sub:"Monetary Policy · United States", regions:["Global"],
+      dateline:"Washington, D.C. · Sept 16, 2026",
+      headline:"The Fed raised rates for the first time since 2023, and the president attacked the decision",
+      context:"Inflation has run above the Fed's 2% target for more than five years. Kevin Warsh was nominated as chair by Donald Trump, who has demanded cuts.",
+      facts:[
+        {t:"The FOMC raised the federal funds rate by 0.25 points to 3.75%–4.00% — the first increase since July 2023 — on a unanimous 12-0 vote. Interest on reserve balances rose to 3.90% and the primary credit rate to 4.00%.", s:[0,1,2], tier:"multi"},
+        {t:"12 of 18 officials expect another 0.25-point increase by year-end; four expect two more. Officials project year-end unemployment of 4.1% and inflation easing to 2.3% in 2027, with rates then holding through 2027.", s:[0,1], tier:"multi"},
+        {t:"The Fed's preferred inflation gauge was 3.7% in June and July. CPI held at 3.4% in August with core at 3.3%. Core PCE was 3.3% for the 12 months to July.", s:[0,1], tier:"multi"},
+        {t:"Warsh said at Jackson Hole in August that he “would be hard pressed to describe broad financial conditions as restrictive” and that the Fed had “work to do” on inflation.", s:[0], tier:"single"},
+        {t:"Warsh on political pressure: “Part of the independence of the Federal Reserve is we stay in our lane.”", s:[1], tier:"single"},
+        {t:"Trump said interest rates “should be 1%, or less,” said he told Warsh “you might as well vote with the board because it's not going to matter,” and called the committee “a bunch of politicians.”", s:[3], tier:"single"},
+        {t:"Trump nominated Warsh partly in the expectation that he would deliver lower rates.", s:[0,1], tier:"multi"}
+      ],
+      disputed:[
+        {t:"How markets reacted. Euronews called the response “fairly muted” because the hike was widely anticipated. Kiplinger reported the S&P 500 down 0.5% to 7,551, the Dow down 1.2% to 51,461 and the Nasdaq roughly flat. A CNBC headline attributed a ~600-point Dow drop to the hike and Warsh's comments, but I could not retrieve that article. Direction is agreed; magnitude and characterisation are not."},
+        {t:"Correction to an earlier version of this briefing: I previously said the Fed projected another hike in 2027. Axios reports rates are expected to hold through 2027 after this year's increases. The earlier statement was wrong."}
+      ],
+      views:[
+        {side:"right", label:"Right / administration", outlet:"Trump, via Reuters/Yahoo Finance", s:[3],
+         text:"Rates should be at or below 1%; the Fed is holding back growth and the committee is politically motivated rather than technical. Notably, the sharpest attack on this decision came from the right, not the left."},
+        {side:"centre", label:"Centre / institutional", outlet:"Axios, Euronews, Kiplinger", s:[0,1,2],
+         text:"A unanimous vote under public pressure from the president who appointed the chair reads as a deliberate demonstration of independence. Inflation above target for five years is treated as the binding constraint that made the hike defensible regardless of politics."},
+        {side:"left", label:"Left / labour critique", outlet:"Not sourced", s:[], missing:true,
+         text:"I did not find any outlet making the standard left argument — that tightening raises unemployment and hits workers first — about this specific decision. Rather than construct it for them, I am marking it as not sourced."}
+      ],
+      coverage:"The usual political alignment is inverted here. Fed hikes normally draw criticism from the left on employment grounds; this one drew its loudest criticism from a Republican administration demanding cuts, which is why the “independence” framing dominates centre coverage.",
+      watch:[
+        "Whether the December meeting delivers the projected second hike.",
+        "Whether Trump escalates beyond rhetoric on Fed independence.",
+        "Whether the next two CPI prints move toward 2% or stall above 3%."
+      ],
+      sources:[
+        {n:"Euronews", b:"Centre (EU public-funded)", t:"Fed raises rates for the first time since 2023 in unanimous vote defying Trump", u:"https://www.euronews.com/business/2026/09/16/fed-raises-rates-for-the-first-time-since-2023-in-unanimous-vote-defying-trump"},
+        {n:"Axios", b:"Centre", t:"Fed raises rates a quarter point in first move of Warsh era", u:"https://www.axios.com/2026/09/16/fed-rates-warsh-trump"},
+        {n:"Kiplinger", b:"Financial press", t:"September 2026 Fed meeting: updates and commentary", u:"https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026"},
+        {n:"Reuters via Yahoo", b:"Centre (wire)", t:"Trump slams the Fed rate hike, says he told Warsh 'you might as well vote with the board'", u:"https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html"}
+      ]
+    },
+
+    /* ---------------- 6. IRAN WAR POWERS ---------------- */
+    {
+      cat:"geo", sub:"War Powers · United States & Iran", regions:["Global"],
+      dateline:"Washington, D.C. · Sept 15–16, 2026",
+      headline:"The House passed a third resolution to end the Iran war as a Republican moved to impeach the defence secretary",
+      context:"Combat operations against Iran began in February 2026 as Operation Epic Fury. The House passed war powers resolutions in June and July; neither ended operations.",
+      facts:[
+        {t:"The CBO estimates the conflict cost the Department of Defense about $38 billion as of Aug 1, 2026, covering replacement of expended munitions and lost equipment, increased flying hours, other operations and fuel. It excludes other agencies' costs and baseline operating costs.", s:[0], tier:"primary"},
+        {t:"The CBO projects $2 billion per month if violence stays low and $3 billion per month at July 2026 intensity. The administration's June 2026 supplemental request of $42.3 billion was about 10% above the CBO's estimate.", s:[0], tier:"primary"},
+        {t:"The conflict began in February 2026, with an intense phase of just over a month and lower-level operations continuing through August 2026.", s:[0], tier:"primary"},
+        {t:"Rep. Thomas Massie (R) introduced eight articles of impeachment against Defence Secretary Pete Hegseth on Sept 15, 2026, using a privileged resolution that forces a House vote within two legislative days — though leadership can move to table it.", s:[1,2], tier:"multi"},
+        {t:"The articles charge: waging war without declaration or statutory authorisation; ignoring congressional withdrawal directives; exceeding the War Powers Resolution's 60-day limit; failing to minimise civilian casualties; “unauthorized lethal military targeting” of suspected drug traffickers in the Caribbean; retaliating against Senator Mark Kelly over classified-briefing statements; illegally capturing and extraditing Nicolás Maduro; and unlawful Yemen operations under Operation Rough Rider.", s:[1,2], tier:"multi"},
+        {t:"Axios describes the effort as “a long shot in the GOP-controlled Congress.” House Democrats introduced separate impeachment articles in April 2026.", s:[1], tier:"single"}
+      ],
+      disputed:[
+        {t:"The war powers vote itself. A Washington Times headline reports the House passed a third resolution on Sept 15 and picked up three new Republican supporters, but the article would not load for me, so the vote margin and the names are unverified here."},
+        {t:"What happened to the impeachment vote. A CNBC headline states Hegseth avoided the forced vote via an early House election recess. I could not retrieve that article either, so the outcome is unconfirmed in this briefing."},
+        {t:"The administration's legal defence. I found no substantive statement from administration officials defending the war's legal basis in these searches. The standard executive position rests on Article II authority, but I am not attributing that argument to any specific official here."}
+      ],
+      views:[
+        {side:"left", label:"Left / anti-war", outlet:"Democracy Now (left)", s:[3],
+         text:"Foregrounds the cost, the legality question, and the executive branch continuing operations after Congress voted to end them. This outlet's framing treats the war as illegitimate from the outset."},
+        {side:"centre", label:"Centre / procedural", outlet:"Axios; Congressional Budget Office", s:[1,0],
+         text:"Focuses on mechanism and arithmetic: the privileged resolution forces a vote, the effort will very likely fail, and the concrete fact is the $38 billion figure with $2–3 billion monthly running costs."},
+        {side:"right", label:"Right", outlet:"Fox News (right)", s:[2],
+         text:"Covered Massie's eight articles in detail and at length, without an administration rebuttal in the piece I read. For the American right the story is an intra-Republican constitutional fight, not an opposition attack — which is precisely what makes it significant."}
+      ],
+      coverage:"Left and right outlets covered this story with unusually similar emphasis, because a Republican bringing the charges suits both narratives. The missing voice on this card is the administration's own defence, which I could not source.",
+      watch:[
+        "Whether the House votes on or tables Massie's resolution when it returns from recess.",
+        "Whether additional Republicans sign on as co-sponsors.",
+        "Whether the Senate takes up the war powers resolution at all.",
+        "Whether monthly costs track the CBO's $2–3 billion range."
+      ],
+      sources:[
+        {n:"CBO", b:"Primary — nonpartisan", t:"Estimating the Cost of Combat Operations Against Iran", u:"https://www.cbo.gov/publication/62756"},
+        {n:"Axios", b:"Centre", t:"Massie moves to impeach Pete Hegseth over Iran War", u:"https://www.axios.com/2026/09/15/massie-impeach-pete-hegseth-iran-war"},
+        {n:"Fox News", b:"Right", t:"GOP Rep Thomas Massie introduces 8 articles of impeachment against War Secretary Pete Hegseth", u:"https://www.foxnews.com/politics/gop-rep-thomas-massie-introduces-8-articles-impeachment-against-war-secretary-pete-hegseth"},
+        {n:"Democracy Now!", b:"Left", t:"Headlines for September 16, 2026", u:"https://www.democracynow.org/2026/9/16/headlines"}
+      ]
+    },
+
+    /* ---------------- 7. GAZA ---------------- */
+    {
+      cat:"geo", sub:"Middle East · Gaza", regions:["Global"],
+      dateline:"Geneva & Gaza · Sept 15–17, 2026",
+      headline:"The UN rights chief says remains recovered from Gaza rubble point to possible war crimes",
+      context:"A US-brokered ceasefire took effect in October 2025. Recovery of bodies from rubble has continued since, and is now the source of the new allegations.",
+      facts:[
+        {t:"UN High Commissioner for Human Rights Volker Türk said war crimes “may have been committed,” that remains “of what appears to be entire families are now being unearthed at locations that were pulverized by Israeli attacks,” and that the recoveries “may only be the tip of the iceberg.”", s:[0], tier:"primary"},
+        {t:"More than 630 bodies and human remains have been recovered since November 2025. Palestinian authorities estimate about 8,000 people remain buried. 233 of 407 bodies were recovered in the June–August period, and 96 in Az Zeitoun, including 58 children and 23 women.", s:[0,1], tier:"multi"},
+        {t:"On Sept 6, funerals were held for about 100 people, including 60 children, recovered from rubble.", s:[1], tier:"single"},
+        {t:"Türk invoked the international humanitarian law principles of distinction, proportionality and precautions in attack, and raised concerns about “extensive use of explosive weapons with wide area effects in densely populated areas.”", s:[0], tier:"primary"},
+        {t:"The UN asked for international investigators to be granted access to Gaza, heavy machinery for rubble removal, evidence preservation and forensic documentation, and notification of families.", s:[0], tier:"primary"},
+        {t:"Türk said areas “continue to be levelled by bulldozers with no respect for the dead under the rubble.”", s:[1], tier:"single"},
+        {t:"More than 1,300 Palestinians have been killed since the truce began, according to Gaza officials.", s:[1], tier:"single"},
+        {t:"Israel's Diaspora Affairs Ministry launched a website on Sept 17, 2026 alleging systematic UN bias in Gaza reporting.", s:[2], tier:"single"}
+      ],
+      disputed:[
+        {t:"The building-collapse death toll. A war-damaged building collapsed during the truce: the Globe and Mail headline says 19 killed, CBC says at least 21 including many children, Democracy Now said more than 20. I could not load the Globe and Mail or CBC article bodies, so the toll is a range across headlines rather than a verified figure."},
+        {t:"Casualty figures generally. The recovery counts and the post-truce death toll come from UN bodies and Gaza officials. There is no independent on-the-ground census. Aggregate tolls have historically held up better under independent review than individual attributions, but the uncertainty runs in both directions."},
+        {t:"The biggest gap on this card: I could not obtain a direct Israeli government response to Türk's specific statement. The Jerusalem Post article on it would not load across repeated attempts. What I could verify is Israel's standing position that UN Gaza reporting is systematically biased."}
+      ],
+      views:[
+        {side:"left", label:"Left / critical of Israel", outlet:"Al Jazeera (Qatari state-funded); Democracy Now (left)", s:[1,3],
+         text:"Foreground the war-crimes language, the bulldozing of recovery sites, and the more than 1,300 deaths since the truce. Al Jazeera's framing treats the ceasefire as nominal rather than real."},
+        {side:"centre", label:"Centre / institutional", outlet:"UN News (primary); CBC (headline only)", s:[0],
+         text:"Reports Türk's statement as an allegation, names the specific legal tests it invokes, and attributes every number to its source. Note the careful legal register: “may have been committed” is a call for investigation, not a finding of guilt. CBC's coverage is included by headline only — its article would not load for me."},
+        {side:"right", label:"Right / pro-Israel", outlet:"JNS (pro-Israel); Jerusalem Post (could not load)", s:[2],
+         text:"The position is that UN reporting on Gaza is systematically biased, and Israel's Diaspora Affairs Ministry has now built a website to argue that case. I could verify the site's launch but not the specifics of its arguments, and not a response to these particular allegations."}
+      ],
+      coverage:"This is the least balanced card in the briefing and you should read it that way. The UN's case is documented in a primary source; the Israeli rebuttal to these specific claims is something I tried and failed to retrieve. Sources on both flanks here are state-funded or state-adjacent, which is worth holding in mind in both directions.",
+      watch:[
+        "Whether Israel grants international investigators the access the UN requested.",
+        "Whether any formal legal step follows — an ICC filing or a commission of inquiry.",
+        "Whether the recovery total moves toward the 8,000 estimate, and how the count is audited.",
+        "Whether the truce holds as recovery work continues."
+      ],
+      sources:[
+        {n:"UN News", b:"Primary — UN", t:"Gaza remains recovery points to possible war crimes, says UN rights chief", u:"https://news.un.org/en/story/2026/09/1168335"},
+        {n:"Al Jazeera", b:"Qatari state-funded", t:"Israel lacking respect for dead buried in Gaza rubble: UN", u:"https://www.aljazeera.com/news/2026/9/15/israel-lacking-respect-for-dead-buried-in-gaza-rubble-un"},
+        {n:"JNS", b:"Pro-Israel", t:"Israel launches site alleging systematic UN bias in Gaza reporting", u:"https://www.jns.org/news/israel-news/israel-launches-site-alleging-systematic-un-bias-in-gaza-reporting"},
+        {n:"Democracy Now!", b:"Left", t:"Headlines for September 16, 2026", u:"https://www.democracynow.org/2026/9/16/headlines"},
+        {n:"CBC", b:"Canadian public broadcaster", t:"UN rights chief says uncovered remains in Gaza raise concerns of war crimes (headline only — article would not load)", u:"https://www.cbc.ca/news/world/united-nations-bodies-recovered-gaza-9.7344274"}
+      ]
+    },
+
+    /* ---------------- 8. TAIWAN ---------------- */
+    {
+      cat:"sec", sub:"Indo-Pacific · Taiwan Strait", regions:["Global"],
+      dateline:"Taipei · Aug 20 – Sept 13, 2026",
+      headline:"Taiwan approved a record defence budget — while its own military says a PLA invasion capability is years away",
+      context:"Chinese military activity around Taiwan has been rising for years, but the two most decision-relevant facts this month point in different directions: spending is up sharply, and Taiwan's own assessment of PLA readiness is more measured than most foreign coverage suggests.",
+      facts:[
+        {t:"Taiwan's cabinet approved a 2027 defence budget of NT$1.12 trillion (about US$35 billion) on Aug 20, 2026 — an 18.2% increase, NT$173 billion more than the current year, and 28.6% of total proposed expenditure of NT$3.93 trillion. It prioritises weapons, ammunition and operations, including U.S. systems such as HIMARS.", s:[0], tier:"single"},
+        {t:"In the 24 hours to 6 a.m. on Sept 13, 2026, Taiwan's Ministry of National Defense detected five PLA aircraft sorties, five PLAN ships and two official ships; three of the five sorties entered Taiwan's southwestern and eastern air defence identification zone.", s:[1], tier:"primary"},
+        {t:"Taiwan's MND report on PLA capabilities finds the PLA developing “water-bridge” amphibious landing vessels, upgrading helicopters and transport for island operations, and investing in low-Earth-orbit satellite communications (Guowang, Qianfan), fourth-generation BeiDou navigation, AI deepfake and electronic warfare tools, and battlefield medical evacuation for casualties outside mainland China.", s:[2], tier:"single"},
+        {t:"The same MND report states that current PLA capabilities for such operations “remain inadequate at this stage,” and analyst Chieh Chung estimated the programmes could be completed in stages between 2030 and 2035.", s:[2], tier:"single"},
+        {t:"PLA air activity around Taiwan is running at roughly half of 2025's pace, while naval presence has not declined.", s:[3], tier:"single"}
+      ],
+      disputed:[
+        {t:"The budget figure. SCMP reports NT$1.12 trillion / US$35 billion, matching the Aug 20 cabinet approval. The Daily Caller reported NT$1 trillion / about US$31 billion. SCMP's figure is more precise and better dated; an earlier version of this briefing used the lower number."},
+        {t:"What the drills mean. The Hudson Institute's Patrick Cronin, quoted in right-leaning U.S. coverage, reads the pattern as rehearsal for a rapid shift to blockade or invasion. Taiwan's own defence ministry says current capability is inadequate and puts programme completion in 2030–2035. Both statements can be true — rehearsing a capability you do not yet have is normal — but the emphasis produces very different impressions of urgency."},
+        {t:"The halved air activity figure comes from a single outlet's reading of detection data. I could not verify it against MND's own annual totals."}
+      ],
+      views:[
+        {side:"right", label:"Right / hawkish", outlet:"The Daily Caller (right), quoting Hudson Institute", s:[3],
+         text:"The PLA is “rehearsing the ability to transition rapidly from peacetime coercion or a military exercise to a blockade or full-scale invasion.” Encirclement by military and nominally civilian vessels is read as the core threat signal."},
+        {side:"centre", label:"Centre / Taiwan official", outlet:"Taiwan Ministry of National Defense (primary); Taipei Times", s:[1,2],
+         text:"Pressure is real and preparations are accelerating, but capability “remains inadequate at this stage” with a 2030–2035 horizon. This is the government with the most at stake being more measured than foreign commentary about it."},
+        {side:"left", label:"Pro-Beijing lean", outlet:"South China Morning Post (Hong Kong, Alibaba-owned)", s:[0],
+         text:"Frames the budget as a response both to Beijing's pressure and to “repeated calls from Washington for Taipei to spend more on its own defence” — locating U.S. pressure as a driver alongside Chinese activity, which Western coverage tends to omit."}
+      ],
+      coverage:"The single most decision-relevant fact — Taiwan's own military saying PLA invasion capability is currently inadequate, with a 2030–2035 horizon — appeared in Taiwanese coverage of the MND report and not in the U.S. coverage I read, which led with rehearsal-for-invasion framing. Note also that the left/right labels map poorly here: the meaningful axis is proximity to Beijing, Taipei or Washington, not left and right.",
+      watch:[
+        "Whether Taiwan's legislature passes the NT$1.12tn budget, and at what final figure — a cabinet proposal is not an appropriation.",
+        "Whether naval presence keeps rising while air sorties fall.",
+        "Whether MND's “inadequate capability” assessment changes in its next report."
+      ],
+      sources:[
+        {n:"SCMP", b:"Hong Kong, Alibaba-owned", t:"Taiwan proposes record US$35b defence budget for 2027 as PLA's pressure grows", u:"https://www.scmp.com/news/china/military/article/3364713/taiwan-proposes-record-us35b-defence-budget-2027-plas-pressure-grows"},
+        {n:"Taiwan MND", b:"Primary — Taiwan govt", t:"PLA activities in the waters and airspace around Taiwan, Sept 13, 2026", u:"https://www.globalsecurity.org/wmd/library/news/taiwan/2026/taiwan-260913-roc-mnd01.htm"},
+        {n:"Taipei Times", b:"Taiwan, pro-sovereignty", t:"MND report flags PLA efforts to boost Taiwan landing capabilities", u:"https://www.taipeitimes.com/News/taiwan/archives/2026/09/02/2003863545"},
+        {n:"The Daily Caller", b:"Right", t:"Things Are Heating Up In The Taiwan Strait", u:"https://dailycaller.com/2026/09/14/taiwan-strait-china-drills-heating-up/"}
+      ]
+    }
+  ];
+
+  const REGIONS = ["All","Canada","India","Europe","Global"];
+  const $ = id => document.getElementById(id);
+  const track = $("track");
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  let filter = "All";
+  let list = STORIES.slice();
+  let cur = 0;
+
+  function applyFilter(){
+    list = filter === "All" ? STORIES.slice() : STORIES.filter(s => s.regions.includes(filter));
+  }
+  function catCounts(arr){ return arr.reduce((m,s)=>(m[s.cat]=(m[s.cat]||0)+1,m),{}); }
+
+  function introSlide(){
+    const now = new Date();
+    const weekday = now.toLocaleDateString(undefined,{weekday:"long"});
+    const date = now.toLocaleDateString(undefined,{month:"long", day:"numeric", year:"numeric"});
+    const counts = catCounts(list);
+    const rows = Object.entries(counts).map(([k,n])=>`
+      <div class="cat-row" style="--c:var(${CATS[k].v})">
+        <span class="cat-name"><span class="dot"></span>${CATS[k].name}</span>
+        <span class="cat-count">${n}</span>
+      </div>`).join("");
+    const chips = REGIONS.map(r=>{
+      const n = r==="All" ? STORIES.length : STORIES.filter(s=>s.regions.includes(r)).length;
+      return `<button class="chip" data-region="${r}" aria-pressed="${r===filter}">${r} · ${n}</button>`;
+    }).join("");
+    return `
+      <section class="slide"><div class="wrap intro">
+        <div>
+          <div class="eyebrow">Today's briefing</div>
+          <div class="weekday">${weekday}</div>
+          <div class="fulldate">${date}</div>
+        </div>
+        <p class="summary-line"><b>${list.length} ${list.length===1?"story":"stories"}</b> · every fact source-linked · left, centre and right views marked separately</p>
+        <div>
+          <div class="filter-label">Filter by region</div>
+          <div class="chips" id="regionChips">${chips}</div>
+        </div>
+        <div>${rows}</div>
+        <details class="method">
+          <summary>How to read this briefing</summary>
+          <div class="method-body">
+            <p><b>Facts</b> carry a tag showing how well they are corroborated: <b>2+ sources</b> means at least two independent outlets reported it, <b>primary</b> means it comes from the document or institution itself, and <b>1 source</b> means a single outlet said it and nothing here confirms it. Numbers after each fact link to the source.</p>
+            <p><b>Disputed</b> collects places where sources conflict, where a figure is unconfirmed, or where I tried to retrieve something and failed. Corrections to earlier versions of this briefing appear here too.</p>
+            <p><b>Views</b> are labelled left, centre and right, each tied to a named outlet. Where a side genuinely was not found in the research, it is marked <b>not sourced</b> rather than invented. On some stories the left–right axis does not apply, and the card says so instead of forcing it.</p>
+            <p><b>Bias labels</b> next to each source are broad, widely-used characterisations, not measurements — and they describe the outlet, not whether a given fact is true. State-funded, corporate-owned and industry sources are labelled as such because the interest matters as much as the ideology.</p>
+            <p><b>What is missing:</b> public sentiment is not connected. Earlier versions showed sentiment readings that I had invented; those were removed.</p>
+          </div>
+        </details>
+      </div></section>`;
+  }
+
+  function factList(s){
+    return s.facts.map(f=>{
+      const tierText = f.tier==="multi" ? (f.s.length+" sources") : f.tier==="primary" ? "Primary" : "1 source";
+      const refs = f.s.map(i=>`<a class="ref" href="${s.sources[i].u}" target="_blank" rel="noopener" title="${s.sources[i].n}">[${i+1}]</a>`).join("");
+      return `<li><span class="tier ${f.tier}">${tierText}</span>${f.t}${refs}</li>`;
+    }).join("");
+  }
+
+  function storySlide(s){
+    const c = CATS[s.cat];
+    const tags = s.regions.map(r=>`<span class="rtag">${r}</span>`).join("");
+    const views = s.views.map(v=>`
+      <div class="view ${v.missing?"missing":""}">
+        <div class="view-head">
+          <span class="side ${v.side}">${v.label}</span>
+          <span class="outlet">${v.outlet}</span>
+        </div>
+        <p>${v.text}</p>
+      </div>`).join("");
+    const srcs = s.sources.map((x,i)=>`
+      <li><span class="snum">${i+1}</span><span><a href="${x.u}" target="_blank" rel="noopener">${x.n}</a> <span class="bias">${x.b}</span><br>${x.t}</span></li>`).join("");
+    return `
+      <section class="slide" style="--c:var(${c.v})"><div class="wrap story">
+        <div class="cover" role="img" aria-label="${c.name}">${c.icon()}</div>
+        <div>
+          <div class="kicker">${c.name} <span>›</span> <span>${s.sub}</span></div>
+          <h1 class="headline">${s.headline}</h1>
+          <div class="dateline">${tags}<span>${s.dateline}</span></div>
+        </div>
+        ${s.context?`<div class="section"><div class="label">Context</div><p class="context-text">${s.context}</p></div>`:""}
+        <div class="section">
+          <div class="label">Verified facts</div>
+          <ul class="facts">${factList(s)}</ul>
+        </div>
+        <div class="section" style="border-top:none; padding-top:0;">
+          <div class="disputed">
+            <div class="label">Disputed or unverified</div>
+            <ul class="dlist">${s.disputed.map(d=>`<li>${d.t}</li>`).join("")}</ul>
+          </div>
+        </div>
+        <div class="section">
+          <div class="label">Three views, marked</div>
+          ${views}
+        </div>
+        <div class="section" style="border-top:none; padding-top:0;">
+          <div class="cov">
+            <div class="label">Bias &amp; coverage notes</div>
+            <p>${s.coverage}</p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="label">What to watch</div>
+          <ul class="watch-list">${s.watch.map(w=>`<li>${w}</li>`).join("")}</ul>
+        </div>
+        <div class="section">
+          <div class="label">Sources</div>
+          <ul class="srclist">${srcs}</ul>
+        </div>
+        <p class="sent-note">Public sentiment: not connected. Reddit data is not wired in yet, and the placeholder readings shown in earlier versions were invented, so they were removed rather than left in place.</p>
+      </div></section>`;
+  }
+
+  function doneSlide(){
+    const n = list.length;
+    const cats = Object.keys(catCounts(list)).length;
+    return `
+      <section class="slide"><div class="wrap done">
+        <div class="ring"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 12.5L9.5 17L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h2>You're caught up</h2>
+        <p class="done-sub">${n} ${n===1?"story":"stories"} across ${cats} ${cats===1?"category":"categories"}${filter!=="All"?`, filtered to ${filter}`:""}.</p>
+        <p class="done-note">Every fact above links to its source. Where sources conflicted or could not be reached, the card says so rather than smoothing it over.</p>
+        <button class="ghost-btn" id="againBtn">Back to the start</button>
+      </div></section>`;
+  }
+
+  let segs = [];
+  function render(){
+    applyFilter();
+    track.innerHTML = introSlide() + list.map(storySlide).join("") + doneSlide();
+    $("progress").innerHTML = list.map(()=>'<div class="seg"><i></i></div>').join("");
+    segs = [...$("progress").children];
+    cur = 0;
+    track.scrollTo({left:0, behavior:"auto"});
+    update();
+  }
+
+  function total(){ return list.length + 2; }
+
+  function update(){
+    const story = cur - 1;
+    const last = total() - 1;
+    segs.forEach((s,k)=>{
+      s.classList.toggle("done", cur === last ? true : k < story);
+      s.classList.toggle("active", k === story);
+    });
+    $("counter").textContent = (cur>=1 && cur<=list.length) ? `${cur} of ${list.length}` : (cur===0 ? "" : "Done");
+    $("prevBtn").disabled = cur === 0;
+    $("nextLabel").textContent = cur === 0 ? "Begin" : (cur === list.length ? "Finish" : "Next");
+    $("nextBtn").classList.toggle("is-hidden", cur === last);
+    [...track.children].forEach((el,k)=>el.classList.toggle("is-current", k===cur));
+  }
+
+  function go(i){
+    i = Math.max(0, Math.min(total()-1, i));
+    track.scrollTo({left: i * track.clientWidth, behavior: reduce ? "auto" : "smooth"});
+  }
+
+  let ticking = false;
+  track.addEventListener("scroll", ()=>{
+    if(ticking) return;
+    ticking = true;
+    requestAnimationFrame(()=>{
+      const i = Math.round(track.scrollLeft / track.clientWidth);
+      if(i !== cur){ cur = i; update(); }
+      ticking = false;
+    });
+  }, {passive:true});
+
+  window.addEventListener("resize", ()=>{ track.scrollTo({left: cur * track.clientWidth, behavior:"auto"}); });
+
+  $("prevBtn").addEventListener("click", ()=>go(cur-1));
+  $("nextBtn").addEventListener("click", ()=>go(cur+1));
+
+  document.addEventListener("click", e=>{
+    const chip = e.target.closest("[data-region]");
+    if(chip){ filter = chip.dataset.region; render(); return; }
+    if(e.target.closest("#againBtn")) go(0);
+  });
+
+  document.addEventListener("keydown", e=>{
+    if(e.target.closest("details") || e.target.tagName === "SUMMARY") return;
+    if(e.key === "ArrowRight"){ e.preventDefault(); go(cur+1); }
+    if(e.key === "ArrowLeft"){ e.preventDefault(); go(cur-1); }
+  });
+
+  render();
+
+  const splash = $("splash");
+  function closeSplash(){
+    if(splash.classList.contains("out")) return;
+    splash.classList.add("out");
+    setTimeout(()=>{ splash.hidden = true; }, reduce ? 0 : 600);
+  }
+  splash.addEventListener("click", closeSplash);
+  setTimeout(closeSplash, 1800);
+})();
+</script>

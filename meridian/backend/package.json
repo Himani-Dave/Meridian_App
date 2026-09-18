@@ -1,0 +1,16 @@
+{
+  "name": "meridian-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Retrieval and evidence assembly for Meridian. Emits story candidates; it does not write prose.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "ingest": "node run.js",
+    "ingest:dry": "node run.js --dry-run",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.0.0"
+  }
+}
