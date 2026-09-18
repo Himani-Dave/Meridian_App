@@ -1,0 +1,3267 @@
+[
+  {
+    "id": "ckgany4",
+    "regions": [
+      "Global",
+      "Europe",
+      "Canada"
+    ],
+    "firstSeen": "2026-09-16T09:05:43.000Z",
+    "lastSeen": "2026-09-18T00:00:00.000Z",
+    "outletCount": 8,
+    "outlets": [
+      "NPR",
+      "BBC News",
+      "Globe and Mail",
+      "National Post",
+      "Euronews",
+      "Deutsche Welle",
+      "Brussels Signal",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 8 outlets",
+    "clustering": {
+      "min": 0.31035231404891667,
+      "max": 0.4890884163668335,
+      "pairs": 16
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
+        "u": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
+        "publishedAt": "2026-09-17T10:54:18.000Z",
+        "retrievedAt": "2026-09-18T04:59:20.980Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Canada's Carney welcomes the EU's bid for closer ties amid pressure from Trump",
+        "u": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament",
+        "publishedAt": "2026-09-17T08:43:44.000Z",
+        "retrievedAt": "2026-09-18T04:59:20.980Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Canada welcomes EU proposal to become 'associate member'",
+        "u": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T12:27:18.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Responding to Trump&#x27;s comments at a press conference following his address, Carney said: \"This alliance is a positive process, that&#x27;s my response to the American president.\"",
+          "\"Today our societies are being battered by new storms,\" Carney said during his address, naming them as climate change, \"the erosion of democratic norms\" and the \"weaponisation of trade\".",
+          "\"Economic integration is now being weaponised, tariffs being used to …"
+        ],
+        "figures": [],
+        "wordsRead": 656
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US interest rates raised for first time in three years",
+        "u": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T00:40:17.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Fed Chair Kevin Warsh said the move was because \"inflation is too high and has been for too long\", adding that it was a \"sober\" and \"responsible decision\".",
+          "Trump told reporters later \"I&#x27;m relying on Kevin [Warsh], but he&#x27;s got, you know, a very tough board\".",
+          "While the Fed \"cannot affect any individual price – whether it be oil prices, whether it be food stuffs at the grocery store\", Warsh said, the central bank can work …"
+        ],
+        "figures": [
+          {
+            "value": "3.75%",
+            "context": "n a bid to slow rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a …"
+          },
+          {
+            "value": "4%",
+            "context": "to slow rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unani"
+          },
+          {
+            "value": "3.5%",
+            "context": "w rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unanimous decis"
+          },
+          {
+            "value": "3.75%",
+            "context": "ng prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unanimous decision, d"
+          }
+        ],
+        "wordsRead": 835
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Is Canada about to join the EU?",
+        "u": "https://www.bbc.co.uk/news/videos/c6wyz8kk2nepo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T16:18:35.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Both sides seem to be seeking closer ties, and in his speech today, Carney said he welcomed the EU&#x27;s \"ambition\" for …"
+        ],
+        "figures": [],
+        "wordsRead": 218
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Carney makes case for deeper alliance between Canada and the EU",
+        "u": "https://www.theglobeandmail.com/world/article-mark-carney-european-union-speech-september-17/",
+        "publishedAt": "2026-09-17T08:00:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Carney said Ms. von der Leyen’s proposal opens the door for Canada to become the first associate member, adding, “Canada welcomes this ambition.”",
+          "“What matters is the substance,” he said, adding that Canada is not seeking to become a full member.",
+          "“If they do that, if I think it’s at all a hostile act, I will put very serious tariffs or stop trading with Europe on many things,” he told reporters …"
+        ],
+        "figures": [],
+        "wordsRead": 1092
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "What does it mean for Canada to become EU’s first associate member?",
+        "u": "https://www.theglobeandmail.com/canada/article-eu-canada-associate-member-what-does-that-mean/",
+        "publishedAt": "2026-09-16T17:04:11.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "EU chief calls for Canada to become bloc’s first ‘associate member’",
+        "u": "https://www.theglobeandmail.com/world/article-eu-chief-canada-first-associate-member-carney-von-der-leyen/",
+        "publishedAt": "2026-09-16T09:05:43.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump threatens EU with more tariffs if Canada joins",
+        "u": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/",
+        "publishedAt": "2026-09-17T00:19:53.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "National Post",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Carney speaks to the European Parliament; what Canada might have to give up in EU alliance; and more",
+        "u": "https://nationalpost.com/editors/afternoon-front-page-53",
+        "publishedAt": "2026-09-17T21:25:21.000Z",
+        "retrievedAt": "2026-09-18T04:59:35.022Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Watch: Carney backs closer EU ties, draws applause at European Parliament",
+        "u": "https://www.euronews.com/video/2026/09/17/watch-carney-backs-closer-eu-ties-draws-applause-at-european-parliament",
+        "publishedAt": "2026-09-17T15:04:45.000Z",
+        "retrievedAt": "2026-09-18T04:59:44.397Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Carney hails EU-Canada alliance but draws lines on membership and sovereignty",
+        "u": "https://www.euronews.com/my-europe/2026/09/17/carney-hails-eu-canada-alliance-but-draws-lines-on-membership-and-sovereigny",
+        "publishedAt": "2026-09-17T11:32:46.000Z",
+        "retrievedAt": "2026-09-18T04:59:44.397Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Can Canada and the EU deepen ties to counter Trump?",
+        "u": "https://www.dw.com/en/can-canada-and-the-eu-deepen-ties-to-counter-trump/a-79295388?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-09-16T16:50:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:47.593Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump threatens tariffs on the EU over Canada &#8216;associate member&#8217; plan",
+        "u": "https://brusselssignal.eu/2026/09/trump-threatens-tariffs-on-the-eu-over-canada-associate-member-plan/",
+        "publishedAt": "2026-09-17T07:37:12.000Z",
+        "retrievedAt": "2026-09-18T04:59:50.796Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "retrievedAt": "2026-09-18T05:00:03.021Z",
+        "read": "headline only"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
+            "url": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union"
+          },
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Canada's Carney welcomes the EU's bid for closer ties amid pressure from Trump",
+            "url": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Canada welcomes EU proposal to become 'associate member'",
+            "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 3,
+            "headline": "US interest rates raised for first time in three years",
+            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 4,
+            "headline": "Is Canada about to join the EU?",
+            "url": "https://www.bbc.co.uk/news/videos/c6wyz8kk2nepo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 5,
+            "headline": "Carney makes case for deeper alliance between Canada and the EU",
+            "url": "https://www.theglobeandmail.com/world/article-mark-carney-european-union-speech-september-17/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 6,
+            "headline": "What does it mean for Canada to become EU’s first associate member?",
+            "url": "https://www.theglobeandmail.com/canada/article-eu-canada-associate-member-what-does-that-mean/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 7,
+            "headline": "EU chief calls for Canada to become bloc’s first ‘associate member’",
+            "url": "https://www.theglobeandmail.com/world/article-eu-chief-canada-first-associate-member-carney-von-der-leyen/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 8,
+            "headline": "Trump threatens EU with more tariffs if Canada joins",
+            "url": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 10,
+            "headline": "Watch: Carney backs closer EU ties, draws applause at European Parliament",
+            "url": "https://www.euronews.com/video/2026/09/17/watch-carney-backs-closer-eu-ties-draws-applause-at-european-parliament"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 11,
+            "headline": "Carney hails EU-Canada alliance but draws lines on membership and sovereignty",
+            "url": "https://www.euronews.com/my-europe/2026/09/17/carney-hails-eu-canada-alliance-but-draws-lines-on-membership-and-sovereigny"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 12,
+            "headline": "Can Canada and the EU deepen ties to counter Trump?",
+            "url": "https://www.dw.com/en/can-canada-and-the-eu-deepen-ties-to-counter-trump/a-79295388?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "National Post",
+            "outletId": "natpost",
+            "lean": "lean_right",
+            "country": "CA",
+            "evidenceIndex": 9,
+            "headline": "Carney speaks to the European Parliament; what Canada might have to give up in EU alliance; and more",
+            "url": "https://nationalpost.com/editors/afternoon-front-page-53"
+          },
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 13,
+            "headline": "Trump threatens tariffs on the EU over Canada &#8216;associate member&#8217; plan",
+            "url": "https://brusselssignal.eu/2026/09/trump-threatens-tariffs-on-the-eu-over-canada-associate-member-plan/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 14,
+        "headline": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Canada",
+        "Trump",
+        "Carney",
+        "European Parliament",
+        "Canada's Carney",
+        "Can Canada"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Canada",
+            "Trump",
+            "Carney",
+            "European Parliament",
+            "Canada's Carney",
+            "Can Canada"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1gzgxov",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "firstSeen": "2026-09-17T02:23:31.000Z",
+    "lastSeen": "2026-09-18T02:04:45.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "BBC News",
+      "Euronews",
+      "Haaretz",
+      "JNS",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.32220541707369826,
+      "max": 0.4184044995767402,
+      "pairs": 9
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+        "u": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T21:41:19.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,\" a spokesman for the US State …",
+          "State Department Spokesman Tommy Pigott said the US would prevent the diplomats from \"going on shopping …"
+        ],
+        "figures": [],
+        "wordsRead": 476
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US denies Palestine leader Abbas a visa to UN summit for second year running",
+        "u": "https://www.euronews.com/2026/09/17/us-denies-palestine-leader-abbas-a-visa-to-un-summit-for-second-year-running",
+        "publishedAt": "2026-09-17T09:43:50.000Z",
+        "retrievedAt": "2026-09-18T04:59:44.397Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In its statement, the department said that \"as a consequence of their failure to reform, contrary to their commitments to the United States, and their ongoing activities that undermine the …",
+          "In a statement, the Palestinian foreign ministry called it \"an unjustified measure that runs counter to efforts to rebuild …"
+        ],
+        "figures": [],
+        "wordsRead": 509
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000",
+        "publishedAt": "2026-09-18T02:04:45.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Judea and Samaria District Police said it had arrested an Israeli suspected of involvement in an \"arson and assault incident.\"",
+          "President Donald Trump told Axios he faces a \"big decision\" over whether to resume major attacks against Iran, saying he must decide whether to \"annihilate\" his Iranian foes.",
+          "According to the ministry, 4,386 people have been killed and 12,407 wounded between March 2 and September 17."
+        ],
+        "figures": [],
+        "wordsRead": 870
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump administration approves visas for Iran&#x27;s president, foreign minister to attend UN",
+        "u": "https://www.haaretz.com/middle-east-news/iran/2026-09-18/ty-article/u-s-approves-visas-for-iranian-president-foreign-minister-to-attend-un-meeting/000001a0-b0c4-d5b2-a9ee-b2ce27dd0000",
+        "publishedAt": "2026-09-17T21:25:52.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000",
+        "publishedAt": "2026-09-17T02:23:31.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"If the PA wants to be treated as a partner, it must stop subsidizing terror and stop using diplomatic theater as ⁠a substitute for serious governance,\" Deputy US Ambassador to …",
+          "Without naming specific officials, the US State Department said on Wednesday it would extend visa sanctions against Palestinian officials over actions they took to \"internationalize ⁠the Israeli-Palestinian conflict,\" including pursuing …",
+          "\"I have a big decision coming up."
+        ],
+        "figures": [],
+        "wordsRead": 1623
+      },
+      {
+        "n": "JNS",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump admin again denies Abbas, Palestinian officials visas to attend UN General Assembly",
+        "u": "https://www.jns.org/news/u-s-news/trump-admin-again-denies-abbas-palestinian-officials-visas-to-attend-un-general-assembly",
+        "publishedAt": "2026-09-17T15:04:38.000Z",
+        "retrievedAt": "2026-09-18T04:59:57.197Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Palestinian Authority continues to “pay stipends to terrorists and glorify acts of terrorism and terrorists in public pronouncements and school textbooks,” the U.S. government said.",
+          "State Department said on Wednesday that the authority and the Palestine Liberation Organization “have …"
+        ],
+        "figures": [],
+        "wordsRead": 407
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN allows Palestinian president to again speak via video after US denies visa",
+        "u": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
+        "publishedAt": "2026-09-17T19:37:10.000Z",
+        "retrievedAt": "2026-09-18T04:59:59.042Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US allows Iran delegation to attend UN assembly: official",
+        "u": "https://www.arabnews.com/world/us-allows-iran-delegation-to-attend-un-assembly-official-3002154",
+        "publishedAt": "2026-09-17T19:03:27.000Z",
+        "retrievedAt": "2026-09-18T04:59:59.042Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Palestine slams US visa denial for UN delegation",
+        "u": "https://www.arabnews.com/middle-east/palestine-slams-us-visa-denial-for-un-delegation-3002141",
+        "publishedAt": "2026-09-17T17:39:13.000Z",
+        "retrievedAt": "2026-09-18T04:59:59.042Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 3,
+            "headline": "Trump administration approves visas for Iran&#x27;s president, foreign minister to attend UN",
+            "url": "https://www.haaretz.com/middle-east-news/iran/2026-09-18/ty-article/u-s-approves-visas-for-iranian-president-foreign-minister-to-attend-un-meeting/000001a0-b0c4-d5b2-a9ee-b2ce27dd0000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 4,
+            "headline": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+            "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "US denies Palestine leader Abbas a visa to UN summit for second year running",
+            "url": "https://www.euronews.com/2026/09/17/us-denies-palestine-leader-abbas-a-visa-to-un-summit-for-second-year-running"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "JNS",
+            "outletId": "jns",
+            "lean": "right",
+            "country": "IL",
+            "evidenceIndex": 5,
+            "headline": "Trump admin again denies Abbas, Palestinian officials visas to attend UN General Assembly",
+            "url": "https://www.jns.org/news/u-s-news/trump-admin-again-denies-abbas-palestinian-officials-visas-to-attend-un-general-assembly"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 6,
+        "headline": "UN allows Palestinian president to again speak via video after US denies visa",
+        "url": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 7,
+        "headline": "US allows Iran delegation to attend UN assembly: official",
+        "url": "https://www.arabnews.com/world/us-allows-iran-delegation-to-attend-un-assembly-official-3002154",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 8,
+        "headline": "Palestine slams US visa denial for UN delegation",
+        "url": "https://www.arabnews.com/middle-east/palestine-slams-us-visa-denial-for-un-delegation-3002141",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Abbas",
+        "Iran",
+        "UN General Assembly",
+        "Palestinian",
+        "Palestine",
+        "New York"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Abbas",
+            "Iran",
+            "UN General Assembly",
+            "Palestinian",
+            "Palestine",
+            "New York"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c7aovkv",
+    "regions": [
+      "Global"
+    ],
+    "firstSeen": "2026-09-15T22:48:16.000Z",
+    "lastSeen": "2026-09-18T00:00:00.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Democracy Now!",
+      "Haaretz",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.3082703905904636,
+      "max": 0.3899946044985881,
+      "pairs": 4
+    },
+    "sources": [
+      {
+        "n": "Democracy Now!",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Headlines for September 16, 2026",
+        "u": "http://www.democracynow.org/2026/9/16/headlines",
+        "publishedAt": "2026-09-16T12:00:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:17.435Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "China warned against an “arms race” in space, with a foreign ministry spokesperson saying: “We urge the US side to stop expanding its military capabilities and preparing for war in …",
+          "Among them Finneas, the brother of pop star Billie Eilish, who said on Instagram “Artists must not be silenced when they speak up for the oppressed…I stand with Palestine and …",
+          "The Kremlin’s spokesperson Dmitry Peskov urged “that space must be free of any weapon.”"
+        ],
+        "figures": [
+          {
+            "value": "$38.1 billion",
+            "context": "he U.S.-Israeli war on Iran has cost the Pentagon $38.1 billion from the outbreak of the war in February through"
+          },
+          {
+            "value": "$246 million",
+            "context": "bruary through August first. That’s an average of $246 million per day in five months. The CBO reports that the"
+          },
+          {
+            "value": "$2 billion",
+            "context": ". The CBO reports that the war could cost another $2 billion to $3 billion for each additional month of …"
+          },
+          {
+            "value": "$3 billion",
+            "context": "rts that the war could cost another $2 billion to $3 billion for each additional month of fighting. The CBO …"
+          },
+          {
+            "value": "$184 million",
+            "context": "itary bases across the Middle East, causing about $184 million worth of damage."
+          }
+        ],
+        "wordsRead": 2022
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Daily Cartoon, September 18, 2026",
+        "u": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-18/ty-article-opinion/daily-cartoon-september-18-2026/000001a0-b112-de67-a5a3-ff36003f0000",
+        "publishedAt": "2026-09-17T21:13:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Daily Cartoon, September 17, 2026",
+        "u": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-17/ty-article-opinion/daily-cartoon-september-17-2026/000001a0-ac0e-d91d-afeb-ec4e316a0000",
+        "publishedAt": "2026-09-16T21:17:41.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Daily Cartoon, September 16, 2026",
+        "u": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-16/ty-article-opinion/daily-cartoon-september-16-2026/000001a0-a73f-d91d-afeb-ef7f50ac0000",
+        "publishedAt": "2026-09-15T22:48:16.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "EDITORIAL CARTOON",
+        "u": "https://www.taipeitimes.com/News/editorials/archives/2026/09/18/2003864454",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "retrievedAt": "2026-09-18T05:00:03.021Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In an article published on Tuesday in The Atlantic, titled “Will Taiwan Just Give Up?”, journalist Simon Shuster emphasizes the unpredictability of the US as an ally under US …"
+        ],
+        "figures": [],
+        "wordsRead": 295
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Democracy Now!",
+            "outletId": "democracynow",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Headlines for September 16, 2026",
+            "url": "http://www.democracynow.org/2026/9/16/headlines"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 1,
+            "headline": "Daily Cartoon, September 18, 2026",
+            "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-18/ty-article-opinion/daily-cartoon-september-18-2026/000001a0-b112-de67-a5a3-ff36003f0000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Daily Cartoon, September 17, 2026",
+            "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-17/ty-article-opinion/daily-cartoon-september-17-2026/000001a0-ac0e-d91d-afeb-ec4e316a0000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 3,
+            "headline": "Daily Cartoon, September 16, 2026",
+            "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-16/ty-article-opinion/daily-cartoon-september-16-2026/000001a0-a73f-d91d-afeb-ef7f50ac0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (left)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 4,
+        "headline": "EDITORIAL CARTOON",
+        "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/18/2003864454",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "September",
+        "Daily Cartoon",
+        "EDITORIAL CARTOON",
+        "Headlines"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "September",
+            "Daily Cartoon",
+            "EDITORIAL CARTOON",
+            "Headlines"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1lk06c4",
+    "regions": [
+      "Canada",
+      "Europe",
+      "Global"
+    ],
+    "firstSeen": "2026-09-16T12:28:01.000Z",
+    "lastSeen": "2026-09-18T00:00:00.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Deutsche Welle",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.32297065458503976,
+      "max": 0.4853554533595507,
+      "pairs": 3
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hague court sentences Kosovo’s former president Hashim Thaci to 25 years for war crimes",
+        "u": "https://www.theglobeandmail.com/world/article-kosovo-former-president-hashim-thaci-sentenced-war-crimes/",
+        "publishedAt": "2026-09-16T12:28:01.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Presiding Judge Charles Smith said Thaci actively participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
+          "Smith, the presiding judge, said Thaci “used his position, leadership, authority and standing” to encourage crimes and failed to investigate or punish abuse by KLA fighters.",
+          "They pleaded not guilty to all charges against them."
+        ],
+        "figures": [],
+        "wordsRead": 931
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Serbian President Vucic criticizes Kosovo war crimes verdict",
+        "u": "https://www.dw.com/en/serbian-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-09-17T11:24:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:47.593Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Shock in Kosovo as Hague convicts former President Thaci",
+        "u": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-09-16T15:59:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:47.593Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Court convicts ex-Kosovo leader",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864485",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "retrievedAt": "2026-09-18T05:00:03.021Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Presiding Judge Charles Smith said that Thaci participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
+          "“They [judges] have put the victims together with the aggressors,” Fetahu said.",
+          "In Belgrade, Serbian President Aleksandar Vucic said “we have no reason to rejoice” and expressed concern that the verdict would not hold after appeals."
+        ],
+        "figures": [],
+        "wordsRead": 1059
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Hague court sentences Kosovo’s former president Hashim Thaci to 25 years for war crimes",
+            "url": "https://www.theglobeandmail.com/world/article-kosovo-former-president-hashim-thaci-sentenced-war-crimes/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "Serbian President Vucic criticizes Kosovo war crimes verdict",
+            "url": "https://www.dw.com/en/serbian-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-world-4025-rdf"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 2,
+            "headline": "Shock in Kosovo as Hague convicts former President Thaci",
+            "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 3,
+        "headline": "Court convicts ex-Kosovo leader",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864485",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Kosovo",
+        "Hague",
+        "Serbian President Vucic",
+        "President Thaci",
+        "Hashim Thaci",
+        "Shock"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cvalzjn",
+    "regions": [
+      "Canada",
+      "India",
+      "Global"
+    ],
+    "firstSeen": "2026-09-15T13:01:25.000Z",
+    "lastSeen": "2026-09-16T13:13:20.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Scroll.in",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.3065082865342748,
+      "max": 0.5096792195449352,
+      "pairs": 5
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Four supporting acts quit Ed Sheeran tour after Macklemore’s removal for pro-Palestinian comments",
+        "u": "https://www.theglobeandmail.com/culture/music/article-macklemore-dropped-ed-sheeran-tour-palestinian-comments/",
+        "publishedAt": "2026-09-15T13:01:25.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Artists must not be silenced when they speak up for the oppressed,” Finneas said on Instagram.",
+          "“But as Irish people we know all too well about genocide, forced famine and violent occupation,” he said, adding that he couldn’t “stand by and allow billionaires to use their …",
+          "“Macklemore coming off tour was the promoter’s decision, it was not mine,” Sheeran wrote on Instagram on Tuesday."
+        ],
+        "figures": [],
+        "wordsRead": 894
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ed Sheeran tour: Four acts quit in solidarity with Macklemore",
+        "u": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/",
+        "publishedAt": "2026-09-16T11:24:28.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Supporting acts on Ed Sheeran US tour quit after rapper removed for pro-Palestine remarks",
+        "u": "https://scroll.in/latest/1095780/rapper-macklemore-removed-from-ed-sheerans-us-tour-for-making-pro-palestine-remarks?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-09-16T13:13:20.000Z",
+        "retrievedAt": "2026-09-18T04:59:39.939Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“After Macklemore’s performances at my New Jersey shows, venues on my upcoming tour dates communicated that they would pull the shows if he was still supporting,” he said.",
+          "“Taking a side can cost you,” he wrote on Instagram.",
+          "Sheeran, on his part, said that he was “appalled by the conflict between Israel and Palestine”."
+        ],
+        "figures": [],
+        "wordsRead": 684
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ed Sheeran says dropping Macklemore from U.S. concert tour was not his decision",
+        "u": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000",
+        "publishedAt": "2026-09-16T00:49:02.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 2,
+            "headline": "Supporting acts on Ed Sheeran US tour quit after rapper removed for pro-Palestine remarks",
+            "url": "https://scroll.in/latest/1095780/rapper-macklemore-removed-from-ed-sheerans-us-tour-for-making-pro-palestine-remarks?utm_source=rss&utm_medium=public"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 3,
+            "headline": "Ed Sheeran says dropping Macklemore from U.S. concert tour was not his decision",
+            "url": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Four supporting acts quit Ed Sheeran tour after Macklemore’s removal for pro-Palestinian comments",
+            "url": "https://www.theglobeandmail.com/culture/music/article-macklemore-dropped-ed-sheeran-tour-palestinian-comments/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Ed Sheeran tour: Four acts quit in solidarity with Macklemore",
+            "url": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Ed Sheeran",
+        "Macklemore",
+        "Four",
+        "Ed Sheeran US",
+        "Palestinian",
+        "Supporting"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Ed Sheeran",
+            "Macklemore",
+            "Four",
+            "Ed Sheeran US",
+            "Palestinian",
+            "Supporting"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1egkmdh",
+    "regions": [
+      "Global",
+      "Europe",
+      "Canada"
+    ],
+    "firstSeen": "2026-09-17T11:08:29.000Z",
+    "lastSeen": "2026-09-17T20:34:30.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "NPR",
+      "BBC News",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.32177291743975545,
+      "max": 0.4462173735982341,
+      "pairs": 3
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
+        "u": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
+        "publishedAt": "2026-09-17T12:33:36.000Z",
+        "retrievedAt": "2026-09-18T04:59:20.980Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+        "u": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T20:34:30.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "They said killings by security forces occurred on \"a staggering and unprecedented scale\" across all 31 provinces.",
+          "\"Civilians in Iran are caught between gross human rights violations and crimes against humanity committed by their own government and the nation&#x27;s deadly conflict with the United States and Israel,\" …",
+          "The US previously denied striking Lamerd and said it was investigating what happened in Minab."
+        ],
+        "figures": [],
+        "wordsRead": 933
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
+        "u": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/",
+        "publishedAt": "2026-09-17T11:08:29.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Our investigation remains ongoing, and we have nothing to announce at the moment,” it said in a statement.",
+          "White House spokeswoman Anna Kelly said in response to the report that the UN Human Rights Council had “accomplished nothing for human rights,” adding that Iran was the only party …",
+          "A UN fact-finding mission on Iran said on Thursday it had reasonable grounds to believe the United States was behind two military strikes on a school …"
+        ],
+        "figures": [],
+        "wordsRead": 750
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
+            "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+            "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
+            "url": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Iran",
+        "U.N.-backed",
+        "Tehran"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Iran",
+            "U.N.-backed",
+            "Tehran"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ctcj8qf",
+    "regions": [
+      "Global",
+      "Europe"
+    ],
+    "firstSeen": "2026-09-16T02:23:36.000Z",
+    "lastSeen": "2026-09-17T09:44:53.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Fox News",
+      "Brussels Signal",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.3087489314353248,
+      "max": 0.46268552258367635,
+      "pairs": 3
+    },
+    "sources": [
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US-backed Israel-Morocco deal deepens Abraham Accords amid growing regional threats",
+        "u": "https://www.foxnews.com/world/us-backed-agreement-deepens-ties-officials-address-saudi-arabia-growing-houthi-threat-global-shipping",
+        "publishedAt": "2026-09-16T21:39:41.000Z",
+        "retrievedAt": "2026-09-18T04:59:28.886Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The scourge of terrorism from them is unacceptable to the entire region,\" Waltz said.",
+          "\"What’s happening in Bab al-Mandab, like what's happened in Strait of Hormuz, demonstrates the significance of all nations that want to respect freedom of navigation, world trade and cooperate against …",
+          "\"It is clear that we would like this camp to be widened,\" Sa’ar told Fox News Digital."
+        ],
+        "figures": [],
+        "wordsRead": 970
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel and Morocco agree to open embassies with the Ceuta invasion still under way",
+        "u": "https://brusselssignal.eu/2026/09/israel-and-morocco-agree-to-open-embassies-with-the-ceuta-invasion-still-under-way/",
+        "publishedAt": "2026-09-17T09:44:53.000Z",
+        "retrievedAt": "2026-09-18T04:59:50.796Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Saar said the declaration “outlines practical ways to upgrade ties between Israel and Morocco”, according to a statement from the Israeli foreign ministry.",
+          "Any other route, the declaration said, “prolongs the status quo and is unacceptable”.",
+          "Under the joint declaration the two governments said they would complete agreements on investment protection and on the avoidance of double taxation by the end of 2026."
+        ],
+        "figures": [],
+        "wordsRead": 642
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel and Morocco to upgrade diplomatic ties and open embassies",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-16/ty-article-live/idf-and-shin-bet-confirm-elimination-of-hamas-rafah-brigade-commander/000001a0-a7f1-df5b-adf2-f7f563260000",
+        "publishedAt": "2026-09-16T02:23:36.000Z",
+        "retrievedAt": "2026-09-18T04:59:54.193Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"You cannot rebuild Gaza with 2,000-pound bombs,\" Jeremy Ben-Ami, president of J Street, the library advocacy organization, said in a statement.",
+          "\"We need everyone who sees them on the street to report it immediately,\" right-wing agitator Mordechai David told the crowd.",
+          "The military said \"measures were taken to mitigate harm to civilians\" but didn't elaborate on how many civilian casualties the attacks caused."
+        ],
+        "figures": [],
+        "wordsRead": 1085
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Israel and Morocco to upgrade diplomatic ties and open embassies",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-16/ty-article-live/idf-and-shin-bet-confirm-elimination-of-hamas-rafah-brigade-commander/000001a0-a7f1-df5b-adf2-f7f563260000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "US-backed Israel-Morocco deal deepens Abraham Accords amid growing regional threats",
+            "url": "https://www.foxnews.com/world/us-backed-agreement-deepens-ties-officials-address-saudi-arabia-growing-houthi-threat-global-shipping"
+          },
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Israel and Morocco agree to open embassies with the Ceuta invasion still under way",
+            "url": "https://brusselssignal.eu/2026/09/israel-and-morocco-agree-to-open-embassies-with-the-ceuta-invasion-still-under-way/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Morocco",
+        "Israel",
+        "US-backed Israel-Morocco",
+        "Abraham Accords",
+        "Ceuta"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Morocco",
+            "Israel",
+            "US-backed Israel-Morocco",
+            "Abraham Accords",
+            "Ceuta"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1pbunf1",
+    "regions": [
+      "Canada",
+      "Europe"
+    ],
+    "firstSeen": "2026-09-16T14:20:24.000Z",
+    "lastSeen": "2026-09-18T00:30:43.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Euronews",
+      "Brussels Signal"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.33143006464573405,
+      "max": 0.33903730872060445,
+      "pairs": 2
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "EU's Von der Leyen plans AI safety discussions with tech labs",
+        "u": "https://www.theglobeandmail.com/canada/video-eus-von-der-leyen-plans-ai-safety-discussions-with-tech-labs/",
+        "publishedAt": "2026-09-16T14:20:24.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Watch: European Commissioners react to Ursula von der Leyen's speech",
+        "u": "https://www.euronews.com/video/2026/09/17/watch-european-commissioners-react-to-ursula-von-der-leyens-speech",
+        "publishedAt": "2026-09-17T13:53:34.000Z",
+        "retrievedAt": "2026-09-18T04:59:44.397Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "After Ursula von der Leyen's annual State of …"
+        ],
+        "figures": [],
+        "wordsRead": 81
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Von der Leyen&#8217;s Europe ends at the chamber door",
+        "u": "https://brusselssignal.eu/2026/09/von-der-leyens-europe-ends-at-the-chamber-door/",
+        "publishedAt": "2026-09-18T00:30:43.000Z",
+        "retrievedAt": "2026-09-18T04:59:50.796Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Forty-eight days later von der Leyen told the people of Spain that “Europe will be there for you”.",
+          "Her answer was to double electrification by 2040, which she said could cut the fossil fuel import bill by €260 billion a year.",
+          "It is a city of about 84,000 people, according to Spain’s National Statistics Institute, and more than 72,000 crossed into it from Morocco on July 30 and 31."
+        ],
+        "figures": [
+          {
+            "value": "€260 billion",
+            "context": "she said could cut the fossil fuel import bill by €260 billion a year. That date is 14 years away …"
+          },
+          {
+            "value": "14.5 million",
+            "context": "ni’s cabinet dropped the annual road tax for about 14.5 million cars and motorbikes in 2027, with petrol at aroun"
+          },
+          {
+            "value": "€2.13",
+            "context": "ars and motorbikes in 2027, with petrol at around €2.13 a litre and diesel at €2.24. The measure is worth"
+          },
+          {
+            "value": "€2.24",
+            "context": "with petrol at around €2.13 a litre and diesel at €2.24. The measure is worth between about €129 and €240"
+          },
+          {
+            "value": "€129",
+            "context": "esel at €2.24. The measure is worth between about €129 and €240 a vehicle. Whatever its merits, that is a"
+          },
+          {
+            "value": "€240",
+            "context": "2.24. The measure is worth between about €129 and €240 a vehicle. Whatever its merits, that is a figure a"
+          }
+        ],
+        "wordsRead": 829
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "EU's Von der Leyen plans AI safety discussions with tech labs",
+            "url": "https://www.theglobeandmail.com/canada/video-eus-von-der-leyen-plans-ai-safety-discussions-with-tech-labs/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Watch: European Commissioners react to Ursula von der Leyen's speech",
+            "url": "https://www.euronews.com/video/2026/09/17/watch-european-commissioners-react-to-ursula-von-der-leyens-speech"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "Von der Leyen&#8217;s Europe ends at the chamber door",
+            "url": "https://brusselssignal.eu/2026/09/von-der-leyens-europe-ends-at-the-chamber-door/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Leyen",
+        "European Commissioners",
+        "EU's Von",
+        "Leyen's",
+        "Ursula",
+        "Europe"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c4yo1j6",
+    "regions": [
+      "Europe",
+      "Canada"
+    ],
+    "firstSeen": "2026-09-17T13:44:07.000Z",
+    "lastSeen": "2026-09-17T18:56:50.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.33432382861695376,
+      "max": 0.4878290851541613,
+      "pairs": 2
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ninth woman's body found as South African police investigate string of deaths",
+        "u": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T13:44:07.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Let&#x27;s not get emotional, the gloves are off,\" said Gauteng Premier Panyaza Lesufi on Thursday, adding that the authorities had the capacity to deal with the killings.",
+          "President Cyril Ramaphosa has vowed that \"no stone will be left unturned\" in finding those behind the killings , which he said were \"causing fear and uncertainty in our communities\".",
+          "Police in South Africa have confirmed the discovery of a ninth woman&#x27;s …"
+        ],
+        "figures": [],
+        "wordsRead": 695
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fears of possible serial killer deepen in South Africa as body of ninth woman is found",
+        "u": "https://www.theglobeandmail.com/world/article-serial-killer-south-africa/",
+        "publishedAt": "2026-09-17T18:56:50.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Police previously said that some similarities in the killings of the first eight victims were “sufficiently concerning for the police to issue a public warning.”",
+          "Police said the discovery of the latest body early Thursday “will be added to the investigations into the deaths of women in Ekurhuleni.”",
+          "“There is no waiting period to report a missing person,” it said."
+        ],
+        "figures": [],
+        "wordsRead": 637
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Discovery of nine women's bodies raises fears of serial killer in South Africa",
+        "u": "https://www.theglobeandmail.com/world/video-discovery-of-nine-womens-bodies-raises-fears-of-serial-killer-in-south/",
+        "publishedAt": "2026-09-17T18:56:31.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Ninth woman's body found as South African police investigate string of deaths",
+            "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Fears of possible serial killer deepen in South Africa as body of ninth woman is found",
+            "url": "https://www.theglobeandmail.com/world/article-serial-killer-south-africa/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Discovery of nine women's bodies raises fears of serial killer in South Africa",
+            "url": "https://www.theglobeandmail.com/world/video-discovery-of-nine-womens-bodies-raises-fears-of-serial-killer-in-south/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "South Africa",
+        "South African",
+        "Discovery",
+        "Ninth",
+        "Fears"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ca5uhdw",
+    "regions": [
+      "Global",
+      "Canada"
+    ],
+    "firstSeen": "2026-09-15T19:38:46.000Z",
+    "lastSeen": "2026-09-16T12:15:08.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Democracy Now!",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.5409898270078983,
+      "max": 0.5409898270078983,
+      "pairs": 1
+    },
+    "sources": [
+      {
+        "n": "Democracy Now!",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "A Russian Oligarch Secretly Funded Donald Trump Jr.'s Bahamas Wedding; Democrats Demand Probe",
+        "u": "http://www.democracynow.org/2026/9/16/djt_jr_wedding",
+        "publishedAt": "2026-09-16T12:15:08.000Z",
+        "retrievedAt": "2026-09-18T04:59:17.435Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "AMY GOODMAN : Democratic Congressmember Robert Garcia, the top Democrat on the House Oversight Committee, said the bankrolling of the wedding raises “serious national security and public corruption concerns.”",
+          "“Donald Trump Jr.’s Bahamas Wedding Was Secretly Bankrolled by Russian Oligarch Close to Putin”",
+          "“He’s spent a lot of money seemingly successfully cultivating a relationship with the son of the president, and we have no idea why.”"
+        ],
+        "figures": [],
+        "wordsRead": 2002
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. Democrats probe Russian oligarch’s financing of wedding parties for Donald Trump Jr.",
+        "u": "https://www.theglobeandmail.com/world/article-donald-trump-jr-wedding-parties-kremlev-putin/",
+        "publishedAt": "2026-09-15T19:38:46.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "His wife, Bettina Trump, said in an Instagram post on Monday that Kremlev was a friend who had extended an “extraordinarily generous wedding gift,” stressing that Kremlev had paid for …",
+          "Senate Democratic Leader Chuck Schumer of New …"
+        ],
+        "figures": [],
+        "wordsRead": 380
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Democracy Now!",
+            "outletId": "democracynow",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "A Russian Oligarch Secretly Funded Donald Trump Jr.'s Bahamas Wedding; Democrats Demand Probe",
+            "url": "http://www.democracynow.org/2026/9/16/djt_jr_wedding"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "U.S. Democrats probe Russian oligarch’s financing of wedding parties for Donald Trump Jr.",
+            "url": "https://www.theglobeandmail.com/world/article-donald-trump-jr-wedding-parties-kremlev-putin/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Russian Oligarch Secretly Funded",
+        "Donald Trump Jr.'s Bahamas",
+        "Democrats Demand Probe",
+        "Donald Trump Jr",
+        "U.S. Democrats",
+        "Wedding"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Russian Oligarch Secretly Funded",
+            "Donald Trump Jr.'s Bahamas",
+            "Democrats Demand Probe",
+            "Donald Trump Jr",
+            "U.S. Democrats",
+            "Wedding"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c10dvum0",
+    "regions": [
+      "Europe",
+      "Canada"
+    ],
+    "firstSeen": "2026-09-15T10:42:29.000Z",
+    "lastSeen": "2026-09-17T15:05:13.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.4333668624445296,
+      "max": 0.4333668624445296,
+      "pairs": 1
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hyrox athlete apologises for continuing race after soiling herself",
+        "u": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T15:05:13.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In a statement shared on Thursday, Wietrzyk said: \"I know my actions had an impact beyond myself, and I am genuinely sorry to everyone who was affected.\"",
+          "Wietrzyk said in a social media post: \"I want to offer my sincere apology …"
+        ],
+        "figures": [],
+        "wordsRead": 411
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hyrox changes rules after athlete soiled herself in competition but was allowed to continue",
+        "u": "https://www.theglobeandmail.com/world/article-hyrox-changes-rules-athlete-soiled-herself/",
+        "publishedAt": "2026-09-15T10:42:29.000Z",
+        "retrievedAt": "2026-09-18T04:59:33.426Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Hyrox made a mistake by not reacting immediately during the race,” the former field hockey …"
+        ],
+        "figures": [],
+        "wordsRead": 158
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Hyrox athlete apologises for continuing race after soiling herself",
+            "url": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Hyrox changes rules after athlete soiled herself in competition but was allowed to continue",
+            "url": "https://www.theglobeandmail.com/world/article-hyrox-changes-rules-athlete-soiled-herself/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Hyrox"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "civhghc",
+    "regions": [
+      "Europe"
+    ],
+    "firstSeen": "2026-09-17T11:00:41.000Z",
+    "lastSeen": "2026-09-18T03:07:00.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "BBC News",
+      "Deutsche Welle"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.34469639910194394,
+      "max": 0.34469639910194394,
+      "pairs": 1
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Aztec document goes on display in Mexico after 186 years abroad",
+        "u": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T11:00:41.000Z",
+        "retrievedAt": "2026-09-18T04:59:22.637Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "According to Mexico&#x27;s ministry of foreign relations, last year more than 2,000 objects were successfully repatriated.",
+          "A centuries-old document telling the story of the Aztec …"
+        ],
+        "figures": [],
+        "wordsRead": 250
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Aztec manuscript returns to Mexico after two centuries, on loan",
+        "u": "https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-09-18T03:07:00.000Z",
+        "retrievedAt": "2026-09-18T04:59:47.593Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Aztec document goes on display in Mexico after 186 years abroad",
+            "url": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "Aztec manuscript returns to Mexico after two centuries, on loan",
+            "url": "https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Mexico",
+        "Aztec"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  }
+]
