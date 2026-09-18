@@ -52,6 +52,27 @@ export function isBoilerplate(title) {
   return BOILERPLATE.some(re => re.test(t));
 }
 
+/**
+ * Digests are worse than boilerplate: they BRIDGE unrelated clusters.
+ *
+ * NPR's "Up First" item — "The Fed raises interest rates. And, EU proposes
+ * Canada become an 'associate member'" — chained the Fed story to the Canada-EU
+ * story through single-link agglomeration, producing one cluster that claimed
+ * six independent outlets for two different events. A digest names several
+ * stories, so it is similar to all of them and belongs to none.
+ */
+const DIGEST_TITLE = [
+  /\.\s+(and|also|plus),/i,            // "... rates. And, EU proposes ..."
+  /[.!?]\s+\S.*[.!?]\s+\S/,           // three or more sentences in a headline
+];
+const DIGEST_URL = /(up-first|newsletter|morning-brief|daily-brief|week-in-review|roundup|digest|live-updates|liveblog)/i;
+
+export function isDigest(item) {
+  const title = normaliseTitle(item?.title ?? "");
+  if (DIGEST_TITLE.some(re => re.test(title))) return true;
+  return DIGEST_URL.test(String(item?.url ?? ""));
+}
+
 /** Outlet suffixes that arrive glued to headlines: "Story - BBC News". */
 const TITLE_TAIL = /\s+[-–—|·]\s+[^-–—|·]{2,40}$/;
 
@@ -134,10 +155,11 @@ export function clusterItems(items, opts = {}) {
   const { threshold = 0.36, windowHours = 72, maxBlockSize = 120 } = opts;
   if (!items.length) return [];
 
-  const dropped = items.filter(i => isBoilerplate(i.title));
-  items = items.filter(i => !isBoilerplate(i.title));
+  const excluded = i => isBoilerplate(i.title) || isDigest(i);
+  const dropped = items.filter(excluded);
+  items = items.filter(i => !excluded(i));
   if (dropped.length) {
-    console.log(`Clustering: dropped ${dropped.length} recurring non-stories (digests, cartoons, picture galleries).`);
+    console.log(`Clustering: dropped ${dropped.length} recurring non-stories and multi-story digests.`);
   }
   if (!items.length) return [];
 
@@ -187,7 +209,46 @@ export function clusterItems(items, opts = {}) {
     groups.get(root).push(i);
   });
 
-  return [...groups.values()].map(idxs => {
+  /**
+   * Single-link asks only "is this item close to ANY member?", which lets a
+   * chain of weak links fuse unrelated stories. So every cluster must also be
+   * cohesive AS A WHOLE: mean similarity over all pairs, not just the linking
+   * edges. Members are dropped least-connected-first until it is, which
+   * degrades an over-merged cluster to its core rather than shipping the fusion.
+   *
+   * This can lose the second story entirely. That is the deliberate direction:
+   * under-merging ships a story labelled `1 source`, over-merging invents
+   * corroboration.
+   */
+  const cohesionFloor = opts.cohesionFloor ?? 0.30;
+  const prune = idxs => {
+    let members = [...idxs];
+    let removed = 0;
+    while (members.length > 2) {
+      let total = 0, pairs = 0;
+      const connectedness = new Map(members.map(m => [m, 0]));
+      for (let x = 0; x < members.length; x++) {
+        for (let y = x + 1; y < members.length; y++) {
+          const s = cosine(vectors[members[x]], vectors[members[y]]);
+          total += s; pairs++;
+          connectedness.set(members[x], connectedness.get(members[x]) + s);
+          connectedness.set(members[y], connectedness.get(members[y]) + s);
+        }
+      }
+      if (!pairs || total / pairs >= cohesionFloor) break;
+      let worst = members[0], worstScore = Infinity;
+      for (const m of members) {
+        const score = connectedness.get(m) / (members.length - 1);
+        if (score < worstScore) { worstScore = score; worst = m; }
+      }
+      members = members.filter(m => m !== worst);
+      removed++;
+    }
+    return { members, removed };
+  };
+
+  return [...groups.values()].map(raw => {
+    const { members: idxs, removed } = prune(raw);
     const members = idxs.map(i => items[i]);
     const outletIds = new Set(members.map(m => m.outletId));
     const inner = edges.filter(e => idxs.includes(e.i) && idxs.includes(e.j));
@@ -204,6 +265,7 @@ export function clusterItems(items, opts = {}) {
         min: sims.length ? Math.min(...sims) : null,
         max: sims.length ? Math.max(...sims) : null,
         pairs: sims.length,
+        prunedForCohesion: removed,
       },
     };
   }).sort((a, b) => b.outletCount - a.outletCount || b.items.length - a.items.length);

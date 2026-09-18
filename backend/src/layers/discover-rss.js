@@ -34,19 +34,40 @@ function text(node) {
   return "";
 }
 
-function stripHtml(s) {
+/**
+ * Feeds are routinely double-encoded: the source contains `&amp;#8217;`, the XML
+ * parser decodes that once to `&#8217;`, and the literal entity lands in the
+ * stored title. The first real run produced "Canada&#8217;s Carney" and
+ * "&#8216;associate member&#8217;", which broke tokenisation badly enough that
+ * three outlets covering the same Canada-EU story failed to cluster together.
+ *
+ * So decoding runs twice: named entities, numeric references (decimal and hex),
+ * then again for whatever the first pass revealed.
+ */
+const NAMED = {
+  nbsp: " ", amp: "&", quot: '"', apos: "'", lt: "<", gt: ">",
+  rsquo: "\u2019", lsquo: "\u2018", ldquo: "\u201c", rdquo: "\u201d",
+  mdash: "\u2014", ndash: "\u2013", hellip: "\u2026", eacute: "\u00e9", egrave: "\u00e8",
+};
+
+function decodeEntities(s) {
   return String(s ?? "")
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => safeChar(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => safeChar(Number(d)))
+    .replace(/&([a-z]+);/gi, (m, name) => NAMED[name.toLowerCase()] ?? m);
+}
+
+function safeChar(code) {
+  return Number.isFinite(code) && code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : "";
+}
+
+function stripHtml(s) {
+  let out = String(s ?? "")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/\s+/g, " ")
-    .trim();
+    .replace(/<[^>]+>/g, " ");
+  out = decodeEntities(decodeEntities(out));   // double-encoded feeds need two passes
+  return out.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function excerpt(s) {

@@ -425,9 +425,9 @@
       "country": "CA",
       "lean": "lean_left",
       "funding": "corporate",
-      "feed": "https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc",
+      "feed": "",
       "verified": false,
-      "feed_error": "HTTP 429",
+      "feed_error": "removed: was a search endpoint, which rate-limits and is forbidden by Disallow: /*?",
       "feed_checked": "2026-09-18"
     },
     {
@@ -675,7 +675,6 @@
       "funding": "corporate",
       "feed": "https://www.haaretz.com/srv/haaretz-latest-headlines",
       "verified": true,
-      "feed_error": "HTTP 404",
       "feed_checked": "2026-09-18"
     },
     {
@@ -779,7 +778,6 @@
       "funding": "Taiwan public",
       "feed": "https://feeds.feedburner.com/rsscna/engnews/",
       "verified": true,
-      "feed_error": "HTTP 404",
       "feed_checked": "2026-09-18"
     },
     {

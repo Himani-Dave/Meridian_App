@@ -11,7 +11,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { sniffAllFeeds, inspect, ALTERNATES } from "../../scripts/feed-discovery.js";
+import { sniffAllFeeds, inspect, ALTERNATES, isSearchEndpoint } from "../../scripts/feed-discovery.js";
 
 // --- what a page says about itself -----------------------------------------
 
@@ -103,5 +103,39 @@ test("every candidate list is keyed to a real roster id", async () => {
 
   for (const key of Object.keys(ALTERNATES)) {
     assert.ok(ids.has(key), `ALTERNATES key "${key}" matches no roster id — it would silently do nothing`);
+  }
+});
+
+// --- search endpoints are not feeds ----------------------------------------
+//
+// The Toronto Star's classic RSS is a search query. It returned a valid feed
+// once, so it passed validation and was written into the roster; the next run
+// got HTTP 429. Validation that accepts a URL a site will rate-limit is
+// validation that lies.
+
+test("a search endpoint is rejected however feed-like it looks", () => {
+  assert.equal(isSearchEndpoint("https://www.thestar.com/search/?f=rss&t=article&c=news&l=50"), true);
+  assert.equal(isSearchEndpoint("https://example.com/search/rss"), true);
+  assert.equal(isSearchEndpoint("https://example.com/feed?q=ukraine"), true, "a query feed is a search");
+});
+
+test("WordPress's one legitimate query-string feed still passes", () => {
+  assert.equal(isSearchEndpoint("https://example.com/?feed=rss2"), false);
+  assert.equal(isSearchEndpoint("https://example.com/feed/"), false);
+  assert.equal(isSearchEndpoint("https://example.com/rss.xml"), false);
+});
+
+test("sniffing skips search links and keeps the real feed", () => {
+  const html = `
+    <a href="/search/?f=rss&t=article&c=news">RSS by search</a>
+    <link rel="alternate" type="application/rss+xml" href="/feed/"/>`;
+  assert.deepEqual(sniffAllFeeds(html, "https://thestar.com"), ["https://thestar.com/feed/"]);
+});
+
+test("no candidate list offers a search endpoint", () => {
+  for (const [id, urls] of Object.entries(ALTERNATES)) {
+    for (const u of urls) {
+      assert.equal(isSearchEndpoint(u), false, `ALTERNATES.${id} offers a search endpoint: ${u}`);
+    }
   }
 });

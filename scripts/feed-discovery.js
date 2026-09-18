@@ -20,16 +20,20 @@
  * all. Reuters withdrew its public RSS in 2020 and Xinhua never had an entry,
  * so there is no origin to sniff without this.
  */
+/**
+ * Reuters withdrew public RSS in 2020. There is no candidate url to offer, only
+ * a homepage to ask. If it finds nothing, Reuters stays unverified — which is
+ * the honest outcome, not a gap to paper over with a search query.
+ */
 export const HOMEPAGES = {
+  torstar: "https://www.thestar.com/",
   reuters: "https://www.reuters.com/world/",
   xinhua: "https://english.news.cn/",
 };
 
 export const ALTERNATES = {
   ap:            ["https://apnews.com/index.rss", "https://apnews.com/hub/world-news/rss", "https://apnews.com/rss"],
-  reuters:       ["https://www.reutersagency.com/feed/?best-topics=world&post_type=best"],
   washtimes:     ["https://www.washingtontimes.com/rss/headlines/news/politics/", "https://www.washingtontimes.com/rss/headlines/news/"],
-  torstar:   ["https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc"],
   "thewire-in":       ["https://thewire.in/rss/", "https://m.thewire.in/rss"],
   "indianexp": ["https://indianexpress.com/section/india/feed/", "https://indianexpress.com/section/world/feed/"],
   theprint:      ["https://theprint.in/feed", "https://theprint.in/rss"],
@@ -73,6 +77,32 @@ export function inspect(body, contentType) {
  */
 const NOT_THE_NEWSROOM = /\b(comments?|author|tag|tags|search|podcast|shop|jobs)\b/i;
 
+/**
+ * A search endpoint is not a feed.
+ *
+ * The Toronto Star's classic RSS is a search query —
+ * /search/?f=rss&t=article&c=news&l=50&... — and it does return a valid feed,
+ * once. I offered it as a candidate, it passed, it was written into the roster,
+ * and the next run got HTTP 429: it is a search over their archive, expensive
+ * to serve and rate-limited accordingly. Worse, sites that publish
+ * `Disallow: /*?` in robots.txt forbid it outright, so it would be refused at
+ * ingest even when validation passed.
+ *
+ * WordPress's /?feed=rss2 is the one legitimate query-string feed, so a single
+ * `feed` or `format` parameter is allowed and nothing else is.
+ */
+const ALLOWED_QUERY_KEYS = new Set(["feed", "format", "type"]);
+
+export function isSearchEndpoint(url) {
+  let u;
+  try { u = new URL(url); } catch { return false; }
+  if (/\/search\b/i.test(u.pathname)) return true;
+  const keys = [...u.searchParams.keys()];
+  if (!keys.length) return false;
+  if (keys.length > 1) return true;
+  return !ALLOWED_QUERY_KEYS.has(keys[0].toLowerCase());
+}
+
 export function sniffAllFeeds(html, base) {
   const found = [];
   const add = href => {
@@ -80,6 +110,7 @@ export function sniffAllFeeds(html, base) {
     let abs;
     try { abs = new URL(href, base).href; } catch { return; }
     if (NOT_THE_NEWSROOM.test(new URL(abs).pathname)) return;
+    if (isSearchEndpoint(abs)) return;
     found.push(abs);
   };
 
