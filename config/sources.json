@@ -1,0 +1,195 @@
+{
+  "_meta": {
+    "purpose": "Source roster for Meridian. Access tiers describe what each source demands of you.",
+    "feed_warning": "Every RSS url below is a CONVENTIONAL GUESS and is marked verified:false. Validate each one (fetch it, confirm it parses, confirm it is the outlet's real feed) before trusting it. Do not mark verified:true without an actual successful fetch.",
+    "access_tiers": {
+      "none": "No signup, no key. Call it.",
+      "rss": "No account. Just a feed URL.",
+      "free_key": "Free account, then a free API key.",
+      "registration": "Registration for credentials, not a simple key.",
+      "licence": "Paid or a licensing conversation.",
+      "scrape": "No API exists. HTML/PDF parsing plus change detection."
+    }
+  },
+
+  "discovery": [
+    {
+      "id": "gdelt",
+      "name": "GDELT DOC 2.0",
+      "access": "none",
+      "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "params": { "format": "json", "maxrecords": 250, "timespan": "24h" },
+      "notes": "No registration, no key. Rolling 3-month window, back to Jan 2017. Max 250 records. Indexes mechanically rather than editorially, which is why it is the discovery layer.",
+      "verified": true
+    }
+  ],
+
+  "primary": [
+    { "id": "csis-ca",        "name": "CSIS annual public reports",        "region": "Canada", "access": "scrape",   "url": "https://www.canada.ca/en/security-intelligence-service/corporate/publications.html", "verified": true },
+    { "id": "gac-ca",         "name": "Global Affairs Canada newsroom",    "region": "Canada", "access": "scrape",   "url": "https://www.canada.ca/en/global-affairs.html", "verified": true },
+    { "id": "gazette-ca",     "name": "Canada Gazette",                   "region": "Canada", "access": "scrape",   "url": "https://gazette.gc.ca/", "verified": false },
+    { "id": "legisinfo-ca",   "name": "LEGISinfo (bills)",                "region": "Canada", "access": "none",     "url": "https://www.parl.ca/legisinfo/", "verified": false },
+    { "id": "statcan",        "name": "Statistics Canada WDS",            "region": "Canada", "access": "none",     "endpoint": "https://www150.statcan.gc.ca/t1/wds/rest/", "limits": "50 req/s server, 25 req/s per IP; data updates 08:30 ET business days", "verified": true },
+    { "id": "boc-valet",      "name": "Bank of Canada Valet",             "region": "Canada", "access": "none",     "endpoint": "https://www.bankofcanada.ca/valet/", "notes": "Explicitly no registration and no access key. JSON/CSV/XML.", "verified": true },
+    { "id": "ircc",           "name": "IRCC news + levels plan",          "region": "Canada", "access": "scrape",   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news.html", "verified": false },
+
+    { "id": "egazette-in",    "name": "India eGazette",                   "region": "India",  "access": "scrape",   "url": "https://egazette.gov.in/", "notes": "Authoritative text for e.g. Citizenship (Amendment) Rules 2026. No API.", "verified": false },
+    { "id": "pib-in",         "name": "PIB press releases",               "region": "India",  "access": "scrape",   "url": "https://www.pib.gov.in/", "notes": "Government voice. Primary evidence of what the government asserts.", "verified": true },
+    { "id": "mha-in",         "name": "Ministry of Home Affairs",         "region": "India",  "access": "scrape",   "url": "https://www.mha.gov.in/", "verified": false },
+    { "id": "mea-in",         "name": "Ministry of External Affairs",     "region": "India",  "access": "scrape",   "url": "https://www.mea.gov.in/", "verified": true },
+    { "id": "datagov-in",     "name": "data.gov.in",                      "region": "India",  "access": "free_key", "signup": "Create account at data.gov.in, then collect key from My Account", "notes": "80,000+ dataset APIs", "verified": true },
+    { "id": "rbi-in",         "name": "Reserve Bank of India",            "region": "India",  "access": "scrape",   "url": "https://www.rbi.org.in/", "verified": false },
+
+    { "id": "eurlex",         "name": "EUR-Lex / CELLAR",                 "region": "Europe", "access": "none",     "notes": "Open SPARQL endpoint for Official Journal texts. Separate Webservice needs registration; try SPARQL first.", "verified": true },
+    { "id": "ec-press",       "name": "European Commission press corner", "region": "Europe", "access": "rss",      "feed": "https://ec.europa.eu/commission/presscorner/api/rss", "verified": false },
+    { "id": "eurostat",       "name": "Eurostat",                         "region": "Europe", "access": "none",     "verified": true },
+    { "id": "ecb",            "name": "ECB Data Portal",                  "region": "Europe", "access": "none",     "verified": true },
+    { "id": "france-diplo",   "name": "France Diplomatie (EES/ETIAS)",    "region": "Europe", "access": "scrape",   "url": "https://www.diplomatie.gouv.fr/en/services-to-foreigners/", "verified": true },
+    { "id": "bamf-de",        "name": "BAMF (Germany)",                   "region": "Europe", "access": "scrape",   "url": "https://www.bamf.de/EN/", "notes": "National authorities bind, not the EU-level framework", "verified": false },
+    { "id": "ind-nl",         "name": "IND (Netherlands)",                "region": "Europe", "access": "scrape",   "url": "https://ind.nl/en", "verified": false },
+
+    { "id": "fedreg-us",      "name": "Federal Register API",             "region": "Global", "access": "none",     "endpoint": "https://www.federalregister.gov/api/v1/", "verified": true },
+    { "id": "apidatagov",     "name": "api.data.gov (Congress, GovInfo, Regulations)", "region": "Global", "access": "free_key", "signup": "api.data.gov signup form; key issued instantly, no card", "limits": "1,000 req/hour; HTTP 429 over limit, lifts after an hour", "auth": "X-Api-Key header | api_key param | basic auth username", "notes": "One key covers 25 agencies, 450+ APIs", "verified": true },
+    { "id": "fred",           "name": "FRED (St. Louis Fed)",             "region": "Global", "access": "free_key", "signup": "Account at fredaccount.stlouisfed.org, then request key at /apikeys", "notes": "32-char lowercase alphanumeric. Docs ask for a distinct key per application.", "verified": true },
+    { "id": "cbo",            "name": "Congressional Budget Office",      "region": "Global", "access": "scrape",   "url": "https://www.cbo.gov/", "notes": "No API. High-value: the $38bn Iran cost figure came from here.", "verified": true },
+    { "id": "unnews",         "name": "UN News / OHCHR",                  "region": "Global", "access": "rss",      "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml", "verified": false },
+    { "id": "reliefweb",      "name": "ReliefWeb API",                    "region": "Global", "access": "none",     "notes": "No key, but pass an appname parameter identifying the app", "verified": true },
+    { "id": "taiwan-mnd",     "name": "Taiwan Ministry of National Defense", "region": "Global", "access": "scrape", "url": "https://www.mnd.gov.tw/en/", "notes": "robots.txt blocks some paths; GlobalSecurity mirrors the daily PLA activity releases", "verified": true },
+    { "id": "worldbank",      "name": "World Bank / IMF / OECD / WHO GHO", "region": "Global", "access": "none",    "verified": true }
+  ],
+
+  "outlets": [
+    { "id": "democracynow", "name": "Democracy Now!",       "country": "US", "lean": "left",        "funding": "nonprofit",            "feed": "https://www.democracynow.org/democracynow.rss", "verified": false },
+    { "id": "motherjones",  "name": "Mother Jones",         "country": "US", "lean": "left",        "funding": "nonprofit",            "feed": "https://www.motherjones.com/feed/", "verified": false },
+    { "id": "guardian-us",  "name": "Guardian US",          "country": "US", "lean": "lean_left",   "funding": "trust-owned",          "feed": "https://www.theguardian.com/us-news/rss", "verified": false },
+    { "id": "npr",          "name": "NPR",                  "country": "US", "lean": "lean_left",   "funding": "public + member",      "feed": "https://feeds.npr.org/1004/rss.xml", "verified": false },
+    { "id": "ap",           "name": "Associated Press",     "country": "US", "lean": "centre",      "funding": "cooperative wire",     "feed": "https://apnews.com/hub/ap-top-news/rss", "verified": false },
+    { "id": "reuters",      "name": "Reuters",              "country": "US", "lean": "centre",      "funding": "corporate wire",       "feed": null, "notes": "Wire API is enterprise-priced; RSS availability unconfirmed", "verified": false },
+    { "id": "bbc",          "name": "BBC News",             "country": "UK", "lean": "centre",      "funding": "public (licence fee)",  "feed": "https://feeds.bbci.co.uk/news/world/rss.xml", "verified": false },
+    { "id": "axios",        "name": "Axios",                "country": "US", "lean": "centre",      "funding": "corporate",            "feed": "https://api.axios.com/feed/", "verified": false },
+    { "id": "csmonitor",    "name": "Christian Science Monitor", "country": "US", "lean": "centre", "funding": "church-affiliated nonprofit", "feed": "https://rss.csmonitor.com/feeds/world", "verified": false },
+    { "id": "wsj",          "name": "WSJ (news pages)",     "country": "US", "lean": "lean_right",  "funding": "News Corp",            "feed": "https://feeds.a.dj.com/rss/RSSWorldNews.xml", "notes": "News desk and opinion page lean differently; label separately if both used", "verified": false },
+    { "id": "washexaminer", "name": "Washington Examiner",  "country": "US", "lean": "lean_right",  "funding": "corporate",            "feed": "https://www.washingtonexaminer.com/feed", "verified": false },
+    { "id": "foxnews",      "name": "Fox News",             "country": "US", "lean": "right",       "funding": "Fox Corp",             "feed": "https://moxie.foxnews.com/google-publisher/world.xml", "verified": false },
+    { "id": "nypost",       "name": "New York Post",        "country": "US", "lean": "right",       "funding": "News Corp",            "feed": "https://nypost.com/feed/", "verified": false },
+    { "id": "dailycaller",  "name": "The Daily Caller",     "country": "US", "lean": "right",       "funding": "corporate",            "feed": "https://dailycaller.com/feed/", "verified": false },
+    { "id": "washtimes",    "name": "Washington Times",     "country": "US", "lean": "right",       "funding": "corporate",            "feed": "https://www.washingtontimes.com/rss/headlines/news/world/", "verified": false },
+
+    { "id": "torstar",      "name": "Toronto Star",         "country": "CA", "lean": "lean_left",   "funding": "corporate",            "feed": "https://www.thestar.com/feed/", "verified": false },
+    { "id": "cbc",          "name": "CBC News",             "country": "CA", "lean": "centre",      "funding": "public broadcaster",   "feed": "https://www.cbc.ca/webfeed/rss/rss-world", "verified": false },
+    { "id": "globemail",    "name": "Globe and Mail",       "country": "CA", "lean": "centre",      "funding": "corporate",            "feed": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/", "verified": false },
+    { "id": "natpost",      "name": "National Post",        "country": "CA", "lean": "lean_right",  "funding": "Postmedia",            "feed": "https://nationalpost.com/feed/", "verified": false },
+    { "id": "thehub-ca",    "name": "The Hub",              "country": "CA", "lean": "lean_right",  "funding": "nonprofit",            "feed": "https://thehub.ca/feed/", "verified": false },
+    { "id": "westernstd",   "name": "Western Standard",     "country": "CA", "lean": "right",       "funding": "corporate",            "feed": "https://www.westernstandard.news/feed", "verified": false },
+    { "id": "ledevoir",     "name": "Le Devoir",            "country": "CA", "lean": "lean_left",   "funding": "independent (Quebec)", "feed": "https://www.ledevoir.com/rss/manchettes.xml", "verified": false },
+
+    { "id": "thewire-in",   "name": "The Wire",             "country": "IN", "lean": "left",        "funding": "nonprofit",            "feed": "https://thewire.in/rss", "verified": false },
+    { "id": "scroll-in",    "name": "Scroll.in",            "country": "IN", "lean": "left",        "funding": "corporate",            "feed": "https://scroll.in/feed", "verified": false },
+    { "id": "thehindu",     "name": "The Hindu",            "country": "IN", "lean": "lean_left",   "funding": "family-owned",         "feed": "https://www.thehindu.com/news/national/feeder/default.rss", "verified": false },
+    { "id": "indianexp",    "name": "Indian Express",       "country": "IN", "lean": "centre",      "funding": "corporate",            "feed": "https://indianexpress.com/feed/", "verified": false },
+    { "id": "theprint",     "name": "The Print",            "country": "IN", "lean": "centre",      "funding": "corporate",            "feed": "https://theprint.in/feed/", "verified": false },
+    { "id": "bstandard",    "name": "Business Standard",    "country": "IN", "lean": "centre",      "funding": "corporate (business)", "feed": "https://www.business-standard.com/rss/home_page_top_stories.rss", "verified": false },
+    { "id": "swarajya",     "name": "Swarajya",             "country": "IN", "lean": "right",       "funding": "corporate",            "feed": "https://swarajyamag.com/feed", "verified": false },
+    { "id": "opindia",      "name": "OpIndia",              "country": "IN", "lean": "right",       "funding": "corporate",            "feed": "https://www.opindia.com/feed/", "verified": false },
+    { "id": "organiser",    "name": "Organiser",            "country": "IN", "lean": "right",       "funding": "RSS-affiliated",       "feed": "https://organiser.org/feed/", "verified": false },
+
+    { "id": "euronews",     "name": "Euronews",             "country": "EU", "lean": "centre",      "funding": "corporate + EU funding", "feed": "https://www.euronews.com/rss", "verified": false },
+    { "id": "politico-eu",  "name": "Politico Europe",      "country": "EU", "lean": "centre",      "funding": "Axel Springer",        "feed": "https://www.politico.eu/feed/", "verified": false },
+    { "id": "euobserver",   "name": "EUobserver",           "country": "EU", "lean": "lean_left",   "funding": "nonprofit",            "feed": "https://euobserver.com/rss.xml", "verified": false },
+    { "id": "dw",           "name": "Deutsche Welle",       "country": "DE", "lean": "centre",      "funding": "German public",        "feed": "https://rss.dw.com/rdf/rss-en-world", "verified": false },
+    { "id": "lefigaro",     "name": "Le Figaro",            "country": "FR", "lean": "lean_right",  "funding": "Dassault group",       "feed": "https://www.lefigaro.fr/rss/figaro_actualites.xml", "verified": false },
+    { "id": "faz",          "name": "FAZ",                  "country": "DE", "lean": "lean_right",  "funding": "foundation-owned",     "feed": "https://www.faz.net/rss/aktuell/", "verified": false },
+    { "id": "brusselssig",  "name": "Brussels Signal",      "country": "EU", "lean": "right",       "funding": "corporate",            "feed": "https://brusselssignal.eu/feed/", "verified": false },
+    { "id": "remixnews",    "name": "Remix News",           "country": "EU", "lean": "right",       "funding": "corporate (CEE)",      "feed": "https://rmx.news/feed/", "verified": false },
+
+    { "id": "haaretz",      "name": "Haaretz",              "country": "IL", "lean": "left",        "funding": "corporate",            "feed": "https://www.haaretz.com/srv/htz--all-articles", "verified": false },
+    { "id": "timesofisrael","name": "Times of Israel",      "country": "IL", "lean": "centre",      "funding": "corporate",            "feed": "https://www.timesofisrael.com/feed/", "verified": false },
+    { "id": "jpost",        "name": "Jerusalem Post",       "country": "IL", "lean": "lean_right",  "funding": "corporate",            "feed": "https://www.jpost.com/rss/rssfeedsheadlines.aspx", "notes": "Article fetches redirect-looped during research; expect retrieval trouble", "verified": false },
+    { "id": "jns",          "name": "JNS",                  "country": "IL", "lean": "right",       "funding": "nonprofit, pro-Israel","feed": "https://www.jns.org/feed/", "verified": false },
+    { "id": "aljazeera",    "name": "Al Jazeera",           "country": "QA", "lean": "varies",      "funding": "Qatari state-funded",  "feed": "https://www.aljazeera.com/xml/rss/all.xml", "verified": false },
+    { "id": "middleeasteye","name": "Middle East Eye",      "country": "UK", "lean": "left",        "funding": "corporate",            "feed": "https://www.middleeasteye.net/rss", "verified": false },
+    { "id": "arabnews",     "name": "Arab News",            "country": "SA", "lean": "varies",      "funding": "Saudi-owned",          "feed": "https://www.arabnews.com/rss.xml", "verified": false },
+
+    { "id": "globaltimes",  "name": "Global Times",         "country": "CN", "lean": "state",       "funding": "Chinese state (CPC)",  "feed": "https://www.globaltimes.cn/rss/outbrain.xml", "verified": false },
+    { "id": "xinhua",       "name": "Xinhua",               "country": "CN", "lean": "state",       "funding": "Chinese state",        "feed": null, "verified": false },
+    { "id": "scmp",         "name": "South China Morning Post", "country": "HK", "lean": "varies",  "funding": "Alibaba-owned",        "feed": "https://www.scmp.com/rss/91/feed", "verified": false },
+    { "id": "focustaiwan",  "name": "Focus Taiwan (CNA)",   "country": "TW", "lean": "centre",      "funding": "Taiwan public",        "feed": "https://focustaiwan.tw/rss/politics", "verified": false },
+    { "id": "taipeitimes",  "name": "Taipei Times",         "country": "TW", "lean": "pro_sovereignty", "funding": "corporate",        "feed": "https://www.taipeitimes.com/xml/index.rss", "verified": false },
+    { "id": "nikkeiasia",   "name": "Nikkei Asia",          "country": "JP", "lean": "centre",      "funding": "Nikkei Inc",           "feed": "https://asia.nikkei.com/rss/feed/nar", "verified": false }
+  ],
+
+  "rating_providers": [
+    {
+      "id": "mbfc",
+      "name": "Media Bias/Fact Check",
+      "access": "licence",
+      "scale": "7-point bias + factual reporting + credibility",
+      "coverage": "11,000+ sources, strong international coverage",
+      "how": "RapidAPI. Base: https://media-bias-fact-check-ratings-api2.p.rapidapi.com. Headers: X-RapidAPI-Key, X-RapidAPI-Host.",
+      "endpoint": "GET /fetch-data",
+      "endpoint_note": "THE ONLY ENDPOINT. No query parameters, no per-source lookup, no search. It returns EVERY rated source as one array. Typing a domain or name into the console returns 'No results found' because there is nothing to search - that is the expected behaviour, not a fault.",
+      "access_pattern": "One request returns the whole dataset (9,000+ sources per the API overview; the marketing page says 11,000). Fetch once, cache to disk, index by normalised domain and Source ID#, resolve every outlet locally. Never call per outlet.",
+      "tiers": "Researcher $10/mo = 100 requests; Developer $40/mo = 10K; Business $200/mo = 100K. Need is ~1 request per refresh, so Researcher is ample.",
+      "record_fields": ["Source", "MBFC URL", "Bias", "Country", "Factual Reporting", "Media Type", "Source URL", "Credibility", "Source ID#"],
+      "field_notes": "Names contain spaces and a '#' - bracket access only. 'Source URL' is a bare domain (nytimes.com), no protocol or www. 'Source ID#' is a stable integer - key on it, not the name. NO rating date is returned, so only fetch time is knowable.",
+      "licence_attribution": "MANDATORY on Researcher and Developer tiers: must link to MBFC wherever source information is displayed. Use the per-source 'MBFC URL'. Only the $200 Business tier is exempt.",
+      "licence_prohibited": "No reselling, no scraping, no use for misinformation.",
+      "status": "SUBSCRIBED - Researcher tier",
+      "method_caveat": "Methodology criticised as comparatively opaque; treat as one opinion among several",
+      "verified": true
+    },
+    {
+      "id": "allsides",
+      "name": "AllSides",
+      "access": "licence",
+      "scale": "5-point (Left to Right) + Mixed",
+      "coverage": "US-centric; sparse outside North America",
+      "how": "Bias Ratings License & API page exists at allsides.com/tools-services/bias-ratings-license-api; no public pricing. Use the contact form.",
+      "method_caveat": "Uses blind bias surveys - genuinely different method from MBFC, which is why pairing them is informative",
+      "unverified_note": "Licensing terms could not be read during research; the page would not render",
+      "verified": false
+    },
+    {
+      "id": "adfontes",
+      "name": "Ad Fontes Media",
+      "access": "licence",
+      "scale": "continuous numeric: bias approx -42..+42, reliability 0..64",
+      "coverage": "US-centric",
+      "how": "No public API docs found; advertiser and education products only. Contact required.",
+      "notes": "Two-axis numeric output makes it the most useful third opinion if priced reasonably",
+      "verified": false
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata (ownership fallback)",
+      "access": "none",
+      "scale": "not a bias rating - structured ownership facts",
+      "how": "Open SPARQL endpoint, no key. Properties: P127 owned by, P749 parent organization, P17 country",
+      "notes": "Primary fallback for outlets neither rater covers. For non-Western outlets, ownership is more informative than left/right anyway.",
+      "verified": true
+    }
+  ],
+
+  "fact_check": [
+    {
+      "id": "google-factcheck",
+      "name": "Google Fact Check Tools API",
+      "access": "free_key",
+      "how": "Create a Google Cloud project, enable 'Fact Check Tools API', create an API key under Credentials. claims.search needs only the key, no OAuth.",
+      "notes": "Aggregates ClaimReview markup worldwide - covers Alt News, BOOM, Full Fact, Correctiv, AFP without contracting each. Quotas not published in docs; check the console Quotas panel and cache aggressively.",
+      "billing": "NOT required - confirmed by hand on 2026-09-17. No card requested at the Enable step.",
+      "key_setup": "API restriction: Fact Check Tools API only. Application restriction: None during development (dynamic home IP); switch to IP addresses once deployed to a fixed-IP server. Never 'Websites' - referrer checks reject server-side calls.",
+      "status": "KEY OBTAINED",
+      "verified": true
+    }
+  ],
+
+  "rejected": [
+    {
+      "id": "newsapi",
+      "name": "NewsAPI.org",
+      "reason": "Free tier is 100 req/day, ~24h delayed, and explicitly forbids production use. Business tier ~$449/month. GDELT plus direct RSS gives better roster control for $0.",
+      "verified": true
+    }
+  ]
+}
