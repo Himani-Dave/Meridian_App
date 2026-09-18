@@ -17,6 +17,7 @@
  */
 
 import { frameCluster } from "./layers/frame.js";
+import { regionsOf } from "./layers/region.js";
 
 // --- numeric conflict detection (rule 2) -----------------------------------
 
@@ -30,6 +31,17 @@ const NUMBER_RE = new RegExp(
 
 /** Words near a number that say what it counts. Used to avoid comparing apples to deaths. */
 const SUBJECT_WINDOW = 6;
+
+/**
+ * A number inside a range is not a claim on its own.
+ *
+ * The first real run "found" four conflicts on the Fed story by comparing one
+ * outlet's "3.75% to 4%" against another's "3.5%-3.75%" — range endpoints, not
+ * disagreements. Endpoints are excluded from pairwise comparison; a genuine
+ * single-value disagreement ($20m vs $28m) is untouched.
+ */
+const RANGE_BEFORE = /(?:between|from)\s*$|[-–—]\s*$|\bto\s*$/i;
+const RANGE_AFTER = /^\s*(?:[-–—]|to\b|and\b)\s*[$€£₹]?\s*\d/i;
 
 export function extractQuantities(text) {
   const out = [];
@@ -50,6 +62,7 @@ export function extractQuantities(text) {
       kind: unit === "percent" ? "percent" : currency ? "currency" : "count",
       currency: currency ?? null,
       subject: subjectWords(before, after),
+      inRange: RANGE_BEFORE.test(before) || RANGE_AFTER.test(after),
     });
   }
   return out;
@@ -79,6 +92,7 @@ export function findNumericConflicts(items, { tolerance = 0.05 } = {}) {
     for (let b = a + 1; b < quantities.length; b++) {
       const x = quantities[a], y = quantities[b];
       if (x.outlet === y.outlet) continue;
+      if (x.inRange || y.inRange) continue;   // range endpoints are not claims
       if (x.kind !== y.kind) continue;
       if (x.currency && y.currency && x.currency !== y.currency) continue;
       const shared = x.subject.filter(w => y.subject.includes(w));
@@ -142,6 +156,7 @@ function sourceEntry(item, roster, article = null) {
 
 export function buildCandidate(cluster, roster, { verification = null, articles = null } = {}) {
   const framing = frameCluster(cluster);
+  const region = regionsOf(cluster);
   const byUrl = articles instanceof Map ? articles : new Map();
   const sources = cluster.items.map(item => sourceEntry(item, roster, byUrl.get(item.url) ?? null));
 
@@ -153,7 +168,10 @@ export function buildCandidate(cluster, roster, { verification = null, articles 
   return {
     // --- retrieved, verifiable ---------------------------------------------
     id: candidateId(cluster),
-    regions: regionsFor(cluster),
+    regions: region.regions,
+    // The audit trail for the region call. Rule 9's spirit: a derived label
+    // ships with the evidence that produced it, or it does not ship.
+    regionEvidence: { scores: region.scores, matched: region.matched },
     firstSeen: cluster.firstSeen,
     lastSeen: cluster.lastSeen,
     outletCount: cluster.outletCount,
@@ -200,17 +218,8 @@ function candidateId(cluster) {
   return "c" + (h >>> 0).toString(36);
 }
 
-const REGION_OF_COUNTRY = {
-  CA: "Canada", US: "Global", IN: "India", UK: "Europe", DE: "Europe", FR: "Europe",
-  EU: "Europe", IL: "Global", QA: "Global", SA: "Global", CN: "Global", TW: "Global",
-  HK: "Global", JP: "Global",
-};
+// REGION_OF_COUNTRY and regionsFor() were removed: deriving a story's region
+// from the nationality of the outlets that covered it filed a Bolivian wildlife
+// story under Canada because the Globe and Mail ran it. See layers/region.js.
 
-function regionsFor(cluster) {
-  const regions = new Set();
-  for (const c of cluster.countries) if (REGION_OF_COUNTRY[c]) regions.add(REGION_OF_COUNTRY[c]);
-  if (!regions.size) regions.add("Global");
-  return [...regions];
-}
-
-export const _internals = { sourceEntry, dedupeConflicts, REGION_OF_COUNTRY };
+export const _internals = { sourceEntry, dedupeConflicts };

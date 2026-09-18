@@ -21,6 +21,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { ALTERNATES, HOMEPAGES, inspect, sniffAllFeeds } from "./feed-discovery.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONFIG = join(__dirname, "..", "config", "sources.json");
@@ -37,30 +38,14 @@ const DISCOVER = process.argv.includes("--discover");
 const UA = "Mozilla/5.0 (compatible; Meridian/0.1; +https://github.com/Himani-Dave/Meridian_App)";
 const TIMEOUT_MS = 15_000;
 const CONCURRENCY = 6;          // be polite; these are other people's servers
-const FALLBACKS = ["/feed", "/feed/", "/rss", "/rss.xml", "/index.xml", "/atom.xml"];
-
-/**
- * Candidate feed URLs for the outlets that failed verification.
- *
- * These are CANDIDATES, not corrections. Nothing here is trusted: each is
- * fetched and must parse as a feed with items before it replaces anything, the
- * same bar as every other URL in the roster. Keyed by outlet id; tried before
- * the generic fallback paths.
- */
-const ALTERNATES = {
-  ap:            ["https://apnews.com/index.rss", "https://apnews.com/hub/world-news/rss", "https://apnews.com/rss"],
-  reuters:       ["https://www.reutersagency.com/feed/?best-topics=world&post_type=best"],
-  washtimes:     ["https://www.washingtontimes.com/rss/headlines/news/politics/", "https://www.washingtontimes.com/rss/headlines/news/"],
-  torstar:   ["https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc"],
-  "thewire-in":       ["https://thewire.in/rss/", "https://m.thewire.in/rss"],
-  "indianexp": ["https://indianexpress.com/section/india/feed/", "https://indianexpress.com/section/world/feed/"],
-  theprint:      ["https://theprint.in/feed", "https://theprint.in/rss"],
-  swarajya:      ["https://swarajyamag.com/rss/all", "https://swarajyamag.com/commentary/feed"],
-  haaretz:       ["https://www.haaretz.com/cmlink/1.4605102", "https://www.haaretz.com/srv/rss"],
-  timesofisrael: ["https://www.timesofisrael.com/feed", "https://www.timesofisrael.com/rss"],
-  xinhua:        ["https://english.news.cn/rss/world.xml", "https://english.news.cn/home.xml"],
-  focustaiwan:   ["https://focustaiwan.tw/rss/all", "https://focustaiwan.tw/rss/politics.xml"],
-};
+const FALLBACKS = [
+  "/feed", "/feed/", "/rss", "/rss.xml", "/index.xml", "/atom.xml",
+  // Patterns that show up on Indian news sites specifically, which is where
+  // every remaining gap is: The Hindu, Indian Express, The Print, The Wire,
+  // Scroll.in, Swarajya and Organiser were all still unverified.
+  "/feed/rss", "/rss/", "/rssfeeds", "/?feed=rss2", "/feeds/posts/default",
+  "/section/india/feed/", "/rss/india", "/latest/feed",
+];
 
 // ---------------------------------------------------------------------------
 
@@ -80,29 +65,6 @@ async function get(url) {
   }
 }
 
-/** Is this actually a feed, and does it have items? */
-function inspect(body, contentType) {
-  const head = body.slice(0, 4000).toLowerCase();
-  const isFeed =
-    head.includes("<rss") || head.includes("<feed") || head.includes("<rdf:rdf") ||
-    /application\/(rss|atom)\+xml/i.test(contentType);
-  if (!isFeed) return { isFeed: false, items: 0 };
-  const items =
-    (body.match(/<item[\s>]/gi)?.length ?? 0) +
-    (body.match(/<entry[\s>]/gi)?.length ?? 0);
-  return { isFeed: true, items };
-}
-
-/** Pull <link rel="alternate" type="application/rss+xml" href="..."> off a homepage. */
-function sniffFromHtml(html, base) {
-  const re = /<link[^>]+type=["']application\/(?:rss|atom)\+xml["'][^>]*>/gi;
-  for (const tag of html.match(re) ?? []) {
-    const href = tag.match(/href=["']([^"']+)["']/i)?.[1];
-    if (href) { try { return new URL(href, base).href; } catch { /* ignore */ } }
-  }
-  return null;
-}
-
 async function check(entry) {
   const result = { id: entry.id, name: entry.name, lean: entry.lean ?? null,
                    country: entry.country ?? entry.region ?? null,
@@ -110,16 +72,14 @@ async function check(entry) {
 
   if (!entry.feed) {
     result.note = "no feed url in roster";
-    if (DISCOVER && ALTERNATES[entry.id]) {
-      for (const candidate of ALTERNATES[entry.id]) {
-        const r = await get(candidate).catch(() => null);
-        if (r?.status !== 200) continue;
-        const i = inspect(r.body, r.type);
-        if (i.isFeed && i.items > 0) {
-          result.ok = true; result.suggested = candidate; result.items = i.items;
-          result.note = "had no url in the roster; found from the candidate list";
-          return result;
-        }
+    // With no url there is no origin to sniff, so a candidate list is the only
+    // way in. `homepage` in the roster gives one when a feed url does not.
+    const seed = ALTERNATES[entry.id]?.[0] ?? HOMEPAGES[entry.id] ?? entry.homepage;
+    if (DISCOVER && seed) {
+      const found = await discover(seed, null, entry.id).catch(() => null);
+      if (found) {
+        result.ok = true; result.suggested = found.url; result.items = found.items;
+        result.note = `had no url in the roster; found ${found.how}`;
       }
     }
     return result;
@@ -160,39 +120,52 @@ async function check(entry) {
 
 /** Try the site's homepage <link> tag, then common feed paths. */
 async function discover(originalUrl, firstResponse, entryId = null) {
-  // Per-outlet candidates first: they are specific guesses about where that
-  // outlet's feed actually lives, so they beat probing /feed on every site.
-  for (const candidate of ALTERNATES[entryId] ?? []) {
-    if (candidate === originalUrl) continue;
+  const origin = new URL(originalUrl).origin;
+  const tried = new Set([originalUrl]);
+
+  const attempt = async (candidate, how) => {
+    if (!candidate || tried.has(candidate)) return null;
+    tried.add(candidate);
     const r = await get(candidate).catch(() => null);
-    if (r?.status !== 200) continue;
+    if (r?.status !== 200) return null;
     const i = inspect(r.body, r.type);
-    if (i.isFeed && i.items > 0) return { url: candidate, items: i.items, how: "from the candidate list" };
+    return i.isFeed && i.items > 0 ? { url: candidate, items: i.items, how } : null;
+  };
+
+  // 1. Per-outlet candidates: specific guesses about a known outlet.
+  for (const candidate of ALTERNATES[entryId] ?? []) {
+    const hit = await attempt(candidate, "from the candidate list");
+    if (hit) return hit;
   }
 
-  const origin = new URL(originalUrl).origin;
-
-  if (firstResponse && !/xml/i.test(firstResponse.type)) {
-    const sniffed = sniffFromHtml(firstResponse.body, origin);
-    if (sniffed && sniffed !== originalUrl) {
-      const r = await get(sniffed).catch(() => null);
-      if (r?.status === 200) {
-        const i = inspect(r.body, r.type);
-        if (i.isFeed && i.items > 0) return { url: sniffed, items: i.items, how: "via homepage <link> tag" };
-      }
+  // 2. What the failed page itself declared, if it returned HTML.
+  if (firstResponse?.body && !/xml/i.test(firstResponse.type ?? "")) {
+    for (const candidate of sniffAllFeeds(firstResponse.body, origin)) {
+      const hit = await attempt(candidate, "declared on the page that failed");
+      if (hit) return hit;
     }
   }
 
+  // 3. Ask the homepage. This is the step that was missing entirely, and it is
+  //    the one most likely to work: the outlet tells you where its feed is.
+  const home = await get(origin + "/").catch(() => null);
+  if (home?.status === 200 && home.body) {
+    for (const candidate of sniffAllFeeds(home.body, origin)) {
+      const hit = await attempt(candidate, "declared in the homepage <head>");
+      if (hit) return hit;
+    }
+  }
+
+  // 4. Generic paths, last, because they are pure guesswork.
   for (const path of FALLBACKS) {
-    const candidate = origin + path;
-    if (candidate === originalUrl) continue;
-    const r = await get(candidate).catch(() => null);
-    if (r?.status !== 200) continue;
-    const i = inspect(r.body, r.type);
-    if (i.isFeed && i.items > 0) return { url: candidate, items: i.items, how: `at ${path}` };
+    const hit = await attempt(origin + path, `at ${path}`);
+    if (hit) return hit;
+    await sleep(250);
   }
   return null;
 }
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function pool(items, worker, limit) {
   const out = [];

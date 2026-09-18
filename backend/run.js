@@ -34,6 +34,7 @@ import { clusterItems } from "./src/layers/cluster.js";
 import { verifyCluster } from "./src/layers/verify.js";
 import { distilCluster } from "./src/layers/fetch-article.js";
 import { buildCandidate } from "./src/bundle.js";
+import { selectByRegion, parseQuotas } from "./src/select.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONFIG = join(__dirname, "..", "config", "sources.json");
@@ -56,6 +57,11 @@ const OPTS = {
   // selected clusters only and is capped. --no-articles turns it off.
   articles: !flag("no-articles"),
   maxStories: Number(value("max-stories", 12)),
+  // Region quotas. Ranking purely by outlet count let the most prolific feeds
+  // take every slot: the first real run produced twelve stories with Al Jazeera
+  // in seven and not one Indian outlet, for an app whose regions are Canada,
+  // India, Europe and Global. Pass --quotas "Canada=2,India=2" to override.
+  quotas: parseQuotas(value("quotas", "Canada=3,India=3,Europe=3,Global=3")),
   dryRun: flag("dry-run"),
 };
 
@@ -112,9 +118,18 @@ async function main() {
   // --- layers 2-4 ----------------------------------------------------------
   // Only the clusters that will actually become candidates get the expensive
   // treatment: one primary-document lookup and one article fetch per source.
-  const selected = multi.slice(0, OPTS.maxStories);
+  const { selected, fill } = selectByRegion(multi, OPTS.quotas, OPTS.maxStories);
   if (multi.length > selected.length) {
     notes.push(`${multi.length - selected.length} multi-outlet clusters were left out by --max-stories ${OPTS.maxStories}.`);
+  }
+
+  console.log("\nRegion quotas (filled / requested, available):");
+  for (const [region, f] of Object.entries(fill)) {
+    const short = f.filled < f.quota ? "  <-- SHORT" : "";
+    console.log(`  ${region.padEnd(8)} ${f.filled}/${f.quota}  (${f.availableInRegion} eligible)${short}`);
+    if (f.filled < f.quota) {
+      notes.push(`Region "${region}": wanted ${f.quota} stories, only ${f.filled} available. The briefing must say so rather than substitute stories from elsewhere.`);
+    }
   }
 
   const candidates = [];
@@ -157,6 +172,7 @@ async function main() {
       articlesRead,
     },
     balance,
+    regionFill: fill,
     starvedSides: starved,
     notes,
     failures,
