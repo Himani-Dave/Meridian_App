@@ -35,17 +35,31 @@ jobs:
     steps:
       - id: p
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            MODE="${{ inputs.job }}"
-          elif [ "${{ github.event.schedule }}" = "0 13 * * 1" ]; then
-            MODE="validate"
+          EVENT="${{ github.event_name }}"
+          SCHED="${{ github.event.schedule }}"
+          CTX="${{ inputs.job }}"
+          RAW="${{ github.event.inputs.job }}"
+          echo "event=$EVENT schedule='$SCHED' inputs.job='$CTX' event.inputs.job='$RAW'"
+
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            # Both spellings, then a default. An empty input must never mean
+            # "do nothing quietly" — that is how a green check hides a no-op.
+            MODE="${CTX:-${RAW:-validate}}"
+          elif [ "$SCHED" = "0 13 * * 1" ]; then
+            MODE=validate
           elif [ "$(TZ=America/Toronto date +%H)" = "07" ]; then
-            MODE="ingest"
+            MODE=ingest
           else
-            MODE="skip"   # the daylight-saving twin
+            MODE=skip                       # the daylight-saving twin
           fi
+
+          case "$MODE" in
+            validate|ingest|skip) ;;
+            *) echo "::error::gate resolved mode to '$MODE', which is not a job"; exit 1 ;;
+          esac
+
+          echo "resolved mode=$MODE"
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
-          echo "Running: $MODE"
 
   run:
     needs: gate
@@ -109,6 +123,17 @@ jobs:
             git commit -m "${{ needs.gate.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           }
+
+      # A run that skipped both jobs must not report success. Silent no-ops are
+      # the failure mode this project is built to make impossible.
+      - name: Refuse to pass a run that did nothing
+        if: always()
+        run: |
+          if [ "${{ steps.validate.conclusion }}" = "skipped" ] \
+             && [ "${{ steps.ingest.conclusion }}" = "skipped" ]; then
+            echo "::error::Neither job ran. gate resolved mode='${{ needs.gate.outputs.mode }}'."
+            exit 1
+          fi
 
       - name: Fail if the run reported a problem
         if: steps.validate.outcome == 'failure' || steps.ingest.outcome == 'failure'
