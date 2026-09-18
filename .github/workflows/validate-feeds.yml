@@ -97,6 +97,9 @@ jobs:
       - name: Summary
         if: always()
         run: |
+          echo "----- feed report (also in the job summary) -----"
+          [ -f config/feed-report.md ] && cat config/feed-report.md || echo "(no feed report)"
+          echo "------------------------------------------------"
           {
             echo "## Meridian — ${{ needs.gate.outputs.mode }}"
             echo
@@ -118,11 +121,27 @@ jobs:
         run: |
           git config user.name meridian-bot
           git config user.email meridian-bot@users.noreply.github.com
-          git add -A config/sources.json config/feed-report.md backend/data 2>/dev/null || true
-          git diff --staged --quiet || {
-            git commit -m "${{ needs.gate.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
-          }
+          mkdir -p backend/data
+
+          # Stage each path on its own. `git add a b c` fails ATOMICALLY if any
+          # pathspec matches nothing and stages none of them — that one line
+          # silently threw away the results of three runs.
+          for p in config/sources.json config/feed-report.md backend/data; do
+            if [ -e "$p" ]; then
+              git add -A "$p"
+              echo "staged $p"
+            else
+              echo "absent, skipping: $p"
+            fi
+          done
+          git status --short
+
+          if git diff --staged --quiet; then
+            echo "::error::A '${{ needs.gate.outputs.mode }}' run produced nothing to commit. Results did not reach the repo."
+            exit 1
+          fi
+          git commit -m "${{ needs.gate.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
 
       # A run that skipped both jobs must not report success. Silent no-ops are
       # the failure mode this project is built to make impossible.
