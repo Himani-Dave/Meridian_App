@@ -2,10 +2,33 @@
   {
     "id": "c1nsdhew",
     "regions": [
-      "Global",
+      "Canada",
       "Europe",
-      "Canada"
+      "Global"
     ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 7,
+        "India": 0,
+        "Europe": 17
+      },
+      "matched": {
+        "Canada": [
+          "canada",
+          "carney",
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "european union",
+          "european commission",
+          "european parliament",
+          "brussels",
+          "von der leyen",
+          "european",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
     "firstSeen": "2026-09-16T13:53:14.000Z",
     "lastSeen": "2026-09-18T00:00:39.000Z",
     "outletCount": 6,
@@ -20,9 +43,9 @@
     "tier": "multi",
     "tierBasis": "reported independently by 6 outlets",
     "clustering": {
-      "min": 0.3712785760524364,
-      "max": 0.45394759902112214,
-      "pairs": 8
+      "min": 0.3628917259999791,
+      "max": 0.4603835578096841,
+      "pairs": 9
     },
     "sources": [
       {
@@ -35,7 +58,7 @@
         "t": "US Federal Reserve raises interest rates for the first time since 2023",
         "u": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
         "publishedAt": "2026-09-16T21:01:39.000Z",
-        "retrievedAt": "2026-09-18T05:15:07.060Z",
+        "retrievedAt": "2026-09-18T05:51:40.995Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Trump said the US would make “at least 1.5 Trillion Dollars a year” if it were to stop trading with countries with which it has a deficit.",
@@ -72,7 +95,7 @@
         "t": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
         "u": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
         "publishedAt": "2026-09-17T10:54:18.000Z",
-        "retrievedAt": "2026-09-18T05:15:08.953Z",
+        "retrievedAt": "2026-09-18T05:51:42.695Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -85,7 +108,7 @@
         "t": "Canada's Carney welcomes the EU's bid for closer ties amid pressure from Trump",
         "u": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament",
         "publishedAt": "2026-09-17T08:43:44.000Z",
-        "retrievedAt": "2026-09-18T05:15:08.953Z",
+        "retrievedAt": "2026-09-18T05:51:42.695Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -98,7 +121,7 @@
         "t": "Canada welcomes EU proposal to become 'associate member'",
         "u": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-09-17T12:27:18.000Z",
-        "retrievedAt": "2026-09-18T05:15:10.328Z",
+        "retrievedAt": "2026-09-18T05:51:44.060Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Responding to Trump&#x27;s comments at a press conference following his address, Carney said: \"This alliance is a positive process, that&#x27;s my response to the American president.\"",
@@ -118,7 +141,7 @@
         "t": "US interest rates raised for first time in three years",
         "u": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-09-17T00:40:17.000Z",
-        "retrievedAt": "2026-09-18T05:15:10.328Z",
+        "retrievedAt": "2026-09-18T05:51:44.060Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Fed Chair Kevin Warsh said the move was because \"inflation is too high and has been for too long\", adding that it was a \"sober\" and \"responsible decision\".",
@@ -155,7 +178,7 @@
         "t": "What does it mean for Canada to become EU’s first associate member?",
         "u": "https://www.theglobeandmail.com/canada/article-eu-canada-associate-member-what-does-that-mean/",
         "publishedAt": "2026-09-16T17:04:11.000Z",
-        "retrievedAt": "2026-09-18T05:15:20.892Z",
+        "retrievedAt": "2026-09-18T05:51:55.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "In her speech, von der Leyen said the two sides would create a “common prosperity and economic space.”",
@@ -175,7 +198,7 @@
         "t": "Canada&#8217;s Carney gets the red carpet treatment and EU &#8216;associate member&#8217; offer",
         "u": "https://euobserver.com/237814/canadas-carney-gets-the-red-carpet-treatment-and-eu-associate-member-offer/",
         "publishedAt": "2026-09-16T13:53:14.000Z",
-        "retrievedAt": "2026-09-18T05:15:53.650Z",
+        "retrievedAt": "2026-09-18T05:52:13.582Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -188,7 +211,7 @@
         "t": "Carney welcomes EU &#8216;associate member&#8217; offer but leaves the terms to Brussels",
         "u": "https://brusselssignal.eu/2026/09/carney-welcomes-eu-associate-member-offer-but-leaves-the-terms-to-brussels/",
         "publishedAt": "2026-09-18T00:00:39.000Z",
-        "retrievedAt": "2026-09-18T05:16:00.142Z",
+        "retrievedAt": "2026-09-18T05:52:21.034Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -384,92 +407,7 @@
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
-    "disputedCandidates": [
-      {
-        "kind": "percent",
-        "about": [
-          "federal",
-          "reserve"
-        ],
-        "spread": 0.125,
-        "readings": [
-          {
-            "outlet": "Guardian US",
-            "value": "4%",
-            "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-          },
-          {
-            "outlet": "BBC News",
-            "value": "3.5%",
-            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "federal",
-          "reserve"
-        ],
-        "spread": 0.067,
-        "readings": [
-          {
-            "outlet": "Guardian US",
-            "value": "3.75%",
-            "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-          },
-          {
-            "outlet": "BBC News",
-            "value": "3.5%",
-            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "federal",
-          "reserve"
-        ],
-        "spread": 0.063,
-        "readings": [
-          {
-            "outlet": "Guardian US",
-            "value": "3.75%",
-            "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-          },
-          {
-            "outlet": "BBC News",
-            "value": "4%",
-            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "federal",
-          "reserve"
-        ],
-        "spread": 0.063,
-        "readings": [
-          {
-            "outlet": "Guardian US",
-            "value": "4%",
-            "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-          },
-          {
-            "outlet": "BBC News",
-            "value": "3.75%",
-            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
+    "disputedCandidates": [],
     "headline": null,
     "sub": null,
     "cat": null,
@@ -482,63 +420,39 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "csmfqvx",
+    "id": "c1vpmo7s",
     "regions": [
-      "Global",
-      "Europe",
-      "Canada"
+      "Canada",
+      "Global"
     ],
-    "firstSeen": "2026-09-17T11:08:29.000Z",
-    "lastSeen": "2026-09-18T01:58:53.000Z",
-    "outletCount": 5,
+    "regionEvidence": {
+      "scores": {
+        "Canada": 4,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {
+        "Canada": [
+          "canada",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T00:19:53.000Z",
+    "lastSeen": "2026-09-18T00:00:00.000Z",
+    "outletCount": 2,
     "outlets": [
-      "NPR",
-      "BBC News",
       "Globe and Mail",
-      "Al Jazeera",
-      "Middle East Eye"
+      "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3900240791439019,
-      "max": 0.45693838789639507,
-      "pairs": 6
+      "min": 0.3623821878559187,
+      "max": 0.3623821878559187,
+      "pairs": 1
     },
     "sources": [
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
-        "u": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
-        "publishedAt": "2026-09-17T12:33:36.000Z",
-        "retrievedAt": "2026-09-18T05:15:08.953Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-        "u": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-09-17T20:34:30.000Z",
-        "retrievedAt": "2026-09-18T05:15:10.328Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "They said killings by security forces occurred on \"a staggering and unprecedented scale\" across all 31 provinces.",
-          "\"Civilians in Iran are caught between gross human rights violations and crimes against humanity committed by their own government and the nation&#x27;s deadly conflict with the United States and Israel,\" …",
-          "The US previously denied striking Lamerd and said it was investigating what happened in Minab."
-        ],
-        "figures": [],
-        "wordsRead": 933
-      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -546,418 +460,95 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
-        "u": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/",
-        "publishedAt": "2026-09-17T11:08:29.000Z",
-        "retrievedAt": "2026-09-18T05:15:20.892Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Our investigation remains ongoing, and we have nothing to announce at the moment,” it said in a statement.",
-          "White House spokeswoman Anna Kelly said in response to the report that the UN Human Rights Council had “accomplished nothing for human rights,” adding that Iran was the only party …",
-          "A UN fact-finding mission on Iran said on Thursday it had reasonable grounds to believe the United States was behind two military strikes on a school …"
-        ],
-        "figures": [],
-        "wordsRead": 750
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN findings show US strikes on Minab could be war crimes",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
-        "publishedAt": "2026-09-18T01:58:53.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
+        "t": "Trump threatens EU with more tariffs if Canada joins",
+        "u": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/",
+        "publishedAt": "2026-09-17T00:19:53.000Z",
+        "retrievedAt": "2026-09-18T05:51:55.152Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Middle East Eye",
-        "b": "left",
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "White House rejects UN report on potential US war crimes in Iran",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran",
-        "publishedAt": "2026-09-17T21:11:42.000Z",
-        "retrievedAt": "2026-09-18T05:16:07.615Z",
+        "t": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "retrievedAt": "2026-09-18T05:52:38.311Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "US spokesperson Anna Kelly said the UN’s Human Rights …"
+          "“If they do that, if I think it’s at all a hostile act; I will put very serious tariffs or stop trading with Europe on many things,” Trump told reporters …",
+          "It may as well happen now,” he told reporters, adding that “the UK will have something to say about it, obviously.”",
+          "Yesterday, Seoul’s military detected “multiple short-range ballistic missiles launched from the Wonsan area toward the …"
         ],
         "figures": [],
-        "wordsRead": 90
+        "wordsRead": 676
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
-            "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 4,
-            "headline": "White House rejects UN report on potential US war crimes in Iran",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
         "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-            "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
-          },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
-            "url": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "UN findings show US strikes on Minab could be war crimes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Iran",
-        "U.N.-backed",
-        "White House",
-        "Tehran",
-        "Minab"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Iran",
-            "U.N.-backed",
-            "White House",
-            "Tehran",
-            "Minab"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cr6uqej",
-    "regions": [
-      "Global"
-    ],
-    "firstSeen": "2026-09-17T17:53:55.000Z",
-    "lastSeen": "2026-09-18T01:23:44.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "Guardian US",
-      "The Daily Caller",
-      "Al Jazeera",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.3872938641443506,
-      "max": 0.7170352115644172,
-      "pairs": 4
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
-        "u": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn",
-        "publishedAt": "2026-09-17T17:53:55.000Z",
-        "retrievedAt": "2026-09-18T05:15:07.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump initially announced Schroyer’s nomination in June, calling him “a PATRIOT with real operational experience, and proven leader with DECADES of experience locking up the worst of the worst”.",
-          "Unnamed DHS employees told Politico in August they didn’t want Schroyer to take over and implement …"
-        ],
-        "figures": [],
-        "wordsRead": 459
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
-        "u": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration",
-        "publishedAt": "2026-09-17T18:49:21.000Z",
-        "retrievedAt": "2026-09-18T05:15:19.225Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The Senate must CONFIRM Lance, IMMEDIATELY — Do not delay,” Trump said in late June.",
-          "“I just wonder if someone who applauds violence against their political opponents is the right …"
-        ],
-        "figures": [],
-        "wordsRead": 309
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House withdraws Lance Schroyer’s nomination to lead ICE",
-        "u": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
-        "publishedAt": "2026-09-18T01:23:44.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "When announcing Schroyer’s nomination in June, Trump said on Truth Social that he had “firsthand experience getting Illegal Aliens OFF our streets” and called on the Senate to confirm him …",
-          "The withdrawal was announced …"
-        ],
-        "figures": [],
-        "wordsRead": 359
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House pulls Trump nominee to head ICE",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T23:07:17.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a brief statement on its website, the …"
-        ],
-        "figures": [],
-        "wordsRead": 84
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
             "evidenceIndex": 0,
-            "headline": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
-            "url": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn"
+            "headline": "Trump threatens EU with more tariffs if Canada joins",
+            "url": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/"
           }
         ],
         "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
-            "url": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "White House withdraws Lance Schroyer’s nomination to lead ICE",
-        "url": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "White House pulls Trump nominee to head ICE",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 1,
+        "headline": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "White House",
-        "Lance Schroyer",
-        "Nominee After GOP Senator",
-        "Blocks Confirmation Vote",
-        "White House Pulls ICE",
+        "Canada",
         "Trump"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "White House",
-            "Lance Schroyer",
-            "Nominee After GOP Senator",
-            "Blocks Confirmation Vote",
-            "White House Pulls ICE",
-            "Trump"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -1036,26 +627,261 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c16mc284",
+    "id": "c1ln1pra",
     "regions": [
-      "Europe",
+      "India",
       "Global"
     ],
-    "firstSeen": "2026-09-17T12:41:05.000Z",
-    "lastSeen": "2026-09-17T14:58:30.000Z",
-    "outletCount": 4,
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 4,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "india",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-18T03:54:26.000Z",
+    "lastSeen": "2026-09-18T04:43:13.000Z",
+    "outletCount": 2,
     "outlets": [
-      "BBC News",
-      "Euronews",
-      "Brussels Signal",
-      "South China Morning Post"
+      "The Hindu",
+      "Focus Taiwan (CNA)"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3736647462321034,
-      "max": 0.45025933563159626,
-      "pairs": 3
+      "min": 0.47239464025905215,
+      "max": 0.47239464025905215,
+      "pairs": 1
+    },
+    "sources": [
+      {
+        "n": "The Hindu",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "iPhone 18 Pro and iPhone 18 Pro Max go on sale in India",
+        "u": "https://www.thehindu.com/sci-tech/technology/iphone-18-pro-and-iphone-18-pro-max-go-on-sale-today-in-india/article71479309.ece",
+        "publishedAt": "2026-09-18T03:54:26.000Z",
+        "retrievedAt": "2026-09-18T05:52:02.834Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Apple on Friday commenced the sale of iPhone 18 Pro and iPhone 18 Pro Max in India.",
+          "Apple began selling the iPhone 18 Pro and iPhone 18 Pro Max in India …"
+        ],
+        "figures": [],
+        "wordsRead": 319
+      },
+      {
+        "n": "Focus Taiwan (CNA)",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Early buyers snap up iPhone 18 Pro models",
+        "u": "https://focustaiwan.tw/business/202609180007",
+        "publishedAt": "2026-09-18T04:43:13.000Z",
+        "retrievedAt": "2026-09-18T05:52:36.387Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"It was unexpected that with the development of AI, RAMs have gone so high in price,\" Hsu said.",
+          "Speaking with CNA, Hsu said he chose the 256GB iPhone 18 Pro Max and was most interested in the camera's new physical variable aperture feature.",
+          "Asked about the new model's launch price, which is about NT$5,000 (US$157) higher than its predecessor …"
+        ],
+        "figures": [
+          {
+            "value": "$5,000",
+            "context": "ut the new model's launch price, which is about NT$5,000 (US$157) higher than its predecessor, Hsu said the"
+          },
+          {
+            "value": "US$157",
+            "context": "ew model's launch price, which is about NT$5,000 (US$157) higher than its predecessor, Hsu said the cost w"
+          }
+        ],
+        "wordsRead": 597
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "iPhone 18 Pro and iPhone 18 Pro Max go on sale in India",
+            "url": "https://www.thehindu.com/sci-tech/technology/iphone-18-pro-and-iphone-18-pro-max-go-on-sale-today-in-india/article71479309.ece"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Focus Taiwan (CNA)",
+            "outletId": "focustaiwan",
+            "lean": "centre",
+            "country": "TW",
+            "evidenceIndex": 1,
+            "headline": "Early buyers snap up iPhone 18 Pro models",
+            "url": "https://focustaiwan.tw/business/202609180007"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Pro Max",
+        "India",
+        "Early"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1knqztr",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 4,
+        "Europe": 1
+      },
+      "matched": {
+        "India": [
+          "india",
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T05:33:29.000Z",
+    "lastSeen": "2026-09-17T05:49:06.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "BBC News",
+      "Scroll.in"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.3750426111737002,
+      "max": 0.3750426111737002,
+      "pairs": 1
     },
     "sources": [
       {
@@ -1065,110 +891,86 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Swedish PM Kristersson resigns after election loss",
-        "u": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-09-17T12:41:05.000Z",
-        "retrievedAt": "2026-09-18T05:15:10.328Z",
+        "t": "India faces 100% tariff threat over Russian oil after US House vote",
+        "u": "https://www.bbc.co.uk/news/articles/c3lyrn4p870yo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T05:33:29.000Z",
+        "retrievedAt": "2026-09-18T05:51:44.060Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In his resignation, Kristersson said the opposition faced \"complicated\" conditions for forming the next government, \"because the parties&#x27; various statements before election day could pose obstacles\".",
-          "In a speech posted on Instagram, Andersson said: \"The Swedish people have voted for a new direction for our country\".",
-          "His right-wing bloc looks set to win 173 seats in …"
+          "\"China and India, you better buy your oil and gas somewhere else,\" Democratic Senator Richard Blumenthal told reporters , external after the passage of the bill.",
+          "India said in a statement that it was \"monitoring further developments on this matter\" and that it remained \"firmly committed to ensuring energy security\" for its people.",
+          "\"India should not allow US tariff threats to determine its energy policy,\" he says."
         ],
         "figures": [
           {
-            "value": "10 million",
-            "context": "es separated the two blocs in the country of about 10 million people. Opposition parties led by Magdalena Ander"
+            "value": "100%",
+            "context": "to impose sanctions on Russia and tariffs of up to 100% on countries that buy Russian oil and gas. It …"
+          },
+          {
+            "value": "37%",
+            "context": "Russia&#x27;s crude exports, followed by India at 37%, Turkey at 5% and the EU at 5% between December 2"
+          },
+          {
+            "value": "5%",
+            "context": "crude exports, followed by India at 37%, Turkey at 5% and the EU at 5% between December 2022 and August"
+          },
+          {
+            "value": "5%",
+            "context": "llowed by India at 37%, Turkey at 5% and the EU at 5% between December 2022 and August 2026, according"
+          },
+          {
+            "value": "30.3%",
+            "context": "ch on Energy and Clean Air (CREA). Russia supplied 30.3% of India&#x27;s crude imports in fiscal 2026, wor"
+          },
+          {
+            "value": "$40.8bn",
+            "context": "India&#x27;s crude imports in fiscal 2026, worth $40.8bn out of a total crude import bill of $134.7bn, acc"
           }
         ],
-        "wordsRead": 566
+        "wordsRead": 1259
       },
       {
-        "n": "Euronews",
-        "b": "centre",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Sweden's centre-left win election as right wing bloc suffers narrow defeat",
-        "u": "https://www.euronews.com/my-europe/2026/09/17/swedens-centre-left-win-election-as-right-wing-bloc-suffers-narrow-defeat",
-        "publishedAt": "2026-09-17T14:26:19.000Z",
-        "retrievedAt": "2026-09-18T05:15:49.932Z",
+        "t": "US House passes bill allowing 100% tariffs on India, other countries for buying Russian oil",
+        "u": "https://scroll.in/latest/1095804/us-house-passes-russia-sanctions-bill-allowing-100-tariffs-on-india-other-countries?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-09-17T05:49:06.000Z",
+        "retrievedAt": "2026-09-18T05:52:01.135Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The Centre Party says it will not support a government that gives cabinet posts to the Left, while the Left Party wants ministerial representation.",
-          "Kristersson said he would respect Andersson's attempts to form …"
-        ],
-        "figures": [],
-        "wordsRead": 339
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Left bloc officially wins Swedish elections, PM resigns",
-        "u": "https://brusselssignal.eu/2026/09/left-bloc-officially-wins-swedish-elections-pm-resigns/",
-        "publishedAt": "2026-09-17T14:58:30.000Z",
-        "retrievedAt": "2026-09-18T05:16:00.142Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Andersson, who lost the premiership in 2022, said voters had chosen “a new direction… cohesion against division”.",
-          "About 50,000 votes separated the two blocs in a country of 10.6 million.",
-          "The Election Authority’s completed tally, published on Thursday, gives the red-green side 176 seats in the 349-member parliament …"
+          "“It will continue to do so through diversified sourcing and on the basis of evolving market dynamics,” it said.",
+          "The foreign ministry also said that during discussions with US interlocutors, the potential implications of the matter on the bilateral relationship as well as the international energy market “have been …",
+          "“The Indian side has also made clear …"
         ],
         "figures": [
           {
-            "value": "10.6 million",
-            "context": ",000 votes separated the two blocs in a country of 10.6 million. Turnout was 84.8 per cent. Sweden’s united left"
-          },
-          {
-            "value": "84.8 per cent",
-            "context": "wo blocs in a country of 10.6 million. Turnout was 84.8 per cent. Sweden’s united left opposition has taken a …"
-          },
-          {
-            "value": "10.6 million",
-            "context": ",000 votes separated the two blocs in a country of 10.6 million. Turnout was 84.8 per cent. Kristersson wrote to"
-          },
-          {
-            "value": "84.8 per cent",
-            "context": "wo blocs in a country of 10.6 million. Turnout was 84.8 per cent. Kristersson wrote to Speaker Andreas Norlén that"
+            "value": "100%",
+            "context": "President Donald Trump to impose tariffs of up to 100% on India and other countries that purchase Russia"
           }
         ],
-        "wordsRead": 484
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Sweden’s PM Kristersson resigns after left-wing wins slim majority in election",
-        "u": "https://www.scmp.com/news/world/europe/article/3367895/swedens-pm-kristersson-resigns-after-left-wing-wins-slim-majority-election?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T13:35:04.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Sweden’s conservative Prime Minister Ulf Kristersson announced his resignation on Thursday after …"
-        ],
-        "figures": [
-          {
-            "value": "10.6 million",
-            "context": "00 votes separated the two sides in the country of 10.6 million people."
-          }
-        ],
-        "wordsRead": 128
+        "wordsRead": 574
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "US House passes bill allowing 100% tariffs on India, other countries for buying Russian oil",
+            "url": "https://scroll.in/latest/1095804/us-house-passes-russia-sanctions-bill-allowing-100-tariffs-on-india-other-countries?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1181,17 +983,8 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Swedish PM Kristersson resigns after election loss",
-            "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "Sweden's centre-left win election as right wing bloc suffers narrow defeat",
-            "url": "https://www.euronews.com/my-europe/2026/09/17/swedens-centre-left-win-election-as-right-wing-bloc-suffers-narrow-defeat"
+            "headline": "India faces 100% tariff threat over Russian oil after US House vote",
+            "url": "https://www.bbc.co.uk/news/articles/c3lyrn4p870yo?at_medium=RSS&at_campaign=rss"
           }
         ],
         "status": "sourced",
@@ -1200,15 +993,225 @@
       {
         "side": "right",
         "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "US House",
+        "Russian",
+        "India"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "US House",
+            "Russian",
+            "India"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cli238u",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 5,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "maharashtra",
+          "crore",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T06:31:13.000Z",
+    "lastSeen": "2026-09-17T19:13:27.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "The Hindu",
+      "OpIndia"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.6522047994569014,
+      "max": 0.6522047994569014,
+      "pairs": 1
+    },
+    "sources": [
+      {
+        "n": "The Hindu",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Disha Salian’s father sends ₹500-crore defamation notice to Aaditya Thackeray",
+        "u": "https://www.thehindu.com/news/national/maharashtra/disha-salians-father-sends-500-crore-defamation-notice-to-aaditya-thackeray/article71477061.ece",
+        "publishedAt": "2026-09-17T19:13:27.000Z",
+        "retrievedAt": "2026-09-18T05:52:02.834Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Thackeray, the notice stated, “Being yourself specifically named as one of the principal offenders in the FIR complaint containing allegations of gang rape, murder, conspiracy and destruction/suppression of evidence, you …",
+          "Shiv Sena (UBT) president Uddhav Thackeray on Thursday (September 17, 2026) denied that his family had any connection with the …"
+        ],
+        "figures": [
+          {
+            "value": "₹500",
+            "context": "Disha Salian’s father, Satish Salian, has sent a ₹500-crore defamation notice to Shiv Sena (UBT) leader"
+          },
+          {
+            "value": "₹500",
+            "context": "probe into his daughter’s death. The notice seeks ₹500 crore in compensation for what it describes as “fa"
+          }
+        ],
+        "wordsRead": 519
+      },
+      {
+        "n": "OpIndia",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "‘Baseless, reckless’: Father of Disha Salian issues Rs 500 crore defamation notice to Aaditya Thackeray over discrediting his complaint as ‘politically motivated’",
+        "u": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/",
+        "publishedAt": "2026-09-17T06:31:13.000Z",
+        "retrievedAt": "2026-09-18T05:52:06.143Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Disha Salian’s father sends ₹500-crore defamation notice to Aaditya Thackeray",
+            "url": "https://www.thehindu.com/news/national/maharashtra/disha-salians-father-sends-500-crore-defamation-notice-to-aaditya-thackeray/article71477061.ece"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "OpIndia",
+            "outletId": "opindia",
             "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "Left bloc officially wins Swedish elections, PM resigns",
-            "url": "https://brusselssignal.eu/2026/09/left-bloc-officially-wins-swedish-elections-pm-resigns/"
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "‘Baseless, reckless’: Father of Disha Salian issues Rs 500 crore defamation notice to Aaditya Thackeray over discrediting his complaint as ‘politically motivated’",
+            "url": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/"
           }
         ],
         "status": "sourced",
@@ -1219,27 +1222,14 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "Sweden’s PM Kristersson resigns after left-wing wins slim majority in election",
-        "url": "https://www.scmp.com/news/world/europe/article/3367895/swedens-pm-kristersson-resigns-after-left-wing-wins-slim-majority-election?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Swedish PM Kristersson",
-        "PM Kristersson",
-        "Sweden's",
-        "Swedish",
-        "Sweden",
-        "Left"
+        "Aaditya Thackeray",
+        "Disha Salian",
+        "Baseless",
+        "Father"
       ],
       "attempts": [
         {
@@ -1312,30 +1302,7 @@
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
-    "disputedCandidates": [
-      {
-        "kind": "count",
-        "about": [
-          "votes",
-          "separated",
-          "country"
-        ],
-        "spread": 0.995,
-        "readings": [
-          {
-            "outlet": "Brussels Signal",
-            "value": "50,000",
-            "url": "https://brusselssignal.eu/2026/09/left-bloc-officially-wins-swedish-elections-pm-resigns/"
-          },
-          {
-            "outlet": "South China Morning Post",
-            "value": "10.6 million",
-            "url": "https://www.scmp.com/news/world/europe/article/3367895/swedens-pm-kristersson-resigns-after-left-wing-wins-slim-majority-election?utm_source=rss_feed"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
+    "disputedCandidates": [],
     "headline": null,
     "sub": null,
     "cat": null,
@@ -1350,9 +1317,23 @@
   {
     "id": "c1coa1d1",
     "regions": [
-      "Global",
-      "Europe"
+      "Europe",
+      "Global"
     ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 7
+      },
+      "matched": {
+        "Europe": [
+          "poland",
+          "warsaw",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
     "firstSeen": "2026-09-17T18:41:26.000Z",
     "lastSeen": "2026-09-18T02:00:13.000Z",
     "outletCount": 4,
@@ -1365,8 +1346,8 @@
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.36722409954387114,
-      "max": 0.6929745582932132,
+      "min": 0.36126412994057094,
+      "max": 0.6928537243368783,
       "pairs": 4
     },
     "sources": [
@@ -1380,7 +1361,7 @@
         "t": "Trump Says US Close To Base Expansion Deal With Poland, Potentially Escalating Tensions With Russia",
         "u": "https://dailycaller.com/2026/09/17/donald-trump-base-poland-russia-agression-karol-nawrocki",
         "publishedAt": "2026-09-17T20:12:06.000Z",
-        "retrievedAt": "2026-09-18T05:15:19.225Z",
+        "retrievedAt": "2026-09-18T05:51:53.402Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“When nations are unafraid, and when allies stand together, it is then that empires, even those with as long a tradition as the Soviet, Russian empire, begin to lose their …"
@@ -1398,7 +1379,7 @@
         "t": "Trump hails &#8216;major progress&#8217; towards permanent US base in Poland",
         "u": "https://brusselssignal.eu/2026/09/trump-hails-major-progress-towards-permanent-us-base-in-poland/",
         "publishedAt": "2026-09-18T02:00:13.000Z",
-        "retrievedAt": "2026-09-18T05:16:00.142Z",
+        "retrievedAt": "2026-09-18T05:52:21.034Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“This will be a historic step for our Great U.S./Polish Alliance,” Trump said.",
@@ -1418,7 +1399,7 @@
         "t": "Trump says ‘major progress’ towards US base in Poland",
         "u": "https://www.arabnews.com/world/trump-says-major-progress-towards-us-base-in-poland-3002149",
         "publishedAt": "2026-09-17T18:41:26.000Z",
-        "retrievedAt": "2026-09-18T05:16:08.879Z",
+        "retrievedAt": "2026-09-18T05:52:31.540Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Thanks to the bold leadership of my friend, Karol Nawrocki, President of Poland, major progress is being made toward establishing a US Army base in Poland,” Trump said on social …"
@@ -1436,7 +1417,7 @@
         "t": "Trump says ‘major progress’ made towards US base in Poland",
         "u": "https://www.scmp.com/news/world/united-states-canada/article/3367911/trump-says-major-progress-made-towards-us-base-poland?utm_source=rss_feed",
         "publishedAt": "2026-09-17T20:01:22.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
+        "retrievedAt": "2026-09-18T05:52:35.047Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Thanks to the bold leadership of my friend, Karol Nawrocki, President …"
@@ -1616,984 +1597,29 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c15drqa8",
-    "regions": [
-      "Global",
-      "Europe"
-    ],
-    "firstSeen": "2026-09-17T19:38:04.000Z",
-    "lastSeen": "2026-09-18T02:13:39.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.3713804676950801,
-      "max": 0.6476744482598314,
-      "pairs": 5
-    },
-    "sources": [
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump administration approves sale of F-35 jets to Saudi Arabia",
-        "u": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
-        "publishedAt": "2026-09-17T21:38:17.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that is a force for …",
-          "The administration said the sale of the jets, the most advanced fighter aircraft the US has, would “not alter the …"
-        ],
-        "figures": [
-          {
-            "value": "$24.3bn",
-            "context": "-35 fighter jets to Saudi Arabia for an estimated $24.3bn. “This proposed sale will support the foreign pol"
-          }
-        ],
-        "wordsRead": 510
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia",
-        "publishedAt": "2026-09-17T19:38:04.000Z",
-        "retrievedAt": "2026-09-18T05:16:07.615Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This proposed sale will support the foreign policy and national security …"
-        ],
-        "figures": [
-          {
-            "value": "$24.3bn",
-            "context": "i Arabia in a package that will cost an estimated $24.3bn. Saudi Arabia had requested the purchase of 48 F-"
-          }
-        ],
-        "wordsRead": 114
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
-        "u": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
-        "publishedAt": "2026-09-18T02:13:39.000Z",
-        "retrievedAt": "2026-09-18T05:16:08.879Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T21:06:14.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The proposed sale will improve Saudi Arabia’s capability to deter current and …"
-        ],
-        "figures": [
-          {
-            "value": "US$24.3 billion",
-            "context": "The United States has approved a US$24.3 billion sale of 48 F-35 stealth warplanes to Saudi Arabia"
-          }
-        ],
-        "wordsRead": 129
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 4 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "Trump administration approves sale of F-35 jets to Saudi Arabia",
-        "url": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
-        "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Saudi Arabia",
-        "F-35",
-        "US State Department",
-        "Israeli",
-        "Trump"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Saudi Arabia",
-            "F-35",
-            "US State Department",
-            "Israeli",
-            "Trump"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1i8wr01",
-    "regions": [
-      "Global"
-    ],
-    "firstSeen": "2026-09-17T22:48:57.000Z",
-    "lastSeen": "2026-09-18T01:20:35.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Guardian US",
-      "Washington Examiner",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.5262146943676416,
-      "max": 0.6284445725775376,
-      "pairs": 3
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Man who sprayed Ilhan Omar with vinegar sentenced to 14 months",
-        "u": "https://www.theguardian.com/us-news/2026/sep/17/man-sentenced-ilhan-omar-vinegar-minneapolis",
-        "publishedAt": "2026-09-17T22:48:57.000Z",
-        "retrievedAt": "2026-09-18T05:15:07.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The sentencing memo said Kazmierczak had long struggled with alcohol abuse and had “a history of mental and emotional health concerns” and a string of health issues tied to his …",
-          "“This wasn’t a spur-of-the-moment act,” the US district judge Joan N Ericksen said before handing down the sentence, noting that Kazmierczak had secured tickets for the town hall weeks in …"
-        ],
-        "figures": [],
-        "wordsRead": 613
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Ilhan Omar sprayer sentenced to 14 months in prison for assault",
-        "u": "https://www.washingtonexaminer.com/news/justice/4732738/ilhan-omar-sprayer-sentence-prison-he-said-he-was-regretful/",
-        "publishedAt": "2026-09-17T22:51:23.000Z",
-        "retrievedAt": "2026-09-18T05:15:14.746Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Ilhan Omar (D-MN) earlier this year was sentenced to …"
-        ],
-        "figures": [],
-        "wordsRead": 93
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Man who assaulted US lawmaker Ilhan Omar sentenced to 14 months in prison",
-        "u": "https://www.arabnews.com/world/man-who-assaulted-us-lawmaker-ilhan-omar-sentenced-to-14-months-in-prison-3002176",
-        "publishedAt": "2026-09-18T01:20:35.000Z",
-        "retrievedAt": "2026-09-18T05:16:08.879Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Kazmierczak’s lawyer said he apologized to Omar at the hearing but declined to offer additional comment, citing Kazmierczak’s pending assault and threats …"
-        ],
-        "figures": [],
-        "wordsRead": 221
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Man who sprayed Ilhan Omar with vinegar sentenced to 14 months",
-            "url": "https://www.theguardian.com/us-news/2026/sep/17/man-sentenced-ilhan-omar-vinegar-minneapolis"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Ilhan Omar sprayer sentenced to 14 months in prison for assault",
-            "url": "https://www.washingtonexaminer.com/news/justice/4732738/ilhan-omar-sprayer-sentence-prison-he-said-he-was-regretful/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Man who assaulted US lawmaker Ilhan Omar sentenced to 14 months in prison",
-        "url": "https://www.arabnews.com/world/man-who-assaulted-us-lawmaker-ilhan-omar-sentenced-to-14-months-in-prison-3002176",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Ilhan Omar"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Ilhan Omar"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1ydyl0t",
-    "regions": [
-      "Global",
-      "Canada"
-    ],
-    "firstSeen": "2026-09-17T18:28:37.000Z",
-    "lastSeen": "2026-09-17T21:42:31.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Guardian US",
-      "Globe and Mail",
-      "Al Jazeera"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.4563121451638076,
-      "max": 0.508919684460192,
-      "pairs": 2
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Judge orders Trump administration to give 30 days’ notice before moving to demolish Kennedy Center",
-        "u": "https://www.theguardian.com/us-news/2026/sep/17/kennedy-center-changes-30-day-notice",
-        "publishedAt": "2026-09-17T18:28:37.000Z",
-        "retrievedAt": "2026-09-18T05:15:07.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I think that the Trump administration should certainly have recognition because, frankly, if we don’t do that, it’s going to close,” he told reporters in Charlotte, North Carolina.",
-          "Matt Floca, the centre’s executive director and chief operating officer, said in a court filing that the building had been closed for at least seven days to assess “acute risks …",
-          "“It’s in very, very bad shape, very dangerous shape,” he said."
-        ],
-        "figures": [
-          {
-            "value": "$257",
-            "context": "d has voted to close it for up to two years for a $257m renovation."
-          }
-        ],
-        "wordsRead": 822
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Kennedy Center must give 30 days’ notice before altering or demolishing building, judge rules",
-        "u": "https://www.theglobeandmail.com/world/article-kennedy-center-trump-renovation-demolition/",
-        "publishedAt": "2026-09-17T19:47:51.000Z",
-        "retrievedAt": "2026-09-18T05:15:20.892Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "District Judge Christopher Cooper said his ruling would “avoid any confusion on that score given more recent events,” including the sudden closure of the building to the public on Wednesday.",
-          "Matt Floca, the Kennedy Center’s executive director and chief operating officer, said he closed the iconic performing arts centre temporarily due to “acute risks to public safety resulting from continued …",
-          "It’ll end up being ripped down."
-        ],
-        "figures": [],
-        "wordsRead": 927
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US judge orders 30-day notice prior to any Kennedy Center physical changes",
-        "u": "https://www.aljazeera.com/news/2026/9/17/us-judge-orders-30-day-notice-prior-to-any-kennedy-center-physical-changes?traffic_source=rss",
-        "publishedAt": "2026-09-17T21:42:31.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A United States federal judge has ordered the Kennedy Center to provide 30 days’ notice before making major physical changes to the building, including demolition, after President Donald Trump said …"
-        ],
-        "figures": [],
-        "wordsRead": 320
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Judge orders Trump administration to give 30 days’ notice before moving to demolish Kennedy Center",
-            "url": "https://www.theguardian.com/us-news/2026/sep/17/kennedy-center-changes-30-day-notice"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Kennedy Center must give 30 days’ notice before altering or demolishing building, judge rules",
-            "url": "https://www.theglobeandmail.com/world/article-kennedy-center-trump-renovation-demolition/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "US judge orders 30-day notice prior to any Kennedy Center physical changes",
-        "url": "https://www.aljazeera.com/news/2026/9/17/us-judge-orders-30-day-notice-prior-to-any-kennedy-center-physical-changes?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Kennedy Center",
-        "Judge",
-        "Trump"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Kennedy Center",
-            "Judge",
-            "Trump"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1fbsqnl",
-    "regions": [
-      "Canada",
-      "Global"
-    ],
-    "firstSeen": "2026-09-17T17:12:46.000Z",
-    "lastSeen": "2026-09-18T04:16:28.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Globe and Mail",
-      "Al Jazeera",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.581013746024166,
-      "max": 0.7681812415220176,
-      "pairs": 3
-    },
-    "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "New cat species identified in Bolivian forest, first in more than a century",
-        "u": "https://www.theglobeandmail.com/world/article-new-cat-species-leopardus-tilcayo/",
-        "publishedAt": "2026-09-17T18:02:08.000Z",
-        "retrievedAt": "2026-09-18T05:15:20.892Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Its fur is light brown ... with irregularly shaped rosettes across its body,” said Paola Nogales-Ascarrunz, a National Geographic explorer and one of the authors of the study describing the …",
-          "Referring to the new species, Lescroart said, “Our information at this moment is limited to the two live individuals that we examined, and a small number of camera-trap records.”",
-          "Observing the Bolivian cat drew interest because “its characteristics did …"
-        ],
-        "figures": [],
-        "wordsRead": 709
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "New tiger cat species identified in Bolivia, first in over a century",
-        "u": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century?traffic_source=rss",
-        "publishedAt": "2026-09-18T04:16:28.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Its fur is light brown … with irregularly shaped rosettes across its body,” according to Paola Nogales-Ascarrunz, a National Geographic Explorer and one of the authors of the study describing …",
-          "Observing the Bolivian cat drew interest …"
-        ],
-        "figures": [],
-        "wordsRead": 370
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "New cat species identified in Bolivia, first in over a century",
-        "u": "https://www.scmp.com/news/world/americas/article/3367909/new-cat-species-identified-bolivia-first-over-century?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T17:12:46.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "It was found in Bolivia’s lush Yungas forest, a mountainous region where forests …"
-        ],
-        "figures": [],
-        "wordsRead": 132
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "New cat species identified in Bolivian forest, first in more than a century",
-            "url": "https://www.theglobeandmail.com/world/article-new-cat-species-leopardus-tilcayo/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "New tiger cat species identified in Bolivia, first in over a century",
-        "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "New cat species identified in Bolivia, first in over a century",
-        "url": "https://www.scmp.com/news/world/americas/article/3367909/new-cat-species-identified-bolivia-first-over-century?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Bolivia",
-        "Bolivian"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
     "id": "c1mn5mfu",
     "regions": [
-      "Canada",
       "Europe",
       "Global"
     ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 10
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "kosovo",
+          "serbia",
+          "the hague",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
     "firstSeen": "2026-09-16T12:28:01.000Z",
     "lastSeen": "2026-09-18T00:00:00.000Z",
     "outletCount": 3,
@@ -2605,8 +1631,8 @@
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3849498285384156,
-      "max": 0.47981767489661487,
+      "min": 0.39085132076345147,
+      "max": 0.4822335479211315,
       "pairs": 2
     },
     "sources": [
@@ -2620,7 +1646,7 @@
         "t": "Hague court sentences Kosovo’s former president Hashim Thaci to 25 years for war crimes",
         "u": "https://www.theglobeandmail.com/world/article-kosovo-former-president-hashim-thaci-sentenced-war-crimes/",
         "publishedAt": "2026-09-16T12:28:01.000Z",
-        "retrievedAt": "2026-09-18T05:15:20.892Z",
+        "retrievedAt": "2026-09-18T05:51:55.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Presiding Judge Charles Smith said Thaci actively participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
@@ -2640,7 +1666,7 @@
         "t": "Shock in Kosovo as Hague convicts former President Thaci",
         "u": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf",
         "publishedAt": "2026-09-16T15:59:00.000Z",
-        "retrievedAt": "2026-09-18T05:15:55.360Z",
+        "retrievedAt": "2026-09-18T05:52:15.538Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"The conviction of the former KLA leaders is a terrible judgment for Kosovo, for our liberation war,\" said Foreign Minister Glauk Konjufca, who was present in the courtroom in The …",
@@ -2660,7 +1686,7 @@
         "t": "Court convicts ex-Kosovo leader",
         "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864485",
         "publishedAt": "2026-09-18T00:00:00.000Z",
-        "retrievedAt": "2026-09-18T05:16:14.140Z",
+        "retrievedAt": "2026-09-18T05:52:38.311Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Presiding Judge Charles Smith said that Thaci participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
@@ -2824,25 +1850,38 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cf51sas",
+    "id": "cuxo9g3",
     "regions": [
       "Europe",
       "Global"
     ],
-    "firstSeen": "2026-09-17T19:16:18.000Z",
-    "lastSeen": "2026-09-18T04:27:18.000Z",
-    "outletCount": 3,
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 7
+      },
+      "matched": {
+        "Europe": [
+          "sweden",
+          "stockholm",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T14:00:50.000Z",
+    "lastSeen": "2026-09-18T00:09:32.000Z",
+    "outletCount": 2,
     "outlets": [
       "Euronews",
-      "Al Jazeera",
-      "Arab News"
+      "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3659055556242129,
-      "max": 0.43270862811634964,
-      "pairs": 2
+      "min": 0.5899290489331651,
+      "max": 0.5899290489331651,
+      "pairs": 1
     },
     "sources": [
       {
@@ -2852,18 +1891,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "UN Security Council fails to adopt US-backed Iran sanctions resolution after Russia and China vetoes",
-        "u": "https://www.euronews.com/2026/09/18/russia-and-china-veto-us-backed-resolution-to-monitor-iran-nuclear-sanctions",
-        "publishedAt": "2026-09-18T04:27:18.000Z",
-        "retrievedAt": "2026-09-18T05:15:49.932Z",
+        "t": "Iran expels Swedish diplomat in tit-for-tat after Stockholm's move",
+        "u": "https://www.euronews.com/2026/09/17/iran-expels-swedish-diplomat-in-tit-for-tat-after-stockholm-move",
+        "publishedAt": "2026-09-17T14:00:50.000Z",
+        "retrievedAt": "2026-09-18T05:52:09.856Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Russia and China had strongly urged the US and its allies not to put the resolution to a vote, which would only increase tensions in the council, Nebenzia said, but …",
-          "According to the French UN Ambassador Jerome Bonnafont, the current council president, implementing sanctions is “a crucial instrument to encourage Iran” to return to its nuclear obligations.",
-          "According to Locetta, the vetoes are part of a broader effort to prevent …"
+          "Tehran summoned Sweden's ambassador and ordered one of its diplomats to leave within 48 hours after Stockholm expelled an Iranian embassy official for activities \"incompatible with the Vienna Convention.\""
         ],
         "figures": [],
-        "wordsRead": 710
+        "wordsRead": 311
       },
       {
         "n": "Al Jazeera",
@@ -2872,35 +1909,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Russia, China veto UN mandate to monitor Iran sanctions",
-        "u": "https://www.aljazeera.com/news/2026/9/17/russia-china-veto-un-mandate-to-monitor-iran-sanctions?traffic_source=rss",
-        "publishedAt": "2026-09-17T21:01:41.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
+        "t": "Iran expels Swedish diplomat in retaliatory move",
+        "u": "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
+        "publishedAt": "2026-09-18T00:09:32.000Z",
+        "retrievedAt": "2026-09-18T05:52:28.524Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We strongly urge western ‌colleagues to stop their very dangerous actions on the Iran front, which threaten further complication of settling the crisis in the Persian Gulf,” Vassily ‌Nebenzia, Russia’s …",
-          "“Iran deeply appreciates Russia and China for their consistent and principled …"
+          "“Without doubt, this action by the Swedish government is the result of the influence of the Zionist regime and an effort to disrupt the normal activities of the Islamic Republic …"
         ],
         "figures": [],
-        "wordsRead": 424
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Russia, China end mandate for independent monitoring of UN sanctions on Iran",
-        "u": "https://www.arabnews.com/middle-east/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran-3002156",
-        "publishedAt": "2026-09-17T19:16:18.000Z",
-        "retrievedAt": "2026-09-18T05:16:08.879Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Without an independent panel of experts, this ‌council loses its principal source of impartial, evidence-based reporting ‌on sanctions violations, creating a monitoring gap that only benefits the Iranian regime and …"
-        ],
-        "figures": [],
-        "wordsRead": 346
+        "wordsRead": 303
       }
     ],
     "views": [
@@ -2921,8 +1939,8 @@
             "lean": "centre",
             "country": "EU",
             "evidenceIndex": 0,
-            "headline": "UN Security Council fails to adopt US-backed Iran sanctions resolution after Russia and China vetoes",
-            "url": "https://www.euronews.com/2026/09/18/russia-and-china-veto-us-backed-resolution-to-monitor-iran-nuclear-sanctions"
+            "headline": "Iran expels Swedish diplomat in tit-for-tat after Stockholm's move",
+            "url": "https://www.euronews.com/2026/09/17/iran-expels-swedish-diplomat-in-tit-for-tat-after-stockholm-move"
           }
         ],
         "status": "sourced",
@@ -2939,7 +1957,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
@@ -2948,8 +1966,333 @@
         "lean": "varies",
         "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Russia, China veto UN mandate to monitor Iran sanctions",
-        "url": "https://www.aljazeera.com/news/2026/9/17/russia-china-veto-un-mandate-to-monitor-iran-sanctions?traffic_source=rss",
+        "headline": "Iran expels Swedish diplomat in retaliatory move",
+        "url": "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Swedish",
+        "Iran",
+        "Stockholm's"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1jly4qo",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T19:38:04.000Z",
+    "lastSeen": "2026-09-18T02:13:39.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "Haaretz",
+      "Al Jazeera",
+      "Middle East Eye",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.3674832296403816,
+      "max": 0.654019584992821,
+      "pairs": 7
+    },
+    "sources": [
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. clears way for $24.3 billion F-35 sale to Saudi Arabia",
+        "u": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000",
+        "publishedAt": "2026-09-17T21:08:58.000Z",
+        "retrievedAt": "2026-09-18T05:52:24.301Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+        "u": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
+        "publishedAt": "2026-09-17T21:38:17.000Z",
+        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that is a force for …",
+          "The administration said the sale of the jets, the most advanced fighter aircraft the US has, would “not alter the …"
+        ],
+        "figures": [
+          {
+            "value": "$24.3bn",
+            "context": "-35 fighter jets to Saudi Arabia for an estimated $24.3bn. “This proposed sale will support the foreign pol"
+          }
+        ],
+        "wordsRead": 510
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US says it will sell up to 48 F-35s to Saudi Arabia",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-will-sell-48-f-35s-saudi-arabia",
+        "publishedAt": "2026-09-18T00:46:14.000Z",
+        "retrievedAt": "2026-09-18T05:52:30.183Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This proposed sale will support the foreign policy and national …"
+        ],
+        "figures": [
+          {
+            "value": "$24.3bn",
+            "context": "opposed by Israel. The historic sale could total $24.3bn and would mark the first time an Arab state gains"
+          }
+        ],
+        "wordsRead": 100
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia",
+        "publishedAt": "2026-09-17T19:38:04.000Z",
+        "retrievedAt": "2026-09-18T05:52:30.183Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This proposed sale will support the foreign policy and national security …"
+        ],
+        "figures": [
+          {
+            "value": "$24.3bn",
+            "context": "i Arabia in a package that will cost an estimated $24.3bn. Saudi Arabia had requested the purchase of 48 F-"
+          }
+        ],
+        "wordsRead": 114
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
+        "u": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
+        "publishedAt": "2026-09-18T02:13:39.000Z",
+        "retrievedAt": "2026-09-18T05:52:31.540Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The proposed F-35 sale reflects the strength and enduring nature of the Saudi-US strategic partnership and the continued advancement of our defense cooperation,” the embassy said in a post on …",
+          "“For decades, Saudi-US security cooperation has contributed to regional stability, strengthened our collective defense capabilities, and advanced our shared security interests,” it added.",
+          "Lockheed Martin says 20 nations are participating in the …"
+        ],
+        "figures": [
+          {
+            "value": "$24.3 billion",
+            "context": "er the US Department of State approved a possible $24.3 billion Foreign Military Sale to Saudi Arabia involving 4"
+          }
+        ],
+        "wordsRead": 636
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
+        "publishedAt": "2026-09-17T21:06:14.000Z",
+        "retrievedAt": "2026-09-18T05:52:35.047Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The proposed sale will improve Saudi Arabia’s capability to deter current and …"
+        ],
+        "figures": [
+          {
+            "value": "US$24.3 billion",
+            "context": "The United States has approved a US$24.3 billion sale of 48 F-35 stealth warplanes to Saudi Arabia"
+          }
+        ],
+        "wordsRead": 129
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 0,
+            "headline": "U.S. clears way for $24.3 billion F-35 sale to Saudi Arabia",
+            "url": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "US says it will sell up to 48 F-35s to Saudi Arabia",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-will-sell-48-f-35s-saudi-arabia"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 3,
+            "headline": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (left)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+        "url": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2957,20 +2300,31 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran",
-        "url": "https://www.arabnews.com/middle-east/russia-china-end-mandate-for-independent-monitoring-of-un-sanctions-on-iran-3002156",
+        "evidenceIndex": 4,
+        "headline": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
+        "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Russia",
-        "China",
-        "Iran",
-        "UN Security Council",
-        "US-backed Iran"
+        "Saudi Arabia",
+        "F-35",
+        "US State Department",
+        "Israeli",
+        "Trump",
+        "F-35s"
       ],
       "attempts": [
         {
@@ -2979,11 +2333,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Russia",
-            "China",
-            "Iran",
-            "UN Security Council",
-            "US-backed Iran"
+            "Saudi Arabia",
+            "F-35",
+            "US State Department",
+            "Israeli",
+            "Trump",
+            "F-35s"
           ]
         },
         {
@@ -3063,26 +2418,96 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1fjwa1t",
+    "id": "c1t7z2re",
     "regions": [
       "Global"
     ],
-    "firstSeen": "2026-09-17T19:03:27.000Z",
-    "lastSeen": "2026-09-18T04:11:25.000Z",
-    "outletCount": 3,
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T11:08:29.000Z",
+    "lastSeen": "2026-09-18T05:26:51.000Z",
+    "outletCount": 5,
     "outlets": [
+      "NPR",
+      "BBC News",
+      "Globe and Mail",
       "Al Jazeera",
-      "Arab News",
-      "South China Morning Post"
+      "Middle East Eye"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.367990416582872,
-      "max": 0.3817763855547729,
-      "pairs": 2
+      "min": 0.38405876782152987,
+      "max": 0.45314258566637494,
+      "pairs": 7
     },
     "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
+        "u": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
+        "publishedAt": "2026-09-17T12:33:36.000Z",
+        "retrievedAt": "2026-09-18T05:51:42.695Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+        "u": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T20:34:30.000Z",
+        "retrievedAt": "2026-09-18T05:51:44.060Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "They said killings by security forces occurred on \"a staggering and unprecedented scale\" across all 31 provinces.",
+          "\"Civilians in Iran are caught between gross human rights violations and crimes against humanity committed by their own government and the nation&#x27;s deadly conflict with the United States and Israel,\" …",
+          "The US previously denied striking Lamerd and said it was investigating what happened in Minab."
+        ],
+        "figures": [],
+        "wordsRead": 933
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
+        "u": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/",
+        "publishedAt": "2026-09-17T11:08:29.000Z",
+        "retrievedAt": "2026-09-18T05:51:55.152Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Our investigation remains ongoing, and we have nothing to announce at the moment,” it said in a statement.",
+          "White House spokeswoman Anna Kelly said in response to the report that the UN Human Rights Council had “accomplished nothing for human rights,” adding that Iran was the only party …",
+          "A UN fact-finding mission on Iran said on Thursday it had reasonable grounds to believe the United States was behind two military strikes on a school …"
+        ],
+        "figures": [],
+        "wordsRead": 750
+      },
       {
         "n": "Al Jazeera",
         "b": "varies",
@@ -3090,22 +2515,324 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US approves visas for top Iranian leaders to attend UN General Assembly",
-        "u": "https://www.aljazeera.com/news/2026/9/17/us-approves-visas-for-top-iranian-leaders-to-attend-un-general-assembly?traffic_source=rss",
-        "publishedAt": "2026-09-17T21:20:57.000Z",
-        "retrievedAt": "2026-09-18T05:16:05.942Z",
+        "t": "UN mission alleges crimes against humanity in Iranian protest crackdown",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
+        "publishedAt": "2026-09-18T05:26:51.000Z",
+        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN findings show US strikes on Minab could be war crimes",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
+        "publishedAt": "2026-09-18T01:58:53.000Z",
+        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "White House rejects UN report on potential US war crimes in Iran",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran",
+        "publishedAt": "2026-09-17T21:11:42.000Z",
+        "retrievedAt": "2026-09-18T05:52:30.183Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,” the State Department spokesman said.",
-          "Without explicitly naming President Abbas, the State Department announced a broader visa ban targeting officials from the …"
+          "US spokesperson Anna Kelly said the UN’s Human Rights …"
         ],
-        "figures": [
+        "figures": [],
+        "wordsRead": 90
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
           {
-            "value": "20 percent",
-            "context": "on of the vital chokepoint — which handles roughly 20 percent of global seaborne energy transit — has sent glob"
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
+            "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 5,
+            "headline": "White House rejects UN report on potential US war crimes in Iran",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran"
           }
         ],
-        "wordsRead": 462
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+            "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
+            "url": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 3,
+        "headline": "UN mission alleges crimes against humanity in Iranian protest crackdown",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 4,
+        "headline": "UN findings show US strikes on Minab could be war crimes",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Iran",
+        "U.N.-backed",
+        "White House",
+        "Iranian",
+        "Tehran",
+        "Minab"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Iran",
+            "U.N.-backed",
+            "White House",
+            "Iranian",
+            "Tehran",
+            "Minab"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cmi3agg",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T02:23:31.000Z",
+    "lastSeen": "2026-09-18T04:11:25.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Haaretz",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.37952114864332365,
+      "max": 0.6253188023832755,
+      "pairs": 4
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+        "u": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T21:41:19.000Z",
+        "retrievedAt": "2026-09-18T05:51:44.060Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,\" a spokesman for the US State …",
+          "State Department Spokesman Tommy Pigott said the US would prevent the diplomats from \"going on shopping …"
+        ],
+        "figures": [],
+        "wordsRead": 476
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000",
+        "publishedAt": "2026-09-18T02:04:45.000Z",
+        "retrievedAt": "2026-09-18T05:52:24.301Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Judea and Samaria District Police said it had arrested an Israeli suspected of involvement in an \"arson and assault incident.\"",
+          "President Donald Trump told Axios he faces a \"big decision\" over whether to resume major attacks against Iran, saying he must decide whether to \"annihilate\" his Iranian foes.",
+          "According to the ministry, 4,386 people have been killed and 12,407 wounded between March 2 and September 17."
+        ],
+        "figures": [],
+        "wordsRead": 870
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000",
+        "publishedAt": "2026-09-17T02:23:31.000Z",
+        "retrievedAt": "2026-09-18T05:52:24.301Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"If the PA wants to be treated as a partner, it must stop subsidizing terror and stop using diplomatic theater as ⁠a substitute for serious governance,\" Deputy US Ambassador to …",
+          "Without naming specific officials, the US State Department said on Wednesday it would extend visa sanctions against Palestinian officials over actions they took to \"internationalize ⁠the Israeli-Palestinian conflict,\" including pursuing …",
+          "\"I have a big decision coming up."
+        ],
+        "figures": [],
+        "wordsRead": 1623
       },
       {
         "n": "Arab News",
@@ -3114,16 +2841,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US allows Iran delegation to attend UN assembly: official",
-        "u": "https://www.arabnews.com/world/us-allows-iran-delegation-to-attend-un-assembly-official-3002154",
-        "publishedAt": "2026-09-17T19:03:27.000Z",
-        "retrievedAt": "2026-09-18T05:16:08.879Z",
+        "t": "UN allows Palestinian president to again speak via video after US denies visa",
+        "u": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
+        "publishedAt": "2026-09-17T19:37:10.000Z",
+        "retrievedAt": "2026-09-18T05:52:31.540Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,” the State Department spokesman said."
+          "“If the PA wants to be ‌treated as a partner, it must stop subsidizing terror and stop using diplomatic theater as a substitute for serious governance,” Deputy …"
         ],
         "figures": [],
-        "wordsRead": 312
+        "wordsRead": 278
       },
       {
         "n": "South China Morning Post",
@@ -3135,7 +2862,7 @@
         "t": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
         "u": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
         "publishedAt": "2026-09-18T04:11:25.000Z",
-        "retrievedAt": "2026-09-18T05:16:12.815Z",
+        "retrievedAt": "2026-09-18T05:52:35.047Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The State Department said Thursday that it had approved visas for Iran’s “core delegation”, along …"
@@ -3148,8 +2875,303 @@
       {
         "side": "left",
         "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 1,
+            "headline": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+            "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
         "outlets": [],
         "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "UN allows Palestinian president to again speak via video after US denies visa",
+        "url": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "New York",
+        "Iranian",
+        "UN General Assembly",
+        "Palestinian",
+        "Abbas",
+        "Iran"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "New York",
+            "Iranian",
+            "UN General Assembly",
+            "Palestinian",
+            "Abbas",
+            "Iran"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cr6uqej",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {}
+    },
+    "firstSeen": "2026-09-17T17:53:55.000Z",
+    "lastSeen": "2026-09-18T01:23:44.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Guardian US",
+      "The Daily Caller",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.3907705337090224,
+      "max": 0.7242460642802434,
+      "pairs": 4
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
+        "u": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn",
+        "publishedAt": "2026-09-17T17:53:55.000Z",
+        "retrievedAt": "2026-09-18T05:51:40.995Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Trump initially announced Schroyer’s nomination in June, calling him “a PATRIOT with real operational experience, and proven leader with DECADES of experience locking up the worst of the worst”.",
+          "Unnamed DHS employees told Politico in August they didn’t want Schroyer to take over and implement …"
+        ],
+        "figures": [],
+        "wordsRead": 459
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
+        "u": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration",
+        "publishedAt": "2026-09-17T18:49:21.000Z",
+        "retrievedAt": "2026-09-18T05:51:53.402Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The Senate must CONFIRM Lance, IMMEDIATELY — Do not delay,” Trump said in late June.",
+          "“I just wonder if someone who applauds violence against their political opponents is the right …"
+        ],
+        "figures": [],
+        "wordsRead": 309
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "White House withdraws Lance Schroyer’s nomination to lead ICE",
+        "u": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
+        "publishedAt": "2026-09-18T01:23:44.000Z",
+        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "When announcing Schroyer’s nomination in June, Trump said on Truth Social that he had “firsthand experience getting Illegal Aliens OFF our streets” and called on the Senate to confirm him …",
+          "The withdrawal was announced …"
+        ],
+        "figures": [],
+        "wordsRead": 359
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "White House pulls Trump nominee to head ICE",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
+        "publishedAt": "2026-09-17T23:07:17.000Z",
+        "retrievedAt": "2026-09-18T05:52:35.047Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In a brief statement on its website, the …"
+        ],
+        "figures": [],
+        "wordsRead": 84
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
+            "url": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -3162,15 +3184,24 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
+            "url": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 0 of 3 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
       {
@@ -3178,19 +3209,9 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "US approves visas for top Iranian leaders to attend UN General Assembly",
-        "url": "https://www.aljazeera.com/news/2026/9/17/us-approves-visas-for-top-iranian-leaders-to-attend-un-general-assembly?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "US allows Iran delegation to attend UN assembly: official",
-        "url": "https://www.arabnews.com/world/us-allows-iran-delegation-to-attend-un-assembly-official-3002154",
+        "evidenceIndex": 2,
+        "headline": "White House withdraws Lance Schroyer’s nomination to lead ICE",
+        "url": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -3198,19 +3219,21 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
+        "evidenceIndex": 3,
+        "headline": "White House pulls Trump nominee to head ICE",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Iranian",
-        "UN General Assembly",
-        "New York",
-        "Iran"
+        "White House",
+        "Lance Schroyer",
+        "Nominee After GOP Senator",
+        "Blocks Confirmation Vote",
+        "White House Pulls ICE",
+        "Trump"
       ],
       "attempts": [
         {
@@ -3219,10 +3242,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Iranian",
-            "UN General Assembly",
-            "New York",
-            "Iran"
+            "White House",
+            "Lance Schroyer",
+            "Nominee After GOP Senator",
+            "Blocks Confirmation Vote",
+            "White House Pulls ICE",
+            "Trump"
           ]
         },
         {

@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-18T05:15:02.689Z",
-  "finishedAt": "2026-09-18T05:21:07.711Z",
+  "startedAt": "2026-09-18T05:51:36.513Z",
+  "finishedAt": "2026-09-18T05:57:43.919Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -8,25 +8,54 @@
     "minOutlets": 2,
     "articles": true,
     "maxStories": 12,
+    "quotas": {
+      "Canada": 3,
+      "India": 3,
+      "Europe": 3,
+      "Global": 3
+    },
     "dryRun": false
   },
   "counts": {
-    "rssItems": 927,
-    "totalItems": 925,
-    "clusters": 860,
+    "rssItems": 1075,
+    "totalItems": 1073,
+    "clusters": 994,
     "candidates": 12,
-    "articlesRead": 40
+    "articlesRead": 36
   },
   "balance": {
-    "left": 6,
-    "centre": 7,
-    "right": 5,
-    "none": 1
+    "left": 8,
+    "centre": 8,
+    "right": 4,
+    "none": 0
+  },
+  "regionFill": {
+    "Canada": {
+      "quota": 3,
+      "filled": 2,
+      "availableInRegion": 2
+    },
+    "India": {
+      "quota": 3,
+      "filled": 3,
+      "availableInRegion": 3
+    },
+    "Europe": {
+      "quota": 3,
+      "filled": 3,
+      "availableInRegion": 6
+    },
+    "Global": {
+      "quota": 3,
+      "filled": 3,
+      "availableInRegion": 41
+    }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "21 multi-outlet clusters were left out by --max-stories 12."
+    "GDELT \"India policy\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "29 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -43,8 +72,20 @@
     },
     {
       "layer": "discovery",
+      "source": "Toronto Star",
+      "id": "torstar",
+      "reason": "feed url not verified yet; skipped"
+    },
+    {
+      "layer": "discovery",
       "source": "CBC News",
       "id": "cbc",
+      "reason": "feed url not verified yet; skipped"
+    },
+    {
+      "layer": "discovery",
+      "source": "Western Standard",
+      "id": "westernstd",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -85,12 +126,6 @@
     },
     {
       "layer": "discovery",
-      "source": "Focus Taiwan (CNA)",
-      "id": "focustaiwan",
-      "reason": "feed url not verified yet; skipped"
-    },
-    {
-      "layer": "discovery",
       "source": "Reuters",
       "id": "reuters",
       "reason": "no feed url in the roster"
@@ -110,13 +145,6 @@
     },
     {
       "layer": "discovery",
-      "source": "Toronto Star",
-      "id": "torstar",
-      "url": "https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc",
-      "reason": "robots.txt disallows https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc"
-    },
-    {
-      "layer": "discovery",
       "source": "Le Devoir",
       "id": "ledevoir",
       "url": "https://www.ledevoir.com/rss/manchettes.xml",
@@ -124,14 +152,7 @@
     },
     {
       "layer": "discovery",
-      "source": "Haaretz",
-      "id": "haaretz",
-      "url": "https://www.haaretz.com/cmlink/1.4605102",
-      "reason": "robots.txt disallows https://www.haaretz.com/cmlink/1.4605102"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: Canada federal",
       "reason": "HTTP 429"
     },
     {
@@ -153,6 +174,24 @@
     },
     {
       "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "NPR",
       "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
       "reason": "timeout after 20000ms"
@@ -160,14 +199,14 @@
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
-      "reason": "HTTP 403"
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
