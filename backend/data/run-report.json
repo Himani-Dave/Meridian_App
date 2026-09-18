@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-18T04:59:15.929Z",
-  "finishedAt": "2026-09-18T05:05:11.699Z",
+  "startedAt": "2026-09-18T05:15:02.689Z",
+  "finishedAt": "2026-09-18T05:21:07.711Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -11,21 +11,22 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 642,
-    "totalItems": 642,
-    "clusters": 581,
+    "rssItems": 927,
+    "totalItems": 925,
+    "clusters": 860,
     "candidates": 12,
-    "articlesRead": 29
+    "articlesRead": 40
   },
   "balance": {
-    "left": 7,
-    "centre": 10,
-    "right": 4,
-    "none": 0
+    "left": 6,
+    "centre": 7,
+    "right": 5,
+    "none": 1
   },
   "starvedSides": [],
   "notes": [
-    "18 multi-outlet clusters were left out by --max-stories 12."
+    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "21 multi-outlet clusters were left out by --max-stories 12."
   ],
   "failures": [
     {
@@ -102,24 +103,10 @@
     },
     {
       "layer": "discovery",
-      "source": "Guardian US",
-      "id": "guardian-us",
-      "url": "https://www.theguardian.com/us-news/rss",
-      "reason": "robots.txt disallows https://www.theguardian.com/us-news/rss"
-    },
-    {
-      "layer": "discovery",
       "source": "Axios",
       "id": "axios",
       "url": "https://api.axios.com/feed/",
       "reason": "robots.txt disallows https://api.axios.com/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "New York Post",
-      "id": "nypost",
-      "url": "https://nypost.com/feed/",
-      "reason": "robots.txt disallows https://nypost.com/feed/"
     },
     {
       "layer": "discovery",
@@ -130,13 +117,6 @@
     },
     {
       "layer": "discovery",
-      "source": "The Hub",
-      "id": "thehub-ca",
-      "url": "https://thehub.ca/feed/",
-      "reason": "robots.txt disallows https://thehub.ca/feed/"
-    },
-    {
-      "layer": "discovery",
       "source": "Le Devoir",
       "id": "ledevoir",
       "url": "https://www.ledevoir.com/rss/manchettes.xml",
@@ -144,81 +124,20 @@
     },
     {
       "layer": "discovery",
-      "source": "The Hindu",
-      "id": "thehindu",
-      "url": "https://www.thehindu.com/news/national/feeder/default.rss",
-      "reason": "robots.txt disallows https://www.thehindu.com/news/national/feeder/default.rss"
-    },
-    {
-      "layer": "discovery",
-      "source": "Organiser",
-      "id": "organiser",
-      "url": "https://organiser.org/feed/",
-      "reason": "robots.txt disallows https://organiser.org/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "Politico Europe",
-      "id": "politico-eu",
-      "url": "https://www.politico.eu/feed/",
-      "reason": "robots.txt disallows https://www.politico.eu/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "EUobserver",
-      "id": "euobserver",
-      "url": "https://euobserver.com/feed/",
-      "reason": "robots.txt disallows https://euobserver.com/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "Le Figaro",
-      "id": "lefigaro",
-      "url": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
-      "reason": "robots.txt disallows https://www.lefigaro.fr/rss/figaro_actualites.xml"
-    },
-    {
-      "layer": "discovery",
-      "source": "FAZ",
-      "id": "faz",
-      "url": "https://www.faz.net/rss/aktuell/",
-      "reason": "robots.txt disallows https://www.faz.net/rss/aktuell/"
-    },
-    {
-      "layer": "discovery",
-      "source": "Al Jazeera",
-      "id": "aljazeera",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "reason": "robots.txt disallows https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "layer": "discovery",
-      "source": "Middle East Eye",
-      "id": "middleeasteye",
-      "url": "https://www.middleeasteye.net/rss",
-      "reason": "robots.txt disallows https://www.middleeasteye.net/rss"
-    },
-    {
-      "layer": "discovery",
-      "source": "South China Morning Post",
-      "id": "scmp",
-      "url": "https://www.scmp.com/rss/91/feed/",
-      "reason": "robots.txt disallows https://www.scmp.com/rss/91/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "source": "Haaretz",
+      "id": "haaretz",
+      "url": "https://www.haaretz.com/cmlink/1.4605102",
+      "reason": "robots.txt disallows https://www.haaretz.com/cmlink/1.4605102"
     },
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
@@ -234,75 +153,21 @@
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-09-18/ty-article/u-s-approves-visas-for-iranian-president-foreign-minister-to-attend-un-meeting/000001a0-b0c4-d5b2-a9ee-b2ce27dd0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-18/ty-article-opinion/daily-cartoon-september-18-2026/000001a0-b112-de67-a5a3-ff36003f0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-17/ty-article-opinion/daily-cartoon-september-17-2026/000001a0-ac0e-d91d-afeb-ec4e316a0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/opinion/daily-cartoon/2026-09-16/ty-article-opinion/daily-cartoon-september-16-2026/000001a0-a73f-d91d-afeb-ef7f50ac0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Deutsche Welle",
-      "url": "https://www.dw.com/en/serbian-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-world-4025-rdf",
-      "reason": "robots.txt: robots.txt disallows https://www.dw.com/en/serbian-president-vucic-criticizes-kosovo-war-crimes-verdict/a-79307654?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-      "layer": "article",
-      "source": "Deutsche Welle",
-      "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf",
-      "reason": "robots.txt: robots.txt disallows https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
       "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-eus-von-der-leyen-plans-ai-safety-discussions-with-tech-labs/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-discovery-of-nine-womens-bodies-raises-fears-of-serial-killer-in-south/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Deutsche Welle",
-      "url": "https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-world-4025-rdf",
-      "reason": "robots.txt: robots.txt disallows https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-world-4025-rdf"
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
+      "reason": "HTTP 403"
     }
   ]
 }
