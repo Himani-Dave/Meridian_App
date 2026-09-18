@@ -1,0 +1,115 @@
+# Meridian — one workflow, both jobs.
+#
+# Combined into a single file so it can be pasted into GitHub's web editor in
+# one go. Same behaviour as the two-file version.
+#
+# Ingest fires at 11:00 and 12:00 UTC and the gate drops whichever is not 07:00
+# in Toronto, so the run time survives the daylight-saving change.
+
+name: Meridian
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Which job to run"
+        type: choice
+        options: [validate, ingest]
+        default: validate
+  schedule:
+    - cron: "0 13 * * 1"   # weekly feed check, Mondays
+    - cron: "0 11 * * *"   # 07:00 EDT
+    - cron: "0 12 * * *"   # 07:00 EST
+
+permissions:
+  contents: write
+
+concurrency:
+  group: meridian
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      mode: ${{ steps.p.outputs.mode }}
+    steps:
+      - id: p
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.job }}"
+          elif [ "${{ github.event.schedule }}" = "0 13 * * 1" ]; then
+            MODE="validate"
+          elif [ "$(TZ=America/Toronto date +%H)" = "07" ]; then
+            MODE="ingest"
+          else
+            MODE="skip"   # the daylight-saving twin
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Running: $MODE"
+
+  run:
+    needs: gate
+    if: needs.gate.outputs.mode != 'skip'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+
+      - run: npm ci
+        working-directory: backend
+
+      # The rules are enforced by tests. Shipping data from a build where they
+      # fail is worse than not running.
+      - run: npm test
+        working-directory: backend
+
+      - name: Validate feeds
+        if: needs.gate.outputs.mode == 'validate'
+        continue-on-error: true      # a starved lean bucket must still leave its report
+        id: validate
+        run: node scripts/validate-feeds.js --discover --write
+
+      - name: Ingest
+        if: needs.gate.outputs.mode == 'ingest'
+        continue-on-error: true
+        id: ingest
+        working-directory: backend
+        run: node run.js
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Meridian — ${{ needs.gate.outputs.mode }}"
+            echo
+            [ -f config/feed-report.md ] && tail -n +2 config/feed-report.md
+            [ -f backend/data/run-report.json ] && {
+              echo '```json'
+              node -e 'const r=require("./backend/data/run-report.json");console.log(JSON.stringify({counts:r.counts,balance:r.balance,starved:r.starvedSides,failures:r.failures.length},null,1))'
+              echo '```'
+              echo "<details><summary>Retrieval failures</summary>"
+              node -e 'for(const f of require("./backend/data/run-report.json").failures)console.log("- "+f.source+": "+f.reason)'
+              echo "</details>"
+            }
+          } >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+
+      # Committed so the 08:00 composition session can read them over
+      # raw.githubusercontent.com, and so each run leaves an auditable trail.
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name meridian-bot
+          git config user.email meridian-bot@users.noreply.github.com
+          git add -A config/sources.json config/feed-report.md backend/data 2>/dev/null || true
+          git diff --staged --quiet || {
+            git commit -m "${{ needs.gate.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          }
+
+      - name: Fail if the run reported a problem
+        if: steps.validate.outcome == 'failure' || steps.ingest.outcome == 'failure'
+        run: |
+          echo "Read the summary before publishing this run."
+          exit 1
