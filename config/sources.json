@@ -425,8 +425,8 @@
       "country": "CA",
       "lean": "lean_left",
       "funding": "corporate",
-      "feed": "https://www.thestar.com/feed/",
-      "verified": false,
+      "feed": "https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc",
+      "verified": true,
       "feed_error": "HTTP 429",
       "feed_checked": "2026-09-18"
     },
@@ -437,8 +437,9 @@
       "lean": "centre",
       "funding": "public broadcaster",
       "feed": "https://www.cbc.ca/webfeed/rss/rss-world",
-      "verified": true,
-      "feed_checked": "2026-09-18"
+      "verified": false,
+      "feed_checked": "2026-09-18",
+      "feed_error": "timeout after 15000ms"
     },
     {
       "id": "globemail",
@@ -550,8 +551,9 @@
       "lean": "centre",
       "funding": "corporate (business)",
       "feed": "https://www.business-standard.com/rss/home_page_top_stories.rss",
-      "verified": true,
-      "feed_checked": "2026-09-18"
+      "verified": false,
+      "feed_checked": "2026-09-18",
+      "feed_error": "HTTP 403"
     },
     {
       "id": "swarajya",
@@ -610,7 +612,7 @@
       "country": "EU",
       "lean": "lean_left",
       "funding": "nonprofit",
-      "feed": "https://euobserver.com/feed",
+      "feed": "https://euobserver.com/feed/",
       "verified": true,
       "feed_checked": "2026-09-18"
     },
@@ -670,8 +672,8 @@
       "country": "IL",
       "lean": "left",
       "funding": "corporate",
-      "feed": "https://www.haaretz.com/srv/htz--all-articles",
-      "verified": false,
+      "feed": "https://www.haaretz.com/cmlink/1.4605102",
+      "verified": true,
       "feed_error": "HTTP 404",
       "feed_checked": "2026-09-18"
     },
