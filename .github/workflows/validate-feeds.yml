@@ -55,14 +55,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: "20" }
+        with: { node-version: "22" }
 
       - run: npm ci
         working-directory: backend
 
       # The rules are enforced by tests. Shipping data from a build where they
       # fail is worse than not running.
-      - run: npm test
+      # Run the tests directly rather than through the npm script, so this
+      # does not depend on how that script quotes its glob.
+      - run: node --test test/*.test.js
         working-directory: backend
 
       - name: Validate feeds
