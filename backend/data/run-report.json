@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-18T05:51:36.513Z",
-  "finishedAt": "2026-09-18T05:57:43.919Z",
+  "startedAt": "2026-09-18T16:26:33.474Z",
+  "finishedAt": "2026-09-18T16:31:05.517Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1075,
-    "totalItems": 1073,
-    "clusters": 994,
+    "rssItems": 1090,
+    "totalItems": 1087,
+    "clusters": 1012,
     "candidates": 12,
-    "articlesRead": 36
+    "articlesRead": 33
   },
   "balance": {
-    "left": 8,
-    "centre": 8,
-    "right": 4,
-    "none": 0
+    "left": 4,
+    "centre": 10,
+    "right": 1,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 41
+      "availableInRegion": 36
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"India policy\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "29 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -66,14 +66,14 @@
     },
     {
       "layer": "discovery",
-      "source": "Washington Times",
-      "id": "washtimes",
+      "source": "Axios",
+      "id": "axios",
       "reason": "feed url not verified yet; skipped"
     },
     {
       "layer": "discovery",
-      "source": "Toronto Star",
-      "id": "torstar",
+      "source": "Washington Times",
+      "id": "washtimes",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -84,8 +84,8 @@
     },
     {
       "layer": "discovery",
-      "source": "Western Standard",
-      "id": "westernstd",
+      "source": "Le Devoir",
+      "id": "ledevoir",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -132,27 +132,24 @@
     },
     {
       "layer": "discovery",
+      "source": "Toronto Star",
+      "id": "torstar",
+      "reason": "no feed url in the roster"
+    },
+    {
+      "layer": "discovery",
       "source": "Xinhua",
       "id": "xinhua",
       "reason": "no feed url in the roster"
     },
     {
       "layer": "discovery",
-      "source": "Axios",
-      "id": "axios",
-      "url": "https://api.axios.com/feed/",
-      "reason": "robots.txt disallows https://api.axios.com/feed/"
-    },
-    {
-      "layer": "discovery",
-      "source": "Le Devoir",
-      "id": "ledevoir",
-      "url": "https://www.ledevoir.com/rss/manchettes.xml",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
@@ -162,32 +159,44 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/",
+      "source": "Politico Europe",
+      "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/macron-orders-protection-of-frances-infrastructure-against-russian-hybrid-attacks-3002248",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/video-students-flee-deadly-school-shooting-in-the-philippines?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/yemen-fighting-displaces-112000-pushes-thousands-toward-djibouti-3002211",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/police-hit-migrants-with-batons-during-camp-transfer-in-ceuta?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000",
+      "url": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -195,18 +204,6 @@
       "source": "NPR",
       "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }

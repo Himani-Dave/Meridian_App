@@ -1,6 +1,6 @@
 [
   {
-    "id": "c1nsdhew",
+    "id": "c1yleri3",
     "regions": [
       "Canada",
       "Europe",
@@ -8,109 +8,48 @@
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 7,
+        "Canada": 12,
         "India": 0,
-        "Europe": 17
+        "Europe": 15
       },
       "matched": {
         "Canada": [
           "canada",
+          "ottawa",
           "carney",
+          "canadians",
+          "vancouver",
           "(an outlet from the region covered it)"
         ],
         "Europe": [
           "european union",
           "european commission",
-          "european parliament",
-          "brussels",
           "von der leyen",
+          "strasbourg",
+          "europe",
           "european",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-09-16T13:53:14.000Z",
-    "lastSeen": "2026-09-18T00:00:39.000Z",
-    "outletCount": 6,
+    "firstSeen": "2026-09-16T17:04:11.000Z",
+    "lastSeen": "2026-09-18T11:52:24.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Guardian US",
-      "NPR",
       "BBC News",
       "Globe and Mail",
-      "EUobserver",
-      "Brussels Signal"
+      "The Hub",
+      "Euronews"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3628917259999791,
-      "max": 0.4603835578096841,
-      "pairs": 9
+      "min": 0.3674109314794492,
+      "max": 0.44861731374561103,
+      "pairs": 3,
+      "prunedForCohesion": 2
     },
     "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US Federal Reserve raises interest rates for the first time since 2023",
-        "u": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
-        "publishedAt": "2026-09-16T21:01:39.000Z",
-        "retrievedAt": "2026-09-18T05:51:40.995Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump said the US would make “at least 1.5 Trillion Dollars a year” if it were to stop trading with countries with which it has a deficit.",
-          "“The plain fact is that inflation is too high and has been for too long,” Warsh said on Wednesday.",
-          "“There’s no hiding from hotspots around the world, and our judgment about what is the most likely or least likely of the geopolitical situation has changed,” he said."
-        ],
-        "figures": [
-          {
-            "value": "3.75%",
-            "context": "t rate by a quarter-percentage point to a range of 3.75% to 4%. This is the first time the Fed …"
-          },
-          {
-            "value": "4%",
-            "context": "a quarter-percentage point to a range of 3.75% to 4%. This is the first time the Fed has raised rates"
-          },
-          {
-            "value": "1%",
-            "context": "a Truth Social post that interest rates should be 1% or less and criticized the US trade deficit. Trum"
-          },
-          {
-            "value": "1.5 Trillion",
-            "context": "de deficit. Trump said the US would make “at least 1.5 Trillion Dollars a year” if it were to stop …"
-          }
-        ],
-        "wordsRead": 849
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
-        "u": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union",
-        "publishedAt": "2026-09-17T10:54:18.000Z",
-        "retrievedAt": "2026-09-18T05:51:42.695Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada's Carney welcomes the EU's bid for closer ties amid pressure from Trump",
-        "u": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament",
-        "publishedAt": "2026-09-17T08:43:44.000Z",
-        "retrievedAt": "2026-09-18T05:51:42.695Z",
-        "read": "headline and feed excerpt"
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -121,7 +60,7 @@
         "t": "Canada welcomes EU proposal to become 'associate member'",
         "u": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-09-17T12:27:18.000Z",
-        "retrievedAt": "2026-09-18T05:51:44.060Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Responding to Trump&#x27;s comments at a press conference following his address, Carney said: \"This alliance is a positive process, that&#x27;s my response to the American president.\"",
@@ -130,43 +69,6 @@
         ],
         "figures": [],
         "wordsRead": 656
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US interest rates raised for first time in three years",
-        "u": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-09-17T00:40:17.000Z",
-        "retrievedAt": "2026-09-18T05:51:44.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Fed Chair Kevin Warsh said the move was because \"inflation is too high and has been for too long\", adding that it was a \"sober\" and \"responsible decision\".",
-          "Trump told reporters later \"I&#x27;m relying on Kevin [Warsh], but he&#x27;s got, you know, a very tough board\".",
-          "While the Fed \"cannot affect any individual price – whether it be oil prices, whether it be food stuffs at the grocery store\", Warsh said, the central bank can work …"
-        ],
-        "figures": [
-          {
-            "value": "3.75%",
-            "context": "n a bid to slow rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a …"
-          },
-          {
-            "value": "4%",
-            "context": "to slow rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unani"
-          },
-          {
-            "value": "3.5%",
-            "context": "w rising prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unanimous decis"
-          },
-          {
-            "value": "3.75%",
-            "context": "ng prices. Rates were hiked to 3.75%-4% from 3.5%-3.75% by the Federal Reserve in a unanimous decision, d"
-          }
-        ],
-        "wordsRead": 835
       },
       {
         "n": "Globe and Mail",
@@ -178,7 +80,7 @@
         "t": "What does it mean for Canada to become EU’s first associate member?",
         "u": "https://www.theglobeandmail.com/canada/article-eu-canada-associate-member-what-does-that-mean/",
         "publishedAt": "2026-09-16T17:04:11.000Z",
-        "retrievedAt": "2026-09-18T05:51:55.152Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "In her speech, von der Leyen said the two sides would create a “common prosperity and economic space.”",
@@ -189,75 +91,50 @@
         "wordsRead": 594
       },
       {
-        "n": "EUobserver",
-        "b": "lean_left",
+        "n": "The Hub",
+        "b": "lean_right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Canada&#8217;s Carney gets the red carpet treatment and EU &#8216;associate member&#8217; offer",
-        "u": "https://euobserver.com/237814/canadas-carney-gets-the-red-carpet-treatment-and-eu-associate-member-offer/",
-        "publishedAt": "2026-09-16T13:53:14.000Z",
-        "retrievedAt": "2026-09-18T05:52:13.582Z",
-        "read": "headline and feed excerpt"
+        "t": "Carney pitches Canada as first EU associate member as Trump threatens tariffs on Europe",
+        "u": "https://thehub.ca/2026/09/18/carney-pitches-canada-as-first-eu-associate-member-as-trump-threatens-tariffs-on-europe/",
+        "publishedAt": "2026-09-18T11:52:24.000Z",
+        "retrievedAt": "2026-09-18T16:26:53.940Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Speaking to reporters in North Carolina, he said associate membership could amount to a hostile act if pursued with bad intentions, in which case he would “put very heavy tariffs …",
+          "“The gravest national security threat facing this country is not an over-reliance on U.S. military systems or an industrial base that’s starving for even more government funding; it is, rather …",
+          "A White House official said that order was unrelated to the EU overture."
+        ],
+        "figures": [],
+        "wordsRead": 1131
       },
       {
-        "n": "Brussels Signal",
-        "b": "right",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Carney welcomes EU &#8216;associate member&#8217; offer but leaves the terms to Brussels",
-        "u": "https://brusselssignal.eu/2026/09/carney-welcomes-eu-associate-member-offer-but-leaves-the-terms-to-brussels/",
-        "publishedAt": "2026-09-18T00:00:39.000Z",
-        "retrievedAt": "2026-09-18T05:52:21.034Z",
-        "read": "headline and feed excerpt"
+        "t": "Canadians react to EU's ‘associate member’ proposal",
+        "u": "https://www.euronews.com/video/2026/09/18/canadians-react-to-eus-associate-member-proposal",
+        "publishedAt": "2026-09-18T09:42:41.000Z",
+        "retrievedAt": "2026-09-18T16:27:04.965Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Carney said closer cooperation with Europe could …"
+        ],
+        "figures": [],
+        "wordsRead": 72
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "US Federal Reserve raises interest rates for the first time since 2023",
-            "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "The Fed raises interest rates. And, EU proposes Canada become an 'associate member'",
-            "url": "https://www.npr.org/2026/09/17/g-s1-143783/up-first-newsletter-federal-reserve-interest-rates-gas-prices-war-canada-european-union"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Canada's Carney welcomes the EU's bid for closer ties amid pressure from Trump",
-            "url": "https://www.npr.org/2026/09/17/nx-s1-5971428/with-invite-to-join-eu-bloc-canadas-prime-minister-speaks-to-european-parliament"
-          },
-          {
-            "outlet": "EUobserver",
-            "outletId": "euobserver",
-            "lean": "lean_left",
-            "country": "EU",
-            "evidenceIndex": 6,
-            "headline": "Canada&#8217;s Carney gets the red carpet treatment and EU &#8216;associate member&#8217; offer",
-            "url": "https://euobserver.com/237814/canadas-carney-gets-the-red-carpet-treatment-and-eu-associate-member-offer/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -269,27 +146,27 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 3,
+            "evidenceIndex": 0,
             "headline": "Canada welcomes EU proposal to become 'associate member'",
             "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 4,
-            "headline": "US interest rates raised for first time in three years",
-            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 5,
+            "evidenceIndex": 1,
             "headline": "What does it mean for Canada to become EU’s first associate member?",
             "url": "https://www.theglobeandmail.com/canada/article-eu-canada-associate-member-what-does-that-mean/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "Canadians react to EU's ‘associate member’ proposal",
+            "url": "https://www.euronews.com/video/2026/09/18/canadians-react-to-eus-associate-member-proposal"
           }
         ],
         "status": "sourced",
@@ -300,13 +177,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 7,
-            "headline": "Carney welcomes EU &#8216;associate member&#8217; offer but leaves the terms to Brussels",
-            "url": "https://brusselssignal.eu/2026/09/carney-welcomes-eu-associate-member-offer-but-leaves-the-terms-to-brussels/"
+            "outlet": "The Hub",
+            "outletId": "thehub-ca",
+            "lean": "lean_right",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Carney pitches Canada as first EU associate member as Trump threatens tariffs on Europe",
+            "url": "https://thehub.ca/2026/09/18/carney-pitches-canada-as-first-eu-associate-member-as-trump-threatens-tariffs-on-europe/"
           }
         ],
         "status": "sourced",
@@ -322,26 +199,18 @@
       "attempted": true,
       "terms": [
         "Canada",
+        "Canadians",
         "Carney",
-        "US Federal Reserve",
-        "Canada's Carney",
-        "Brussels",
-        "The Fed"
+        "Europe",
+        "Trump",
+        "What"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Canada",
-            "Carney",
-            "US Federal Reserve",
-            "Canada's Carney",
-            "Brussels",
-            "The Fed"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -420,96 +289,102 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1vpmo7s",
+    "id": "c1fm15dn",
     "regions": [
-      "Canada",
+      "India",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 4,
-        "India": 0,
+        "Canada": 0,
+        "India": 4,
         "Europe": 0
       },
       "matched": {
-        "Canada": [
-          "canada",
+        "India": [
+          "india",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-09-17T00:19:53.000Z",
-    "lastSeen": "2026-09-18T00:00:00.000Z",
+    "firstSeen": "2026-09-18T14:12:34.000Z",
+    "lastSeen": "2026-09-18T15:16:12.000Z",
     "outletCount": 2,
     "outlets": [
-      "Globe and Mail",
-      "Taipei Times"
+      "Scroll.in",
+      "Arab News"
     ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tier": "primary",
+    "tierBasis": "confirmed against 2 primary document(s)",
     "clustering": {
-      "min": 0.3623821878559187,
-      "max": 0.3623821878559187,
-      "pairs": 1
+      "min": 0.39270862808373846,
+      "max": 0.39270862808373846,
+      "pairs": 1,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump threatens EU with more tariffs if Canada joins",
-        "u": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/",
-        "publishedAt": "2026-09-17T00:19:53.000Z",
-        "retrievedAt": "2026-09-18T05:51:55.152Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
-        "publishedAt": "2026-09-18T00:00:00.000Z",
-        "retrievedAt": "2026-09-18T05:52:38.311Z",
+        "t": "NIA grants default bail to US citizen arrested for suspected links with Myanmar armed groups",
+        "u": "https://scroll.in/latest/1095843/nia-grants-default-bail-to-us-citizen-arrested-for-suspected-links-with-myanmar-armed-groups?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-09-18T14:12:34.000Z",
+        "retrievedAt": "2026-09-18T16:26:56.937Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“If they do that, if I think it’s at all a hostile act; I will put very serious tariffs or stop trading with Europe on many things,” Trump told reporters …",
-          "It may as well happen now,” he told reporters, adding that “the UK will have something to say about it, obviously.”",
-          "Yesterday, Seoul’s military detected “multiple short-range ballistic missiles launched from the Wonsan area toward the …"
+          "The far-right AfD just won big in Germany but most Indian migrants think they’re safe.",
+          "A Delhi court on Friday granted default bail to a United States citizen …"
         ],
         "figures": [],
-        "wordsRead": 676
+        "wordsRead": 281
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "India court grants bail to US citizen accused of illegal entry",
+        "u": "https://www.arabnews.com/world/india-court-grants-bail-to-us-citizen-accused-of-illegal-entry-3002252",
+        "publishedAt": "2026-09-18T15:16:12.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The NIA could not oppose the bail plea after 180 days of custody under the Foreigners Act,” Dandriyal said.",
+          "NEW DELHI: An Indian court granted bail on Friday to …"
+        ],
+        "figures": [],
+        "wordsRead": 294
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "NIA grants default bail to US citizen arrested for suspected links with Myanmar armed groups",
+            "url": "https://scroll.in/latest/1095843/nia-grants-default-bail-to-us-citizen-arrested-for-suspected-links-with-myanmar-armed-groups?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Trump threatens EU with more tariffs if Canada joins",
-            "url": "https://www.theglobeandmail.com/world/video-trump-threatens-eu-with-more-tariffs-if-canada-joins/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -527,487 +402,20 @@
     },
     "offAxis": [
       {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
         "evidenceIndex": 1,
-        "headline": "Trump derides EU’s Canada pitch, eyes more tariffs on bloc",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864488",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+        "headline": "India court grants bail to US citizen accused of illegal entry",
+        "url": "https://www.arabnews.com/world/india-court-grants-bail-to-us-citizen-accused-of-illegal-entry-3002252",
+        "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Canada",
-        "Trump"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1ln1pra",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 4,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "india",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-09-18T03:54:26.000Z",
-    "lastSeen": "2026-09-18T04:43:13.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "The Hindu",
-      "Focus Taiwan (CNA)"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.47239464025905215,
-      "max": 0.47239464025905215,
-      "pairs": 1
-    },
-    "sources": [
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "iPhone 18 Pro and iPhone 18 Pro Max go on sale in India",
-        "u": "https://www.thehindu.com/sci-tech/technology/iphone-18-pro-and-iphone-18-pro-max-go-on-sale-today-in-india/article71479309.ece",
-        "publishedAt": "2026-09-18T03:54:26.000Z",
-        "retrievedAt": "2026-09-18T05:52:02.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Apple on Friday commenced the sale of iPhone 18 Pro and iPhone 18 Pro Max in India.",
-          "Apple began selling the iPhone 18 Pro and iPhone 18 Pro Max in India …"
-        ],
-        "figures": [],
-        "wordsRead": 319
-      },
-      {
-        "n": "Focus Taiwan (CNA)",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Early buyers snap up iPhone 18 Pro models",
-        "u": "https://focustaiwan.tw/business/202609180007",
-        "publishedAt": "2026-09-18T04:43:13.000Z",
-        "retrievedAt": "2026-09-18T05:52:36.387Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"It was unexpected that with the development of AI, RAMs have gone so high in price,\" Hsu said.",
-          "Speaking with CNA, Hsu said he chose the 256GB iPhone 18 Pro Max and was most interested in the camera's new physical variable aperture feature.",
-          "Asked about the new model's launch price, which is about NT$5,000 (US$157) higher than its predecessor …"
-        ],
-        "figures": [
-          {
-            "value": "$5,000",
-            "context": "ut the new model's launch price, which is about NT$5,000 (US$157) higher than its predecessor, Hsu said the"
-          },
-          {
-            "value": "US$157",
-            "context": "ew model's launch price, which is about NT$5,000 (US$157) higher than its predecessor, Hsu said the cost w"
-          }
-        ],
-        "wordsRead": 597
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "iPhone 18 Pro and iPhone 18 Pro Max go on sale in India",
-            "url": "https://www.thehindu.com/sci-tech/technology/iphone-18-pro-and-iphone-18-pro-max-go-on-sale-today-in-india/article71479309.ece"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Focus Taiwan (CNA)",
-            "outletId": "focustaiwan",
-            "lean": "centre",
-            "country": "TW",
-            "evidenceIndex": 1,
-            "headline": "Early buyers snap up iPhone 18 Pro models",
-            "url": "https://focustaiwan.tw/business/202609180007"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Pro Max",
-        "India",
-        "Early"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1knqztr",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 4,
-        "Europe": 1
-      },
-      "matched": {
-        "India": [
-          "india",
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-09-17T05:33:29.000Z",
-    "lastSeen": "2026-09-17T05:49:06.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "BBC News",
-      "Scroll.in"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.3750426111737002,
-      "max": 0.3750426111737002,
-      "pairs": 1
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "India faces 100% tariff threat over Russian oil after US House vote",
-        "u": "https://www.bbc.co.uk/news/articles/c3lyrn4p870yo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-09-17T05:33:29.000Z",
-        "retrievedAt": "2026-09-18T05:51:44.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"China and India, you better buy your oil and gas somewhere else,\" Democratic Senator Richard Blumenthal told reporters , external after the passage of the bill.",
-          "India said in a statement that it was \"monitoring further developments on this matter\" and that it remained \"firmly committed to ensuring energy security\" for its people.",
-          "\"India should not allow US tariff threats to determine its energy policy,\" he says."
-        ],
-        "figures": [
-          {
-            "value": "100%",
-            "context": "to impose sanctions on Russia and tariffs of up to 100% on countries that buy Russian oil and gas. It …"
-          },
-          {
-            "value": "37%",
-            "context": "Russia&#x27;s crude exports, followed by India at 37%, Turkey at 5% and the EU at 5% between December 2"
-          },
-          {
-            "value": "5%",
-            "context": "crude exports, followed by India at 37%, Turkey at 5% and the EU at 5% between December 2022 and August"
-          },
-          {
-            "value": "5%",
-            "context": "llowed by India at 37%, Turkey at 5% and the EU at 5% between December 2022 and August 2026, according"
-          },
-          {
-            "value": "30.3%",
-            "context": "ch on Energy and Clean Air (CREA). Russia supplied 30.3% of India&#x27;s crude imports in fiscal 2026, wor"
-          },
-          {
-            "value": "$40.8bn",
-            "context": "India&#x27;s crude imports in fiscal 2026, worth $40.8bn out of a total crude import bill of $134.7bn, acc"
-          }
-        ],
-        "wordsRead": 1259
-      },
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US House passes bill allowing 100% tariffs on India, other countries for buying Russian oil",
-        "u": "https://scroll.in/latest/1095804/us-house-passes-russia-sanctions-bill-allowing-100-tariffs-on-india-other-countries?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-09-17T05:49:06.000Z",
-        "retrievedAt": "2026-09-18T05:52:01.135Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It will continue to do so through diversified sourcing and on the basis of evolving market dynamics,” it said.",
-          "The foreign ministry also said that during discussions with US interlocutors, the potential implications of the matter on the bilateral relationship as well as the international energy market “have been …",
-          "“The Indian side has also made clear …"
-        ],
-        "figures": [
-          {
-            "value": "100%",
-            "context": "President Donald Trump to impose tariffs of up to 100% on India and other countries that purchase Russia"
-          }
-        ],
-        "wordsRead": 574
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "US House passes bill allowing 100% tariffs on India, other countries for buying Russian oil",
-            "url": "https://scroll.in/latest/1095804/us-house-passes-russia-sanctions-bill-allowing-100-tariffs-on-india-other-countries?utm_source=rss&utm_medium=public"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "India faces 100% tariff threat over Russian oil after US House vote",
-            "url": "https://www.bbc.co.uk/news/articles/c3lyrn4p870yo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "US House",
-        "Russian",
+        "Myanmar",
         "India"
       ],
       "attempts": [
@@ -1015,10 +423,28 @@
           "source": "federal-register",
           "name": "US Federal Register",
           "attempted": true,
-          "found": [],
+          "found": [
+            {
+              "title": "Presidential Determination on Major Drug Transit or Major Illicit Drug Producing Countries for Fiscal Year 2027",
+              "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19251/presidential-determination-on-major-drug-transit-or-major-illicit-drug-producing-countries-for",
+              "published": "2026-09-18",
+              "publisher": "Executive Office of the President",
+              "docType": "Presidential Document",
+              "ref": "2026-19251",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Millennium Challenge Corporation Candidate Country Report for Fiscal Year 2027",
+              "url": "https://www.federalregister.gov/documents/2026/09/03/2026-17997/millennium-challenge-corporation-candidate-country-report-for-fiscal-year-2027",
+              "published": "2026-09-03",
+              "publisher": "Millennium Challenge Corporation",
+              "docType": "Notice",
+              "ref": "2026-17997",
+              "read": "metadata only — document not retrieved or read"
+            }
+          ],
           "terms": [
-            "US House",
-            "Russian",
+            "Myanmar",
             "India"
           ]
         },
@@ -1083,224 +509,29 @@
           "reason": "does not apply to this story's countries or terms"
         }
       ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cli238u",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 5,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "maharashtra",
-          "crore",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-09-17T06:31:13.000Z",
-    "lastSeen": "2026-09-17T19:13:27.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "The Hindu",
-      "OpIndia"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.6522047994569014,
-      "max": 0.6522047994569014,
-      "pairs": 1
-    },
-    "sources": [
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Disha Salian’s father sends ₹500-crore defamation notice to Aaditya Thackeray",
-        "u": "https://www.thehindu.com/news/national/maharashtra/disha-salians-father-sends-500-crore-defamation-notice-to-aaditya-thackeray/article71477061.ece",
-        "publishedAt": "2026-09-17T19:13:27.000Z",
-        "retrievedAt": "2026-09-18T05:52:02.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Thackeray, the notice stated, “Being yourself specifically named as one of the principal offenders in the FIR complaint containing allegations of gang rape, murder, conspiracy and destruction/suppression of evidence, you …",
-          "Shiv Sena (UBT) president Uddhav Thackeray on Thursday (September 17, 2026) denied that his family had any connection with the …"
-        ],
-        "figures": [
-          {
-            "value": "₹500",
-            "context": "Disha Salian’s father, Satish Salian, has sent a ₹500-crore defamation notice to Shiv Sena (UBT) leader"
-          },
-          {
-            "value": "₹500",
-            "context": "probe into his daughter’s death. The notice seeks ₹500 crore in compensation for what it describes as “fa"
-          }
-        ],
-        "wordsRead": 519
-      },
-      {
-        "n": "OpIndia",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "‘Baseless, reckless’: Father of Disha Salian issues Rs 500 crore defamation notice to Aaditya Thackeray over discrediting his complaint as ‘politically motivated’",
-        "u": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/",
-        "publishedAt": "2026-09-17T06:31:13.000Z",
-        "retrievedAt": "2026-09-18T05:52:06.143Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "Disha Salian’s father sends ₹500-crore defamation notice to Aaditya Thackeray",
-            "url": "https://www.thehindu.com/news/national/maharashtra/disha-salians-father-sends-500-crore-defamation-notice-to-aaditya-thackeray/article71477061.ece"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "OpIndia",
-            "outletId": "opindia",
-            "lean": "right",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "‘Baseless, reckless’: Father of Disha Salian issues Rs 500 crore defamation notice to Aaditya Thackeray over discrediting his complaint as ‘politically motivated’",
-            "url": "https://www.opindia.com/2026/09/disha-salian-father-defamation-notice-shiv-sena-ubt-aaditya-thackeray-details/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Aaditya Thackeray",
-        "Disha Salian",
-        "Baseless",
-        "Father"
-      ],
-      "attempts": [
+      "primary": [
         {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "title": "Presidential Determination on Major Drug Transit or Major Illicit Drug Producing Countries for Fiscal Year 2027",
+          "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19251/presidential-determination-on-major-drug-transit-or-major-illicit-drug-producing-countries-for",
+          "published": "2026-09-18",
+          "publisher": "Executive Office of the President",
+          "docType": "Presidential Document",
+          "ref": "2026-19251",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
         },
         {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "title": "Millennium Challenge Corporation Candidate Country Report for Fiscal Year 2027",
+          "url": "https://www.federalregister.gov/documents/2026/09/03/2026-17997/millennium-challenge-corporation-candidate-country-report-for-fiscal-year-2027",
+          "published": "2026-09-03",
+          "publisher": "Millennium Challenge Corporation",
+          "docType": "Notice",
+          "ref": "2026-17997",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
         }
       ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+      "gap": null
     },
     "disputedCandidates": [],
     "headline": null,
@@ -1315,7 +546,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1coa1d1",
+    "id": "c1xm34z2",
     "regions": [
       "Europe",
       "Global"
@@ -1324,70 +555,87 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 7
+        "Europe": 8
       },
       "matched": {
         "Europe": [
-          "poland",
-          "warsaw",
+          "france",
+          "ukraine",
+          "europe",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-09-17T18:41:26.000Z",
-    "lastSeen": "2026-09-18T02:00:13.000Z",
+    "firstSeen": "2026-09-18T14:13:52.000Z",
+    "lastSeen": "2026-09-18T15:14:35.000Z",
     "outletCount": 4,
     "outlets": [
-      "The Daily Caller",
-      "Brussels Signal",
-      "Arab News",
-      "South China Morning Post"
+      "BBC News",
+      "Euronews",
+      "Politico Europe",
+      "Arab News"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.36126412994057094,
-      "max": 0.6928537243368783,
-      "pairs": 4
+      "min": 0.3683653523254202,
+      "max": 0.5410776061295646,
+      "pairs": 4,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "The Daily Caller",
-        "b": "right",
+        "n": "BBC News",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump Says US Close To Base Expansion Deal With Poland, Potentially Escalating Tensions With Russia",
-        "u": "https://dailycaller.com/2026/09/17/donald-trump-base-poland-russia-agression-karol-nawrocki",
-        "publishedAt": "2026-09-17T20:12:06.000Z",
-        "retrievedAt": "2026-09-18T05:51:53.402Z",
+        "t": "Russian hybrid attacks against Europe intensifying, says Macron",
+        "u": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-18T15:14:35.000Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“When nations are unafraid, and when allies stand together, it is then that empires, even those with as long a tradition as the Soviet, Russian empire, begin to lose their …"
+          "\"In the coming weeks, we will have a G7 meeting devoted to these energy issues, both to strengthen cooperation and to avoid unnecessary tensions between the G7 countries and our …",
+          "\"In recent weeks, the Russian hybrid threat against Europeans and against France has intensified,\" he said.",
+          "He said there was a \"real risk\" of such strikes on the territory …"
         ],
         "figures": [],
-        "wordsRead": 322
+        "wordsRead": 609
       },
       {
-        "n": "Brussels Signal",
-        "b": "right",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump hails &#8216;major progress&#8217; towards permanent US base in Poland",
-        "u": "https://brusselssignal.eu/2026/09/trump-hails-major-progress-towards-permanent-us-base-in-poland/",
-        "publishedAt": "2026-09-18T02:00:13.000Z",
-        "retrievedAt": "2026-09-18T05:52:21.034Z",
+        "t": "Macron to convene G7 on energy, warning of 'Russian aggression'",
+        "u": "https://www.euronews.com/my-europe/2026/09/18/macron-to-convene-g7-on-energy-warning-of-russian-aggression",
+        "publishedAt": "2026-09-18T14:18:06.000Z",
+        "retrievedAt": "2026-09-18T16:27:04.965Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“This will be a historic step for our Great U.S./Polish Alliance,” Trump said.",
-          "The US President credited Karol Nawrocki as Warsaw said two sites remained in contention and a decision was expected within weeks.",
-          "US President Donald Trump has said significant progress has been made towards establishing a permanent US Army base in Poland, adding that the location could be announced very soon."
+          "According to the French president, \"the nature of Russian aggression and threats in Europe is changing\".",
+          "Macron warned the \"nature of Russian aggression and threats in Europe is changing\".",
+          "\"We are not intimidated because we …"
         ],
         "figures": [],
-        "wordsRead": 634
+        "wordsRead": 352
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount",
+        "u": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-09-18T14:57:14.000Z",
+        "retrievedAt": "2026-09-18T16:27:06.768Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Arab News",
@@ -1396,34 +644,11 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump says ‘major progress’ towards US base in Poland",
-        "u": "https://www.arabnews.com/world/trump-says-major-progress-towards-us-base-in-poland-3002149",
-        "publishedAt": "2026-09-17T18:41:26.000Z",
-        "retrievedAt": "2026-09-18T05:52:31.540Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Thanks to the bold leadership of my friend, Karol Nawrocki, President of Poland, major progress is being made toward establishing a US Army base in Poland,” Trump said on social …"
-        ],
-        "figures": [],
-        "wordsRead": 347
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump says ‘major progress’ made towards US base in Poland",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3367911/trump-says-major-progress-made-towards-us-base-poland?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T20:01:22.000Z",
-        "retrievedAt": "2026-09-18T05:52:35.047Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Thanks to the bold leadership of my friend, Karol Nawrocki, President …"
-        ],
-        "figures": [],
-        "wordsRead": 115
+        "t": "Macron orders protection of France’s infrastructure against Russian hybrid attacks",
+        "u": "https://www.arabnews.com/world/macron-orders-protection-of-frances-infrastructure-against-russian-hybrid-attacks-3002248",
+        "publishedAt": "2026-09-18T14:13:52.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -1437,295 +662,33 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Trump Says US Close To Base Expansion Deal With Poland, Potentially Escalating Tensions With Russia",
-            "url": "https://dailycaller.com/2026/09/17/donald-trump-base-poland-russia-agression-karol-nawrocki"
+            "headline": "Russian hybrid attacks against Europe intensifying, says Macron",
+            "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss"
           },
           {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
             "country": "EU",
             "evidenceIndex": 1,
-            "headline": "Trump hails &#8216;major progress&#8217; towards permanent US base in Poland",
-            "url": "https://brusselssignal.eu/2026/09/trump-hails-major-progress-towards-permanent-us-base-in-poland/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (right)"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Trump says ‘major progress’ towards US base in Poland",
-        "url": "https://www.arabnews.com/world/trump-says-major-progress-towards-us-base-in-poland-3002149",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "Trump says ‘major progress’ made towards US base in Poland",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367911/trump-says-major-progress-made-towards-us-base-poland?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Poland",
-        "Trump",
-        "Potentially Escalating Tensions With",
-        "To Base Expansion Deal",
-        "Trump Says US Close",
-        "With Poland"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Poland",
-            "Trump",
-            "Potentially Escalating Tensions With",
-            "To Base Expansion Deal",
-            "Trump Says US Close",
-            "With Poland"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1mn5mfu",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 10
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "kosovo",
-          "serbia",
-          "the hague",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-09-16T12:28:01.000Z",
-    "lastSeen": "2026-09-18T00:00:00.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Globe and Mail",
-      "Deutsche Welle",
-      "Taipei Times"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.39085132076345147,
-      "max": 0.4822335479211315,
-      "pairs": 2
-    },
-    "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hague court sentences Kosovo’s former president Hashim Thaci to 25 years for war crimes",
-        "u": "https://www.theglobeandmail.com/world/article-kosovo-former-president-hashim-thaci-sentenced-war-crimes/",
-        "publishedAt": "2026-09-16T12:28:01.000Z",
-        "retrievedAt": "2026-09-18T05:51:55.152Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Presiding Judge Charles Smith said Thaci actively participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
-          "Smith, the presiding judge, said Thaci “used his position, leadership, authority and standing” to encourage crimes and failed to investigate or punish abuse by KLA fighters.",
-          "They pleaded not guilty to all charges against them."
-        ],
-        "figures": [],
-        "wordsRead": 931
-      },
-      {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Shock in Kosovo as Hague convicts former President Thaci",
-        "u": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-09-16T15:59:00.000Z",
-        "retrievedAt": "2026-09-18T05:52:15.538Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"The conviction of the former KLA leaders is a terrible judgment for Kosovo, for our liberation war,\" said Foreign Minister Glauk Konjufca, who was present in the courtroom in The …",
-          "\"The conviction and such a severe sentence for four former leaders of the Kosovo Liberation Army is an unacceptable injustice, a great and harmful punishment,\" Kurti said on Wednesday.",
-          "He called it \"a major blow to the state and to the domestic narrative.\""
-        ],
-        "figures": [],
-        "wordsRead": 1126
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Court convicts ex-Kosovo leader",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864485",
-        "publishedAt": "2026-09-18T00:00:00.000Z",
-        "retrievedAt": "2026-09-18T05:52:38.311Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Presiding Judge Charles Smith said that Thaci participated in and encouraged crimes, including by promoting individuals involved in crimes, and “showed a ruthless ability to remove and eliminate political impediments” …",
-          "“They [judges] have put the victims together with the aggressors,” Fetahu said.",
-          "In Belgrade, Serbian President Aleksandar Vucic said “we have no reason to rejoice” and expressed concern that the verdict would not hold after appeals."
-        ],
-        "figures": [],
-        "wordsRead": 1056
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Hague court sentences Kosovo’s former president Hashim Thaci to 25 years for war crimes",
-            "url": "https://www.theglobeandmail.com/world/article-kosovo-former-president-hashim-thaci-sentenced-war-crimes/"
+            "headline": "Macron to convene G7 on energy, warning of 'Russian aggression'",
+            "url": "https://www.euronews.com/my-europe/2026/09/18/macron-to-convene-g7-on-energy-warning-of-russian-aggression"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
             "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 1,
-            "headline": "Shock in Kosovo as Hague convicts former President Thaci",
-            "url": "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-rdf"
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "Macron to call emergency G7 meeting as energy prices spike and Russian hybrid attacks mount",
+            "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -1746,25 +709,23 @@
     },
     "offAxis": [
       {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 2,
-        "headline": "Court convicts ex-Kosovo leader",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/09/18/2003864485",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Macron orders protection of France’s infrastructure against Russian hybrid attacks",
+        "url": "https://www.arabnews.com/world/macron-orders-protection-of-frances-infrastructure-against-russian-hybrid-attacks-3002248",
+        "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Kosovo",
-        "Hague",
-        "President Thaci",
-        "Hashim Thaci",
-        "Shock",
-        "Court"
+        "Russian",
+        "Macron",
+        "Europe",
+        "France"
       ],
       "attempts": [
         {
@@ -1850,7 +811,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cuxo9g3",
+    "id": "ctnyq3t",
     "regions": [
       "Europe",
       "Global"
@@ -1859,48 +820,52 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 7
+        "Europe": 13
       },
       "matched": {
         "Europe": [
-          "sweden",
-          "stockholm",
+          "denmark",
+          "norway",
+          "portugal",
+          "madrid",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-09-17T14:00:50.000Z",
-    "lastSeen": "2026-09-18T00:09:32.000Z",
+    "firstSeen": "2026-09-18T12:45:25.000Z",
+    "lastSeen": "2026-09-18T13:36:58.000Z",
     "outletCount": 2,
     "outlets": [
-      "Euronews",
+      "BBC News",
       "Al Jazeera"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5899290489331651,
-      "max": 0.5899290489331651,
-      "pairs": 1
+      "min": 0.6024197070293906,
+      "max": 0.6024197070293906,
+      "pairs": 1,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Iran expels Swedish diplomat in tit-for-tat after Stockholm's move",
-        "u": "https://www.euronews.com/2026/09/17/iran-expels-swedish-diplomat-in-tit-for-tat-after-stockholm-move",
-        "publishedAt": "2026-09-17T14:00:50.000Z",
-        "retrievedAt": "2026-09-18T05:52:09.856Z",
+        "t": "Ronaldo named in first Portugal squad since World Cup - at age of 41",
+        "u": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-18T12:45:25.000Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Tehran summoned Sweden's ambassador and ordered one of its diplomats to leave within 48 hours after Stockholm expelled an Iranian embassy official for activities \"incompatible with the Vienna Convention.\""
+          "When asked if he would keep playing for his country, he said: \"I will meet the family and take decisions with a calm head.\"",
+          "The former Manchester United Real …"
         ],
         "figures": [],
-        "wordsRead": 311
+        "wordsRead": 296
       },
       {
         "n": "Al Jazeera",
@@ -1909,16 +874,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Iran expels Swedish diplomat in retaliatory move",
-        "u": "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
-        "publishedAt": "2026-09-18T00:09:32.000Z",
-        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "t": "Ronaldo keeps Portugal place for Nations League as Jesus names first squad",
+        "u": "https://www.aljazeera.com/sports/2026/9/18/ronaldo-keeps-portugal-place-for-nations-league-as-jesus-names-first-squad?traffic_source=rss",
+        "publishedAt": "2026-09-18T13:36:58.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Without doubt, this action by the Swedish government is the result of the influence of the Zionist regime and an effort to disrupt the normal activities of the Islamic Republic …"
+          "Ronaldo confirmed in July that the 2026 edition of the FIFA World Cup would be his last in that competition , but he was unwilling to make a hasty call …"
         ],
         "figures": [],
-        "wordsRead": 303
+        "wordsRead": 312
       }
     ],
     "views": [
@@ -1934,13 +899,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "EU",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Iran expels Swedish diplomat in tit-for-tat after Stockholm's move",
-            "url": "https://www.euronews.com/2026/09/17/iran-expels-swedish-diplomat-in-tit-for-tat-after-stockholm-move"
+            "headline": "Ronaldo named in first Portugal squad since World Cup - at age of 41",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmeq8v8e3ql7o?at_medium=RSS&at_campaign=rss"
           }
         ],
         "status": "sourced",
@@ -1966,17 +931,19 @@
         "lean": "varies",
         "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Iran expels Swedish diplomat in retaliatory move",
-        "url": "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
+        "headline": "Ronaldo keeps Portugal place for Nations League as Jesus names first squad",
+        "url": "https://www.aljazeera.com/sports/2026/9/18/ronaldo-keeps-portugal-place-for-nations-league-as-jesus-names-first-squad?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Swedish",
-        "Iran",
-        "Stockholm's"
+        "Portugal",
+        "Ronaldo",
+        "Nations League",
+        "World Cup",
+        "Jesus"
       ],
       "attempts": [
         {
@@ -2062,7 +1029,1021 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1jly4qo",
+    "id": "c11aufn0",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 3
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "ukraine"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-18T05:45:55.000Z",
+    "lastSeen": "2026-09-18T09:29:34.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Globe and Mail",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.4224006767689549,
+      "max": 0.4224006767689549,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Voting begins in three-day Russian parliamentary election",
+        "u": "https://www.theglobeandmail.com/world/article-voting-begins-in-three-day-russian-parliamentary-election/",
+        "publishedAt": "2026-09-18T09:29:34.000Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "It is the first parliamentary election since Russia launched its full-scale war in Ukraine in February, 2022, and the vote – which will determine the make-up of the 450-seat lower …"
+        ],
+        "figures": [],
+        "wordsRead": 302
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russians begin voting in parliamentary election in shadow of war",
+        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3367960/russians-begin-voting-parliamentary-election-shadow-war?utm_source=rss_feed",
+        "publishedAt": "2026-09-18T05:45:55.000Z",
+        "retrievedAt": "2026-09-18T16:27:31.214Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "It will be Russia’s first parliamentary election since Moscow sent troops to …"
+        ],
+        "figures": [],
+        "wordsRead": 122
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Voting begins in three-day Russian parliamentary election",
+            "url": "https://www.theglobeandmail.com/world/article-voting-begins-in-three-day-russian-parliamentary-election/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 1,
+        "headline": "Russians begin voting in parliamentary election in shadow of war",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3367960/russians-begin-voting-parliamentary-election-shadow-war?utm_source=rss_feed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Russians",
+        "Russian",
+        "Voting"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1uafxa5",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "provincial"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-18T07:03:08.000Z",
+    "lastSeen": "2026-09-18T15:57:33.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "BBC News",
+      "Euronews",
+      "Al Jazeera",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.3654086911143803,
+      "max": 0.7498875732311955,
+      "pairs": 11,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Three dead and eight injured in Philippines school shooting",
+        "u": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-18T11:01:46.000Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Our immediate priority is the safety and well-being of our learners, teachers and school personnel,\" the education department said, adding it was coordinating with authorities to verify the incident and …",
+          "Palencia told Reuters news agency that during a lunchtime conversation on Friday …"
+        ],
+        "figures": [],
+        "wordsRead": 432
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Three dead and eight injured in Philippines school shooting",
+        "u": "https://www.euronews.com/2026/09/18/three-dead-and-eight-injured-in-philippines-school-shooting",
+        "publishedAt": "2026-09-18T15:57:33.000Z",
+        "retrievedAt": "2026-09-18T16:27:04.965Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Officials say the teenager had warned friends after lunch that he was “going to do something” and told them to go home, but they …"
+        ],
+        "figures": [],
+        "wordsRead": 242
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Video: Students flee deadly school shooting in the Philippines",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/video-students-flee-deadly-school-shooting-in-the-philippines?traffic_source=rss",
+        "publishedAt": "2026-09-18T13:30:16.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Grief and shock in Philippines after deadly school shooting",
+        "u": "https://www.arabnews.com/world/grief-and-shock-in-philippines-after-deadly-school-shooting-3002230",
+        "publishedAt": "2026-09-18T13:38:31.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Aug. 18, Aug. 23, Aug. 24, every day he is planning to do this school shooting,” Tamayo said.",
+          "The incident took place at around 1 p.m. at the Banga National High School in the southern Philippines.",
+          "Reynaldo Tamayo Jr. told Arab …"
+        ],
+        "figures": [],
+        "wordsRead": 410
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "School shooting in southern Philippines kills at least two",
+        "u": "https://www.arabnews.com/world/school-shooting-in-southern-philippines-kills-at-least-two-3002203",
+        "publishedAt": "2026-09-18T09:25:43.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“One male and one female were killed, both Grade nine students,” disaster agency worker Rizalie Dedel told AFP over the phone, adding that the gunman had taken his own …"
+        ],
+        "figures": [],
+        "wordsRead": 293
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "3 students killed in Philippine school shooting, including gunman",
+        "u": "https://www.scmp.com/news/asia/southeast-asia/article/3367979/philippine-police-report-injuries-high-school-shooting?utm_source=rss_feed",
+        "publishedAt": "2026-09-18T07:03:08.000Z",
+        "retrievedAt": "2026-09-18T16:27:31.214Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A 16-year-old student shot dead at least two fellow students and then …"
+        ],
+        "figures": [],
+        "wordsRead": 122
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Three dead and eight injured in Philippines school shooting",
+            "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Three dead and eight injured in Philippines school shooting",
+            "url": "https://www.euronews.com/2026/09/18/three-dead-and-eight-injured-in-philippines-school-shooting"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Video: Students flee deadly school shooting in the Philippines",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/video-students-flee-deadly-school-shooting-in-the-philippines?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Grief and shock in Philippines after deadly school shooting",
+        "url": "https://www.arabnews.com/world/grief-and-shock-in-philippines-after-deadly-school-shooting-3002230",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 4,
+        "headline": "School shooting in southern Philippines kills at least two",
+        "url": "https://www.arabnews.com/world/school-shooting-in-southern-philippines-kills-at-least-two-3002203",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "3 students killed in Philippine school shooting, including gunman",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367979/philippine-police-report-injuries-high-school-shooting?utm_source=rss_feed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Philippines",
+        "Three",
+        "Philippine",
+        "Students",
+        "School",
+        "Video"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cr8egkk",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-18T10:24:22.000Z",
+    "lastSeen": "2026-09-18T16:12:28.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Globe and Mail",
+      "Al Jazeera",
+      "Middle East Eye",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.39106378348026116,
+      "max": 0.7674812305899942,
+      "pairs": 7,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "More than 100,000 Yemenis displaced as conflict escalates, thousands flee to Djibouti",
+        "u": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/",
+        "publishedAt": "2026-09-18T10:27:53.000Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "At least 112,000 people have been displaced inside Yemen within the last two weeks as fighting continues along the country’s west coast amid a renewed conflict, while nearly 3,000 have …",
+          "Nearly 3,000 people have crossed …"
+        ],
+        "figures": [],
+        "wordsRead": 360
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "More than 112,000 displaced by Yemen fighting; thousands flee to Djibouti",
+        "u": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss",
+        "publishedAt": "2026-09-18T16:12:28.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Our resources are very, very, very limited and our stocks will be depleted very soon,” Abdusattor Esoev, mission chief in Yemen for the International Organization for Migration, told reporters on …",
+          "More than 112,000 people …"
+        ],
+        "figures": [
+          {
+            "value": "22 million",
+            "context": "g route, the Bab al-Mandeb Strait. Esoev estimates 22 million Yemenis – or nearly half the population – are in"
+          }
+        ],
+        "wordsRead": 359
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fighting uproots 112,000 in Yemen as thousands flee to Djibouti, UN says",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says",
+        "publishedAt": "2026-09-18T15:32:16.000Z",
+        "retrievedAt": "2026-09-18T16:27:24.735Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Renewed fighting in Yemen has displaced more than 112,000 people and pushed nearly 3,000 …"
+        ],
+        "figures": [],
+        "wordsRead": 148
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Yemen conflict displaces 112,000 people in two weeks, UN says",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-conflict-displaces-112000-people-two-weeks-un-says",
+        "publishedAt": "2026-09-18T12:24:10.000Z",
+        "retrievedAt": "2026-09-18T16:27:24.735Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The International Organization for Migration (IOM) on Friday said that at least …"
+        ],
+        "figures": [],
+        "wordsRead": 123
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Yemen fighting displaces 112,000, pushes thousands toward Djibouti",
+        "u": "https://www.arabnews.com/middle-east/yemen-fighting-displaces-112000-pushes-thousands-toward-djibouti-3002211",
+        "publishedAt": "2026-09-18T10:24:22.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Fighting uproots 112,000 in Yemen as thousands flee to Djibouti, UN says",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 3,
+            "headline": "Yemen conflict displaces 112,000 people in two weeks, UN says",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-conflict-displaces-112000-people-two-weeks-un-says"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "More than 100,000 Yemenis displaced as conflict escalates, thousands flee to Djibouti",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "More than 112,000 displaced by Yemen fighting; thousands flee to Djibouti",
+        "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 4,
+        "headline": "Yemen fighting displaces 112,000, pushes thousands toward Djibouti",
+        "url": "https://www.arabnews.com/middle-east/yemen-fighting-displaces-112000-pushes-thousands-toward-djibouti-3002211",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Djibouti",
+        "Yemen",
+        "More",
+        "Fighting",
+        "Yemenis"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [
+      {
+        "kind": "count",
+        "about": [
+          "nearly",
+          "people"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "3,000",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "22 million",
+            "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "nearly",
+          "people"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Al Jazeera",
+            "value": "22 million",
+            "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "3,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "people",
+          "fighting"
+        ],
+        "spread": 0.995,
+        "readings": [
+          {
+            "outlet": "Al Jazeera",
+            "value": "22 million",
+            "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "112,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "people",
+          "displaced"
+        ],
+        "spread": 0.973,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "112,000",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "3,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "nearly",
+          "people"
+        ],
+        "spread": 0.973,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "3,000",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "112,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "displaced",
+          "flee",
+          "djibouti"
+        ],
+        "spread": 0.973,
+        "readings": [
+          {
+            "outlet": "Al Jazeera",
+            "value": "112,000",
+            "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "3,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "displaced",
+          "flee"
+        ],
+        "spread": 0.97,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "100,000",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "value": "3,000",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fighting-uproots-112000-yemen-thousands-flee-djibouti-un-says"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "displaced",
+          "thousands",
+          "flee"
+        ],
+        "spread": 0.107,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "100,000",
+            "url": "https://www.theglobeandmail.com/world/article-yemen-conflict-displaces-people-flee-to-djibouti/"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "112,000",
+            "url": "https://www.aljazeera.com/news/2026/9/18/more-than-112000-displaced-by-yemen-fighting-thousands-flee-to-djibouti?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      }
+    ],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c6w62dr",
     "regions": [
       "Global"
     ],
@@ -2078,36 +2059,63 @@
         ]
       }
     },
-    "firstSeen": "2026-09-17T19:38:04.000Z",
-    "lastSeen": "2026-09-18T02:13:39.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-09-18T09:13:53.000Z",
+    "lastSeen": "2026-09-18T15:24:18.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Haaretz",
+      "BBC News",
+      "Euronews",
       "Al Jazeera",
-      "Middle East Eye",
-      "Arab News",
-      "South China Morning Post"
+      "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3674832296403816,
-      "max": 0.654019584992821,
-      "pairs": 7
+      "min": 0.38383052288276903,
+      "max": 0.4838460665831774,
+      "pairs": 3,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "BBC News",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.S. clears way for $24.3 billion F-35 sale to Saudi Arabia",
-        "u": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000",
-        "publishedAt": "2026-09-17T21:08:58.000Z",
-        "retrievedAt": "2026-09-18T05:52:24.301Z",
-        "read": "headline and feed excerpt"
+        "t": "Police begin operation to move migrants from Ceuta beaches",
+        "u": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-18T11:59:42.000Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Ester Muñoz of the conservative People&#x27;s Party said the government was \"directly responsible for the invasion of Ceuta and for those who died\".",
+          "\"The city is completely different than it was before this event, Ceutans have lost their joy and their lifestyles have been completely shaken up,\" the conservative mayor said.",
+          "Ceuta was \"a humanitarian crisis …"
+        ],
+        "figures": [],
+        "wordsRead": 565
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Police fire shots in the air as thousands of migrants moved to new facility in Ceuta",
+        "u": "https://www.euronews.com/my-europe/2026/09/18/officers-fire-warning-shots-as-thousands-of-migrants-moved-to-new-facility-in-ceuta",
+        "publishedAt": "2026-09-18T09:31:11.000Z",
+        "retrievedAt": "2026-09-18T16:27:04.965Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The number of incidents in the port has gone from 80 to more than 1,000 in 50 days,\" he told Onda Cero.",
+          "Ana Alarcón, a spokesperson for SUP, said on Friday that \"the port is not a safe place.\"",
+          "If anything happens, we are going to demand that people be held responsible,\" she told …"
+        ],
+        "figures": [],
+        "wordsRead": 542
       },
       {
         "n": "Al Jazeera",
@@ -2116,68 +2124,11 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump administration approves sale of F-35 jets to Saudi Arabia",
-        "u": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
-        "publishedAt": "2026-09-17T21:38:17.000Z",
-        "retrievedAt": "2026-09-18T05:52:28.524Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a major non-NATO ally that is a force for …",
-          "The administration said the sale of the jets, the most advanced fighter aircraft the US has, would “not alter the …"
-        ],
-        "figures": [
-          {
-            "value": "$24.3bn",
-            "context": "-35 fighter jets to Saudi Arabia for an estimated $24.3bn. “This proposed sale will support the foreign pol"
-          }
-        ],
-        "wordsRead": 510
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US says it will sell up to 48 F-35s to Saudi Arabia",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-will-sell-48-f-35s-saudi-arabia",
-        "publishedAt": "2026-09-18T00:46:14.000Z",
-        "retrievedAt": "2026-09-18T05:52:30.183Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This proposed sale will support the foreign policy and national …"
-        ],
-        "figures": [
-          {
-            "value": "$24.3bn",
-            "context": "opposed by Israel. The historic sale could total $24.3bn and would mark the first time an Arab state gains"
-          }
-        ],
-        "wordsRead": 100
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia",
-        "publishedAt": "2026-09-17T19:38:04.000Z",
-        "retrievedAt": "2026-09-18T05:52:30.183Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This proposed sale will support the foreign policy and national security …"
-        ],
-        "figures": [
-          {
-            "value": "$24.3bn",
-            "context": "i Arabia in a package that will cost an estimated $24.3bn. Saudi Arabia had requested the purchase of 48 F-"
-          }
-        ],
-        "wordsRead": 114
+        "t": "Police hit migrants with batons during camp transfer in Ceuta",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/police-hit-migrants-with-batons-during-camp-transfer-in-ceuta?traffic_source=rss",
+        "publishedAt": "2026-09-18T15:24:18.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Arab News",
@@ -2186,89 +2137,52 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
-        "u": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
-        "publishedAt": "2026-09-18T02:13:39.000Z",
-        "retrievedAt": "2026-09-18T05:52:31.540Z",
+        "t": "Police move Ceuta migrants off beaches in Spanish enclave",
+        "u": "https://www.arabnews.com/world/police-move-ceuta-migrants-off-beaches-in-spanish-enclave-3002201",
+        "publishedAt": "2026-09-18T09:13:53.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“The proposed F-35 sale reflects the strength and enduring nature of the Saudi-US strategic partnership and the continued advancement of our defense cooperation,” the embassy said in a post on …",
-          "“For decades, Saudi-US security cooperation has contributed to regional stability, strengthened our collective defense capabilities, and advanced our shared security interests,” it added.",
-          "Lockheed Martin says 20 nations are participating in the …"
+          "Police on Friday started rounding up the migrants at 6:30 am (0430 GMT), according to a Spanish government source in Ceuta.",
+          "By noon, all places at the new camp had been taken and the transfer operation had wrapped up, a government source told AFP, bringing the enclave's total temporary accommodation capacity …",
+          "Last week, Madrid said more than 5,300 …"
         ],
-        "figures": [
-          {
-            "value": "$24.3 billion",
-            "context": "er the US Department of State approved a possible $24.3 billion Foreign Military Sale to Saudi Arabia involving 4"
-          }
-        ],
-        "wordsRead": 636
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T21:06:14.000Z",
-        "retrievedAt": "2026-09-18T05:52:35.047Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The proposed sale will improve Saudi Arabia’s capability to deter current and …"
-        ],
-        "figures": [
-          {
-            "value": "US$24.3 billion",
-            "context": "The United States has approved a US$24.3 billion sale of 48 F-35 stealth warplanes to Saudi Arabia"
-          }
-        ],
-        "wordsRead": 129
+        "figures": [],
+        "wordsRead": 592
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 0,
-            "headline": "U.S. clears way for $24.3 billion F-35 sale to Saudi Arabia",
-            "url": "https://www.haaretz.com/middle-east-news/2026-09-18/ty-article/u-s-clears-way-for-24-3-billion-f-35-sale-to-saudi-arabia/000001a0-b0a9-df5b-adf2-f6ed909b0000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "US says it will sell up to 48 F-35s to Saudi Arabia",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-says-it-will-sell-48-f-35s-saudi-arabia"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "US State Department approves sale of 48 F-35 fighter jets to Saudi Arabia",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-state-department-approves-sale-48-f-35-fighter-jets-saudi-arabia"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Police begin operation to move migrants from Ceuta beaches",
+            "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Police fire shots in the air as thousands of migrants moved to new facility in Ceuta",
+            "url": "https://www.euronews.com/my-europe/2026/09/18/officers-fire-warning-shots-as-thousands-of-migrants-moved-to-new-facility-in-ceuta"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -2282,7 +2196,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "coverage sits on one side only (left)"
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
@@ -2290,9 +2204,9 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Trump administration approves sale of F-35 jets to Saudi Arabia",
-        "url": "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss",
+        "evidenceIndex": 2,
+        "headline": "Police hit migrants with batons during camp transfer in Ceuta",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/police-hit-migrants-with-batons-during-camp-transfer-in-ceuta?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2300,31 +2214,530 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "Saudi Arabia welcomes proposed F-35 fighter jets deal as regional tensions rise",
-        "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-welcomes-proposed-f-35-fighter-jets-deal-as-regional-tensions-rise-3002177",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 5,
-        "headline": "US approves sale of 48 F-35 jets to Saudi Arabia despite Israeli concerns",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3367912/us-approves-sale-48-f-35-jets-saudi-arabia-despite-israeli-concerns?utm_source=rss_feed",
+        "evidenceIndex": 3,
+        "headline": "Police move Ceuta migrants off beaches in Spanish enclave",
+        "url": "https://www.arabnews.com/world/police-move-ceuta-migrants-off-beaches-in-spanish-enclave-3002201",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Saudi Arabia",
-        "F-35",
-        "US State Department",
-        "Israeli",
-        "Trump",
-        "F-35s"
+        "Police",
+        "Ceuta",
+        "Spanish"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c8ctxpq",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-17T18:02:08.000Z",
+    "lastSeen": "2026-09-18T14:25:53.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Euronews",
+      "Al Jazeera"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.38707765269969463,
+      "max": 0.4375600591910074,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New wild cat species discovered - with only one known living member",
+        "u": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-09-17T23:15:55.000Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"It&#x27;s an amazing result that we have a new species for the world, which is the Leopardus tilcayo ,\" said Paola Nogales-Ascarrunz of Universidad Mayor de San Andres in La …",
+          "\"There&#x27;s so few records or pictures, no individual in a museum, so it was hiding because nobody was looking,\" said Eduardo Eizirik, a conservation geneticist at the Pontifical Catholic University …",
+          "\"These are animals similar in size …"
+        ],
+        "figures": [],
+        "wordsRead": 683
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New cat species identified in Bolivian forest, first in more than a century",
+        "u": "https://www.theglobeandmail.com/world/article-new-cat-species-leopardus-tilcayo/",
+        "publishedAt": "2026-09-17T18:02:08.000Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Its fur is light brown ... with irregularly shaped rosettes across its body,” said Paola Nogales-Ascarrunz, a National Geographic explorer and one of the authors of the study describing the …",
+          "Referring to the new species, Lescroart said, “Our information at this moment is limited to the two live individuals that we examined, and a small number of camera-trap records.”",
+          "Observing the Bolivian cat drew interest because “its characteristics did …"
+        ],
+        "figures": [],
+        "wordsRead": 709
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Remarkable': Scientists discover new wild cat species for first time in 100 years",
+        "u": "https://www.euronews.com/2026/09/18/remarkable-scientists-discover-new-wild-cat-species-for-first-time-in-100-years",
+        "publishedAt": "2026-09-18T09:18:44.000Z",
+        "retrievedAt": "2026-09-18T16:27:04.965Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"So far, it's only been detected in Bolivia\" and not \"anywhere else on the planet,\" Nogales-Ascarrunz adds.",
+          "The Leopardus tilcayo is slightly smaller than a domestic cat, measuring around 45 centimetres - and was first mistaken for a pet."
+        ],
+        "figures": [],
+        "wordsRead": 428
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New Bolivian cat claws its way into species list: What we meow",
+        "u": "https://www.aljazeera.com/news/2026/9/18/new-bolivian-cat-claws-its-way-into-species-list-what-we-meow?traffic_source=rss",
+        "publishedAt": "2026-09-18T14:25:53.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“It had never been given a scientific name, and it had never been formally described in a scientific way that was published,” Lescroart told Al Jazeera.",
+          "“Unfortunately, that’s the problem with the illegal wildlife trade,” Nogales Ascarrunz, told Al Jazeera.",
+          "“The group of tiger cats has always been a contentious group with an uncertain taxonomy, and no one could really tell with certainty how many different species of tiger cats …"
+        ],
+        "figures": [],
+        "wordsRead": 1174
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "New wild cat species discovered - with only one known living member",
+            "url": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "New cat species identified in Bolivian forest, first in more than a century",
+            "url": "https://www.theglobeandmail.com/world/article-new-cat-species-leopardus-tilcayo/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "'Remarkable': Scientists discover new wild cat species for first time in 100 years",
+            "url": "https://www.euronews.com/2026/09/18/remarkable-scientists-discover-new-wild-cat-species-for-first-time-in-100-years"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 3,
+        "headline": "New Bolivian cat claws its way into species list: What we meow",
+        "url": "https://www.aljazeera.com/news/2026/9/18/new-bolivian-cat-claws-its-way-into-species-list-what-we-meow?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "New Bolivian",
+        "Remarkable",
+        "Scientists",
+        "Bolivian",
+        "What"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cjluwoh",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 1,
+        "Europe": 0
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "India": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-09-16T00:49:02.000Z",
+    "lastSeen": "2026-09-16T13:13:20.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Scroll.in",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.4018236498686022,
+      "max": 0.5122232885728003,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ed Sheeran tour: Four acts quit in solidarity with Macklemore",
+        "u": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/",
+        "publishedAt": "2026-09-16T11:24:28.000Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Supporting acts on Ed Sheeran US tour quit after rapper removed for pro-Palestine remarks",
+        "u": "https://scroll.in/latest/1095780/rapper-macklemore-removed-from-ed-sheerans-us-tour-for-making-pro-palestine-remarks?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-09-16T13:13:20.000Z",
+        "retrievedAt": "2026-09-18T16:26:56.937Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“After Macklemore’s performances at my New Jersey shows, venues on my upcoming tour dates communicated that they would pull the shows if he was still supporting,” he said.",
+          "“Taking a side can cost you,” he wrote on Instagram.",
+          "Sheeran, on his part, said that he was “appalled by the conflict between Israel and Palestine”."
+        ],
+        "figures": [],
+        "wordsRead": 701
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ed Sheeran says dropping Macklemore from U.S. concert tour was not his decision",
+        "u": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000",
+        "publishedAt": "2026-09-16T00:49:02.000Z",
+        "retrievedAt": "2026-09-18T16:27:19.451Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Supporting acts on Ed Sheeran US tour quit after rapper removed for pro-Palestine remarks",
+            "url": "https://scroll.in/latest/1095780/rapper-macklemore-removed-from-ed-sheerans-us-tour-for-making-pro-palestine-remarks?utm_source=rss&utm_medium=public"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Ed Sheeran says dropping Macklemore from U.S. concert tour was not his decision",
+            "url": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Ed Sheeran tour: Four acts quit in solidarity with Macklemore",
+            "url": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Ed Sheeran",
+        "Macklemore",
+        "Ed Sheeran US",
+        "Supporting",
+        "Palestine",
+        "Four"
       ],
       "attempts": [
         {
@@ -2333,12 +2746,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Saudi Arabia",
-            "F-35",
-            "US State Department",
-            "Israeli",
-            "Trump",
-            "F-35s"
+            "Ed Sheeran",
+            "Macklemore",
+            "Ed Sheeran US",
+            "Supporting",
+            "Palestine",
+            "Four"
           ]
         },
         {
@@ -2418,7 +2831,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1t7z2re",
+    "id": "c1egkmdh",
     "regions": [
       "Global"
     ],
@@ -2438,21 +2851,20 @@
       }
     },
     "firstSeen": "2026-09-17T11:08:29.000Z",
-    "lastSeen": "2026-09-18T05:26:51.000Z",
-    "outletCount": 5,
+    "lastSeen": "2026-09-17T20:34:30.000Z",
+    "outletCount": 3,
     "outlets": [
       "NPR",
       "BBC News",
-      "Globe and Mail",
-      "Al Jazeera",
-      "Middle East Eye"
+      "Globe and Mail"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.38405876782152987,
-      "max": 0.45314258566637494,
-      "pairs": 7
+      "min": 0.42229447684347116,
+      "max": 0.4555082152835565,
+      "pairs": 2,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
@@ -2465,7 +2877,7 @@
         "t": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
         "u": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
         "publishedAt": "2026-09-17T12:33:36.000Z",
-        "retrievedAt": "2026-09-18T05:51:42.695Z",
+        "retrievedAt": "2026-09-18T16:26:39.688Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -2478,7 +2890,7 @@
         "t": "UN experts say grounds to believe US committed war crimes in Iran strikes",
         "u": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-09-17T20:34:30.000Z",
-        "retrievedAt": "2026-09-18T05:51:44.060Z",
+        "retrievedAt": "2026-09-18T16:26:40.941Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "They said killings by security forces occurred on \"a staggering and unprecedented scale\" across all 31 provinces.",
@@ -2498,7 +2910,7 @@
         "t": "UN mission finds U.S. may have committed war crimes in Iran, and Tehran crimes against humanity",
         "u": "https://www.theglobeandmail.com/world/article-un-iran-us-war-crimes/",
         "publishedAt": "2026-09-17T11:08:29.000Z",
-        "retrievedAt": "2026-09-18T05:51:55.152Z",
+        "retrievedAt": "2026-09-18T16:26:51.133Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Our investigation remains ongoing, and we have nothing to announce at the moment,” it said in a statement.",
@@ -2507,50 +2919,6 @@
         ],
         "figures": [],
         "wordsRead": 750
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN mission alleges crimes against humanity in Iranian protest crackdown",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
-        "publishedAt": "2026-09-18T05:26:51.000Z",
-        "retrievedAt": "2026-09-18T05:52:28.524Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN findings show US strikes on Minab could be war crimes",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
-        "publishedAt": "2026-09-18T01:58:53.000Z",
-        "retrievedAt": "2026-09-18T05:52:28.524Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House rejects UN report on potential US war crimes in Iran",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran",
-        "publishedAt": "2026-09-17T21:11:42.000Z",
-        "retrievedAt": "2026-09-18T05:52:30.183Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "US spokesperson Anna Kelly said the UN’s Human Rights …"
-        ],
-        "figures": [],
-        "wordsRead": 90
       }
     ],
     "views": [
@@ -2566,15 +2934,6 @@
             "evidenceIndex": 0,
             "headline": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack",
             "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 5,
-            "headline": "White House rejects UN report on potential US war crimes in Iran",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/white-house-rejects-un-report-potential-us-war-crimes-iran"
           }
         ],
         "status": "sourced",
@@ -2618,37 +2977,13 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "UN mission alleges crimes against humanity in Iranian protest crackdown",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 4,
-        "headline": "UN findings show US strikes on Minab could be war crimes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-findings-show-us-strikes-on-minab-could-be-war-crimes?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
         "Iran",
         "U.N.-backed",
-        "White House",
-        "Iranian",
-        "Tehran",
-        "Minab"
+        "Tehran"
       ],
       "attempts": [
         {
@@ -2659,10 +2994,7 @@
           "terms": [
             "Iran",
             "U.N.-backed",
-            "White House",
-            "Iranian",
-            "Tehran",
-            "Minab"
+            "Tehran"
           ]
         },
         {
@@ -2742,316 +3074,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cmi3agg",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-09-17T02:23:31.000Z",
-    "lastSeen": "2026-09-18T04:11:25.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "BBC News",
-      "Haaretz",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.37952114864332365,
-      "max": 0.6253188023832755,
-      "pairs": 4
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
-        "u": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-09-17T21:41:19.000Z",
-        "retrievedAt": "2026-09-18T05:51:44.060Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend UN General Assembly High Level Week,\" a spokesman for the US State …",
-          "State Department Spokesman Tommy Pigott said the US would prevent the diplomats from \"going on shopping …"
-        ],
-        "figures": [],
-        "wordsRead": 476
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
-        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000",
-        "publishedAt": "2026-09-18T02:04:45.000Z",
-        "retrievedAt": "2026-09-18T05:52:24.301Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Judea and Samaria District Police said it had arrested an Israeli suspected of involvement in an \"arson and assault incident.\"",
-          "President Donald Trump told Axios he faces a \"big decision\" over whether to resume major attacks against Iran, saying he must decide whether to \"annihilate\" his Iranian foes.",
-          "According to the ministry, 4,386 people have been killed and 12,407 wounded between March 2 and September 17."
-        ],
-        "figures": [],
-        "wordsRead": 870
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
-        "u": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000",
-        "publishedAt": "2026-09-17T02:23:31.000Z",
-        "retrievedAt": "2026-09-18T05:52:24.301Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"If the PA wants to be treated as a partner, it must stop subsidizing terror and stop using diplomatic theater as ⁠a substitute for serious governance,\" Deputy US Ambassador to …",
-          "Without naming specific officials, the US State Department said on Wednesday it would extend visa sanctions against Palestinian officials over actions they took to \"internationalize ⁠the Israeli-Palestinian conflict,\" including pursuing …",
-          "\"I have a big decision coming up."
-        ],
-        "figures": [],
-        "wordsRead": 1623
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN allows Palestinian president to again speak via video after US denies visa",
-        "u": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
-        "publishedAt": "2026-09-17T19:37:10.000Z",
-        "retrievedAt": "2026-09-18T05:52:31.540Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“If the PA wants to be ‌treated as a partner, it must stop subsidizing terror and stop using diplomatic theater as a substitute for serious governance,” Deputy …"
-        ],
-        "figures": [],
-        "wordsRead": 278
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
-        "publishedAt": "2026-09-18T04:11:25.000Z",
-        "retrievedAt": "2026-09-18T05:52:35.047Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The State Department said Thursday that it had approved visas for Iran’s “core delegation”, along …"
-        ],
-        "figures": [],
-        "wordsRead": 158
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 1,
-            "headline": "U.S. to allow Iranian leaders to attend UN General Assembly, Abbas to speak via video",
-            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-18/ty-article-live/u-s-to-allow-iranian-leaders-to-attend-un-abbas-to-speak-via-video/000001a0-b231-d5b2-a9ee-b2bbc9400000"
-          },
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "U.S. to allow Iranian president, FM to attend UN meeting in New York",
-            "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-17/ty-article-live/u-s-extends-visa-sanctions-against-palestinian-officials-blocks-abbas-from-un/000001a0-ad1f-d736-a1b2-fdbf6acf0000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
-            "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 3,
-        "headline": "UN allows Palestinian president to again speak via video after US denies visa",
-        "url": "https://www.arabnews.com/middle-east/un-allows-palestinian-president-to-again-speak-via-video-after-us-denies-visa-3002159",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 4,
-        "headline": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "New York",
-        "Iranian",
-        "UN General Assembly",
-        "Palestinian",
-        "Abbas",
-        "Iran"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "New York",
-            "Iranian",
-            "UN General Assembly",
-            "Palestinian",
-            "Abbas",
-            "Iran"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cr6uqej",
+    "id": "cpse20l",
     "regions": [
       "Global"
     ],
@@ -3063,61 +3086,22 @@
       },
       "matched": {}
     },
-    "firstSeen": "2026-09-17T17:53:55.000Z",
-    "lastSeen": "2026-09-18T01:23:44.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-09-18T11:05:35.000Z",
+    "lastSeen": "2026-09-18T13:05:35.000Z",
+    "outletCount": 2,
     "outlets": [
-      "Guardian US",
-      "The Daily Caller",
       "Al Jazeera",
-      "South China Morning Post"
+      "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3907705337090224,
-      "max": 0.7242460642802434,
-      "pairs": 4
+      "min": 0.6635480591637505,
+      "max": 0.6635480591637505,
+      "pairs": 1,
+      "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
-        "u": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn",
-        "publishedAt": "2026-09-17T17:53:55.000Z",
-        "retrievedAt": "2026-09-18T05:51:40.995Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump initially announced Schroyer’s nomination in June, calling him “a PATRIOT with real operational experience, and proven leader with DECADES of experience locking up the worst of the worst”.",
-          "Unnamed DHS employees told Politico in August they didn’t want Schroyer to take over and implement …"
-        ],
-        "figures": [],
-        "wordsRead": 459
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
-        "u": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration",
-        "publishedAt": "2026-09-17T18:49:21.000Z",
-        "retrievedAt": "2026-09-18T05:51:53.402Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The Senate must CONFIRM Lance, IMMEDIATELY — Do not delay,” Trump said in late June.",
-          "“I just wonder if someone who applauds violence against their political opponents is the right …"
-        ],
-        "figures": [],
-        "wordsRead": 309
-      },
       {
         "n": "Al Jazeera",
         "b": "varies",
@@ -3125,53 +3109,44 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "White House withdraws Lance Schroyer’s nomination to lead ICE",
-        "u": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
-        "publishedAt": "2026-09-18T01:23:44.000Z",
-        "retrievedAt": "2026-09-18T05:52:28.524Z",
+        "t": "FIFA’s Infantino ‘must go, no ifs or buts’, blasts German FA vice president",
+        "u": "https://www.aljazeera.com/sports/2026/9/18/fifas-infantino-must-go-no-ifs-or-buts-says-german-fa-vice-president?traffic_source=rss",
+        "publishedAt": "2026-09-18T13:05:35.000Z",
+        "retrievedAt": "2026-09-18T16:27:23.456Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "When announcing Schroyer’s nomination in June, Trump said on Truth Social that he had “firsthand experience getting Illegal Aliens OFF our streets” and called on the Senate to confirm him …",
-          "The withdrawal was announced …"
+          "“He has to go, no ifs or buts,” declared Watzke, who said late on Thursday that three points in particular counted against the Swiss.",
+          "Infantino “created this prize himself, and he decided on it himself,” …"
         ],
         "figures": [],
-        "wordsRead": 359
+        "wordsRead": 358
       },
       {
-        "n": "South China Morning Post",
+        "n": "Arab News",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "White House pulls Trump nominee to head ICE",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
-        "publishedAt": "2026-09-17T23:07:17.000Z",
-        "retrievedAt": "2026-09-18T05:52:35.047Z",
+        "t": "Infantino ‘must go’, says German FA vice-president",
+        "u": "https://www.arabnews.com/sport/infantino-must-go-says-german-fa-vice-president-3002221",
+        "publishedAt": "2026-09-18T11:05:35.000Z",
+        "retrievedAt": "2026-09-18T16:27:26.544Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In a brief statement on its website, the …"
+          "“He has to go, no ifs or buts,” declared Hans-Joachim Watzke, who said that three points in particular counted against the Swiss.",
+          "Infantino “created this prize himself, and he decided on it himself,” said Watzke."
         ],
         "figures": [],
-        "wordsRead": 84
+        "wordsRead": 374
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "White House withdraws nomination of ex-state trooper Lance Schroyer to head ICE",
-            "url": "https://www.theguardian.com/us-news/2026/sep/17/lance-schroyer-ice-director-nomination-withdrawn"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -3184,24 +3159,15 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "White House Pulls ICE Nominee After GOP Senator Blocks Confirmation Vote",
-            "url": "https://dailycaller.com/2026/09/17/white-house-pulls-ice-nominee-lance-schroyer-rand-paul-markwayne-mullin-immigration"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "only 0 of 2 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
@@ -3209,46 +3175,35 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "White House withdraws Lance Schroyer’s nomination to lead ICE",
-        "url": "https://www.aljazeera.com/news/2026/9/18/white-house-withdraws-lance-schroyers-nomination-to-lead-ice?traffic_source=rss",
+        "evidenceIndex": 0,
+        "headline": "FIFA’s Infantino ‘must go, no ifs or buts’, blasts German FA vice president",
+        "url": "https://www.aljazeera.com/sports/2026/9/18/fifas-infantino-must-go-no-ifs-or-buts-says-german-fa-vice-president?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
+        "outlet": "Arab News",
+        "outletId": "arabnews",
         "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "White House pulls Trump nominee to head ICE",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3367915/white-house-pulls-trump-nominee-head-ice?utm_source=rss_feed",
+        "country": "SA",
+        "evidenceIndex": 1,
+        "headline": "Infantino ‘must go’, says German FA vice-president",
+        "url": "https://www.arabnews.com/sport/infantino-must-go-says-german-fa-vice-president-3002221",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "White House",
-        "Lance Schroyer",
-        "Nominee After GOP Senator",
-        "Blocks Confirmation Vote",
-        "White House Pulls ICE",
-        "Trump"
+        "Infantino",
+        "German FA",
+        "FIFA"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "White House",
-            "Lance Schroyer",
-            "Nominee After GOP Senator",
-            "Blocks Confirmation Vote",
-            "White House Pulls ICE",
-            "Trump"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
