@@ -26,6 +26,32 @@ says up down out about against during under while than then there here been bein
 us u.s its it's amid ahead top live update updates video watch photos opinion
 `.trim().split(/\s+/));
 
+/**
+ * Recurring non-stories. These have near-identical titles every day, carry no
+ * event, and cluster with each other on the shared boilerplate — the first real
+ * run grouped "Headlines for September 16, 2026" with two "Daily Cartoon"
+ * items and a Taipei Times piece, and called it a three-outlet story.
+ *
+ * Only unambiguous recurring formats belong here. "What we know about X" is a
+ * real story shape and is deliberately absent.
+ */
+const BOILERPLATE = [
+  /^headlines for /i,
+  /^daily cartoon/i,
+  /^(the )?week in pictures/i,
+  /^(morning|evening|weekend) (briefing|update|digest)/i,
+  /^news in brief/i,
+  /^(photos|pictures) of the (day|week)/i,
+  /^watch:? /i,
+  /^live:? /i,
+  /^\d{1,2} (january|february|march|april|may|june|july|august|september|october|november|december) \d{4}$/i,
+];
+
+export function isBoilerplate(title) {
+  const t = normaliseTitle(title);
+  return BOILERPLATE.some(re => re.test(t));
+}
+
 /** Outlet suffixes that arrive glued to headlines: "Story - BBC News". */
 const TITLE_TAIL = /\s+[-–—|·]\s+[^-–—|·]{2,40}$/;
 
@@ -101,7 +127,18 @@ class UnionFind {
  *                            and blow up the pair count)
  */
 export function clusterItems(items, opts = {}) {
-  const { threshold = 0.30, windowHours = 72, maxBlockSize = 120 } = opts;
+  // 0.30 admitted two junk clusters in the first real run, both in the
+  // 0.31-0.34 band, while every cluster at 0.43+ was correct. 0.36 is a
+  // measured compromise, not a principled constant — retune it against a few
+  // more days of real feeds rather than trusting this number.
+  const { threshold = 0.36, windowHours = 72, maxBlockSize = 120 } = opts;
+  if (!items.length) return [];
+
+  const dropped = items.filter(i => isBoilerplate(i.title));
+  items = items.filter(i => !isBoilerplate(i.title));
+  if (dropped.length) {
+    console.log(`Clustering: dropped ${dropped.length} recurring non-stories (digests, cartoons, picture galleries).`);
+  }
   if (!items.length) return [];
 
   const vectors = buildVectors(items);

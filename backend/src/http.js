@@ -80,15 +80,35 @@ function parseRobots(text) {
   return rules;
 }
 
+/**
+ * robots.txt patterns are not plain prefixes: `*` matches any sequence and a
+ * trailing `$` anchors the end. Truncating at the first `*` — which this used
+ * to do — turns the very common `Disallow: /*?` ("no query strings") into
+ * `Disallow: /`, a site-wide ban. That silently refused fourteen verified
+ * feeds, skewing the roster toward whichever publishers happened not to use
+ * wildcard rules.
+ */
+export function robotsPatternToRegex(pattern) {
+  let p = pattern;
+  const anchored = p.endsWith("$");
+  if (anchored) p = p.slice(0, -1);
+  const body = p
+    .replace(/[.+?^${}()|[\]\\]/g, "\\$&")   // escape regex metacharacters
+    .replace(/\*/g, ".*");                   // then restore robots wildcards
+  return new RegExp("^" + body + (anchored ? "$" : ""));
+}
+
 function robotsAllows(rules, pathname) {
+  // Longest matching pattern wins; Allow beats Disallow at equal length.
   let best = null;
   for (const rule of rules) {
-    const p = rule.path;
-    if (!p) continue;
-    const literal = p.replace(/\*.*$/, "");
-    if (!pathname.startsWith(literal)) continue;
-    if (!best || literal.length > best.len || (literal.length === best.len && rule.allow)) {
-      best = { allow: rule.allow, len: literal.length };
+    if (!rule.path) continue;
+    let re;
+    try { re = robotsPatternToRegex(rule.path); } catch { continue; }
+    if (!re.test(pathname)) continue;
+    const len = rule.path.length;
+    if (!best || len > best.len || (len === best.len && rule.allow)) {
+      best = { allow: rule.allow, len };
     }
   }
   return best ? best.allow : true;
