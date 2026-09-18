@@ -426,7 +426,7 @@
       "lean": "lean_left",
       "funding": "corporate",
       "feed": "https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc",
-      "verified": true,
+      "verified": false,
       "feed_error": "HTTP 429",
       "feed_checked": "2026-09-18"
     },
@@ -478,8 +478,9 @@
       "lean": "right",
       "funding": "corporate",
       "feed": "https://www.westernstandard.news/stories.rss",
-      "verified": true,
-      "feed_checked": "2026-09-18"
+      "verified": false,
+      "feed_checked": "2026-09-18",
+      "feed_error": "parses as a feed but has 0 items"
     },
     {
       "id": "ledevoir",
@@ -672,7 +673,7 @@
       "country": "IL",
       "lean": "left",
       "funding": "corporate",
-      "feed": "https://www.haaretz.com/cmlink/1.4605102",
+      "feed": "https://www.haaretz.com/srv/haaretz-latest-headlines",
       "verified": true,
       "feed_error": "HTTP 404",
       "feed_checked": "2026-09-18"
@@ -776,8 +777,8 @@
       "country": "TW",
       "lean": "centre",
       "funding": "Taiwan public",
-      "feed": "https://focustaiwan.tw/rss/politics",
-      "verified": false,
+      "feed": "https://feeds.feedburner.com/rsscna/engnews/",
+      "verified": true,
       "feed_error": "HTTP 404",
       "feed_checked": "2026-09-18"
     },
