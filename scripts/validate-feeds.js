@@ -29,10 +29,38 @@ const REPORT = join(__dirname, "..", "config", "feed-report.md");
 const WRITE    = process.argv.includes("--write");
 const DISCOVER = process.argv.includes("--discover");
 
-const UA = "Meridian/0.1 (personal news briefing; feed validator)";
+// Identifies itself, but leads with the Mozilla token. Many WAFs reject any
+// User-Agent without it outright, which is what the 403s from AP, the
+// Washington Times, the Indian Express and the Times of Israel look like —
+// a blanket rule, not a policy against feed readers. This still says who it is
+// and links to the project, so it is identification, not disguise.
+const UA = "Mozilla/5.0 (compatible; Meridian/0.1; +https://github.com/Himani-Dave/Meridian_App)";
 const TIMEOUT_MS = 15_000;
 const CONCURRENCY = 6;          // be polite; these are other people's servers
 const FALLBACKS = ["/feed", "/feed/", "/rss", "/rss.xml", "/index.xml", "/atom.xml"];
+
+/**
+ * Candidate feed URLs for the outlets that failed verification.
+ *
+ * These are CANDIDATES, not corrections. Nothing here is trusted: each is
+ * fetched and must parse as a feed with items before it replaces anything, the
+ * same bar as every other URL in the roster. Keyed by outlet id; tried before
+ * the generic fallback paths.
+ */
+const ALTERNATES = {
+  ap:            ["https://apnews.com/index.rss", "https://apnews.com/hub/world-news/rss", "https://apnews.com/rss"],
+  reuters:       ["https://www.reutersagency.com/feed/?best-topics=world&post_type=best"],
+  washtimes:     ["https://www.washingtontimes.com/rss/headlines/news/politics/", "https://www.washingtontimes.com/rss/headlines/news/"],
+  torstar:   ["https://www.thestar.com/search/?f=rss&t=article&c=news&l=50&s=start_time&sd=desc"],
+  "thewire-in":       ["https://thewire.in/rss/", "https://m.thewire.in/rss"],
+  "indianexp": ["https://indianexpress.com/section/india/feed/", "https://indianexpress.com/section/world/feed/"],
+  theprint:      ["https://theprint.in/feed", "https://theprint.in/rss"],
+  swarajya:      ["https://swarajyamag.com/rss/all", "https://swarajyamag.com/commentary/feed"],
+  haaretz:       ["https://www.haaretz.com/cmlink/1.4605102", "https://www.haaretz.com/srv/rss"],
+  timesofisrael: ["https://www.timesofisrael.com/feed", "https://www.timesofisrael.com/rss"],
+  xinhua:        ["https://english.news.cn/rss/world.xml", "https://english.news.cn/home.xml"],
+  focustaiwan:   ["https://focustaiwan.tw/rss/all", "https://focustaiwan.tw/rss/politics.xml"],
+};
 
 // ---------------------------------------------------------------------------
 
@@ -80,7 +108,22 @@ async function check(entry) {
                    country: entry.country ?? entry.region ?? null,
                    url: entry.feed, ok: false, items: 0, note: "" };
 
-  if (!entry.feed) { result.note = "no feed url in roster"; return result; }
+  if (!entry.feed) {
+    result.note = "no feed url in roster";
+    if (DISCOVER && ALTERNATES[entry.id]) {
+      for (const candidate of ALTERNATES[entry.id]) {
+        const r = await get(candidate).catch(() => null);
+        if (r?.status !== 200) continue;
+        const i = inspect(r.body, r.type);
+        if (i.isFeed && i.items > 0) {
+          result.ok = true; result.suggested = candidate; result.items = i.items;
+          result.note = "had no url in the roster; found from the candidate list";
+          return result;
+        }
+      }
+    }
+    return result;
+  }
 
   try {
     const res = await get(entry.feed);
@@ -98,7 +141,7 @@ async function check(entry) {
                 : isFeed ? "unexpected" : "200 but not a feed (probably an HTML page)";
 
     if (DISCOVER) {
-      const found = await discover(entry.feed, res);
+      const found = await discover(entry.feed, res, entry.id);
       if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                    result.note = `original failed (${result.note}); found ${found.how}`; }
     }
@@ -106,7 +149,7 @@ async function check(entry) {
     result.note = err.name === "AbortError" ? `timeout after ${TIMEOUT_MS}ms` : String(err.message ?? err);
     if (DISCOVER) {
       try {
-        const found = await discover(entry.feed, null);
+        const found = await discover(entry.feed, null, entry.id);
         if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                      result.note = `original failed (${result.note}); found ${found.how}`; }
       } catch { /* keep the original error */ }
@@ -116,7 +159,17 @@ async function check(entry) {
 }
 
 /** Try the site's homepage <link> tag, then common feed paths. */
-async function discover(originalUrl, firstResponse) {
+async function discover(originalUrl, firstResponse, entryId = null) {
+  // Per-outlet candidates first: they are specific guesses about where that
+  // outlet's feed actually lives, so they beat probing /feed on every site.
+  for (const candidate of ALTERNATES[entryId] ?? []) {
+    if (candidate === originalUrl) continue;
+    const r = await get(candidate).catch(() => null);
+    if (r?.status !== 200) continue;
+    const i = inspect(r.body, r.type);
+    if (i.isFeed && i.items > 0) return { url: candidate, items: i.items, how: "from the candidate list" };
+  }
+
   const origin = new URL(originalUrl).origin;
 
   if (firstResponse && !/xml/i.test(firstResponse.type)) {
