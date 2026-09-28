@@ -151,7 +151,7 @@
       "access": "rss",
       "feed": "https://ec.europa.eu/commission/presscorner/api/rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -237,7 +237,7 @@
       "access": "rss",
       "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
       "verified": false,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
     },
     {
@@ -274,8 +274,8 @@
       "funding": "nonprofit",
       "feed": "https://www.democracynow.org/democracynow.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 38
+      "feed_checked": "2026-09-28",
+      "feed_items": 41
     },
     {
       "id": "motherjones",
@@ -285,7 +285,7 @@
       "funding": "nonprofit",
       "feed": "https://www.motherjones.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -296,7 +296,7 @@
       "funding": "trust-owned",
       "feed": "https://www.theguardian.com/us-news/rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 33
     },
     {
@@ -307,7 +307,7 @@
       "funding": "public + member",
       "feed": "https://feeds.npr.org/1004/rss.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -319,7 +319,7 @@
       "feed": "https://apnews.com/hub/ap-top-news/rss",
       "verified": false,
       "feed_error": "HTTP 403",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "reuters",
@@ -331,7 +331,7 @@
       "notes": "Wire API is enterprise-priced; RSS availability unconfirmed",
       "verified": false,
       "feed_error": "no feed url in roster",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "bbc",
@@ -341,8 +341,8 @@
       "funding": "public (licence fee)",
       "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 32
+      "feed_checked": "2026-09-28",
+      "feed_items": 33
     },
     {
       "id": "axios",
@@ -352,7 +352,7 @@
       "funding": "corporate",
       "feed": "https://api.axios.com/feed/",
       "verified": false,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
     },
     {
@@ -363,7 +363,7 @@
       "funding": "church-affiliated nonprofit",
       "feed": "https://rss.csmonitor.com/feeds/world",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 20
     },
     {
@@ -375,7 +375,7 @@
       "feed": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
       "notes": "News desk and opinion page lean differently; label separately if both used",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 20
     },
     {
@@ -386,7 +386,7 @@
       "funding": "corporate",
       "feed": "https://www.washingtonexaminer.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -397,7 +397,7 @@
       "funding": "Fox Corp",
       "feed": "https://moxie.foxnews.com/google-publisher/world.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 25
     },
     {
@@ -408,8 +408,8 @@
       "funding": "News Corp",
       "feed": "https://nypost.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 23
+      "feed_checked": "2026-09-28",
+      "feed_items": 24
     },
     {
       "id": "dailycaller",
@@ -419,7 +419,7 @@
       "funding": "corporate",
       "feed": "https://dailycaller.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 25
     },
     {
@@ -431,7 +431,7 @@
       "feed": "https://www.washingtontimes.com/rss/headlines/news/world/",
       "verified": false,
       "feed_error": "HTTP 403",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "torstar",
@@ -442,7 +442,7 @@
       "feed": "",
       "verified": false,
       "feed_error": "no feed url in roster",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "cbc",
@@ -452,7 +452,7 @@
       "funding": "public broadcaster",
       "feed": "https://www.cbc.ca/webfeed/rss/rss-world",
       "verified": false,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_error": "HTTP 403"
     },
     {
@@ -463,7 +463,7 @@
       "funding": "corporate",
       "feed": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 100
     },
     {
@@ -474,7 +474,7 @@
       "funding": "Postmedia",
       "feed": "https://nationalpost.com/feed",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -485,7 +485,7 @@
       "funding": "nonprofit",
       "feed": "https://thehub.ca/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -496,8 +496,8 @@
       "funding": "corporate",
       "feed": "https://www.westernstandard.news/stories.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 18
+      "feed_checked": "2026-09-28",
+      "feed_items": 12
     },
     {
       "id": "ledevoir",
@@ -507,7 +507,7 @@
       "funding": "independent (Quebec)",
       "feed": "https://www.ledevoir.com/rss/manchettes.xml",
       "verified": false,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_error": "HTTP 403"
     },
     {
@@ -519,7 +519,7 @@
       "feed": "https://thewire.in/rss",
       "verified": false,
       "feed_error": "200 but not a feed (probably an HTML page)",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "scroll-in",
@@ -529,7 +529,7 @@
       "funding": "corporate",
       "feed": "https://feeds.feedburner.com/ScrollinArticles.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 100
     },
     {
@@ -540,7 +540,7 @@
       "funding": "family-owned",
       "feed": "https://www.thehindu.com/news/national/feeder/default.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 60
     },
     {
@@ -552,7 +552,7 @@
       "feed": "https://indianexpress.com/feed/",
       "verified": false,
       "feed_error": "HTTP 403",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "theprint",
@@ -563,7 +563,7 @@
       "feed": "https://theprint.in/feed/",
       "verified": false,
       "feed_error": "200 but not a feed (probably an HTML page)",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "bstandard",
@@ -573,7 +573,7 @@
       "funding": "corporate (business)",
       "feed": "https://www.business-standard.com/rss/home_page_top_stories.rss",
       "verified": false,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_error": "HTTP 403"
     },
     {
@@ -585,7 +585,7 @@
       "feed": "https://swarajyamag.com/feed",
       "verified": false,
       "feed_error": "parses as a feed but has 0 items",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "opindia",
@@ -595,7 +595,7 @@
       "funding": "corporate",
       "feed": "https://www.opindia.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -606,7 +606,7 @@
       "funding": "RSS-affiliated",
       "feed": "https://organiser.org/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -617,7 +617,7 @@
       "funding": "corporate + EU funding",
       "feed": "https://www.euronews.com/rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 50
     },
     {
@@ -628,7 +628,7 @@
       "funding": "Axel Springer",
       "feed": "https://www.politico.eu/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -639,7 +639,7 @@
       "funding": "nonprofit",
       "feed": "https://euobserver.com/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 20
     },
     {
@@ -650,8 +650,8 @@
       "funding": "German public",
       "feed": "https://rss.dw.com/rdf/rss-en-world",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 11
+      "feed_checked": "2026-09-28",
+      "feed_items": 13
     },
     {
       "id": "lefigaro",
@@ -661,7 +661,7 @@
       "funding": "Dassault group",
       "feed": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 20
     },
     {
@@ -672,8 +672,8 @@
       "funding": "foundation-owned",
       "feed": "https://www.faz.net/rss/aktuell/",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 164
+      "feed_checked": "2026-09-28",
+      "feed_items": 158
     },
     {
       "id": "brusselssig",
@@ -683,7 +683,7 @@
       "funding": "corporate",
       "feed": "https://brusselssignal.eu/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 12
     },
     {
@@ -694,7 +694,7 @@
       "funding": "corporate (CEE)",
       "feed": "https://rmx.news/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 10
     },
     {
@@ -705,7 +705,7 @@
       "funding": "corporate",
       "feed": "https://www.haaretz.com/srv/haaretz-latest-headlines",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 100
     },
     {
@@ -717,7 +717,7 @@
       "feed": "https://www.timesofisrael.com/feed/",
       "verified": false,
       "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "jpost",
@@ -728,7 +728,7 @@
       "feed": "https://www.jpost.com/rss/rssfeedsheadlines.aspx",
       "notes": "Article fetches redirect-looped during research; expect retrieval trouble",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 30
     },
     {
@@ -739,7 +739,7 @@
       "funding": "nonprofit, pro-Israel",
       "feed": "https://www.jns.org/index.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 30
     },
     {
@@ -750,7 +750,7 @@
       "funding": "Qatari state-funded",
       "feed": "https://www.aljazeera.com/xml/rss/all.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 25
     },
     {
@@ -761,7 +761,7 @@
       "funding": "corporate",
       "feed": "https://www.middleeasteye.net/rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 20
     },
     {
@@ -772,7 +772,7 @@
       "funding": "Saudi-owned",
       "feed": "https://www.arabnews.com/rss.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 50
     },
     {
@@ -783,7 +783,7 @@
       "funding": "Chinese state (CPC)",
       "feed": "https://www.globaltimes.cn/rss/outbrain.xml",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 50
     },
     {
@@ -795,7 +795,7 @@
       "feed": null,
       "verified": false,
       "feed_error": "no feed url in roster",
-      "feed_checked": "2026-09-21"
+      "feed_checked": "2026-09-28"
     },
     {
       "id": "scmp",
@@ -805,7 +805,7 @@
       "funding": "Alibaba-owned",
       "feed": "https://www.scmp.com/rss/91/feed/",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 50
     },
     {
@@ -816,8 +816,8 @@
       "funding": "Taiwan public",
       "feed": "https://feeds.feedburner.com/rsscna/engnews/",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 35
+      "feed_checked": "2026-09-28",
+      "feed_items": 30
     },
     {
       "id": "taipeitimes",
@@ -827,8 +827,8 @@
       "funding": "corporate",
       "feed": "https://www.taipeitimes.com/xml/index.rss",
       "verified": true,
-      "feed_checked": "2026-09-21",
-      "feed_items": 53
+      "feed_checked": "2026-09-28",
+      "feed_items": 48
     },
     {
       "id": "nikkeiasia",
@@ -838,7 +838,7 @@
       "funding": "Nikkei Inc",
       "feed": "https://asia.nikkei.com/rss/feed/nar",
       "verified": true,
-      "feed_checked": "2026-09-21",
+      "feed_checked": "2026-09-28",
       "feed_items": 50
     }
   ],
