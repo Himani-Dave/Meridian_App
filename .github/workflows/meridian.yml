@@ -14,7 +14,7 @@ on:
       job:
         description: "Which job to run"
         type: choice
-        options: [validate, ingest]
+        options: [validate, ingest, diagnose]
         default: validate
   schedule:
     - cron: "0 13 * * 1"   # weekly feed check, Mondays
@@ -47,14 +47,35 @@ jobs:
             MODE="${CTX:-${RAW:-validate}}"
           elif [ "$SCHED" = "0 13 * * 1" ]; then
             MODE=validate
-          elif [ "$(TZ=America/Toronto date +%H)" = "07" ]; then
-            MODE=ingest
           else
-            MODE=skip                       # the daylight-saving twin
+            # Which of the two daily twins is 07:00 in Toronto TODAY?
+            #
+            # This used to ask `TZ=America/Toronto date +%H` = 07, which is the
+            # time the runner STARTED, not the time the cron was due. GitHub
+            # delays scheduled runs under load, and the cost was total: between
+            # 18 Sep and 1 Oct 2026, 26 daily runs fired and every one resolved
+            # to skip — 26 green checks on runs that did nothing, and no daily
+            # briefing for two weeks. Meridian #6 fired from a daily cron and
+            # started at 14:47 UTC; by then the Toronto hour read 10.
+            #
+            # The two Monday runs in that window (#16, #31) worked fine, because
+            # the branch above matches the cron string exactly instead of asking
+            # the clock. That contrast is the whole bug.
+            #
+            # So decide from WHICH cron entry fired, which is exact, and from
+            # today's UTC offset, which is what daylight saving actually moves.
+            OFFSET="$(TZ=America/Toronto date +%z)"     # -0400 EDT | -0500 EST
+            case "$OFFSET" in
+              -0400) WANT="0 11 * * *" ;;              # 11:00 UTC = 07:00 EDT
+              -0500) WANT="0 12 * * *" ;;              # 12:00 UTC = 07:00 EST
+              *)     echo "::error::unexpected Toronto offset '$OFFSET'"; exit 1 ;;
+            esac
+            if [ "$SCHED" = "$WANT" ]; then MODE=ingest; else MODE=skip; fi
+            echo "offset=$OFFSET wanted='$WANT' fired='$SCHED'"
           fi
 
           case "$MODE" in
-            validate|ingest|skip) ;;
+            validate|ingest|diagnose|skip) ;;
             *) echo "::error::gate resolved mode to '$MODE', which is not a job"; exit 1 ;;
           esac
 
@@ -74,11 +95,19 @@ jobs:
       - run: npm ci
         working-directory: backend
 
-      # The rules are enforced by tests. Shipping data from a build where they
-      # fail is worse than not running.
-      # Run the tests directly rather than through the npm script, so this
-      # does not depend on how that script quotes its glob.
-      - run: node --test test/*.test.js
+      # PREFLIGHT, first and on its own. It checks config and cross-module
+      # consistency — a search endpoint in the roster, a candidate list keyed to
+      # nothing, validation using a different HTTP client from ingestion. Those
+      # are what actually broke this project, and none of them is catchable by
+      # testing a function in isolation. A failure here stops the run.
+      - name: Preflight
+        run: node --test test/integrity.test.js
+        working-directory: backend
+
+      # Behavioural tests. Shipping data from a build where these fail is worse
+      # than not running at all.
+      - name: Tests
+        run: node --test test/*.test.js
         working-directory: backend
 
       - name: Validate feeds
@@ -93,6 +122,14 @@ jobs:
         id: ingest
         working-directory: backend
         run: node run.js
+
+      # Read-only: probes the unverified feeds under several User-Agents and
+      # writes config/feed-diagnosis.md. No continue-on-error — if the
+      # diagnostic itself breaks, that should be loud.
+      - name: Diagnose feeds
+        if: needs.gate.outputs.mode == 'diagnose'
+        id: diagnose
+        run: node scripts/diagnose-feeds.js
 
       - name: Summary
         if: always()
@@ -126,7 +163,7 @@ jobs:
           # Stage each path on its own. `git add a b c` fails ATOMICALLY if any
           # pathspec matches nothing and stages none of them — that one line
           # silently threw away the results of three runs.
-          for p in config/sources.json config/feed-report.md backend/data; do
+          for p in config/sources.json config/feed-report.md config/feed-diagnosis.md backend/data; do
             if [ -e "$p" ]; then
               git add -A "$p"
               echo "staged $p"
@@ -149,7 +186,8 @@ jobs:
         if: always()
         run: |
           if [ "${{ steps.validate.conclusion }}" = "skipped" ] \
-             && [ "${{ steps.ingest.conclusion }}" = "skipped" ]; then
+             && [ "${{ steps.ingest.conclusion }}" = "skipped" ] \
+             && [ "${{ steps.diagnose.conclusion }}" = "skipped" ]; then
             echo "::error::Neither job ran. gate resolved mode='${{ needs.gate.outputs.mode }}'."
             exit 1
           fi
