@@ -226,3 +226,42 @@ test("undecoded entities would have broken that same pair", () => {
   assert.ok(!tokensClean.some(t => /8217|8216/.test(t)), "decoded titles carry no entity junk");
   assert.ok(tokensClean.includes("canada") && tokensClean.includes("associate"), "real terms survive");
 });
+
+// --- one entity decoder, not two -------------------------------------------
+//
+// The third ingest run still carried "Trump&#x27;s comments" in article quotes
+// and stored urls like "?utm_source=RSS_Feed&#038;utm_medium=RSS". I had fixed
+// hex references in discover-rss.js and not in fetch-article.js, which had its
+// own decoder — the same failure as the two HTTP clients, one copy fixed.
+
+test("hex entities are decoded wherever they appear", async () => {
+  const { decodeEntities, stripHtml } = await import("../src/entities.js");
+  assert.equal(decodeEntities("Trump&#x27;s comments"), "Trump's comments");
+  assert.equal(decodeEntities("Canada&#8217;s Carney"), "Canada’s Carney");
+  assert.equal(stripHtml("Von der Leyen&amp;#8217;s Europe"), "Von der Leyen’s Europe");
+});
+
+test("a feed url is decoded, so cards do not link to a mangled address", async () => {
+  const { decodeUrl } = await import("../src/entities.js");
+  assert.equal(
+    decodeUrl("https://x.com/a/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;c=1"),
+    "https://x.com/a/?utm_source=RSS_Feed&utm_medium=RSS&c=1");
+  assert.equal(decodeUrl("https://x.com/plain"), "https://x.com/plain");
+  assert.equal(decodeUrl("not a url"), "not a url", "never invent a url that did not parse");
+});
+
+test("items parsed from a feed carry clean titles and clean urls", async () => {
+  const { itemsFromFeed, _internals } = await import("../src/layers/discover-rss.js");
+  const xml = `<?xml version="1.0"?><rss version="2.0"><channel><item>
+    <title>Von der Leyen&amp;#8217;s Europe &amp;#8216;at a crossroads&amp;#8217;</title>
+    <link>https://euronews.example/a?utm_source=RSS_Feed&amp;#038;utm_medium=RSS</link>
+    <pubDate>Wed, 17 Sep 2026 08:15:00 GMT</pubDate>
+    <description>Trump&amp;#x27;s remarks drew a response from the commission today in Brussels.</description>
+  </item></channel></rss>`;
+  const [item] = itemsFromFeed(_internals.parser.parse(xml), { id: "eu", name: "Euronews", lean: "centre", country: "EU" });
+
+  assert.ok(!item.title.includes("&#"), `title still encoded: ${item.title}`);
+  assert.ok(!item.url.includes("&#"), `url still encoded: ${item.url}`);
+  assert.ok(!item.excerpt.includes("&#"), `excerpt still encoded: ${item.excerpt}`);
+  assert.doesNotThrow(() => new URL(item.url), "the decoded url must still parse");
+});

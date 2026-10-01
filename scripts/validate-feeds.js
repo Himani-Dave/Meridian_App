@@ -88,11 +88,14 @@ async function check(entry) {
 
   if (!entry.feed) {
     result.note = "no feed url in roster";
-    // With no url there is no origin to sniff, so a candidate list is the only
-    // way in. `homepage` in the roster gives one when a feed url does not.
-    const seed = ALTERNATES[entry.id]?.[0] ?? HOMEPAGES[entry.id] ?? entry.homepage;
+    // With no url there is no origin to sniff, so a seed is the only way in.
+    // `feed_index` is the outlet's own page listing its feeds — the best seed
+    // there is, and better than any guess. (This previously read
+    // `entry.homepage`, a field no roster entry has ever carried: the branch
+    // was dead, so an outlet with no feed url could never be discovered.)
+    const seed = entry.feed_index ?? ALTERNATES[entry.id]?.[0] ?? HOMEPAGES[entry.id];
     if (DISCOVER && seed) {
-      const found = await discover(seed, null, entry.id).catch(() => null);
+      const found = await discover(seed, null, entry.id, entry.feed_index).catch(() => null);
       if (found) {
         result.ok = true; result.suggested = found.url; result.items = found.items;
         result.note = `had no url in the roster; found ${found.how}`;
@@ -107,7 +110,7 @@ async function check(entry) {
       result.note = res.error;
       if (res.blockedBy) result.blockedBy = res.blockedBy;
       if (DISCOVER) {
-        const found = await discover(entry.feed, null, entry.id).catch(() => null);
+        const found = await discover(entry.feed, null, entry.id, entry.feed_index).catch(() => null);
         if (found) {
           result.ok = true; result.suggested = found.url; result.items = found.items;
           result.note = `original failed (${res.error}); found ${found.how}`;
@@ -129,7 +132,7 @@ async function check(entry) {
                 : isFeed ? "unexpected" : "200 but not a feed (probably an HTML page)";
 
     if (DISCOVER) {
-      const found = await discover(entry.feed, res, entry.id);
+      const found = await discover(entry.feed, res, entry.id, entry.feed_index);
       if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                    result.note = `original failed (${result.note}); found ${found.how}`; }
     }
@@ -137,7 +140,7 @@ async function check(entry) {
     result.note = String(err.message ?? err);
     if (DISCOVER) {
       try {
-        const found = await discover(entry.feed, null, entry.id);
+        const found = await discover(entry.feed, null, entry.id, entry.feed_index);
         if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                      result.note = `original failed (${result.note}); found ${found.how}`; }
       } catch { /* keep the original error */ }
@@ -154,7 +157,7 @@ async function check(entry) {
  */
 const MAX_PROBES_PER_OUTLET = 10;
 
-async function discover(originalUrl, firstResponse, entryId = null) {
+async function discover(originalUrl, firstResponse, entryId = null, feedIndex = null) {
   const origin = new URL(originalUrl).origin;
   const tried = new Set([originalUrl]);
 
@@ -167,6 +170,20 @@ async function discover(originalUrl, firstResponse, entryId = null) {
     const i = inspect(r.body, r.type);
     return i.isFeed && i.items > 0 ? { url: candidate, items: i.items, how } : null;
   };
+
+  // 0. The outlet's own feed directory, if the roster names one. First,
+  //    because it is the only source here that is not a guess — the publisher
+  //    listing its own feeds beats any candidate we invented. Every wrong feed
+  //    url in this project came from reasoning about what a url ought to be.
+  if (feedIndex) {
+    const page = await get(feedIndex).catch(() => null);
+    if (page?.ok && page.body) {
+      for (const candidate of sniffAllFeeds(page.body, new URL(feedIndex).origin)) {
+        const hit = await attempt(candidate, `listed on the outlet's feed index (${feedIndex})`);
+        if (hit) return hit;
+      }
+    }
+  }
 
   // 1. Per-outlet candidates: specific guesses about a known outlet.
   for (const candidate of ALTERNATES[entryId] ?? []) {

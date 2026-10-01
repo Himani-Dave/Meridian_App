@@ -35,8 +35,30 @@ const SIDE_LABEL = {
 /** Leans that are a position but not a left-right position. */
 const OFF_AXIS_LEANS = new Set(["state", "varies", "pro_sovereignty"]);
 
+/**
+ * Not a position at all — nobody has rated this outlet yet.
+ *
+ * Kept separate from OFF_AXIS_LEANS on purpose. "state" is a claim about an
+ * outlet; "unrated" is a claim about our own records. Folding the two together
+ * would make the pipeline report `lean "unrated" is not a left-right position`,
+ * which is a statement about the outlet we have no basis for. Rule 6: a label
+ * describes an outlet. An absent label must describe its own absence.
+ *
+ * An unrated outlet is still retrieved and still quoted. It simply counts
+ * toward no side, so it can never make a run look balanced when it isn't.
+ */
+const UNRATED_LEANS = new Set(["unrated"]);
+
 export function sideOf(lean) {
   return SIDE_OF_LEAN[String(lean ?? "").toLowerCase()] ?? null;
+}
+
+/** Why an outlet carries no side. The three cases are genuinely different. */
+function reasonForNoSide(lean) {
+  const l = String(lean ?? "").toLowerCase();
+  if (UNRATED_LEANS.has(l)) return "no bias rating on file for this outlet yet";
+  if (OFF_AXIS_LEANS.has(l)) return `lean "${lean}" is not a left-right position`;
+  return `unmapped lean "${lean}"`;
 }
 
 /**
@@ -63,7 +85,7 @@ export function frameCluster(cluster) {
       url: item.url,
     };
     if (side) bySide[side].push(entry);
-    else offAxis.push({ ...entry, reason: OFF_AXIS_LEANS.has(item.lean) ? `lean "${item.lean}" is not a left-right position` : `unmapped lean "${item.lean}"` });
+    else offAxis.push({ ...entry, reason: reasonForNoSide(item.lean) });
   });
 
   const onAxisSides = Object.entries(bySide).filter(([, list]) => list.length).map(([s]) => s);
@@ -99,4 +121,4 @@ export function frameCluster(cluster) {
   };
 }
 
-export const _internals = { SIDE_OF_LEAN, OFF_AXIS_LEANS, SIDE_LABEL };
+export const _internals = { SIDE_OF_LEAN, OFF_AXIS_LEANS, UNRATED_LEANS, SIDE_LABEL, reasonForNoSide };

@@ -88,19 +88,35 @@ const NOT_THE_NEWSROOM = /\b(comments?|author|tag|tags|search|podcast|shop|jobs)
  * `Disallow: /*?` in robots.txt forbid it outright, so it would be refused at
  * ingest even when validation passed.
  *
- * WordPress's /?feed=rss2 is the one legitimate query-string feed, so a single
- * `feed` or `format` parameter is allowed and nothing else is.
+ * The first version of this test rejected ANY url with more than one query
+ * parameter. That caught the Toronto Star url it was written for, but it tested
+ * a proxy for the property rather than the property itself, and it refused
+ * `pib.gov.in/ViewRss.aspx?reg=1&lang=1` — a legitimate parameterised
+ * government feed — purely for having two parameters. WordPress's /?feed=rss2
+ * survived only because it happened to have exactly one.
+ *
+ * So test for what actually makes an endpoint a search: a /search path, or a
+ * query key carrying a search term. The Toronto Star url still fails on its
+ * path, which is what identified it in the first place.
+ *
+ * The trade-off, stated plainly: a parameterised endpoint that rate-limits
+ * without being a literal search now gets through here. The roster preflight
+ * and a real validation run are what catch that. This function was never the
+ * last line of defence, and treating it as one is what made it over-broad.
  */
-const ALLOWED_QUERY_KEYS = new Set(["feed", "format", "type"]);
+const SEARCH_QUERY_KEYS = new Set([
+  "q", "query", "s", "search", "searchterm", "keyword", "keywords",
+  "term", "terms", "text", "kw", "phrase",
+]);
 
 export function isSearchEndpoint(url) {
   let u;
   try { u = new URL(url); } catch { return false; }
   if (/\/search\b/i.test(u.pathname)) return true;
-  const keys = [...u.searchParams.keys()];
-  if (!keys.length) return false;
-  if (keys.length > 1) return true;
-  return !ALLOWED_QUERY_KEYS.has(keys[0].toLowerCase());
+  for (const k of u.searchParams.keys()) {
+    if (SEARCH_QUERY_KEYS.has(k.toLowerCase().replace(/[^a-z]/g, ""))) return true;
+  }
+  return false;
 }
 
 export function sniffAllFeeds(html, base) {

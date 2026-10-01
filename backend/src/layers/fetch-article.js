@@ -25,6 +25,7 @@
  */
 
 import { get } from "../http.js";
+import { decodeEntities } from "../entities.js";
 
 export const MAX_QUOTES = 3;
 export const MAX_QUOTE_WORDS = 30;
@@ -43,15 +44,6 @@ export const MAX_QUOTED_SHARE = 0.10;
 const BLOCK_TAGS = /<\/?(p|div|section|article|main|h[1-6]|li|br|blockquote)[^>]*>/gi;
 const DROP_BLOCKS = /<(script|style|nav|footer|aside|form|noscript|figure|header)[^>]*>[\s\S]*?<\/\1>/gi;
 
-function decode(s) {
-  return s
-    .replace(/&nbsp;/gi, " ").replace(/&amp;/gi, "&").replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;|&rsquo;/gi, "'").replace(/&lsquo;/gi, "'")
-    .replace(/&ldquo;|&rdquo;/gi, '"').replace(/&lt;/gi, "<").replace(/&gt;/gi, ">")
-    .replace(/&mdash;/gi, "—").replace(/&ndash;/gi, "–")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
-}
-
 /**
  * Extract readable paragraphs. Deliberately simple: no DOM, no dependency.
  * It keeps blocks that look like prose (enough words, ends like a sentence)
@@ -66,7 +58,7 @@ export function paragraphsFrom(html) {
     .replace(BLOCK_TAGS, "\n")
     .replace(/<[^>]+>/g, " ")
     .split("\n")
-    .map(line => decode(line).replace(/\s+/g, " ").trim())
+    .map(line => decodeEntities(line).replace(/\s+/g, " ").trim())
     .filter(line => {
       const words = line.split(/\s+/).length;
       if (words < 12) return false;                       // nav, bylines, captions
@@ -207,4 +199,4 @@ export async function distilCluster(cluster, { maxArticles = 6 } = {}) {
   return { results, failures };
 }
 
-export const _internals = { sentences, trimToWords, decode };
+export const _internals = { sentences, trimToWords };

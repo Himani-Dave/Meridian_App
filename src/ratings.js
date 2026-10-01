@@ -1,4 +1,32 @@
 /**
+ * ============================================================================
+ * NOT WIRED IN. Nothing imports this file. Read this before trusting it.
+ * ============================================================================
+ *
+ * Status as of the sweep on 2026-09-18:
+ *   - Zero importers. `node run.js` never reaches it, no test covers it, and
+ *     it is the only module in the repo that nothing references.
+ *   - It also sits in the top-level `src/`, which is otherwise empty; every
+ *     other module lives under `backend/src/`. That alone is why it went
+ *     unnoticed for so long.
+ *   - It is NOT redundant. `attributionFor()` here is the only implementation
+ *     of CLAUDE.md rule 11 (a displayed MBFC rating must link back to MBFC),
+ *     and rule 11 becomes load-bearing the moment cards are rendered. Deleting
+ *     it would delete a requirement, so it stays until the composition step
+ *     exists and can call it — at which point it belongs at
+ *     backend/src/ratings.js with tests, not here.
+ *   - Its network paths have never been exercised against a live provider, and
+ *     findQid/fetchOwnership/fetchMbfcDataset default to the global fetch()
+ *     rather than backend/src/http.js, with their own "Meridian/0.1"
+ *     User-Agent string. That is a third HTTP client and a third UA. Wiring
+ *     this in as it stands re-introduces the exact second-client bug that made
+ *     fourteen feeds report verified:true and then get refused at ingest. Fix
+ *     that first: pass the pipeline's client in, or drop the defaults.
+ *
+ * Do not import it from the pipeline without adding tests first.
+ *
+ * ---------------------------------------------------------------------------
+ *
  * ratings.js — compare bias ratings from two independent providers.
  *
  * Design intent: two rating services using different methods will sometimes

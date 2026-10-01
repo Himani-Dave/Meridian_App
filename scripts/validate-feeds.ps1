@@ -1,4 +1,19 @@
 <#
+    ==========================================================================
+    FALLBACK / MANUAL TOOL — not part of the automated pipeline.
+    ==========================================================================
+    The main path is the GitHub Actions workflow (.github/workflows/meridian.yml,
+    mode "validate"), which runs scripts/validate-feeds.js with the pipeline's
+    own HTTP client. Use this only when Actions is unavailable.
+
+    CAVEAT, and it matters: this script uses PowerShell's own web client, not
+    backend/src/http.js. It does not read robots.txt, does not apply the
+    per-host gap, and sends a different User-Agent. A feed it calls good can
+    still be refused at ingest — that mismatch is exactly what produced
+    fourteen feeds marked verified:true that the pipeline then refused.
+    Treat its output as a hint; let the workflow set `verified`.
+    ==========================================================================
+
     Meridian — feed validator (runs on your machine, not in the cloud session)
 
     Why this exists: the cloud session's network only reaches an allowlist of hosts,

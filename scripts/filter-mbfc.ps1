@@ -1,4 +1,13 @@
 <#
+    ==========================================================================
+    MANUAL TOOL — not part of the automated pipeline, and not yet used.
+    ==========================================================================
+    No workflow runs this. It belongs to the MBFC ratings path, which is not
+    wired in: the only consumer of its output is scripts/join-mbfc.js, and the
+    module that would display a rating (src/ratings.js) has no importers.
+    Nothing here affects a briefing today.
+    ==========================================================================
+
     Meridian — trim the MBFC payload to the outlets we actually use.
 
     MBFC's /fetch-data returns every rated source in one array (9,000-11,000

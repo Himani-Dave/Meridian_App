@@ -139,3 +139,29 @@ test("no candidate list offers a search endpoint", () => {
     }
   }
 });
+
+// --- what makes an endpoint a search, and what merely has parameters --------
+// The first version of isSearchEndpoint() rejected any url with more than one
+// query parameter. That refused pib.gov.in's parameterised government feed for
+// having two, which is a fact about url shape, not about search.
+
+test("a parameterised feed that is not a search is accepted", () => {
+  assert.equal(isSearchEndpoint("https://www.pib.gov.in/ViewRss.aspx?reg=1&lang=1"), false,
+    "two parameters is not evidence of a search");
+  assert.equal(isSearchEndpoint("https://example.com/rss.aspx?lang=en&region=3&format=xml"), false);
+  assert.equal(isSearchEndpoint("https://example.com/?feed=rss2"), false);
+});
+
+test("the urls that actually rate-limited are still rejected", () => {
+  // The Toronto Star url this guard was written for. It is identified by its
+  // /search path, which is what made it a search in the first place.
+  assert.equal(isSearchEndpoint("https://www.thestar.com/search/?f=rss&t=article&c=news&l=50"), true);
+  for (const u of [
+    "https://example.com/feed?q=ukraine",
+    "https://example.com/rss?query=budget",
+    "https://example.com/feed/?s=canada",
+    "https://example.com/rss?keywords=india+policy",
+    "https://example.com/atom?searchTerm=carney",
+    "https://example.com/search/rss",
+  ]) assert.equal(isSearchEndpoint(u), true, `should be rejected: ${u}`);
+});

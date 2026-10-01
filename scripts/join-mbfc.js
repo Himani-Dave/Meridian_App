@@ -29,6 +29,7 @@
  */
 
 import { readFile, writeFile } from "node:fs/promises";
+import { registrable } from "../backend/src/domain.js";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -44,35 +45,8 @@ if (!input) {
   console.error("Usage: node scripts/join-mbfc.js <mbfc-payload.json> [--dry-run]");
   process.exit(2);
 }
-
-// --- domain normalisation --------------------------------------------------
-
-const MULTI_PART_TLDS = new Set([
-  "co.uk", "org.uk", "gov.uk", "ac.uk",
-  "co.in", "net.in", "org.in",
-  "co.il", "org.il",
-  "com.au", "net.au", "org.au",
-  "co.jp", "or.jp",
-  "com.hk", "com.tw", "org.tw",
-  "com.sa", "com.cn", "com.br", "co.kr", "co.za", "com.mx", "com.sg",
-]);
-
-function registrable(hostOrUrl) {
-  if (!hostOrUrl) return null;
-  let host = String(hostOrUrl).trim().toLowerCase();
-  if (!host) return null;
-  if (host.includes("://")) {
-    try { host = new URL(host).hostname; } catch { return null; }
-  } else {
-    host = host.replace(/^\/+/, "").split("/")[0];
-  }
-  host = host.replace(/^www\d?\./, "").replace(/\.$/, "");
-  const parts = host.split(".").filter(Boolean);
-  if (parts.length < 2) return null;
-  const lastTwo = parts.slice(-2).join(".");
-  if (parts.length >= 3 && MULTI_PART_TLDS.has(lastTwo)) return parts.slice(-3).join(".");
-  return lastTwo;
-}
+// registrable() moved to backend/src/domain.js — there were two copies with
+// different suffix lists, and they disagreed on .net.in, .com.sg and .com.mx.
 
 /**
  * Feed hosts that do not share a registrable domain with the outlet's website.

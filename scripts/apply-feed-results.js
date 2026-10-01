@@ -1,5 +1,15 @@
 #!/usr/bin/env node
 /**
+ * ============================================================================
+ * FALLBACK / MANUAL TOOL — not part of the automated pipeline.
+ * ============================================================================
+ * Nothing imports this and no workflow step runs it. It exists only to apply
+ * results produced by the PowerShell fallback (scripts/validate-feeds.ps1),
+ * which uses a different HTTP client from the pipeline — see the caveat in
+ * that file's header. The main path is
+ * `node scripts/validate-feeds.js --write`, which the workflow runs.
+ * ============================================================================
+ *
  * apply-feed-results.js — apply the output of scripts/validate-feeds.ps1.
  *
  * The cloud session cannot reach news domains (host allowlist), so feed checking

@@ -14,6 +14,7 @@
  */
 
 import { getJson } from "../http.js";
+import { registrable } from "../domain.js";
 
 const ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
 
@@ -91,15 +92,4 @@ export function matchToRoster(items, roster) {
   });
 }
 
-const MULTI = new Set(["co.uk", "org.uk", "co.in", "co.il", "com.au", "co.jp", "com.hk", "com.tw", "com.cn", "com.br", "co.kr", "co.za"]);
-
-export function registrable(urlOrHost) {
-  if (!urlOrHost) return null;
-  let host = String(urlOrHost).toLowerCase();
-  if (host.includes("://")) { try { host = new URL(host).hostname; } catch { return null; } }
-  host = host.replace(/^www\d?\./, "").split("/")[0];
-  const parts = host.split(".").filter(Boolean);
-  if (parts.length < 2) return null;
-  const lastTwo = parts.slice(-2).join(".");
-  return parts.length >= 3 && MULTI.has(lastTwo) ? parts.slice(-3).join(".") : lastTwo;
-}
+export { registrable };   // re-exported for callers that already import it here

@@ -49,7 +49,9 @@ test("entities are decoded, not left as HTML escapes", () => {
   const paras = paragraphsFrom(ARTICLE_HTML);
   const joined = paras.join(" ");
   assert.ok(!joined.includes("&ldquo;"));
-  assert.ok(joined.includes('"We have deferred this'));
+  // The shared decoder renders &ldquo;/&rdquo; as the real characters rather
+  // than flattening them to straight quotes, which is what the source says.
+  assert.ok(joined.includes('\u201cWe have deferred this'), `got: ${joined.slice(0, 120)}`);
 });
 
 test("the distillate stays inside every budget", () => {
@@ -91,7 +93,7 @@ test("directly quoted speech is preferred over filler", () => {
   ];
   const { quotes } = distil(padded);
   assert.ok(quotes.length > 0);
-  assert.ok(quotes[0].startsWith('"We have deferred this'),
+  assert.ok(quotes[0].startsWith('\u201cWe have deferred this'),
     `attributed speech should rank first, got: ${quotes[0]}`);
   assert.ok(quotes.some(q => q.includes("maintenance backlog")),
     "at a realistic length the quote survives long enough to carry its point");
