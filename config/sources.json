@@ -9,6 +9,15 @@
       "registration": "Registration for credentials, not a simple key.",
       "licence": "Paid or a licensing conversation.",
       "scrape": "No API exists. HTML/PDF parsing plus change detection."
+    },
+    "field_notes": {
+      "feed": "The feed url the pipeline reads. Empty string means none is known. NEVER a guess written in by hand — every wrong url in this project came from reasoning about what a url ought to be.",
+      "feed_index": "OPTIONAL. The outlet's own page listing its feeds (e.g. https://indianexpress.com/rss/). Not a feed. validate-feeds.js --discover fetches it FIRST and takes the feeds the publisher declares there, ahead of any candidate we invented.",
+      "verified": "The ONLY field the ingest pipeline reads. True means an actual successful fetch by backend/src/http.js — the same client that does the reading. Never set by hand.",
+      "lean": "Bias label. \"unrated\" means no rating is on file: the outlet is still retrieved and quoted, but counts toward no side of the spectrum, so it can never make a run look balanced when it is not. Replace with an MBFC-sourced lean carrying its MBFC link (rule 11).",
+      "feed_error": "Why the last check failed. Machine-written; cleared automatically on success.",
+      "feed_items": "Item count at the last successful check. Provenance only — nothing reads it.",
+      "feed_checked": "Date of the last check. Provenance only — nothing reads it."
     }
   },
   "discovery": [
@@ -98,10 +107,13 @@
       "id": "pib-in",
       "name": "PIB press releases",
       "region": "India",
-      "access": "scrape",
+      "access": "none",
       "url": "https://www.pib.gov.in/",
-      "notes": "Government voice. Primary evidence of what the government asserts.",
-      "verified": true
+      "notes": "Government voice. Primary evidence of what the government ASSERTS, never corroboration of what happened — counting it as a second outlet would fabricate corroboration. Feed url supplied by Himani 2026-09-18, not yet fetched from a runner.",
+      "verified": false,
+      "feed": "https://www.pib.gov.in/ViewRss.aspx?reg=1&lang=1",
+      "feed_checked": null,
+      "role": "government_statement"
     },
     {
       "id": "mha-in",
@@ -151,8 +163,7 @@
       "access": "rss",
       "feed": "https://ec.europa.eu/commission/presscorner/api/rss",
       "verified": true,
-      "feed_checked": "2026-09-28",
-      "feed_items": 10
+      "feed_checked": "2026-09-18"
     },
     {
       "id": "eurostat",
@@ -236,9 +247,8 @@
       "region": "Global",
       "access": "rss",
       "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "verified": false,
-      "feed_checked": "2026-09-28",
-      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
+      "verified": true,
+      "feed_checked": "2026-09-18"
     },
     {
       "id": "reliefweb",
@@ -441,7 +451,7 @@
       "funding": "corporate",
       "feed": "",
       "verified": false,
-      "feed_error": "no feed url in roster",
+      "feed_error": "removed: was a search endpoint, which rate-limits and is forbidden by Disallow: /*?",
       "feed_checked": "2026-09-28"
     },
     {
@@ -541,7 +551,8 @@
       "feed": "https://www.thehindu.com/news/national/feeder/default.rss",
       "verified": true,
       "feed_checked": "2026-09-28",
-      "feed_items": 60
+      "feed_items": 60,
+      "feed_index": "https://www.thehindu.com/rssfeeds/"
     },
     {
       "id": "indianexp",
@@ -552,7 +563,8 @@
       "feed": "https://indianexpress.com/feed/",
       "verified": false,
       "feed_error": "HTTP 403",
-      "feed_checked": "2026-09-28"
+      "feed_checked": "2026-09-28",
+      "feed_index": "https://indianexpress.com/rss/"
     },
     {
       "id": "theprint",
@@ -608,6 +620,19 @@
       "verified": true,
       "feed_checked": "2026-09-28",
       "feed_items": 10
+    },
+    {
+      "id": "toi",
+      "name": "The Times of India",
+      "country": "IN",
+      "lean": "unrated",
+      "funding": "corporate",
+      "feed": "",
+      "feed_index": "https://timesofindia.indiatimes.com/rss.cms",
+      "verified": false,
+      "feed_checked": null,
+      "feed_error": "no feed url yet — feed_index supplied, awaiting --discover",
+      "notes": "Added 2026-09-18 at Himani's request. lean:'unrated' is deliberate: no bias rating on file, so it retrieves and can be quoted but counts toward no side of the spectrum. Replace with an MBFC-sourced lean (rule 11: the rating must carry its MBFC link) before it is allowed to satisfy a left/centre/right view."
     },
     {
       "id": "euronews",
