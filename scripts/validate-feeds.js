@@ -22,6 +22,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { ALTERNATES, HOMEPAGES, inspect, sniffAllFeeds } from "./feed-discovery.js";
+import { sideOf } from "../backend/src/layers/frame.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONFIG = join(__dirname, "..", "config", "sources.json");
@@ -164,7 +165,26 @@ async function check(entry) {
  * is also slow: ~15 requests per failing outlet. Bounded so a pathological
  * roster can never run the job into its timeout.
  */
-const MAX_PROBES_PER_OUTLET = 10;
+/**
+ * Enough budget to actually FINISH, instead of a number that guaranteed we
+ * stopped early.
+ *
+ * This was 10. The steps want up to 1 original + 3 candidates + 3x3 sniffed +
+ * 14 generic fallbacks = 35 probes, so any outlet that reached step 4 blew the
+ * cap by construction. The first run after the honest-reporting change proved
+ * it: the "stopped looking" note appeared on 16 of 17 failures. A caveat that
+ * fires every time is not information, and the cap was not protecting anything
+ * real — it was a proxy for runtime, chosen without measuring runtime.
+ *
+ * So the bound is now the thing it was always standing in for. 40 probes covers
+ * every step to completion with headroom. The per-host gap in http.js is 1.2s
+ * and probes for one outlet share a host, so a fully-failing outlet costs ~42s;
+ * the 17 failing ones come to roughly 12 minutes inside a 30-minute job. The
+ * time guard below is a hang-stopper for a pathological host, not the normal
+ * limit — if it ever fires, that is worth seeing in the report.
+ */
+const MAX_PROBES_PER_OUTLET = 40;
+const MAX_SECONDS_PER_OUTLET = 150;
 
 /**
  * No single step may spend the whole probe budget.
@@ -183,20 +203,24 @@ const MAX_PROBES_PER_OUTLET = 10;
  * class this project exists to eliminate. Each step now gets a bounded share,
  * and exhaustion is recorded and reported.
  */
-const MAX_CANDIDATES_PER_STEP = 3;
+const MAX_CANDIDATES_PER_STEP = 5;   // a bigger budget affords a wider look per step
 
 async function discover(originalUrl, firstResponse, entryId = null, feedIndex = null, notes = []) {
   const origin = new URL(originalUrl).origin;
   const tried = new Set([originalUrl]);
-  let exhausted = false;
+  const startedAt = Date.now();
+  let stopped = null;
 
   const attempt = async (candidate, how) => {
     if (!candidate || tried.has(candidate)) return null;
+    // Both bounds are deliberately generous. Hitting either means we gave up
+    // before exhausting the search, which must never read as "nothing exists".
     if (tried.size > MAX_PROBES_PER_OUTLET) {
-      if (!exhausted) {
-        exhausted = true;
-        notes.push(`probe budget (${MAX_PROBES_PER_OUTLET}) spent before all discovery steps ran — this is "stopped looking", not "no feed exists"`);
-      }
+      if (!stopped) notes.push(stopped = `gave up after ${tried.size - 1} probes (cap ${MAX_PROBES_PER_OUTLET}) — not all candidates were tried`);
+      return null;
+    }
+    if ((Date.now() - startedAt) / 1000 > MAX_SECONDS_PER_OUTLET) {
+      if (!stopped) notes.push(stopped = `gave up after ${MAX_SECONDS_PER_OUTLET}s on this host — not all candidates were tried`);
       return null;
     }
     tried.add(candidate);
@@ -298,10 +322,37 @@ for (const r of results.filter(r => r._bucket !== "primary" && r.lean)) {
 
 console.log(`\n${ok.length}/${results.length} feeds verified\n`);
 console.log("Balance by lean (verified / total):");
+/**
+ * Only a SPECTRUM SIDE being empty is fatal.
+ *
+ * This bucketed by raw `lean` and failed on any empty bucket, which made adding
+ * one unrated outlet (Times of India, no feed url yet) fail the whole run:
+ * `unrated: 0/1` looked identical to "the right has gone silent". It is not the
+ * same thing at all — one is a gap in our records about an outlet, the other is
+ * the silent bias this check exists to catch.
+ *
+ * `state`, `varies`, `pro_sovereignty` and `unrated` are not sides of the
+ * left-right axis, so they are reported and never fatal. The side mapping is
+ * imported rather than restated — frame.js owns it, and a second copy here is
+ * how the three duplicated-logic bugs in this project started.
+ */
+const bySide = { left: { total: 0, ok: 0 }, centre: { total: 0, ok: 0 }, right: { total: 0, ok: 0 } };
+for (const r of results.filter(r => r._bucket !== "primary" && r.lean)) {
+  const side = sideOf(r.lean);
+  if (!side) continue;
+  bySide[side].total++;
+  if (r.ok) bySide[side].ok++;
+}
+
 const empty = [];
 for (const [lean, c] of Object.entries(byLean).sort()) {
-  console.log(`  ${lean.padEnd(20)} ${c.ok}/${c.total}`);
-  if (c.ok === 0 && c.total > 0) empty.push(lean);
+  const side = sideOf(lean);
+  console.log(`  ${lean.padEnd(20)} ${c.ok}/${c.total}${side ? "" : "   (off-axis — reported, never fatal)"}`);
+}
+console.log("\nSpectrum sides (what the balance guarantee is about):");
+for (const [side, c] of Object.entries(bySide)) {
+  console.log(`  ${side.padEnd(20)} ${c.ok}/${c.total}`);
+  if (c.ok === 0 && c.total > 0) empty.push(side);
 }
 
 const report = [
@@ -357,7 +408,7 @@ if (WRITE) {
 }
 
 if (empty.length) {
-  console.error(`\nBALANCE FAILURE: no working feeds for lean: ${empty.join(", ")}`);
+  console.error(`\nBALANCE FAILURE: no working feeds on the ${empty.join(" or ")} side of the spectrum`);
   console.error("Fix these before ingesting. A missing side is a silent bias, not a missing feature.");
   process.exit(1);
 }

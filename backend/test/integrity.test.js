@@ -382,3 +382,61 @@ test("no action runs on the deprecated Node 20 runtime", async () => {
       `${action}@v${ver} is built on Node 20, which GitHub deprecated; it is being force-run on Node 24 today and will break when that shim is removed. Use @v5.`);
   }
 });
+
+// === 10. THE VALIDATOR'S OWN GUARDRAILS =====================================
+// Both of these shipped broken and were caught only by reading a real run's
+// report, which is the slowest possible way to find them.
+
+/**
+ * `unrated: 0/1` failed an entire validate run. Times of India was added with
+ * no bias rating and no feed url yet, which created a lean bucket with zero
+ * working feeds — indistinguishable, to the old check, from "the right has gone
+ * silent". Only a spectrum side going empty is a balance failure.
+ */
+test("only an empty spectrum side can fail a validate run", async () => {
+  const src = await read("scripts/validate-feeds.js");
+  assert.match(src, /from\s+["']\.\.\/backend\/src\/layers\/frame\.js["']/,
+    "the validator must import the side mapping, not restate it — three bugs in this project came from a second copy of shared logic");
+  assert.match(src, /sideOf\(/,
+    "the balance check must bucket by spectrum side");
+
+  const { sideOf } = await import("../src/layers/frame.js");
+  for (const lean of ["unrated", "state", "varies", "pro_sovereignty"]) {
+    assert.equal(sideOf(lean), null,
+      `"${lean}" is not a side of the left-right axis; an empty bucket for it must never fail a run`);
+  }
+  for (const lean of ["left", "lean_left", "centre", "lean_right", "right"]) {
+    assert.ok(sideOf(lean), `"${lean}" must map to a side so an empty one still fails the run`);
+  }
+});
+
+/**
+ * The probe budget was 10 while the discovery steps want up to 35 probes, so
+ * every outlet reaching the generic fallbacks stopped early. The first honest
+ * report showed the "stopped looking" note on 16 of 17 failures — a caveat that
+ * fires every time is not information. The cap must exceed what the steps ask
+ * for, so that hitting it is genuinely exceptional.
+ */
+test("the probe budget is large enough to finish the search", async () => {
+  const src = await read("scripts/validate-feeds.js");
+  const num = re => Number(src.match(re)?.[1]);
+  const cap = num(/MAX_PROBES_PER_OUTLET\s*=\s*(\d+)/);
+  const perStep = num(/MAX_CANDIDATES_PER_STEP\s*=\s*(\d+)/);
+  const fallbacks = (src.match(/^const FALLBACKS = \[([\s\S]*?)\];/m)?.[1].match(/"/g)?.length ?? 0) / 2;
+
+  assert.ok(cap && perStep && fallbacks, "could not read the budget constants");
+
+  // 1 original + candidates + three sniffing steps + every generic fallback.
+  const wanted = 1 + perStep + perStep * 3 + fallbacks;
+  assert.ok(cap >= wanted,
+    `probe cap ${cap} is below the ${wanted} probes the steps can ask for (1 + ${perStep} candidates + ${perStep}x3 sniffed + ${fallbacks} fallbacks) — outlets reaching the fallbacks would stop early, and the report would call that "no feed found"`);
+
+  // Code only. This file's comments discuss both constants by name, and an
+  // assertion that matches a comment is an assertion that cannot fail — a
+  // mistake already made three times in this suite.
+  const code = src.replace(/\/\*[\s\S]*?\*\//g, "").replace(/^\s*\/\/.*$/gm, "");
+  assert.match(code, /MAX_SECONDS_PER_OUTLET/,
+    "a time guard must bound a pathological host, since the count no longer does");
+  assert.match(code, /gave up after/,
+    "giving up early must be reported, never silently returned as a failure");
+});
