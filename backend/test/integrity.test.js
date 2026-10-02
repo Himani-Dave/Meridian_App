@@ -349,3 +349,36 @@ test("the discoverer reads feed_index, and nothing reads the field that never ex
       `${f} reads .homepage, a field no roster entry carries — the branch is dead and the outlet is silently skipped`);
   }
 });
+
+// === 9. THE RUNNER ENVIRONMENT ==============================================
+// Environment drift is the same failure class as everything else here: a change
+// that happens without anyone deciding it, behind a green check. `ubuntu-latest`
+// moves to Ubuntu 26.04 from 19 Oct 2026, and the v4 actions run on a
+// deprecated Node 20. Both are pinned so a move is a decision, not a surprise.
+
+test("the runner image is pinned, not a floating label", async () => {
+  let wf;
+  try { wf = await read(".github/workflows/meridian.yml"); }
+  catch { return; }
+
+  const images = [...wf.matchAll(/^\s*runs-on:\s*(\S+)\s*$/gm)].map(m => m[1]);
+  assert.ok(images.length >= 2, "both jobs must declare a runner image");
+  for (const img of images) {
+    assert.doesNotMatch(img, /-latest$/,
+      `runs-on: ${img} floats — the image can change under an unattended daily job without anyone deciding to`);
+    assert.match(img, /^ubuntu-\d\d\.\d\d$/, `runs-on: ${img} is not a pinned Ubuntu image`);
+  }
+  assert.equal(new Set(images).size, 1,
+    `jobs run on different images (${[...new Set(images)].join(", ")}) — the gate and the work must agree`);
+});
+
+test("no action runs on the deprecated Node 20 runtime", async () => {
+  let wf;
+  try { wf = await read(".github/workflows/meridian.yml"); }
+  catch { return; }
+
+  for (const [, action, ver] of wf.matchAll(/uses:\s*(actions\/[\w-]+)@v(\d+)/g)) {
+    assert.ok(Number(ver) >= 5,
+      `${action}@v${ver} is built on Node 20, which GitHub deprecated; it is being force-run on Node 24 today and will break when that shim is removed. Use @v5.`);
+  }
+});

@@ -163,7 +163,8 @@
       "access": "rss",
       "feed": "https://ec.europa.eu/commission/presscorner/api/rss",
       "verified": true,
-      "feed_checked": "2026-09-18"
+      "feed_checked": "2026-09-28",
+      "feed_items": 10
     },
     {
       "id": "eurostat",
@@ -247,8 +248,9 @@
       "region": "Global",
       "access": "rss",
       "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "verified": true,
-      "feed_checked": "2026-09-18"
+      "verified": false,
+      "feed_checked": "2026-09-28",
+      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
     },
     {
       "id": "reliefweb",
