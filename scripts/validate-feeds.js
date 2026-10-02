@@ -86,6 +86,10 @@ async function check(entry) {
                    country: entry.country ?? entry.region ?? null,
                    url: entry.feed, ok: false, items: 0, note: "" };
 
+  // Discovery writes here when it had to give up early. A failure that means
+  // "we stopped looking" must never read like "there is nothing to find".
+  const dnotes = [];
+
   if (!entry.feed) {
     result.note = "no feed url in roster";
     // With no url there is no origin to sniff, so a seed is the only way in.
@@ -95,12 +99,13 @@ async function check(entry) {
     // was dead, so an outlet with no feed url could never be discovered.)
     const seed = entry.feed_index ?? ALTERNATES[entry.id]?.[0] ?? HOMEPAGES[entry.id];
     if (DISCOVER && seed) {
-      const found = await discover(seed, null, entry.id, entry.feed_index).catch(() => null);
+      const found = await discover(seed, null, entry.id, entry.feed_index, dnotes).catch(() => null);
       if (found) {
         result.ok = true; result.suggested = found.url; result.items = found.items;
         result.note = `had no url in the roster; found ${found.how}`;
       }
     }
+    if (!result.ok && dnotes.length) result.note += ` [${dnotes.join("; ")}]`;
     return result;
   }
 
@@ -110,12 +115,13 @@ async function check(entry) {
       result.note = res.error;
       if (res.blockedBy) result.blockedBy = res.blockedBy;
       if (DISCOVER) {
-        const found = await discover(entry.feed, null, entry.id, entry.feed_index).catch(() => null);
+        const found = await discover(entry.feed, null, entry.id, entry.feed_index, dnotes).catch(() => null);
         if (found) {
           result.ok = true; result.suggested = found.url; result.items = found.items;
           result.note = `original failed (${res.error}); found ${found.how}`;
         }
       }
+      if (!result.ok && dnotes.length) result.note += ` [${dnotes.join("; ")}]`;
       return result;
     }
     const { isFeed, items } = inspect(res.body, res.type);
@@ -132,7 +138,7 @@ async function check(entry) {
                 : isFeed ? "unexpected" : "200 but not a feed (probably an HTML page)";
 
     if (DISCOVER) {
-      const found = await discover(entry.feed, res, entry.id, entry.feed_index);
+      const found = await discover(entry.feed, res, entry.id, entry.feed_index, dnotes);
       if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                    result.note = `original failed (${result.note}); found ${found.how}`; }
     }
@@ -140,12 +146,15 @@ async function check(entry) {
     result.note = String(err.message ?? err);
     if (DISCOVER) {
       try {
-        const found = await discover(entry.feed, null, entry.id, entry.feed_index);
+        const found = await discover(entry.feed, null, entry.id, entry.feed_index, dnotes);
         if (found) { result.ok = true; result.suggested = found.url; result.items = found.items;
                      result.note = `original failed (${result.note}); found ${found.how}`; }
       } catch { /* keep the original error */ }
     }
   }
+  // Append the honest caveat to whatever verdict was reached, but only when
+  // discovery did not succeed — a found feed makes the budget moot.
+  if (!result.ok && dnotes.length) result.note += ` [${dnotes.join("; ")}]`;
   return result;
 }
 
@@ -157,18 +166,53 @@ async function check(entry) {
  */
 const MAX_PROBES_PER_OUTLET = 10;
 
-async function discover(originalUrl, firstResponse, entryId = null, feedIndex = null) {
+/**
+ * No single step may spend the whole probe budget.
+ *
+ * This was a real defect, and it is this project's signature failure wearing a
+ * new coat. Steps 0, 2 and 3 each iterated sniffAllFeeds() output with no
+ * bound, while attempt() quietly returned null once tried.size passed
+ * MAX_PROBES_PER_OUTLET. A page declaring eight feeds therefore consumed the
+ * entire budget, and every later step — including the homepage sniff, which the
+ * comment below calls the one most likely to work — was skipped without ever
+ * being attempted.
+ *
+ * The damage was not just the missed feed. attempt() returned null identically
+ * whether a probe FAILED or was NEVER MADE, so the report said "no feed found"
+ * when the truth was "we stopped looking". That is exactly the silent-no-op
+ * class this project exists to eliminate. Each step now gets a bounded share,
+ * and exhaustion is recorded and reported.
+ */
+const MAX_CANDIDATES_PER_STEP = 3;
+
+async function discover(originalUrl, firstResponse, entryId = null, feedIndex = null, notes = []) {
   const origin = new URL(originalUrl).origin;
   const tried = new Set([originalUrl]);
+  let exhausted = false;
 
   const attempt = async (candidate, how) => {
     if (!candidate || tried.has(candidate)) return null;
-    if (tried.size > MAX_PROBES_PER_OUTLET) return null;
+    if (tried.size > MAX_PROBES_PER_OUTLET) {
+      if (!exhausted) {
+        exhausted = true;
+        notes.push(`probe budget (${MAX_PROBES_PER_OUTLET}) spent before all discovery steps ran — this is "stopped looking", not "no feed exists"`);
+      }
+      return null;
+    }
     tried.add(candidate);
     const r = await get(candidate).catch(() => null);
     if (!r?.ok) return null;
     const i = inspect(r.body, r.type);
     return i.isFeed && i.items > 0 ? { url: candidate, items: i.items, how } : null;
+  };
+
+  /** Probe a bounded share of what a page declared about itself. */
+  const trySniffed = async (body, base, how) => {
+    for (const candidate of sniffAllFeeds(body, base).slice(0, MAX_CANDIDATES_PER_STEP)) {
+      const hit = await attempt(candidate, how);
+      if (hit) return hit;
+    }
+    return null;
   };
 
   // 0. The outlet's own feed directory, if the roster names one. First,
@@ -178,35 +222,30 @@ async function discover(originalUrl, firstResponse, entryId = null, feedIndex = 
   if (feedIndex) {
     const page = await get(feedIndex).catch(() => null);
     if (page?.ok && page.body) {
-      for (const candidate of sniffAllFeeds(page.body, new URL(feedIndex).origin)) {
-        const hit = await attempt(candidate, `listed on the outlet's feed index (${feedIndex})`);
-        if (hit) return hit;
-      }
+      const hit = await trySniffed(page.body, new URL(feedIndex).origin,
+        `listed on the outlet's feed index (${feedIndex})`);
+      if (hit) return hit;
     }
   }
 
   // 1. Per-outlet candidates: specific guesses about a known outlet.
-  for (const candidate of ALTERNATES[entryId] ?? []) {
+  for (const candidate of (ALTERNATES[entryId] ?? []).slice(0, MAX_CANDIDATES_PER_STEP)) {
     const hit = await attempt(candidate, "from the candidate list");
     if (hit) return hit;
   }
 
   // 2. What the failed page itself declared, if it returned HTML.
   if (firstResponse?.body && !/xml/i.test(firstResponse.type ?? "")) {
-    for (const candidate of sniffAllFeeds(firstResponse.body, origin)) {
-      const hit = await attempt(candidate, "declared on the page that failed");
-      if (hit) return hit;
-    }
+    const hit = await trySniffed(firstResponse.body, origin, "declared on the page that failed");
+    if (hit) return hit;
   }
 
   // 3. Ask the homepage. This is the step that was missing entirely, and it is
   //    the one most likely to work: the outlet tells you where its feed is.
   const home = await get(origin + "/").catch(() => null);
   if (home?.ok && home.body) {
-    for (const candidate of sniffAllFeeds(home.body, origin)) {
-      const hit = await attempt(candidate, "declared in the homepage <head>");
-      if (hit) return hit;
-    }
+    const hit = await trySniffed(home.body, origin, "declared in the homepage <head>");
+    if (hit) return hit;
   }
 
   // 4. Generic paths, last, because they are pure guesswork.

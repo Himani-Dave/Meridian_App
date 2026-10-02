@@ -12,7 +12,7 @@
     },
     "field_notes": {
       "feed": "The feed url the pipeline reads. Empty string means none is known. NEVER a guess written in by hand — every wrong url in this project came from reasoning about what a url ought to be.",
-      "feed_index": "OPTIONAL. The outlet's own page listing its feeds (e.g. https://indianexpress.com/rss/). Not a feed. validate-feeds.js --discover fetches it FIRST and takes the feeds the publisher declares there, ahead of any candidate we invented.",
+      "feed_index": "OPTIONAL. A page of the outlet's own that declares its feeds — a feed directory (https://indianexpress.com/rss/) or just the homepage, whose <head> usually carries <link rel=\"alternate\" type=\"application/rss+xml\">. Not a feed itself. validate-feeds.js --discover fetches it FIRST and takes what the publisher declares, ahead of any candidate we invented. Note that discover() already sniffs the feed url's own origin homepage, so a homepage here is mainly of value to diagnose-feeds.js, which probes it explicitly.",
       "verified": "The ONLY field the ingest pipeline reads. True means an actual successful fetch by backend/src/http.js — the same client that does the reading. Never set by hand.",
       "lean": "Bias label. \"unrated\" means no rating is on file: the outlet is still retrieved and quoted, but counts toward no side of the spectrum, so it can never make a run look balanced when it is not. Replace with an MBFC-sourced lean carrying its MBFC link (rule 11).",
       "feed_error": "Why the last check failed. Machine-written; cleared automatically on success.",
@@ -531,7 +531,8 @@
       "feed": "https://thewire.in/rss",
       "verified": false,
       "feed_error": "200 but not a feed (probably an HTML page)",
-      "feed_checked": "2026-09-28"
+      "feed_checked": "2026-09-28",
+      "feed_index": "https://thewire.in/"
     },
     {
       "id": "scroll-in",
@@ -577,7 +578,8 @@
       "feed": "https://theprint.in/feed/",
       "verified": false,
       "feed_error": "200 but not a feed (probably an HTML page)",
-      "feed_checked": "2026-09-28"
+      "feed_checked": "2026-09-28",
+      "feed_index": "https://theprint.in/"
     },
     {
       "id": "bstandard",
