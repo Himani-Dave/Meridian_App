@@ -1,0 +1,5 @@
+.env
+node_modules/
+*.log
+meridian-feed-results.json
+mbfc-*.json
