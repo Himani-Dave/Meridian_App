@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-18T16:26:33.474Z",
-  "finishedAt": "2026-09-18T16:31:05.517Z",
+  "startedAt": "2026-10-02T16:31:35.472Z",
+  "finishedAt": "2026-10-02T16:35:35.370Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1090,
-    "totalItems": 1087,
-    "clusters": 1012,
+    "rssItems": 1095,
+    "totalItems": 1115,
+    "clusters": 1004,
     "candidates": 12,
-    "articlesRead": 33
+    "articlesRead": 36
   },
   "balance": {
-    "left": 4,
-    "centre": 10,
-    "right": 1,
-    "none": 1
+    "left": 5,
+    "centre": 9,
+    "right": 9,
+    "none": 2
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 3
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 4
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 36
+      "availableInRegion": 44
     }
   },
   "starvedSides": [],
   "notes": [
-    "24 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 100 articles, 19 from roster outlets, 81 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
+    "32 multi-outlet clusters were left out by --max-stories 12."
   ],
   "failures": [
     {
@@ -138,14 +138,15 @@
     },
     {
       "layer": "discovery",
-      "source": "Xinhua",
-      "id": "xinhua",
+      "source": "The Times of India",
+      "id": "toi",
       "reason": "no feed url in the roster"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "source": "Xinhua",
+      "id": "xinhua",
+      "reason": "no feed url in the roster"
     },
     {
       "layer": "discovery",
@@ -153,57 +154,52 @@
       "reason": "HTTP 429"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
       "layer": "article",
-      "source": "Politico Europe",
-      "url": "https://www.politico.eu/article/emmanuel-macron-to-call-emergency-g7-meeting-as-energy-prices-spike-and-russian-hybrid-attacks-mount/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/macron-orders-protection-of-frances-infrastructure-against-russian-hybrid-attacks-3002248",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/video-students-flee-deadly-school-shooting-in-the-philippines?traffic_source=rss",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/alberta/ucp-mla-confirms-support-for-binding-alberta-independence-referendum/77524",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/middle-east/yemen-fighting-displaces-112000-pushes-thousands-toward-djibouti-3002211",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/canada/edmonton/ucp-mla-alberta-referendum-seperation-red-deer-jason-stephan-9.7364658",
       "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/police-hit-migrants-with-batons-during-camp-transfer-in-ceuta?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-ed-sheeran-tour-four-acts-quit-in-solidarity-with-macklemore/",
+      "url": "https://www.theglobeandmail.com/world/video-flydubai-pilot-tells-indias-pm-modi-he-couldnt-let-anyone-die/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/life/2026-09-16/ty-article/ed-sheeran-says-dropping-macklemore-from-u-s-concert-tour-was-not-his-decision/000001a0-a7a2-dea8-afe0-e7aead2e0000",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3369514/seoul-ups-ante-ukraine-feud-over-north-korean-pow-transfer-disclosure?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-ny-governor-says-system-failed-jane-doe-in-cornell-rape-case/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5972934/us-iran-war-un-report-alleged-war-crimes",
-      "reason": "timeout after 20000ms"
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/01/christa-pike-botched-execution-lawyer",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/oct/01/death-row-inmate-christa-pike-survives-two-lethal-injections-in-tennessee-the-latest",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
