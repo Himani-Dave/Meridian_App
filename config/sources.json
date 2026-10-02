@@ -114,7 +114,7 @@
       "feed": "https://www.pib.gov.in/ViewRss.aspx?reg=1&lang=1",
       "feed_checked": "2026-10-02",
       "role": "government_statement",
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "HTTP 403"
     },
     {
       "id": "mha-in",
@@ -251,7 +251,7 @@
       "feed": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
     },
     {
       "id": "reliefweb",
@@ -331,7 +331,7 @@
       "funding": "cooperative wire",
       "feed": "https://apnews.com/hub/ap-top-news/rss",
       "verified": false,
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "HTTP 403",
       "feed_checked": "2026-10-02"
     },
     {
@@ -343,7 +343,7 @@
       "feed": null,
       "notes": "Wire API is enterprise-priced; RSS availability unconfirmed",
       "verified": false,
-      "feed_error": "no feed url in roster [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "no feed url in roster",
       "feed_checked": "2026-10-02"
     },
     {
@@ -366,7 +366,7 @@
       "feed": "https://api.axios.com/feed/",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too"
     },
     {
       "id": "csmonitor",
@@ -443,7 +443,7 @@
       "funding": "corporate",
       "feed": "https://www.washingtontimes.com/rss/headlines/news/world/",
       "verified": false,
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "HTTP 403",
       "feed_checked": "2026-10-02"
     },
     {
@@ -454,7 +454,7 @@
       "funding": "corporate",
       "feed": "",
       "verified": false,
-      "feed_error": "no feed url in roster [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "no feed url in roster",
       "feed_checked": "2026-10-02"
     },
     {
@@ -466,7 +466,7 @@
       "feed": "https://www.cbc.ca/webfeed/rss/rss-world",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "HTTP 403"
     },
     {
       "id": "globemail",
@@ -510,7 +510,7 @@
       "feed": "https://www.westernstandard.news/stories.rss",
       "verified": true,
       "feed_checked": "2026-10-02",
-      "feed_items": 4
+      "feed_items": 3
     },
     {
       "id": "ledevoir",
@@ -521,7 +521,7 @@
       "feed": "https://www.ledevoir.com/rss/manchettes.xml",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "HTTP 403"
     },
     {
       "id": "thewire-in",
@@ -531,7 +531,7 @@
       "funding": "nonprofit",
       "feed": "https://thewire.in/rss",
       "verified": false,
-      "feed_error": "200 but not a feed (probably an HTML page) [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "200 but not a feed (probably an HTML page)",
       "feed_checked": "2026-10-02",
       "feed_index": "https://thewire.in/"
     },
@@ -566,7 +566,7 @@
       "funding": "corporate",
       "feed": "https://indianexpress.com/feed/",
       "verified": false,
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "HTTP 403",
       "feed_checked": "2026-10-02",
       "feed_index": "https://indianexpress.com/rss/"
     },
@@ -578,7 +578,7 @@
       "funding": "corporate",
       "feed": "https://theprint.in/feed/",
       "verified": false,
-      "feed_error": "200 but not a feed (probably an HTML page) [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "200 but not a feed (probably an HTML page)",
       "feed_checked": "2026-10-02",
       "feed_index": "https://theprint.in/"
     },
@@ -591,7 +591,7 @@
       "feed": "https://www.business-standard.com/rss/home_page_top_stories.rss",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "HTTP 403 [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]"
+      "feed_error": "HTTP 403"
     },
     {
       "id": "swarajya",
@@ -636,7 +636,7 @@
       "feed_index": "https://timesofindia.indiatimes.com/rss.cms",
       "verified": false,
       "feed_checked": "2026-10-02",
-      "feed_error": "no feed url in roster [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "no feed url in roster",
       "notes": "Added 2026-09-18 at Himani's request. lean:'unrated' is deliberate: no bias rating on file, so it retrieves and can be quoted but counts toward no side of the spectrum. Replace with an MBFC-sourced lean (rule 11: the rating must carry its MBFC link) before it is allowed to satisfy a left/centre/right view."
     },
     {
@@ -746,7 +746,7 @@
       "funding": "corporate",
       "feed": "https://www.timesofisrael.com/feed/",
       "verified": false,
-      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "refused by robots.txt — the ingest pipeline will refuse it too",
       "feed_checked": "2026-10-02"
     },
     {
@@ -824,7 +824,7 @@
       "funding": "Chinese state",
       "feed": null,
       "verified": false,
-      "feed_error": "no feed url in roster [probe budget (10) spent before all discovery steps ran — this is \"stopped looking\", not \"no feed exists\"]",
+      "feed_error": "no feed url in roster",
       "feed_checked": "2026-10-02"
     },
     {
@@ -847,7 +847,7 @@
       "feed": "https://feeds.feedburner.com/rsscna/engnews/",
       "verified": true,
       "feed_checked": "2026-10-02",
-      "feed_items": 39
+      "feed_items": 40
     },
     {
       "id": "taipeitimes",
