@@ -27,9 +27,22 @@ permissions:
 concurrency:
   group: meridian
 
+# The runner image is PINNED, not `ubuntu-latest`.
+#
+# `ubuntu-latest` starts moving to Ubuntu 26.04 on 19 October 2026. Nothing here
+# is exotic — npm ci, node --test, node run.js, git — so it would very likely
+# survive. But this job runs unattended every morning, and the one failure mode
+# this project is built to prevent is a change that happens quietly behind a
+# green check. An image move is exactly that.
+#
+# Pinning has a real cost: 24.04 is eventually retired, and a retired label
+# fails the run outright. That is the trade accepted here, because a pinned
+# image that goes stale fails LOUDLY, whereas an auto-migrated one fails subtly.
+# To move: change both lines to ubuntu-26.04 and trigger a manual validate run
+# before trusting the schedule again.
 jobs:
   gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       mode: ${{ steps.p.outputs.mode }}
     steps:
@@ -85,12 +98,18 @@ jobs:
   run:
     needs: gate
     if: needs.gate.outputs.mode != 'skip'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: "22" }
+      # v5, not v4. The v4 actions are built on Node 20, which GitHub has
+      # deprecated — every run so far carried the annotation "Node.js 20 is
+      # deprecated ... being forced to run on Node.js 24: actions/checkout@v4,
+      # actions/setup-node@v4". Being force-run on a runtime the action was not
+      # built for is a warning today and a broken daily job whenever the shim
+      # goes away. v5 targets Node 24 natively.
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: "22" }   # the Node the pipeline runs on, not the action runtime
 
       - run: npm ci
         working-directory: backend
