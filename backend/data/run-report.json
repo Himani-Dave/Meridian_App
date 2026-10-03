@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-02T16:31:35.472Z",
-  "finishedAt": "2026-10-02T16:35:35.370Z",
+  "startedAt": "2026-10-03T15:04:00.749Z",
+  "finishedAt": "2026-10-03T15:08:58.523Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1095,
-    "totalItems": 1115,
-    "clusters": 1004,
+    "rssItems": 1063,
+    "totalItems": 1078,
+    "clusters": 986,
     "candidates": 12,
-    "articlesRead": 36
+    "articlesRead": 39
   },
   "balance": {
-    "left": 5,
+    "left": 7,
     "centre": 9,
-    "right": 9,
-    "none": 2
+    "right": 5,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 4
+      "availableInRegion": 3
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 5
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 44
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 19 from roster outlets, 81 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
-    "32 multi-outlet clusters were left out by --max-stories 12."
+    "GDELT \"Canada federal\": 100 articles, 17 from roster outlets, 83 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,19 +151,12 @@
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
+      "reason": "fetch failed"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
       "reason": "HTTP 429"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/alberta/ucp-mla-confirms-support-for-binding-alberta-independence-referendum/77524",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "CBC News",
-      "url": "https://www.cbc.ca/news/canada/edmonton/ucp-mla-alberta-referendum-seperation-red-deer-jason-stephan-9.7364658",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -173,15 +166,33 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/week-asia/politics/article/3369598/indias-modi-faces-dual-pressure-cockroach-movement-opposition-parties?utm_source=rss_feed",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-flydubai-pilot-who-averted-disaster-hailed-as-hero/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/10/supreme-court-stays-death-penalty-of-ahmed-barelvi-2008-ahmedabad-blast-case-details/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3369514/seoul-ups-ante-ukraine-feud-over-north-korean-pow-transfer-disclosure?utm_source=rss_feed",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/02/nx-s1-5989397/the-g7-will-release-100-million-reserve-barrels-of-diesel-fuel-over-the-next-4-months",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/fresh-protests-to-hit-spain-after-housing-measures-defeated-3004359",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/02/new-york-governor-kathy-hochul-criticizes-how-cornell-sexual-assault-case-was-handled-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -191,15 +202,9 @@
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/01/christa-pike-botched-execution-lawyer",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/oct/01/death-row-inmate-christa-pike-survives-two-lethal-injections-in-tennessee-the-latest",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369632/new-york-governor-attacks-handling-cornell-gang-rape-case-appoints-special-prosecutor?utm_source=rss_feed",
+      "reason": "HTTP 403"
     }
   ]
 }
