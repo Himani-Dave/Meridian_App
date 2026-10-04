@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-03T15:04:00.749Z",
-  "finishedAt": "2026-10-03T15:08:58.523Z",
+  "startedAt": "2026-10-04T15:40:46.588Z",
+  "finishedAt": "2026-10-04T15:47:29.410Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1063,
-    "totalItems": 1078,
-    "clusters": 986,
+    "rssItems": 987,
+    "totalItems": 995,
+    "clusters": 898,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 54
   },
   "balance": {
-    "left": 7,
-    "centre": 9,
-    "right": 5,
-    "none": 1
+    "left": 9,
+    "centre": 10,
+    "right": 6,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,26 @@
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 5
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 40
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 17 from roster outlets, 83 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
+    "28 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,30 +151,24 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: Canada federal",
       "reason": "fetch failed"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: European Union",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-flydubai-pilot-tells-indias-pm-modi-he-couldnt-let-anyone-die/",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-02/ty-article/flydubai-pilot-i-opened-cockpit-door-letting-passengers-overpower-co-pilot/000001a0-fbcd-d2b3-a1b8-fbcf0d6c0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-flydubai-pilot-who-averted-disaster-hailed-as-hero/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/10/supreme-court-stays-death-penalty-of-ahmed-barelvi-2008-ahmedabad-blast-case-details/",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
@@ -184,26 +179,38 @@
     },
     {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/fresh-protests-to-hit-spain-after-housing-measures-defeated-3004359",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369673/tennessee-prisons-chief-resigning-after-botched-execution-christa-pike?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/02/new-york-governor-kathy-hochul-criticizes-how-cornell-sexual-assault-case-was-handled-video",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/jewish/2026-10-02/ty-article/two-iranians-charged-with-plotting-to-target-manchesters-jewish-community/000001a0-fe1d-d350-a9ab-fe5d0d1f0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-ny-governor-says-system-failed-jane-doe-in-cornell-rape-case/",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-10-04/ty-article/iran-says-strait-of-hormuz-will-stay-closed-until-u-s-meets-their-conditions/000001a1-0612-d2e8-afb1-163620570000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369632/new-york-governor-attacks-handling-cornell-gang-rape-case-appoints-special-prosecutor?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369675/trump-shares-senator-tom-cottons-phone-number-daylight-saving-time-clash?utm_source=rss_feed",
       "reason": "HTTP 403"
     }
   ]
