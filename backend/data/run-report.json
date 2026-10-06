@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-04T15:40:46.588Z",
-  "finishedAt": "2026-10-04T15:47:29.410Z",
+  "startedAt": "2026-10-06T17:03:21.153Z",
+  "finishedAt": "2026-10-06T17:09:36.608Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,46 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 987,
-    "totalItems": 995,
-    "clusters": 898,
+    "rssItems": 1061,
+    "totalItems": 1061,
+    "clusters": 966,
     "candidates": 12,
-    "articlesRead": 54
+    "articlesRead": 45
   },
   "balance": {
-    "left": 9,
-    "centre": 10,
+    "left": 7,
+    "centre": 11,
     "right": 6,
-    "none": 0
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 9
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 40
+      "availableInRegion": 36
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
-    "28 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 14 articles, 2 from roster outlets, 12 from outlets not in the roster (discovery only, not ingested).",
+    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,66 +151,73 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "source": "Organiser",
+      "id": "organiser",
+      "url": "https://organiser.org/feed/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-02/ty-article/flydubai-pilot-i-opened-cockpit-door-letting-passengers-overpower-co-pilot/000001a0-fbcd-d2b3-a1b8-fbcf0d6c0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3369942/india-opposition-lawmakers-detained-over-protest-against-election-chief?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/02/nx-s1-5989397/the-g7-will-release-100-million-reserve-barrels-of-diesel-fuel-over-the-next-4-months",
+      "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+      "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
       "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369673/tennessee-prisons-chief-resigning-after-botched-execution-christa-pike?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/jewish/2026-10-02/ty-article/two-iranians-charged-with-plotting-to-target-manchesters-jewish-community/000001a0-fe1d-d350-a9ab-fe5d0d1f0000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/what-we-know-about-russias-suspected-plague-case?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-10-04/ty-article/iran-says-strait-of-hormuz-will-stay-closed-until-u-s-meets-their-conditions/000001a1-0612-d2e8-afb1-163620570000",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/oct/05/why-did-the-us-withdraw-bombers-from-raf-fairford-the-latest",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-tear-gas-used-against-french-high-school-protesters/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3369675/trump-shares-senator-tom-cottons-phone-number-daylight-saving-time-clash?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3369936/french-school-unrest-students-teachers-march-biggest-day-protests?utm_source=rss_feed",
       "reason": "HTTP 403"
     }
   ]
