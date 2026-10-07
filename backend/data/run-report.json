@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-06T17:03:21.153Z",
-  "finishedAt": "2026-10-06T17:09:36.608Z",
+  "startedAt": "2026-10-07T17:41:07.944Z",
+  "finishedAt": "2026-10-07T17:46:21.889Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,46 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1061,
-    "totalItems": 1061,
-    "clusters": 966,
+    "rssItems": 1076,
+    "totalItems": 1074,
+    "clusters": 967,
     "candidates": 12,
-    "articlesRead": 45
+    "articlesRead": 40
   },
   "balance": {
-    "left": 7,
-    "centre": 11,
-    "right": 6,
-    "none": 1
+    "left": 8,
+    "centre": 10,
+    "right": 3,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 9
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 36
+      "availableInRegion": 50
     }
   },
   "starvedSides": [],
   "notes": [
     "GDELT \"Canada federal\": 14 articles, 2 from roster outlets, 12 from outlets not in the roster (discovery only, not ingested).",
-    "24 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "38 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,74 +151,61 @@
     },
     {
       "layer": "discovery",
-      "source": "Organiser",
-      "id": "organiser",
-      "url": "https://organiser.org/feed/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/canadian/breaking-liberals-to-restrict-maid-access-on-mental-illness-but-permit-advance-requests/77678",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3369942/india-opposition-lawmakers-detained-over-protest-against-election-chief?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
-      "reason": "timeout after 20000ms"
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/oct/07/christa-pike-awake-and-speaking-after-botched-execution-what-happens-now-the-latest",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/what-we-know-about-russias-suspected-plague-case?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/oct/05/why-did-the-us-withdraw-bombers-from-raf-fairford-the-latest",
+      "url": "https://www.haaretz.com/west-bank/2026-10-07/ty-article/.premium/idf-border-police-raid-west-bank-over-terror-oct-7-support-suspicions/000001a1-1542-d28a-a3a5-d75ba4db0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-tear-gas-used-against-french-high-school-protesters/",
+      "url": "https://www.theglobeandmail.com/world/video-nobel-medicine-prize-goes-to-three-scientists-for-research-into-brain/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3369936/french-school-unrest-students-teachers-march-biggest-day-protests?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370092/10-injured-knife-attack-school-northeastern-poland?utm_source=rss_feed",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-10-07/ty-article/californians-blast-trump-remark-that-iran-could-take-out-los-angeles/000001a1-12b4-df57-a7e5-3ab4bcf70000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }

@@ -1,294 +1,70 @@
 [
   {
-    "id": "c5ymnp3",
+    "id": "cc1muj5",
     "regions": [
-      "India",
-      "Europe",
+      "Canada",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 3,
-        "Europe": 6
+        "Canada": 4,
+        "India": 0,
+        "Europe": 0
       },
       "matched": {
-        "India": [
-          "india"
-        ],
-        "Europe": [
-          "germany",
-          "hungary"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-06T12:19:50.000Z",
-    "lastSeen": "2026-10-06T16:00:22.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "Al Jazeera",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.5859341132915584,
-      "max": 0.5859341132915584,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Qatar and India among seven countries bidding for 2036 Olympics, IOC says",
-        "u": "https://www.aljazeera.com/sports/2026/10/6/qatar-and-india-among-seven-countries-bidding-for-2036-olympics-ioc-says?traffic_source=rss",
-        "publishedAt": "2026-10-06T12:19:50.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Wherever the Games take place, one thing must never change: Athletes have to be at the heart of everything we do,” IOC President Kirsty Coventry said in a statement.",
-          "Qatar’s bid to host the 2036 Summer …"
-        ],
-        "figures": [],
-        "wordsRead": 367
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Qatar, India, South Africa among nations who want to host 2036 Olympics",
-        "u": "https://www.arabnews.com/sport/qatar-india-south-africa-among-nations-who-want-to-host-2036-olympics-3004915",
-        "publishedAt": "2026-10-06T16:00:22.000Z",
-        "retrievedAt": "2026-10-06T17:04:18.900Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Wherever the Games take place, one thing must never change: athletes have to be at the heart of everything we do,” IOC President Kirsty Coventry said in a statement.",
-          "PARIS: India, Qatar and South …"
-        ],
-        "figures": [],
-        "wordsRead": 345
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 0 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "Qatar and India among seven countries bidding for 2036 Olympics, IOC says",
-        "url": "https://www.aljazeera.com/sports/2026/10/6/qatar-and-india-among-seven-countries-bidding-for-2036-olympics-ioc-says?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Qatar, India, South Africa among nations who want to host 2036 Olympics",
-        "url": "https://www.arabnews.com/sport/qatar-india-south-africa-among-nations-who-want-to-host-2036-olympics-3004915",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Olympics",
-        "Qatar",
-        "India",
-        "South Africa"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c14ayvlw",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 10,
-        "Europe": 1
-      },
-      "matched": {
-        "India": [
-          "india",
-          "new delhi",
-          "modi",
-          "delhi"
-        ],
-        "Europe": [
+        "Canada": [
+          "ottawa",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-06T10:05:22.000Z",
-    "lastSeen": "2026-10-06T12:01:02.000Z",
+    "firstSeen": "2026-10-07T16:26:39.000Z",
+    "lastSeen": "2026-10-07T17:13:30.000Z",
     "outletCount": 2,
     "outlets": [
-      "BBC News",
-      "South China Morning Post"
+      "National Post",
+      "Western Standard"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.4982794433019293,
-      "max": 0.4982794433019293,
+      "min": 0.4015545559414056,
+      "max": 0.4015545559414056,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "National Post",
+        "b": "lean_right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Indian opposition MPs detained in protest against election chief",
-        "u": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T10:05:22.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
+        "t": "Bill set for this fall will bar people with a sole condition of mental illness from MAID",
+        "u": "https://nationalpost.com/news/politics/bill-set-for-this-fall-will-bar-people-with-a-sole-condition-of-mental-illness-from-maid",
+        "publishedAt": "2026-10-07T16:26:39.000Z",
+        "retrievedAt": "2026-10-07T17:41:28.361Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The opposition said 237 MPs from a range of parties participated in the march.",
-          "The campaign against Kumar gathered momentum after an investigation by the Indian Express newspaper reported that election commissioners Sukhbir Singh Sandhu and Vivek Joshi had formally objected at least 14 …",
-          "BJP MP Sambit Patra described them as a \"sponsored attempt\" to bring about a change of power through \"anarchy\"."
+          "“While there is not a perfect consensus on this issue, we believe this is the correct approach at this particular time,” Fraser said.",
+          "The committee said “grave concerns and deep divisions” continue to exist.",
+          "The committee also heard stories of “questionable conduct” by some MAID providers, as well as doctors “with a seemingly cavalier attitude toward ending a life,” committee co-chair Liberal MP Marcus …"
         ],
         "figures": [],
-        "wordsRead": 694
+        "wordsRead": 737
       },
       {
-        "n": "South China Morning Post",
-        "b": "varies",
+        "n": "Western Standard",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "India opposition lawmakers detained over protest against election chief",
-        "u": "https://www.scmp.com/news/asia/south-asia/article/3369942/india-opposition-lawmakers-detained-over-protest-against-election-chief?utm_source=rss_feed",
-        "publishedAt": "2026-10-06T12:01:02.000Z",
-        "retrievedAt": "2026-10-06T17:04:22.869Z",
+        "t": "BREAKING: Liberals to restrict MAID access on mental illness but permit advance requests",
+        "u": "https://www.westernstandard.news/canadian/breaking-liberals-to-restrict-maid-access-on-mental-illness-but-permit-advance-requests/77678",
+        "publishedAt": "2026-10-07T17:13:30.000Z",
+        "retrievedAt": "2026-10-07T17:41:31.311Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -303,50 +79,50 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Indian opposition MPs detained in protest against election chief",
-            "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "National Post",
+            "outletId": "natpost",
+            "lean": "lean_right",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Bill set for this fall will bar people with a sole condition of mental illness from MAID",
+            "url": "https://nationalpost.com/news/politics/bill-set-for-this-fall-will-bar-people-with-a-sole-condition-of-mental-illness-from-maid"
+          },
+          {
+            "outlet": "Western Standard",
+            "outletId": "westernstd",
+            "lean": "right",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "BREAKING: Liberals to restrict MAID access on mental illness but permit advance requests",
+            "url": "https://www.westernstandard.news/canadian/breaking-liberals-to-restrict-maid-access-on-mental-illness-but-permit-advance-requests/77678"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (right)"
     },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 1,
-        "headline": "India opposition lawmakers detained over protest against election chief",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3369942/india-opposition-lawmakers-detained-over-protest-against-election-chief?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Indian",
-        "India"
+        "MAID",
+        "BREAKING",
+        "Liberals",
+        "Bill"
       ],
       "attempts": [
         {
@@ -432,7 +208,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1kigb9r",
+    "id": "c1dms2sq",
     "regions": [
       "Europe",
       "Global"
@@ -451,30 +227,31 @@
           "(an outlet from the region covered it)"
         ],
         "Europe": [
-          "belgium",
+          "france",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-06T09:56:51.000Z",
-    "lastSeen": "2026-10-07T00:00:00.000Z",
-    "outletCount": 8,
+    "firstSeen": "2026-10-07T09:55:49.000Z",
+    "lastSeen": "2026-10-08T00:00:00.000Z",
+    "outletCount": 9,
     "outlets": [
       "NPR",
       "BBC News",
       "Globe and Mail",
       "Scroll.in",
-      "Euronews",
       "Al Jazeera",
+      "Arab News",
       "South China Morning Post",
-      "Taipei Times"
+      "Taipei Times",
+      "Nikkei Asia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
+    "tierBasis": "reported independently by 9 outlets",
     "clustering": {
-      "min": 0.36459863609968957,
-      "max": 0.7169959814123148,
-      "pairs": 16,
+      "min": 0.3890210304437488,
+      "max": 0.7941853342005337,
+      "pairs": 27,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -485,10 +262,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-        "u": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
-        "publishedAt": "2026-10-06T10:16:28.000Z",
-        "retrievedAt": "2026-10-06T17:03:27.213Z",
+        "t": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
+        "u": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+        "publishedAt": "2026-10-07T10:05:54.000Z",
+        "retrievedAt": "2026-10-07T17:41:14.857Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -498,18 +275,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "'Ghost particles' from space telescope wins physics Nobel",
-        "u": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T11:24:19.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
+        "t": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+        "u": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-07T11:51:52.000Z",
+        "retrievedAt": "2026-10-07T17:41:16.205Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The Royal Swedish Academy of Sciences said \"his vision and scientific leadership have been fundamental for the IceCube Neutrino Observatory\".",
-          "\"Francis Halzen has led an international team of researchers and engineers who have provided us with a fantastic instrument,\" said Prof Mark Pearce, Chair of the Nobel Committee for Physics.",
-          "\"His tenacity and scientific vision has paved the way for a new kind of astronomy.\""
+          "Speaking to the Nobel Prize press conference this morning over the phone, Kenso Soai said: \"This is one of the most exciting days of my life.\"",
+          "\"Other than life itself,\" the Nobel Committee said in a statement, \"no one had previously achieved this feat\".",
+          "Professor Robert Mokaya, president of the UK's Royal Society of Chemistry said it was a \"powerful example of how fundamental chemistry can underpin solutions to some of the biggest challenges …"
         ],
         "figures": [],
-        "wordsRead": 692
+        "wordsRead": 744
       },
       {
         "n": "Globe and Mail",
@@ -518,18 +295,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
-        "u": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/",
-        "publishedAt": "2026-10-06T10:27:01.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
+        "t": "Nobel Prize in Chemistry awarded to mirror molecule explorers Henri Kagan and Kenso Soai",
+        "u": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-chemistry-henri-kagan-kenso-soai/",
+        "publishedAt": "2026-10-07T10:32:13.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I cannot express how delighted I am,” she said after learning of Dr.",
-          "“When I reflect on this moment I have to emphasize how lucky I was because when we started this project, everybody realized this was maybe a good idea but very …",
-          "Halzen’s Nobel win, adding that his vision and enthusiasm for discovery “inspired generations of scientists to pursue the bold idea that neutrinos could reveal a previously hidden universe.”"
+          "On Wednesday, members of the Royal Swedish Academy of Sciences announced that Henri Kagan of Université Paris-Sud, Orsay and Kenso Soai of the Tokyo University of Science will share this …",
+          "Soai’s discovery is “probably the coolest experiment in organic chemistry.”",
+          "The winner of this year’s Nobel Memorial Prize in Economic Sciences will be announced on Oct. 12."
         ],
         "figures": [],
-        "wordsRead": 755
+        "wordsRead": 600
       },
       {
         "n": "Scroll.in",
@@ -538,41 +315,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Francis Halzen awarded physics Nobel for discovery of high-energy neutrinos of astrophysical origin",
-        "u": "https://scroll.in/latest/1096218/francis-halzen-awarded-physics-nobel-for-discovery-of-high-energy-neutrinos-of-astrophysical-origin?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-10-06T11:05:50.000Z",
-        "retrievedAt": "2026-10-06T17:03:45.845Z",
+        "t": "Henri Kagan, Kenso Soai win chemistry Nobel for research into mirror-image molecules",
+        "u": "https://scroll.in/latest/1096239/henri-kagan-kenso-soai-win-chemistry-nobel-for-research-into-mirror-image-molecules?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-07T10:54:06.000Z",
+        "retrievedAt": "2026-10-07T17:41:32.863Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“His vision and scientific leadership have been fundamental for the IceCube Neutrino Observatory – a cubic kilometre of ice that is …"
-        ],
-        "figures": [
-          {
-            "value": "12 million",
-            "context": "the glacial ice. He will receive a prize amount of 12 million Swedish krona, or Rs 11.5 crore."
-          }
-        ],
-        "wordsRead": 213
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Belgian physicist wins Nobel for turning Antarctic ice into a telescope",
-        "u": "https://www.euronews.com/2026/10/06/belgian-physicist-wins-nobel-for-turning-antarctic-ice-into-a-telescope",
-        "publishedAt": "2026-10-06T11:35:13.000Z",
-        "retrievedAt": "2026-10-06T17:03:58.490Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"This year's prize is about ghostly messengers from space,\" Ellen Moons, secretary general of the Royal Swedish Academy of Sciences, told a news conference in Stockholm.",
-          "The academy said his work had been fundamental to the observatory, which it described as \"a cubic kilometre of ice that is equipped with light sensors,\" and that it had …",
-          "Speaking to the news conference by phone from Italy shortly after the announcement …"
+          "The Royal Swedish Academy of Sciences said that they were being honoured for the discovery of “non-linear effects and autocatalysis in asymmetric organic synthesis”."
         ],
         "figures": [],
-        "wordsRead": 701
+        "wordsRead": 257
       },
       {
         "n": "Al Jazeera",
@@ -581,17 +333,37 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Francis Halzen wins Nobel Prize in Physics for work on ‘ghost particles’",
-        "u": "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles?traffic_source=rss",
-        "publishedAt": "2026-10-06T12:31:16.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
+        "t": "Henri Kagan, Kenso Soai win Nobel chemistry prize for ‘mirror image’ work",
+        "u": "https://www.aljazeera.com/news/2026/10/7/henri-kagan-kenso-soai-win-chemistry-nobel-for-mirror-image-breakthrough?traffic_source=rss",
+        "publishedAt": "2026-10-07T13:00:32.000Z",
+        "retrievedAt": "2026-10-07T17:41:59.186Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“It was a great surprise, and I obviously didn’t expect it,” Halzen said, speaking to the committee by phone from Italy, in a call broadcast at the news conference to …",
-          "“I am working on a proposal, and I hope that this prize will help getting it approved,” he said to chuckles …"
+          "The Royal Swedish Academy of Sciences said on Wednesday the pair – Kagan, 95, from France; and Soai, 76, from Japan – were honoured “for the discovery of nonlinear effects …",
+          "“The left-handed version of the drug can have one effect, and the …"
         ],
         "figures": [],
-        "wordsRead": 529
+        "wordsRead": 433
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nobel Prize in chemistry awarded to Kagan and Soai for untangling mirror images in molecules",
+        "u": "https://www.arabnews.com/world/nobel-prize-in-chemistry-awarded-to-kagan-and-soai-for-untangling-mirror-images-in-molecules-3005081",
+        "publishedAt": "2026-10-07T12:59:46.000Z",
+        "retrievedAt": "2026-10-07T17:42:02.138Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This is probably the coolest experiment in organic chemistry,” said Peter Somfai, a member of the Nobel Committee for Chemistry.",
+          "“It might be difficult to say that this drug, or that drug, was developed using this,” Somfai said.",
+          "“The medicines we have today would not be possible without this chemistry,” said Rigoberto Hernandez, president of the American Chemical Society."
+        ],
+        "figures": [],
+        "wordsRead": 645
       },
       {
         "n": "South China Morning Post",
@@ -600,10 +372,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "‘Neutrino Man’ Francis Halzen wins Nobel Prize in Physics",
-        "u": "https://www.scmp.com/news/world/europe/article/3369925/francis-halzen-wins-2026-nobel-prize-physics?utm_source=rss_feed",
-        "publishedAt": "2026-10-06T09:56:51.000Z",
-        "retrievedAt": "2026-10-06T17:04:22.869Z",
+        "t": "Kagan, Soai win Nobel Chemistry Prize for solving chemical asymmetry puzzle",
+        "u": "https://www.scmp.com/news/world/europe/article/3370059/nobel-chemistry-prize-awarded-henri-b-kagan-and-kenso-soai?utm_source=rss_feed",
+        "publishedAt": "2026-10-07T09:55:49.000Z",
+        "retrievedAt": "2026-10-07T17:42:05.804Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -613,10 +385,23 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Belgian-American physicist wins Nobel for work on ‘ghostly messengers’",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/10/07/2003865527",
-        "publishedAt": "2026-10-07T00:00:00.000Z",
-        "retrievedAt": "2026-10-06T17:04:26.054Z",
+        "t": "Nobel in chemistry awarded for mirror image mystery",
+        "u": "https://www.taipeitimes.com/News/front/archives/2026/10/08/2003865593",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "retrievedAt": "2026-10-07T17:42:08.811Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Nikkei Asia",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Japan's Kenso Soai and France's Henri Kagan win Nobel chemistry prize",
+        "u": "https://asia.nikkei.com/business/science/japan-s-kenso-soai-and-france-s-henri-kagan-win-nobel-chemistry-prize",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-07T17:42:10.128Z",
         "read": "headline only"
       }
     ],
@@ -631,8 +416,8 @@
             "lean": "lean_left",
             "country": "US",
             "evidenceIndex": 0,
-            "headline": "Francis Halzen wins Nobel Prize in physics for work on high-energy neutrinos from space",
-            "url": "https://www.npr.org/2026/10/06/g-s1-146622/nobel-prize-physics"
+            "headline": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
+            "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry"
           },
           {
             "outlet": "Scroll.in",
@@ -640,8 +425,8 @@
             "lean": "left",
             "country": "IN",
             "evidenceIndex": 3,
-            "headline": "Francis Halzen awarded physics Nobel for discovery of high-energy neutrinos of astrophysical origin",
-            "url": "https://scroll.in/latest/1096218/francis-halzen-awarded-physics-nobel-for-discovery-of-high-energy-neutrinos-of-astrophysical-origin?utm_source=rss&utm_medium=public"
+            "headline": "Henri Kagan, Kenso Soai win chemistry Nobel for research into mirror-image molecules",
+            "url": "https://scroll.in/latest/1096239/henri-kagan-kenso-soai-win-chemistry-nobel-for-research-into-mirror-image-molecules?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -657,8 +442,8 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 1,
-            "headline": "'Ghost particles' from space telescope wins physics Nobel",
-            "url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss"
+            "headline": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+            "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
@@ -666,17 +451,17 @@
             "lean": "centre",
             "country": "CA",
             "evidenceIndex": 2,
-            "headline": "Neutrino experiment pioneer Francis Halzen wins Nobel Prize in Physics",
-            "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-physics-francis-halzen/"
+            "headline": "Nobel Prize in Chemistry awarded to mirror molecule explorers Henri Kagan and Kenso Soai",
+            "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-chemistry-henri-kagan-kenso-soai/"
           },
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "Nikkei Asia",
+            "outletId": "nikkeiasia",
             "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 4,
-            "headline": "Belgian physicist wins Nobel for turning Antarctic ice into a telescope",
-            "url": "https://www.euronews.com/2026/10/06/belgian-physicist-wins-nobel-for-turning-antarctic-ice-into-a-telescope"
+            "country": "JP",
+            "evidenceIndex": 8,
+            "headline": "Japan's Kenso Soai and France's Henri Kagan win Nobel chemistry prize",
+            "url": "https://asia.nikkei.com/business/science/japan-s-kenso-soai-and-france-s-henri-kagan-win-nobel-chemistry-prize"
           }
         ],
         "status": "sourced",
@@ -700,9 +485,19 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
+        "evidenceIndex": 4,
+        "headline": "Henri Kagan, Kenso Soai win Nobel chemistry prize for ‘mirror image’ work",
+        "url": "https://www.aljazeera.com/news/2026/10/7/henri-kagan-kenso-soai-win-chemistry-nobel-for-mirror-image-breakthrough?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
         "evidenceIndex": 5,
-        "headline": "Francis Halzen wins Nobel Prize in Physics for work on ‘ghost particles’",
-        "url": "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles?traffic_source=rss",
+        "headline": "Nobel Prize in chemistry awarded to Kagan and Soai for untangling mirror images in molecules",
+        "url": "https://www.arabnews.com/world/nobel-prize-in-chemistry-awarded-to-kagan-and-soai-for-untangling-mirror-images-in-molecules-3005081",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -711,8 +506,8 @@
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 6,
-        "headline": "‘Neutrino Man’ Francis Halzen wins Nobel Prize in Physics",
-        "url": "https://www.scmp.com/news/world/europe/article/3369925/francis-halzen-wins-2026-nobel-prize-physics?utm_source=rss_feed",
+        "headline": "Kagan, Soai win Nobel Chemistry Prize for solving chemical asymmetry puzzle",
+        "url": "https://www.scmp.com/news/world/europe/article/3370059/nobel-chemistry-prize-awarded-henri-b-kagan-and-kenso-soai?utm_source=rss_feed",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -721,20 +516,20 @@
         "lean": "pro_sovereignty",
         "country": "TW",
         "evidenceIndex": 7,
-        "headline": "Belgian-American physicist wins Nobel for work on ‘ghostly messengers’",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/07/2003865527",
+        "headline": "Nobel in chemistry awarded for mirror image mystery",
+        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/08/2003865593",
         "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Francis Halzen",
-        "Nobel Prize",
+        "Kenso Soai",
         "Nobel",
-        "Physics",
-        "Belgian-American",
-        "Neutrino Man"
+        "Nobel Prize",
+        "Henri Kagan",
+        "Kagan",
+        "Soai"
       ],
       "attempts": [
         {
@@ -743,12 +538,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Francis Halzen",
-            "Nobel Prize",
+            "Kenso Soai",
             "Nobel",
-            "Physics",
-            "Belgian-American",
-            "Neutrino Man"
+            "Nobel Prize",
+            "Henri Kagan",
+            "Kagan",
+            "Soai"
           ]
         },
         {
@@ -828,18 +623,21 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c10tkpf5",
+    "id": "c1snrh25",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 10
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
           "germany",
           "denmark",
@@ -848,58 +646,66 @@
         ]
       }
     },
-    "firstSeen": "2026-10-06T08:38:31.000Z",
-    "lastSeen": "2026-10-06T14:39:26.000Z",
-    "outletCount": 7,
+    "firstSeen": "2026-10-06T10:42:11.000Z",
+    "lastSeen": "2026-10-07T14:13:28.000Z",
+    "outletCount": 8,
     "outlets": [
-      "NPR",
-      "BBC News",
+      "Fox News",
+      "Globe and Mail",
       "Euronews",
       "EUobserver",
+      "Brussels Signal",
       "Remix News",
       "Haaretz",
       "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 8 outlets",
     "clustering": {
-      "min": 0.37099792787723057,
-      "max": 0.7750863724999452,
-      "pairs": 15,
+      "min": 0.36349188024813106,
+      "max": 0.7201958175018676,
+      "pairs": 20,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "NPR",
-        "b": "lean_left",
+        "n": "Fox News",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason",
-        "u": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets",
-        "publishedAt": "2026-10-06T11:31:48.000Z",
-        "retrievedAt": "2026-10-06T17:03:27.213Z",
-        "read": "headline and feed excerpt"
+        "t": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+        "u": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+        "publishedAt": "2026-10-07T03:50:51.000Z",
+        "retrievedAt": "2026-10-07T17:41:21.982Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "According to federal prosecutors, Hanning is \"strongly suspected of treasonous espionage, spying out state secrets, attempted treason, and espionage.\"",
+          "Rubio vows Strait of Hormuz is open, says Iran has 'lost complete control'",
+          "Prosecutors said Manfred D. worked as Hanning’s …"
+        ],
+        "figures": [],
+        "wordsRead": 399
       },
       {
-        "n": "BBC News",
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Former German spy chief arrested for espionage and treason",
-        "u": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T10:05:42.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
+        "t": "Former German spy chief arrested for attempted treason, espionage",
+        "u": "https://www.theglobeandmail.com/world/article-former-german-spy-chief-august-hanning-arrested-attempted-treason/",
+        "publishedAt": "2026-10-06T17:49:58.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"The current findings suggest that, over the years, Manfred D provided Hanning with approximately 2,000 documents, many of which contained classified information to be used exclusively by the Federal Intelligence …",
-          "\"On one occasion, Hanning used classified intelligence ... to draft an analysis for …"
+          "“Hanning is strongly suspected of treasonous espionage, obtaining state secrets, attempted treason and espionage,” the prosecutor’s office said in a statement.",
+          "Conservative security expert Roderich Kiesewetter told the Handelsblatt newspaper on Tuesday that the case could strain relations with Germany’s intelligence allies, saying espionage cases of this kind were “particularly burdensome …"
         ],
         "figures": [],
-        "wordsRead": 441
+        "wordsRead": 528
       },
       {
         "n": "Euronews",
@@ -908,16 +714,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ex-German intelligence chief arrested over suspected espionage",
-        "u": "https://www.euronews.com/2026/10/06/ex-german-intelligence-chief-arrested-over-suspected-espionage",
-        "publishedAt": "2026-10-06T08:38:31.000Z",
-        "retrievedAt": "2026-10-06T17:03:58.490Z",
+        "t": "Former BND chief's aide arrested as Germany's biggest spy scandal widens",
+        "u": "https://www.euronews.com/2026/10/07/espionage-scandal-involving-ex-bnd-chief-second-arrest-over-suspected-treason",
+        "publishedAt": "2026-10-07T14:13:28.000Z",
+        "retrievedAt": "2026-10-07T17:41:40.845Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Germany's Federal Prosecutor's Office is reportedly investigating the 80-year-old former BND president on suspicion of offences including obtaining …"
+          "\"Presumably in spring 2010, the defendants agreed that Manfred D would continuously obtain valuable intelligence from the Federal Intelligence Service for the accused Hanning in return for payment,\" senior public …",
+          "Azerbaijan’s state news agency APA reported that Baku denied the Der Spiegel reports and that …"
         ],
         "figures": [],
-        "wordsRead": 188
+        "wordsRead": 467
       },
       {
         "n": "EUobserver",
@@ -929,7 +736,7 @@
         "t": "German ex-spy chief arrested over espionage and treason allegations involving leaked BND files",
         "u": "https://euobserver.com/241332/german-ex-spy-chief-arrested-over-espionage-and-treason-allegations-involving-leaked-bnd-files/",
         "publishedAt": "2026-10-06T14:39:26.000Z",
-        "retrievedAt": "2026-10-06T17:04:01.934Z",
+        "retrievedAt": "2026-10-07T17:41:44.433Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "According to prosecutors, in 2023 he allegedly planned, together with an associate, to “discredit Block's former husband through false allegations of paedophilia”.",
@@ -938,6 +745,26 @@
         ],
         "figures": [],
         "wordsRead": 989
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Former German spy chief arrested over alleged Azerbaijani link",
+        "u": "https://brusselssignal.eu/2026/10/former-german-spy-chief-arrested-over-alleged-azerbaijani-link/",
+        "publishedAt": "2026-10-07T13:51:17.000Z",
+        "retrievedAt": "2026-10-07T17:41:51.371Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Federal Prosecutor’s Office has confirmed that Hanning allegedly used classified information to prepare an analysis for an employee of a foreign intelligence service, but did not name the country …",
+          "According to the magazine, citing investigative sources, investigators believe the alleged client was an Azerbaijani intelligence officer.",
+          "The Federal Prosecutor’s Office dates the start of the alleged arrangement to the spring of 2010."
+        ],
+        "figures": [],
+        "wordsRead": 957
       },
       {
         "n": "Remix News",
@@ -949,7 +776,7 @@
         "t": "Former German intelligence chief arrested for espionage on behalf of a foreign power",
         "u": "https://rmx.news/article/former-german-intelligence-chief-arrested-for-espionage-on-behalf-of-a-foreign-power/",
         "publishedAt": "2026-10-06T11:33:59.000Z",
-        "retrievedAt": "2026-10-06T17:04:10.233Z",
+        "retrievedAt": "2026-10-07T17:41:53.163Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“The accused Hanning is under strong suspicion of espionage constituting treason,” prosecutors said.",
@@ -969,7 +796,7 @@
         "t": "Germany arrests ex-chief spy on espionage and treason charges",
         "u": "https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000",
         "publishedAt": "2026-10-06T10:42:11.000Z",
-        "retrievedAt": "2026-10-06T17:04:11.863Z",
+        "retrievedAt": "2026-10-07T17:41:54.668Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -979,10 +806,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Former German spy chief arrested on suspicion of treason and espionage",
-        "u": "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage?traffic_source=rss",
-        "publishedAt": "2026-10-06T12:52:28.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
+        "t": "German ex-spy chief arrested for treason: What we know",
+        "u": "https://www.aljazeera.com/news/2026/10/7/german-ex-spy-chief-arrested-for-treason-what-we-know?traffic_source=rss",
+        "publishedAt": "2026-10-07T12:04:51.000Z",
+        "retrievedAt": "2026-10-07T17:41:59.186Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -991,15 +818,6 @@
         "side": "left",
         "label": "Left / progressive",
         "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Ex-spy chief is arrested in Germany on suspicion of trading state secrets and treason",
-            "url": "https://www.npr.org/2026/10/06/g-s1-146630/germany-ex-spy-chief-state-secrets"
-          },
           {
             "outlet": "EUobserver",
             "outletId": "euobserver",
@@ -1014,7 +832,7 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 5,
+            "evidenceIndex": 6,
             "headline": "Germany arrests ex-chief spy on espionage and treason charges",
             "url": "https://www.haaretz.com/world-news/europe/2026-10-06/ty-article/germany-arrests-ex-chief-spy-on-espionage-and-treason-charges/000001a1-1094-d777-afb7-31fcc4b50000"
           }
@@ -1027,13 +845,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
             "lean": "centre",
-            "country": "UK",
+            "country": "CA",
             "evidenceIndex": 1,
-            "headline": "Former German spy chief arrested for espionage and treason",
-            "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss"
+            "headline": "Former German spy chief arrested for attempted treason, espionage",
+            "url": "https://www.theglobeandmail.com/world/article-former-german-spy-chief-august-hanning-arrested-attempted-treason/"
           },
           {
             "outlet": "Euronews",
@@ -1041,8 +859,8 @@
             "lean": "centre",
             "country": "EU",
             "evidenceIndex": 2,
-            "headline": "Ex-German intelligence chief arrested over suspected espionage",
-            "url": "https://www.euronews.com/2026/10/06/ex-german-intelligence-chief-arrested-over-suspected-espionage"
+            "headline": "Former BND chief's aide arrested as Germany's biggest spy scandal widens",
+            "url": "https://www.euronews.com/2026/10/07/espionage-scandal-involving-ex-bnd-chief-second-arrest-over-suspected-treason"
           }
         ],
         "status": "sourced",
@@ -1053,11 +871,29 @@
         "label": "Right / conservative",
         "outlets": [
           {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Former German spy chief arrested on suspicion of espionage, attempted treason",
+            "url": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason"
+          },
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "Former German spy chief arrested over alleged Azerbaijani link",
+            "url": "https://brusselssignal.eu/2026/10/former-german-spy-chief-arrested-over-alleged-azerbaijani-link/"
+          },
+          {
             "outlet": "Remix News",
             "outletId": "remixnews",
             "lean": "right",
             "country": "EU",
-            "evidenceIndex": 4,
+            "evidenceIndex": 5,
             "headline": "Former German intelligence chief arrested for espionage on behalf of a foreign power",
             "url": "https://rmx.news/article/former-german-intelligence-chief-arrested-for-espionage-on-behalf-of-a-foreign-power/"
           }
@@ -1076,9 +912,9 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 6,
-        "headline": "Former German spy chief arrested on suspicion of treason and espionage",
-        "url": "https://www.aljazeera.com/news/2026/10/6/former-german-spy-chief-arrested-on-suspicion-of-treason-and-espionage?traffic_source=rss",
+        "evidenceIndex": 7,
+        "headline": "German ex-spy chief arrested for treason: What we know",
+        "url": "https://www.aljazeera.com/news/2026/10/7/german-ex-spy-chief-arrested-for-treason-what-we-know?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
@@ -1086,10 +922,11 @@
       "attempted": true,
       "terms": [
         "Former German",
-        "Germany",
-        "Ex-German",
-        "Ex-spy",
-        "German"
+        "German",
+        "Azerbaijani",
+        "Former BND",
+        "Germany's",
+        "Germany"
       ],
       "attempts": [
         {
@@ -1099,10 +936,11 @@
           "found": [],
           "terms": [
             "Former German",
-            "Germany",
-            "Ex-German",
-            "Ex-spy",
-            "German"
+            "German",
+            "Azerbaijani",
+            "Former BND",
+            "Germany's",
+            "Germany"
           ]
         },
         {
@@ -1182,7 +1020,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c6upqzd",
+    "id": "coouais",
     "regions": [
       "Europe",
       "Global"
@@ -1191,481 +1029,70 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 7
+        "Europe": 4
       },
       "matched": {
         "Europe": [
-          "european commission",
-          "europe",
-          "european",
-          "member states",
+          "france",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-05T00:05:59.000Z",
-    "lastSeen": "2026-10-06T14:17:49.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-10-07T12:46:55.000Z",
+    "lastSeen": "2026-10-07T16:41:57.000Z",
+    "outletCount": 3,
     "outlets": [
-      "NPR",
-      "Fox News",
+      "BBC News",
       "Euronews",
-      "Deutsche Welle",
-      "Al Jazeera"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.36760978703349373,
-      "max": 0.5137146203293443,
-      "pairs": 7,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "A plague research employee in Russia died from an unknown cause. Here's what we know",
-        "u": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know",
-        "publishedAt": "2026-10-06T08:49:38.000Z",
-        "retrievedAt": "2026-10-06T17:03:27.213Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US monitoring suspected fatal pneumonic plague case in Russia, State Department official says",
-        "u": "https://www.foxnews.com/world/us-monitoring-suspected-fatal-pneumonic-plague-case-russia-state-department-official-says",
-        "publishedAt": "2026-10-05T00:05:59.000Z",
-        "retrievedAt": "2026-10-06T17:03:34.202Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"I would also expect our embassy in Moscow to be engaging with their diplomatic counterparts at an official level because we might have people in Russia who might be at …"
-        ],
-        "figures": [],
-        "wordsRead": 341
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "EU countries to discuss suspected plague outbreak in Russia",
-        "u": "https://www.euronews.com/2026/10/06/eu-countries-to-discuss-suspected-plague-outbreak-in-russia",
-        "publishedAt": "2026-10-06T14:17:49.000Z",
-        "retrievedAt": "2026-10-06T17:03:58.490Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"I can confirm the incident in Russia will be on the agenda of the Health Security Committee,\" a Commission spokesperson told Euronews.",
-          "\"There is little travel between Irkutsk and the EU, particularly at present due to Russia's war against Ukraine,\" the …"
-        ],
-        "figures": [],
-        "wordsRead": 413
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Pneumonic plague suspected in Russia: What we know and what is the risk to Europe?",
-        "u": "https://www.euronews.com/2026/10/06/pneumonic-plague-suspected-in-russia-what-we-know-and-what-is-the-risk-to-europe",
-        "publishedAt": "2026-10-06T09:59:28.000Z",
-        "retrievedAt": "2026-10-06T17:03:58.490Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“As ... the contagion was in a lab (and has presumably well disinfected) and people were rapidly quarantined, it is highly unlikely that it will spread further- and thus, whilst …",
-          "The European Centre for Disease Prevention and Control (ECDC) told Euronews that it is “closely monitoring the situation” and is in contact with the World Health Organization.",
-          "Russian authorities said they found no evidence that her illness was caused by any of the …"
-        ],
-        "figures": [],
-        "wordsRead": 749
-      },
-      {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Suspected pneumonic plague in Siberia: What we know about the disease",
-        "u": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-05T11:58:00.000Z",
-        "retrievedAt": "2026-10-06T17:04:03.488Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The 28-year-old died of \"pneumonia of unknown origin,\" according to Russia's Interfax news agency, citing Rospotrebnadzor, Russia's disease-control agency.",
-          "According to that agency, samples taken from the woman showed no microorganisms \"related to her professional activities.\"",
-          "On one of DW's Russian-language social media channels, a user wrote: \"It wouldn't surprise me if this turns into a disaster now, both in terms of the spread and the …"
-        ],
-        "figures": [
-          {
-            "value": "60%",
-            "context": "le. If untreated, bubonic plague kills between 30-60% of patients. The septicemic and pneumonic forms a"
-          }
-        ],
-        "wordsRead": 905
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "What we know about Russia’s suspected plague case",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/6/what-we-know-about-russias-suspected-plague-case?traffic_source=rss",
-        "publishedAt": "2026-10-06T14:12:36.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "A plague research employee in Russia died from an unknown cause. Here's what we know",
-            "url": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "EU countries to discuss suspected plague outbreak in Russia",
-            "url": "https://www.euronews.com/2026/10/06/eu-countries-to-discuss-suspected-plague-outbreak-in-russia"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "Pneumonic plague suspected in Russia: What we know and what is the risk to Europe?",
-            "url": "https://www.euronews.com/2026/10/06/pneumonic-plague-suspected-in-russia-what-we-know-and-what-is-the-risk-to-europe"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 4,
-            "headline": "Suspected pneumonic plague in Siberia: What we know about the disease",
-            "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "US monitoring suspected fatal pneumonic plague case in Russia, State Department official says",
-            "url": "https://www.foxnews.com/world/us-monitoring-suspected-fatal-pneumonic-plague-case-russia-state-department-official-says"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "What we know about Russia’s suspected plague case",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/what-we-know-about-russias-suspected-plague-case?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Russia",
-        "What",
-        "State Department",
-        "Pneumonic",
-        "Suspected",
-        "Siberia"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Russia",
-            "What",
-            "State Department",
-            "Pneumonic",
-            "Suspected",
-            "Siberia"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c11d9vcq",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-05T15:18:55.000Z",
-    "lastSeen": "2026-10-06T17:01:40.000Z",
-    "outletCount": 7,
-    "outlets": [
-      "Guardian US",
-      "Washington Examiner",
-      "Globe and Mail",
-      "Politico Europe",
-      "Al Jazeera",
-      "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.36588720689697724,
-      "max": 0.5777275080074838,
-      "pairs": 12,
+      "min": 0.4277775964617162,
+      "max": 0.6802458397434323,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Why did the US rush to withdraw bombers from RAF Fairford? - The Latest",
-        "u": "https://www.theguardian.com/news/video/2026/oct/05/why-did-the-us-withdraw-bombers-from-raf-fairford-the-latest",
-        "publishedAt": "2026-10-05T15:18:55.000Z",
-        "retrievedAt": "2026-10-06T17:03:25.546Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK national arrested in connection with RAF Fairford investigation",
-        "u": "https://www.washingtonexaminer.com/news/world/4755365/uk-national-arrested-connection-raf-fairford-investigation/",
-        "publishedAt": "2026-10-06T17:01:40.000Z",
-        "retrievedAt": "2026-10-06T17:03:32.883Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The 22-year-old suspect was arrested in …"
-        ],
-        "figures": [],
-        "wordsRead": 68
-      },
-      {
-        "n": "Globe and Mail",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.K. police arrest another man in connection with incident at U.S.-run air base",
-        "u": "https://www.theglobeandmail.com/world/article-uk-raf-fairford-us-run-base-arrests/",
-        "publishedAt": "2026-10-06T14:12:06.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
+        "t": "France halts use of stun grenades after boy's hand blown off in student protests",
+        "u": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-07T16:41:57.000Z",
+        "retrievedAt": "2026-10-07T17:41:16.205Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Vicki Evans, the senior national co-ordinator for counterterrorism policing, said detectives “remain committed to investigating all possible angles.”",
-          "“We’re acutely aware of the public interest in this investigation, and we are working around the clock, and at pace, to identify the motivation behind events in Gloucestershire,” she said.",
-          "“We had a threat, and if we’re going to be threatened, we would just move them, and that …"
+          "\"We have never seen anything like this,\" he said of the disorder which officials report has harmed more than 200 students and 700 police officers, and prompted more than 6,600 …",
+          "\"There is a police action that raises questions for all of us within the Ministry of the Interior; it's what happened in Lens,\" he said as he confirmed the suspension …",
+          "\"That's where there will perhaps be even more injuries,\" he warned."
         ],
         "figures": [],
-        "wordsRead": 664
+        "wordsRead": 886
       },
       {
-        "n": "Politico Europe",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Police arrest another British man in RAF Fairford investigation",
-        "u": "https://www.politico.eu/article/police-arrest-another-british-man-in-raf-fairford-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-        "publishedAt": "2026-10-06T13:02:11.000Z",
-        "retrievedAt": "2026-10-06T17:03:59.823Z",
+        "t": "France suspends police stun grenades at student protests after teenager loses hand",
+        "u": "https://www.euronews.com/2026/10/07/france-suspends-police-stun-grenades-at-student-protests-after-teenager-loses-hand",
+        "publishedAt": "2026-10-07T12:46:55.000Z",
+        "retrievedAt": "2026-10-07T17:41:40.845Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Prime Minister Andy Burnham has said the government believes “Iran to have played a part” in the incident.",
-          "The statement said that a 22-year-old British …"
+          "\"I am suspending their use in the high school student protests until the facts of the incident have been clarified,\" Nunez said.",
+          "Prisca Ancion of the Collective for Judicial Action told AFP that every high schooler arrested …"
         ],
         "figures": [],
-        "wordsRead": 250
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK police arrest British national linked to airbase incident",
-        "u": "https://www.aljazeera.com/news/2026/10/6/uk-police-arrest-british-national-linked-to-airbase-incident?traffic_source=rss",
-        "publishedAt": "2026-10-06T13:44:19.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Counter Terrorism Police said the individual arrested on Tuesday was connected with “activity that took place close to RAF Fairford” and the arrest had been made “on suspicion of …"
-        ],
-        "figures": [],
-        "wordsRead": 299
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Police make seventh arrest over UK airbase incident",
-        "u": "https://www.arabnews.com/world/police-make-seventh-arrest-over-uk-airbase-incident-3004907",
-        "publishedAt": "2026-10-06T15:30:32.000Z",
-        "retrievedAt": "2026-10-06T17:04:18.900Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A 22-year-old British male was arrested in London “on suspicion of preparation of terrorist acts”, Britain’s Counter-Terrorism Policing network said in a statement.",
-          "Prime Minister Andy Burnham has said …"
-        ],
-        "figures": [],
-        "wordsRead": 293
+        "wordsRead": 372
       },
       {
         "n": "South China Morning Post",
@@ -1674,1219 +1101,11 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "UK police arrest seventh man linked to security incident at US-run airbase",
-        "u": "https://www.scmp.com/news/world/europe/article/3369956/uk-police-arrest-seventh-man-linked-security-incident-us-run-airbase?utm_source=rss_feed",
-        "publishedAt": "2026-10-06T15:05:43.000Z",
-        "retrievedAt": "2026-10-06T17:04:22.869Z",
+        "t": "France halts use of stun grenades in policing of student protests",
+        "u": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?utm_source=rss_feed",
+        "publishedAt": "2026-10-07T15:37:20.000Z",
+        "retrievedAt": "2026-10-07T17:42:05.804Z",
         "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Why did the US rush to withdraw bombers from RAF Fairford? - The Latest",
-            "url": "https://www.theguardian.com/news/video/2026/oct/05/why-did-the-us-withdraw-bombers-from-raf-fairford-the-latest"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "U.K. police arrest another man in connection with incident at U.S.-run air base",
-            "url": "https://www.theglobeandmail.com/world/article-uk-raf-fairford-us-run-base-arrests/"
-          },
-          {
-            "outlet": "Politico Europe",
-            "outletId": "politico-eu",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "Police arrest another British man in RAF Fairford investigation",
-            "url": "https://www.politico.eu/article/police-arrest-another-british-man-in-raf-fairford-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "UK national arrested in connection with RAF Fairford investigation",
-            "url": "https://www.washingtonexaminer.com/news/world/4755365/uk-national-arrested-connection-raf-fairford-investigation/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 4,
-        "headline": "UK police arrest British national linked to airbase incident",
-        "url": "https://www.aljazeera.com/news/2026/10/6/uk-police-arrest-british-national-linked-to-airbase-incident?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 5,
-        "headline": "Police make seventh arrest over UK airbase incident",
-        "url": "https://www.arabnews.com/world/police-make-seventh-arrest-over-uk-airbase-incident-3004907",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 6,
-        "headline": "UK police arrest seventh man linked to security incident at US-run airbase",
-        "url": "https://www.scmp.com/news/world/europe/article/3369956/uk-police-arrest-seventh-man-linked-security-incident-us-run-airbase?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "RAF Fairford",
-        "British",
-        "Police",
-        "The Latest",
-        "U.S.-run",
-        "US-run"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "RAF Fairford",
-            "British",
-            "Police",
-            "The Latest",
-            "U.S.-run",
-            "US-run"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1nkzyzr",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-03T19:26:55.000Z",
-    "lastSeen": "2026-10-05T16:04:51.000Z",
-    "outletCount": 6,
-    "outlets": [
-      "Democracy Now!",
-      "Christian Science Monitor",
-      "Fox News",
-      "Globe and Mail",
-      "EUobserver",
-      "Haaretz"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
-    "clustering": {
-      "min": 0.362709736150365,
-      "max": 0.5384935231802865,
-      "pairs": 12,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Democracy Now!",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Far Right Makes Gains in Brazil as Flávio Bolsonaro Tops Lula in First Round of Presidential Race",
-        "u": "http://www.democracynow.org/2026/10/5/brazil_election",
-        "publishedAt": "2026-10-05T12:15:56.000Z",
-        "retrievedAt": "2026-10-06T17:03:22.936Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The momentum has been with the right since 2018,” says Brazilian philosopher Rodrigo Nunes, who explains that public disillusionment with politics is part of that shift.",
-          "“Lots of people see the far right as promising them, 'Well, if this is all there is, if all we can expect from the future is ever more dog-eat-dog conditions …",
-          "Story Sep 22, 2026 “Pedagogy of the Oppressed” Brazilian Educator Paulo Freire Profiled in Film, “Reading the World”"
-        ],
-        "figures": [
-          {
-            "value": "50%",
-            "context": "r Flávio Bolsonaro after neither candidate cleared 50% in Sunday’s vote, in which the right made gains i"
-          },
-          {
-            "value": "47%",
-            "context": "ernor races across the country. Bolsonaro received 47% of the vote compared to Lula’s 45%. The second ro"
-          },
-          {
-            "value": "45%",
-            "context": "sonaro received 47% of the vote compared to Lula’s 45%. The second round of voting is on October 25. If"
-          }
-        ],
-        "wordsRead": 3006
-      },
-      {
-        "n": "Christian Science Monitor",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "What Bolsonaro vs. Lula says about democracy in Brazil",
-        "u": "https://www.csmonitor.com/World/Americas/2026/1005/brazil-president-election-lula-bolsonaro?icid=rss",
-        "publishedAt": "2026-10-05T16:04:51.000Z",
-        "retrievedAt": "2026-10-06T17:03:30.059Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“If Flávio Bolsonaro wins the election, it is above all [because] a majority rejects what Lula stands for,” says Creomar de Souza, CEO of Dharma Political Risk and Strategy, a …",
-          "“If I told you that I know what his proposals are, I’d be lying,” she said while on her way to a polling station in northern Rio de Janeiro.",
-          "“We are going to convince the Brazilian people that we need to continue our project,” he said."
-        ],
-        "figures": [
-          {
-            "value": "47%",
-            "context": "d, but didn’t clinch an outright victory, securing 47% of the vote to 45% for the incumbent, known as Lu"
-          },
-          {
-            "value": "45%",
-            "context": "h an outright victory, securing 47% of the vote to 45% for the incumbent, known as Lula. Although polls"
-          }
-        ],
-        "wordsRead": 1230
-      },
-      {
-        "n": "Christian Science Monitor",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazil's Flavio Bolsonaro beats polls in presidential vote, faces Lula in runoff",
-        "u": "https://www.csmonitor.com/World/2026/1004/Brazil-s-Flavio-Bolsonaro-beats-polls-in-presidential-vote-faces-Lula-in-runoff?icid=rss",
-        "publishedAt": "2026-10-04T23:49:31.000Z",
-        "retrievedAt": "2026-10-06T17:03:30.059Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Bolsonaro was counting on “a protest vote from people who would otherwise vote for another candidate but are opposed to Lula,” he said.",
-          "“I don’t think Flavio is the best candidate, but I might decide to vote for him in the next few minutes,” she said.",
-          "“Teams monitoring international risks have not identified any risks whatsoever,” he said."
-        ],
-        "figures": [
-          {
-            "value": "97%",
-            "context": "y and accusations of U.S. meddling. With just over 97% of the ballots counted, the right-wing challenger"
-          },
-          {
-            "value": "47.45%",
-            "context": "he ballots counted, the right-wing challenger took 47.45% of valid votes in the first round, beating the fo"
-          },
-          {
-            "value": "44.66%",
-            "context": "recasts in most private surveys. Mr. Lula received 44.66% of the votes. Surveys have shown them polling rou"
-          }
-        ],
-        "wordsRead": 893
-      },
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bolsonaro wins first round of Brazilian presidential election, as Trump-backed candidates continue red wave",
-        "u": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave",
-        "publishedAt": "2026-10-05T00:17:42.000Z",
-        "retrievedAt": "2026-10-06T17:03:34.202Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Amid Russian public health scare President Trump says US 'always willing to help'",
-          "The election will undoubtedly prompt a period of soul-searching for the Brazilian left, which may be asking, \"Should Lula have run at all?\"",
-          "Caiado, Santos and Cury have allegedly said they do not plan to make an endorsement in the second round."
-        ],
-        "figures": [
-          {
-            "value": "99%",
-            "context": "Silva in an October 25 second-round election. With 99% of the votes in, Bolsonaro led Lula 47.2% to 44.9"
-          },
-          {
-            "value": "47.2%",
-            "context": "tion. With 99% of the votes in, Bolsonaro led Lula 47.2% to 44.9%, in a race Lula had widely been …"
-          },
-          {
-            "value": "44.9%",
-            "context": "h 99% of the votes in, Bolsonaro led Lula 47.2% to 44.9%, in a race Lula had widely been expected …"
-          }
-        ],
-        "wordsRead": 891
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bolsonaro outperforms polls to force runoff against Lula in Brazil election",
-        "u": "https://www.theglobeandmail.com/world/article-brazil-election-luiz-inacio-lula-da-silva-flavio-bolsonaro-october-4/",
-        "publishedAt": "2026-10-04T12:50:40.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I voted for Brazil to start growing again,” said Marciano de Souza e Silva, a 52-year-old public servant in Brasilia who voted for Mr.",
-          "“The pollsters missed badly,” said Robert Muggah, co-founder of think tank Igarape Institute.",
-          "Bolsonaro told journalists in Rio de Janeiro he was counting on “a protest vote from people who would otherwise vote for another candidate but are opposed to [Mr.] Lula.”"
-        ],
-        "figures": [
-          {
-            "value": "47 per cent",
-            "context": "sidential election, after the challenger took some 47 per cent of valid votes in the first round on Sunday, beat"
-          },
-          {
-            "value": "44.9 per cent",
-            "context": "showdown with the leftist Mr. Lula, who picked up 44.9 per cent of votes, with nearly 99 per cent of …"
-          },
-          {
-            "value": "99 per cent",
-            "context": "who picked up 44.9 per cent of votes, with nearly 99 per cent of votes reported. Private surveys in the …"
-          }
-        ],
-        "wordsRead": 851
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "What to know about Brazil’s highly polarized presidential race",
-        "u": "https://www.theglobeandmail.com/world/article-what-to-know-brazil-presidential-election/",
-        "publishedAt": "2026-10-03T19:26:55.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "President Barack Obama once called him “the world’s most popular politician.”",
-          "In the days before the election, his team launched a Portuguese version of the Bad Bunny song, “Lo queue le pasó a Hawaii,” which invokes the U.S. colonization of Hawaii …",
-          "In earlier local elections, ballot boxes were stuffed or stolen, and paper ballots were routinely falsified, according to Brazil’s electoral authority."
-        ],
-        "figures": [
-          {
-            "value": "50 per cent",
-            "context": "head of state. If no candidate receives more than 50 per cent of the vote, the top two will advance …"
-          }
-        ],
-        "wordsRead": 837
-      },
-      {
-        "n": "EUobserver",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump cheers Bolsonaro Jr’s advance on Lula in Brazil, but EU fears for Mercosur alliance",
-        "u": "https://euobserver.com/240995/trump-cheers-bolsonaro-jrs-advance-on-lula-in-brazil-but-eu-fears-for-mercosur-alliance/",
-        "publishedAt": "2026-10-05T10:41:20.000Z",
-        "retrievedAt": "2026-10-06T17:04:01.934Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazil to hold runoff as Netanyahu ally Bolsonaro leads Lula in presidential vote",
-        "u": "https://www.haaretz.com/world-news/americas/2026-10-05/ty-article/.premium/brazil-to-hold-runoff-elections-after-bolsonaro-edges-lula-with-47-of-vote/000001a1-0a8b-dff9-a3b3-cfaf932b0000",
-        "publishedAt": "2026-10-05T06:25:57.000Z",
-        "retrievedAt": "2026-10-06T17:04:11.863Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Democracy Now!",
-            "outletId": "democracynow",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Far Right Makes Gains in Brazil as Flávio Bolsonaro Tops Lula in First Round of Presidential Race",
-            "url": "http://www.democracynow.org/2026/10/5/brazil_election"
-          },
-          {
-            "outlet": "EUobserver",
-            "outletId": "euobserver",
-            "lean": "lean_left",
-            "country": "EU",
-            "evidenceIndex": 6,
-            "headline": "Trump cheers Bolsonaro Jr’s advance on Lula in Brazil, but EU fears for Mercosur alliance",
-            "url": "https://euobserver.com/240995/trump-cheers-bolsonaro-jrs-advance-on-lula-in-brazil-but-eu-fears-for-mercosur-alliance/"
-          },
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 7,
-            "headline": "Brazil to hold runoff as Netanyahu ally Bolsonaro leads Lula in presidential vote",
-            "url": "https://www.haaretz.com/world-news/americas/2026-10-05/ty-article/.premium/brazil-to-hold-runoff-elections-after-bolsonaro-edges-lula-with-47-of-vote/000001a1-0a8b-dff9-a3b3-cfaf932b0000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Christian Science Monitor",
-            "outletId": "csmonitor",
-            "lean": "centre",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "What Bolsonaro vs. Lula says about democracy in Brazil",
-            "url": "https://www.csmonitor.com/World/Americas/2026/1005/brazil-president-election-lula-bolsonaro?icid=rss"
-          },
-          {
-            "outlet": "Christian Science Monitor",
-            "outletId": "csmonitor",
-            "lean": "centre",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Brazil's Flavio Bolsonaro beats polls in presidential vote, faces Lula in runoff",
-            "url": "https://www.csmonitor.com/World/2026/1004/Brazil-s-Flavio-Bolsonaro-beats-polls-in-presidential-vote-faces-Lula-in-runoff?icid=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "Bolsonaro outperforms polls to force runoff against Lula in Brazil election",
-            "url": "https://www.theglobeandmail.com/world/article-brazil-election-luiz-inacio-lula-da-silva-flavio-bolsonaro-october-4/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 5,
-            "headline": "What to know about Brazil’s highly polarized presidential race",
-            "url": "https://www.theglobeandmail.com/world/article-what-to-know-brazil-presidential-election/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "Bolsonaro wins first round of Brazilian presidential election, as Trump-backed candidates continue red wave",
-            "url": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Brazil",
-        "Lula",
-        "Bolsonaro",
-        "Brazil's Flavio Bolsonaro",
-        "Far Right Makes Gains",
-        "Bolsonaro Tops Lula"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Brazil",
-            "Lula",
-            "Bolsonaro",
-            "Brazil's Flavio Bolsonaro",
-            "Far Right Makes Gains",
-            "Bolsonaro Tops Lula"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [
-      {
-        "kind": "percent",
-        "about": [
-          "votes",
-          "surveys"
-        ],
-        "spread": 0.549,
-        "readings": [
-          {
-            "outlet": "Christian Science Monitor",
-            "value": "44.66%",
-            "url": "https://www.csmonitor.com/World/2026/1004/Brazil-s-Flavio-Bolsonaro-beats-polls-in-presidential-vote-faces-Lula-in-runoff?icid=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "value": "99 per cent",
-            "url": "https://www.theglobeandmail.com/world/article-brazil-election-luiz-inacio-lula-da-silva-flavio-bolsonaro-october-4/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "lula",
-          "round"
-        ],
-        "spread": 0.525,
-        "readings": [
-          {
-            "outlet": "Democracy Now!",
-            "value": "47%",
-            "url": "http://www.democracynow.org/2026/10/5/brazil_election"
-          },
-          {
-            "outlet": "Fox News",
-            "value": "99%",
-            "url": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "votes",
-          "round"
-        ],
-        "spread": 0.525,
-        "readings": [
-          {
-            "outlet": "Fox News",
-            "value": "99%",
-            "url": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "value": "47 per cent",
-            "url": "https://www.theglobeandmail.com/world/article-brazil-election-luiz-inacio-lula-da-silva-flavio-bolsonaro-october-4/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "votes",
-          "round"
-        ],
-        "spread": 0.521,
-        "readings": [
-          {
-            "outlet": "Christian Science Monitor",
-            "value": "47.45%",
-            "url": "https://www.csmonitor.com/World/2026/1004/Brazil-s-Flavio-Bolsonaro-beats-polls-in-presidential-vote-faces-Lula-in-runoff?icid=rss"
-          },
-          {
-            "outlet": "Fox News",
-            "value": "99%",
-            "url": "https://www.foxnews.com/world/bolsonaro-wins-first-round-brazilian-presidential-election-trump-backed-candidates-continue-red-wave"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "ct5mytf",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-06T12:21:27.000Z",
-    "lastSeen": "2026-10-06T16:22:37.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "Guardian US",
-      "BBC News",
-      "Washington Examiner",
-      "Globe and Mail",
-      "Middle East Eye"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3744265043919809,
-      "max": 0.5191684505620305,
-      "pairs": 8,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump’s suggestion that Iran could ‘take out’ LA or San Diego draws Republican rebuke",
-        "u": "https://www.theguardian.com/us-news/2026/oct/06/republican-trump-iran-los-angeles-san-diego",
-        "publishedAt": "2026-10-06T15:39:22.000Z",
-        "retrievedAt": "2026-10-06T17:03:25.546Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“America must stand up to Iran and defend our interests, but the first responsibility of our Commander in Chief is to protect the American people and our homeland,” Desmond, the …",
-          "Hakeem Jeffries, the House minority leader, said: “The nuclear annihilation of an American city is no laughing matter.”",
-          "Desmond, also a navy veteran, said that he “served to protect Americans, not write off American cities as …"
-        ],
-        "figures": [],
-        "wordsRead": 679
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "‘Deranged’ and ‘dangerous’ Trump calls for Iran to strike US cities amid historic ratings low | First Thing",
-        "u": "https://www.theguardian.com/us-news/2026/oct/06/first-thing-donald-trump-iran-strikes-us-cities",
-        "publishedAt": "2026-10-06T12:29:42.000Z",
-        "retrievedAt": "2026-10-06T17:03:25.546Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "At a rally in Nebraska on Monday, the crowd applauded when the US president said high prices owing to the war with Iran were a “small price to pay for …",
-          "The co-leader of the German Greens separately said the policy was “intolerable and unacceptable”.",
-          "For-profit water corporations, federal cuts and the climate crisis are “supercharging water rate hikes”, the study’s co-author says ."
-        ],
-        "figures": [
-          {
-            "value": "32%",
-            "context": "l shows Trump’s approval rating at a record low of 32% and the president losing support among independen"
-          }
-        ],
-        "wordsRead": 1047
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-        "u": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T16:22:37.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The morning after Trump's statement, Governor Newsom announced that the \"dangerous - if not treasonous\" statement had prompted him to direct California's State Threat Assessment Center to \"monitor the situation …",
-          "\"He was clearly stating US cities would have been threatened if a nuclear Iran hadn't been stopped,\" Cheung wrote.",
-          "California Governor Gavin Newsom condemned the comment - made by Trump at a campaign rally …"
-        ],
-        "figures": [],
-        "wordsRead": 650
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "California officials furious over Trump’s Los Angeles San Diego Iran remarks",
-        "u": "https://www.washingtonexaminer.com/news/white-house/4755362/california-trump-iran-los-angeles-san-diego-war-cost/",
-        "publishedAt": "2026-10-06T16:09:49.000Z",
-        "retrievedAt": "2026-10-06T17:03:32.883Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "California leaders have criticized President Donald Trump …"
-        ],
-        "figures": [],
-        "wordsRead": 75
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "California’s Newsom calls Trump ‘deranged’ after he suggests Iran could ‘take out’ Los Angeles or San Diego",
-        "u": "https://www.theglobeandmail.com/world/article-california-trump-iran-take-out-los-angeles-san-diego/",
-        "publishedAt": "2026-10-06T12:21:27.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump, speaking at a political rally in the state’s farm belt on Monday, discussed American wartime economic sacrifices and said he was determined to “see a tremendous victory, because it …",
-          "“And again, remember, with the war, it’s just artificial, it’s a little bit high, it’s a small price to pay,” he told the crowd in Grand Island, Nebraska, apparently referring …",
-          "“After sending the National Guard and Marines to occupy California …"
-        ],
-        "figures": [],
-        "wordsRead": 721
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "California leaders condemn Trump’s remarks about possible attacks on US cities",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/california-leaders-condemn-trumps-remarks-about-possible-attacks-us",
-        "publishedAt": "2026-10-06T14:23:13.000Z",
-        "retrievedAt": "2026-10-06T17:04:17.446Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Los Angeles Mayor Karen Bass said Trump’s remarks could compromise the city’s safety, while San …"
-        ],
-        "figures": [],
-        "wordsRead": 150
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Trump’s suggestion that Iran could ‘take out’ LA or San Diego draws Republican rebuke",
-            "url": "https://www.theguardian.com/us-news/2026/oct/06/republican-trump-iran-los-angeles-san-diego"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "‘Deranged’ and ‘dangerous’ Trump calls for Iran to strike US cities amid historic ratings low | First Thing",
-            "url": "https://www.theguardian.com/us-news/2026/oct/06/first-thing-donald-trump-iran-strikes-us-cities"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 5,
-            "headline": "California leaders condemn Trump’s remarks about possible attacks on US cities",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/california-leaders-condemn-trumps-remarks-about-possible-attacks-us"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-            "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "California’s Newsom calls Trump ‘deranged’ after he suggests Iran could ‘take out’ Los Angeles or San Diego",
-            "url": "https://www.theglobeandmail.com/world/article-california-trump-iran-take-out-los-angeles-san-diego/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "California officials furious over Trump’s Los Angeles San Diego Iran remarks",
-            "url": "https://www.washingtonexaminer.com/news/white-house/4755362/california-trump-iran-los-angeles-san-diego-war-cost/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Trump",
-        "Iran",
-        "California",
-        "San Diego",
-        "Los Angeles San Diego",
-        "First Thing"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Trump",
-            "Iran",
-            "California",
-            "San Diego",
-            "Los Angeles San Diego",
-            "First Thing"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cxogtcz",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 11
-      },
-      "matched": {
-        "Europe": [
-          "romania",
-          "bulgaria",
-          "ukraine",
-          "nato",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-06T07:22:16.000Z",
-    "lastSeen": "2026-10-06T14:50:01.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "BBC News",
-      "Euronews",
-      "Al Jazeera",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.38955325389364215,
-      "max": 0.7561591937532667,
-      "pairs": 5,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Ship sinks and crew missing after Black Sea drone attack",
-        "u": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T11:53:21.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "He told reporters: \"Such an attack within the Bulgarian exclusive economic zone is absolutely unacceptable.\"",
-          "\"Commercial ships – and innocent crews – are being targeted, with lives already lost at sea,\" she said.",
-          "A second vessel - carrying grain - was also hit within Bulgaria's exclusive economic zone, Prime …"
-        ],
-        "figures": [],
-        "wordsRead": 490
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Drones hit two ships off Bulgaria's coast, search and rescue ongoing as one sank",
-        "u": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
-        "publishedAt": "2026-10-06T07:22:16.000Z",
-        "retrievedAt": "2026-10-06T17:03:58.490Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Sea and aerial drones hit the ships at about 3am local time (2am CET), around 70 nautical miles east of the town of Byala in Bulgaria's exclusive economic zone, Bulgarian …",
-          "Radev said two helicopters were sent to Varna to pick up rescue teams and a Su-25 aircraft was deployed to carry out aerial reconnaissance over the area.",
-          "Radev, who called the attack \"absolutely unacceptable\" …"
-        ],
-        "figures": [],
-        "wordsRead": 654
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bulgaria searches for missing crew after drones hit two ships in Black Sea",
-        "u": "https://www.aljazeera.com/news/2026/10/6/bulgaria-says-two-commercial-vessels-were-hit-in-drone-attack-in-its-waters?traffic_source=rss",
-        "publishedAt": "2026-10-06T14:50:01.000Z",
-        "retrievedAt": "2026-10-06T17:04:16.078Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“What is happening is seriously disrupting shipping in the Black Sea, driving up insurance costs even further and making shipping extremely difficult,” Radev said after an emergency meeting on Tuesday.",
-          "Hungarian Prime Minister Peter Magyar said Budapest “stands …"
-        ],
-        "figures": [],
-        "wordsRead": 386
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bulgaria searches for missing crew after drones hit more Black Sea ships",
-        "u": "https://www.arabnews.com/world/bulgaria-searches-for-missing-crew-after-drones-hit-more-black-sea-ships-3004885",
-        "publishedAt": "2026-10-06T12:50:54.000Z",
-        "retrievedAt": "2026-10-06T17:04:18.900Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The attack “constitutes a flagrant violation of maritime law and, more broadly, of the rules of navigation,” Radev said.",
-          "“Such an attack within Bulgaria’s exclusive economic zone is absolutely unacceptable,” he said.",
-          "“While exact circumstances of these incidents are still being established, the developments are very concerning,” von der Leyen wrote online."
-        ],
-        "figures": [],
-        "wordsRead": 537
       }
     ],
     "views": [
@@ -2907,8 +1126,8 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Ship sinks and crew missing after Black Sea drone attack",
-            "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+            "headline": "France halts use of stun grenades after boy's hand blown off in student protests",
+            "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Euronews",
@@ -2916,8 +1135,8 @@
             "lean": "centre",
             "country": "EU",
             "evidenceIndex": 1,
-            "headline": "Drones hit two ships off Bulgaria's coast, search and rescue ongoing as one sank",
-            "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting"
+            "headline": "France suspends police stun grenades at student protests after teenager loses hand",
+            "url": "https://www.euronews.com/2026/10/07/france-suspends-police-stun-grenades-at-student-protests-after-teenager-loses-hand"
           }
         ],
         "status": "sourced",
@@ -2938,34 +1157,20 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
         "lean": "varies",
-        "country": "QA",
+        "country": "HK",
         "evidenceIndex": 2,
-        "headline": "Bulgaria searches for missing crew after drones hit two ships in Black Sea",
-        "url": "https://www.aljazeera.com/news/2026/10/6/bulgaria-says-two-commercial-vessels-were-hit-in-drone-attack-in-its-waters?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 3,
-        "headline": "Bulgaria searches for missing crew after drones hit more Black Sea ships",
-        "url": "https://www.arabnews.com/world/bulgaria-searches-for-missing-crew-after-drones-hit-more-black-sea-ships-3004885",
+        "headline": "France halts use of stun grenades in policing of student protests",
+        "url": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?utm_source=rss_feed",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Black Sea",
-        "Bulgaria",
-        "Bulgaria's",
-        "Drones",
-        "Ship"
+        "France"
       ],
       "attempts": [
         {
@@ -3051,7 +1256,909 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cffehnb",
+    "id": "c9mfjdr",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-07T06:49:00.000Z",
+    "lastSeen": "2026-10-07T17:19:38.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "Deutsche Welle",
+      "Al Jazeera",
+      "Middle East Eye",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.36263655247396137,
+      "max": 0.5349954073363492,
+      "pairs": 7,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Yemen's Houthis claim strikes on Aden, Riyadh airports",
+        "u": "https://www.dw.com/en/yemen-s-houthis-claim-strikes-on-aden-riyadh-airports/a-79571321?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-07T06:49:00.000Z",
+        "retrievedAt": "2026-10-07T17:41:46.611Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Yemen's Houthi rebels attacked an international airport on Wednesday morning, using ballistic missiles and explosive-laden drones, according to the Yemeni Ministry of Transport.",
+          "Two planes on the runway were moved away from the area for fear of further attacks, the …"
+        ],
+        "figures": [],
+        "wordsRead": 400
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "More than 200,000 displaced as fighting escalates in Yemen, UN says",
+        "u": "https://www.aljazeera.com/gallery/2026/10/7/more-than-200000-displaced-as-fighting-escalates-in-yemen-un-says-2?traffic_source=rss",
+        "publishedAt": "2026-10-07T16:02:17.000Z",
+        "retrievedAt": "2026-10-07T17:41:59.186Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“People are running for their lives and finding nowhere safe to go,” said IOM Director General Amy Pope, calling for increased funding amid …"
+        ],
+        "figures": [],
+        "wordsRead": 232
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "More than 200,000 people displaced by Yemen fighting: UN agency",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/more-200000-people-displaced-yemen-fighting-un-agency",
+        "publishedAt": "2026-10-07T13:06:16.000Z",
+        "retrievedAt": "2026-10-07T17:42:00.752Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"A total of 201,217 people have …"
+        ],
+        "figures": [],
+        "wordsRead": 61
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Houthis strike Aden airport as number of people displaced by latest Yemen fighting tops 200,000",
+        "u": "https://www.arabnews.com/middle-east/houthis-strike-aden-airport-as-number-of-people-displaced-by-latest-yemen-fighting-tops-200000-3005104",
+        "publishedAt": "2026-10-07T17:19:38.000Z",
+        "retrievedAt": "2026-10-07T17:42:02.138Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“It is a blatant attack on a vital civilian facility that ought to be a safe space for travelers and staff, not a scene of fear and intimidation,” the ministry …",
+          "“The Houthi militias do not hesitate to use their diabolical arsenal of missiles and drones to destroy everything Yemenis have built and struggled for over decades,” he said."
+        ],
+        "figures": [],
+        "wordsRead": 893
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Yemen’s Houthis attack Aden airport as fighting intensifies",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3370080/yemens-houthis-attack-aden-airport-fighting-intensifies?utm_source=rss_feed",
+        "publishedAt": "2026-10-07T12:20:05.000Z",
+        "retrievedAt": "2026-10-07T17:42:05.804Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "⁠Yemen’s Houthis attacked Aden’s international airport with ballistic missiles and explosive-laden …"
+        ],
+        "figures": [],
+        "wordsRead": 112
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "More than 200,000 people displaced by Yemen fighting: UN agency",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/more-200000-people-displaced-yemen-fighting-un-agency"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 0,
+            "headline": "Yemen's Houthis claim strikes on Aden, Riyadh airports",
+            "url": "https://www.dw.com/en/yemen-s-houthis-claim-strikes-on-aden-riyadh-airports/a-79571321?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "More than 200,000 displaced as fighting escalates in Yemen, UN says",
+        "url": "https://www.aljazeera.com/gallery/2026/10/7/more-than-200000-displaced-as-fighting-escalates-in-yemen-un-says-2?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Houthis strike Aden airport as number of people displaced by latest Yemen fighting tops 200,000",
+        "url": "https://www.arabnews.com/middle-east/houthis-strike-aden-airport-as-number-of-people-displaced-by-latest-yemen-fighting-tops-200000-3005104",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Yemen’s Houthis attack Aden airport as fighting intensifies",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3370080/yemens-houthis-attack-aden-airport-fighting-intensifies?utm_source=rss_feed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Yemen",
+        "Aden",
+        "Houthis",
+        "More",
+        "Yemen's Houthis",
+        "Riyadh"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1xvezgq",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-06T21:06:39.000Z",
+    "lastSeen": "2026-10-08T00:00:00.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Guardian US",
+      "BBC News",
+      "Globe and Mail",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.36174742673004345,
+      "max": 0.4743685688872753,
+      "pairs": 6,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike is conscious and speaking after botched execution attempt, lawyers say",
+        "u": "https://www.theguardian.com/us-news/2026/oct/06/christa-pike-execution-awake",
+        "publishedAt": "2026-10-07T15:40:30.000Z",
+        "retrievedAt": "2026-10-07T17:41:12.787Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Her legal team will ask a court on at a hearing on Wednesday to require the Tennessee department of correction to preserve all “relevant physical, written and electronic evidence” related …",
+          "Her attorneys said they were grateful for the first responders and the medical team at the hospital “who treated Christa like a human and have provided exceptional care to her”.",
+          "Christa Pike, a Tennessee prisoner who survived the state’s attempt to …"
+        ],
+        "figures": [],
+        "wordsRead": 729
+      },
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike awake and speaking after botched execution: what happens now? - The Latest",
+        "u": "https://www.theguardian.com/news/video/2026/oct/07/christa-pike-awake-and-speaking-after-botched-execution-what-happens-now-the-latest",
+        "publishedAt": "2026-10-07T17:20:53.000Z",
+        "retrievedAt": "2026-10-07T17:41:12.787Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "How did Christa Pike survive two lethal injections - and what happens now?",
+        "u": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-07T10:01:47.000Z",
+        "retrievedAt": "2026-10-07T17:41:16.205Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Most of the pentobarbital, instead of circulating in her body, ended up in her arms, and that's how she lived,\" Zivot said.",
+          "But the department said the lethal injection chemical had \"consistently been effective\".",
+          "Pike \"is the only person for whom some kind of toxin has been injected\", she said."
+        ],
+        "figures": [],
+        "wordsRead": 1168
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
+        "u": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-06T23:42:35.000Z",
+        "retrievedAt": "2026-10-07T17:41:16.205Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "An aneasthesiologist advising Pike's defence team said her survival is highly unusual, and …"
+        ],
+        "figures": [],
+        "wordsRead": 139
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike is awake and speaking after failed Tennessee execution, her attorneys say",
+        "u": "https://www.theglobeandmail.com/world/article-christa-pike-failed-tennessee-execution-awake-speaking/",
+        "publishedAt": "2026-10-06T21:06:39.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Against all odds, Christa Pike is conscious, speaking, and continues to receive critical medical care,” attorneys for Pike said in a statement.",
+          "Her attorneys said they are grateful for the first responders and the medical team at the hospital “who treated Christa like a human and have provided exceptional care to her.”",
+          "“Christa is a survivor and will take recovery one day at a time,” her attorneys said."
+        ],
+        "figures": [],
+        "wordsRead": 752
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Death row inmate awake after failed execution in US",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/08/2003865618",
+        "publishedAt": "2026-10-08T00:00:00.000Z",
+        "retrievedAt": "2026-10-07T17:42:08.811Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The suspect “killed the 39-year-old woman at a hotel in Naha and stole her wallet on Saturday,” a local police spokesman said.",
+          "“Against all odds, Christa Pike is conscious, speaking, and continues to receive critical medical care,” attorneys for Pike said in a statement.",
+          "Attorneys with the Tennessee Attorney General’s Office wrote in a Tuesday court filing that the court order is unnecessary …"
+        ],
+        "figures": [],
+        "wordsRead": 639
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Christa Pike is conscious and speaking after botched execution attempt, lawyers say",
+            "url": "https://www.theguardian.com/us-news/2026/oct/06/christa-pike-execution-awake"
+          },
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Christa Pike awake and speaking after botched execution: what happens now? - The Latest",
+            "url": "https://www.theguardian.com/news/video/2026/oct/07/christa-pike-awake-and-speaking-after-botched-execution-what-happens-now-the-latest"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "How did Christa Pike survive two lethal injections - and what happens now?",
+            "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 3,
+            "headline": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
+            "url": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 4,
+            "headline": "Christa Pike is awake and speaking after failed Tennessee execution, her attorneys say",
+            "url": "https://www.theglobeandmail.com/world/article-christa-pike-failed-tennessee-execution-awake-speaking/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 5,
+        "headline": "Death row inmate awake after failed execution in US",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/08/2003865618",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Christa Pike",
+        "The Latest",
+        "Tennessee",
+        "Death",
+        "What"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Christa Pike",
+            "The Latest",
+            "Tennessee",
+            "Death",
+            "What"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ck9pldo",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-07T07:31:01.000Z",
+    "lastSeen": "2026-10-07T13:51:35.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Haaretz",
+      "Al Jazeera",
+      "Middle East Eye",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.39060695460866346,
+      "max": 0.47025649863880514,
+      "pairs": 4,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Palestinian killed, 16 wounded amid West Bank violence as IDF launches raids",
+        "u": "https://www.haaretz.com/west-bank/2026-10-07/ty-article/.premium/idf-border-police-raid-west-bank-over-terror-oct-7-support-suspicions/000001a1-1542-d28a-a3a5-d75ba4db0000",
+        "publishedAt": "2026-10-07T07:31:01.000Z",
+        "retrievedAt": "2026-10-07T17:41:54.668Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Palestinian killed, 16 wounded in Israeli pogrom in occupied West Bank",
+        "u": "https://www.aljazeera.com/news/2026/10/7/palestinian-killed-several-injured-in-israeli-pogrom-in-occupied-west-bank?traffic_source=rss",
+        "publishedAt": "2026-10-07T12:38:31.000Z",
+        "retrievedAt": "2026-10-07T17:41:59.186Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A Palestinian has been killed and 16 others wounded in a pogrom by settlers under the protection of Israeli forces in the northern occupied West Bank, Palestinian authorities said.",
+          "Ali Hassan Yasser al-Bazzari, 44, from Burqa, northwest of Nablus, was killed in the attack on Palestinians …"
+        ],
+        "figures": [],
+        "wordsRead": 465
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Palestinian killed during settler attack on olive farmers in West Bank",
+        "u": "https://www.middleeasteye.net/news/palestinian-killed-during-settler-attack-olive-farmers-west-bank",
+        "publishedAt": "2026-10-07T13:51:35.000Z",
+        "retrievedAt": "2026-10-07T17:42:00.752Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"After the shooting, the settlers approached the harvesters, began beating them and then bound them,\" he told Middle East Eye.",
+          "\"We are facing a government that supports terrorism and criminality, providing full backing to settlers because it is a terrorist government,\" he said.",
+          "Witnesses said Israeli soldiers were present and protected the settlers during the attack."
+        ],
+        "figures": [],
+        "wordsRead": 705
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israeli fire kills Palestinian in West Bank settler clash",
+        "u": "https://www.arabnews.com/middle-east/israeli-fire-kills-palestinian-in-west-bank-settler-clash-3005083",
+        "publishedAt": "2026-10-07T13:06:45.000Z",
+        "retrievedAt": "2026-10-07T17:42:02.138Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Palestinian health ministry said 44-year-old Ali Al-Bazzari died and nine others were injured “as a result of an assault by occupation forces and settlers” on the village of Burqa …",
+          "The Israeli military said troops and border police forces had been dispatched to the area …"
+        ],
+        "figures": [],
+        "wordsRead": 465
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 0,
+            "headline": "Palestinian killed, 16 wounded amid West Bank violence as IDF launches raids",
+            "url": "https://www.haaretz.com/west-bank/2026-10-07/ty-article/.premium/idf-border-police-raid-west-bank-over-terror-oct-7-support-suspicions/000001a1-1542-d28a-a3a5-d75ba4db0000"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Palestinian killed during settler attack on olive farmers in West Bank",
+            "url": "https://www.middleeasteye.net/news/palestinian-killed-during-settler-attack-olive-farmers-west-bank"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (left)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Palestinian killed, 16 wounded in Israeli pogrom in occupied West Bank",
+        "url": "https://www.aljazeera.com/news/2026/10/7/palestinian-killed-several-injured-in-israeli-pogrom-in-occupied-west-bank?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Israeli fire kills Palestinian in West Bank settler clash",
+        "url": "https://www.arabnews.com/middle-east/israeli-fire-kills-palestinian-in-west-bank-settler-clash-3005083",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Palestinian",
+        "West Bank",
+        "Israeli"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cvpfd9e",
     "regions": [
       "Global"
     ],
@@ -3067,7 +2174,7 @@
         ]
       }
     },
-    "firstSeen": "2026-10-04T14:38:09.000Z",
+    "firstSeen": "2026-10-05T10:27:15.000Z",
     "lastSeen": "2026-10-05T14:51:20.000Z",
     "outletCount": 3,
     "outlets": [
@@ -3078,9 +2185,9 @@
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3727854145469717,
-      "max": 0.7849379466714701,
-      "pairs": 3,
+      "min": 0.4948146964678526,
+      "max": 0.8013844372383954,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -3094,14 +2201,14 @@
         "t": "FlyDubai co-pilot allegedly planned to crash Israel-bound jet at Ben Gurion Airport",
         "u": "https://www.foxnews.com/world/flydubai-copilot-allegedly-planned-crash-israel-bound-jet-ben-gurion-airport",
         "publishedAt": "2026-10-05T12:06:13.000Z",
-        "retrievedAt": "2026-10-06T17:03:34.202Z",
+        "retrievedAt": "2026-10-07T17:41:21.982Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Amid Russian public health scare President Trump says US 'always willing to help'",
-          "Israeli broadcaster Channel 12 reported that Hamam al-Hammami told investigators he intended to continue FlyDubai Flight FZ1073 toward Israel as though nothing was wrong, obtain …"
+          "Rubio vows Strait of Hormuz is open, says Iran has 'lost complete control'",
+          "Israeli broadcaster Channel 12 reported that Hamam al-Hammami told investigators he intended to continue FlyDubai Flight FZ1073 toward Israel as though nothing was wrong, obtain the …"
         ],
         "figures": [],
-        "wordsRead": 387
+        "wordsRead": 398
       },
       {
         "n": "Globe and Mail",
@@ -3113,7 +2220,7 @@
         "t": "FlyDubai co-pilot planned attack before joining airline, Israeli officials say",
         "u": "https://www.theglobeandmail.com/world/article-flydubai-co-pilot-planned-attack/",
         "publishedAt": "2026-10-05T10:27:15.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The FlyDubai co-pilot who stabbed his captain in a suspected attempt to crash the plane has told UAE interrogators he planned the attack before he was hired by the Dubai …",
@@ -3132,7 +2239,7 @@
         "t": "Flydubai co-pilot planned attack before joining airline, Israeli officials say",
         "u": "https://www.haaretz.com/israel-news/israel-security/2026-10-05/ty-article/flydubai-co-pilot-planned-attack-before-joining-airline-israeli-officials-say/000001a1-0ae6-dc0c-a5ff-5ae786760000",
         "publishedAt": "2026-10-05T14:51:20.000Z",
-        "retrievedAt": "2026-10-06T17:04:11.863Z",
+        "retrievedAt": "2026-10-07T17:41:54.668Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The flydubai co-pilot who stabbed the captain of a flight to Israel last week had planned the attack before joining the airline, according to two Israeli officials familiar with the …",
@@ -3140,25 +2247,6 @@
         ],
         "figures": [],
         "wordsRead": 451
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Report: Initial Israeli probe finds flydubai pilot was 'lone wolf,' planned to crash plane in Tel Aviv",
-        "u": "https://www.haaretz.com/israel-news/israel-security/2026-10-04/ty-article/reports-flydubai-pilot-acted-alone-planned-to-crash-the-plane-in-tel-aviv/000001a1-06d0-de98-a9a7-f7f9e2450000",
-        "publishedAt": "2026-10-04T14:38:09.000Z",
-        "retrievedAt": "2026-10-06T17:04:11.863Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Sources told The Wall Street Journal that Oman had previously barred al-Hammami from flying over concerns that he had adopted \"extreme ideological views.\"",
-          "\"Call it a personal matter or call it doing it for others, but let's just say I did it knowing that if …"
-        ],
-        "figures": [],
-        "wordsRead": 453
       }
     ],
     "views": [
@@ -3174,15 +2262,6 @@
             "evidenceIndex": 2,
             "headline": "Flydubai co-pilot planned attack before joining airline, Israeli officials say",
             "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-05/ty-article/flydubai-co-pilot-planned-attack-before-joining-airline-israeli-officials-say/000001a1-0ae6-dc0c-a5ff-5ae786760000"
-          },
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 3,
-            "headline": "Report: Initial Israeli probe finds flydubai pilot was 'lone wolf,' planned to crash plane in Tel Aviv",
-            "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-04/ty-article/reports-flydubai-pilot-acted-alone-planned-to-crash-the-plane-in-tel-aviv/000001a1-06d0-de98-a9a7-f7f9e2450000"
           }
         ],
         "status": "sourced",
@@ -3234,7 +2313,6 @@
         "FlyDubai",
         "Israeli",
         "Ben Gurion Airport",
-        "Initial Israeli",
         "Israel-bound",
         "Flydubai"
       ],
@@ -3248,7 +2326,6 @@
             "FlyDubai",
             "Israeli",
             "Ben Gurion Airport",
-            "Initial Israeli",
             "Israel-bound",
             "Flydubai"
           ]
@@ -3330,45 +2407,60 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c11byjmw",
+    "id": "c1nhbt6l",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 1,
-        "India": 0,
-        "Europe": 9
+        "India": 1,
+        "Europe": 0
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
-        "Europe": [
-          "france",
-          "paris",
-          "strasbourg"
+        "India": [
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-06T11:35:05.000Z",
-    "lastSeen": "2026-10-06T15:55:10.000Z",
+    "firstSeen": "2026-10-05T10:20:34.000Z",
+    "lastSeen": "2026-10-07T09:14:32.000Z",
     "outletCount": 3,
     "outlets": [
+      "Guardian US",
       "Globe and Mail",
-      "Arab News",
-      "South China Morning Post"
+      "Scroll.in"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3870437097695273,
-      "max": 0.6420138585175981,
+      "min": 0.4023628845803415,
+      "max": 0.5547711984342139,
       "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Moment Karl Deisseroth tells his family he won the Nobel prize in medicine – video",
+        "u": "https://www.theguardian.com/science/video/2026/oct/07/moment-karl-deisseroth-tells-his-family-he-won-the-nobel-prize-in-medicine-video",
+        "publishedAt": "2026-10-07T09:14:32.000Z",
+        "retrievedAt": "2026-10-07T17:41:12.787Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Stanford University has shared a video of Karl Deisseroth telling …"
+        ],
+        "figures": [],
+        "wordsRead": 102
+      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -3376,11 +2468,272 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Tear gas used against French high school protesters",
-        "u": "https://www.theglobeandmail.com/world/video-tear-gas-used-against-french-high-school-protesters/",
-        "publishedAt": "2026-10-06T14:34:19.000Z",
-        "retrievedAt": "2026-10-06T17:03:39.880Z",
+        "t": "Nobel prize in medicine awarded to researchers who learned how to light up the brain",
+        "u": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-awarded-to-researchers-who-learned-how-to-light-up-the/",
+        "publishedAt": "2026-10-05T10:20:34.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Hegemann said the unlikely combinations of knowledge from areas such as aquatic biology and neuroscience is “the beauty and the stimulating factor in science” that can lead to unexpected advancements.",
+          "On Monday, the Nobel Assembly at the Karolinska Institute in Sweden announced the prize has been awarded to three scientists, one in the United States and two in Germany, for …",
+          "A sixth prize for economics …"
+        ],
+        "figures": [
+          {
+            "value": "$1.7",
+            "context": "l share equally in the prize, worth approximately $1.7-million dollars. The story of this year’s medical"
+          }
+        ],
+        "wordsRead": 660
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nobel medicine prize goes to three scientists for research into brain activity",
+        "u": "https://www.theglobeandmail.com/world/video-nobel-medicine-prize-goes-to-three-scientists-for-research-into-brain/",
+        "publishedAt": "2026-10-05T13:14:47.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
         "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nobel Prize in Medicine awarded to three scientists for brain research",
+        "u": "https://scroll.in/latest/1096197/nobel-prize-in-medicine-awarded-to-three-scientists-for-brain-research?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-05T11:48:56.000Z",
+        "retrievedAt": "2026-10-07T17:41:32.863Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Optogenetics provides opportunities for mapping the brain in a way that we could once only dream of,” said Per Svenningsson, the chair of …"
+        ],
+        "figures": [],
+        "wordsRead": 237
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Moment Karl Deisseroth tells his family he won the Nobel prize in medicine – video",
+            "url": "https://www.theguardian.com/science/video/2026/oct/07/moment-karl-deisseroth-tells-his-family-he-won-the-nobel-prize-in-medicine-video"
+          },
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 3,
+            "headline": "Nobel Prize in Medicine awarded to three scientists for brain research",
+            "url": "https://scroll.in/latest/1096197/nobel-prize-in-medicine-awarded-to-three-scientists-for-brain-research?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Nobel prize in medicine awarded to researchers who learned how to light up the brain",
+            "url": "https://www.theglobeandmail.com/canada/science/article-nobel-prize-awarded-to-researchers-who-learned-how-to-light-up-the/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Nobel medicine prize goes to three scientists for research into brain activity",
+            "url": "https://www.theglobeandmail.com/world/video-nobel-medicine-prize-goes-to-three-scientists-for-research-into-brain/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Nobel",
+        "Moment Karl Deisseroth",
+        "Nobel Prize",
+        "Medicine"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Nobel",
+            "Moment Karl Deisseroth",
+            "Nobel Prize",
+            "Medicine"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c6o8xqk",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 4
+      },
+      "matched": {
+        "Europe": [
+          "poland",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-07T12:15:17.000Z",
+    "lastSeen": "2026-10-07T16:19:28.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Euronews",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.41526879238535,
+      "max": 0.5260517197901631,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Knife attack at Polish school: in Ostroleka a student injures seven, two are in critical condition",
+        "u": "https://www.euronews.com/2026/10/07/knife-attack-at-polish-school-in-ostroleka-a-student-injures-seven-two-are-in-critical-con",
+        "publishedAt": "2026-10-07T16:19:28.000Z",
+        "retrievedAt": "2026-10-07T17:41:40.845Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "On Wednesday morning at a vocational school in Ostrołęka in Northern Poland, a 19-year-old pupil attacked classmates and teachers with a sharp …"
+        ],
+        "figures": [],
+        "wordsRead": 220
       },
       {
         "n": "Arab News",
@@ -3389,18 +2742,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Police fire teargas at French protesters on biggest day of school demonstrations",
-        "u": "https://www.arabnews.com/world/police-fire-teargas-at-french-protesters-on-biggest-day-of-school-demonstrations-3004914",
-        "publishedAt": "2026-10-06T15:55:10.000Z",
-        "retrievedAt": "2026-10-06T17:04:18.900Z",
+        "t": "19-year-old student in Poland injures 9 people in a school attack",
+        "u": "https://www.arabnews.com/world/19-year-old-student-in-poland-injures-9-people-in-a-school-attack-3005072",
+        "publishedAt": "2026-10-07T12:15:17.000Z",
+        "retrievedAt": "2026-10-07T17:42:02.138Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“There is such a gap between the elites and us,” said Hugo Vetzel, a recent high-school graduate in Strasbourg.",
-          "“We ⁠want more money for the national educational system so that high schools are renovated,” said Roberta, another recent high-school graduate at a protest outside Paris’ prestigious Henri IV school.",
-          "“They want to divide the young people into good and bad protesters,” said Omar Slaouti, a high school teacher …"
+          "Two hours after the attack, Ostroleka Mayor Paweł Niewiadomski wrote on social media that the “situation has been brought under control” but that the school would remain closed while authorities …",
+          "OSTROLEKA, Poland: A 19-year-old student at a vocational …"
         ],
         "figures": [],
-        "wordsRead": 684
+        "wordsRead": 398
       },
       {
         "n": "South China Morning Post",
@@ -3409,10 +2761,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "French school unrest: students, teachers march on biggest day of protests",
-        "u": "https://www.scmp.com/news/world/europe/article/3369936/french-school-unrest-students-teachers-march-biggest-day-protests?utm_source=rss_feed",
-        "publishedAt": "2026-10-06T11:35:05.000Z",
-        "retrievedAt": "2026-10-06T17:04:22.869Z",
+        "t": "10 injured in knife attack at school in northeastern Poland",
+        "u": "https://www.scmp.com/news/world/europe/article/3370092/10-injured-knife-attack-school-northeastern-poland?utm_source=rss_feed",
+        "publishedAt": "2026-10-07T14:55:41.000Z",
+        "retrievedAt": "2026-10-07T17:42:05.804Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -3429,13 +2781,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "CA",
+            "country": "EU",
             "evidenceIndex": 0,
-            "headline": "Tear gas used against French high school protesters",
-            "url": "https://www.theglobeandmail.com/world/video-tear-gas-used-against-french-high-school-protesters/"
+            "headline": "Knife attack at Polish school: in Ostroleka a student injures seven, two are in critical condition",
+            "url": "https://www.euronews.com/2026/10/07/knife-attack-at-polish-school-in-ostroleka-a-student-injures-seven-two-are-in-critical-con"
           }
         ],
         "status": "sourced",
@@ -3461,8 +2813,8 @@
         "lean": "varies",
         "country": "SA",
         "evidenceIndex": 1,
-        "headline": "Police fire teargas at French protesters on biggest day of school demonstrations",
-        "url": "https://www.arabnews.com/world/police-fire-teargas-at-french-protesters-on-biggest-day-of-school-demonstrations-3004914",
+        "headline": "19-year-old student in Poland injures 9 people in a school attack",
+        "url": "https://www.arabnews.com/world/19-year-old-student-in-poland-injures-9-people-in-a-school-attack-3005072",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -3471,17 +2823,18 @@
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 2,
-        "headline": "French school unrest: students, teachers march on biggest day of protests",
-        "url": "https://www.scmp.com/news/world/europe/article/3369936/french-school-unrest-students-teachers-march-biggest-day-protests?utm_source=rss_feed",
+        "headline": "10 injured in knife attack at school in northeastern Poland",
+        "url": "https://www.scmp.com/news/world/europe/article/3370092/10-injured-knife-attack-school-northeastern-poland?utm_source=rss_feed",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "French",
-        "Police",
-        "Tear"
+        "Poland",
+        "Ostroleka",
+        "Polish",
+        "Knife"
       ],
       "attempts": [
         {
@@ -3567,7 +2920,253 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c120cs0z",
+    "id": "cypvvwa",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-06T12:21:27.000Z",
+    "lastSeen": "2026-10-07T15:00:53.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Guardian US",
+      "Globe and Mail",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.37218834843529247,
+      "max": 0.45159081116260735,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "‘Take out’ Los Angeles and San Diego? Trump is beyond irresponsible | Ted Widmer",
+        "u": "https://www.theguardian.com/commentisfree/2026/oct/07/trump-speech-los-angeles-san-diego",
+        "publishedAt": "2026-10-07T15:00:53.000Z",
+        "retrievedAt": "2026-10-07T17:41:12.787Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "But by saying “let them …” it almost sounded like he was encouraging them to, as when John F Kennedy, in Berlin, held up that city as a model of …",
+          "There were the usual schoolyard insults, in this case lobbed toward the Texas Democratic Senate candidate James Talarico (“I call him Alfred E Neuman”) and Georgia senator Jon Ossoff (“he …",
+          "“We want honest,” Trump said at one point, confusingly."
+        ],
+        "figures": [],
+        "wordsRead": 865
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "California’s Newsom calls Trump ‘deranged’ after he suggests Iran could ‘take out’ Los Angeles or San Diego",
+        "u": "https://www.theglobeandmail.com/world/article-california-trump-iran-take-out-los-angeles-san-diego/",
+        "publishedAt": "2026-10-06T12:21:27.000Z",
+        "retrievedAt": "2026-10-07T17:41:26.526Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Trump, speaking at a political rally in the state’s farm belt on Monday, discussed American wartime economic sacrifices and said he was determined to “see a tremendous victory, because it …",
+          "“And again, remember, with the war, it’s just artificial, it’s a little bit high, it’s a small price to pay,” he told the crowd in Grand Island, Nebraska, apparently referring …",
+          "“After sending the National Guard and Marines to occupy California …"
+        ],
+        "figures": [],
+        "wordsRead": 721
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego",
+        "u": "https://www.haaretz.com/us-news/2026-10-07/ty-article/californians-blast-trump-remark-that-iran-could-take-out-los-angeles/000001a1-12b4-df57-a7e5-3ab4bcf70000",
+        "publishedAt": "2026-10-06T21:03:50.000Z",
+        "retrievedAt": "2026-10-07T17:41:54.668Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "‘Take out’ Los Angeles and San Diego? Trump is beyond irresponsible | Ted Widmer",
+            "url": "https://www.theguardian.com/commentisfree/2026/oct/07/trump-speech-los-angeles-san-diego"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego",
+            "url": "https://www.haaretz.com/us-news/2026-10-07/ty-article/californians-blast-trump-remark-that-iran-could-take-out-los-angeles/000001a1-12b4-df57-a7e5-3ab4bcf70000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "California’s Newsom calls Trump ‘deranged’ after he suggests Iran could ‘take out’ Los Angeles or San Diego",
+            "url": "https://www.theglobeandmail.com/world/article-california-trump-iran-take-out-los-angeles-san-diego/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Los Angeles",
+        "San Diego",
+        "Trump",
+        "Iran",
+        "Californians",
+        "Ted Widmer"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Los Angeles",
+            "San Diego",
+            "Trump",
+            "Iran",
+            "Californians",
+            "Ted Widmer"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1d1e347",
     "regions": [
       "Global"
     ],
@@ -3583,20 +3182,20 @@
         ]
       }
     },
-    "firstSeen": "2026-10-06T09:39:31.000Z",
-    "lastSeen": "2026-10-06T16:02:32.000Z",
+    "firstSeen": "2026-10-06T15:35:22.000Z",
+    "lastSeen": "2026-10-07T10:56:06.000Z",
     "outletCount": 3,
     "outlets": [
       "BBC News",
-      "Arab News",
-      "South China Morning Post"
+      "Euronews",
+      "Deutsche Welle"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.4518211134791487,
-      "max": 0.6022439906921134,
-      "pairs": 3,
+      "min": 0.3753321744083079,
+      "max": 0.42409382247668254,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -3607,55 +3206,61 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Kenya confirms its first Ebola death as outbreak spreads",
-        "u": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-06T16:02:32.000Z",
-        "retrievedAt": "2026-10-06T17:03:28.606Z",
+        "t": "What is pneumonic plague and how does it spread?",
+        "u": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-06T15:35:22.000Z",
+        "retrievedAt": "2026-10-07T17:41:16.205Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Kenya has confirmed its first ever case of Ebola - a Kenyan citizen who has been living in the Democratic Republic of Congo for the past seven years.",
-          "Health Minister Aden Duale said the patient, who fell ill a month ago, and was treated in several hospitals in DR Congo, died days after arriving in the capital, Nairobi.",
-          "Duale said the patient boarded a flight on Saturday and …"
+          "\"I understand why people find the idea of plague in a laboratory alarming, so it is worth saying why that work exists,\" she said.",
+          "US President Donald Trump said Washington was looking \"very strongly\" at the case, while the Centers for Disease Control (CDC) said there was \"no indication of a broader threat to …",
+          "According to the World Health Organization, pneumonic plague has a very short incubation period - sometimes …"
         ],
         "figures": [],
-        "wordsRead": 685
+        "wordsRead": 717
       },
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Kenya confirms first Ebola case imported from Congo after man dies in Nairobi",
-        "u": "https://www.arabnews.com/world/kenya-confirms-first-ebola-case-imported-from-congo-after-man-dies-in-nairobi-3004912",
-        "publishedAt": "2026-10-06T15:41:14.000Z",
-        "retrievedAt": "2026-10-06T17:04:18.900Z",
+        "t": "Plague fears in Siberia: How are Irkutsk residents reacting?",
+        "u": "https://www.euronews.com/2026/10/07/plague-fears-in-siberia-how-are-irkutsk-residents-reacting",
+        "publishedAt": "2026-10-07T10:56:06.000Z",
+        "retrievedAt": "2026-10-07T17:41:40.845Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We have continued to maintain, as a country, a high level of alert for Ebola since the outbreak began in May,” he said.",
-          "“With ⁠a solid health response – which is what my colleagues expect from the Kenyan government – this will be managed,” Julien Harneis, the …"
+          "Authorities say the cause of death has not been confirmed, while Russia’s …"
         ],
         "figures": [],
-        "wordsRead": 470
+        "wordsRead": 127
       },
       {
-        "n": "South China Morning Post",
-        "b": "varies",
+        "n": "Deutsche Welle",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Kenya reports first Ebola case imported from DR Congo after patient dies",
-        "u": "https://www.scmp.com/news/world/africa/article/3369923/kenya-reports-first-ebola-case-imported-dr-congo-after-patient-dies?utm_source=rss_feed",
-        "publishedAt": "2026-10-06T09:39:31.000Z",
-        "retrievedAt": "2026-10-06T17:04:22.869Z",
+        "t": "Suspected pneumonic plague in Siberia: What we know about the disease",
+        "u": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-07T09:44:00.000Z",
+        "retrievedAt": "2026-10-07T17:41:46.611Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Kenya reported its first-ever Ebola death, the health minister …"
+          "However, in a statement published October 6, 2026, the ECDC said that \"based on the limited information currently available, there are no reports of secondary cases and no evidence of …",
+          "UPDATE: Following initial reports raising concerns that a lab worker had died accidentally of pneumonic plague, the European Centre for Disease Prevention and Control (ECDC) said it was now also …",
+          "This is why, according to the WHO, it can trigger severe epidemics."
         ],
-        "figures": [],
-        "wordsRead": 90
+        "figures": [
+          {
+            "value": "60%",
+            "context": "ng. If untreated, bubonic plague kills between 30-60% of patients. The septicemic and pneumonic forms a"
+          }
+        ],
+        "wordsRead": 980
       }
     ],
     "views": [
@@ -3676,8 +3281,26 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Kenya confirms its first Ebola death as outbreak spreads",
-            "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss"
+            "headline": "What is pneumonic plague and how does it spread?",
+            "url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Plague fears in Siberia: How are Irkutsk residents reacting?",
+            "url": "https://www.euronews.com/2026/10/07/plague-fears-in-siberia-how-are-irkutsk-residents-reacting"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 2,
+            "headline": "Suspected pneumonic plague in Siberia: What we know about the disease",
+            "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -3694,38 +3317,17 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Kenya confirms first Ebola case imported from Congo after man dies in Nairobi",
-        "url": "https://www.arabnews.com/world/kenya-confirms-first-ebola-case-imported-from-congo-after-man-dies-in-nairobi-3004912",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Kenya reports first Ebola case imported from DR Congo after patient dies",
-        "url": "https://www.scmp.com/news/world/africa/article/3369923/kenya-reports-first-ebola-case-imported-dr-congo-after-patient-dies?utm_source=rss_feed",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Kenya",
-        "Ebola",
-        "DR Congo",
-        "Nairobi",
-        "Congo"
+        "Siberia",
+        "What",
+        "Suspected",
+        "Irkutsk",
+        "Plague"
       ],
       "attempts": [
         {
