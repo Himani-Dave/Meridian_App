@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-07T17:41:07.944Z",
-  "finishedAt": "2026-10-07T17:46:21.889Z",
+  "startedAt": "2026-10-08T17:45:19.449Z",
+  "finishedAt": "2026-10-08T17:51:52.592Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,46 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1076,
-    "totalItems": 1074,
-    "clusters": 967,
+    "rssItems": 1075,
+    "totalItems": 1073,
+    "clusters": 943,
     "candidates": 12,
-    "articlesRead": 40
+    "articlesRead": 44
   },
   "balance": {
-    "left": 8,
-    "centre": 10,
-    "right": 3,
+    "left": 10,
+    "centre": 11,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 13
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 50
+      "availableInRegion": 53
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 14 articles, 2 from roster outlets, 12 from outlets not in the roster (discovery only, not ingested).",
-    "38 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "41 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,6 +150,11 @@
     },
     {
       "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
@@ -162,49 +166,79 @@
     {
       "layer": "article",
       "source": "Western Standard",
-      "url": "https://www.westernstandard.news/canadian/breaking-liberals-to-restrict-maid-access-on-mental-illness-but-permit-advance-requests/77678",
+      "url": "https://www.westernstandard.news/news/canadian-poet-anne-carson-wins-nobel-prize-in-literature/77703",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/political-leaders-respond-after-musk-says-prairie-provinces-quebec-would-be-better-off-leaving-canada/77720",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+      "url": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3370190/south-korea-recall-ambassador-ukraine-amid-pow-dispute?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/oct/07/christa-pike-awake-and-speaking-after-botched-execution-what-happens-now-the-latest",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/dozens-killed-in-russian-strike-on-civilian-buses-in-eastern-ukraine?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5994868/maricarmen-eviction-spain-dies",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-10-08/ty-article/.premium/trump-u-s-will-not-attack-iran-before-midterms/000001a1-1c52-d3ad-a3b7-bd7e04920000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-07/ty-article/.premium/idf-border-police-raid-west-bank-over-terror-oct-7-support-suspicions/000001a1-1542-d28a-a3a5-d75ba4db0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-nobel-medicine-prize-goes-to-three-scientists-for-research-into-brain/",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-08/ty-article/.premium/israel-says-u-k-east-jerusalem-consulate-ended-operations-u-k-denies-closure/000001a1-1a2b-dba5-a5bf-df6bd6820000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370092/10-injured-knife-attack-school-northeastern-poland?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3370163/britain-downscales-and-renames-jerusalem-consulate-after-israel-orders-closure?utm_source=rss_feed",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Haaretz",
       "url": "https://www.haaretz.com/us-news/2026-10-07/ty-article/californians-blast-trump-remark-that-iran-could-take-out-los-angeles/000001a1-12b4-df57-a7e5-3ab4bcf70000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/07/christa-pike-angry-and-confused-after-waking-from-botched-execution-says-lawyer-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/french-pm-vows-changes-as-students-keep-up-school-protests?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
