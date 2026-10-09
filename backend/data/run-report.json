@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-08T17:45:19.449Z",
-  "finishedAt": "2026-10-08T17:51:52.592Z",
+  "startedAt": "2026-10-09T17:21:30.914Z",
+  "finishedAt": "2026-10-09T17:26:04.644Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1075,
-    "totalItems": 1073,
-    "clusters": 943,
+    "rssItems": 1058,
+    "totalItems": 1055,
+    "clusters": 922,
     "candidates": 12,
-    "articlesRead": 44
+    "articlesRead": 40
   },
   "balance": {
-    "left": 10,
-    "centre": 11,
-    "right": 6,
+    "left": 9,
+    "centre": 8,
+    "right": 5,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 4
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 13
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 53
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "41 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 1 articles, 0 from roster outlets, 1 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -159,87 +159,52 @@
       "reason": "HTTP 429"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
       "layer": "article",
       "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/canadian-poet-anne-carson-wins-nobel-prize-in-literature/77703",
+      "url": "https://www.westernstandard.news/news/canada-loses-68000-jobs-in-september-mainly-in-public-sector-unemployment-jumps-to-65/77746",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/political-leaders-respond-after-musk-says-prairie-provinces-quebec-would-be-better-off-leaving-canada/77720",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/08/g-s1-147115/south-korea-to-recall-its-ambassador-to-ukraine-over-north-korean-pow-dispute",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3370190/south-korea-recall-ambassador-ukraine-amid-pow-dispute?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/dozens-killed-in-russian-strike-on-civilian-buses-in-eastern-ukraine?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/08/nx-s1-5994868/maricarmen-eviction-spain-dies",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-10-08/ty-article/.premium/trump-u-s-will-not-attack-iran-before-midterms/000001a1-1c52-d3ad-a3b7-bd7e04920000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-08/ty-article/.premium/israel-says-u-k-east-jerusalem-consulate-ended-operations-u-k-denies-closure/000001a1-1a2b-dba5-a5bf-df6bd6820000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3370163/britain-downscales-and-renames-jerusalem-consulate-after-israel-orders-closure?utm_source=rss_feed",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/09/385589/bharat/tamil-nadu-and-puducherry-bypolls-tvk-wins-2-seats-dharapuram-and-madurantakam-nda-secures-thattanchavady/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-10-07/ty-article/californians-blast-trump-remark-that-iran-could-take-out-los-angeles/000001a1-12b4-df57-a7e5-3ab4bcf70000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/07/christa-pike-angry-and-confused-after-waking-from-botched-execution-says-lawyer-video",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/09/pete-hegseth-execution-fort-hood-mass-killer-livestreamed-video",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/french-pm-vows-changes-as-students-keep-up-school-protests?traffic_source=rss",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-08/ty-article/three-killed-in-attacks-on-saudi-airports-as-yemen-fighting-escalates/000001a1-1b32-da49-a5e9-1bba56e10000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3370366/saudi-arabia-says-3-killed-riyadh-airport-yemen-war-expands?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3370407/omani-flydubai-co-pilot-planned-crash-plane-israeli-airport-uae-says?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/ex-prince-andrew-gets-300000-for-leaving-windsor-mansion-3005488",
+      "reason": "HTTP 403"
     }
   ]
 }
