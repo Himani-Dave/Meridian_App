@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-09T17:21:30.914Z",
-  "finishedAt": "2026-10-09T17:26:04.644Z",
+  "startedAt": "2026-10-10T16:06:59.835Z",
+  "finishedAt": "2026-10-10T16:12:32.747Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,28 +17,28 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1058,
+    "rssItems": 1054,
     "totalItems": 1055,
-    "clusters": 922,
+    "clusters": 927,
     "candidates": 12,
     "articlesRead": 40
   },
   "balance": {
-    "left": 9,
-    "centre": 8,
-    "right": 5,
+    "left": 6,
+    "centre": 12,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 4
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
@@ -48,14 +48,16 @@
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 47
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 1 articles, 0 from roster outlets, 1 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"India policy\": 40 articles, 4 from roster outlets, 36 from outlets not in the roster (discovery only, not ingested).",
+    "35 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,25 +152,38 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/canada-loses-68000-jobs-in-september-mainly-in-public-sector-unemployment-jumps-to-65/77746",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/09/385589/bharat/tamil-nadu-and-puducherry-bypolls-tvk-wins-2-seats-dharapuram-and-madurantakam-nda-secures-thattanchavady/",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3370415/central-delhi-locked-down-internet-cut-youth-protest-demands-election-chief-quit?utm_source=rss_feed",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3370444/polands-police-detain-76-check-50000-schools-after-2-attacks?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Politico Europe",
+      "url": "https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
@@ -185,25 +200,37 @@
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-08/ty-article/three-killed-in-attacks-on-saudi-airports-as-yemen-fighting-escalates/000001a1-1b32-da49-a5e9-1bba56e10000",
+      "url": "https://www.haaretz.com/middle-east-news/palestinians/2026-10-10/ty-article/report-palestinian-president-abbas-postpones-elections-by-a-further-year/000001a1-25cb-d0ca-a7b7-bfeb2c2e0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3370366/saudi-arabia-says-3-killed-riyadh-airport-yemen-war-expands?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3370407/omani-flydubai-co-pilot-planned-crash-plane-israeli-airport-uae-says?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3370455/palestinian-leader-abbas-postpones-elections-september-2027?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Arab News",
-      "url": "https://www.arabnews.com/world/ex-prince-andrew-gets-300000-for-leaving-windsor-mansion-3005488",
+      "url": "https://www.arabnews.com/world/major-earthquake-hits-panama-injures-at-least-27-3005579",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/world/video/2026/oct/09/gulf-coast-residents-prepare-ahead-of-hurricane-isaias-landfall-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370413/trump-picks-truth-socials-katie-zacharia-white-house-press-secretary?utm_source=rss_feed",
       "reason": "HTTP 403"
     }
   ]
