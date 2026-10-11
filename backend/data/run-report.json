@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-10T16:06:59.835Z",
-  "finishedAt": "2026-10-10T16:12:32.747Z",
+  "startedAt": "2026-10-11T16:34:09.761Z",
+  "finishedAt": "2026-10-11T16:41:10.280Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,14 +17,14 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1054,
-    "totalItems": 1055,
-    "clusters": 927,
+    "rssItems": 995,
+    "totalItems": 994,
+    "clusters": 880,
     "candidates": 12,
-    "articlesRead": 40
+    "articlesRead": 44
   },
   "balance": {
-    "left": 6,
+    "left": 9,
     "centre": 12,
     "right": 6,
     "none": 0
@@ -37,27 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 3,
+      "availableInRegion": 4
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 5
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 47
+      "availableInRegion": 32
     }
   },
   "starvedSides": [],
   "notes": [
     "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"India policy\": 40 articles, 4 from roster outlets, 36 from outlets not in the roster (discovery only, not ingested).",
-    "35 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "20 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -152,32 +150,49 @@
     },
     {
       "layer": "discovery",
+      "source": "GDELT: India policy",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-houthis-renew-warning-to-stay-away-from-saudi-airports-after-deadly/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3370415/central-delhi-locked-down-internet-cut-youth-protest-demands-election-chief-quit?utm_source=rss_feed",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370444/polands-police-detain-76-check-50000-schools-after-2-attacks?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370502/poland-probes-suspected-assassination-attempts-pm-defence-minister?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Politico Europe",
-      "url": "https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-pope-leo-xiv-will-undergo-surgery-to-remove-a-lesion-on-his-lung/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -187,15 +202,15 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
       "source": "Guardian US",
       "url": "https://www.theguardian.com/us-news/video/2026/oct/09/pete-hegseth-execution-fort-hood-mass-killer-livestreamed-video",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370456/christa-pike-out-hospital-and-back-prison-after-surviving-us-execution-attempt?utm_source=rss_feed",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -207,30 +222,6 @@
       "layer": "article",
       "source": "South China Morning Post",
       "url": "https://www.scmp.com/news/world/middle-east/article/3370455/palestinian-leader-abbas-postpones-elections-september-2027?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/major-earthquake-hits-panama-injures-at-least-27-3005579",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/world/video/2026/oct/09/gulf-coast-residents-prepare-ahead-of-hurricane-isaias-landfall-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370413/trump-picks-truth-socials-katie-zacharia-white-house-press-secretary?utm_source=rss_feed",
       "reason": "HTTP 403"
     }
   ]
