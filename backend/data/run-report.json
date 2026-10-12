@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-11T16:34:09.761Z",
-  "finishedAt": "2026-10-11T16:41:10.280Z",
+  "startedAt": "2026-10-12T20:07:39.233Z",
+  "finishedAt": "2026-10-12T20:14:23.074Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 995,
-    "totalItems": 994,
-    "clusters": 880,
+    "rssItems": 989,
+    "totalItems": 990,
+    "clusters": 877,
     "candidates": 12,
     "articlesRead": 44
   },
   "balance": {
-    "left": 9,
-    "centre": 12,
-    "right": 6,
+    "left": 10,
+    "centre": 9,
+    "right": 8,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 4
+      "availableInRegion": 3
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 5
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 32
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "20 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 5 articles, 3 from roster outlets, 2 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,37 +150,31 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: Canada federal",
       "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: European Union",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
-      "reason": "timeout after 20000ms"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-houthis-renew-warning-to-stay-away-from-saudi-airports-after-deadly/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370502/poland-probes-suspected-assassination-attempts-pm-defence-minister?utm_source=rss_feed",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -197,32 +191,50 @@
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/09/pete-hegseth-execution-fort-hood-mass-killer-livestreamed-video",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-putin-does-not-read-truth-social-zelensky-says-russia-broke-energy/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/teenager-shoots-headmaster-teacher-at-french-school?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370456/christa-pike-out-hospital-and-back-prison-after-surviving-us-execution-attempt?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370635/french-police-detain-pupil-14-suspected-shooting-principal-and-teacher?utm_source=rss_feed",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Brussels Signal",
+      "url": "https://brusselssignal.eu/2026/10/nobel-economics-prize-rewards-the-theory-behind-ecb-rate-decisions/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/palestinians/2026-10-10/ty-article/report-palestinian-president-abbas-postpones-elections-by-a-further-year/000001a1-25cb-d0ca-a7b7-bfeb2c2e0000",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-11/ty-article/after-houthi-threat-attack-at-saudi-airport-sparks-fire-saudi-coalition-says/000001a1-2b90-d1b4-a5fb-afdcc7bb0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3370455/palestinian-leader-abbas-postpones-elections-september-2027?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370633/france-supermarkets-say-cyberattack-forced-defrosting-refrigerators-over-200-stores?utm_source=rss_feed",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/blast-kills-teenager-injures-dozens-in-northern-israel?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
