@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-12T20:07:39.233Z",
-  "finishedAt": "2026-10-12T20:14:23.074Z",
+  "startedAt": "2026-10-13T17:57:34.106Z",
+  "finishedAt": "2026-10-13T18:03:05.004Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,47 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 989,
-    "totalItems": 990,
-    "clusters": 877,
+    "rssItems": 1044,
+    "totalItems": 1042,
+    "clusters": 920,
     "candidates": 12,
-    "articlesRead": 44
+    "articlesRead": 46
   },
   "balance": {
-    "left": 10,
-    "centre": 9,
-    "right": 8,
+    "left": 8,
+    "centre": 10,
+    "right": 9,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 15
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 50
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 5 articles, 3 from roster outlets, 2 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "38 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,11 +152,6 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
@@ -166,75 +163,57 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/13/386223/bharat/india-rejects-chinas-objections-to-ladakh-map-reaffirms-ut-is-an-integral-and-inalienable-part-of-bharat/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
-      "reason": "timeout after 20000ms"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3370741/bulgaria-seeks-nato-support-after-black-sea-drone-strikes-hit-merchant-ships-sinking-1?utm_source=rss_feed",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/11/nx-s1-5998027/pope-leo-xiv-to-undergo-lung-surgery-this-week",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-pope-leo-xiv-will-undergo-surgery-to-remove-a-lesion-on-his-lung/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-putin-does-not-read-truth-social-zelensky-says-russia-broke-energy/",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/oct/13/i-will-not-be-silenced-trump-critic-ilhan-omar-defiant-after-home-raided-the-latest",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/teenager-shoots-headmaster-teacher-at-french-school?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/spains-king-felipe-makes-first-visit-to-ceuta-amid-migrant-crisis?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370635/french-police-detain-pupil-14-suspected-shooting-principal-and-teacher?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3370760/spanish-royals-visit-ceuta-back-enclave-amid-border-migration-strain-morocco?utm_source=rss_feed",
       "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Brussels Signal",
-      "url": "https://brusselssignal.eu/2026/10/nobel-economics-prize-rewards-the-theory-behind-ecb-rate-decisions/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-11/ty-article/after-houthi-threat-attack-at-saudi-airport-sparks-fire-saudi-coalition-says/000001a1-2b90-d1b4-a5fb-afdcc7bb0000",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-13/ty-article/.premium/trumps-trap-how-a-saudi-lifeline-could-ignite-fresh-war-with-iran/000001a1-3234-dd6b-aff3-fe7742870000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370633/france-supermarkets-say-cyberattack-forced-defrosting-refrigerators-over-200-stores?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/china/military/article/3370713/could-pakistans-chinese-made-weapons-help-protect-saudi-arabia-houthi-attacks?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/blast-kills-teenager-injures-dozens-in-northern-israel?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+      "reason": "timeout after 20000ms"
     }
   ]
 }
