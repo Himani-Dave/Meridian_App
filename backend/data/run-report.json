@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-13T17:57:34.106Z",
-  "finishedAt": "2026-10-13T18:03:05.004Z",
+  "startedAt": "2026-10-14T15:43:14.806Z",
+  "finishedAt": "2026-10-14T15:47:57.511Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,47 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1044,
-    "totalItems": 1042,
-    "clusters": 920,
+    "rssItems": 1085,
+    "totalItems": 1082,
+    "clusters": 974,
     "candidates": 12,
-    "articlesRead": 46
+    "articlesRead": 42
   },
   "balance": {
     "left": 8,
     "centre": 10,
-    "right": 9,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 15
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 50
+      "availableInRegion": 48
     }
   },
   "starvedSides": [],
   "notes": [
     "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "38 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "36 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -156,6 +155,11 @@
       "reason": "HTTP 429"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "fetch failed"
+    },
+    {
       "layer": "article",
       "source": "Haaretz",
       "url": "https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000",
@@ -163,57 +167,51 @@
     },
     {
       "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/13/386223/bharat/india-rejects-chinas-objections-to-ladakh-map-reaffirms-ut-is-an-integral-and-inalienable-part-of-bharat/",
-      "reason": "HTTP 403"
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/trump-plans-for-massive-resource-exploration-in-greenland?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370741/bulgaria-seeks-nato-support-after-black-sea-drone-strikes-hit-merchant-ships-sinking-1?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370906/trump-says-massive-oil-gas-and-mineral-exploration-begin-greenland?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/oct/13/i-will-not-be-silenced-trump-critic-ilhan-omar-defiant-after-home-raided-the-latest",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/13/trump-kimberly-guilfoyle-ambassador-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-trumps-ambassador-to-greece-kimberly-guilfoyle-resigns/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/spains-king-felipe-makes-first-visit-to-ceuta-amid-migrant-crisis?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/what-we-know-about-openai-engineer-arrested-over-office-spying?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370760/spanish-royals-visit-ceuta-back-enclave-amid-border-migration-strain-morocco?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3370911/ukrainian-accused-nord-stream-pipeline-sabotage-goes-trial-germany?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-13/ty-article/.premium/trumps-trap-how-a-saudi-lifeline-could-ignite-fresh-war-with-iran/000001a1-3234-dd6b-aff3-fe7742870000",
+      "url": "https://www.haaretz.com/west-bank/2026-10-14/ty-article/.premium/reports-israeli-settlers-burn-mosque-car-in-west-bank-palestinian-village/000001a1-392a-d610-a5bb-3f3b75980000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/military/article/3370713/could-pakistans-chinese-made-weapons-help-protect-saudi-arabia-houthi-attacks?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-      "reason": "timeout after 20000ms"
     }
   ]
 }
