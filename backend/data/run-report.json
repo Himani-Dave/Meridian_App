@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-14T15:43:14.806Z",
-  "finishedAt": "2026-10-14T15:47:57.511Z",
+  "startedAt": "2026-10-15T15:30:29.979Z",
+  "finishedAt": "2026-10-15T15:36:36.961Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1085,
-    "totalItems": 1082,
-    "clusters": 974,
+    "rssItems": 1099,
+    "totalItems": 1096,
+    "clusters": 998,
     "candidates": 12,
-    "articlesRead": 42
+    "articlesRead": 50
   },
   "balance": {
-    "left": 8,
+    "left": 6,
     "centre": 10,
-    "right": 6,
+    "right": 5,
     "none": 0
   },
   "regionFill": {
@@ -48,13 +48,12 @@
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 48
+      "availableInRegion": 37
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "36 multi-outlet clusters were left out by --max-stories 12.",
+    "25 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
     "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
@@ -151,66 +150,83 @@
     },
     {
       "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "fetch failed"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-12/ty-article/u-k-pm-burnham-irans-irgc-likely-behind-raf-fairford-incident/000001a1-30d4-dbe9-ade9-72deccca0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/trump-plans-for-massive-resource-exploration-in-greenland?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3370906/trump-says-massive-oil-gas-and-mineral-exploration-begin-greenland?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3371005/us-born-bollywood-actor-imran-khan-told-leave-india-over-political-protest-local-media?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/13/trump-kimberly-guilfoyle-ambassador-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
+      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-trumps-ambassador-to-greece-kimberly-guilfoyle-resigns/",
+      "url": "https://www.theglobeandmail.com/world/video-pope-leo-xiv-arrives-at-hospital-in-rome/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/what-we-know-about-openai-engineer-arrested-over-office-spying?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3370911/ukrainian-accused-nord-stream-pipeline-sabotage-goes-trial-germany?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-14/ty-article/.premium/reports-israeli-settlers-burn-mosque-car-in-west-bank-palestinian-village/000001a1-392a-d610-a5bb-3f3b75980000",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-15/ty-article/sally-rooneys-books-no-longer-sold-in-u-k-over-banned-pro-palestinian-group/000001a1-3e92-de23-a5fb-be97c1030000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-questions-swirl-about-new-white-house-press-secretary-katie-zacharias/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-new-white-house-press-secretarys-abrupt-debut/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
