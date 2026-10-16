@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-15T15:30:29.979Z",
-  "finishedAt": "2026-10-15T15:36:36.961Z",
+  "startedAt": "2026-10-16T15:14:34.966Z",
+  "finishedAt": "2026-10-16T15:21:00.570Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1099,
-    "totalItems": 1096,
-    "clusters": 998,
+    "rssItems": 1106,
+    "totalItems": 1111,
+    "clusters": 1009,
     "candidates": 12,
-    "articlesRead": 50
+    "articlesRead": 38
   },
   "balance": {
-    "left": 6,
-    "centre": 10,
-    "right": 5,
+    "left": 10,
+    "centre": 12,
+    "right": 3,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 4
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 6
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 37
+      "availableInRegion": 36
     }
   },
   "starvedSides": [],
   "notes": [
-    "25 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"India policy\": 100 articles, 10 from roster outlets, 90 from outlets not in the roster (discovery only, not ingested).",
+    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,12 +151,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
@@ -165,8 +160,20 @@
     },
     {
       "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/india-police-detain-cockroach-party-founder-ahead-of-protest?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3371005/us-born-bollywood-actor-imran-khan-told-leave-india-over-political-protest-local-media?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/content/press-releases-ani/beyond-generation-re-dialogues-2026-puts-india-s-power-distribution-and-infrastructure-challenges-in-focus-126101600006_1.html",
       "reason": "HTTP 403"
     },
     {
@@ -183,27 +190,57 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/long-delayed-china-north-korea-bridge-officially-opens?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3371000/china-keen-strengthen-north-korea-trade-ties-new-yalu-river-bridge-opening?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
       "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-pak-school-collapse-sv?traffic_source=rss",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/families-of-children-killed-in-pakistan-school-roof-collapse-demand-justice-3006658",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-16/ty-article/.premium/palestinians-report-six-wounded-in-settler-attacks-on-west-bank-olive-harvesters/000001a1-43b3-dafe-a5b3-4bb32ceb0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-16/ty-article/.premium/these-west-bank-settlers-fight-olive-harvest-theft-trying-to-aid-palestinians/000001a1-438c-de23-a5fb-df9d650f0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-14/ty-article/.premium/reports-israeli-settlers-burn-mosque-car-in-west-bank-palestinian-village/000001a1-392a-d610-a5bb-3f3b75980000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/jerusalem-daily-israeli-settlers-burn-palestinian-olive-groves?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "New York Post",
+      "url": "https://nypost.com/video/smoke-rises-from-yemen-presidential-palace-after-houthi-attack/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-15/ty-article/houthis-attack-yemens-presidential-palace-government-officials-say/000001a1-402e-ddcc-a3fd-cb2e78aa0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6004838/sally-rooney-books-uk-palestinian-action-support",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
@@ -213,20 +250,8 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/tech/big-tech/article/3371010/tsmc-confirms-talks-elon-musk-over-texas-terafab-insists-operational-control?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-questions-swirl-about-new-white-house-press-secretary-katie-zacharias/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-new-white-house-press-secretarys-abrupt-debut/",
+      "url": "https://www.theglobeandmail.com/world/video-vigil-held-for-victims-after-teen-shooter-kills-four-at-oregon-school/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
