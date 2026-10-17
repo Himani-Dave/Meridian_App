@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-16T15:14:34.966Z",
-  "finishedAt": "2026-10-16T15:21:00.570Z",
+  "startedAt": "2026-10-17T14:04:38.965Z",
+  "finishedAt": "2026-10-17T14:10:44.210Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,48 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1106,
-    "totalItems": 1111,
-    "clusters": 1009,
+    "rssItems": 1039,
+    "totalItems": 1070,
+    "clusters": 973,
     "candidates": 12,
-    "articlesRead": 38
+    "articlesRead": 32
   },
   "balance": {
-    "left": 10,
-    "centre": 12,
-    "right": 3,
+    "left": 7,
+    "centre": 10,
+    "right": 5,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 4
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 15
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 36
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"India policy\": 100 articles, 10 from roster outlets, 90 from outlets not in the roster (discovery only, not ingested).",
-    "24 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 100 articles, 18 from roster outlets, 82 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -149,28 +152,6 @@
       "reason": "no feed url in the roster"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/india-police-detain-cockroach-party-founder-ahead-of-protest?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3371196/indian-police-detain-cockroach-movement-leader-ahead-new-delhi-protest?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
       "layer": "article",
       "source": "Business Standard",
       "url": "https://www.business-standard.com/content/press-releases-ani/beyond-generation-re-dialogues-2026-puts-india-s-power-distribution-and-infrastructure-challenges-in-focus-126101600006_1.html",
@@ -178,32 +159,38 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-pope-leo-xiv-arrives-at-hospital-in-rome/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/15/nx-s1-6003437/school-roof-collapse-pakistan",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/families-of-children-killed-in-pakistan-school-roof-collapse-demand-justice-3006658",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-16/ty-article/.premium/palestinians-report-six-wounded-in-settler-attacks-on-west-bank-olive-harvesters/000001a1-43b3-dafe-a5b3-4bb32ceb0000",
+      "url": "https://www.haaretz.com/middle-east-news/egypt/2026-10-17/ty-article/.premium/egypts-sisi-says-his-presidency-will-end-in-2030-rules-out-constitution-change/000001a1-4981-d358-a7b5-fbbb56760000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egypts-sisi-says-his-presidency-will-end-2030",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/16/katie-zacharia-admits-she-never-passed-legal-exams-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-17/ty-article/.premium/settlers-attack-european-diplomats-during-palestinians-west-bank-olive-harvest/000001a1-49f0-d54e-adef-d9f0da3c0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -214,27 +201,27 @@
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-14/ty-article/.premium/reports-israeli-settlers-burn-mosque-car-in-west-bank-palestinian-village/000001a1-392a-d610-a5bb-3f3b75980000",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-vigil-held-for-victims-after-teen-shooter-kills-four-at-oregon-school/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/17/401139/world/north-america/usa/oregon-school-shooting-3-children-teacher-killed-as-gunman-opens-fire-students-evacuated-as-gun-violence-soars-in-us/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/jerusalem-daily-israeli-settlers-burn-palestinian-olive-groves?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "New York Post",
-      "url": "https://nypost.com/video/smoke-rises-from-yemen-presidential-palace-after-houthi-attack/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-15/ty-article/houthis-attack-yemens-presidential-palace-government-officials-say/000001a1-402e-ddcc-a3fd-cb2e78aa0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371216/oregon-teen-gunman-was-tackled-heroic-teacher-then-shot-parent-students?utm_source=rss_feed",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -250,9 +237,33 @@
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-vigil-held-for-victims-after-teen-shooter-kills-four-at-oregon-school/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/sally-rooneys-books-pulled-from-uk-over-palestine-action-support-2?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-16/ty-article/houthis-strike-yemens-presidential-palace-saudi-arabia-reports-attacks/000001a1-45ca-d7d5-a9ab-45cbca900000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-15/ty-article/houthis-attack-yemens-presidential-palace-government-officials-say/000001a1-402e-ddcc-a3fd-cb2e78aa0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/zelensky-says-trump-waiving-sanctions-rewards-putin-warns-moscow-wants-blackout-in-ukraine-3006837-3006839",
+      "reason": "HTTP 403"
     }
   ]
 }
