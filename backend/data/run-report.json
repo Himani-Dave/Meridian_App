@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-17T14:04:38.965Z",
-  "finishedAt": "2026-10-17T14:10:44.210Z",
+  "startedAt": "2026-10-18T14:19:40.856Z",
+  "finishedAt": "2026-10-18T14:27:18.744Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1039,
-    "totalItems": 1070,
-    "clusters": 973,
+    "rssItems": 960,
+    "totalItems": 966,
+    "clusters": 887,
     "candidates": 12,
-    "articlesRead": 32
+    "articlesRead": 39
   },
   "balance": {
-    "left": 7,
-    "centre": 10,
-    "right": 5,
+    "left": 9,
+    "centre": 9,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
@@ -37,28 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 3
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 15
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 24
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 18 from roster outlets, 82 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"India policy\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
+    "12 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -152,34 +149,38 @@
       "reason": "no feed url in the roster"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "HTTP 429"
+    },
+    {
       "layer": "article",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/content/press-releases-ani/beyond-generation-re-dialogues-2026-puts-india-s-power-distribution-and-infrastructure-challenges-in-focus-126101600006_1.html",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/18/413640/world/north-america/canada/canada-deadly-explosion-at-alberta-military-base-kills-several-dozens-injured-hospitals-flooded-amid-emergency-alert/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3371255/french-protesters-take-streets-over-rising-prices-social-strain?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3371274/cockroach-party-founder-released-indian-police?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/egypt/2026-10-17/ty-article/.premium/egypts-sisi-says-his-presidency-will-end-in-2030-rules-out-constitution-change/000001a1-4981-d358-a7b5-fbbb56760000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Middle East Eye",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/egypts-sisi-says-his-presidency-will-end-2030",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/16/katie-zacharia-admits-she-never-passed-legal-exams-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/10/durga-puja-pandal-stampede-kolkata-reasons-details/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -189,81 +190,27 @@
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-17/ty-article/.premium/settlers-attack-european-diplomats-during-palestinians-west-bank-olive-harvest/000001a1-49f0-d54e-adef-d9f0da3c0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-16/ty-article/.premium/these-west-bank-settlers-fight-olive-harvest-theft-trying-to-aid-palestinians/000001a1-438c-de23-a5fb-df9d650f0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-vigil-held-for-victims-after-teen-shooter-kills-four-at-oregon-school/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/17/401139/world/north-america/usa/oregon-school-shooting-3-children-teacher-killed-as-gunman-opens-fire-students-evacuated-as-gun-violence-soars-in-us/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371216/oregon-teen-gunman-was-tackled-heroic-teacher-then-shot-parent-students?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/16/nx-s1-6004838/sally-rooney-books-uk-palestinian-action-support",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-15/ty-article/sally-rooneys-books-no-longer-sold-in-u-k-over-banned-pro-palestinian-group/000001a1-3e92-de23-a5fb-be97c1030000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/sally-rooneys-books-pulled-from-uk-over-palestine-action-support-2?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-16/ty-article/houthis-strike-yemens-presidential-palace-saudi-arabia-reports-attacks/000001a1-45ca-d7d5-a9ab-45cbca900000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-15/ty-article/houthis-attack-yemens-presidential-palace-government-officials-say/000001a1-402e-ddcc-a3fd-cb2e78aa0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/zelensky-says-trump-waiving-sanctions-rewards-putin-warns-moscow-wants-blackout-in-ukraine-3006837-3006839",
-      "reason": "HTTP 403"
     }
   ]
 }
