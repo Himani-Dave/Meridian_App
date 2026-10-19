@@ -1,6 +1,6 @@
 # Feed validation report
 
-Run: 2026-10-12T21:31:38.441Z
+Run: 2026-10-19T18:57:37.961Z
 Verified: 39/56
 
 ## Balance by lean
@@ -43,7 +43,7 @@ Verified: 39/56
   - tried: `https://swarajyamag.com/feed`
 - **The Times of India** (unrated) — no feed url in roster
   - tried: ``
-- **Times of Israel** (centre) — refused by robots.txt — the ingest pipeline will refuse it too
+- **Times of Israel** (centre) — HTTP 403
   - tried: `https://www.timesofisrael.com/feed/`
 - **Xinhua** (state) — no feed url in roster
   - tried: `(none)`
