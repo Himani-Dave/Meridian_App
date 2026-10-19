@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-18T14:19:40.856Z",
-  "finishedAt": "2026-10-18T14:27:18.744Z",
+  "startedAt": "2026-10-19T17:20:56.392Z",
+  "finishedAt": "2026-10-19T17:27:14.046Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,28 +17,28 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 960,
-    "totalItems": 966,
-    "clusters": 887,
+    "rssItems": 973,
+    "totalItems": 967,
+    "clusters": 877,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 31
   },
   "balance": {
-    "left": 9,
+    "left": 8,
     "centre": 9,
-    "right": 6,
+    "right": 5,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 3
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
@@ -48,14 +48,13 @@
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 24
+      "availableInRegion": 47
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"India policy\": 100 articles, 7 from roster outlets, 93 from outlets not in the roster (discovery only, not ingested).",
-    "12 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "35 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -155,26 +154,19 @@
     },
     {
       "layer": "discovery",
+      "source": "GDELT: India policy",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/18/413640/world/north-america/canada/canada-deadly-explosion-at-alberta-military-base-kills-several-dozens-injured-hospitals-flooded-amid-emergency-alert/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3371274/cockroach-party-founder-released-indian-police?utm_source=rss_feed",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -184,33 +176,75 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
-      "reason": "timeout after 20000ms"
+      "source": "Brussels Signal",
+      "url": "https://brusselssignal.eu/2026/10/french-prime-minister-orders-localised-curfews-as-state-of-emergency-stays-on-the-table/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery",
-      "reason": "timeout after 20000ms"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-18/ty-article/.premium/tel-aviv-vienna-flight-lands-in-bulgaria-after-suspected-bomb-threat/000001a1-506c-d25a-a7ff-777ce6420000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3371273/albanian-police-fire-rubber-bullets-student-protesters-call-pm-quit?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3371337/bomb-threat-forces-austrian-airlines-flight-tel-aviv-divert-bulgaria?utm_source=rss_feed",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-18/ty-article/eu-condemns-settler-attack-on-diplomats-demands-accountability-in-west-bank/000001a1-4ee1-d9e4-a1bd-5fe9526e0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-17/ty-article/.premium/settlers-attack-european-diplomats-during-palestinians-west-bank-olive-harvest/000001a1-49f0-d54e-adef-d9f0da3c0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+      "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
       "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/australian-member-of-parliament-critically-injured-after-being-hit-by-a-car?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/gaza-faces-worsening-hunger-as-wfp-announces-food-aid-cuts?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3371416/houthi-attack-kills-53-yemen-government-training-camp?utm_source=rss_feed",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3371417/kenyan-starvation-cult-leader-found-guilty-murder-191-children-1-adult?utm_source=rss_feed",
+      "reason": "HTTP 403"
     }
   ]
 }
