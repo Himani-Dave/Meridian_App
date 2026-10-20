@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-19T17:20:56.392Z",
-  "finishedAt": "2026-10-19T17:27:14.046Z",
+  "startedAt": "2026-10-20T15:33:54.050Z",
+  "finishedAt": "2026-10-20T15:39:39.328Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 973,
-    "totalItems": 967,
-    "clusters": 877,
+    "rssItems": 1038,
+    "totalItems": 1045,
+    "clusters": 961,
     "candidates": 12,
-    "articlesRead": 31
+    "articlesRead": 32
   },
   "balance": {
-    "left": 8,
-    "centre": 9,
-    "right": 5,
+    "left": 6,
+    "centre": 11,
+    "right": 4,
     "none": 0
   },
   "regionFill": {
@@ -37,24 +37,24 @@
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 3,
+      "availableInRegion": 5
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 6
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 47
+      "availableInRegion": 41
     }
   },
   "starvedSides": [],
   "notes": [
-    "35 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
+    "29 multi-outlet clusters were left out by --max-stories 12."
   ],
   "failures": [
     {
@@ -154,55 +154,32 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/10/durga-puja-pandal-stampede-kolkata-reasons-details/",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Brussels Signal",
-      "url": "https://brusselssignal.eu/2026/10/french-prime-minister-orders-localised-curfews-as-state-of-emergency-stays-on-the-table/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-18/ty-article/.premium/tel-aviv-vienna-flight-lands-in-bulgaria-after-suspected-bomb-threat/000001a1-506c-d25a-a7ff-777ce6420000",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/canadian/above-all-albertans-chose-canada-carney-hails-decisive-referendum-result/78010",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3371337/bomb-threat-forces-austrian-airlines-flight-tel-aviv-divert-bulgaria?utm_source=rss_feed",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
       "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-18/ty-article/eu-condemns-settler-attack-on-diplomats-demands-accountability-in-west-bank/000001a1-4ee1-d9e4-a1bd-5fe9526e0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-17/ty-article/.premium/settlers-attack-european-diplomats-during-palestinians-west-bank-olive-harvest/000001a1-49f0-d54e-adef-d9f0da3c0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -212,39 +189,15 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/australian-member-of-parliament-critically-injured-after-being-hit-by-a-car?traffic_source=rss",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-driver-arrested-after-car-hits-australian-lawmaker/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
-      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/gaza-faces-worsening-hunger-as-wfp-announces-food-aid-cuts?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/australian-mp-helen-haines-remains-in-critical-condition-after-car-attack-2?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3371416/houthi-attack-kills-53-yemen-government-training-camp?utm_source=rss_feed",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3371417/kenyan-starvation-cult-leader-found-guilty-murder-191-children-1-adult?utm_source=rss_feed",
-      "reason": "HTTP 403"
     }
   ]
 }
