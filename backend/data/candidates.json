@@ -1,864 +1,40 @@
 [
   {
-    "id": "c74xtym",
-    "regions": [
-      "Canada",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 10,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "canada",
-          "carney",
-          "alberta",
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-19T15:09:00.000Z",
-    "lastSeen": "2026-10-20T15:22:18.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "NPR",
-      "The Hub",
-      "Deutsche Welle",
-      "Brussels Signal",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3632482393612837,
-      "max": 0.4853998103721086,
-      "pairs": 5,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
-        "u": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
-        "publishedAt": "2026-10-20T06:02:40.000Z",
-        "retrievedAt": "2026-10-20T15:34:00.707Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta voters decide whether to take a step toward separating from Canada",
-        "u": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-        "publishedAt": "2026-10-19T22:29:57.000Z",
-        "retrievedAt": "2026-10-20T15:34:00.707Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "The Hub",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "The real test of Canadian unity comes after Alberta’s referendum",
-        "u": "https://thehub.ca/2026/10/19/the-real-test-of-canadian-unity-comes-after-albertas-referendum/",
-        "publishedAt": "2026-10-19T17:11:24.000Z",
-        "retrievedAt": "2026-10-20T15:34:14.828Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Opting out with full compensation is huge,” Morton said about Question 8.",
-          "“The goal isn’t to just win an election,” he said.",
-          "“The question is in the long run,” said Mintz."
-        ],
-        "figures": [],
-        "wordsRead": 2185
-      },
-      {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada: Alberta votes on holding independence referendum",
-        "u": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-19T15:09:00.000Z",
-        "retrievedAt": "2026-10-20T15:34:30.895Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"Canada has an imbalanced system which feeds the central population and government at the expense of the outlying producing provinces such as Alberta,\" said Cory Morgan, founder of a pro-separation …",
-          "The renowned economist and central banker often argued that the separatist cause might be guilty of overlooking matters more significant than dollars and drilling permits.",
-          "It's not about gross and net, gives …"
-        ],
-        "figures": [],
-        "wordsRead": 635
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta votes to stay in Canada as independence push fails",
-        "u": "https://brusselssignal.eu/2026/10/alberta-votes-to-stay-in-canada-as-independence-push-fails/",
-        "publishedAt": "2026-10-20T09:34:43.000Z",
-        "retrievedAt": "2026-10-20T15:34:35.517Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Albertans have voted for a stronger Alberta in a united Canada,” she wrote on social media.",
-          "The vote followed a court ruling in December 2025 that struck down an earlier citizen-led question on independence as unconstitutional, after First Nations groups said they had not been consulted.",
-          "Preliminary figures from Elections Alberta gave about 76 per cent support for staying in Canada against 24 per cent for pursuing a …"
-        ],
-        "figures": [
-          {
-            "value": "76 per cent",
-            "context": "liminary figures from Elections Alberta gave about 76 per cent support for staying in Canada against 24 per cent"
-          },
-          {
-            "value": "24 per cent",
-            "context": "76 per cent support for staying in Canada against 24 per cent for pursuing a separation vote. Counting was stil"
-          }
-        ],
-        "wordsRead": 683
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta rejects a move toward independence from Canada in a victory for Carney",
-        "u": "https://www.arabnews.com/world/alberta-rejects-a-move-toward-independence-from-canada-in-a-victory-for-carney-3007355",
-        "publishedAt": "2026-10-20T15:22:18.000Z",
-        "retrievedAt": "2026-10-20T15:34:45.163Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It is fair to say that at least a quarter of Albertans feel that Alberta needs to be treated better,” said Keith Wilson, a leader of the separatist movement.",
-          "“We are a solid country that’s united from coast to coast to coast,” Thomas Lukaszuk, a former Alberta deputy premier who led the Forever Canadian campaign against separation, told supporters.",
-          "“We’re not going anywhere,” said Jeff Rath of the Alberta …"
-        ],
-        "figures": [
-          {
-            "value": "1.8 million",
-            "context": "lly Canadians around their country. With more than 1.8 million votes counted so far in 81 percent of areas and …"
-          },
-          {
-            "value": "81 percent",
-            "context": "With more than 1.8 million votes counted so far in 81 percent of areas and locations, 75 percent of voters …"
-          },
-          {
-            "value": "75 percent",
-            "context": "unted so far in 81 percent of areas and locations, 75 percent of voters supported remaining in Canada, while 25"
-          },
-          {
-            "value": "25 percent",
-            "context": "ent of voters supported remaining in Canada, while 25 percent backed beginning a process toward separation, acc"
-          }
-        ],
-        "wordsRead": 696
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
-            "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Alberta voters decide whether to take a step toward separating from Canada",
-            "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 3,
-            "headline": "Canada: Alberta votes on holding independence referendum",
-            "url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Hub",
-            "outletId": "thehub-ca",
-            "lean": "lean_right",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "The real test of Canadian unity comes after Alberta’s referendum",
-            "url": "https://thehub.ca/2026/10/19/the-real-test-of-canadian-unity-comes-after-albertas-referendum/"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 4,
-            "headline": "Alberta votes to stay in Canada as independence push fails",
-            "url": "https://brusselssignal.eu/2026/10/alberta-votes-to-stay-in-canada-as-independence-push-fails/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 5,
-        "headline": "Alberta rejects a move toward independence from Canada in a victory for Carney",
-        "url": "https://www.arabnews.com/world/alberta-rejects-a-move-toward-independence-from-canada-in-a-victory-for-carney-3007355",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Alberta",
-        "Canada",
-        "Canadian",
-        "Carney"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Alberta",
-            "Canada",
-            "Canadian",
-            "Carney"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1cgvkgn",
-    "regions": [
-      "Canada",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 8,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "canada",
-          "carney",
-          "provincial",
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-20T06:36:28.000Z",
-    "lastSeen": "2026-10-20T12:32:52.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "Western Standard",
-      "Euronews"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.49581176151430373,
-      "max": 0.49581176151430373,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Western Standard",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "‘Above all, Albertans chose Canada’: Carney hails decisive referendum result",
-        "u": "https://www.westernstandard.news/canadian/above-all-albertans-chose-canada-carney-hails-decisive-referendum-result/78010",
-        "publishedAt": "2026-10-20T12:32:52.000Z",
-        "retrievedAt": "2026-10-20T15:34:16.478Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
-        "u": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum",
-        "publishedAt": "2026-10-20T06:36:28.000Z",
-        "retrievedAt": "2026-10-20T15:34:26.335Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Thomas Lukaszuk, a former deputy premier who led the Forever Canadian campaign against separation, told supporters: \"We are a solid country that’s united from coast to coast to coast.\"",
-          "With more than one million votes counted …"
-        ],
-        "figures": [
-          {
-            "value": "77 per cent",
-            "context": "Tuesday. With more than one million votes counted, 77 per cent backed remaining in Canada, according to unoffici"
-          }
-        ],
-        "wordsRead": 367
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "‘Albertans chose Canada’: Carney hails vote to reject referendum",
-            "url": "https://www.euronews.com/2026/10/20/albertans-chose-canada-carney-hails-vote-to-reject-referendum"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Western Standard",
-            "outletId": "westernstd",
-            "lean": "right",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "‘Above all, Albertans chose Canada’: Carney hails decisive referendum result",
-            "url": "https://www.westernstandard.news/canadian/above-all-albertans-chose-canada-carney-hails-decisive-referendum-result/78010"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Albertans",
-        "Canada",
-        "Carney",
-        "Above"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1nwiu3u",
-    "regions": [
-      "Canada",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 3,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "alberta"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-20T09:47:20.000Z",
-    "lastSeen": "2026-10-20T14:42:47.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "Euronews",
-      "Al Jazeera"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.4086438438882753,
-      "max": 0.4086438438882753,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta rejects independence referendum plan, but separatists vow to keep fighting",
-        "u": "https://www.euronews.com/video/2026/10/20/alberta-rejects-independence-referendum-plan-but-separatists-vow-to-keep-fighting",
-        "publishedAt": "2026-10-20T09:47:20.000Z",
-        "retrievedAt": "2026-10-20T15:34:26.335Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“We've already won,” said separatist leader Jeffrey Rath, arguing that the campaign had …"
-        ],
-        "figures": [],
-        "wordsRead": 138
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alberta rejects separation referendum: What’s next for Canadian province?",
-        "u": "https://www.aljazeera.com/news/2026/10/20/alberta-rejects-separation-referendum-whats-next-for-canadian-province?traffic_source=rss",
-        "publishedAt": "2026-10-20T14:42:47.000Z",
-        "retrievedAt": "2026-10-20T15:34:42.517Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Last week, he told a political rally in the US state of Arizona that Canada will “end up being the 51st state, because it’s the only way it works”.",
-          "“There are some outside our borders who are working to break us so they can own us,” he said.",
-          "Prime Minister Carney, who grew up in the region, said “Albertans made a clear choice” in a statement he made early on Tuesday."
-        ],
-        "figures": [
-          {
-            "value": "48 percent",
-            "context": "esults of Monday’s vote late on the same day after 48 percent of the ballots counted showed overwhelming suppor"
-          },
-          {
-            "value": "76 percent",
-            "context": "d overwhelming support for the “remain” side, with 76 percent opting to stay with Canada. The result marks a ma"
-          }
-        ],
-        "wordsRead": 778
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "Alberta rejects independence referendum plan, but separatists vow to keep fighting",
-            "url": "https://www.euronews.com/video/2026/10/20/alberta-rejects-independence-referendum-plan-but-separatists-vow-to-keep-fighting"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Alberta rejects separation referendum: What’s next for Canadian province?",
-        "url": "https://www.aljazeera.com/news/2026/10/20/alberta-rejects-separation-referendum-whats-next-for-canadian-province?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Alberta",
-        "Canadian",
-        "What"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1unfgo0",
+    "id": "cwtro6j",
     "regions": [
       "India",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
-        "India": 7,
+        "Canada": 0,
+        "India": 5,
         "Europe": 0
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "India": [
-          "india",
-          "kolkata",
+          "new delhi",
+          "delhi",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-18T07:28:16.000Z",
-    "lastSeen": "2026-10-18T16:57:25.000Z",
+    "firstSeen": "2026-10-21T08:07:17.000Z",
+    "lastSeen": "2026-10-21T13:30:30.000Z",
     "outletCount": 2,
     "outlets": [
-      "Globe and Mail",
-      "Scroll.in"
+      "Scroll.in",
+      "Organiser"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5496693529727448,
-      "max": 0.5496693529727448,
+      "min": 0.635138521828542,
+      "max": 0.635138521828542,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Stampede at Hindu festival in India kills 19",
-        "u": "https://www.theglobeandmail.com/world/article-india-stampede-hindu-festival/",
-        "publishedAt": "2026-10-18T16:57:25.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A stampede during a major Hindu festival in eastern India’s West Bengal state has left at least 19 people dead, officials said Sunday.",
-          "According to police, some worshippers …"
-        ],
-        "figures": [],
-        "wordsRead": 287
-      },
       {
         "n": "Scroll.in",
         "b": "left",
@@ -866,17 +42,30 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Kolkata: Durga Puja stampede kills 19",
-        "u": "https://scroll.in/latest/1096481/kolkata-durga-puja-stampede-kills-19?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-10-18T07:28:16.000Z",
-        "retrievedAt": "2026-10-20T15:34:18.117Z",
+        "t": "Punjab: CBI takes over probe into killing of anti-drug activist Parvinder Singh Jhota",
+        "u": "https://scroll.in/latest/1096549/punjab-cbi-takes-over-probe-into-killing-of-anti-drug-activist-parvinder-singh-jhota?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-21T08:07:17.000Z",
+        "retrievedAt": "2026-10-21T15:50:46.847Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "At least 19 persons, including women and children, were killed and 25 injured in a stampede at a Durga Puja pandal in north Kolkata on Saturday evening, Chief Minister Suvendu …",
-          "Prohibitory orders under Section 163 of the Bharatiya Nagarik Suraksha Sanhita were imposed in parts of Bowbazar on Sunday until …"
+          "Jhota was shot dead inside a medical store in Mansa district on October 13.",
+          "On Tuesday, Chief Minister Bhagwant Mann said that the Punjab government would …"
         ],
         "figures": [],
-        "wordsRead": 518
+        "wordsRead": 260
+      },
+      {
+        "n": "Organiser",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Murder case of anti-drug activist Parvinder Singh: CBI takes over probe, files fresh FIR; Post-mortem to be done at PGI",
+        "u": "https://organiser.org/2026/10/21/418900/bharat/punjab/murder-case-of-anti-drug-activist-parvinder-singh-cbi-takes-over-probe-files-fresh-fir-post-mortem-to-be-done-at-pgi/",
+        "publishedAt": "2026-10-21T13:30:30.000Z",
+        "retrievedAt": "2026-10-21T15:50:55.852Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -889,9 +78,9 @@
             "outletId": "scroll-in",
             "lean": "left",
             "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Kolkata: Durga Puja stampede kills 19",
-            "url": "https://scroll.in/latest/1096481/kolkata-durga-puja-stampede-kills-19?utm_source=rss&utm_medium=public"
+            "evidenceIndex": 0,
+            "headline": "Punjab: CBI takes over probe into killing of anti-drug activist Parvinder Singh Jhota",
+            "url": "https://scroll.in/latest/1096549/punjab-cbi-takes-over-probe-into-killing-of-anti-drug-activist-parvinder-singh-jhota?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -900,25 +89,25 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Stampede at Hindu festival in India kills 19",
-            "url": "https://www.theglobeandmail.com/world/article-india-stampede-hindu-festival/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Organiser",
+            "outletId": "organiser",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Murder case of anti-drug activist Parvinder Singh: CBI takes over probe, files fresh FIR; Post-mortem to be done at PGI",
+            "url": "https://organiser.org/2026/10/21/418900/bharat/punjab/murder-case-of-anti-drug-activist-parvinder-singh-cbi-takes-over-probe-files-fresh-fir-post-mortem-to-be-done-at-pgi/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
@@ -930,11 +119,11 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Durga Puja",
-        "Stampede",
-        "Kolkata",
-        "Hindu",
-        "India"
+        "Parvinder Singh Jhota",
+        "Parvinder Singh",
+        "Post-mortem",
+        "Punjab",
+        "Murder"
       ],
       "attempts": [
         {
@@ -1020,7 +209,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1u2n32i",
+    "id": "cityku5",
     "regions": [
       "India",
       "Global"
@@ -1028,36 +217,345 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 7,
-        "Europe": 1
+        "India": 8,
+        "Europe": 0
       },
       "matched": {
         "India": [
-          "india",
           "new delhi",
-          "delhi"
-        ],
-        "Europe": [
+          "modi",
+          "delhi",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-19T12:31:00.000Z",
-    "lastSeen": "2026-10-20T12:37:06.000Z",
+    "firstSeen": "2026-10-20T11:09:49.000Z",
+    "lastSeen": "2026-10-21T12:10:18.000Z",
     "outletCount": 2,
     "outlets": [
-      "Deutsche Welle",
-      "Al Jazeera"
+      "Scroll.in",
+      "Organiser"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.4565670039060517,
-      "max": 0.4565670039060517,
+      "min": 0.3615626450482349,
+      "max": 0.3615626450482349,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "HC sets aside order directing details of foreign travel by Modi, Manmohan Singh be made public",
+        "u": "https://scroll.in/latest/1096537/hc-sets-aside-order-directing-details-of-foreign-travel-by-modi-manmohan-singh-be-made-public?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-20T11:09:49.000Z",
+        "retrievedAt": "2026-10-21T15:50:46.847Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "However, the court said that the mere fact that public funds had been spent on foreign travel did not, by itself, “justify …"
+        ],
+        "figures": [],
+        "wordsRead": 229
+      },
+      {
+        "n": "Organiser",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Delhi HC quashes CIC order directing IAF to disclose PMs’ foreign travel records",
+        "u": "https://organiser.org/2026/10/21/418889/law/delhi-hc-quashes-cic-order-directing-iaf-to-disclose-pms-foreign-travel-records/",
+        "publishedAt": "2026-10-21T12:10:18.000Z",
+        "retrievedAt": "2026-10-21T15:50:55.852Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The mere fact that public funds have been expended on the foreign visits of the Hon’ble Prime Minister does not, by itself, justify disclosure,” the Court observed in paragraph 22 …",
+          "“This Court or the CIC cannot sit in appeal over …"
+        ],
+        "figures": [],
+        "wordsRead": 411
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "HC sets aside order directing details of foreign travel by Modi, Manmohan Singh be made public",
+            "url": "https://scroll.in/latest/1096537/hc-sets-aside-order-directing-details-of-foreign-travel-by-modi-manmohan-singh-be-made-public?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Organiser",
+            "outletId": "organiser",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Delhi HC quashes CIC order directing IAF to disclose PMs’ foreign travel records",
+            "url": "https://organiser.org/2026/10/21/418889/law/delhi-hc-quashes-cic-order-directing-iaf-to-disclose-pms-foreign-travel-records/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Manmohan Singh",
+        "Delhi HC",
+        "Modi"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c13q85cr",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 4
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "ukraine",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-21T09:43:13.000Z",
+    "lastSeen": "2026-10-21T14:39:08.000Z",
+    "outletCount": 7,
+    "outlets": [
+      "NPR",
+      "BBC News",
+      "Fox News",
+      "Globe and Mail",
+      "Euronews",
+      "Deutsche Welle",
+      "Al Jazeera"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 7 outlets",
+    "clustering": {
+      "min": 0.3605627083767228,
+      "max": 0.44706308384475996,
+      "pairs": 10,
+      "prunedForCohesion": 2
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
+        "u": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+        "publishedAt": "2026-10-21T10:20:50.000Z",
+        "retrievedAt": "2026-10-21T15:50:28.028Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+        "u": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T13:49:50.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "President Donald Trump later said the former teacher was \"on his way back home\" and \"there was no 'swap' necessary\".",
+          "\"Watch what happens,\" Trump told reporters, \"we have been focused ⁠on ​Hubbard\".",
+          "As talks were under way in St Petersburg, Zelensky wrote on social media that \"much depends on whether the American side can hear something new from Russia today – about …"
+        ],
+        "figures": [],
+        "wordsRead": 712
+      },
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia releases American teacher imprisoned on Ukraine mercenary charges after Trump pressed Putin",
+        "u": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release",
+        "publishedAt": "2026-10-21T09:43:13.000Z",
+        "retrievedAt": "2026-10-21T15:50:35.349Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"'Welcome home Stephen, it’s great to have you back,'\" Trump said, according to the post.",
+          "U.S. envoy Steve Witkoff told Russian President Vladimir Putin of Hubbard during a Wednesday meeting that \"because of you, he's going home to his family.\"",
+          "\"He's a 75-year-old man,\" Witkoff …"
+        ],
+        "figures": [],
+        "wordsRead": 450
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Putin hosts Trump envoy Witkoff for Ukraine talks, frees U.S. citizen held in Russia",
+        "u": "https://www.theglobeandmail.com/world/article-putin-witkoff-meet-for-ukraine-talks-stephen-hubbard-released/",
+        "publishedAt": "2026-10-21T09:55:28.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“These nuances, so to speak, do not entirely satisfy us,” Kremlin aide Yuri Ushakov told reporters after the St Petersburg meeting – which lasted nearly three hours.",
+          "Russian President Vladimir Putin has agreed to resume U.S.-mediated peace talks with Ukraine as soon as next month, the Kremlin said on Wednesday, after Putin met U.S. envoy Steve Witkoff …",
+          "They could begin sometime on or after Nov. 10, it said."
+        ],
+        "figures": [],
+        "wordsRead": 819
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia frees detained American Stephen Hubbard during US envoy's visit",
+        "u": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
+        "publishedAt": "2026-10-21T11:45:30.000Z",
+        "retrievedAt": "2026-10-21T15:50:57.179Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Around two dozen Americans are still being held in Russian prisons for various reasons, according to the Foley Foundation, a hostage advocacy group.",
+          "Russia released retired American teacher Stephen Hubbard …"
+        ],
+        "figures": [],
+        "wordsRead": 300
+      },
       {
         "n": "Deutsche Welle",
         "b": "centre",
@@ -1065,31 +563,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Rubio visits India with a trip to the world's largest oil refinery topping the agenda",
-        "u": "https://www.dw.com/en/rubio-visits-india-with-a-trip-to-the-world-s-largest-oil-refinery-topping-the-agenda/a-79699826?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-19T12:31:00.000Z",
-        "retrievedAt": "2026-10-20T15:34:30.895Z",
+        "t": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+        "u": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-21T13:56:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:02.365Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"We have had to waive sanctions over the past few months, looking at the global supplies, looking at global prices, and the impact it was having on other countries,\" he …",
-          "He said Jamnagar is an \"important node in global trade\" because it processes Russian oil and serves as a conduit for refined Russian petroleum products reaching Western markets.",
-          "However, this has never been confirmed by New Delhi."
+          "Putin said Hubbard was at the airport and Witkoff said he was now \"going home to his family.\"",
+          "\"If sanctions would have been placed, certainly those negotiations would have come to a complete and total halt,\" Trump's post said.",
+          "Such talks should focus on \"building a security system for Russia and Ukraine after the conflict ends,\" Putin's foreign affairs adviser Yuri Ushakov said."
         ],
-        "figures": [
-          {
-            "value": "1.4 million",
-            "context": "buyer of Venezuelan oil . The refinery can process 1.4 million barrels of crude oil a day, so it's a …"
-          },
-          {
-            "value": "$300 billion",
-            "context": "Donald Trump has put the value of the project at $300 billion (€258 billion) and presented it as a way …"
-          },
-          {
-            "value": "€258 billion",
-            "context": "has put the value of the project at $300 billion (€258 billion) and presented it as a way to help …"
-          }
-        ],
-        "wordsRead": 1162
+        "figures": [],
+        "wordsRead": 743
       },
       {
         "n": "Al Jazeera",
@@ -1098,31 +583,42 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Why Rubio is visiting Reliance’s oil refinery in India, the world’s largest",
-        "u": "https://www.aljazeera.com/news/2026/10/20/why-rubio-is-visiting-reliances-oil-refinery-in-india-the-worlds-largest?traffic_source=rss",
-        "publishedAt": "2026-10-20T12:37:06.000Z",
-        "retrievedAt": "2026-10-20T15:34:42.517Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Reliance said last month that the complex has processed more than 216 crude grades, claiming to be “perhaps the only refinery to achieve this feat”.",
-          "Rubio had visited India earlier this year too, but this trip “is a little more business-focused”, the US ambassador to India, Sergio Gor, told reporters last week.",
-          "“[At Jamnagar] he will meet some of the folks at Reliance,” Gor said."
-        ],
-        "figures": [
-          {
-            "value": "1.4 million",
-            "context": "crude processing and fuel exports, which processes 1.4 million barrels per day (bpd)."
-          }
-        ],
-        "wordsRead": 1377
+        "t": "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
+        "publishedAt": "2026-10-21T14:39:08.000Z",
+        "retrievedAt": "2026-10-21T15:51:15.439Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia releases American Stephen Hubbard after four years in prison",
+        "u": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
+        "publishedAt": "2026-10-21T14:31:53.000Z",
+        "retrievedAt": "2026-10-21T15:51:15.439Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
+            "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1130,13 +626,40 @@
         "label": "Centre",
         "outlets": [
           {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+            "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Putin hosts Trump envoy Witkoff for Ukraine talks, frees U.S. citizen held in Russia",
+            "url": "https://www.theglobeandmail.com/world/article-putin-witkoff-meet-for-ukraine-talks-stephen-hubbard-released/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "Russia frees detained American Stephen Hubbard during US envoy's visit",
+            "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit"
+          },
+          {
             "outlet": "Deutsche Welle",
             "outletId": "dw",
             "lean": "centre",
             "country": "DE",
-            "evidenceIndex": 0,
-            "headline": "Rubio visits India with a trip to the world's largest oil refinery topping the agenda",
-            "url": "https://www.dw.com/en/rubio-visits-india-with-a-trip-to-the-world-s-largest-oil-refinery-topping-the-agenda/a-79699826?maca=en-rss-en-world-4025-rdf"
+            "evidenceIndex": 5,
+            "headline": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+            "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -1145,15 +668,24 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Russia releases American teacher imprisoned on Ukraine mercenary charges after Trump pressed Putin",
+            "url": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
       {
@@ -1161,238 +693,31 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Why Rubio is visiting Reliance’s oil refinery in India, the world’s largest",
-        "url": "https://www.aljazeera.com/news/2026/10/20/why-rubio-is-visiting-reliances-oil-refinery-in-india-the-worlds-largest?traffic_source=rss",
+        "evidenceIndex": 6,
+        "headline": "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "India",
-        "Why Rubio",
-        "Reliance",
-        "Rubio"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1khdzhd",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 11,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "india",
-          "new delhi",
-          "mumbai",
-          "delhi",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-20T13:19:05.000Z",
-    "lastSeen": "2026-10-20T13:20:17.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "The Hindu",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.43262441288692677,
-      "max": 0.43262441288692677,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Rubio, Jaishankar meet in Mumbai as U.S. and India aim to finalise trade deal",
-        "u": "https://www.thehindu.com/news/national/marco-rubio-mumbai-visit-october-20-2026/article71603994.ece",
-        "publishedAt": "2026-10-20T13:20:17.000Z",
-        "retrievedAt": "2026-10-20T15:34:19.612Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Rubio said that the two sides “discussed energy security and defense cooperation while reaffirming the importance of advancing the U.S.-India strategic partnership”.",
-          "Ambassador to India Sergio Gor also commented on the meeting, saying, “Productive discussions between @SecRubio and External Affairs Minister @DrSJaishankar …"
-        ],
-        "figures": [],
-        "wordsRead": 423
       },
       {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Rubio arrives in India with trade deal, energy security on agenda",
-        "u": "https://www.arabnews.com/world/rubio-arrives-in-india-with-trade-deal-energy-security-on-agenda-3007328",
-        "publishedAt": "2026-10-20T13:19:05.000Z",
-        "retrievedAt": "2026-10-20T15:34:45.163Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“He’s coming along with 200-odd businessmen,” Raman said.",
-          "“We shared views on further advancement of our ties, focusing on trade, energy, technology, defense and people-to-people ties,” Jaishankar said after the meeting.",
-          "Rubio told reporters in Mumbai that the US was “very close” …"
-        ],
-        "figures": [],
-        "wordsRead": 421
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "Rubio, Jaishankar meet in Mumbai as U.S. and India aim to finalise trade deal",
-            "url": "https://www.thehindu.com/news/national/marco-rubio-mumbai-visit-october-20-2026/article71603994.ece"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Rubio arrives in India with trade deal, energy security on agenda",
-        "url": "https://www.arabnews.com/world/rubio-arrives-in-india-with-trade-deal-energy-security-on-agenda-3007328",
+        "country": "QA",
+        "evidenceIndex": 7,
+        "headline": "Russia releases American Stephen Hubbard after four years in prison",
+        "url": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Rubio",
-        "India",
-        "Jaishankar",
-        "Mumbai"
+        "Russia",
+        "Putin",
+        "American Stephen Hubbard",
+        "Witkoff",
+        "Trump",
+        "Stephen Hubbard"
       ],
       "attempts": [
         {
@@ -1401,10 +726,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Rubio",
-            "India",
-            "Jaishankar",
-            "Mumbai"
+            "Russia",
+            "Putin",
+            "American Stephen Hubbard",
+            "Witkoff",
+            "Trump",
+            "Stephen Hubbard"
           ]
         },
         {
@@ -1484,7 +811,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1f94xd2",
+    "id": "c1j46ggt",
     "regions": [
       "Europe",
       "Global"
@@ -1497,26 +824,29 @@
       },
       "matched": {
         "Europe": [
-          "norway",
-          "ukraine",
+          "france",
+          "paris",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-20T09:44:50.000Z",
-    "lastSeen": "2026-10-20T13:51:40.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-10-21T11:35:45.000Z",
+    "lastSeen": "2026-10-21T15:25:10.000Z",
+    "outletCount": 6,
     "outlets": [
       "BBC News",
+      "Washington Examiner",
+      "Euronews",
+      "Politico Europe",
       "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 6 outlets",
     "clustering": {
-      "min": 0.3729889913193475,
-      "max": 0.52533948759425,
-      "pairs": 2,
+      "min": 0.3741746244970158,
+      "max": 0.5105387953103574,
+      "pairs": 6,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1527,18 +857,75 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
-        "u": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-20T13:51:40.000Z",
-        "retrievedAt": "2026-10-20T15:34:01.955Z",
+        "t": "Macron accuses foreign leaders of exploiting French riots",
+        "u": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T14:04:28.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Norwegian Prime Minister Jonas Gahr Støre said Zelensky had asked Oslo and neighbouring Finland to organise the talks with the US and European allies \"at a critical time for Ukraine\".",
-          "\"This looks very strange,\" said Beskrestnov, widely known as \"Flash\".",
-          "Relations between Kyiv and the US have soured in recent weeks to the extent that Trump has said it is time for Ukraine to get a new president, and most …"
+          "On Tuesday, Netanyahu said in an interview for Israel's i24 channel , external that France, which has Western Europe's largest Muslim minority, had been hit by an \"invasion of extremist …",
+          "He said he had told Macron after the Hamas attack on Israel on 7 October 2023: \"If we do not eliminate them here, you will have them in Paris.\"",
+          "\"Close your borders and take control before it is too late!\" he said in remarks directed at Macron."
         ],
         "figures": [],
-        "wordsRead": 758
+        "wordsRead": 846
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macron slams Trump for ‘stupid’ comments about French riots and warns public of ‘foreign manipulation’",
+        "u": "https://www.washingtonexaminer.com/news/world/4773779/emmanuel-macron-trump-stupid-comments-french-riots/",
+        "publishedAt": "2026-10-21T15:25:10.000Z",
+        "retrievedAt": "2026-10-21T15:50:33.963Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Speaking to the press while visiting Doha, Qatar , on Wednesday, Macron said there was no evidence of foreign actors instigating the protests but lamented the “foreign manipulation of information” …",
+          "“There are people who campaign at France’s expense — leaders who are in campaign mode, whether here in the …"
+        ],
+        "figures": [],
+        "wordsRead": 502
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "In apparent swipe at Trump, Macron slams 'stupid comments' by foreign leaders on France protests",
+        "u": "https://www.euronews.com/2026/10/21/in-apparent-swipe-at-trump-macron-slams-stupid-comments-by-foreign-leaders-on-france-prote",
+        "publishedAt": "2026-10-21T11:47:23.000Z",
+        "retrievedAt": "2026-10-21T15:50:57.179Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "France's President Emmanuel Macron has criticised world leaders who he said were campaigning for upcoming elections \"at France's expense\" with \"unacceptable and even stupid comments\" about the country's riots last …",
+          "In an apparent swipe at US President Donald Trump and Israeli Prime Minister Benjamin Netanyahu, he stated \"there are people who campaign at France's expense …"
+        ],
+        "figures": [],
+        "wordsRead": 566
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
+        "u": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-10-21T11:35:45.000Z",
+        "retrievedAt": "2026-10-21T15:50:58.764Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Some people have claimed that we’ve been overrun by hordes of migrants and Islamists, which is completely false,” Macron told reporters during a trip to Qatar.",
+          "Macron said Trump is “among” a …"
+        ],
+        "figures": [],
+        "wordsRead": 323
       },
       {
         "n": "Arab News",
@@ -1547,18 +934,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Zelensky, US envoys to hold Oslo talks as Ukraine claims US missile holdup",
-        "u": "https://www.arabnews.com/world/zelensky-us-envoys-to-hold-oslo-talks-as-ukraine-claims-us-missile-holdup-3007339",
-        "publishedAt": "2026-10-20T13:44:28.000Z",
-        "retrievedAt": "2026-10-20T15:34:45.163Z",
+        "t": "Macron blasts ‘stupid’ claims by Trump and others blaming Muslims migrants for French riots",
+        "u": "https://www.arabnews.com/world/macron-blasts-stupid-claims-by-trump-and-others-blaming-muslims-migrants-for-french-riots-3007518",
+        "publishedAt": "2026-10-21T12:45:12.000Z",
+        "retrievedAt": "2026-10-21T15:51:18.433Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "OSLO: Ukrainian President Volodymyr Zelensky arrived in Oslo on Tuesday for talks with top US envoys in a bid to get strained relations with Washington “on a more constructive path,” …",
-          "“We are maintaining all contacts that can help bring peace,” Zelensky said in a social media post announcing his arrival in Oslo.",
-          "“The aim is to put diplomatic efforts on a more constructive path,” …"
+          "“And that has led to comments that are as unacceptable as they are stupid, from many people, including foreign leaders,” he said.",
+          "“The fact is, all the people who are speaking ill of our country right now are people who don’t …"
         ],
         "figures": [],
-        "wordsRead": 651
+        "wordsRead": 414
       },
       {
         "n": "South China Morning Post",
@@ -1567,10 +953,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine, US hold Norway talks amid rising Zelensky, Trump tension",
-        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
-        "publishedAt": "2026-10-20T09:44:50.000Z",
-        "retrievedAt": "2026-10-20T15:34:48.670Z",
+        "t": "Macron takes veiled shot at Trump, Netanyahu over ‘stupid’ France riot remarks",
+        "u": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks",
+        "publishedAt": "2026-10-21T11:45:43.000Z",
+        "retrievedAt": "2026-10-21T15:51:22.966Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1592,8 +978,26 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
-            "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss"
+            "headline": "Macron accuses foreign leaders of exploiting French riots",
+            "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "In apparent swipe at Trump, Macron slams 'stupid comments' by foreign leaders on France protests",
+            "url": "https://www.euronews.com/2026/10/21/in-apparent-swipe-at-trump-macron-slams-stupid-comments-by-foreign-leaders-on-france-prote"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
+            "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -1602,15 +1006,24 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Macron slams Trump for ‘stupid’ comments about French riots and warns public of ‘foreign manipulation’",
+            "url": "https://www.washingtonexaminer.com/news/world/4773779/emmanuel-macron-trump-stupid-comments-french-riots/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
       {
@@ -1618,9 +1031,9 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Zelensky, US envoys to hold Oslo talks as Ukraine claims US missile holdup",
-        "url": "https://www.arabnews.com/world/zelensky-us-envoys-to-hold-oslo-talks-as-ukraine-claims-us-missile-holdup-3007339",
+        "evidenceIndex": 4,
+        "headline": "Macron blasts ‘stupid’ claims by Trump and others blaming Muslims migrants for French riots",
+        "url": "https://www.arabnews.com/world/macron-blasts-stupid-claims-by-trump-and-others-blaming-muslims-migrants-for-french-riots-3007518",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -1628,21 +1041,21 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Ukraine, US hold Norway talks amid rising Zelensky, Trump tension",
-        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
+        "evidenceIndex": 5,
+        "headline": "Macron takes veiled shot at Trump, Netanyahu over ‘stupid’ France riot remarks",
+        "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Zelensky",
-        "Ukraine",
-        "Oslo",
-        "Norway",
-        "Rubio",
-        "Trump"
+        "Macron",
+        "Trump",
+        "French",
+        "France",
+        "Netanyahu",
+        "Muslims"
       ],
       "attempts": [
         {
@@ -1651,12 +1064,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Zelensky",
-            "Ukraine",
-            "Oslo",
-            "Norway",
-            "Rubio",
-            "Trump"
+            "Macron",
+            "Trump",
+            "French",
+            "France",
+            "Netanyahu",
+            "Muslims"
           ]
         },
         {
@@ -1736,7 +1149,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1i5ez9c",
+    "id": "c1qiw7g9",
     "regions": [
       "Europe",
       "Global"
@@ -1745,28 +1158,274 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 4
+        "Europe": 7
       },
       "matched": {
         "Europe": [
-          "ukraine",
+          "spain",
+          "madrid",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-19T20:00:43.000Z",
-    "lastSeen": "2026-10-20T08:10:45.000Z",
-    "outletCount": 2,
+    "firstSeen": "2026-10-21T10:02:05.000Z",
+    "lastSeen": "2026-10-21T15:30:33.000Z",
+    "outletCount": 3,
     "outlets": [
-      "BBC News",
-      "Euronews"
+      "Euronews",
+      "Brussels Signal",
+      "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.6941264372917882,
-      "max": 0.6941264372917882,
-      "pairs": 1,
+      "min": 0.4201868991432923,
+      "max": 0.5517380250337873,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Lefty and proud': Spain's Sánchez hits back at Argentina's Milei in Madrid",
+        "u": "https://www.euronews.com/2026/10/21/lefty-and-proud-spains-sanchez-hits-back-at-argentinas-milei-in-madrid",
+        "publishedAt": "2026-10-21T15:30:33.000Z",
+        "retrievedAt": "2026-10-21T15:50:57.179Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"If raising pensions, increasing the minimum wage or defending the right to abortion means being a lefty, I am a lefty,\" the Spanish prime minister said, concluding: \"Yes, I am …",
+          "Abascal described the protest as \"coercion\" and said Galicia remained a \"thorn in the side\" for Vox, calling on supporters to mobilise in the name of …"
+        ],
+        "figures": [],
+        "wordsRead": 577
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Milei calls Sánchez a ‘dictator’ in Madrid",
+        "u": "https://brusselssignal.eu/2026/10/milei-calls-sanchez-a-dictator-in-madrid/",
+        "publishedAt": "2026-10-21T10:02:05.000Z",
+        "retrievedAt": "2026-10-21T15:51:07.950Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Sánchez told parliament on September 3 that there was no solid evidence Morocco had organised the arrivals, a line he held to as Moroccan ministers renewed their claim to Ceuta …",
+          "Sánchez announced on October 5 that he would dissolve parliament and call an early general election for November 29, after two housing decrees were defeated in Congress.",
+          "He said socialists would rather reign …"
+        ],
+        "figures": [],
+        "wordsRead": 644
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Argentina’s Milei calls Spain PM Sanchez a ‘dictator’ in Madrid visit",
+        "u": "https://www.arabnews.com/world/argentinas-milei-calls-spain-pm-sanchez-a-dictator-in-madrid-visit-3007530",
+        "publishedAt": "2026-10-21T13:29:04.000Z",
+        "retrievedAt": "2026-10-21T15:51:18.433Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 0,
+            "headline": "'Lefty and proud': Spain's Sánchez hits back at Argentina's Milei in Madrid",
+            "url": "https://www.euronews.com/2026/10/21/lefty-and-proud-spains-sanchez-hits-back-at-argentinas-milei-in-madrid"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Milei calls Sánchez a ‘dictator’ in Madrid",
+            "url": "https://brusselssignal.eu/2026/10/milei-calls-sanchez-a-dictator-in-madrid/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 2,
+        "headline": "Argentina’s Milei calls Spain PM Sanchez a ‘dictator’ in Madrid visit",
+        "url": "https://www.arabnews.com/world/argentinas-milei-calls-spain-pm-sanchez-a-dictator-in-madrid-visit-3007530",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Madrid",
+        "Milei",
+        "Argentina's Milei",
+        "Spain PM Sanchez",
+        "Argentina",
+        "Spain's"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1efmsy8",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-19T19:25:22.000Z",
+    "lastSeen": "2026-10-21T11:25:18.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Deutsche Welle",
+      "Brussels Signal",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.3755640040975228,
+      "max": 0.6561254292491768,
+      "pairs": 8,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1777,34 +1436,124 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
-        "u": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-19T20:00:43.000Z",
-        "retrievedAt": "2026-10-20T15:34:01.955Z",
+        "t": "Australian MP loses both legs after alleged car attack, husband says",
+        "u": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T07:56:30.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "It says a \"heavy\" hexacopter, piloted by a remote operator, was able to maintain stability …"
+          "Phil Haines said the \"horrendous incident\" caused his wife significant injuries but \"her heart and her mind are in good shape\".",
+          "Haines' \"road to recovery will be long and difficult, but we know she is a fighter,\" her husband said at a press conference in Melbourne where she is being treated.",
+          "\"Thank you, you lovely people,\" is what Haines said to them, according to the Herald Sun."
         ],
         "figures": [],
-        "wordsRead": 154
+        "wordsRead": 889
       },
       {
-        "n": "Euronews",
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine carries out first drone airlift of wounded soldier from front line",
-        "u": "https://www.euronews.com/video/2026/10/20/ukraine-carries-out-first-drone-airlift-of-wounded-soldier-from-front-line",
-        "publishedAt": "2026-10-20T08:10:45.000Z",
-        "retrievedAt": "2026-10-20T15:34:26.335Z",
+        "t": "Australian lawmaker Helen Haines has both legs amputated after vehicle attack",
+        "u": "https://www.theglobeandmail.com/world/article-australian-lawmaker-helen-haines-vehicle-attack/",
+        "publishedAt": "2026-10-21T10:47:57.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "According to the drone unit of the 92nd Assault Brigade, the soldier …"
+          "“We want to make sure that people can feel as much comfort as possible that everything’s being done to maximize security,” Albanese told News24.",
+          "“We are grateful and thankful that at this stage, both her heart and her mind are in good shape,” he said.",
+          "“The reality is that Australian parliamentarians by global standards are uniquely accessible to the public and that’s a good thing,” Paterson told Australian Broadcasting Corp."
         ],
         "figures": [],
-        "wordsRead": 126
+        "wordsRead": 934
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Australian driver charged with intentionally injuring politician with car in targeted attack",
+        "u": "https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/",
+        "publishedAt": "2026-10-20T22:08:07.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Helen has been our friend for more than 20 years and what happened to her yesterday is devastating and unfathomable,” the father said, adding that he would co-operate with police.",
+          "“There was nothing known to us that would have arisen or piqued our interest or given any indication that he was an immediate threat,” Bush said.",
+          "The driver then reversed and struck Haines again, Home Affairs Minister Tony Burke said."
+        ],
+        "figures": [],
+        "wordsRead": 896
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Driver arrested after car hits Australian lawmaker",
+        "u": "https://www.theglobeandmail.com/world/video-driver-arrested-after-car-hits-australian-lawmaker/",
+        "publishedAt": "2026-10-19T19:25:22.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+        "u": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-21T08:16:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:02.365Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"We are grateful and thankful that at this stage, both her heart and her mind are in good shape,\" he said.",
+          "\"I just leant over him and once he was on the ground and ‌he was ​no longer a threat, I just stood with him and I told him that he …",
+          "Jefferies told journalists his first thought had been: \"My wife would be disappointed if I'm injured.\""
+        ],
+        "figures": [],
+        "wordsRead": 748
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Australian MP has both legs amputated after attack",
+        "u": "https://brusselssignal.eu/2026/10/australian-mp-has-both-legs-amputated-after-attack/",
+        "publishedAt": "2026-10-21T11:25:18.000Z",
+        "retrievedAt": "2026-10-21T15:51:07.950Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "He said his wife has suffered significant injuries but “her heart and her mind are in good shape”.",
+          "Bush said police were “not ruling out further serious charges”.",
+          "Liberal MP Andrew Hastie said it was “very easy to weaponise a car, a kitchen knife, a cricket bat or anything else” against a public office holder, adding: “My concern …"
+        ],
+        "figures": [],
+        "wordsRead": 730
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Australian lawmaker hit by car in critical condition",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/21/2003866362",
+        "publishedAt": "2026-10-21T00:00:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:25.759Z",
+        "read": "headline only"
       }
     ],
     "views": [
@@ -1825,17 +1574,934 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
-            "url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss"
+            "headline": "Australian MP loses both legs after alleged car attack, husband says",
+            "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Australian lawmaker Helen Haines has both legs amputated after vehicle attack",
+            "url": "https://www.theglobeandmail.com/world/article-australian-lawmaker-helen-haines-vehicle-attack/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Australian driver charged with intentionally injuring politician with car in targeted attack",
+            "url": "https://www.theglobeandmail.com/world/article-helen-haines-australia-politician-car/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Driver arrested after car hits Australian lawmaker",
+            "url": "https://www.theglobeandmail.com/world/video-driver-arrested-after-car-hits-australian-lawmaker/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 4,
+            "headline": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+            "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 5,
+            "headline": "Australian MP has both legs amputated after attack",
+            "url": "https://brusselssignal.eu/2026/10/australian-mp-has-both-legs-amputated-after-attack/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 6,
+        "headline": "Australian lawmaker hit by car in critical condition",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/21/2003866362",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Australian",
+        "Australian MP",
+        "Australian MP Helen Haines",
+        "Helen Haines",
+        "Driver"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ckeix7e",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-20T19:08:00.000Z",
+    "lastSeen": "2026-10-21T15:18:59.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "NPR",
+      "BBC News",
+      "Globe and Mail",
+      "Euronews",
+      "Deutsche Welle"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.36058559461851963,
+      "max": 0.5355165953406588,
+      "pairs": 9,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+        "u": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+        "publishedAt": "2026-10-20T20:19:16.000Z",
+        "retrievedAt": "2026-10-21T15:50:28.028Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nigeria confirms Ebola case linked to East Africa",
+        "u": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T12:39:34.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"We urge the public to remain calm, vigilant and to practice regular handwashing and sanitising,\" it said.",
+          "\"We presume that it was likely picked in Uganda,\" Pate told the national broadcaster Nigerian Television Authority (NTA) on Tuesday evening.",
+          "Health Minister Muhammad Ali Pate said the diagnosis had been confirmed by laboratory tests."
+        ],
+        "figures": [],
+        "wordsRead": 679
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nigeria confirms Ebola in a patient who traveled from Uganda",
+        "u": "https://www.theglobeandmail.com/world/video-nigeria-confirms-ebola-in-a-patient-who-traveled-from-uganda/",
+        "publishedAt": "2026-10-21T12:56:19.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "African health ministers to hold Ebola crisis talks as Nigeria confirms first case",
+        "u": "https://www.euronews.com/2026/10/21/african-health-ministers-to-hold-ebola-crisis-talks-as-nigeria-confirms-first-case",
+        "publishedAt": "2026-10-21T15:18:59.000Z",
+        "retrievedAt": "2026-10-21T15:50:57.179Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The ministry insisted Uganda has “no confirmed active Ebola cases.\"",
+          "“While sporadic importations cannot be excluded, the probability of multiple independent importations is very low, even in a pessimistic scenario whereby incidence continues to rise in the affected regions,” the …"
+        ],
+        "figures": [],
+        "wordsRead": 447
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nigeria records its first Ebola case, in capital Abuja",
+        "u": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-20T19:08:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:02.365Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Health Minister Muhammad Ali Pate said that the patient was a woman who had \"recently arrived on an international flight from Uganda.\"",
+          "\"We are doing everything possible to contain this case by tracing all contacts the individual may have had,\" he said.",
+          "\"These efforts have focused on early detection, isolation and referral, laboratory diagnosis, infection prevention and control, contact tracing, risk communication and protection …"
+        ],
+        "figures": [],
+        "wordsRead": 647
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+            "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "Nigeria confirms Ebola case linked to East Africa",
+            "url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Nigeria confirms Ebola in a patient who traveled from Uganda",
+            "url": "https://www.theglobeandmail.com/world/video-nigeria-confirms-ebola-in-a-patient-who-traveled-from-uganda/"
           },
           {
             "outlet": "Euronews",
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "African health ministers to hold Ebola crisis talks as Nigeria confirms first case",
+            "url": "https://www.euronews.com/2026/10/21/african-health-ministers-to-hold-ebola-crisis-talks-as-nigeria-confirms-first-case"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 4,
+            "headline": "Nigeria records its first Ebola case, in capital Abuja",
+            "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Nigeria",
+        "Ebola",
+        "Uganda",
+        "Abuja",
+        "East Africa",
+        "African"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Nigeria",
+            "Ebola",
+            "Uganda",
+            "Abuja",
+            "East Africa",
+            "African"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c17l5m45",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {}
+    },
+    "firstSeen": "2026-10-21T10:00:27.000Z",
+    "lastSeen": "2026-10-21T15:15:56.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "NPR",
+      "Washington Examiner",
+      "Haaretz",
+      "Al Jazeera",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.4309898425241623,
+      "max": 0.6195614037386508,
+      "pairs": 13,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel detains dozens of Americans, including a congressional candidate, in West Bank",
+        "u": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
+        "publishedAt": "2026-10-21T13:28:04.000Z",
+        "retrievedAt": "2026-10-21T15:50:28.028Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New York House candidate Brad Lander briefly detained by Israeli military with group visiting West Bank",
+        "u": "https://www.washingtonexaminer.com/news/world/4773639/brad-lander-detained-west-bank/",
+        "publishedAt": "2026-10-21T14:22:04.000Z",
+        "retrievedAt": "2026-10-21T15:50:33.963Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "New York House candidate Brad Lander was detained for a short …"
+        ],
+        "figures": [],
+        "wordsRead": 117
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel briefly detains U.S. congressional candidate Brad Lander in West Bank",
+        "u": "https://www.haaretz.com/west-bank/2026-10-21/ty-article/.premium/democratic-congressional-candidate-brad-lander-detained-in-west-bank-group-says/000001a1-5de3-da49-abe9-5ffb7b750000",
+        "publishedAt": "2026-10-21T10:00:27.000Z",
+        "retrievedAt": "2026-10-21T15:51:11.164Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US congressional candidate Brad Lander freed after West Bank detention",
+        "u": "https://www.aljazeera.com/news/2026/10/21/us-congressional-candidate-brad-lander-freed-after-west-bank-detention?traffic_source=rss",
+        "publishedAt": "2026-10-21T14:12:15.000Z",
+        "retrievedAt": "2026-10-21T15:51:15.439Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I’ve been released from IDF custody with a ‘warning,’ apparently because of my public profile,” Lander wrote on X.",
+          "“I told them I wasn’t even a congressmember yet, just a nominee.”",
+          "“It was a nice, peaceful day,” he said."
+        ],
+        "figures": [],
+        "wordsRead": 682
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US Democratic congressional candidate Lander detained by Israeli authorities in West Bank",
+        "u": "https://www.arabnews.com/middle-east/us-democratic-congressional-candidate-lander-detained-by-israeli-authorities-in-west-bank-3007568",
+        "publishedAt": "2026-10-21T15:15:56.000Z",
+        "retrievedAt": "2026-10-21T15:51:18.433Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We were obviously not doing anything violent but just the very act of picking olives together with Palestinian farmers was apparently disturbing for some,” Jacobs, a 51 year-old conservative rabbi …",
+          "Israeli organization Rabbis for Human Rights said around 80 volunteers, including Lander, were detained by Israeli military and police on village farmland near Bethlehem where for about two hours …"
+        ],
+        "figures": [],
+        "wordsRead": 601
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US Democratic congressional candidate Lander detained by Israeli authorities in West Bank",
+        "u": "https://www.arabnews.com/middle-east/us-democratic-congressional-candidate-lander-detained-by-israeli-authorities-in-west-bank-3007516",
+        "publishedAt": "2026-10-21T12:40:38.000Z",
+        "retrievedAt": "2026-10-21T15:51:18.433Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We were obviously not doing anything violent but just the very act of picking olives together with Palestinian farmers was apparently disturbing for some,” said ‌Jacobs, a 51 year-old conservative …",
+          "TEL AVIV: Brad Lander, an ally of New York City Mayor Zohran Mamdani who is …"
+        ],
+        "figures": [],
+        "wordsRead": 463
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Israel detains dozens of Americans, including a congressional candidate, in West Bank",
+            "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Israel briefly detains U.S. congressional candidate Brad Lander in West Bank",
+            "url": "https://www.haaretz.com/west-bank/2026-10-21/ty-article/.premium/democratic-congressional-candidate-brad-lander-detained-in-west-bank-group-says/000001a1-5de3-da49-abe9-5ffb7b750000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
             "evidenceIndex": 1,
-            "headline": "Ukraine carries out first drone airlift of wounded soldier from front line",
-            "url": "https://www.euronews.com/video/2026/10/20/ukraine-carries-out-first-drone-airlift-of-wounded-soldier-from-front-line"
+            "headline": "New York House candidate Brad Lander briefly detained by Israeli military with group visiting West Bank",
+            "url": "https://www.washingtonexaminer.com/news/world/4773639/brad-lander-detained-west-bank/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 3,
+        "headline": "US congressional candidate Brad Lander freed after West Bank detention",
+        "url": "https://www.aljazeera.com/news/2026/10/21/us-congressional-candidate-brad-lander-freed-after-west-bank-detention?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 4,
+        "headline": "US Democratic congressional candidate Lander detained by Israeli authorities in West Bank",
+        "url": "https://www.arabnews.com/middle-east/us-democratic-congressional-candidate-lander-detained-by-israeli-authorities-in-west-bank-3007568",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 5,
+        "headline": "US Democratic congressional candidate Lander detained by Israeli authorities in West Bank",
+        "url": "https://www.arabnews.com/middle-east/us-democratic-congressional-candidate-lander-detained-by-israeli-authorities-in-west-bank-3007516",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "West Bank",
+        "Brad Lander",
+        "Israeli",
+        "US Democratic",
+        "Israel",
+        "Lander"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "West Bank",
+            "Brad Lander",
+            "Israeli",
+            "US Democratic",
+            "Israel",
+            "Lander"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c19niy9x",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-20T18:09:00.000Z",
+    "lastSeen": "2026-10-21T13:53:22.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Globe and Mail",
+      "Deutsche Welle",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.39261011764903425,
+      "max": 0.6436719479701588,
+      "pairs": 4,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Drone attack on market kills more than 150, South Sudanese officials say",
+        "u": "https://www.theglobeandmail.com/world/article-abyei-south-sudan-drone-market/",
+        "publishedAt": "2026-10-20T19:42:59.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We remain alarmed by the relentless drone attacks across Sudan, as well as the damage they are causing to critical infrastructure – these attacks are taking a devastating toll on …",
+          "“We are providing surgical services and wound dressing, along with other emergency care,” said Christian Lindauer, MSF medical activities manager at the facility.",
+          "In one site, I saw 28 bodies that were burnt,” the witness said, asking not to be named for safety reasons."
+        ],
+        "figures": [],
+        "wordsRead": 921
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Sudan drone strike kills around 150 in Abyei market",
+        "u": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-20T18:09:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:02.365Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "South Sudan said it had summoned Sudan's ambassador to protest and urged Sudan to \"refrain from any actions that endanger civilian lives and property.\"",
+          "\"We remain alarmed by the relentless drone attacks across Sudan, as well as the damage they are causing to critical infrastructure — these attacks are taking a devastating toll on …",
+          "A drone strike in a busy market in the disputed …"
+        ],
+        "figures": [],
+        "wordsRead": 657
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Death toll from Sudan army strike in disputed territory rises to 153: local authority",
+        "u": "https://www.arabnews.com/middle-east/death-toll-from-sudan-army-strike-in-disputed-territory-rises-to-153-local-authority-3007547",
+        "publishedAt": "2026-10-21T13:53:22.000Z",
+        "retrievedAt": "2026-10-21T15:51:18.433Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Drone strike on market in disputed Sudan border region kills at least 153",
+        "u": "https://www.scmp.com/news/world/africa/article/3371608/drone-strike-market-disputed-sudan-border-region-kills-least-153",
+        "publishedAt": "2026-10-21T06:16:28.000Z",
+        "retrievedAt": "2026-10-21T15:51:22.966Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Drone attack on market kills more than 150, South Sudanese officials say",
+            "url": "https://www.theglobeandmail.com/world/article-abyei-south-sudan-drone-market/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "Sudan drone strike kills around 150 in Abyei market",
+            "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -1854,11 +2520,36 @@
       "name": null,
       "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 2,
+        "headline": "Death toll from Sudan army strike in disputed territory rises to 153: local authority",
+        "url": "https://www.arabnews.com/middle-east/death-toll-from-sudan-army-strike-in-disputed-territory-rises-to-153-local-authority-3007547",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Drone strike on market in disputed Sudan border region kills at least 153",
+        "url": "https://www.scmp.com/news/world/africa/article/3371608/drone-strike-market-disputed-sudan-border-region-kills-least-153",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Ukraine"
+        "Sudan",
+        "Drone",
+        "South Sudanese",
+        "Abyei",
+        "Death"
       ],
       "attempts": [
         {
@@ -1944,81 +2635,189 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1xggt92",
+    "id": "c1qg5qsu",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
-        "Europe": 3
+        "Europe": 1
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
-          "ukraine"
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-18T14:55:39.000Z",
-    "lastSeen": "2026-10-18T16:15:20.000Z",
-    "outletCount": 2,
+    "firstSeen": "2026-10-21T06:36:39.000Z",
+    "lastSeen": "2026-10-21T15:19:49.000Z",
+    "outletCount": 4,
     "outlets": [
-      "The Daily Caller",
-      "Globe and Mail"
+      "BBC News",
+      "Washington Examiner",
+      "New York Post",
+      "Nikkei Asia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.48328486933856274,
-      "max": 0.48328486933856274,
-      "pairs": 1,
+      "min": 0.37904938353432827,
+      "max": 0.6072661695932553,
+      "pairs": 6,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Ukraine Launches Over 1,000 Drones At Russia, Hitting Oil Depots, Amid Trump’s Demand For Energy Ceasefire",
-        "u": "https://dailycaller.com/2026/10/18/ukraine-drones-russia-oil-st-petersburg-trump-sanctions",
-        "publishedAt": "2026-10-18T16:15:20.000Z",
-        "retrievedAt": "2026-10-20T15:34:10.611Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "He had already rebuked Kyiv over its refinery strikes, telling reporters at the White House, “He better damn well stop,” according to Al Jazeera.",
-          "“America should see that Russia is not taking any reciprocal steps in response to sanctions relief or agreements,” Zelensky wrote on X.",
-          "“It is Russia that must face pressure for peace to have a chance,” he …"
-        ],
-        "figures": [],
-        "wordsRead": 602
-      },
-      {
-        "n": "Globe and Mail",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine launches more than 1,000 drones at Russia, striking oil facilities in St. Petersburg",
-        "u": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-drones-st-petersburg/",
-        "publishedAt": "2026-10-18T14:55:39.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
+        "t": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+        "u": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T08:42:49.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "He also said U.S.-Ukraine intelligence sharing had resumed after being “blocked for some period of time.”",
-          "Kremlin spokesperson Dmitry Peskov told Russian state news agency Tass that Kyiv was “resisting” Moscow’s invasion but could not “change the current course of events.”",
-          "Later Sunday, Zelensky said on social media that he had spoken with U.S. presidential envoys Steve Witkoff and Jared Kushner about the results of an Oct. 9 meeting between U.S. …"
+          "\"The special committees have not reached agreement on terms of any transaction and there's no guarantee that they will,\" he said.",
+          "At least 50% of Tesla's shareholders would need to approve a combination, which Musk described as \"quite a high hurdle to achieve\".",
+          "Elon Musk has said he is actively considering merging Tesla and SpaceX, his …"
+        ],
+        "figures": [
+          {
+            "value": "$1.5 trillion",
+            "context": "a lot to be gained.\" With Tesla valued at roughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a …"
+          },
+          {
+            "value": "£1.1 trillion",
+            "context": "ned.\" With Tesla valued at roughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a combination of the"
+          },
+          {
+            "value": "$2 trillion",
+            "context": "ughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a combination of the two companies would mark on"
+          }
+        ],
+        "wordsRead": 560
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+        "u": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-21T06:36:39.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"There's no real precedent for how a public company like Tesla gets priced in this,\" Sheehan said.",
+          "\"The deal itself doesn't add to Musk's wealth, but it concentrates it further in one stock,\" he said.",
+          "\"I honestly don't think Musk will be keeping track of what the merger will do for his wealth,\" Nicholson said."
+        ],
+        "figures": [
+          {
+            "value": "$1.5 trillion",
+            "context": "ing has been agreed. With Tesla valued at roughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a comb"
+          },
+          {
+            "value": "£1.1 trillion",
+            "context": "reed. With Tesla valued at roughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a combination of the"
+          },
+          {
+            "value": "$2 trillion",
+            "context": "ughly $1.5 trillion (£1.1 trillion) and SpaceX at $2 trillion, a combination of the two companies would mark th"
+          },
+          {
+            "value": "100%",
+            "context": "bringing the businesses together. \"In my opinion, 100%. It's just a question of when,\" says David Nichol"
+          }
+        ],
+        "wordsRead": 764
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Musk explores merging SpaceX and Tesla, calling it a ‘good idea’",
+        "u": "https://www.washingtonexaminer.com/news/business/4773722/musk-spacex-tesla-merger-good-idea/",
+        "publishedAt": "2026-10-21T15:19:49.000Z",
+        "retrievedAt": "2026-10-21T15:50:33.963Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I do think there’s a lot of …"
         ],
         "figures": [],
-        "wordsRead": 713
+        "wordsRead": 75
+      },
+      {
+        "n": "New York Post",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "SpaceX jumps 10% and Tesla rises on stunning revenue surge, possible merger",
+        "u": "https://nypost.com/2026/10/21/business/spacex-jumps-10-tesla-rises-on-stunning-revenue-surge-and-possible-merger/",
+        "publishedAt": "2026-10-21T14:58:12.000Z",
+        "retrievedAt": "2026-10-21T15:50:37.524Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I do think there’s a lot of merit to combining the companies as we are pretty much in the superintelligence singularity, and there’s a lot to be gained from cooperating,” …",
+          "Dan Ives, partner at Yorkville Ives & Co, estimated there is an 80% to 90% chance …"
+        ],
+        "figures": [
+          {
+            "value": "10%",
+            "context": "The rocket and satellite firm was up 10% Wednesday morning after reporting third-quarter r"
+          },
+          {
+            "value": "$14.6 billion",
+            "context": "morning after reporting third-quarter revenue of $14.6 billion – up a whopping 161% from the previous year. That"
+          },
+          {
+            "value": "161%",
+            "context": "d-quarter revenue of $14.6 billion – up a whopping 161% from the previous year. That included roughly $7."
+          },
+          {
+            "value": "$7.6 billion",
+            "context": "61% from the previous year. That included roughly $7.6 billion from its AI division – now called SI, a nod …"
+          },
+          {
+            "value": "80%",
+            "context": "tner at Yorkville Ives & Co, estimated there is an 80% to 90% chance that Tesla and SpaceX merge by …"
+          },
+          {
+            "value": "90%",
+            "context": "Yorkville Ives & Co, estimated there is an 80% to 90% chance that Tesla and SpaceX merge by the end …"
+          }
+        ],
+        "wordsRead": 474
+      },
+      {
+        "n": "Nikkei Asia",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Elon Musk says SpaceX and Tesla discussing possible merger",
+        "u": "https://asia.nikkei.com/business/aerospace-defense-industries/elon-musk-says-spacex-and-tesla-discussing-possible-merger",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-21T15:51:27.115Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "PALO ALTO, California -- …"
+        ],
+        "figures": [],
+        "wordsRead": 43
       }
     ],
     "views": [
@@ -2034,362 +2833,31 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Ukraine launches more than 1,000 drones at Russia, striking oil facilities in St. Petersburg",
-            "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-drones-st-petersburg/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Ukraine Launches Over 1,000 Drones At Russia, Hitting Oil Depots, Amid Trump’s Demand For Energy Ceasefire",
-            "url": "https://dailycaller.com/2026/10/18/ukraine-drones-russia-oil-st-petersburg-trump-sanctions"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Demand For Energy Ceasefire",
-        "Ukraine Launches Over",
-        "Hitting Oil Depots",
-        "Drones At Russia",
-        "St. Petersburg",
-        "Amid Trump"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Demand For Energy Ceasefire",
-            "Ukraine Launches Over",
-            "Hitting Oil Depots",
-            "Drones At Russia",
-            "St. Petersburg",
-            "Amid Trump"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1hjmhv7",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-20T11:12:40.000Z",
-    "lastSeen": "2026-10-20T15:20:11.000Z",
-    "outletCount": 8,
-    "outlets": [
-      "Washington Examiner",
-      "New York Post",
-      "Globe and Mail",
-      "Politico Europe",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
-    "clustering": {
-      "min": 0.3772934681193902,
-      "max": 0.6682136207793028,
-      "pairs": 16,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK deploying fighter jets to defend Saudi Arabia from Houthi attacks",
-        "u": "https://www.washingtonexaminer.com/news/world/4771938/uk-fighter-jets-saudi-arabia-houthi-attacks/",
-        "publishedAt": "2026-10-20T14:45:02.000Z",
-        "retrievedAt": "2026-10-20T15:34:06.073Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The U.K. says the attacks are “unacceptable,” adding that thwarting the Houthis is in its “national economic and security interest.”",
-          "The United Kingdom announced Tuesday that the Royal Air Force is deploying …"
-        ],
-        "figures": [],
-        "wordsRead": 327
-      },
-      {
-        "n": "New York Post",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK will deploy Typhoon fighter jets to defend Saudi Arabia from Houthi attacks",
-        "u": "https://nypost.com/2026/10/20/world-news/uk-will-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/",
-        "publishedAt": "2026-10-20T15:20:11.000Z",
-        "retrievedAt": "2026-10-20T15:34:09.266Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "LONDON, Oct 20 (Reuters) – Britain will fly Royal Air Force Typhoon fighter jets on defensive missions to help protect Saudi cities and critical …"
-        ],
-        "figures": [],
-        "wordsRead": 241
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.K. expands military support for Saudi Arabia against Houthis",
-        "u": "https://www.theglobeandmail.com/world/article-uk-military-support-saudi-arabia-houthis/",
-        "publishedAt": "2026-10-20T11:52:56.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Defense Secretary Wes Streeting said Royal Air Force Typhoon jets will “conduct defensive counter-air operations over Saudi Arabia, helping to protect Saudi cities, civilian populations and critical national infrastructure” from …",
-          "Streeting called the attacks “despicable” and said targeting the airport showed “the …"
-        ],
-        "figures": [],
-        "wordsRead": 435
-      },
-      {
-        "n": "Politico Europe",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK to deploy fighter jets to help Saudis against Houthi attacks",
-        "u": "https://www.politico.eu/article/uk-to-deploy-fighter-jets-to-help-saudis-against-houthi-attacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-        "publishedAt": "2026-10-20T12:31:54.000Z",
-        "retrievedAt": "2026-10-20T15:34:27.603Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This builds on the UK equipment and personnel we already have in the country to defend against Houthi air attacks,” Streeting said.",
-          "“The targeting of the airport in Riyadh in particular shows the lengths the …"
-        ],
-        "figures": [],
-        "wordsRead": 359
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
-        "u": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss",
-        "publishedAt": "2026-10-20T11:37:43.000Z",
-        "retrievedAt": "2026-10-20T15:34:42.517Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“What’s happening in the Gulf has a direct impact on people’s homes,” she said, adding that the move “shows increasing engagement by the UK” in the region.",
-          "“The UK will fly defensive counter air missions …"
-        ],
-        "figures": [],
-        "wordsRead": 352
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK to deploy aircraft to protect Saudi Arabia from Houthi attacks",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-deploy-aircraft-protect-saudi-arabia-houthi-attacks",
-        "publishedAt": "2026-10-20T11:12:40.000Z",
-        "retrievedAt": "2026-10-20T15:34:43.895Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Ministry of Defence said the …"
-        ],
-        "figures": [],
-        "wordsRead": 66
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
-        "u": "https://www.arabnews.com/saudi-arabia/uk-expands-military-support-for-saudi-arabia-against-houthis-to-include-defensive-air-patrols-3007315",
-        "publishedAt": "2026-10-20T11:36:48.000Z",
-        "retrievedAt": "2026-10-20T15:34:45.163Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
-        "publishedAt": "2026-10-20T12:04:05.000Z",
-        "retrievedAt": "2026-10-20T15:34:48.670Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
             "country": "UK",
-            "evidenceIndex": 5,
-            "headline": "UK to deploy aircraft to protect Saudi Arabia from Houthi attacks",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-deploy-aircraft-protect-saudi-arabia-houthi-attacks"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "U.K. expands military support for Saudi Arabia against Houthis",
-            "url": "https://www.theglobeandmail.com/world/article-uk-military-support-saudi-arabia-houthis/"
+            "evidenceIndex": 0,
+            "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+            "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "outlet": "Politico Europe",
-            "outletId": "politico-eu",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "UK to deploy fighter jets to help Saudis against Houthi attacks",
-            "url": "https://www.politico.eu/article/uk-to-deploy-fighter-jets-to-help-saudis-against-houthi-attacks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+            "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Nikkei Asia",
+            "outletId": "nikkeiasia",
+            "lean": "centre",
+            "country": "JP",
+            "evidenceIndex": 4,
+            "headline": "Elon Musk says SpaceX and Tesla discussing possible merger",
+            "url": "https://asia.nikkei.com/business/aerospace-defense-industries/elon-musk-says-spacex-and-tesla-discussing-possible-merger"
           }
         ],
         "status": "sourced",
@@ -2404,18 +2872,18 @@
             "outletId": "washexaminer",
             "lean": "lean_right",
             "country": "US",
-            "evidenceIndex": 0,
-            "headline": "UK deploying fighter jets to defend Saudi Arabia from Houthi attacks",
-            "url": "https://www.washingtonexaminer.com/news/world/4771938/uk-fighter-jets-saudi-arabia-houthi-attacks/"
+            "evidenceIndex": 2,
+            "headline": "Musk explores merging SpaceX and Tesla, calling it a ‘good idea’",
+            "url": "https://www.washingtonexaminer.com/news/business/4773722/musk-spacex-tesla-merger-good-idea/"
           },
           {
             "outlet": "New York Post",
             "outletId": "nypost",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 1,
-            "headline": "UK will deploy Typhoon fighter jets to defend Saudi Arabia from Houthi attacks",
-            "url": "https://nypost.com/2026/10/20/world-news/uk-will-deploy-typhoon-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/"
+            "evidenceIndex": 3,
+            "headline": "SpaceX jumps 10% and Tesla rises on stunning revenue surge, possible merger",
+            "url": "https://nypost.com/2026/10/21/business/spacex-jumps-10-tesla-rises-on-stunning-revenue-surge-and-possible-merger/"
           }
         ],
         "status": "sourced",
@@ -2426,46 +2894,14 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 4,
-        "headline": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
-        "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 6,
-        "headline": "UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols",
-        "url": "https://www.arabnews.com/saudi-arabia/uk-expands-military-support-for-saudi-arabia-against-houthis-to-include-defensive-air-patrols-3007315",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 7,
-        "headline": "UK to deploy fighter planes to help Saudi Arabia’s defence against Houthis",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Saudi Arabia",
-        "Houthi",
-        "Houthis",
-        "Typhoon",
-        "Saudis"
+        "SpaceX",
+        "Tesla",
+        "Elon Musk",
+        "Musk"
       ],
       "attempts": [
         {
@@ -2474,11 +2910,10 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Saudi Arabia",
-            "Houthi",
-            "Houthis",
-            "Typhoon",
-            "Saudis"
+            "SpaceX",
+            "Tesla",
+            "Elon Musk",
+            "Musk"
           ]
         },
         {
@@ -2558,108 +2993,58 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cnnikbe",
+    "id": "c1r03lgf",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
         "Europe": 1
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-19T10:43:29.000Z",
-    "lastSeen": "2026-10-20T11:29:35.000Z",
-    "outletCount": 6,
+    "firstSeen": "2026-10-19T00:45:15.000Z",
+    "lastSeen": "2026-10-21T04:25:58.000Z",
+    "outletCount": 3,
     "outlets": [
-      "NPR",
-      "BBC News",
-      "Globe and Mail",
+      "Fox News",
       "Deutsche Welle",
-      "Al Jazeera",
-      "South China Morning Post"
+      "Middle East Eye"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3880150218491256,
-      "max": 0.7194534729744783,
-      "pairs": 8,
+      "min": 0.3770250110407988,
+      "max": 0.6065363291575321,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "NPR",
-        "b": "lean_left",
+        "n": "Fox News",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
-        "u": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
-        "publishedAt": "2026-10-19T11:38:43.000Z",
-        "retrievedAt": "2026-10-20T15:34:00.707Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Man charged with attack on Australian MP as suspect's father says she is family friend",
-        "u": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-20T11:25:35.000Z",
-        "retrievedAt": "2026-10-20T15:34:01.955Z",
+        "t": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks",
+        "u": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks",
+        "publishedAt": "2026-10-19T00:45:15.000Z",
+        "retrievedAt": "2026-10-21T15:50:35.349Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "His father and his partner said they had been friends with Haines \"for more than 20 years\" and thanked residents and officers who helped her after the \"shocking and horrific …",
-          "\"Helen Haines is a deeply respected, valued and much loved member of our …"
+          "\"Please be advised that remote working arrangements are mandatory for all office employees at Kingdom Centre, effective immediately and until further notice,\" building management said in an email obtained by …",
+          "Management at the 99-story Kingdom Centre, a landmark on Riyadh's skyline, ordered office employees to work remotely until further notice, according to reporting by Agence France-Presse (AFP).",
+          "Turki al-Maliki, spokesperson for the …"
         ],
         "figures": [],
-        "wordsRead": 442
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Australian lawmaker critically injured in apparent deliberate vehicle attack",
-        "u": "https://www.theglobeandmail.com/world/article-australian-lawmaker-helen-haines-critically-vehicle-attack/",
-        "publishedAt": "2026-10-19T10:43:29.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“A knife was located by police and seized from inside the Toyota,” police said.",
-          "“I think there has been a rise in temperature and there has been too much shouting, not enough discourse, not enough polite conversation and disagreement,” he said Monday."
-        ],
-        "figures": [],
-        "wordsRead": 424
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Driver arrested after car hits Australian lawmaker",
-        "u": "https://www.theglobeandmail.com/world/video-driver-arrested-after-car-hits-australian-lawmaker/",
-        "publishedAt": "2026-10-19T19:25:22.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
-        "read": "headline and feed excerpt"
+        "wordsRead": 632
       },
       {
         "n": "Deutsche Welle",
@@ -2668,343 +3053,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Australian MP seriously hurt in suspected car attack",
-        "u": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-20T06:02:00.000Z",
-        "retrievedAt": "2026-10-20T15:34:30.895Z",
+        "t": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+        "u": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-10-21T01:23:00.000Z",
+        "retrievedAt": "2026-10-21T15:51:02.365Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"I just leant over him and once he was on the ground and ‌he was ​no longer a threat, I just stood with him and I told him that he …",
-          "Jefferies told journalists his first thought had been: \"My wife would be disappointed if I'm injured.\"",
-          "Ben Carroll, the state premier for Victoria where Wangaratta is located …"
+          "\"The continuing attacks from the Houthis on our ally Saudi Arabia are absolutely despicable,\" British Defense Secretary Wes Streeting said.",
+          "Britain will deploy Royal Air Force Typhoon fighter jets to Saudi Arabia to help defend the kingdom against increasing attacks by Yemen's Houthi rebels, the UK government announced on Tuesday."
         ],
         "figures": [],
-        "wordsRead": 587
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Australian MP Helen Haines remains in critical condition after car attack",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/20/australian-mp-helen-haines-remains-in-critical-condition-after-car-attack-2?traffic_source=rss",
-        "publishedAt": "2026-10-20T11:29:35.000Z",
-        "retrievedAt": "2026-10-20T15:34:42.517Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Australian police charge man after attack on MP Helen Haines",
-        "u": "https://www.scmp.com/news/asia/australasia/article/3371447/heroic-barber-recalls-tackling-car-attacker-australian-mp-helen-haines",
-        "publishedAt": "2026-10-20T03:12:46.000Z",
-        "retrievedAt": "2026-10-20T15:34:48.670Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
-            "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "Man charged with attack on Australian MP as suspect's father says she is family friend",
-            "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Australian lawmaker critically injured in apparent deliberate vehicle attack",
-            "url": "https://www.theglobeandmail.com/world/article-australian-lawmaker-helen-haines-critically-vehicle-attack/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 3,
-            "headline": "Driver arrested after car hits Australian lawmaker",
-            "url": "https://www.theglobeandmail.com/world/video-driver-arrested-after-car-hits-australian-lawmaker/"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 4,
-            "headline": "Australian MP seriously hurt in suspected car attack",
-            "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "Australian MP Helen Haines remains in critical condition after car attack",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/australian-mp-helen-haines-remains-in-critical-condition-after-car-attack-2?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 6,
-        "headline": "Australian police charge man after attack on MP Helen Haines",
-        "url": "https://www.scmp.com/news/asia/australasia/article/3371447/heroic-barber-recalls-tackling-car-attacker-australian-mp-helen-haines",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Australian",
-        "Australian MP",
-        "Australian MP Helen Haines",
-        "MP Helen Haines",
-        "Driver"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Australian",
-            "Australian MP",
-            "Australian MP Helen Haines",
-            "MP Helen Haines",
-            "Driver"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c8ujer1",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-19T06:00:18.000Z",
-    "lastSeen": "2026-10-20T06:49:35.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "Middle East Eye",
-      "Taipei Times"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.36535535997689683,
-      "max": 0.6939698143764285,
-      "pairs": 4,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Funding shortages force World Food Programme to cut aid to Gaza",
-        "u": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-19T06:00:18.000Z",
-        "retrievedAt": "2026-10-20T15:34:01.955Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "One of the main suppliers of food aid to the Gaza Strip, the World Food Programme (WFP), says that it is being forced to \"drastically reduce lifesaving assistance\" to the …",
-          "\"The flour isn't enough and the food boxes aren't enough either,\" said Dalal al-Dahdouh, who is living in the ruins of her home in Gaza City with her family of …",
-          "\"Sometimes we wait for these meals to eat.\""
-        ],
-        "figures": [
-          {
-            "value": "1.6 million",
-            "context": "by the UN agency will drop by about a third - from 1.6 million to 1.1 million. The cuts will …"
-          },
-          {
-            "value": "1.1 million",
-            "context": "y will drop by about a third - from 1.6 million to 1.1 million. The cuts will hit as winter …"
-          },
-          {
-            "value": "2.1 million",
-            "context": "y other day instead of daily. Nearly all of Gaza's 2.1 million population remains displaced and two-thirds rely"
-          }
-        ],
-        "wordsRead": 849
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Funding shortages force World Food Programme to cut aid to 500,000 Palestinians in Gaza",
-        "u": "https://www.theglobeandmail.com/world/article-un-world-food-programme-aid-gaza-funding/",
-        "publishedAt": "2026-10-19T12:05:51.000Z",
-        "retrievedAt": "2026-10-20T15:34:12.154Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“On top of the circumstances and the difficult life, you want to make it even harder on us,” said Palestinian woman Sabrine Kuhail, standing by a tent shelter at a …",
-          "The UN World Food Programme has said funding shortages are forcing major cuts to its …"
-        ],
-        "figures": [
-          {
-            "value": "1.1 million",
-            "context": "number of recipients of its monthly assistance to 1.1 million people from 1.6 million. In addition, food ration"
-          },
-          {
-            "value": "1.6 million",
-            "context": "its monthly assistance to 1.1 million people from 1.6 million. In addition, food rations have been halved, cash"
-          },
-          {
-            "value": "1.4 million",
-            "context": "hot meal only every other day. The WFP said about 1.4 million people, or two-thirds of Gaza’s population, face"
-          }
-        ],
-        "wordsRead": 468
+        "wordsRead": 536
       },
       {
         "n": "Middle East Eye",
@@ -3013,49 +3072,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "World Food Programme says ending aid for half million in Gaza due to funding shortfall",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/world-food-programme-says-ending-aid-half-million-gaza-due-funding-0",
-        "publishedAt": "2026-10-20T06:49:35.000Z",
-        "retrievedAt": "2026-10-20T15:34:43.895Z",
+        "t": "UK to deploy fighter jets, military advisers to Saudi Arabia as defence from Houthi attacks",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-deploy-fighter-jets-military-advisers-saudi-arabia-defence-houthi",
+        "publishedAt": "2026-10-21T04:25:58.000Z",
+        "retrievedAt": "2026-10-21T15:51:16.918Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"Now is not the time …"
+          "\"The continuing attacks from the Houthis on our ally Saudi Arabia are …"
         ],
         "figures": [],
-        "wordsRead": 53
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "WFP cuts aid to 500,000 Palestinians as funds shrink",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/10/20/2003866275",
-        "publishedAt": "2026-10-20T00:00:00.000Z",
-        "retrievedAt": "2026-10-20T15:34:51.319Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The UN World Food Programme (WFP) has said that funding shortages are forcing major cuts to its aid program in Gaza, leaving about 500,000 people without monthly food support in …",
-          "The WFP said it was reducing the number of recipients of its monthly assistance to 1.1 million people from 1.6 million.",
-          "The WFP said it urgently needs US$450 million over the next six months to maintain critical operations in Gaza and the Israeli-occupied West …"
-        ],
-        "figures": [
-          {
-            "value": "1.1 million",
-            "context": "number of recipients of its monthly assistance to 1.1 million people from 1.6 million. In addition, food ration"
-          },
-          {
-            "value": "1.6 million",
-            "context": "its monthly assistance to 1.1 million people from 1.6 million. In addition, food rations have been halved, cash"
-          },
-          {
-            "value": "1.4 million",
-            "context": "heir tent after rain in Gaza City on Sunday. About 1.4 million people, or two-thirds of Gaza’s population, face"
-          }
-        ],
-        "wordsRead": 752
+        "wordsRead": 120
       }
     ],
     "views": [
@@ -3069,8 +3095,250 @@
             "lean": "left",
             "country": "UK",
             "evidenceIndex": 2,
-            "headline": "World Food Programme says ending aid for half million in Gaza due to funding shortfall",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/world-food-programme-says-ending-aid-half-million-gaza-due-funding-0"
+            "headline": "UK to deploy fighter jets, military advisers to Saudi Arabia as defence from Houthi attacks",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-deploy-fighter-jets-military-advisers-saudi-arabia-defence-houthi"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+            "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks",
+            "url": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Saudi Arabia",
+        "Houthi",
+        "Iconic Kingdom Centre"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Saudi Arabia",
+            "Houthi",
+            "Iconic Kingdom Centre"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cxfx4zf",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-19T13:28:24.000Z",
+    "lastSeen": "2026-10-20T14:09:42.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.368745908047026,
+      "max": 0.5166388295510295,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
+        "u": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-20T14:09:42.000Z",
+        "retrievedAt": "2026-10-21T15:50:29.482Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Saudi-backed Yemeni armed forces said the Iran-backed group launched three ballistic missiles at al-Alam camp near Ataq city, which was being used as a training centre for recruits to …",
+          "But on Tuesday, it said in a new statement that Governor Awad bin al-Wazir had been informed by an investigative committee that the death toll was now 73, with another …"
+        ],
+        "figures": [],
+        "wordsRead": 658
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Houthis strike government military camp in southern Yemen, killing at least 53 soldiers",
+        "u": "https://www.theglobeandmail.com/world/article-houthi-strike-government-military-camp-yemen/",
+        "publishedAt": "2026-10-19T13:30:59.000Z",
+        "retrievedAt": "2026-10-21T15:50:40.680Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This bloody, treacherous attack targeted new recruits in the training and preparation phase and is considered an extremely critical military escalation and a blatant aggression on the security and stability …",
+          "He said the attack reflects the Houthis’ “approach of resorting to cowardly terrorist attacks whenever they face pressures or their Iranian-backed sabotage plots falter.”"
+        ],
+        "figures": [],
+        "wordsRead": 565
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Houthi rebels strike government military base in southern Yemen, killing 53",
+        "u": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
+        "publishedAt": "2026-10-19T13:28:24.000Z",
+        "retrievedAt": "2026-10-21T15:51:11.164Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Houthi rebels strike government military base in southern Yemen, killing 53",
+            "url": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000"
           }
         ],
         "status": "sourced",
@@ -3086,8 +3354,8 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Funding shortages force World Food Programme to cut aid to Gaza",
-            "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss"
+            "headline": "Houthi missile strike on Yemen camp kills 73 security recruits, local authorities say",
+            "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
@@ -3095,8 +3363,8 @@
             "lean": "centre",
             "country": "CA",
             "evidenceIndex": 1,
-            "headline": "Funding shortages force World Food Programme to cut aid to 500,000 Palestinians in Gaza",
-            "url": "https://www.theglobeandmail.com/world/article-un-world-food-programme-aid-gaza-funding/"
+            "headline": "Houthis strike government military camp in southern Yemen, killing at least 53 soldiers",
+            "url": "https://www.theglobeandmail.com/world/article-houthi-strike-government-military-camp-yemen/"
           }
         ],
         "status": "sourced",
@@ -3114,25 +3382,13 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 3,
-        "headline": "WFP cuts aid to 500,000 Palestinians as funds shrink",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/20/2003866275",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "World Food Programme",
-        "Gaza",
-        "Palestinians",
-        "Funding"
+        "Yemen",
+        "Houthi",
+        "Houthis"
       ],
       "attempts": [
         {
@@ -3205,71 +3461,7 @@
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
-    "disputedCandidates": [
-      {
-        "kind": "count",
-        "about": [
-          "people",
-          "food"
-        ],
-        "spread": 0.643,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "1.4 million",
-            "url": "https://www.theglobeandmail.com/world/article-un-world-food-programme-aid-gaza-funding/"
-          },
-          {
-            "outlet": "Taipei Times",
-            "value": "500,000",
-            "url": "https://www.taipeitimes.com/News/front/archives/2026/10/20/2003866275"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "population",
-          "thirds"
-        ],
-        "spread": 0.333,
-        "readings": [
-          {
-            "outlet": "BBC News",
-            "value": "2.1 million",
-            "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "value": "1.4 million",
-            "url": "https://www.theglobeandmail.com/world/article-un-world-food-programme-aid-gaza-funding/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "population",
-          "thirds"
-        ],
-        "spread": 0.333,
-        "readings": [
-          {
-            "outlet": "BBC News",
-            "value": "2.1 million",
-            "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Taipei Times",
-            "value": "1.4 million",
-            "url": "https://www.taipeitimes.com/News/front/archives/2026/10/20/2003866275"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
+    "disputedCandidates": [],
     "headline": null,
     "sub": null,
     "cat": null,

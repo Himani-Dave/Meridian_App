@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-20T15:33:54.050Z",
-  "finishedAt": "2026-10-20T15:39:39.328Z",
+  "startedAt": "2026-10-21T15:50:21.780Z",
+  "finishedAt": "2026-10-21T15:56:42.388Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,44 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1038,
-    "totalItems": 1045,
-    "clusters": 961,
+    "rssItems": 1071,
+    "totalItems": 1066,
+    "clusters": 977,
     "candidates": 12,
-    "articlesRead": 32
+    "articlesRead": 39
   },
   "balance": {
-    "left": 6,
-    "centre": 11,
-    "right": 4,
+    "left": 7,
+    "centre": 9,
+    "right": 9,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 5
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 41
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
-    "29 multi-outlet clusters were left out by --max-stories 12."
+    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -154,38 +155,37 @@
     },
     {
       "layer": "discovery",
+      "source": "GDELT: India policy",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/canadian/above-all-albertans-chose-canada-carney-hails-decisive-referendum-result/78010",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371510/ukraine-us-hold-norway-peace-talks-amid-rising-zelensky-trump-tension",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/21/418900/bharat/punjab/murder-case-of-anti-drug-activist-parvinder-singh-cbi-takes-over-probe-files-fresh-fir-post-mortem-to-be-done-at-pgi/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
       "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/argentinas-milei-calls-spain-pm-sanchez-a-dictator-in-madrid-visit-3007530",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -195,8 +195,44 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/australian-mp-helen-haines-remains-in-critical-condition-after-car-attack-2?traffic_source=rss",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-nigeria-confirms-ebola-in-a-patient-who-traveled-from-uganda/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-21/ty-article/.premium/democratic-congressional-candidate-brad-lander-detained-in-west-bank-group-says/000001a1-5de3-da49-abe9-5ffb7b750000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/death-toll-from-sudan-army-strike-in-disputed-territory-rises-to-153-local-authority-3007547",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3371608/drone-strike-market-disputed-sudan-border-region-kills-least-153",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
