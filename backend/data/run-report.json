@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-21T15:50:21.780Z",
-  "finishedAt": "2026-10-21T15:56:42.388Z",
+  "startedAt": "2026-10-22T15:47:46.017Z",
+  "finishedAt": "2026-10-22T15:52:34.252Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -18,15 +18,15 @@
   },
   "counts": {
     "rssItems": 1071,
-    "totalItems": 1066,
-    "clusters": 977,
+    "totalItems": 1068,
+    "clusters": 993,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 37
   },
   "balance": {
-    "left": 7,
-    "centre": 9,
-    "right": 9,
+    "left": 6,
+    "centre": 10,
+    "right": 7,
     "none": 0
   },
   "regionFill": {
@@ -37,25 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 13
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 41
     }
   },
   "starvedSides": [],
   "notes": [
-    "31 multi-outlet clusters were left out by --max-stories 12.",
+    "29 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -161,30 +161,18 @@
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/21/418900/bharat/punjab/murder-case-of-anti-drug-activist-parvinder-singh-cbi-takes-over-probe-files-fresh-fir-post-mortem-to-be-done-at-pgi/",
-      "reason": "HTTP 403"
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+      "url": "https://www.npr.org/2026/10/21/nx-s1-6010608/putin-releases-american-stephen-hubbard-from-russian-prison",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/argentinas-milei-calls-spain-pm-sanchez-a-dictator-in-madrid-visit-3007530",
+      "url": "https://www.scmp.com/news/world/europe/article/3371801/eu-gives-top-human-rights-award-icc-amid-trump-sanctions",
       "reason": "HTTP 403"
     },
     {
@@ -195,44 +183,32 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-nigeria-confirms-ebola-in-a-patient-who-traveled-from-uganda/",
+      "url": "https://www.theglobeandmail.com/canada/video-authorities-in-busan-launch-third-attempt-to-send-canal-trapped-shark/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6010460/brad-lander-detained-west-bank-israel-palestinians",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-21/ty-article/.premium/democratic-congressional-candidate-brad-lander-detained-in-west-bank-group-says/000001a1-5de3-da49-abe9-5ffb7b750000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/shark-returns-to-south-korea-canal-after-failed-rescue-attempt?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Arab News",
-      "url": "https://www.arabnews.com/middle-east/death-toll-from-sudan-army-strike-in-disputed-territory-rises-to-153-local-authority-3007547",
+      "url": "https://www.arabnews.com/world/germany-arrests-ukrainian-accused-of-spying-for-russia-3007745",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3371608/drone-strike-market-disputed-sudan-border-region-kills-least-153",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371825/zuckerberg-gets-new-meta-shares-stay-california-amid-billionaire-tax-vote",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-19/ty-article/houthi-missile-attack-on-saudi-backed-yemeni-army-base-kills-53/000001a1-5419-d46e-a1e5-749d28b30000",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-10-22/ty-article/.premium/knesset-candidates-join-far-right-activists-to-block-gaza-aid-trucks/000001a1-62d4-d5c9-adad-f2d4cda20000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
