@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-23T15:39:03.414Z",
-  "finishedAt": "2026-10-23T15:44:30.737Z",
+  "startedAt": "2026-10-24T14:16:39.961Z",
+  "finishedAt": "2026-10-24T14:21:22.593Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1072,
-    "totalItems": 1068,
-    "clusters": 978,
+    "rssItems": 1047,
+    "totalItems": 1064,
+    "clusters": 969,
     "candidates": 12,
-    "articlesRead": 38
+    "articlesRead": 36
   },
   "balance": {
-    "left": 4,
-    "centre": 12,
+    "left": 7,
+    "centre": 8,
     "right": 5,
-    "none": 0
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 9
+      "availableInRegion": 11
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 42
+      "availableInRegion": 45
     }
   },
   "starvedSides": [],
   "notes": [
-    "30 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 100 articles, 27 from roster outlets, 73 from outlets not in the roster (discovery only, not ingested).",
+    "33 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,23 +151,36 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/canadian/ottawa-orders-diplomats-to-avoid-us-midterm-candidates/78122",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371986/trump-lowers-some-canada-tariffs-help-maine-lawmakers-re-election-bid",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-paris-suburb-shooting-considered-a-terrorist-crime-french-interior/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -177,21 +191,21 @@
     },
     {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests-3007895",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/politics/article/3371901/typhoon-champi-grounds-hundreds-flights-taiwan-threatens-eastern-mainland-china",
-      "reason": "HTTP 403"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -201,15 +215,15 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3371976/meghan-markle-distressed-philippines-probes-father-over-child-sexual-abuse-images",
-      "reason": "HTTP 403"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/.premium/netanyahu-warns-of-banking-sanctions-on-israel-floats-crypto-as-possible-bypass/000001a1-6980-db3a-a9fb-fdabc11e0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-      "reason": "timeout after 20000ms"
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
