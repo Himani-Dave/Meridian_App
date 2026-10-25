@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-24T14:16:39.961Z",
-  "finishedAt": "2026-10-24T14:21:22.593Z",
+  "startedAt": "2026-10-25T14:51:27.510Z",
+  "finishedAt": "2026-10-25T14:58:24.998Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,23 +17,23 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1047,
-    "totalItems": 1064,
-    "clusters": 969,
+    "rssItems": 1007,
+    "totalItems": 1006,
+    "clusters": 932,
     "candidates": 12,
     "articlesRead": 36
   },
   "balance": {
-    "left": 7,
-    "centre": 8,
+    "left": 8,
+    "centre": 10,
     "right": 5,
-    "none": 1
+    "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
@@ -43,19 +43,18 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 11
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 45
+      "availableInRegion": 34
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 27 from roster outlets, 73 from outlets not in the roster (discovery only, not ingested).",
-    "33 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "22 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
     "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
@@ -151,48 +150,41 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: Canada federal",
       "reason": "fetch failed"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: European Union",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "fetch failed"
+    },
+    {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371986/trump-lowers-some-canada-tariffs-help-maine-lawmakers-re-election-bid",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
+      "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-announces-general-west-bank-closure-on-israels-election-day/000001a1-6fe4-d9e6-a5b1-6feda7180000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-paris-suburb-shooting-considered-a-terrorist-crime-french-interior/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-23/ty-article/.premium/one-killed-four-wounded-in-terrorist-shooting-near-paris-authorities-say/000001a1-690d-d46d-a1fd-e90d46070000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack",
       "reason": "HTTP 403"
     },
     {
@@ -210,19 +202,31 @@
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-23/ty-article/reports-in-jordan-at-least-seven-killed-after-gunmen-open-fire-at-church/000001a1-68aa-d34e-a1b9-feefd8ce0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/.premium/netanyahu-warns-of-banking-sanctions-on-israel-floats-crypto-as-possible-bypass/000001a1-6980-db3a-a9fb-fdabc11e0000",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-25/ty-article/.premium/saudi-arabia-intercepts-drones-missiles-as-fighting-with-houthis-continues/000001a1-72cd-d46d-a1fd-f2cde9ec0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3372068/serbia-votes-ruling-party-faces-student-led-anti-corruption-list",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-forcibly-removes-2-231-palestinians-from-west-bank-city-deputy-mayor-says/000001a1-7230-dcd9-a5ab-7a314e280000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]

@@ -1,382 +1,104 @@
 [
   {
-    "id": "c1aseyeu",
+    "id": "c1451z58",
     "regions": [
-      "Canada",
+      "India",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 4,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "canada",
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-23T18:52:56.000Z",
-    "lastSeen": "2026-10-24T00:36:47.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "Arab News"
-    ],
-    "tier": "primary",
-    "tierBasis": "confirmed against 2 primary document(s)",
-    "clustering": {
-      "min": 0.38687451234414455,
-      "max": 0.4238234425895568,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-        "u": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-24T00:36:47.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "From 30 October, tariffs will be eased on products including \"plywood sheets, some paper products, certain machinery and refrigeration equipment\", the White House said on Friday.",
-          "Canada has imposed a series of countermeasures in response to the US tariffs, which Prime Minister Mark Carney said were \"necessary to protect our workers\".",
-          "It said the action reflected US President Donald Trump's …"
-        ],
-        "figures": [
-          {
-            "value": "50%",
-            "context": "The Trump administration is lifting some of its 50% tariffs on Canadian goods two weeks before the mi"
-          },
-          {
-            "value": "50%",
-            "context": "her state's agriculture industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods aft"
-          },
-          {
-            "value": "$20bn",
-            "context": "griculture industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods after trade talks"
-          },
-          {
-            "value": "£15bn",
-            "context": "ure industry. The US imposed a 50% levy on $20bn (£15bn) worth of Canadian goods after trade talks betwee"
-          }
-        ],
-        "wordsRead": 609
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. to drop 50% tariffs on certain Canadian products",
-        "u": "https://www.theglobeandmail.com/politics/article-trump-tariff-removal-susan-collins-canada-maine-midterms/",
-        "publishedAt": "2026-10-23T18:52:56.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Many of our farmers and growers rely on specialized equipment, packaging materials, and other products from Canada that are either unavailable from American suppliers or cannot be replaced without incurring …",
-          "“They’re a little hard to predict,” he said.",
-          "Ottawa doesn’t care about “the timing” of a deal, he said, even if it takes months “or longer than that, or another administration before a proper deal comes into place.”"
-        ],
-        "figures": [],
-        "wordsRead": 939
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump lifts some Canada tariffs ahead of midterms",
-        "u": "https://www.arabnews.com/world/trump-lifts-some-canada-tariffs-ahead-of-midterms-3007968",
-        "publishedAt": "2026-10-23T22:51:15.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The easing of tariffs will apply to products including “plywood sheets, some paper products, certain machinery and refrigeration equipment,” the White House said in a statement.",
-          "“The Canadian government takes note of these recent tariff measures adopted by the United States,” Dominic LeBlanc …"
-        ],
-        "figures": [],
-        "wordsRead": 437
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-            "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "U.S. to drop 50% tariffs on certain Canadian products",
-            "url": "https://www.theglobeandmail.com/politics/article-trump-tariff-removal-susan-collins-canada-maine-midterms/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Trump lifts some Canada tariffs ahead of midterms",
-        "url": "https://www.arabnews.com/world/trump-lifts-some-canada-tariffs-ahead-of-midterms-3007968",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Canadian",
-        "White House",
-        "Canada",
-        "Trump"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [
-            {
-              "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
-              "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
-              "published": "2026-10-02",
-              "publisher": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
-              "docType": "Rule",
-              "ref": "2026-20281",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
-              "url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
-              "published": "2026-09-30",
-              "publisher": "Transportation Department, National Highway Traffic Safety Administration",
-              "docType": "Rule",
-              "ref": "2026-19964",
-              "read": "metadata only — document not retrieved or read"
-            }
-          ],
-          "terms": [
-            "Canadian",
-            "White House",
-            "Canada",
-            "Trump"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [
-        {
-          "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
-          "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
-          "published": "2026-10-02",
-          "publisher": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
-          "docType": "Rule",
-          "ref": "2026-20281",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
-          "url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
-          "published": "2026-09-30",
-          "publisher": "Transportation Department, National Highway Traffic Safety Administration",
-          "docType": "Rule",
-          "ref": "2026-19964",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        }
-      ],
-      "gap": null
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cc4rvo1",
-    "regions": [
-      "Canada",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 3,
-        "India": 0,
+        "Canada": 0,
+        "India": 7,
         "Europe": 0
       },
       "matched": {
-        "Canada": [
-          "canada"
+        "India": [
+          "india",
+          "bjp",
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-23T20:04:15.000Z",
-    "lastSeen": "2026-10-23T22:03:07.000Z",
+    "firstSeen": "2026-10-23T05:26:36.000Z",
+    "lastSeen": "2026-10-25T14:11:29.000Z",
     "outletCount": 2,
     "outlets": [
-      "Guardian US",
-      "South China Morning Post"
+      "Scroll.in",
+      "Al Jazeera"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5226712496938917,
-      "max": 0.5226712496938917,
+      "min": 0.6341747884956589,
+      "max": 0.6341747884956589,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
-        "u": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
-        "publishedAt": "2026-10-23T22:03:07.000Z",
-        "retrievedAt": "2026-10-24T14:16:44.118Z",
+        "t": "Bangladesh has a higher per capita GDP than India. What does this mean for the BJP’s SIR push?",
+        "u": "https://scroll.in/article/1096594/bangladesh-has-a-higher-per-capita-gdp-than-india-what-does-this-mean-for-the-bjps-sir-push?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-23T05:26:36.000Z",
+        "retrievedAt": "2026-10-25T14:51:53.855Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Donald Trump dropped some of the US’s tariffs on Canada on Friday to “better serve the public interest” the White House said, handing a win to Susan Collins, the embattled …",
-          "“President Trump is further refining the scope of the July 20 and September 8 actions to better serve the public interest, and to ensure these measures continue to effectively offset …",
-          "“In my repeated conversations with Ambassador Greer, Secretary …"
+          "Bangladesh has higher per capita GDP than India – what does this mean for BJP’s SIR push?",
+          "Welcome to The India Fix by Shoaib Daniyal, a newsletter on Indian politics.",
+          "As always, if you’ve been sent this newsletter and like it, to get it in your inbox every week, sign up here (click on “follow”)."
         ],
         "figures": [],
-        "wordsRead": 707
+        "wordsRead": 744
       },
       {
-        "n": "South China Morning Post",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3371986/trump-lowers-some-canada-tariffs-help-maine-lawmakers-re-election-bid",
-        "publishedAt": "2026-10-23T20:04:15.000Z",
-        "retrievedAt": "2026-10-24T14:17:38.481Z",
-        "read": "headline and feed excerpt"
+        "t": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
+        "u": "https://www.aljazeera.com/news/2026/10/25/bangladesh-per-capita-gdp-forecast-to-outstrip-indias-what-does-it-mean?traffic_source=rss",
+        "publishedAt": "2026-10-25T14:11:29.000Z",
+        "retrievedAt": "2026-10-25T14:52:20.322Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“That’s a positive side of export-oriented manufacturing growth that Bangladesh is getting right,” he said.",
+          "Bangladesh’s per capita gross domestic product (GDP) is projected to be higher than that of Asia’s third largest economy, India, this year, according to the International Monetary Fund (IMF).",
+          "In 2029, based on current growth forecasts, India’s per capita GDP of $3,661 would top Bangladesh’s $3,334, according to the IMF."
+        ],
+        "figures": [
+          {
+            "value": "175 million",
+            "context": "d 2026 per capita GDP of Bangladesh, home to about 175 million people, is $2,886, compared with $2,749 in India"
+          },
+          {
+            "value": "$2,886,",
+            "context": "Bangladesh, home to about 175 million people, is $2,886, compared with $2,749 in India as Dhaka emerges as"
+          },
+          {
+            "value": "$2,749",
+            "context": "bout 175 million people, is $2,886, compared with $2,749 in India as Dhaka emerges as one of South Asia’s n"
+          },
+          {
+            "value": "$38bn",
+            "context": "d in 1971. Experts link the rise to the country’s $38bn garment industry, remittances and growing partici"
+          },
+          {
+            "value": "7 percent",
+            "context": "anwhile, the Indian economy is expected to grow by 7 percent this year, compared with 3.6 percent in Banglades"
+          },
+          {
+            "value": "3.6 percent",
+            "context": "cted to grow by 7 percent this year, compared with 3.6 percent in Bangladesh. So how should one read these …"
+          }
+        ],
+        "wordsRead": 825
       }
     ],
     "views": [
@@ -385,13 +107,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
             "evidenceIndex": 0,
-            "headline": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
-            "url": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada"
+            "headline": "Bangladesh has a higher per capita GDP than India. What does this mean for the BJP’s SIR push?",
+            "url": "https://scroll.in/article/1096594/bangladesh-has-a-higher-per-capita-gdp-than-india-what-does-this-mean-for-the-bjps-sir-push?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -419,23 +141,426 @@
     },
     "offAxis": [
       {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "HK",
+        "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3371986/trump-lowers-some-canada-tariffs-help-maine-lawmakers-re-election-bid",
+        "headline": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
+        "url": "https://www.aljazeera.com/news/2026/10/25/bangladesh-per-capita-gdp-forecast-to-outstrip-indias-what-does-it-mean?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Canada",
-        "Trump",
-        "Maine",
-        "Susan Collins"
+        "Bangladesh",
+        "India. What",
+        "India",
+        "What"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ccjtfui",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 4
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "germany",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-24T06:06:49.000Z",
+    "lastSeen": "2026-10-25T00:00:00.000Z",
+    "outletCount": 7,
+    "outlets": [
+      "BBC News",
+      "The Daily Caller",
+      "Globe and Mail",
+      "Euronews",
+      "Haaretz",
+      "South China Morning Post",
+      "Taipei Times"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 7 outlets",
+    "clustering": {
+      "min": 0.36039394063047286,
+      "max": 0.6297194753476588,
+      "pairs": 21,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+        "u": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-24T15:21:44.000Z",
+        "retrievedAt": "2026-10-25T14:51:35.195Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Bavaria's Interior Minister Joachim Herrmann told reporters that the site would \"under no circumstances remain a ruin\", broadcaster BR24 reported.",
+          "It serves as \"a cautionary reminder of the abysses of the inhumane Nazi dictatorship\", according to its official website , external .",
+          "In June, Berlin authorities announced they would tear down one of Hitler's bunkers …"
+        ],
+        "figures": [],
+        "wordsRead": 553
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+        "u": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-24T15:56:48.000Z",
+        "retrievedAt": "2026-10-25T14:51:35.195Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Adolf Hitler's Alpine mountain retreat, known as the Eagle's …"
+        ],
+        "figures": [],
+        "wordsRead": 93
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hitler’s Infamous Bavarian ‘Eagle’s Nest’ Retreat Set Ablaze In Suspected Arson",
+        "u": "https://dailycaller.com/2026/10/24/hitler-eagles-nest-kehlsteinhaus-fire-suspected-arson",
+        "publishedAt": "2026-10-24T17:11:27.000Z",
+        "retrievedAt": "2026-10-25T14:51:45.618Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Crews could get inside the burning building only with “heavy breathing apparatus,” according to police spokeswoman Lisa Maier.",
+          "Roughly 200 firefighters found the Kehlsteinhaus fully alight when they reached the summit …"
+        ],
+        "figures": [],
+        "wordsRead": 317
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fire devastates Eagle’s Nest retreat built for Hitler, one suspect detained",
+        "u": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/",
+        "publishedAt": "2026-10-24T12:38:09.000Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We’re not going to leave a ruin there,” Bavaria’s interior minister, Joachim Herrmann, told reporters in Berchtesgaden.",
+          "A fire swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind, and …"
+        ],
+        "figures": [],
+        "wordsRead": 472
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+        "u": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
+        "publishedAt": "2026-10-24T14:11:34.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Around 200 firefighters were deployed to tackle …"
+        ],
+        "figures": [],
+        "wordsRead": 76
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
+        "u": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria",
+        "publishedAt": "2026-10-24T06:17:50.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A fire alarm was raised at around 9:15 pm, with firefighters reporting \"clearly visible\" flames as they approached the site, finding it …"
+        ],
+        "figures": [],
+        "wordsRead": 228
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
+        "u": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
+        "publishedAt": "2026-10-24T06:06:49.000Z",
+        "retrievedAt": "2026-10-25T14:52:15.946Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
+        "u": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat",
+        "publishedAt": "2026-10-24T16:35:33.000Z",
+        "retrievedAt": "2026-10-25T14:52:27.402Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fire breaks out at Adolf Hitler’s mountain retreat",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866593",
+        "publishedAt": "2026-10-25T00:00:00.000Z",
+        "retrievedAt": "2026-10-25T14:52:30.525Z",
+        "read": "headline only"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 6,
+            "headline": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
+            "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+            "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+            "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Fire devastates Eagle’s Nest retreat built for Hitler, one suspect detained",
+            "url": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+            "url": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 5,
+            "headline": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
+            "url": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Hitler’s Infamous Bavarian ‘Eagle’s Nest’ Retreat Set Ablaze In Suspected Arson",
+            "url": "https://dailycaller.com/2026/10/24/hitler-eagles-nest-kehlsteinhaus-fire-suspected-arson"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 7,
+        "headline": "German man detained after fire wrecks Hitler’s ‘Eagle’s Nest’ mountain retreat",
+        "url": "https://www.scmp.com/news/world/europe/article/3372039/german-man-detained-after-fire-wrecks-hitlers-eagles-nest-mountain-retreat",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 8,
+        "headline": "Fire breaks out at Adolf Hitler’s mountain retreat",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866593",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Eagle's Nest",
+        "Hitler",
+        "Eagle",
+        "Fire",
+        "Nest",
+        "Hitler's"
       ],
       "attempts": [
         {
@@ -444,10 +569,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Canada",
-            "Trump",
-            "Maine",
-            "Susan Collins"
+            "Eagle's Nest",
+            "Hitler",
+            "Eagle",
+            "Fire",
+            "Nest",
+            "Hitler's"
           ]
         },
         {
@@ -527,571 +654,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1gobhvk",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 3,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "india"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-24T00:00:00.000Z",
-    "lastSeen": "2026-10-24T02:15:05.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "South China Morning Post",
-      "Taipei Times"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.5392034646108007,
-      "max": 0.5392034646108007,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "French cooking schools fuel fine-dining dreams of India’s young chefs",
-        "u": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
-        "publishedAt": "2026-10-24T02:15:05.000Z",
-        "retrievedAt": "2026-10-24T14:17:38.481Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Ten or 15 years ago, there were far fewer young people dreaming of …"
-        ],
-        "figures": [],
-        "wordsRead": 134
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "India stirs up gastronomy with French cooking schools amid fine-dining boom",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/24/2003866548",
-        "publishedAt": "2026-10-24T00:00:00.000Z",
-        "retrievedAt": "2026-10-24T14:17:41.711Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Ten or 15 years ago, there were far fewer young people dreaming of becoming chefs,” said Aabhas Jain, director of bakery and pastry training at Ecole Ducasse, a French culinary …",
-          "“There are plenty of job opportunities,” said Saurav Chhabra, head of French hotel school Vatel’s Indian campus, which has been based in Gurugram since 2015.",
-          "“But with the rise of social media... today’s students have greater ambitions in this profession.”"
-        ],
-        "figures": [],
-        "wordsRead": 860
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 0 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 0,
-        "headline": "French cooking schools fuel fine-dining dreams of India’s young chefs",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3371991/french-cooking-schools-fuel-fine-dining-dreams-indias-young-chefs",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 1,
-        "headline": "India stirs up gastronomy with French cooking schools amid fine-dining boom",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/24/2003866548",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "French",
-        "India"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1how9an",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 7
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "germany",
-          "berlin",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-24T06:06:49.000Z",
-    "lastSeen": "2026-10-24T14:16:05.000Z",
-    "outletCount": 6,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "Euronews",
-      "Haaretz",
-      "Al Jazeera",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
-    "clustering": {
-      "min": 0.37543211080283845,
-      "max": 0.7432167752626415,
-      "pairs": 13,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-        "u": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-24T14:16:05.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Bavaria's Interior Minister Joachim Herrmann told reporters that the site would \"under no circumstances remain a ruin\", broadcaster BR24 reported.",
-          "\"It is important that we continue our work of remembrance,\" he said.",
-          "It serves as \"a cautionary reminder of the abysses of the inhumane Nazi dictatorship\", according to its official …"
-        ],
-        "figures": [],
-        "wordsRead": 500
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Fire devastates Eagle’s Nest retreat built for Hitler, one person detained",
-        "u": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/",
-        "publishedAt": "2026-10-24T12:38:09.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The retreat known as the Eagle’s Nest built for Adolf Hitler in the Bavarian Alps was almost completely destroyed in a fire, and work to extinguish the blaze …"
-        ],
-        "figures": [],
-        "wordsRead": 284
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
-        "u": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
-        "publishedAt": "2026-10-24T14:11:34.000Z",
-        "retrievedAt": "2026-10-24T14:17:13.225Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Around 200 firefighters were deployed to tackle …"
-        ],
-        "figures": [],
-        "wordsRead": 76
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
-        "u": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-        "publishedAt": "2026-10-24T06:17:50.000Z",
-        "retrievedAt": "2026-10-24T14:17:13.225Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A fire alarm was raised at around 9:15 pm, with firefighters reporting \"clearly visible\" flames as they approached the site, finding it …"
-        ],
-        "figures": [],
-        "wordsRead": 228
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
-        "u": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
-        "publishedAt": "2026-10-24T06:06:49.000Z",
-        "retrievedAt": "2026-10-24T14:17:27.394Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
-        "u": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
-        "publishedAt": "2026-10-24T11:01:05.000Z",
-        "retrievedAt": "2026-10-24T14:17:32.011Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Police said investigators were examining whether a “suspicious person” taken into temporary custody was connected to the blaze.",
-          "The retreat’s remote Alpine location, at an altitude …"
-        ],
-        "figures": [],
-        "wordsRead": 262
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Fire devastates the Eagle’s Nest retreat built for Hitler in Germany",
-        "u": "https://www.arabnews.com/world/fire-devastates-the-eagles-nest-retreat-built-for-hitler-in-germany-3008036",
-        "publishedAt": "2026-10-24T13:42:44.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 4,
-            "headline": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
-            "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-            "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Fire devastates Eagle’s Nest retreat built for Hitler, one person detained",
-            "url": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
-            "url": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
-            "url": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
-        "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 6,
-        "headline": "Fire devastates the Eagle’s Nest retreat built for Hitler in Germany",
-        "url": "https://www.arabnews.com/world/fire-devastates-the-eagles-nest-retreat-built-for-hitler-in-germany-3008036",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Hitler",
-        "Eagle",
-        "Nest",
-        "Eagle's Nest",
-        "Fire",
-        "Hitler's"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1jqevti",
+    "id": "c6fq7ou",
     "regions": [
       "Europe",
       "Global"
@@ -1112,25 +675,40 @@
         ]
       }
     },
-    "firstSeen": "2026-10-23T13:55:52.000Z",
-    "lastSeen": "2026-10-24T07:17:44.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-10-24T09:58:18.000Z",
+    "lastSeen": "2026-10-25T13:28:58.000Z",
+    "outletCount": 7,
     "outlets": [
+      "NPR",
       "BBC News",
+      "Washington Examiner",
       "Globe and Mail",
       "Euronews",
-      "JNS",
+      "Politico Europe",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 7 outlets",
     "clustering": {
-      "min": 0.3643280611121929,
-      "max": 0.49953267634889886,
-      "pairs": 6,
+      "min": 0.3625186149066905,
+      "max": 0.634480665905549,
+      "pairs": 10,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Musk says SpaceX did restrict Starlink, as Ukraine says the tech has been restored",
+        "u": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+        "publishedAt": "2026-10-24T17:54:25.000Z",
+        "retrievedAt": "2026-10-25T14:51:33.820Z",
+        "read": "headline and feed excerpt"
+      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -1138,18 +716,36 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-        "u": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-24T07:17:44.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
+        "t": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+        "u": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-25T09:00:00.000Z",
+        "retrievedAt": "2026-10-25T14:51:35.195Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "It said the truce in the \"front-line war city on the brink of disaster\" without medicine, food and clean water would begin on 29 October.",
-          "The White House statement said Melania Trump and one of her representatives had worked \"directly with Russian and Ukrainian leadership to define the terms of the localised ceasefire\".",
-          "In Russia, President Vladimir Putin's spokesman confirmed that, \"those who wish to do so will be able to leave this settlement\"."
+          "\"Using Starlink, a civilian commercial service, for offensive drone strikes to kill people has never been allowed, nor should it be,\" Musk wrote on X on Saturday.",
+          "\"Therefore, we physically cannot use commercial Starlink for deep strikes and medium-range strikes,\" he wrote on Telegram.",
+          "\"The speeds are now where they need to be,\" Ukrainian President Volodymyr Zelensky wrote on Telegram."
         ],
         "figures": [],
-        "wordsRead": 792
+        "wordsRead": 902
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Musk says SpaceX closed Starlink ‘loophole’ allowing lethal Ukrainian drone strikes",
+        "u": "https://www.washingtonexaminer.com/policy/technology/4778946/musk-spacex-starlink-loophole-ukraine/",
+        "publishedAt": "2026-10-25T13:28:58.000Z",
+        "retrievedAt": "2026-10-25T14:51:39.664Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "SpaceX founder Elon Musk said the …"
+        ],
+        "figures": [],
+        "wordsRead": 65
       },
       {
         "n": "Globe and Mail",
@@ -1158,18 +754,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine, Russia agree to Oleshky ceasefire",
-        "u": "https://www.theglobeandmail.com/world/article-melania-trump-oleshky-ceasefire-russia-ukraine/",
-        "publishedAt": "2026-10-23T14:08:50.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
+        "t": "Musk says SpaceX throttled Starlink service as Ukraine access is restored",
+        "u": "https://www.theglobeandmail.com/world/article-ukraine-starlink-speed-limits-lifted/",
+        "publishedAt": "2026-10-24T12:09:10.000Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Both nations agreed to temporarily stop all military action in Oleshky to allow for humanitarian aid to enter and to prepare a civilian evacuation through a designated safe passageway,” the …",
-          "“Oleshky is a front-line war city on the brink of disaster,” she said in a statement.",
-          "“If there is a problem, I’ll get it straightened out,” he said."
+          "“The speeds are now where they need to be,” Zelensky wrote on X, adding that restoration began overnight and were sufficient by Saturday morning, improving front-line logistics and defence against …",
+          "“Using Starlink, a civilian commercial service, for offensive drone strikes to kill people has never been allowed, nor should it be,” Musk wrote.",
+          "Vitaly Khotsenko said drones “reached a northern industrial hub.”"
         ],
         "figures": [],
-        "wordsRead": 777
+        "wordsRead": 642
       },
       {
         "n": "Euronews",
@@ -1178,37 +774,35 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says",
-        "u": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-",
-        "publishedAt": "2026-10-23T13:55:52.000Z",
-        "retrievedAt": "2026-10-24T14:17:13.225Z",
+        "t": "Ukraine restores 'stable' connection to Musk's Starlink, Kyiv says",
+        "u": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+        "publishedAt": "2026-10-24T09:58:18.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"The city is practically destroyed,\" she said.",
-          "US First Lady Melania Trump has secured an agreement between Russia and Ukraine to temporarily halt military operations in the Russian-occupied city of Oleshky, the White House announced on Friday.",
-          "The localised ceasefire is scheduled to begin on 29 October, with both sides agreeing to suspend military action in the southern Ukrainian city and establish a designated safe passage for …"
+          "\"On 23 October, the Russians killed two residents of Donetsk Oblast: in Sloviansk and Kramatorsk,\" regional governor Vadym Filashkin said on Saturday morning.",
+          "\"Our defence forces did not receive a warning about this limitation and this led to the disruption of …"
         ],
         "figures": [],
-        "wordsRead": 783
+        "wordsRead": 416
       },
       {
-        "n": "JNS",
-        "b": "right",
+        "n": "Politico Europe",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Russia, Ukraine agree to local ceasefire brokered by Melania Trump",
-        "u": "https://www.jns.org/news/u-s-news/russia-ukraine-agree-to-local-ceasefire-brokered-by-melania-trump",
-        "publishedAt": "2026-10-23T20:00:19.000Z",
-        "retrievedAt": "2026-10-24T14:17:30.553Z",
+        "t": "Starlink connection restored at high speed in Ukraine, defense minister says",
+        "u": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-10-24T10:09:36.000Z",
+        "retrievedAt": "2026-10-25T14:52:03.753Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The White House said that the first lady and her representative “worked directly with Russian and Ukrainian leadership to define the terms of the localized ceasefire.”",
-          "“Oleshky is a front-line war city on the brink of …"
+          "\"The Ministry of Defense's monitoring systems indicate that Starlink/Starshield speeds have been restored,\" Khmara told reporters in WhatsApp messages."
         ],
         "figures": [],
-        "wordsRead": 367
+        "wordsRead": 198
       },
       {
         "n": "South China Morning Post",
@@ -1217,10 +811,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Melania Trump brokers ceasefire in Russian-occupied Ukraine city, White House says",
-        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
-        "publishedAt": "2026-10-23T16:26:41.000Z",
-        "retrievedAt": "2026-10-24T14:17:38.481Z",
+        "t": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
+        "publishedAt": "2026-10-24T18:00:35.000Z",
+        "retrievedAt": "2026-10-25T14:52:27.402Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1228,8 +822,18 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Musk says SpaceX did restrict Starlink, as Ukraine says the tech has been restored",
+            "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1241,27 +845,36 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-            "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 1,
+            "headline": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+            "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Ukraine, Russia agree to Oleshky ceasefire",
-            "url": "https://www.theglobeandmail.com/world/article-melania-trump-oleshky-ceasefire-russia-ukraine/"
+            "evidenceIndex": 3,
+            "headline": "Musk says SpaceX throttled Starlink service as Ukraine access is restored",
+            "url": "https://www.theglobeandmail.com/world/article-ukraine-starlink-speed-limits-lifted/"
           },
           {
             "outlet": "Euronews",
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says",
-            "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-"
+            "evidenceIndex": 4,
+            "headline": "Ukraine restores 'stable' connection to Musk's Starlink, Kyiv says",
+            "url": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 5,
+            "headline": "Starlink connection restored at high speed in Ukraine, defense minister says",
+            "url": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -1272,13 +885,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "JNS",
-            "outletId": "jns",
-            "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 3,
-            "headline": "Russia, Ukraine agree to local ceasefire brokered by Melania Trump",
-            "url": "https://www.jns.org/news/u-s-news/russia-ukraine-agree-to-local-ceasefire-brokered-by-melania-trump"
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Musk says SpaceX closed Starlink ‘loophole’ allowing lethal Ukrainian drone strikes",
+            "url": "https://www.washingtonexaminer.com/policy/technology/4778946/musk-spacex-starlink-loophole-ukraine/"
           }
         ],
         "status": "sourced",
@@ -1295,21 +908,21 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 4,
-        "headline": "Melania Trump brokers ceasefire in Russian-occupied Ukraine city, White House says",
-        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
+        "evidenceIndex": 6,
+        "headline": "Musk admits he throttled Ukraine’s Starlink speeds, as access is restored",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Melania Trump",
-        "White House",
+        "Starlink",
         "Ukraine",
-        "Oleshky",
-        "Russia",
-        "Russian-occupied Ukrainian"
+        "Musk",
+        "SpaceX",
+        "Ukraine's Starlink",
+        "Musk's Starlink"
       ],
       "attempts": [
         {
@@ -1318,12 +931,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Melania Trump",
-            "White House",
+            "Starlink",
             "Ukraine",
-            "Oleshky",
-            "Russia",
-            "Russian-occupied Ukrainian"
+            "Musk",
+            "SpaceX",
+            "Ukraine's Starlink",
+            "Musk's Starlink"
           ]
         },
         {
@@ -1403,7 +1016,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c15j8z1t",
+    "id": "cmbqahx",
     "regions": [
       "Europe",
       "Global"
@@ -1412,33 +1025,315 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 4
+        "Europe": 24
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
+          "france",
+          "italy",
+          "spain",
+          "portugal",
           "paris",
-          "(an outlet from the region covered it)"
+          "madrid",
+          "rome",
+          "europe"
         ]
       }
     },
-    "firstSeen": "2026-10-23T14:14:43.000Z",
-    "lastSeen": "2026-10-23T20:14:44.000Z",
+    "firstSeen": "2026-10-24T12:29:59.000Z",
+    "lastSeen": "2026-10-25T07:15:00.000Z",
     "outletCount": 4,
     "outlets": [
-      "BBC News",
+      "NPR",
+      "Christian Science Monitor",
       "Globe and Mail",
-      "Haaretz",
-      "South China Morning Post"
+      "Euronews"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.39870000037699527,
-      "max": 0.7638031100625009,
-      "pairs": 8,
+      "min": 0.37420428047235643,
+      "max": 0.418339047178193,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+        "u": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+        "publishedAt": "2026-10-25T07:15:00.000Z",
+        "retrievedAt": "2026-10-25T14:51:33.820Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Christian Science Monitor",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Police and protesters clash in Paris as demonstrations break out across Europe",
+        "u": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss",
+        "publishedAt": "2026-10-24T17:23:31.000Z",
+        "retrievedAt": "2026-10-25T14:51:36.693Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“There are enormous numbers of people in the same situation as me but who aren’t privileged and who find themselves living on the streets and in squats and, frankly, it’s …",
+          "“They are using what happened last week as an excuse to quiet protesters,” she said.",
+          "“I got the call last night,” he said."
+        ],
+        "figures": [],
+        "wordsRead": 1279
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Italy deploys hundreds of soldiers as protests planned across Europe",
+        "u": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/",
+        "publishedAt": "2026-10-24T12:29:59.000Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I think the images from last week were truly something terrible, especially for the young people, for the students, for the vast majority of the younger generations who want to …",
+          "Milan police say last week’s violence and looting involved about 2,000 very young protesters, many of them “naturalized, second-generation Italians,” alongside foreign nationals.",
+          "Authorities said 2,500 officers patrolled the streets Saturday."
+        ],
+        "figures": [],
+        "wordsRead": 1111
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
+        "u": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal",
+        "publishedAt": "2026-10-24T20:46:57.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Authorities said that more than 300 protestors and police have been injured.",
+          "Italian police said in a statement they had carried out nine arrests and briefly …"
+        ],
+        "figures": [],
+        "wordsRead": 267
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+            "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Christian Science Monitor",
+            "outletId": "csmonitor",
+            "lean": "centre",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Police and protesters clash in Paris as demonstrations break out across Europe",
+            "url": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Italy deploys hundreds of soldiers as protests planned across Europe",
+            "url": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
+            "url": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Europe",
+        "Italy",
+        "Soldiers",
+        "Protests",
+        "Portugal",
+        "Albania"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Europe",
+            "Italy",
+            "Soldiers",
+            "Protests",
+            "Portugal",
+            "Albania"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cmh1gx",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-24T22:09:44.000Z",
+    "lastSeen": "2026-10-25T11:21:13.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "BBC News",
+      "Euronews",
+      "Haaretz",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.3836576969079472,
+      "max": 0.569495360865084,
+      "pairs": 9,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1449,49 +1344,36 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-        "u": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-23T19:42:08.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
+        "t": "Israel to close West Bank crossings on election day as crackdown escalates",
+        "u": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-25T05:15:52.000Z",
+        "retrievedAt": "2026-10-25T14:51:35.195Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Macron said the attack was a \"turning point in the life of our Republic and our nation\" - the first time there had ever been a random racial killing like …",
-          "The exact motive remains unclear, but the National Anti-Terrorist Prosecutor's Office (PNAT) said the incident appeared to …"
+          "The Israel Defense Forces announced a \"ban on the entry and exit of Palestinian workers throughout Judea and Samaria and the Jordan Valley, including industrial zones, as well as the …",
+          "\"Three days before the election, we will hold the culminating event marking three years of struggle to uncover the …"
         ],
         "figures": [],
-        "wordsRead": 484
+        "wordsRead": 501
       },
       {
-        "n": "Globe and Mail",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Deadly Paris suburb shooting was a terrorist and racist attack, Macron says",
-        "u": "https://www.theglobeandmail.com/world/article-shooting-trappes-france-terrorist-and-racist-act-macron-says/",
-        "publishedAt": "2026-10-23T19:33:27.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
+        "t": "Israel orders West Bank crossings to close on election day following Hebron shooting",
+        "u": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+        "publishedAt": "2026-10-25T11:21:13.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“What happened today is, I am telling you, a turning point, because it is the first time we have had a terrorist act that was planned to kill our compatriots …",
-          "“The people targeted today could just as easily …"
+          "In a statement, the Israel Defense Forces (IDF) announced a \"ban on the entry and exit of Palestinian workers to and from all of Judea, Samaria, and the Jordan Valley …",
+          "Israeli Prime Minister Benjamin Netanyahu said he had instructed the military to \"cordon off the city\" and take \"additional security measures\" in the area."
         ],
         "figures": [],
-        "wordsRead": 392
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Paris suburb shooting considered a 'terrorist crime,' French Interior Minister says",
-        "u": "https://www.theglobeandmail.com/world/video-paris-suburb-shooting-considered-a-terrorist-crime-french-interior/",
-        "publishedAt": "2026-10-23T20:14:44.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
-        "read": "headline and feed excerpt"
+        "wordsRead": 554
       },
       {
         "n": "Haaretz",
@@ -1500,11 +1382,29 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "One killed, four wounded in 'terrorist' shooting near Paris, authorities say",
-        "u": "https://www.haaretz.com/world-news/europe/2026-10-23/ty-article/.premium/one-killed-four-wounded-in-terrorist-shooting-near-paris-authorities-say/000001a1-690d-d46d-a1fd-e90d46070000",
-        "publishedAt": "2026-10-23T14:14:43.000Z",
-        "retrievedAt": "2026-10-24T14:17:27.394Z",
+        "t": "IDF announces general closure for West Bank Palestinians on Israel's Election Day",
+        "u": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-announces-general-west-bank-closure-on-israels-election-day/000001a1-6fe4-d9e6-a5b1-6feda7180000",
+        "publishedAt": "2026-10-24T22:09:44.000Z",
+        "retrievedAt": "2026-10-25T14:52:15.946Z",
         "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel says closing all land crossings with West Bank on election day",
+        "u": "https://www.arabnews.com/middle-east/israel-says-closing-all-land-crossings-with-west-bank-on-election-day-3008141",
+        "publishedAt": "2026-10-25T01:17:13.000Z",
+        "retrievedAt": "2026-10-25T14:52:23.547Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The political echelon approved a ban on …"
+        ],
+        "figures": [],
+        "wordsRead": 75
       },
       {
         "n": "South China Morning Post",
@@ -1513,10 +1413,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-        "u": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
-        "publishedAt": "2026-10-23T18:13:09.000Z",
-        "retrievedAt": "2026-10-24T14:17:38.481Z",
+        "t": "Israel widens West Bank crackdown, displacing Hebron families after attack",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack",
+        "publishedAt": "2026-10-25T06:23:07.000Z",
+        "retrievedAt": "2026-10-25T14:52:27.402Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1530,9 +1430,9 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 3,
-            "headline": "One killed, four wounded in 'terrorist' shooting near Paris, authorities say",
-            "url": "https://www.haaretz.com/world-news/europe/2026-10-23/ty-article/.premium/one-killed-four-wounded-in-terrorist-shooting-near-paris-authorities-say/000001a1-690d-d46d-a1fd-e90d46070000"
+            "evidenceIndex": 2,
+            "headline": "IDF announces general closure for West Bank Palestinians on Israel's Election Day",
+            "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-announces-general-west-bank-closure-on-israels-election-day/000001a1-6fe4-d9e6-a5b1-6feda7180000"
           }
         ],
         "status": "sourced",
@@ -1548,26 +1448,17 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-            "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+            "headline": "Israel to close West Bank crossings on election day as crackdown escalates",
+            "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "CA",
+            "country": "EU",
             "evidenceIndex": 1,
-            "headline": "Deadly Paris suburb shooting was a terrorist and racist attack, Macron says",
-            "url": "https://www.theglobeandmail.com/world/article-shooting-trappes-france-terrorist-and-racist-act-macron-says/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Paris suburb shooting considered a 'terrorist crime,' French Interior Minister says",
-            "url": "https://www.theglobeandmail.com/world/video-paris-suburb-shooting-considered-a-terrorist-crime-french-interior/"
+            "headline": "Israel orders West Bank crossings to close on election day following Hebron shooting",
+            "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting"
           }
         ],
         "status": "sourced",
@@ -1587,24 +1478,34 @@
     },
     "offAxis": [
       {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Israel says closing all land crossings with West Bank on election day",
+        "url": "https://www.arabnews.com/middle-east/israel-says-closing-all-land-crossings-with-west-bank-on-election-day-3008141",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 4,
-        "headline": "Macron condemns ‘racist terrorist attack’ after deadly shooting near Paris",
-        "url": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
+        "headline": "Israel widens West Bank crackdown, displacing Hebron families after attack",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Paris",
-        "Macron",
-        "French Interior Minister",
-        "Deadly Paris",
-        "Deadly"
+        "West Bank",
+        "Israel",
+        "Hebron",
+        "West Bank Palestinians",
+        "Israel's Election Day"
       ],
       "attempts": [
         {
@@ -1690,7 +1591,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "csrqj7v",
+    "id": "ctbi1h9",
     "regions": [
       "Global"
     ],
@@ -1698,37 +1599,31 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 1
+        "Europe": 0
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-23T12:16:24.000Z",
-    "lastSeen": "2026-10-24T13:39:26.000Z",
-    "outletCount": 8,
+    "firstSeen": "2026-10-23T18:01:47.000Z",
+    "lastSeen": "2026-10-25T00:00:00.000Z",
+    "outletCount": 5,
     "outlets": [
       "NPR",
-      "BBC News",
       "Fox News",
       "Globe and Mail",
       "Haaretz",
-      "Al Jazeera",
-      "Arab News",
-      "South China Morning Post"
+      "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.37100688176119584,
-      "max": 0.6323242763979694,
-      "pairs": 10,
-      "prunedForCohesion": 1
+      "min": 0.367686543659531,
+      "max": 0.5365229205717158,
+      "pairs": 7,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
@@ -1741,28 +1636,8 @@
         "t": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
         "u": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
         "publishedAt": "2026-10-24T11:59:08.000Z",
-        "retrievedAt": "2026-10-24T14:16:46.296Z",
+        "retrievedAt": "2026-10-25T14:51:33.820Z",
         "read": "headline and feed excerpt"
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-        "u": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-23T19:46:30.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Khalid al-Mdanat was at the church and told BBC Arabic the attack lasted around 15 minutes with \"people trying to flee while the shooting was still active\".",
-          "Jordan's King Abdullah II said authorities would \"confront the terrorist act that targeted Karak with the harshest penalties\".",
-          "Once she ran out the church she said \"bodies were all in the courtyards\"."
-        ],
-        "figures": [],
-        "wordsRead": 627
       },
       {
         "n": "Fox News",
@@ -1774,14 +1649,14 @@
         "t": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
         "u": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
         "publishedAt": "2026-10-23T18:01:47.000Z",
-        "retrievedAt": "2026-10-24T14:16:53.567Z",
+        "retrievedAt": "2026-10-25T14:51:41.040Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "A government statement said that the attack was \"carried out by unknown assailants\" but didn't say whether any gunmen were captured or killed.",
-          "In a statement, Iraqi Foreign Minister Fuad Hussein said he called his Jordanian counterpart …"
+          "In a statement, Iraqi Foreign Minister Fuad Hussein said he called his Jordanian …"
         ],
         "figures": [],
-        "wordsRead": 379
+        "wordsRead": 364
       },
       {
         "n": "Globe and Mail",
@@ -1793,7 +1668,7 @@
         "t": "Seven dead, 40 injured after gunmen open fire at a church in Jordan",
         "u": "https://www.theglobeandmail.com/world/article-seven-dead-after-gunmen-open-fire-at-a-church-in-karak-jordan/",
         "publishedAt": "2026-10-23T19:51:09.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“It was a weird situation, and heavy gunfire,” Halasa said.",
@@ -1813,86 +1688,28 @@
         "t": "U.S. embassy says security ramped up in Jordan after deadly church attack",
         "u": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000",
         "publishedAt": "2026-10-24T07:34:44.000Z",
-        "retrievedAt": "2026-10-24T14:17:27.394Z",
+        "retrievedAt": "2026-10-25T14:52:15.946Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Seven killed, 34 wounded in attack at funeral in Jordan's Karak, officials say",
-        "u": "https://www.haaretz.com/middle-east-news/2026-10-23/ty-article/reports-in-jordan-at-least-seven-killed-after-gunmen-open-fire-at-church/000001a1-68aa-d34e-a1b9-feefd8ce0000",
-        "publishedAt": "2026-10-23T12:16:24.000Z",
-        "retrievedAt": "2026-10-24T14:17:27.394Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Who was behind the deadly church shooting in Jordan?",
-        "u": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-        "publishedAt": "2026-10-24T13:39:26.000Z",
-        "retrievedAt": "2026-10-24T14:17:32.011Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jordan’s King Abdullah orders firm response after deadly church attack",
-        "u": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
-        "publishedAt": "2026-10-24T13:02:51.000Z",
-        "retrievedAt": "2026-10-24T14:17:32.011Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jordan’s King Abdullah orders security forces to respond firmly to Karak church attack",
-        "u": "https://www.arabnews.com/middle-east/jordans-king-abdullah-orders-security-forces-to-respond-firmly-to-karak-church-attack-3008035",
-        "publishedAt": "2026-10-24T13:03:49.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US embassy says security ramped up in Jordan after deadly church attack",
-        "u": "https://www.arabnews.com/middle-east/us-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack-3008001",
-        "publishedAt": "2026-10-24T06:15:03.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Gunmen kill 7 at Jordan church, king vows retaliation",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation",
-        "publishedAt": "2026-10-23T17:17:41.000Z",
-        "retrievedAt": "2026-10-24T14:17:38.481Z",
-        "read": "headline and feed excerpt"
+        "t": "Gunmen kill seven at church in Jordan",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866590",
+        "publishedAt": "2026-10-25T00:00:00.000Z",
+        "retrievedAt": "2026-10-25T14:52:30.525Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The terrorist attack against Karak will be met with the harshest retaliation,” Jordanian King Abdullah II said in an English-language post on social media.",
+          "“We will strike with an iron fist against those who dare to threaten our nation,” he said.",
+          "“This country is ours, and we will not abandon it — we will never abandon it,” an injured man told him."
+        ],
+        "figures": [],
+        "wordsRead": 756
       }
     ],
     "views": [
@@ -1914,18 +1731,9 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 4,
+            "evidenceIndex": 3,
             "headline": "U.S. embassy says security ramped up in Jordan after deadly church attack",
             "url": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000"
-          },
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 5,
-            "headline": "Seven killed, 34 wounded in attack at funeral in Jordan's Karak, officials say",
-            "url": "https://www.haaretz.com/middle-east-news/2026-10-23/ty-article/reports-in-jordan-at-least-seven-killed-after-gunmen-open-fire-at-church/000001a1-68aa-d34e-a1b9-feefd8ce0000"
           }
         ],
         "status": "sourced",
@@ -1936,20 +1744,11 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-            "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss"
-          },
-          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 3,
+            "evidenceIndex": 2,
             "headline": "Seven dead, 40 injured after gunmen open fire at a church in Jordan",
             "url": "https://www.theglobeandmail.com/world/article-seven-dead-after-gunmen-open-fire-at-a-church-in-karak-jordan/"
           }
@@ -1966,7 +1765,7 @@
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism",
             "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism"
           }
@@ -1981,54 +1780,14 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 6,
-        "headline": "Who was behind the deadly church shooting in Jordan?",
-        "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 7,
-        "headline": "Jordan’s King Abdullah orders firm response after deadly church attack",
-        "url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 8,
-        "headline": "Jordan’s King Abdullah orders security forces to respond firmly to Karak church attack",
-        "url": "https://www.arabnews.com/middle-east/jordans-king-abdullah-orders-security-forces-to-respond-firmly-to-karak-church-attack-3008035",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 9,
-        "headline": "US embassy says security ramped up in Jordan after deadly church attack",
-        "url": "https://www.arabnews.com/middle-east/us-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack-3008001",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 10,
-        "headline": "Gunmen kill 7 at Jordan church, king vows retaliation",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3371984/gunmen-kill-7-jordan-church-king-vows-retaliation",
-        "reason": "lean \"varies\" is not a left-right position"
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 4,
+        "headline": "Gunmen kill seven at church in Jordan",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866590",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
@@ -2036,10 +1795,8 @@
       "terms": [
         "Jordan",
         "Gunmen",
-        "Seven",
-        "King Abdullah",
-        "Jordan's Karak",
-        "Christian"
+        "Christian",
+        "Seven"
       ],
       "attempts": [
         {
@@ -2050,10 +1807,8 @@
           "terms": [
             "Jordan",
             "Gunmen",
-            "Seven",
-            "King Abdullah",
-            "Jordan's Karak",
-            "Christian"
+            "Christian",
+            "Seven"
           ]
         },
         {
@@ -2133,321 +1888,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1hgfd7c",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-23T16:46:35.000Z",
-    "lastSeen": "2026-10-23T22:30:15.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "Mother Jones",
-      "Guardian US",
-      "BBC News",
-      "The Daily Caller",
-      "Globe and Mail"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3641794838116132,
-      "max": 0.4780963745547973,
-      "pairs": 7,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Mother Jones",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "DOJ Is Suing to Decertify Alaska’s Senate Results—But Only If Republicans Lose",
-        "u": "https://www.motherjones.com/politics/2026/10/doj-dan-sullivan-alaska-peltola-lawsuit-decertify-election/",
-        "publishedAt": "2026-10-23T22:30:15.000Z",
-        "retrievedAt": "2026-10-24T14:16:42.840Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The legal claim is so absurdly thin, there’s essentially no likelihood of success,” wrote Notre Dame Law School professor Derek Muller.",
-          "“I’m the one who said do it,” Trump said to a group of reporters in Florida.",
-          "“The sole purpose of his candidacy is to benefit the Peltola campaign by reducing the number of votes for Senator Sullivan.”"
-        ],
-        "figures": [],
-        "wordsRead": 661
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification",
-        "u": "https://www.theguardian.com/us-news/2026/oct/23/trump-doj-lawsuit-alaska-senate-dan-sullivan",
-        "publishedAt": "2026-10-23T19:46:51.000Z",
-        "retrievedAt": "2026-10-24T14:16:44.118Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Donald Trump said he ordered the justice department to file a lawsuit to block the certification of Alaska’s US Senate results if the Republican incumbent loses, a move that voting …",
-          "“I’m the one that said do it,” the president told reporters as he landed in Florida for a campaign rally on Friday.",
-          "“The Department of Justice should never have filed this lawsuit.”"
-        ],
-        "figures": [],
-        "wordsRead": 906
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump administration sues to block certification of upcoming Alaska election",
-        "u": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-23T18:49:14.000Z",
-        "retrievedAt": "2026-10-24T14:16:47.834Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"I'm the one that said do it,\" US President Donald Trump told reporters when asked for his thoughts on the lawsuit after he landed in Florida for a campaign rally …",
-          "Trump has referred to the second Sullivan's candidacy as a \"scam\" and said his administration was looking at \"powerful legal options\" to end it."
-        ],
-        "figures": [],
-        "wordsRead": 568
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump DOJ Sues To Block Alaska Senate Results If Dan Sullivan Loses Because Of Another Dan Sullivan",
-        "u": "https://dailycaller.com/2026/10/23/doj-sues-block-alaska-senate-results-dan-sullivan",
-        "publishedAt": "2026-10-23T16:46:35.000Z",
-        "retrievedAt": "2026-10-24T14:16:57.100Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "If Sullivan loses, the lawsuit stated that the state would “fail in its obligation to protect the integrity of its election” if they certify the votes."
-        ],
-        "figures": [],
-        "wordsRead": 282
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. Justice Department sues to block possible Democratic win in Alaska Senate race",
-        "u": "https://www.theglobeandmail.com/world/us-politics/article-us-justice-department-sues-to-block-possible-democratic-win-in-alaska/",
-        "publishedAt": "2026-10-23T21:21:18.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump told reporters on Friday that he supported the lawsuit, saying “I’m the one that said do it.”",
-          "A Justice Department spokesperson said in a statement that the agency is taking “necessary steps to ensure that this frivolous candidacy does not undermine the integrity of Alaska’s election or …",
-          "“In short, like many Department letters over the last few years, it is designed …"
-        ],
-        "figures": [],
-        "wordsRead": 630
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Mother Jones",
-            "outletId": "motherjones",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "DOJ Is Suing to Decertify Alaska’s Senate Results—But Only If Republicans Lose",
-            "url": "https://www.motherjones.com/politics/2026/10/doj-dan-sullivan-alaska-peltola-lawsuit-decertify-election/"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification",
-            "url": "https://www.theguardian.com/us-news/2026/oct/23/trump-doj-lawsuit-alaska-senate-dan-sullivan"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Trump administration sues to block certification of upcoming Alaska election",
-            "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "U.S. Justice Department sues to block possible Democratic win in Alaska Senate race",
-            "url": "https://www.theglobeandmail.com/world/us-politics/article-us-justice-department-sues-to-block-possible-democratic-win-in-alaska/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "Trump DOJ Sues To Block Alaska Senate Results If Dan Sullivan Loses Because Of Another Dan Sullivan",
-            "url": "https://dailycaller.com/2026/10/23/doj-sues-block-alaska-senate-results-dan-sullivan"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Alaska Senate",
-        "Trump",
-        "Block Alaska Senate Results",
-        "But Only If Republicans",
-        "U.S. Justice Department",
-        "Because Of Another Dan"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Alaska Senate",
-            "Trump",
-            "Block Alaska Senate Results",
-            "But Only If Republicans",
-            "U.S. Justice Department",
-            "Because Of Another Dan"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1yzb4y2",
+    "id": "ce6rrqm",
     "regions": [
       "Global"
     ],
@@ -2463,11 +1904,11 @@
         ]
       }
     },
-    "firstSeen": "2026-10-24T04:28:47.000Z",
-    "lastSeen": "2026-10-24T13:44:34.000Z",
+    "firstSeen": "2026-10-25T03:41:06.000Z",
+    "lastSeen": "2026-10-25T13:55:51.000Z",
     "outletCount": 4,
     "outlets": [
-      "New York Post",
+      "Haaretz",
       "Al Jazeera",
       "Middle East Eye",
       "Arab News"
@@ -2475,30 +1916,24 @@
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.37027423140180715,
-      "max": 0.6313671335025921,
-      "pairs": 5,
+      "min": 0.3719525696070246,
+      "max": 0.6163986210609332,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "New York Post",
-        "b": "right",
+        "n": "Haaretz",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US Intel warns Iran boosting efforts to target Americans in Mideast",
-        "u": "https://nypost.com/2026/10/24/us-news/us-intel-iran-boosting-efforts-to-hit-americans-in-mideast/",
-        "publishedAt": "2026-10-24T13:44:34.000Z",
-        "retrievedAt": "2026-10-24T14:16:55.696Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Director of National Intelligence Jay Clayton alerted Secretary of State Marco Rubio to the threat in a letter Friday, warning that Iran had “substantially increased efforts to target US personnel,” …",
-          "“The lethal plotting efforts by the Iranians against US citizens have …"
-        ],
-        "figures": [],
-        "wordsRead": 429
+        "t": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
+        "u": "https://www.haaretz.com/middle-east-news/2026-10-25/ty-article/.premium/saudi-arabia-intercepts-drones-missiles-as-fighting-with-houthis-continues/000001a1-72cd-d46d-a1fd-f2cde9ec0000",
+        "publishedAt": "2026-10-25T11:31:37.000Z",
+        "retrievedAt": "2026-10-25T14:52:15.946Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Al Jazeera",
@@ -2507,18 +1942,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Is Iran planning attacks on Americans; why is the US on alert?",
-        "u": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
-        "publishedAt": "2026-10-24T12:51:21.000Z",
-        "retrievedAt": "2026-10-24T14:17:32.011Z",
+        "t": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
+        "u": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
+        "publishedAt": "2026-10-25T10:42:51.000Z",
+        "retrievedAt": "2026-10-25T14:52:20.322Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "On Friday, Trump said the US “may do another little epic fury”, using the codename for the US-Israel war against Iran that began on February 28.",
-          "The individual allegedly “attempted to pay individuals in the United States $300,000 to carry out the murder in Washington DC or Maryland”, according to the US Department of Justice.",
-          "The Pentagon has confirmed that 21 US military personnel have been killed in the Middle East since the war on Iran began."
+          "“The Yemeni Armed Forces warn all international, regional and local airlines – as well as staff and travellers – against using King Khalid airport in Riyadh, as it is unsafe …",
+          "Saudi Arabia has intercepted drones and missiles over its capital, Riyadh, and southern areas, the Saudi-led coalition has said, as fighting with Yemen’s Houthis continues."
         ],
         "figures": [],
-        "wordsRead": 880
+        "wordsRead": 563
       },
       {
         "n": "Middle East Eye",
@@ -2527,16 +1961,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US intelligence chief says Iran 'increases efforts' to target Americans",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-intelligence-chief-says-iran-increases-efforts-target-americans",
-        "publishedAt": "2026-10-24T05:43:08.000Z",
-        "retrievedAt": "2026-10-24T14:17:33.472Z",
+        "t": "Saudi-led coalition says ballistic missile intercepted over Riyadh",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-ballistic-missile-intercepted-over-riyadh",
+        "publishedAt": "2026-10-25T03:41:06.000Z",
+        "retrievedAt": "2026-10-25T14:52:22.169Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In a memo sent to Secretary of State …"
+          "The Saudi-led coalition says it has intercepted …"
         ],
         "figures": [],
-        "wordsRead": 88
+        "wordsRead": 70
       },
       {
         "n": "Arab News",
@@ -2545,16 +1979,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US intelligence chief warns Iran targeting Americans in Middle East",
-        "u": "https://www.arabnews.com/middle-east/us-intelligence-chief-warns-iran-targeting-americans-in-middle-east-3007998",
-        "publishedAt": "2026-10-24T04:28:47.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
+        "t": "Debris from intercepted Houthi missiles injures 2 in Saudi Arabia’s Khamis Mushait, Ahad Rafidah",
+        "u": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-houthi-missiles-injures-2-in-saudi-arabias-khamis-mushait-ahad-rafidah-3008206",
+        "publishedAt": "2026-10-25T13:55:51.000Z",
+        "retrievedAt": "2026-10-25T14:52:23.547Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In a memo sent to Secretary of State Marco Rubio …"
+          "RIYADH: Debris from two intercepted ballistic missiles launched by Yemen’s Iran-backed Houthis injured two people and damaged …"
         ],
         "figures": [],
-        "wordsRead": 108
+        "wordsRead": 173
       }
     ],
     "views": [
@@ -2563,13 +1997,22 @@
         "label": "Left / progressive",
         "outlets": [
           {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 0,
+            "headline": "Saudi Arabia intercepts drones and missiles as fighting with Yemen's Houthis continues",
+            "url": "https://www.haaretz.com/middle-east-news/2026-10-25/ty-article/.premium/saudi-arabia-intercepts-drones-missiles-as-fighting-with-houthis-continues/000001a1-72cd-d46d-a1fd-f2cde9ec0000"
+          },
+          {
             "outlet": "Middle East Eye",
             "outletId": "middleeasteye",
             "lean": "left",
             "country": "UK",
             "evidenceIndex": 2,
-            "headline": "US intelligence chief says Iran 'increases efforts' to target Americans",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-intelligence-chief-says-iran-increases-efforts-target-americans"
+            "headline": "Saudi-led coalition says ballistic missile intercepted over Riyadh",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-ballistic-missile-intercepted-over-riyadh"
           }
         ],
         "status": "sourced",
@@ -2585,24 +2028,15 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "New York Post",
-            "outletId": "nypost",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "US Intel warns Iran boosting efforts to target Americans in Mideast",
-            "url": "https://nypost.com/2026/10/24/us-news/us-intel-iran-boosting-efforts-to-hit-americans-in-mideast/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (left)"
     },
     "offAxis": [
       {
@@ -2611,8 +2045,8 @@
         "lean": "varies",
         "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Is Iran planning attacks on Americans; why is the US on alert?",
-        "url": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
+        "headline": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
+        "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2621,35 +2055,27 @@
         "lean": "varies",
         "country": "SA",
         "evidenceIndex": 3,
-        "headline": "US intelligence chief warns Iran targeting Americans in Middle East",
-        "url": "https://www.arabnews.com/middle-east/us-intelligence-chief-warns-iran-targeting-americans-in-middle-east-3007998",
+        "headline": "Debris from intercepted Houthi missiles injures 2 in Saudi Arabia’s Khamis Mushait, Ahad Rafidah",
+        "url": "https://www.arabnews.com/saudi-arabia/debris-from-intercepted-houthi-missiles-injures-2-in-saudi-arabias-khamis-mushait-ahad-rafidah-3008206",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Americans",
-        "Iran",
-        "Middle East",
-        "US Intel",
-        "Mideast",
-        "Is Iran"
+        "Saudi Arabia",
+        "Yemen's Houthis",
+        "Khamis Mushait",
+        "Ahad Rafidah",
+        "Saudi-led",
+        "Houthis"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Americans",
-            "Iran",
-            "Middle East",
-            "US Intel",
-            "Mideast",
-            "Is Iran"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -2728,7 +2154,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cggsoeb",
+    "id": "c36fxmr",
     "regions": [
       "Global"
     ],
@@ -2745,18 +2171,18 @@
       }
     },
     "firstSeen": "2026-10-23T23:43:20.000Z",
-    "lastSeen": "2026-10-24T07:28:46.000Z",
+    "lastSeen": "2026-10-25T00:00:00.000Z",
     "outletCount": 3,
     "outlets": [
       "Fox News",
       "Euronews",
-      "Arab News"
+      "Taipei Times"
     ],
-    "tier": "primary",
-    "tierBasis": "confirmed against 1 primary document(s)",
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.373246281092124,
-      "max": 0.6300684933134822,
+      "min": 0.37974798733530757,
+      "max": 0.649387829699769,
       "pairs": 3,
       "prunedForCohesion": 0
     },
@@ -2771,14 +2197,14 @@
         "t": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
         "u": "https://www.foxnews.com/world/rubio-urges-cubans-work-cia-bring-political-change-communist-run-island",
         "publishedAt": "2026-10-23T23:43:20.000Z",
-        "retrievedAt": "2026-10-24T14:16:53.567Z",
+        "retrievedAt": "2026-10-25T14:51:41.040Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"To those who seek to create positive change in Cuba - now is the time,\" Rubio wrote in a post on X.",
-          "\"The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change you …"
+          "\"The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change …"
         ],
         "figures": [],
-        "wordsRead": 448
+        "wordsRead": 433
       },
       {
         "n": "Euronews",
@@ -2790,7 +2216,7 @@
         "t": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
         "u": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
         "publishedAt": "2026-10-24T07:28:46.000Z",
-        "retrievedAt": "2026-10-24T14:17:13.225Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change you desire through a discrete partnership with the CIA,\" …"
@@ -2799,24 +2225,24 @@
         "wordsRead": 344
       },
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Cuba mocks US ‘desperation’ after Rubio urges Cubans to work with CIA",
-        "u": "https://www.arabnews.com/world/cuba-mocks-us-desperation-after-rubio-urges-cubans-to-work-with-cia-3007975",
-        "publishedAt": "2026-10-24T02:57:23.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
+        "t": "US’ Marco Rubio urges Cubans to work with CIA",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866592",
+        "publishedAt": "2026-10-25T00:00:00.000Z",
+        "retrievedAt": "2026-10-25T14:52:30.525Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Now the United States is resorting to public recruitment for the CIA,” Cuban Deputy Foreign Minister Carlos Fernandez de Cossio wrote on X.",
-          "“To those who seek to create positive change in Cuba — now is the time,” Rubio wrote, citing what he called failed promises, corruption and the privileged lives of a …",
-          "“Our coastline is full of beautiful beaches, but there are also …"
+          "“To those who seek to create positive change in Cuba — now is the time,” Rubio said on social media.",
+          "“The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change you desire through a discrete partnership with the CIA,” …",
+          "“We thought it was a beautiful place to retire,” said the septuagenarian, who used to manage a large building-supply store in neighboring New Jersey."
         ],
         "figures": [],
-        "wordsRead": 655
+        "wordsRead": 810
       }
     ],
     "views": [
@@ -2868,14 +2294,14 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
         "evidenceIndex": 2,
-        "headline": "Cuba mocks US ‘desperation’ after Rubio urges Cubans to work with CIA",
-        "url": "https://www.arabnews.com/world/cuba-mocks-us-desperation-after-rubio-urges-cubans-to-work-with-cia-3007975",
-        "reason": "lean \"varies\" is not a left-right position"
+        "headline": "US’ Marco Rubio urges Cubans to work with CIA",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/25/2003866592",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
@@ -2883,28 +2309,18 @@
       "terms": [
         "Cubans",
         "Rubio",
-        "Cuba"
+        "Marco Rubio"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
           "attempted": true,
-          "found": [
-            {
-              "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
-              "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
-              "published": "2026-10-14",
-              "publisher": "Homeland Security Department",
-              "docType": "Rule",
-              "ref": "2026-20955",
-              "read": "metadata only — document not retrieved or read"
-            }
-          ],
+          "found": [],
           "terms": [
             "Cubans",
             "Rubio",
-            "Cuba"
+            "Marco Rubio"
           ]
         },
         {
@@ -2968,19 +2384,8 @@
           "reason": "does not apply to this story's countries or terms"
         }
       ],
-      "primary": [
-        {
-          "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
-          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
-          "published": "2026-10-14",
-          "publisher": "Homeland Security Department",
-          "docType": "Rule",
-          "ref": "2026-20955",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        }
-      ],
-      "gap": null
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
     "disputedCandidates": [],
     "headline": null,
@@ -2995,51 +2400,324 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c19x5h19",
+    "id": "c9unwaj",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 1
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-23T17:12:33.000Z",
-    "lastSeen": "2026-10-24T13:27:11.000Z",
+    "firstSeen": "2026-10-23T16:46:35.000Z",
+    "lastSeen": "2026-10-23T21:21:18.000Z",
     "outletCount": 3,
     "outlets": [
-      "Haaretz",
-      "Al Jazeera",
-      "Middle East Eye"
+      "BBC News",
+      "The Daily Caller",
+      "Globe and Mail"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.36033607659727357,
-      "max": 0.6252676193506868,
+      "min": 0.37158916045334045,
+      "max": 0.4450600492769755,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump administration sues to block certification of upcoming Alaska election",
+        "u": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-23T18:49:14.000Z",
+        "retrievedAt": "2026-10-25T14:51:35.195Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"I'm the one that said do it,\" US President Donald Trump told reporters when asked for his thoughts on the lawsuit after he landed in Florida for a campaign rally …",
+          "Trump has referred to the second Sullivan's candidacy as a \"scam\" and said his administration was looking at \"powerful legal options\" to end it."
+        ],
+        "figures": [],
+        "wordsRead": 568
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump DOJ Sues To Block Alaska Senate Results If Dan Sullivan Loses Because Of Another Dan Sullivan",
+        "u": "https://dailycaller.com/2026/10/23/doj-sues-block-alaska-senate-results-dan-sullivan",
+        "publishedAt": "2026-10-23T16:46:35.000Z",
+        "retrievedAt": "2026-10-25T14:51:45.618Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "If Sullivan loses, the lawsuit stated that the state would “fail in its obligation to protect the integrity of its election” if they certify the votes."
+        ],
+        "figures": [],
+        "wordsRead": 282
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. Justice Department sues to block possible Democratic win in Alaska Senate race",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-us-justice-department-sues-to-block-possible-democratic-win-in-alaska/",
+        "publishedAt": "2026-10-23T21:21:18.000Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Trump told reporters on Friday that he supported the lawsuit, saying “I’m the one that said do it.”",
+          "A Justice Department spokesperson said in a statement that the agency is taking “necessary steps to ensure that this frivolous candidacy does not undermine the integrity of Alaska’s election or …",
+          "“In short, like many Department letters over the last few years, it is designed …"
+        ],
+        "figures": [],
+        "wordsRead": 630
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Trump administration sues to block certification of upcoming Alaska election",
+            "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "U.S. Justice Department sues to block possible Democratic win in Alaska Senate race",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-us-justice-department-sues-to-block-possible-democratic-win-in-alaska/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Trump DOJ Sues To Block Alaska Senate Results If Dan Sullivan Loses Because Of Another Dan Sullivan",
+            "url": "https://dailycaller.com/2026/10/23/doj-sues-block-alaska-senate-results-dan-sullivan"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Block Alaska Senate Results",
+        "U.S. Justice Department",
+        "Because Of Another Dan",
+        "If Dan Sullivan Loses",
+        "Trump DOJ Sues To",
+        "Alaska Senate"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Block Alaska Senate Results",
+            "U.S. Justice Department",
+            "Because Of Another Dan",
+            "If Dan Sullivan Loses",
+            "Trump DOJ Sues To",
+            "Alaska Senate"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cenq963",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 3
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "serbia"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-23T18:39:07.000Z",
+    "lastSeen": "2026-10-25T13:40:10.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.3671170058159311,
+      "max": 0.40919437772762884,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Netanyahu says Israel must prepare for banking sanctions, floats crypto as a possible bypass",
-        "u": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/.premium/netanyahu-warns-of-banking-sanctions-on-israel-floats-crypto-as-possible-bypass/000001a1-6980-db3a-a9fb-fdabc11e0000",
-        "publishedAt": "2026-10-23T17:12:33.000Z",
-        "retrievedAt": "2026-10-24T14:17:27.394Z",
-        "read": "headline and feed excerpt"
+        "t": "Serbia election tests Vucic’s grip on power amid student-led challenge",
+        "u": "https://www.theglobeandmail.com/world/article-serbia-election-aleksandar-vucic-student-led-challenge/",
+        "publishedAt": "2026-10-23T18:39:07.000Z",
+        "retrievedAt": "2026-10-25T14:51:47.202Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Putin, he told the state RTS television this week, knows that “there won’t be any sanctions” against Russia only if the populists win.",
+          "“It is no coincidence that Vladimir Putin said he hopes that I will be the prime minister,” Vucic said.",
+          "“Not everything is going to be great after Sunday, but it will be much, much better,” said Lidija Miladinovic, a supporter of the student bloc."
+        ],
+        "figures": [
+          {
+            "value": "6.4 million",
+            "context": "d several other EU countries. Even though Serbia’s 6.4 million voters can choose from multiple parties, the vote"
+          },
+          {
+            "value": "3 per cent",
+            "context": "g that most smaller parties could end up below the 3 per cent threshold needed to make it into the …"
+          }
+        ],
+        "wordsRead": 771
       },
       {
         "n": "Al Jazeera",
@@ -3048,63 +2726,49 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Netanyahu floats Crypto to bypass sanctions",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
-        "publishedAt": "2026-10-24T13:27:11.000Z",
-        "retrievedAt": "2026-10-24T14:17:32.011Z",
+        "t": "Serbia votes as student-led bloc challenges longtime leader Vucic",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic?traffic_source=rss",
+        "publishedAt": "2026-10-25T13:40:10.000Z",
+        "retrievedAt": "2026-10-25T14:52:20.322Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Middle East Eye",
-        "b": "left",
+        "n": "South China Morning Post",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Netanyahu tells Israelis to brace for sanctions, suggests crypto workaround",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-tells-israelis-brace-sanctions-suggests-crypto-workaround",
-        "publishedAt": "2026-10-24T05:13:37.000Z",
-        "retrievedAt": "2026-10-24T14:17:33.472Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Speaking to Channel 10 on Friday, Netanyahu said Israel needed “an economy that …"
-        ],
-        "figures": [],
-        "wordsRead": 130
+        "t": "Serbia votes as ruling party faces student-led anti-corruption list",
+        "u": "https://www.scmp.com/news/world/europe/article/3372068/serbia-votes-ruling-party-faces-student-led-anti-corruption-list",
+        "publishedAt": "2026-10-25T08:53:07.000Z",
+        "retrievedAt": "2026-10-25T14:52:27.402Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 0,
-            "headline": "Netanyahu says Israel must prepare for banking sanctions, floats crypto as a possible bypass",
-            "url": "https://www.haaretz.com/israel-news/elections/2026-10-23/ty-article/.premium/netanyahu-warns-of-banking-sanctions-on-israel-floats-crypto-as-possible-bypass/000001a1-6980-db3a-a9fb-fdabc11e0000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Netanyahu tells Israelis to brace for sanctions, suggests crypto workaround",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-tells-israelis-brace-sanctions-suggests-crypto-workaround"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Serbia election tests Vucic’s grip on power amid student-led challenge",
+            "url": "https://www.theglobeandmail.com/world/article-serbia-election-aleksandar-vucic-student-led-challenge/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -3118,7 +2782,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "coverage sits on one side only (left)"
+      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
@@ -3127,18 +2791,26 @@
         "lean": "varies",
         "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Netanyahu floats Crypto to bypass sanctions",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+        "headline": "Serbia votes as student-led bloc challenges longtime leader Vucic",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 2,
+        "headline": "Serbia votes as ruling party faces student-led anti-corruption list",
+        "url": "https://www.scmp.com/news/world/europe/article/3372068/serbia-votes-ruling-party-faces-student-led-anti-corruption-list",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Netanyahu",
-        "Israelis",
-        "Israel",
-        "Crypto"
+        "Serbia",
+        "Vucic"
       ],
       "attempts": [
         {
@@ -3224,66 +2896,51 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cp2l549",
+    "id": "c1tsryaw",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
-        "Europe": 9
+        "Europe": 1
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
-          "italy",
-          "portugal",
-          "europe",
-          "european",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-24T10:34:36.000Z",
-    "lastSeen": "2026-10-24T12:39:44.000Z",
+    "firstSeen": "2026-10-23T21:38:54.000Z",
+    "lastSeen": "2026-10-25T10:23:38.000Z",
     "outletCount": 3,
     "outlets": [
-      "Globe and Mail",
+      "NPR",
       "Euronews",
-      "Arab News"
+      "Haaretz"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.47298509857604726,
-      "max": 0.6002264284431846,
+      "min": 0.370572477745426,
+      "max": 0.38712001909798177,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "NPR",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Italy deploys hundreds of soldiers as protests planned across Europe",
-        "u": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/",
-        "publishedAt": "2026-10-24T12:29:59.000Z",
-        "retrievedAt": "2026-10-24T14:16:58.687Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Premier Giorgia Meloni announced a raft of measures, including sending an additional 500 soldiers to Milan, and tougher penalties for minors, who police said made up a large part of …",
-          "Milan police say last week’s violence and looting involved about 2,000 very young protesters, a large number of whom were “naturalized, second-generation Italians,” alongside foreign nationals.",
-          "They are not authorized to carry pepper spray or tasers, he said."
-        ],
-        "figures": [],
-        "wordsRead": 866
+        "t": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+        "u": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+        "publishedAt": "2026-10-23T21:38:54.000Z",
+        "retrievedAt": "2026-10-25T14:51:33.820Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Euronews",
@@ -3292,37 +2949,285 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Italy deploys hundreds of soldiers as nationwide protests raise fears of fresh violence",
-        "u": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
-        "publishedAt": "2026-10-24T12:39:44.000Z",
-        "retrievedAt": "2026-10-24T14:17:13.225Z",
+        "t": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+        "u": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+        "publishedAt": "2026-10-24T14:31:04.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The newly formed \"17 October Movement,\" which has been linked to the recent mobilisation, announced that previously advertised protest locations had been cancelled and that new meeting points would be …",
-          "In Rome, protesters are gathering for a national demonstration under the slogan \"Keep Italy out of the war\", opposing military involvement …"
+          "The military said its forces were conducting \"precise, targeted and thorough searches\" and that the operation was expected to continue for several days.",
+          "\"This amounts to collective punishment being imposed on civilians who have nothing at all to do with this,\" he told AFP.",
+          "\"We will find them shelter and provide these people with all the help they need,\" …"
         ],
         "figures": [],
-        "wordsRead": 524
+        "wordsRead": 594
       },
       {
-        "n": "Arab News",
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "IDF forcibly removes 2,231 Palestinians from West Bank city, deputy mayor says",
+        "u": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-forcibly-removes-2-231-palestinians-from-west-bank-city-deputy-mayor-says/000001a1-7230-dcd9-a5ab-7a314e280000",
+        "publishedAt": "2026-10-25T10:23:38.000Z",
+        "retrievedAt": "2026-10-25T14:52:15.946Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+            "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "IDF forcibly removes 2,231 Palestinians from West Bank city, deputy mayor says",
+            "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-forcibly-removes-2-231-palestinians-from-west-bank-city-deputy-mayor-says/000001a1-7230-dcd9-a5ab-7a314e280000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+            "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "West Bank",
+        "Palestinians",
+        "Palestinian",
+        "Israeli PM",
+        "Israel",
+        "Hebron"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "West Bank",
+            "Palestinians",
+            "Palestinian",
+            "Israeli PM",
+            "Israel",
+            "Hebron"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1gn3d4u",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 6
+      },
+      "matched": {
+        "Europe": [
+          "schengen",
+          "europe",
+          "brexit",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-25T10:33:55.000Z",
+    "lastSeen": "2026-10-25T14:20:44.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Euronews",
+      "Politico Europe",
+      "Al Jazeera"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.4758016157703764,
+      "max": 0.6240461687613578,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UK Prime Minister Andy Burnham wants 'honest discussion' on return to EU free movement",
+        "u": "https://www.euronews.com/2026/10/25/uk-prime-minister-andy-burnham-wants-honest-discussion-on-return-to-eu-free-movement",
+        "publishedAt": "2026-10-25T14:20:44.000Z",
+        "retrievedAt": "2026-10-25T14:52:02.245Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"It was a type of immigration that perhaps wasn't as difficult (as now),\" he told the Sunday Times newspaper.",
+          "Burnham told the Sunday Times, \"I can't see myself ever recommending anything that would involve joining\" the euro or the …"
+        ],
+        "figures": [],
+        "wordsRead": 395
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Burnham open to return of free movement between UK and EU",
+        "u": "https://www.politico.eu/article/andy-burnham-free-movement-uk-eu/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-10-25T10:33:55.000Z",
+        "retrievedAt": "2026-10-25T14:52:03.753Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Freedom of movement had very significant challenges associated with it and I spoke about them in my previous time in parliament,” he told the Sunday Times .",
+          "However, Burnham said he would not …"
+        ],
+        "figures": [],
+        "wordsRead": 332
+      },
+      {
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-        "u": "https://www.arabnews.com/world/italy-sends-hundreds-of-soldiers-to-milan-for-protest-one-of-many-planned-across-europe-3008018",
-        "publishedAt": "2026-10-24T10:34:36.000Z",
-        "retrievedAt": "2026-10-24T14:17:34.831Z",
+        "t": "UK PM Burnham says he wants to discuss a return to EU freedom of movement",
+        "u": "https://www.aljazeera.com/news/2026/10/25/uk-pm-burnham-says-he-wants-to-discuss-a-return-to-eu-freedom-of-movement?traffic_source=rss",
+        "publishedAt": "2026-10-25T12:38:54.000Z",
+        "retrievedAt": "2026-10-25T14:52:20.322Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Premier Giorgia Meloni announced a raft of measures, including sending an additional 500 soldiers to Milan, and tougher penalties for minors, who police said made up a large part of …",
-          "Milan police say last week’s violence and looting involved about 2,000 very young protesters, a large number of whom were “naturalized, second-generation Italians,” alongside foreign nationals.",
-          "They are not authorized to carry pepper spray or tasers, he said."
+          "“But, at the same time, it was a type of immigration that perhaps wasn’t as difficult [as now],” he said in a report released on Sunday.",
+          "Prime Minister Andy Burnham says he wants to discuss Britain returning to the European Union’s freedom of …"
         ],
         "figures": [],
-        "wordsRead": 839
+        "wordsRead": 433
       }
     ],
     "views": [
@@ -3338,22 +3243,22 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Italy deploys hundreds of soldiers as protests planned across Europe",
-            "url": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/"
-          },
-          {
             "outlet": "Euronews",
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
+            "evidenceIndex": 0,
+            "headline": "UK Prime Minister Andy Burnham wants 'honest discussion' on return to EU free movement",
+            "url": "https://www.euronews.com/2026/10/25/uk-prime-minister-andy-burnham-wants-honest-discussion-on-return-to-eu-free-movement"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
             "evidenceIndex": 1,
-            "headline": "Italy deploys hundreds of soldiers as nationwide protests raise fears of fresh violence",
-            "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence"
+            "headline": "Burnham open to return of free movement between UK and EU",
+            "url": "https://www.politico.eu/article/andy-burnham-free-movement-uk-eu/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -3374,22 +3279,22 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
+        "country": "QA",
         "evidenceIndex": 2,
-        "headline": "Italy sends hundreds of soldiers to Milan for protest, one of many planned across Europe",
-        "url": "https://www.arabnews.com/world/italy-sends-hundreds-of-soldiers-to-milan-for-protest-one-of-many-planned-across-europe-3008018",
+        "headline": "UK PM Burnham says he wants to discuss a return to EU freedom of movement",
+        "url": "https://www.aljazeera.com/news/2026/10/25/uk-pm-burnham-says-he-wants-to-discuss-a-return-to-eu-freedom-of-movement?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Italy",
-        "Europe",
-        "Milan"
+        "Burnham",
+        "UK Prime Minister Andy",
+        "UK PM Burnham"
       ],
       "attempts": [
         {
