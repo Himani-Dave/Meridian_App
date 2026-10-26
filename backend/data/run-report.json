@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-25T14:51:27.510Z",
-  "finishedAt": "2026-10-25T14:58:24.998Z",
+  "startedAt": "2026-10-26T17:08:15.188Z",
+  "finishedAt": "2026-10-26T17:14:27.868Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1007,
-    "totalItems": 1006,
-    "clusters": 932,
+    "rssItems": 979,
+    "totalItems": 973,
+    "clusters": 902,
     "candidates": 12,
-    "articlesRead": 36
+    "articlesRead": 34
   },
   "balance": {
     "left": 8,
     "centre": 10,
-    "right": 5,
+    "right": 3,
     "none": 0
   },
   "regionFill": {
@@ -42,20 +42,21 @@
     },
     "Europe": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 10
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 34
+      "availableInRegion": 33
     }
   },
   "starvedSides": [],
   "notes": [
-    "22 multi-outlet clusters were left out by --max-stories 12.",
+    "21 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"Europe\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,12 +152,12 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -166,67 +167,55 @@
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
       "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-lula-seals-brazil-election-win-but-bolsonaro-rejects-result/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-announces-general-west-bank-closure-on-israels-election-day/000001a1-6fe4-d9e6-a5b1-6feda7180000",
+      "url": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-arrests-three-over-karak-church-attack-state-tv-says/000001a1-76e8-de58-a9eb-fefeb0050000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3372058/israel-widens-west-bank-crackdown-displacing-hebron-families-after-attack",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3372198/jordan-arrests-3-relatives-over-deadly-church-attack-after-shoot-out",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-      "reason": "timeout after 20000ms"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/australasia/article/3372145/australia-sydneys-second-airport-blows-some-passengers-course",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
       "url": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-25/ty-article/.premium/saudi-arabia-intercepts-drones-missiles-as-fighting-with-houthis-continues/000001a1-72cd-d46d-a1fd-f2cde9ec0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/serbia-votes-as-student-led-bloc-challenges-longtime-leader-vucic?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3372068/serbia-votes-ruling-party-faces-student-led-anti-corruption-list",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/west-bank/2026-10-25/ty-article/.premium/idf-forcibly-removes-2-231-palestinians-from-west-bank-city-deputy-mayor-says/000001a1-7230-dcd9-a5ab-7a314e280000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
