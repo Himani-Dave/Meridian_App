@@ -1,6 +1,6 @@
 [
   {
-    "id": "cvapnbn",
+    "id": "clqim6m",
     "regions": [
       "India",
       "Global"
@@ -8,102 +8,72 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 4,
+        "India": 6,
         "Europe": 0
       },
       "matched": {
         "India": [
-          "karnataka",
-          "(an outlet from the region covered it)"
+          "india",
+          "modi"
         ]
       }
     },
-    "firstSeen": "2026-10-26T09:52:47.000Z",
-    "lastSeen": "2026-10-26T15:39:43.000Z",
+    "firstSeen": "2026-10-27T09:25:48.000Z",
+    "lastSeen": "2026-10-27T13:15:32.000Z",
     "outletCount": 2,
     "outlets": [
-      "Scroll.in",
-      "The Hindu"
+      "Al Jazeera",
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.37564914203013194,
-      "max": 0.37564914203013194,
+      "min": 0.39414171048019764,
+      "max": 0.39414171048019764,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Scroll.in",
-        "b": "left",
+        "n": "Al Jazeera",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Karnataka poll officials sought deletions of 61,000 voters without citing reasons: ‘The Hindu’",
-        "u": "https://scroll.in/latest/1096646/sir-karnataka-poll-officials-sought-deletions-of-61000-names-without-citing-reasons-says-report?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-10-26T09:52:47.000Z",
-        "retrievedAt": "2026-10-26T17:08:39.783Z",
+        "t": "India-China border face-offs test Modi six years after deadly clash",
+        "u": "https://www.aljazeera.com/news/2026/10/27/india-china-border-face-offs-test-modi-six-years-after-deadly-clash?traffic_source=rss",
+        "publishedAt": "2026-10-27T13:15:32.000Z",
+        "retrievedAt": "2026-10-27T16:14:08.638Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In the case of Karnataka, electoral registration officers and assistant electoral registration officers said that the system “auto-generated” these forms and added their digital signatures when voters could not be …",
-          "The officials said that they had been instructed to file Form 7 applications if a voter had moved, had a duplicate entry elsewhere, was underage, had died …"
-        ],
-        "figures": [
-          {
-            "value": "19.4%",
-            "context": "ntensive revision . The excluded names account for 19.4% of the state’s electorate, with most deletions at"
-          }
-        ],
-        "wordsRead": 582
-      },
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Over 61,000 Form-7 applications filed by election officials in Karnataka, none cites reason",
-        "u": "https://www.thehindu.com/news/national/karnataka/over-61000-form-7-applications-filed-by-election-officials-in-karnataka-none-cites-reason/article71623783.ece",
-        "publishedAt": "2026-10-26T15:39:43.000Z",
-        "retrievedAt": "2026-10-26T17:08:41.216Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "This is at odds with Rule 17 of the Registration of Electors Rules, 1960, which states that any claim or objection not lodged within the prescribed period or in the …",
-          "Electoral Registration Officers (EROs) and Assistant Electoral Registration Officers (AEROs), listed as the objectors in these applications, said the system “auto-generated” the forms with their digital signatures when voters could …",
-          "They cannot be abusive or personal."
+          "Praveen Donthi, a senior analyst at the Brussels-based International Crisis Group, said that border tensions amid a thaw in bilateral relations now appear as “part of a pattern” – “likely …",
+          "And due to the undemarcated border, “stand-offs are bound to occur from time to time, some of which may go out of hand”, Donthi warned.",
+          "Deepak said that “the continuing face-offs show that these diplomatic efforts have not eliminated the friction.”"
         ],
         "figures": [],
-        "wordsRead": 855
+        "wordsRead": 1473
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Fragile India-China thaw tested by reported fresh Himalayan border face-offs",
+        "u": "https://www.scmp.com/news/china/diplomacy/article/3372296/fragile-india-china-thaw-tested-reported-fresh-himalayan-border-face-offs",
+        "publishedAt": "2026-10-27T09:25:48.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "Karnataka poll officials sought deletions of 61,000 voters without citing reasons: ‘The Hindu’",
-            "url": "https://scroll.in/latest/1096646/sir-karnataka-poll-officials-sought-deletions-of-61000-names-without-citing-reasons-says-report?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Over 61,000 Form-7 applications filed by election officials in Karnataka, none cites reason",
-            "url": "https://www.thehindu.com/news/national/karnataka/over-61000-form-7-applications-filed-by-election-officials-in-karnataka-none-cites-reason/article71623783.ece"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -124,16 +94,37 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "coverage sits on one side only (left)"
+      "reason": "only 0 of 2 items come from outlets placed on the left-right axis"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 0,
+        "headline": "India-China border face-offs test Modi six years after deadly clash",
+        "url": "https://www.aljazeera.com/news/2026/10/27/india-china-border-face-offs-test-modi-six-years-after-deadly-clash?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 1,
+        "headline": "Fragile India-China thaw tested by reported fresh Himalayan border face-offs",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3372296/fragile-india-china-thaw-tested-reported-fresh-himalayan-border-face-offs",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Karnataka",
-        "The Hindu",
-        "Form-7",
-        "Over"
+        "Fragile India-China",
+        "India-China",
+        "Himalayan",
+        "Modi"
       ],
       "attempts": [
         {
@@ -219,7 +210,554 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1j5oh82",
+    "id": "c11zoimd",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 8,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "india",
+          "modi",
+          "adani",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-27T10:55:27.000Z",
+    "lastSeen": "2026-10-27T11:12:55.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "OpIndia",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.37670014520601214,
+      "max": 0.37670014520601214,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "OpIndia",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Calcutta High Court orders restraint on streaming of Sabeer Bhatia’s Modi-Adani video: Read court order details",
+        "u": "https://www.opindia.com/2026/10/calcutta-high-court-orders-restraint-streaming-of-sabeer-bhatias-modi-adani-video-details/",
+        "publishedAt": "2026-10-27T11:12:55.000Z",
+        "retrievedAt": "2026-10-27T16:13:48.292Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Indian court orders documentary on Modi, tycoon Adani removed",
+        "u": "https://www.scmp.com/news/asia/south-asia/article/3372312/indian-court-orders-documentary-modi-tycoon-adani-removed",
+        "publishedAt": "2026-10-27T10:55:27.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Adani’s flagship firm, Adani Enterprises, told the High Court in the eastern …"
+        ],
+        "figures": [],
+        "wordsRead": 120
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "OpIndia",
+            "outletId": "opindia",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Calcutta High Court orders restraint on streaming of Sabeer Bhatia’s Modi-Adani video: Read court order details",
+            "url": "https://www.opindia.com/2026/10/calcutta-high-court-orders-restraint-streaming-of-sabeer-bhatias-modi-adani-video-details/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 1,
+        "headline": "Indian court orders documentary on Modi, tycoon Adani removed",
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3372312/indian-court-orders-documentary-modi-tycoon-adani-removed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Calcutta High Court",
+        "Sabeer Bhatia",
+        "Modi-Adani",
+        "Indian",
+        "Adani",
+        "Read"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ch5hfjf",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 14
+      },
+      "matched": {
+        "Europe": [
+          "brussels",
+          "finland",
+          "norway",
+          "ukraine",
+          "european",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-27T09:59:14.000Z",
+    "lastSeen": "2026-10-27T14:23:05.000Z",
+    "outletCount": 6,
+    "outlets": [
+      "BBC News",
+      "Euronews",
+      "Politico Europe",
+      "Brussels Signal",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 6 outlets",
+    "clustering": {
+      "min": 0.374182533056981,
+      "max": 0.6198632446408295,
+      "pairs": 9,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Norway and Finland leaders hold rare call with Putin",
+        "u": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-27T14:23:05.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The aim was looking at \"future negotiations to help to end the war\" in Ukraine, the offices of President Alexander Stubb and Prime Minister Jonas Gahr Støre said.",
+          "Finland and Norway, which border Russia, initiated the call to \"discuss Russia's war of aggression against Ukraine and the diplomatic efforts to end the war and promote peace …"
+        ],
+        "figures": [],
+        "wordsRead": 564
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Finnish and Norwegian leaders call Putin, urge restart of peace talks",
+        "u": "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks",
+        "publishedAt": "2026-10-27T11:14:19.000Z",
+        "retrievedAt": "2026-10-27T16:13:51.587Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "According to the Kremlin, Putin told Stubb and Støre that \"achieving a just, long-term peace is only possible with full and unconditional consideration of the legitimate interests of the Russian …",
+          "\"Alex and Jonas made it clear to the Russian leader that real de-escalatory steps are needed regarding our energy and infrastructure,\" Zelenskyy said, thanking them for their \"active\" diplomatic …"
+        ],
+        "figures": [],
+        "wordsRead": 602
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Leaders of Finland and Norway hold direct talks with Putin",
+        "u": "https://www.politico.eu/article/leader-finland-alexander-stubb-and-norway-jonas-gahr-store-talk-to-russia-vladimir-putin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-10-27T09:59:14.000Z",
+        "retrievedAt": "2026-10-27T16:13:53.068Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“The discussion was frank and substantive,” said Stubb in a statement after the call.",
+          "“I am grateful for the detailed briefing and for their active support for our diplomacy and the peace efforts we are pursuing together with all our partners,” the Ukrainian president …",
+          "“We discussed preparations for the trilateral meeting planned for November at the team level — Ukrainian, American, and Russian,” Zelenskyy said."
+        ],
+        "figures": [],
+        "wordsRead": 900
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Finnish and Norwegian leaders hold direct call with Putin, prompting unease among allies",
+        "u": "https://brusselssignal.eu/2026/10/finnish-and-norwegian-leaders-hold-direct-call-with-putin-prompting-unease-among-allies/",
+        "publishedAt": "2026-10-27T12:04:52.000Z",
+        "retrievedAt": "2026-10-27T16:14:01.523Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Russian presidency stated that Vladimir Putin used the call to draw direct attention to what he termed the “confrontational policies of EU and NATO member states”, arguing that such …",
+          "Anticipating unease across European capitals, the Finnish presidency stressed that both leaders “took the call as leaders of their respective countries and did not speak on behalf of Europe as …",
+          "“We are neighbouring countries to Russia."
+        ],
+        "figures": [],
+        "wordsRead": 896
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+        "u": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+        "publishedAt": "2026-10-27T13:59:37.000Z",
+        "retrievedAt": "2026-10-27T16:14:08.638Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This is a serious escalation in Russia’s campaign targeting our logistics,” he said.",
+          "“There must be peace, de-escalation is needed, and Russia must stop dragging out the war,” he said.",
+          "Officials in Kyiv said the South Bridge was hit in overnight attacks on the city ⁠⁠that included 16 ballistic missiles …"
+        ],
+        "figures": [],
+        "wordsRead": 502
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Norway, Finland leaders hold ‘frank’ talk with Putin on ending Ukraine war",
+        "u": "https://www.scmp.com/news/world/europe/article/3372326/norway-finland-leaders-hold-frank-talk-putin-ending-ukraine-war",
+        "publishedAt": "2026-10-27T12:14:16.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Norway and Finland leaders hold rare call with Putin",
+            "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Finnish and Norwegian leaders call Putin, urge restart of peace talks",
+            "url": "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "Leaders of Finland and Norway hold direct talks with Putin",
+            "url": "https://www.politico.eu/article/leader-finland-alexander-stubb-and-norway-jonas-gahr-store-talk-to-russia-vladimir-putin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "Finnish and Norwegian leaders hold direct call with Putin, prompting unease among allies",
+            "url": "https://brusselssignal.eu/2026/10/finnish-and-norwegian-leaders-hold-direct-call-with-putin-prompting-unease-among-allies/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 4,
+        "headline": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+        "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "Norway, Finland leaders hold ‘frank’ talk with Putin on ending Ukraine war",
+        "url": "https://www.scmp.com/news/world/europe/article/3372326/norway-finland-leaders-hold-frank-talk-putin-ending-ukraine-war",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Putin",
+        "Norwegian",
+        "Finland",
+        "Finnish",
+        "Norway",
+        "Leaders"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c4utwnp",
     "regions": [
       "Europe",
       "Global"
@@ -228,39 +766,36 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 20
+        "Europe": 9
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
-          "france",
-          "italy",
-          "portugal",
-          "paris",
-          "madrid",
-          "rome",
-          "europe",
-          "european"
+          "finland",
+          "norway",
+          "ukraine"
         ]
       }
     },
-    "firstSeen": "2026-10-24T12:29:59.000Z",
-    "lastSeen": "2026-10-25T07:15:00.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-10-27T05:26:58.000Z",
+    "lastSeen": "2026-10-27T13:45:01.000Z",
+    "outletCount": 5,
     "outlets": [
       "NPR",
-      "Christian Science Monitor",
-      "Globe and Mail"
+      "Fox News",
+      "Globe and Mail",
+      "Al Jazeera",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.39353682159042686,
-      "max": 0.43106151643868196,
-      "pairs": 2,
-      "prunedForCohesion": 1
+      "min": 0.3654573893594651,
+      "max": 0.6290652699356878,
+      "pairs": 8,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
@@ -270,31 +805,30 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-        "u": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-        "publishedAt": "2026-10-25T07:15:00.000Z",
-        "retrievedAt": "2026-10-26T17:08:21.849Z",
+        "t": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+        "u": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+        "publishedAt": "2026-10-27T05:26:58.000Z",
+        "retrievedAt": "2026-10-27T16:13:26.887Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Christian Science Monitor",
-        "b": "centre",
+        "n": "Fox News",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Police and protesters clash in Paris as demonstrations break out across Europe",
-        "u": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss",
-        "publishedAt": "2026-10-24T17:23:31.000Z",
-        "retrievedAt": "2026-10-26T17:08:24.902Z",
+        "t": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city",
+        "u": "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city",
+        "publishedAt": "2026-10-27T12:41:20.000Z",
+        "retrievedAt": "2026-10-27T16:13:34.037Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“There are enormous numbers of people in the same situation as me but who aren’t privileged and who find themselves living on the streets and in squats and, frankly, it’s …",
-          "“They are using what happened last week as an excuse to quiet protesters,” she said.",
-          "“I got the call last night,” he said."
+          "The pause in fighting in Oleshky started around 3 a.m. local time as \"part of a humanitarian mission being carried out with the mediation and coordination of U.S. first lady …",
+          "The White House said both Ukraine and Russia \"agreed to temporarily stop all military action …"
         ],
         "figures": [],
-        "wordsRead": 1279
+        "wordsRead": 466
       },
       {
         "n": "Globe and Mail",
@@ -303,18 +837,56 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Italy deploys hundreds of soldiers as protests planned across Europe",
-        "u": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/",
-        "publishedAt": "2026-10-24T12:29:59.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
+        "t": "Ceasefire brokered by Melania Trump begins in Russian-occupied Oleshky",
+        "u": "https://www.theglobeandmail.com/world/article-oleshky-ceasefire-melania-trump-russia-ukraine-war/",
+        "publishedAt": "2026-10-27T13:32:16.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I think the images from last week were truly something terrible, especially for the young people, for the students, for the vast majority of the younger generations who want to …",
-          "Milan police say last week’s violence and looting involved about 2,000 very young protesters, many of them “naturalized, second-generation Italians,” alongside foreign nationals.",
-          "Authorities said 2,500 officers patrolled the streets Saturday."
+          "But Denmark’s prime minister said she was “very skeptical” of reaching out directly to Putin, saying she sees “no signs that Russia desires peace with Europe” and noting that the …",
+          "“I believe we should keep Europe united, rather than going it alone,” Mette Frederiksen said.",
+          "“There must be peace, de-escalation is needed, and Russia must stop dragging out the war,” Zelensky said on X."
         ],
         "figures": [],
-        "wordsRead": 1111
+        "wordsRead": 996
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+        "u": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+        "publishedAt": "2026-10-27T13:45:01.000Z",
+        "retrievedAt": "2026-10-27T16:14:08.638Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“As head of the Ukrainian negotiating team, I confirm that the Ukrainian side is honouring its commitments,” Dmytro Lubinets, the parliamentary commissioner for human rights, said in a Facebook post …",
+          "In April, responding to Leo’s critiques, Trump said the pope was “weak on crime, weak on nuclear weapons”, and that he would not have been elected pope if Trump wasn’t …",
+          "Then, on October 23, a brief ceasefire was announced."
+        ],
+        "figures": [],
+        "wordsRead": 961
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ceasefire brokered by Melania Trump begins in Russian-occupied Ukrainian town",
+        "u": "https://www.scmp.com/news/world/europe/article/3372265/ceasefire-brokered-melania-trump-begins-russian-occupied-ukrainian-town",
+        "publishedAt": "2026-10-27T06:15:25.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "According to her office, Melania Trump led talks …"
+        ],
+        "figures": [],
+        "wordsRead": 83
       }
     ],
     "views": [
@@ -328,8 +900,8 @@
             "lean": "lean_left",
             "country": "US",
             "evidenceIndex": 0,
-            "headline": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-            "url": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe"
+            "headline": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+            "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war"
           }
         ],
         "status": "sourced",
@@ -340,22 +912,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Christian Science Monitor",
-            "outletId": "csmonitor",
-            "lean": "centre",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Police and protesters clash in Paris as demonstrations break out across Europe",
-            "url": "https://www.csmonitor.com/World/Europe/2026/1024/Police-and-protesters-clash-in-Paris-as-demonstrations-break-out-across-Europe?icid=rss"
-          },
-          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
             "evidenceIndex": 2,
-            "headline": "Italy deploys hundreds of soldiers as protests planned across Europe",
-            "url": "https://www.theglobeandmail.com/world/article-europe-protests-italy-spain-portugal-albania-october-24/"
+            "headline": "Ceasefire brokered by Melania Trump begins in Russian-occupied Oleshky",
+            "url": "https://www.theglobeandmail.com/world/article-oleshky-ceasefire-melania-trump-russia-ukraine-war/"
           }
         ],
         "status": "sourced",
@@ -364,8 +927,18 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city",
+            "url": "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
@@ -373,16 +946,37 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 3,
+        "headline": "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+        "url": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Ceasefire brokered by Melania Trump begins in Russian-occupied Ukrainian town",
+        "url": "https://www.scmp.com/news/world/europe/article/3372265/ceasefire-brokered-melania-trump-begins-russian-occupied-ukrainian-town",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Europe",
-        "Soldiers",
-        "Police",
-        "Milan",
-        "Paris",
-        "Italy"
+        "Melania Trump",
+        "Ceasefire",
+        "Russian-occupied Ukrainian",
+        "Russia-occupied Ukrainian",
+        "Russian-occupied Oleshky",
+        "Russia-Ukraine"
       ],
       "attempts": [
         {
@@ -391,12 +985,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Europe",
-            "Soldiers",
-            "Police",
-            "Milan",
-            "Paris",
-            "Italy"
+            "Melania Trump",
+            "Ceasefire",
+            "Russian-occupied Ukrainian",
+            "Russia-occupied Ukrainian",
+            "Russian-occupied Oleshky",
+            "Russia-Ukraine"
           ]
         },
         {
@@ -476,7 +1070,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1gqzj0v",
+    "id": "cx729kt",
     "regions": [
       "Europe",
       "Global"
@@ -485,310 +1079,33 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 3
+        "Europe": 4
       },
       "matched": {
         "Europe": [
-          "netherlands"
+          "netherlands",
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-26T06:07:18.000Z",
-    "lastSeen": "2026-10-27T00:00:00.000Z",
-    "outletCount": 2,
+    "firstSeen": "2026-10-27T10:39:31.000Z",
+    "lastSeen": "2026-10-27T13:38:08.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Focus Taiwan (CNA)",
-      "Taipei Times"
+      "BBC News",
+      "Euronews",
+      "Haaretz",
+      "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.5913475879788441,
-      "max": 0.5913475879788441,
-      "pairs": 1,
+      "min": 0.3833257291867264,
+      "max": 0.5434554863338218,
+      "pairs": 6,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Focus Taiwan (CNA)",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Gymnast Tang Chia-hung wins horizontal bar gold at world championships",
-        "u": "https://focustaiwan.tw/sports/202610260005",
-        "publishedAt": "2026-10-26T06:07:18.000Z",
-        "retrievedAt": "2026-10-26T17:09:15.244Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"We won this gold medal together, helping take Taiwan's gymnastics another step further on the world stage,\" he said.",
-          "This approach seemed to work quite well, Tang said with a laugh, adding that he now feels more confident about qualifying for the 2028 Los Angeles Olympics at next year's …",
-          "Taipei, Oct. 26 (CNA) Taiwanese gymnast Tang Chia-hung (唐嘉鴻) …"
-        ],
-        "figures": [],
-        "wordsRead": 598
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Taiwanese gymnast wins gold at world championships",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/10/27/2003866674",
-        "publishedAt": "2026-10-27T00:00:00.000Z",
-        "retrievedAt": "2026-10-26T17:09:16.952Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“We won this gold medal together, helping take Taiwan’s gymnastics another step further on the world stage,” he said.",
-          "“I was physically and mentally exhausted during the training camp and didn’t feel I was in my best form, but after my wife arrived, simply having a meal and chatting …",
-          "At one point a super typhoon and one of the strongest storms in the Pacific this year, Champi was packing gusts of about 191kph near its center as of 8:30pm …"
-        ],
-        "figures": [],
-        "wordsRead": 1016
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Focus Taiwan (CNA)",
-            "outletId": "focustaiwan",
-            "lean": "centre",
-            "country": "TW",
-            "evidenceIndex": 0,
-            "headline": "Gymnast Tang Chia-hung wins horizontal bar gold at world championships",
-            "url": "https://focustaiwan.tw/sports/202610260005"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 1,
-        "headline": "Taiwanese gymnast wins gold at world championships",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/27/2003866674",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Gymnast Tang Chia-hung",
-        "Taiwanese"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c75qexe",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-25T13:47:17.000Z",
-    "lastSeen": "2026-10-27T00:00:00.000Z",
-    "outletCount": 8,
-    "outlets": [
-      "Democracy Now!",
-      "Guardian US",
-      "NPR",
-      "BBC News",
-      "Globe and Mail",
-      "Haaretz",
-      "Al Jazeera",
-      "Taipei Times"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
-    "clustering": {
-      "min": 0.3686768613218313,
-      "max": 0.5234464198070939,
-      "pairs": 10,
-      "prunedForCohesion": 3
-    },
-    "sources": [
-      {
-        "n": "Democracy Now!",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazil: Lula Wins Stunning Upset Over Flávio Bolsonaro in Blow to Far Right & Trump",
-        "u": "http://www.democracynow.org/2026/10/26/brazil_election_lula_beats_bolsonaro",
-        "publishedAt": "2026-10-26T12:16:12.000Z",
-        "retrievedAt": "2026-10-26T17:08:17.070Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Don’t forget that just last year we saw Trump levy 50% tariffs on Brazil, and then, you know, Brazilians rose up and said, “Uh-uh, that’s not going to happen,” and …",
-          "Lula and Brazil set a mark, in that they said, “No, we’re not going to go down that route.”",
-          "“It is an absolute game-changer for the region.”"
-        ],
-        "figures": [
-          {
-            "value": "4 million",
-            "context": "defeating far-right challenger Flávio Bolsonaro by 4 million votes in a runoff election on Sunday. Flávio Bols"
-          }
-        ],
-        "wordsRead": 3719
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "First Thing: Brazil re-elects Lula in comeback rebuke for Bolsonaro and far right",
-        "u": "https://www.theguardian.com/us-news/2026/oct/26/first-thing-brazil-re-elects-lula-comeback-bolsonaro",
-        "publishedAt": "2026-10-26T14:00:48.000Z",
-        "retrievedAt": "2026-10-26T17:08:19.736Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Hebron municipality said 370 families, nearly 2,000 people, had been displaced.",
-          "Yousef al-Jabari accused the Israeli state of “collective punishment”, saying: “They have dragged people from their houses, and they have prevented the media from getting into the district … Netanyahu …",
-          "“I’ve never heard anything like it in my life … It was terrifying.”"
-        ],
-        "figures": [],
-        "wordsRead": 1074
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazil's left-wing President Lula elected for fourth term",
-        "u": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-        "publishedAt": "2026-10-26T00:35:00.000Z",
-        "retrievedAt": "2026-10-26T17:08:21.849Z",
-        "read": "headline and feed excerpt"
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -796,78 +1113,36 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Lula wins fourth term in dramatic Brazil election comeback",
-        "u": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-26T16:49:14.000Z",
-        "retrievedAt": "2026-10-26T17:08:23.205Z",
+        "t": "Netherlands pulls out of Eurovision again over Israel participation",
+        "u": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-27T11:23:19.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\".",
-          "\"This, my fourth term, will be the best of any president in the history of this country,\" the former metal worker said.",
-          "Vice-President Geraldo Alckmin told him: \"You, for the second time, have saved Brazilian democracy.\""
+          "However, NPO's media director Jurre Bosman said on Tuesday that \"Israel's participation elicits various reactions in society and causes discussion and division\", and NPO \"has decided to forgo participation in …",
+          "Eurovision Song Contest director Martin Green said he was \"deeply sorry\" that the Netherlands would not …"
         ],
-        "figures": [
-          {
-            "value": "51.79%",
-            "context": "enger Flávio Bolsonaro. Left-wing leader Lula took 51.79% of votes, becoming the first president since Braz"
-          }
-        ],
-        "wordsRead": 748
+        "figures": [],
+        "wordsRead": 477
       },
       {
-        "n": "Globe and Mail",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Lula’s defeat of Bolsonaro in Brazil denies Trump an ally",
-        "u": "https://www.theglobeandmail.com/world/article-brazil-election-lula-da-silva-flavio-bolsonaro/",
-        "publishedAt": "2026-10-26T10:00:48.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
+        "t": "Eurovision in crisis: Netherlands make U-turn and pull out of Eurovision 2027",
+        "u": "https://www.euronews.com/2026/10/27/eurovision-in-crisis-netherlands-make-u-turn-and-pull-out-of-eurovision-2027",
+        "publishedAt": "2026-10-27T13:38:08.000Z",
+        "retrievedAt": "2026-10-27T16:13:51.587Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Lula is pragmatic enough to work out some kind of modus operandi with the Trump administration,” said Will Freeman, a fellow for Latin America studies at the Council on Foreign …",
-          "“I’m not sure anyone in the Trump administration, beyond a few individuals, will want to keep making the Bolsonaros the central issue in the U.S.-Brazil relationship,” he said.",
-          "“The Trump administration will have to walk a certain line here.”"
+          "As for Slovenian broadcaster RTVSLO, they said last year that taking part “would conflict with its values of peace, equality and respect” and that it was pulling out of the …",
+          "Eurovision director Martin Green said he was \"deeply sorry\" that the Netherlands would not take part, but added that \"we understand their decision, and we respect the strength of feeling …"
         ],
-        "figures": [
-          {
-            "value": "51.8 per cent",
-            "context": "ula da Silva over Flávio Bolsonaro on Sunday, with 51.8 per cent of the vote to 48.2 per cent, limits …"
-          },
-          {
-            "value": "48.2 per cent",
-            "context": "onaro on Sunday, with 51.8 per cent of the vote to 48.2 per cent, limits U.S. President Donald Trump’s drive …"
-          }
-        ],
-        "wordsRead": 1214
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Lula seals Brazil election win, but Bolsonaro rejects result",
-        "u": "https://www.theglobeandmail.com/world/video-lula-seals-brazil-election-win-but-bolsonaro-rejects-result/",
-        "publishedAt": "2026-10-26T09:35:41.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazil’s president Luiz Inácio Lula da Silva re-elected for fourth term",
-        "u": "https://www.theglobeandmail.com/world/article-brazil-election-lula-bolsonaro-runoff/",
-        "publishedAt": "2026-10-25T13:47:17.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
-        "read": "headline and feed excerpt"
+        "figures": [],
+        "wordsRead": 651
       },
       {
         "n": "Haaretz",
@@ -876,10 +1151,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Lula wins Brazil presidential election, Netanyahu ally Bolsonaro rejects result",
-        "u": "https://www.haaretz.com/world-news/2026-10-26/ty-article/lula-wins-brazil-presidential-election-besting-netanyahu-ally-bolsonaro/000001a1-75a4-df0e-a5b7-7fa4c2140000",
-        "publishedAt": "2026-10-26T01:05:13.000Z",
-        "retrievedAt": "2026-10-26T17:09:02.247Z",
+        "t": "Netherlands drops out of 2027 Eurovision Song Contest in protest over Israel's participation",
+        "u": "https://www.haaretz.com/israel-news/culture/2026-10-27/ty-article/.premium/netherlands-drops-out-of-2027-eurovision-in-protest-over-israels-participation/000001a1-7cd8-dd27-a1ef-fff993fc0000",
+        "publishedAt": "2026-10-27T10:39:31.000Z",
+        "retrievedAt": "2026-10-27T16:14:04.685Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -889,24 +1164,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "How did Lula beat Bolsonaro after losing Brazil’s first-round election?",
-        "u": "https://www.aljazeera.com/news/2026/10/26/how-did-lula-beat-bolsonaro-after-losing-brazils-first-round-election?traffic_source=rss",
-        "publishedAt": "2026-10-26T13:02:22.000Z",
-        "retrievedAt": "2026-10-26T17:09:06.688Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Lula wins fourth term, as Bolsonaro seeks to void result",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/10/27/2003866676",
-        "publishedAt": "2026-10-27T00:00:00.000Z",
-        "retrievedAt": "2026-10-26T17:09:16.952Z",
-        "read": "headline only"
+        "t": "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’",
+        "u": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss",
+        "publishedAt": "2026-10-27T13:29:47.000Z",
+        "retrievedAt": "2026-10-27T16:14:08.638Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We have known for some time that Israel’s participation elicits various reactions in society and causes discussion and division,” the NPO’s media director Jurre Bosman said in a statement.",
+          "AVROTROS, which usually selects the Netherlands’ entry and …"
+        ],
+        "figures": [],
+        "wordsRead": 379
       }
     ],
     "views": [
@@ -915,40 +1183,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Democracy Now!",
-            "outletId": "democracynow",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Brazil: Lula Wins Stunning Upset Over Flávio Bolsonaro in Blow to Far Right & Trump",
-            "url": "http://www.democracynow.org/2026/10/26/brazil_election_lula_beats_bolsonaro"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "First Thing: Brazil re-elects Lula in comeback rebuke for Bolsonaro and far right",
-            "url": "https://www.theguardian.com/us-news/2026/oct/26/first-thing-brazil-re-elects-lula-comeback-bolsonaro"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Brazil's left-wing President Lula elected for fourth term",
-            "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
-          },
-          {
             "outlet": "Haaretz",
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 7,
-            "headline": "Lula wins Brazil presidential election, Netanyahu ally Bolsonaro rejects result",
-            "url": "https://www.haaretz.com/world-news/2026-10-26/ty-article/lula-wins-brazil-presidential-election-besting-netanyahu-ally-bolsonaro/000001a1-75a4-df0e-a5b7-7fa4c2140000"
+            "evidenceIndex": 2,
+            "headline": "Netherlands drops out of 2027 Eurovision Song Contest in protest over Israel's participation",
+            "url": "https://www.haaretz.com/israel-news/culture/2026-10-27/ty-article/.premium/netherlands-drops-out-of-2027-eurovision-in-protest-over-israels-participation/000001a1-7cd8-dd27-a1ef-fff993fc0000"
           }
         ],
         "status": "sourced",
@@ -963,36 +1204,18 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "Lula wins fourth term in dramatic Brazil election comeback",
-            "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 0,
+            "headline": "Netherlands pulls out of Eurovision again over Israel participation",
+            "url": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss"
           },
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "Lula’s defeat of Bolsonaro in Brazil denies Trump an ally",
-            "url": "https://www.theglobeandmail.com/world/article-brazil-election-lula-da-silva-flavio-bolsonaro/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 5,
-            "headline": "Lula seals Brazil election win, but Bolsonaro rejects result",
-            "url": "https://www.theglobeandmail.com/world/video-lula-seals-brazil-election-win-but-bolsonaro-rejects-result/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 6,
-            "headline": "Brazil’s president Luiz Inácio Lula da Silva re-elected for fourth term",
-            "url": "https://www.theglobeandmail.com/world/article-brazil-election-lula-bolsonaro-runoff/"
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Eurovision in crisis: Netherlands make U-turn and pull out of Eurovision 2027",
+            "url": "https://www.euronews.com/2026/10/27/eurovision-in-crisis-netherlands-make-u-turn-and-pull-out-of-eurovision-2027"
           }
         ],
         "status": "sourced",
@@ -1016,46 +1239,28 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 8,
-        "headline": "How did Lula beat Bolsonaro after losing Brazil’s first-round election?",
-        "url": "https://www.aljazeera.com/news/2026/10/26/how-did-lula-beat-bolsonaro-after-losing-brazils-first-round-election?traffic_source=rss",
+        "evidenceIndex": 3,
+        "headline": "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’",
+        "url": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 9,
-        "headline": "Lula wins fourth term, as Bolsonaro seeks to void result",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/27/2003866676",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Brazil",
-        "Lula",
-        "Bolsonaro",
-        "Trump",
-        "Lula Wins Stunning Upset",
-        "President Lula"
+        "Eurovision",
+        "Netherlands",
+        "Israel",
+        "Eurovision Song Contest",
+        "The Netherlands",
+        "Israel's"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Brazil",
-            "Lula",
-            "Bolsonaro",
-            "Trump",
-            "Lula Wins Stunning Upset",
-            "President Lula"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -1134,7 +1339,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1ii5rji",
+    "id": "c6sngu6",
     "regions": [
       "Global"
     ],
@@ -1153,11 +1358,10 @@
         ]
       }
     },
-    "firstSeen": "2026-10-25T16:18:41.000Z",
-    "lastSeen": "2026-10-27T00:00:00.000Z",
-    "outletCount": 7,
+    "firstSeen": "2026-10-25T17:47:02.000Z",
+    "lastSeen": "2026-10-27T00:31:11.000Z",
+    "outletCount": 6,
     "outlets": [
-      "NPR",
       "BBC News",
       "Christian Science Monitor",
       "Fox News",
@@ -1166,64 +1370,33 @@
       "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 6 outlets",
     "clustering": {
-      "min": 0.3698842244605788,
-      "max": 0.6757123835735992,
-      "pairs": 22,
+      "min": 0.37986274191974645,
+      "max": 0.6876193913568805,
+      "pairs": 11,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-        "u": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-        "publishedAt": "2026-10-25T16:18:41.000Z",
-        "retrievedAt": "2026-10-26T17:08:21.849Z",
-        "read": "headline and feed excerpt"
-      },
-      {
         "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Venezuelan opposition leader María Machado returns after months in exile",
-        "u": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-26T05:20:19.000Z",
-        "retrievedAt": "2026-10-26T17:08:23.205Z",
+        "t": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+        "u": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-27T00:31:11.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Her ally, former presidential candidate Edmundo González, confirmed her arrival, writing in a statement: \"I am thrilled to announce to you that our leader, my dear María Corina, is on …",
-          "Speaking to reporters on Sunday, Trump said, \"I don't know anything about\" her return, and added that he hoped she was \"safe\".",
-          "The committee that issues the prize had said \"it cannot be revoked, shared, or transferred to others\"."
+          "\"María Corina is the indisputable leader of Venezuela,\" says 20-year-old Gregory Noriega, wearing a sweatshirt emblazoned with the logo of the opposition movement Vente Venezuela.",
+          "\"The return of María Corina Machado, in my personal view, is the most significant [political] event since 3rd January,\" says Alarcón.",
+          "\"She's returned after the double earthquakes when Venezuela needs her,\" adds her friend, Manuel."
         ],
         "figures": [],
-        "wordsRead": 771
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Crowds welcome Venezuela's María Machado after months in exile",
-        "u": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-26T09:31:12.000Z",
-        "retrievedAt": "2026-10-26T17:08:23.205Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "With you,\" Machado wrote on X on Sunday."
-        ],
-        "figures": [],
-        "wordsRead": 110
+        "wordsRead": 1018
       },
       {
         "n": "Christian Science Monitor",
@@ -1235,7 +1408,7 @@
         "t": "Venezuela’s Machado returns from exile, as doubts over democracy deepen",
         "u": "https://www.csmonitor.com/World/Americas/2026/1025/venezuela-machado-exile-maduro-rodriguez?icid=rss",
         "publishedAt": "2026-10-25T21:05:22.000Z",
-        "retrievedAt": "2026-10-26T17:08:24.902Z",
+        "retrievedAt": "2026-10-27T16:13:29.959Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Today is a very important day for Venezuelans,” he wrote.",
@@ -1255,7 +1428,7 @@
         "t": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
         "u": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad",
         "publishedAt": "2026-10-25T17:47:02.000Z",
-        "retrievedAt": "2026-10-26T17:08:29.167Z",
+        "retrievedAt": "2026-10-27T16:13:34.037Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"I don't know anything about it, but I think she's a very nice woman,\" Trump said.",
@@ -1275,7 +1448,7 @@
         "t": "Venezuela’s opposition leader Machado returns after months in exile",
         "u": "https://www.theglobeandmail.com/world/article-venezuelas-opposition-leader-machado-returns-after-months-in-exile/",
         "publishedAt": "2026-10-25T23:30:35.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Today is a very important day for Venezuelans,” he wrote. ”Our sovereign voice returns with her to lead and guide this process!”",
@@ -1295,8 +1468,14 @@
         "t": "Venezuelan opposition leader Machado returns from exile",
         "u": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-world-4025-rdf",
         "publishedAt": "2026-10-26T09:08:00.000Z",
-        "retrievedAt": "2026-10-26T17:08:53.769Z",
-        "read": "headline and feed excerpt"
+        "retrievedAt": "2026-10-27T16:13:56.533Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The show could have been avoided—the airports are right here,\" Rodriguez said on state television.",
+          "Wearing her trademark white T-shirt and blue jeans, she leaned out of the sunroof and shouted \"this country is giving lessons to everyone\" as her convoy entered the capital."
+        ],
+        "figures": [],
+        "wordsRead": 470
       },
       {
         "n": "Taipei Times",
@@ -1308,26 +1487,23 @@
         "t": "Venezuela’s Machado returns from exile",
         "u": "https://www.taipeitimes.com/News/world/archives/2026/10/27/2003866700",
         "publishedAt": "2026-10-27T00:00:00.000Z",
-        "retrievedAt": "2026-10-26T17:09:16.952Z",
-        "read": "headline only"
+        "retrievedAt": "2026-10-27T16:14:18.545Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We expect all political actors to support these talks, which represent the best chance Venezuela has had in 30 years to peacefully achieve not just a free and fair election …",
+          "A woman shouted “Maria, if you come back, my daughter has to come back,” referring to one of the millions of Venezuelans who have fled repression and a moribund economy.",
+          "Trump said he was not aware of Machado’s return, adding: “but I think she’s a very nice woman."
+        ],
+        "figures": [],
+        "wordsRead": 1001
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-            "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -1339,25 +1515,16 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "Venezuelan opposition leader María Machado returns after months in exile",
-            "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Crowds welcome Venezuela's María Machado after months in exile",
-            "url": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 0,
+            "headline": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+            "url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Christian Science Monitor",
             "outletId": "csmonitor",
             "lean": "centre",
             "country": "US",
-            "evidenceIndex": 3,
+            "evidenceIndex": 1,
             "headline": "Venezuela’s Machado returns from exile, as doubts over democracy deepen",
             "url": "https://www.csmonitor.com/World/Americas/2026/1025/venezuela-machado-exile-maduro-rodriguez?icid=rss"
           },
@@ -1366,7 +1533,7 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 5,
+            "evidenceIndex": 3,
             "headline": "Venezuela’s opposition leader Machado returns after months in exile",
             "url": "https://www.theglobeandmail.com/world/article-venezuelas-opposition-leader-machado-returns-after-months-in-exile/"
           },
@@ -1375,7 +1542,7 @@
             "outletId": "dw",
             "lean": "centre",
             "country": "DE",
-            "evidenceIndex": 6,
+            "evidenceIndex": 4,
             "headline": "Venezuelan opposition leader Machado returns from exile",
             "url": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-world-4025-rdf"
           }
@@ -1392,7 +1559,7 @@
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 4,
+            "evidenceIndex": 2,
             "headline": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
             "url": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad"
           }
@@ -1411,7 +1578,7 @@
         "outletId": "taipeitimes",
         "lean": "pro_sovereignty",
         "country": "TW",
-        "evidenceIndex": 7,
+        "evidenceIndex": 5,
         "headline": "Venezuela’s Machado returns from exile",
         "url": "https://www.taipeitimes.com/News/world/archives/2026/10/27/2003866700",
         "reason": "lean \"pro_sovereignty\" is not a left-right position"
@@ -1421,11 +1588,11 @@
       "attempted": true,
       "terms": [
         "Machado",
-        "Venezuelan",
         "Venezuela",
+        "Venezuelan",
         "Corina Machado",
-        "Venezuela's Mar",
-        "Venezuela's"
+        "Opposition",
+        "Trump"
       ],
       "attempts": [
         {
@@ -1435,11 +1602,11 @@
           "found": [],
           "terms": [
             "Machado",
-            "Venezuelan",
             "Venezuela",
+            "Venezuelan",
             "Corina Machado",
-            "Venezuela's Mar",
-            "Venezuela's"
+            "Opposition",
+            "Trump"
           ]
         },
         {
@@ -1519,7 +1686,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1gxb9ni",
+    "id": "cmircm9",
     "regions": [
       "Global"
     ],
@@ -1527,33 +1694,354 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-26T03:47:58.000Z",
-    "lastSeen": "2026-10-26T13:02:50.000Z",
+    "firstSeen": "2026-10-27T09:48:30.000Z",
+    "lastSeen": "2026-10-27T15:54:45.000Z",
     "outletCount": 5,
     "outlets": [
+      "Fox News",
       "Globe and Mail",
-      "Haaretz",
-      "Al Jazeera",
+      "Euronews",
       "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.38098477742873343,
-      "max": 0.6756944590856683,
-      "pairs": 9,
+      "min": 0.3736364953124189,
+      "max": 0.6234085093593815,
+      "pairs": 8,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UK charges 2 men in suspected Iran-linked incident at RAF Fairford after US bombers pulled",
+        "u": "https://www.foxnews.com/world/uk-charges-2-men-suspected-iran-linked-incident-raf-fairford-us-bombers-pulled",
+        "publishedAt": "2026-10-27T15:42:39.000Z",
+        "retrievedAt": "2026-10-27T16:13:34.037Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"We will continue to work closely with our partners as this complex investigation continues,\" Ferguson said.",
+          "Nouman Essghir, 24, was charged with entering a prohibited place for a purpose …"
+        ],
+        "figures": [],
+        "wordsRead": 299
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Two men charged in U.K. over RAF Fairford incident allegedly linked to Iran",
+        "u": "https://www.theglobeandmail.com/world/article-uk-raf-fairford-two-men-charged/",
+        "publishedAt": "2026-10-27T15:54:45.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“One of them was told there was a bomb in the van ... [and] one of them called 999,” Gray added, with police arriving shortly after.",
+          "The five men bought around £300 worth of petrol, which was stored in drums, prosecutor Louise Gray …"
+        ],
+        "figures": [],
+        "wordsRead": 434
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Two men charged over RAF Fairford air base incident, with one accused of assisting foreign intelligence",
+        "u": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-",
+        "publishedAt": "2026-10-27T15:26:28.000Z",
+        "retrievedAt": "2026-10-27T16:13:51.587Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"In this case, we believe that country to be Iran,\" Taylor said.",
+          "In July, Iran's Revolutionary Guard Corps (IRGC) said it was aware that the base was being used by US bombers as part …"
+        ],
+        "figures": [],
+        "wordsRead": 345
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Two charged in UK with state security offenses over air base plot: police",
+        "u": "https://www.arabnews.com/world/two-charged-in-uk-with-state-security-offenses-over-air-base-plot-police-3008485",
+        "publishedAt": "2026-10-27T09:48:30.000Z",
+        "retrievedAt": "2026-10-27T16:14:11.414Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "LONDON: UK anti-terrorism police said Tuesday that …"
+        ],
+        "figures": [],
+        "wordsRead": 73
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "2 men charged in UK with helping Iran over air force base incident",
+        "u": "https://www.scmp.com/news/world/europe/article/3372342/2-men-charged-uk-helping-iran-over-air-force-base-incident",
+        "publishedAt": "2026-10-27T14:02:48.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Two men charged in U.K. over RAF Fairford incident allegedly linked to Iran",
+            "url": "https://www.theglobeandmail.com/world/article-uk-raf-fairford-two-men-charged/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "Two men charged over RAF Fairford air base incident, with one accused of assisting foreign intelligence",
+            "url": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "UK charges 2 men in suspected Iran-linked incident at RAF Fairford after US bombers pulled",
+            "url": "https://www.foxnews.com/world/uk-charges-2-men-suspected-iran-linked-incident-raf-fairford-us-bombers-pulled"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Two charged in UK with state security offenses over air base plot: police",
+        "url": "https://www.arabnews.com/world/two-charged-in-uk-with-state-security-offenses-over-air-base-plot-police-3008485",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "2 men charged in UK with helping Iran over air force base incident",
+        "url": "https://www.scmp.com/news/world/europe/article/3372342/2-men-charged-uk-helping-iran-over-air-force-base-incident",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "RAF Fairford",
+        "Iran",
+        "Iran-linked"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "RAF Fairford",
+            "Iran",
+            "Iran-linked"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1virqhp",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-26T03:47:58.000Z",
+    "lastSeen": "2026-10-27T05:22:48.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Haaretz",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.37652586186991605,
+      "max": 0.6834225643091552,
+      "pairs": 5,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+        "u": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-27T02:40:17.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The decision includes the complete suspension of passenger and commercial traffic in both directions, to ensure the safety of travellers and workers at the crossing,\" Syrian authorities …"
+        ],
+        "figures": [],
+        "wordsRead": 279
+      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -1564,7 +2052,7 @@
         "t": "Jordan arrests three suspects over church attack, state TV says",
         "u": "https://www.theglobeandmail.com/world/article-jordan-arrests-three-suspects-over-church-attack-state-tv-says/",
         "publishedAt": "2026-10-26T03:47:58.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Jordanian security forces have arrested three suspects over Friday’s attack on a church in the Karak area …"
@@ -1579,50 +2067,24 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Jordan arrests three over Karak church attack, state TV says",
-        "u": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-arrests-three-over-karak-church-attack-state-tv-says/000001a1-76e8-de58-a9eb-fefeb0050000",
-        "publishedAt": "2026-10-26T07:40:08.000Z",
-        "retrievedAt": "2026-10-26T17:09:02.247Z",
+        "t": "Jordan strikes kill five in southern Syria following deadly church attack",
+        "u": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-strikes-terrorist-groups-in-syria-following-deadly-church-attack/000001a1-79cb-dd27-a1ef-fbfb86050000",
+        "publishedAt": "2026-10-26T21:29:01.000Z",
+        "retrievedAt": "2026-10-27T16:14:04.685Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "Haaretz",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-        "u": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
-        "publishedAt": "2026-10-26T11:08:48.000Z",
-        "retrievedAt": "2026-10-26T17:09:06.688Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Jordan’s Interior Minister Mazin al-Farrayeh said on Monday that all three suspects were Jordanians and “were identified early on in the wake of the terrorist incident, and the security services …",
-          "They “put up fierce resistance against the security forces, but were ultimately subdued and taken into custody, having sustained severe injuries”, al-Farrayeh said.",
-          "He also said that Jordan is “adamant that an attack like this doesn’t take place again”."
-        ],
-        "figures": [],
-        "wordsRead": 733
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jordan arrests 3 in dawn raid over deadly church attack",
-        "u": "https://www.arabnews.com/middle-east/jordan-arrests-3-in-dawn-raid-over-deadly-church-attack-3008350",
-        "publishedAt": "2026-10-26T12:29:50.000Z",
-        "retrievedAt": "2026-10-26T17:09:09.582Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This country must remain an oasis of security and stability, and we affirm that Jordan will remain impervious to anyone who dares to challenge it,” he said.",
-          "Jordan’s King Abdullah II said in a post on X that security forces “chased them to the very end.”"
-        ],
-        "figures": [],
-        "wordsRead": 477
+        "t": "Jordan arrests three over Karak church attack, state TV says",
+        "u": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-arrests-three-over-karak-church-attack-state-tv-says/000001a1-76e8-de58-a9eb-fefeb0050000",
+        "publishedAt": "2026-10-26T07:40:08.000Z",
+        "retrievedAt": "2026-10-27T16:14:04.685Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "South China Morning Post",
@@ -1631,10 +2093,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Jordan arrests 3 relatives over deadly church attack after shoot-out",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3372198/jordan-arrests-3-relatives-over-deadly-church-attack-after-shoot-out",
-        "publishedAt": "2026-10-26T13:02:50.000Z",
-        "retrievedAt": "2026-10-26T17:09:13.677Z",
+        "t": "Jordan strikes targets in Syria after deadly church attack",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3372253/jordan-strikes-targets-syria-after-deadly-church-attack",
+        "publishedAt": "2026-10-27T05:22:48.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1648,7 +2110,16 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 1,
+            "evidenceIndex": 2,
+            "headline": "Jordan strikes kill five in southern Syria following deadly church attack",
+            "url": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-strikes-terrorist-groups-in-syria-following-deadly-church-attack/000001a1-79cb-dd27-a1ef-fbfb86050000"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 3,
             "headline": "Jordan arrests three over Karak church attack, state TV says",
             "url": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-arrests-three-over-karak-church-attack-state-tv-says/000001a1-76e8-de58-a9eb-fefeb0050000"
           }
@@ -1661,11 +2132,20 @@
         "label": "Centre",
         "outlets": [
           {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+            "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss"
+          },
+          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 0,
+            "evidenceIndex": 1,
             "headline": "Jordan arrests three suspects over church attack, state TV says",
             "url": "https://www.theglobeandmail.com/world/article-jordan-arrests-three-suspects-over-church-attack-state-tv-says/"
           }
@@ -1687,33 +2167,13 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-        "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 3,
-        "headline": "Jordan arrests 3 in dawn raid over deadly church attack",
-        "url": "https://www.arabnews.com/middle-east/jordan-arrests-3-in-dawn-raid-over-deadly-church-attack-3008350",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 4,
-        "headline": "Jordan arrests 3 relatives over deadly church attack after shoot-out",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3372198/jordan-arrests-3-relatives-over-deadly-church-attack-after-shoot-out",
+        "headline": "Jordan strikes targets in Syria after deadly church attack",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3372253/jordan-strikes-targets-syria-after-deadly-church-attack",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
@@ -1721,8 +2181,8 @@
       "attempted": true,
       "terms": [
         "Jordan",
-        "Karak",
-        "What"
+        "Syria",
+        "Karak"
       ],
       "attempts": [
         {
@@ -1808,332 +2268,60 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1sgm53n",
+    "id": "c1frvyy7",
     "regions": [
+      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 0
+        "Canada": 1,
+        "India": 1,
+        "Europe": 4
       },
-      "matched": {}
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "India": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "serbia",
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-10-26T02:20:58.000Z",
-    "lastSeen": "2026-10-27T00:00:00.000Z",
+    "firstSeen": "2026-10-25T08:15:00Z",
+    "lastSeen": "2026-10-27T12:15:46.000Z",
     "outletCount": 4,
     "outlets": [
-      "Arab News",
-      "South China Morning Post",
-      "Taipei Times",
-      "Nikkei Asia"
+      "NPR",
+      "Globe and Mail",
+      "Deutsche Welle",
+      "The Hindu"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3737958566929084,
-      "max": 0.5331000349453412,
-      "pairs": 3,
+      "min": 0.3864227460919989,
+      "max": 0.5144870793354699,
+      "pairs": 4,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "NPR",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "China’s Communist Party elite gather for governance talks",
-        "u": "https://www.arabnews.com/world/chinas-communist-party-elite-gather-for-governance-talks-3008278",
-        "publishedAt": "2026-10-26T02:20:58.000Z",
-        "retrievedAt": "2026-10-26T17:09:09.582Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Roughly 300 members of the ruling Communist Party’s Central Committee in attendance at the meeting, called the fifth plenum, will be looking to tighten discipline within their ranks, according to …",
-          "State media published an article ahead of the plenum, based on …"
-        ],
-        "figures": [],
-        "wordsRead": 429
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "China’s Communist Party opens fifth plenum with focus on discipline and loyalty to Xi",
-        "u": "https://www.scmp.com/news/china/politics/article/3372134/chinas-communist-party-opens-fifth-plenum-focus-discipline-and-loyalty-xi",
-        "publishedAt": "2026-10-26T06:18:50.000Z",
-        "retrievedAt": "2026-10-26T17:09:13.677Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "It said the main agenda for the plenum included a work …"
-        ],
-        "figures": [],
-        "wordsRead": 113
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Xi opens Communist Party plenum",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/27/2003866701",
-        "publishedAt": "2026-10-27T00:00:00.000Z",
-        "retrievedAt": "2026-10-26T17:09:16.952Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It is essential to both refine institutional rules and regulations to close loopholes and strengthen safeguards, and ensure their effective implementation,” it said.",
-          "“The plenum will present Xi as in control, and able to continue his command,” said Kerry Brown, director of King’s College London’s Lau China Institute."
-        ],
-        "figures": [],
-        "wordsRead": 779
-      },
-      {
-        "n": "Nikkei Asia",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Xi Jinping poised to tighten grip at discipline-focused fifth plenum",
-        "u": "https://asia.nikkei.com/politics/xi-jinping-poised-to-tighten-grip-at-discipline-focused-fifth-plenum",
-        "publishedAt": null,
-        "retrievedAt": "2026-10-26T17:09:18.285Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "SHANGHAI -- Top Chinese …"
-        ],
-        "figures": [],
-        "wordsRead": 48
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
-            "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 3,
-            "headline": "Xi Jinping poised to tighten grip at discipline-focused fifth plenum",
-            "url": "https://asia.nikkei.com/politics/xi-jinping-poised-to-tighten-grip-at-discipline-focused-fifth-plenum"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 4 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 0,
-        "headline": "China’s Communist Party elite gather for governance talks",
-        "url": "https://www.arabnews.com/world/chinas-communist-party-elite-gather-for-governance-talks-3008278",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 1,
-        "headline": "China’s Communist Party opens fifth plenum with focus on discipline and loyalty to Xi",
-        "url": "https://www.scmp.com/news/china/politics/article/3372134/chinas-communist-party-opens-fifth-plenum-focus-discipline-and-loyalty-xi",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 2,
-        "headline": "Xi opens Communist Party plenum",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/27/2003866701",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Communist Party",
-        "China",
-        "Xi Jinping"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1ejzr5a",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-26T12:34:00.000Z",
-    "lastSeen": "2026-10-26T14:16:09.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "South China Morning Post"
-    ],
-    "tier": "primary",
-    "tierBasis": "confirmed against 5 primary document(s)",
-    "clustering": {
-      "min": 0.4079538235949185,
-      "max": 0.594920913865008,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-        "u": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-26T14:16:09.000Z",
-        "retrievedAt": "2026-10-26T17:08:23.205Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Prosecutor, Heidi Stonecliffe KC, described the weapon as a \"heavy square-shaped tequila bottle\" and said Diaw was approached by Brown at around 03:00.",
-          "Judge Tony Baumgartner said Brown's use of the glass bottle to hit the victim twice over the head \"was plainly dangerous\", adding that the violence of the attack was \"intense\".",
-          "\"They continued their assault whilst the victim attempted to flee through the club,\" the CPS said."
-        ],
-        "figures": [
-          {
-            "value": "£1,500",
-            "context": "leaded guilty to affray, were also ordered to pay £1,500 costs. Judge Tony Baumgartner said Brown's use of"
-          }
-        ],
-        "wordsRead": 1125
+        "t": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+        "u": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+        "publishedAt": "2026-10-26T08:41:34.000Z",
+        "retrievedAt": "2026-10-27T16:13:26.887Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Globe and Mail",
@@ -2142,339 +2330,11 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Chris Brown spared prison time for brawling at a U.K. nightclub in 2023",
-        "u": "https://www.theglobeandmail.com/culture/music/article-chris-brown-avoids-prison-time-london-nightclub-brawl/",
-        "publishedAt": "2026-10-26T12:34:00.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The repeated use of a glass bottle in that way, especially aimed at the head, was plainly dangerous, it carried the risk of delivering a more serious injury than was …",
-          "“This is an ugly and unattractive incident,” Bennett-Jenkins said.",
-          "Defense lawyer Sallie Bennett-Jenkins said Brown apologized to all those at the club that night, though she emphasized the attack lasted …"
-        ],
-        "figures": [],
-        "wordsRead": 612
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US singer Chris Brown avoids jail after guilty plea in UK nightclub incident",
-        "u": "https://www.scmp.com/news/world/europe/article/3372197/us-singer-chris-brown-avoids-jail-after-guilty-plea-uk-nightclub-incident",
-        "publishedAt": "2026-10-26T12:48:25.000Z",
-        "retrievedAt": "2026-10-26T17:09:13.677Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Diaw was hit twice in the head with a bottle …"
-        ],
-        "figures": [],
-        "wordsRead": 100
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-            "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Chris Brown spared prison time for brawling at a U.K. nightclub in 2023",
-            "url": "https://www.theglobeandmail.com/culture/music/article-chris-brown-avoids-prison-time-london-nightclub-brawl/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "US singer Chris Brown avoids jail after guilty plea in UK nightclub incident",
-        "url": "https://www.scmp.com/news/world/europe/article/3372197/us-singer-chris-brown-avoids-jail-after-guilty-plea-uk-nightclub-incident",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Chris Brown"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [
-            {
-              "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and Combined Licenses Involving No Significant Hazards Considerations",
-              "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20954/biweekly-notice-applications-and-amendments-to-facility-operating-licenses-and-combined-licenses",
-              "published": "2026-10-14",
-              "publisher": "Nuclear Regulatory Commission",
-              "docType": "Notice",
-              "ref": "2026-20954",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Changes in Flood Hazard Determinations",
-              "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20908/changes-in-flood-hazard-determinations",
-              "published": "2026-10-14",
-              "publisher": "Homeland Security Department, Federal Emergency Management Agency",
-              "docType": "Notice",
-              "ref": "2026-20908",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and Combined Licenses Involving No Significant Hazards Considerations",
-              "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19812/biweekly-notice-applications-and-amendments-to-facility-operating-licenses-and-combined-licenses",
-              "published": "2026-09-29",
-              "publisher": "Nuclear Regulatory Commission",
-              "docType": "Notice",
-              "ref": "2026-19812",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Potential Designation of Certified Financial Planner Certification as Qualifying Natural Persons for Accredited Investor Status",
-              "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20309/potential-designation-of-certified-financial-planner-certification-as-qualifying-natural-persons-for",
-              "published": "2026-10-05",
-              "publisher": "Securities and Exchange Commission",
-              "docType": "Notice",
-              "ref": "2026-20309",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Potential Designation of Chartered Financial Analyst Designation as Qualifying Natural Persons for Accredited Investor Status",
-              "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20311/potential-designation-of-chartered-financial-analyst-designation-as-qualifying-natural-persons-for",
-              "published": "2026-10-05",
-              "publisher": "Securities and Exchange Commission",
-              "docType": "Notice",
-              "ref": "2026-20311",
-              "read": "metadata only — document not retrieved or read"
-            }
-          ],
-          "terms": [
-            "Chris Brown"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [
-        {
-          "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and Combined Licenses Involving No Significant Hazards Considerations",
-          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20954/biweekly-notice-applications-and-amendments-to-facility-operating-licenses-and-combined-licenses",
-          "published": "2026-10-14",
-          "publisher": "Nuclear Regulatory Commission",
-          "docType": "Notice",
-          "ref": "2026-20954",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Changes in Flood Hazard Determinations",
-          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20908/changes-in-flood-hazard-determinations",
-          "published": "2026-10-14",
-          "publisher": "Homeland Security Department, Federal Emergency Management Agency",
-          "docType": "Notice",
-          "ref": "2026-20908",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Biweekly Notice; Applications and Amendments to Facility Operating Licenses and Combined Licenses Involving No Significant Hazards Considerations",
-          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19812/biweekly-notice-applications-and-amendments-to-facility-operating-licenses-and-combined-licenses",
-          "published": "2026-09-29",
-          "publisher": "Nuclear Regulatory Commission",
-          "docType": "Notice",
-          "ref": "2026-19812",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Potential Designation of Certified Financial Planner Certification as Qualifying Natural Persons for Accredited Investor Status",
-          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20309/potential-designation-of-certified-financial-planner-certification-as-qualifying-natural-persons-for",
-          "published": "2026-10-05",
-          "publisher": "Securities and Exchange Commission",
-          "docType": "Notice",
-          "ref": "2026-20309",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Potential Designation of Chartered Financial Analyst Designation as Qualifying Natural Persons for Accredited Investor Status",
-          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20311/potential-designation-of-chartered-financial-analyst-designation-as-qualifying-natural-persons-for",
-          "published": "2026-10-05",
-          "publisher": "Securities and Exchange Commission",
-          "docType": "Notice",
-          "ref": "2026-20311",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        }
-      ],
-      "gap": null
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c19ppyx0",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-24T06:06:49.000Z",
-    "lastSeen": "2026-10-24T15:56:48.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "Haaretz"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.37053401141653963,
-      "max": 0.5204368112726365,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-        "u": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-24T15:56:48.000Z",
-        "retrievedAt": "2026-10-26T17:08:23.205Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Adolf Hitler's Alpine mountain retreat, known as the Eagle's …"
-        ],
-        "figures": [],
-        "wordsRead": 93
+        "t": "Thousands celebrate student movement election victory in Serbia",
+        "u": "https://www.theglobeandmail.com/world/video-thousands-celebrate-student-movement-election-victory-in-serbia/",
+        "publishedAt": "2026-10-27T12:15:46.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Globe and Mail",
@@ -2483,30 +2343,58 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Fire devastates Eagle’s Nest retreat built for Hitler, one suspect detained",
-        "u": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/",
-        "publishedAt": "2026-10-24T12:38:09.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
+        "t": "Serbia’s Vucic concedes parliamentary election to student-led movement in huge political shift",
+        "u": "https://www.theglobeandmail.com/world/article-serbia-election-student-protest-vucic-votes-october-25/",
+        "publishedAt": "2026-10-25T12:44:35.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We’re not going to leave a ruin there,” Bavaria’s interior minister, Joachim Herrmann, told reporters in Berchtesgaden.",
-          "A fire swept through the mountaintop retreat built for Adolf Hitler and known as the Eagle’s Nest as emergency services struggled to tackle the blaze in snow and wind, and …"
+          "“Dear Serbia, tonight the voice of the people is being heard,” said Radomir Sajcic, a professor at Belgrade University, speaking on behalf of the students at their headquarters.",
+          "“We stand ready to...work together to advance Serbia’s future in the European Union,” Ms. von der Leyen wrote on X.",
+          "“[The turnout] did not surprise me because there was a large and strong mass that has formed throughout the past two years,” said voter Katarina Petrovic."
         ],
         "figures": [],
-        "wordsRead": 472
+        "wordsRead": 847
       },
       {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "Deutsche Welle",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
-        "u": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000",
-        "publishedAt": "2026-10-24T06:06:49.000Z",
-        "retrievedAt": "2026-10-26T17:09:02.247Z",
-        "read": "headline and feed excerpt"
+        "t": "Serbia election : Student movement challenges Vucic",
+        "u": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucics-grip-on-power/a-79753482",
+        "publishedAt": "2026-10-25T10:30:00Z",
+        "retrievedAt": "2026-10-27T16:15:40.158Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "lija Srdanovic, a physician who leads the student movement's list of 250 candidates, said after the results came in that \"We are moving toward a more-civilized and better Serbia.\"",
+          "\"Based on a stratified sample, it is clear that we lost these elections,\" Vucic said as he addressed supporters at SNS headquarters in Belgrade.",
+          "The result brings an end to more than a decade of rule by Vucic and his Serbian Progressive Party (SNS)."
+        ],
+        "figures": [],
+        "wordsRead": 884
+      },
+      {
+        "n": "The Hindu",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Serbia goes to vote with student movement on the rise against Mr Vucik SNS",
+        "u": "https://www.thehindu.com/news/international/serbia-elections-amid-students-protest/article71622730.ece",
+        "publishedAt": "2026-10-25T08:15:00Z",
+        "retrievedAt": "2026-10-27T16:15:40.158Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"This assessment is not based on isolated incidents, opposition claims or political disagreement with the government,\" a joint statement by 24 organisations said.",
+          "Supporters of the electoral list \"Student List - Students Win\" attend a final campaign rally at Slavija Square in Belgrade, Serbia.",
+          "Amid mounting pressure, the 56-year-old called the snap vote last month, citing \"major turbulence on the domestic political scene\"."
+        ],
+        "figures": [],
+        "wordsRead": 720
       }
     ],
     "views": [
@@ -2515,536 +2403,67 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "Suspect arrested as fire engulfs Nazi guest house 'Eagle's Nest', German police say",
-            "url": "https://www.haaretz.com/world-news/europe/2026-10-24/ty-article/german-police-suspect-arrested-as-fire-engulfs-nazi-guest-house-eagles-nest/000001a1-6c78-d34e-a1b9-fe7f69660000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-            "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Fire devastates Eagle’s Nest retreat built for Hitler, one suspect detained",
-            "url": "https://www.theglobeandmail.com/world/article-hitler-eagles-nest-retreat-destroyed-by-fire/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Eagle's Nest",
-        "Fire",
-        "Hitler's",
-        "Suspect",
-        "Hitler",
-        "German"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1u8bqmv",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-26T07:40:16.000Z",
-    "lastSeen": "2026-10-26T14:27:11.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Euronews",
-      "South China Morning Post",
-      "Nikkei Asia"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.44243496139908955,
-      "max": 0.5172758465940271,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "First international flight arrives at the new Western Sydney airport",
-        "u": "https://www.euronews.com/2026/10/26/first-international-flight-arrives-at-the-new-western-sydney-airport",
-        "publishedAt": "2026-10-26T14:27:11.000Z",
-        "retrievedAt": "2026-10-26T17:08:47.940Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“WSI is the most transformational piece of infrastructure our nation has seen since the Sydney Harbour Bridge,” said WSI CEO Simon Hickey.",
-          "“With the opening of Western Sydney International, this will help drive the next chapter for the region,” he said."
-        ],
-        "figures": [],
-        "wordsRead": 414
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "In Australia, Sydney’s second airport blows some passengers off course",
-        "u": "https://www.scmp.com/news/asia/australasia/article/3372145/australia-sydneys-second-airport-blows-some-passengers-course",
-        "publishedAt": "2026-10-26T07:40:16.000Z",
-        "retrievedAt": "2026-10-26T17:09:13.677Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Nikkei Asia",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Sydney's new international airport opens to passengers",
-        "u": "https://asia.nikkei.com/business/transportation/sydney-s-new-international-airport-opens-to-passengers",
-        "publishedAt": null,
-        "retrievedAt": "2026-10-26T17:09:18.285Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "SYDNEY (Reuters) -- Sydney's new A$5.6 billion ($3.94 billion) airport opened to passengers on Sunday after more than a decade of planning, in …"
-        ],
-        "figures": [
-          {
-            "value": "$5.6 billion",
-            "context": "SYDNEY (Reuters) -- Sydney's new A$5.6 billion ($3.94 billion) airport opened to passengers on S"
-          },
-          {
-            "value": "$3.94 billion",
-            "context": "SYDNEY (Reuters) -- Sydney's new A$5.6 billion ($3.94 billion) airport opened to passengers on Sunday after mor"
-          },
-          {
-            "value": "80 million",
-            "context": "statement. The airport has capacity for more than 80 million passenger movements annually, it said. The start"
-          }
-        ],
-        "wordsRead": 231
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "First international flight arrives at the new Western Sydney airport",
-            "url": "https://www.euronews.com/2026/10/26/first-international-flight-arrives-at-the-new-western-sydney-airport"
-          },
-          {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
-            "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 2,
-            "headline": "Sydney's new international airport opens to passengers",
-            "url": "https://asia.nikkei.com/business/transportation/sydney-s-new-international-airport-opens-to-passengers"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 1,
-        "headline": "In Australia, Sydney’s second airport blows some passengers off course",
-        "url": "https://www.scmp.com/news/asia/australasia/article/3372145/australia-sydneys-second-airport-blows-some-passengers-course",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Western Sydney",
-        "In Australia",
-        "Sydney's",
-        "Sydney",
-        "First"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cyzlo0r",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-23T19:51:09.000Z",
-    "lastSeen": "2026-10-24T13:13:46.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "The Daily Caller",
-      "Globe and Mail",
-      "Haaretz"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3966479782346809,
-      "max": 0.43648375748651524,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Terror Attack At Orthodox Church In Jordan Leaves 7 Dead, 40 Wounded",
-        "u": "https://dailycaller.com/2026/10/24/jordan-orthodox-church-funeral-shooting-karak",
-        "publishedAt": "2026-10-24T13:13:46.000Z",
-        "retrievedAt": "2026-10-26T17:08:32.119Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It was a weird situation, and heavy gunfire,” Halasa said.",
-          "Ahmed al-Tayeb, the grand imam of Al-Azhar in Cairo, called the assault a “heinous terrorist attack,” according to the AP."
-        ],
-        "figures": [],
-        "wordsRead": 327
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Seven dead, 40 injured after gunmen open fire at a church in Jordan",
-        "u": "https://www.theglobeandmail.com/world/article-seven-dead-after-gunmen-open-fire-at-a-church-in-karak-jordan/",
-        "publishedAt": "2026-10-23T19:51:09.000Z",
-        "retrievedAt": "2026-10-26T17:08:33.740Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It was a weird situation, and heavy gunfire,” Halasa said.",
-          "A government statement said that the attack was “carried out by unknown assailants,” but didn’t say whether any gunmen were captured or killed.",
-          "It said that “investigations are underway at full speed.”"
-        ],
-        "figures": [],
-        "wordsRead": 467
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. embassy says security ramped up in Jordan after deadly church attack",
-        "u": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000",
-        "publishedAt": "2026-10-24T07:34:44.000Z",
-        "retrievedAt": "2026-10-26T17:09:02.247Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "U.S. embassy says security ramped up in Jordan after deadly church attack",
-            "url": "https://www.haaretz.com/middle-east-news/jordan/2026-10-24/ty-article/u-s-embassy-says-security-ramped-up-in-jordan-after-deadly-church-attack/000001a1-6cae-d29a-a1a5-eeafd94b0000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Seven dead, 40 injured after gunmen open fire at a church in Jordan",
-            "url": "https://www.theglobeandmail.com/world/article-seven-dead-after-gunmen-open-fire-at-a-church-in-karak-jordan/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
             "country": "US",
             "evidenceIndex": 0,
-            "headline": "Terror Attack At Orthodox Church In Jordan Leaves 7 Dead, 40 Wounded",
-            "url": "https://dailycaller.com/2026/10/24/jordan-orthodox-church-funeral-shooting-karak"
+            "headline": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+            "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election"
+          },
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 4,
+            "headline": "Serbia goes to vote with student movement on the rise against Mr Vucik SNS",
+            "url": "https://www.thehindu.com/news/international/serbia-elections-amid-students-protest/article71622730.ece"
           }
         ],
         "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Thousands celebrate student movement election victory in Serbia",
+            "url": "https://www.theglobeandmail.com/world/video-thousands-celebrate-student-movement-election-victory-in-serbia/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Serbia’s Vucic concedes parliamentary election to student-led movement in huge political shift",
+            "url": "https://www.theglobeandmail.com/world/article-serbia-election-student-protest-vucic-votes-october-25/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 3,
+            "headline": "Serbia election : Student movement challenges Vucic",
+            "url": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucics-grip-on-power/a-79753482"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -3056,12 +2475,12 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Jordan",
-        "Terror Attack At Orthodox",
-        "Church In Jordan Leaves",
-        "Wounded",
-        "Seven",
-        "Dead"
+        "Serbia",
+        "Vucic",
+        "Mr Vucik SNS",
+        "Thousands",
+        "Serbia's",
+        "Student"
       ],
       "attempts": [
         {
@@ -3070,12 +2489,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Jordan",
-            "Terror Attack At Orthodox",
-            "Church In Jordan Leaves",
-            "Wounded",
-            "Seven",
-            "Dead"
+            "Serbia",
+            "Vucic",
+            "Mr Vucik SNS",
+            "Thousands",
+            "Serbia's",
+            "Student"
           ]
         },
         {
@@ -3155,7 +2574,653 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1ydu6wj",
+    "id": "cc55oj8",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-25T13:47:17.000Z",
+    "lastSeen": "2026-10-26T12:16:12.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Democracy Now!",
+      "NPR",
+      "BBC News",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.36902805291902124,
+      "max": 0.5137954424913257,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Democracy Now!",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Brazil: Lula Wins Stunning Upset Over Flávio Bolsonaro in Blow to Far Right & Trump",
+        "u": "http://www.democracynow.org/2026/10/26/brazil_election_lula_beats_bolsonaro",
+        "publishedAt": "2026-10-26T12:16:12.000Z",
+        "retrievedAt": "2026-10-27T16:13:22.319Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Don’t forget that just last year we saw Trump levy 50% tariffs on Brazil, and then, you know, Brazilians rose up and said, “Uh-uh, that’s not going to happen,” and …",
+          "Lula and Brazil set a mark, in that they said, “No, we’re not going to go down that route.”",
+          "“It is an absolute game-changer for the region.”"
+        ],
+        "figures": [
+          {
+            "value": "4 million",
+            "context": "defeating far-right challenger Flávio Bolsonaro by 4 million votes in a runoff election on Sunday. Flávio Bols"
+          }
+        ],
+        "wordsRead": 3719
+      },
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Brazil's left-wing President Lula elected for fourth term",
+        "u": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+        "publishedAt": "2026-10-26T00:35:00.000Z",
+        "retrievedAt": "2026-10-27T16:13:26.887Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+        "u": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-26T11:39:16.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Lula accused Trump of foreign interference and said \"he's not emperor of the world\".",
+          "But their relationship improved after a White House in May this year, after which the two leaders exchanged public compliments - Trump called Lula \"dynamic\", while the Brazilian president said …",
+          "The Brazilian leader told the BBC in September 2025 that he had no relationship with Trump ."
+        ],
+        "figures": [],
+        "wordsRead": 1205
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Brazil’s president Luiz Inácio Lula da Silva re-elected for fourth term",
+        "u": "https://www.theglobeandmail.com/world/article-brazil-election-lula-bolsonaro-runoff/",
+        "publishedAt": "2026-10-25T13:47:17.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Either the homeland remains free, or we die for Brazil,” he said.",
+          "“I don’t understand how people can vote for Lula,” he said.",
+          "“It’s impossible to recognize the results of the election in the context of these things that happened,” he said."
+        ],
+        "figures": [
+          {
+            "value": "100%",
+            "context": "of widening U.S. influence in Latin America. With 100% of the vote counted, Brazil’s electoral court ann"
+          },
+          {
+            "value": "4.4 million",
+            "context": "e soon to be 81-year-old Lula had a lead of nearly 4.4 million votes over opponent Flávio Bolsonaro, giving him"
+          },
+          {
+            "value": "51.8%",
+            "context": "n votes over opponent Flávio Bolsonaro, giving him 51.8% of the total vote. Bolsonaro quickly refused to c"
+          },
+          {
+            "value": "$2.6 trillion",
+            "context": "ns Latin America’s largest economy, with a GDP of $2.6 trillion per year, will likely continue defying Trump’s de"
+          }
+        ],
+        "wordsRead": 1091
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Democracy Now!",
+            "outletId": "democracynow",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Brazil: Lula Wins Stunning Upset Over Flávio Bolsonaro in Blow to Far Right & Trump",
+            "url": "http://www.democracynow.org/2026/10/26/brazil_election_lula_beats_bolsonaro"
+          },
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Brazil's left-wing President Lula elected for fourth term",
+            "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+            "url": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Brazil’s president Luiz Inácio Lula da Silva re-elected for fourth term",
+            "url": "https://www.theglobeandmail.com/world/article-brazil-election-lula-bolsonaro-runoff/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Brazil's",
+        "Brazil",
+        "Lula",
+        "Lula Wins Stunning Upset",
+        "President Lula",
+        "Bolsonaro"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Brazil's",
+            "Brazil",
+            "Lula",
+            "Lula Wins Stunning Upset",
+            "President Lula",
+            "Bolsonaro"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [
+      {
+        "kind": "count",
+        "about": [
+          "votes",
+          "bolsonaro"
+        ],
+        "spread": 0.091,
+        "readings": [
+          {
+            "outlet": "Democracy Now!",
+            "value": "4 million",
+            "url": "http://www.democracynow.org/2026/10/26/brazil_election_lula_beats_bolsonaro"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "value": "4.4 million",
+            "url": "https://www.theglobeandmail.com/world/article-brazil-election-lula-bolsonaro-runoff/"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      }
+    ],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cy2hsh7",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-25T16:33:56.000Z",
+    "lastSeen": "2026-10-27T14:56:28.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Middle East Eye",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.36912559072777285,
+      "max": 0.4554407650253443,
+      "pairs": 5,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Turnout so far highest on record as Israelis vote in pivotal election",
+        "u": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-27T11:11:33.000Z",
+        "retrievedAt": "2026-10-27T16:13:28.336Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "He also made headlines in the final days of his campaign for posting an AI-generated image of a nuclear bomb hitting Tel Aviv, warning that he is the only leader …",
+          "The Israeli military has killed more than 74,000 people since the start of the war, according to Gaza's Hamas-run health ministry whose figures are considered reliable by the UN.",
+          "At 22:00 (20:00 GMT) on Tuesday, Israeli broadcasters will publish exit polls."
+        ],
+        "figures": [],
+        "wordsRead": 1131
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israelis vote in tense election seen as referendum on Netanyahu",
+        "u": "https://www.theglobeandmail.com/world/video-israelis-vote-in-tense-election-seen-as-referendum-on-netanyahu/",
+        "publishedAt": "2026-10-27T14:56:28.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israelis to vote in election widely seen as a referendum on Netanyahu",
+        "u": "https://www.theglobeandmail.com/world/video-israelis-to-vote-in-election-widely-seen-as-a-referendum-on-netanyahu/",
+        "publishedAt": "2026-10-26T11:23:28.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Tens of thousands of Israelis abroad fly home to vote in pivotal election",
+        "u": "https://www.theglobeandmail.com/world/article-israelis-abroad-election-netanyahu-eisenkot/",
+        "publishedAt": "2026-10-25T16:33:56.000Z",
+        "retrievedAt": "2026-10-27T16:13:38.497Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Many Israelis who have left over the years – and especially since Oct. 7 – are exposed to the isolation and animosity toward the country much more palpably than those …",
+          "“The Israel that I grew up in is disappearing,” she said in an interview from Toronto, citing an eroding democracy and deeply divided society.",
+          "He and four relatives who live in the U.S. were flying back to “reaffirm Israel’s democracy,” he said."
+        ],
+        "figures": [],
+        "wordsRead": 974
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Highest voter turnout since 1977, says election committee",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/highest-voter-turnout-1977-says-election-committee",
+        "publishedAt": "2026-10-27T11:28:39.000Z",
+        "retrievedAt": "2026-10-27T16:14:10.050Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Israel's election committee said …"
+        ],
+        "figures": [
+          {
+            "value": "2.3 million",
+            "context": "e turnout by noon was the highest since 1977. Over 2.3 million Israelis cast their vote by noon, 31.5 percent …"
+          },
+          {
+            "value": "31.5 percent",
+            "context": "Over 2.3 million Israelis cast their vote by noon, 31.5 percent of eligible voters. The 1977 election was the fir"
+          }
+        ],
+        "wordsRead": 46
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israelis vote in tense election testing Netanyahu’s grip on power",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3372273/israelis-vote-tense-election-testing-netanyahus-grip-power",
+        "publishedAt": "2026-10-27T07:00:49.000Z",
+        "retrievedAt": "2026-10-27T16:14:15.917Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 4,
+            "headline": "Highest voter turnout since 1977, says election committee",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/highest-voter-turnout-1977-says-election-committee"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Turnout so far highest on record as Israelis vote in pivotal election",
+            "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Israelis vote in tense election seen as referendum on Netanyahu",
+            "url": "https://www.theglobeandmail.com/world/video-israelis-vote-in-tense-election-seen-as-referendum-on-netanyahu/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Israelis to vote in election widely seen as a referendum on Netanyahu",
+            "url": "https://www.theglobeandmail.com/world/video-israelis-to-vote-in-election-widely-seen-as-a-referendum-on-netanyahu/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Tens of thousands of Israelis abroad fly home to vote in pivotal election",
+            "url": "https://www.theglobeandmail.com/world/article-israelis-abroad-election-netanyahu-eisenkot/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "Israelis vote in tense election testing Netanyahu’s grip on power",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3372273/israelis-vote-tense-election-testing-netanyahus-grip-power",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Israelis",
+        "Netanyahu",
+        "Turnout",
+        "Highest",
+        "Tens"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "coekvn7",
     "regions": [
       "Global"
     ],
@@ -3163,63 +3228,31 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
-      "matched": {}
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-10-26T16:26:22.000Z",
-    "lastSeen": "2026-10-26T16:48:48.000Z",
+    "firstSeen": "2026-10-27T13:22:06.000Z",
+    "lastSeen": "2026-10-27T16:01:25.000Z",
     "outletCount": 3,
     "outlets": [
-      "Guardian US",
-      "Washington Examiner",
-      "New York Post"
+      "New York Post",
+      "Al Jazeera",
+      "Middle East Eye"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.6386188331696905,
-      "max": 0.7698543063038044,
-      "pairs": 3,
+      "min": 0.37581232588622643,
+      "max": 0.5060826256135992,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Maurene Comey was illegally fired as federal prosecutor, judge rules",
-        "u": "https://www.theguardian.com/us-news/2026/oct/26/maureen-comey-firing-judge-ruling",
-        "publishedAt": "2026-10-26T16:31:05.000Z",
-        "retrievedAt": "2026-10-26T17:08:19.736Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Judge Jesse Furman said that Comey, who was an assistant US attorney for a decade, was illegally fired in July 2025 …"
-        ],
-        "figures": [],
-        "wordsRead": 217
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Federal judge rules Maurene Comey’s firing by Trump administration was illegal",
-        "u": "https://www.washingtonexaminer.com/news/justice/4779739/federal-judge-rules-maurene-comey-firing-trump-administration-illegal/",
-        "publishedAt": "2026-10-26T16:48:48.000Z",
-        "retrievedAt": "2026-10-26T17:08:27.893Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Maurene Comey was abruptly fired from the Justice Department in …"
-        ],
-        "figures": [],
-        "wordsRead": 100
-      },
       {
         "n": "New York Post",
         "b": "right",
@@ -3227,17 +3260,79 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Maurene Comey, daughter of ex-FBI director, unlawfully fired as federal prosecutor by Trump DOJ, judge rules",
-        "u": "https://nypost.com/2026/10/26/us-news/maurene-comey-daughter-of-ex-fbi-director-unlawfully-fired-as-manhattan-prosecutor-by-trump-doj-judge-rules/",
-        "publishedAt": "2026-10-26T16:26:22.000Z",
-        "retrievedAt": "2026-10-26T17:08:30.503Z",
+        "t": "Israel election turnout on pace for highest in 50 years — as Gal Gadot reveals her pick",
+        "u": "https://nypost.com/2026/10/27/world-news/israel-election-turnout-on-pace-for-highest-in-50-years-as-gal-gadot-reveals-her-pick/",
+        "publishedAt": "2026-10-27T16:01:25.000Z",
+        "retrievedAt": "2026-10-27T16:13:35.339Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Congress granted the Attorney General power to remove Comey,” Furman wrote in a scathing, 55-page order.",
-          "“Congress imposed limits on that …"
+          "“That’s it, I’m exercising my right to vote, and I ask all of you to go out and exercise your most basic, most important, the most democratic right, and to …",
+          "Turnout for Israel’s 2026 elections is …"
         ],
-        "figures": [],
-        "wordsRead": 210
+        "figures": [
+          {
+            "value": "45%",
+            "context": "Prime Minister Benjamin Netanyahu’s ouster. Nearly 45% of voters have cast their ballots as of 2 p.m. lo"
+          },
+          {
+            "value": "3.3 million",
+            "context": "entral Elections Committee. That equates to nearly 3.3 million out of Israel’s 7.3 million voters, with citizens"
+          },
+          {
+            "value": "7.3 million",
+            "context": "That equates to nearly 3.3 million out of Israel’s 7.3 million voters, with citizens continuing to flock to the"
+          }
+        ],
+        "wordsRead": 374
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel election turnout highest in 50 years as voting continues",
+        "u": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss",
+        "publishedAt": "2026-10-27T15:20:48.000Z",
+        "retrievedAt": "2026-10-27T16:14:08.638Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Those numbers are going to help the incumbent parties,” Barak said, “as the 3.25 percent threshold a party needs to get into the Knesset remains, the number of votes you …",
+          "Mitchell Barak, a pollster and former aide to Prime Minister Benjamin Netanyahu, told Al Jazeera that voter turnout …"
+        ],
+        "figures": [
+          {
+            "value": "45 percent",
+            "context": "Almost 45 percent of Israeli voters had cast a ballot by mid-aftern"
+          },
+          {
+            "value": "6 percent",
+            "context": "out by 2pm (12:00 GMT) in 50 years. The figure was 6 percent higher than at the same time in …"
+          }
+        ],
+        "wordsRead": 492
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Voter turnout highest since 1973 as of 2pm",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/voter-turnout-highest-1973-2pm",
+        "publishedAt": "2026-10-27T13:22:06.000Z",
+        "retrievedAt": "2026-10-27T16:14:10.050Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [],
+        "figures": [
+          {
+            "value": "44.9 percent",
+            "context": "Israel's election committee. As of 2pm local time 44.9 percent of eligible voters had cast their ballots."
+          }
+        ],
+        "wordsRead": 32
       }
     ],
     "views": [
@@ -3246,13 +3341,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Maurene Comey was illegally fired as federal prosecutor, judge rules",
-            "url": "https://www.theguardian.com/us-news/2026/oct/26/maureen-comey-firing-judge-ruling"
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Voter turnout highest since 1973 as of 2pm",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/voter-turnout-highest-1973-2pm"
           }
         ],
         "status": "sourced",
@@ -3270,22 +3365,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Federal judge rules Maurene Comey’s firing by Trump administration was illegal",
-            "url": "https://www.washingtonexaminer.com/news/justice/4779739/federal-judge-rules-maurene-comey-firing-trump-administration-illegal/"
-          },
-          {
             "outlet": "New York Post",
             "outletId": "nypost",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Maurene Comey, daughter of ex-FBI director, unlawfully fired as federal prosecutor by Trump DOJ, judge rules",
-            "url": "https://nypost.com/2026/10/26/us-news/maurene-comey-daughter-of-ex-fbi-director-unlawfully-fired-as-manhattan-prosecutor-by-trump-doj-judge-rules/"
+            "evidenceIndex": 0,
+            "headline": "Israel election turnout on pace for highest in 50 years — as Gal Gadot reveals her pick",
+            "url": "https://nypost.com/2026/10/27/world-news/israel-election-turnout-on-pace-for-highest-in-50-years-as-gal-gadot-reveals-her-pick/"
           }
         ],
         "status": "sourced",
@@ -3296,14 +3382,24 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Israel election turnout highest in 50 years as voting continues",
+        "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Maurene Comey",
-        "Trump DOJ",
-        "Federal",
-        "Trump"
+        "Israel",
+        "Gal Gadot",
+        "Voter"
       ],
       "attempts": [
         {
@@ -3312,10 +3408,9 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Maurene Comey",
-            "Trump DOJ",
-            "Federal",
-            "Trump"
+            "Israel",
+            "Gal Gadot",
+            "Voter"
           ]
         },
         {
