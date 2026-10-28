@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-27T16:13:20.678Z",
-  "finishedAt": "2026-10-27T16:19:27.707Z",
+  "startedAt": "2026-10-28T17:00:15.151Z",
+  "finishedAt": "2026-10-28T17:06:24.018Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,23 +17,23 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1012,
-    "totalItems": 1013,
-    "clusters": 926,
+    "rssItems": 1066,
+    "totalItems": 1061,
+    "clusters": 981,
     "candidates": 12,
-    "articlesRead": 38
+    "articlesRead": 31
   },
   "balance": {
     "left": 7,
-    "centre": 9,
-    "right": 6,
-    "none": 1
+    "centre": 7,
+    "right": 5,
+    "none": 2
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 3,
+      "availableInRegion": 3
     },
     "India": {
       "quota": 3,
@@ -43,19 +43,17 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 9
+      "availableInRegion": 6
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 35
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 100 articles, 6 from roster outlets, 94 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "23 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
@@ -152,7 +150,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -160,40 +158,51 @@
       "reason": "fetch failed"
     },
     {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372296/fragile-india-china-thaw-tested-reported-fresh-himalayan-border-face-offs",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/10/calcutta-high-court-orders-restraint-streaming-of-sabeer-bhatias-modi-adani-video-details/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3372326/norway-finland-leaders-hold-frank-talk-putin-ending-ukraine-war",
-      "reason": "HTTP 403"
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/international/second-deadly-train-disaster-strikes-spain-this-year-scores-dead-canadians-among-injured/78240",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/28/421865/bharat/button-or-ballot-result-is-the-same-bjp-slams-congress-after-mlc-poll-defeat-across-four-states/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/culture/2026-10-27/ty-article/.premium/netherlands-drops-out-of-2027-eurovision-in-protest-over-israels-participation/000001a1-7cd8-dd27-a1ef-fff993fc0000",
+      "url": "https://www.haaretz.com/world-news/europe/2026-10-28/ty-article/.premium/attacker-shot-dead-near-israeli-embassy-in-serbia-after-assaulting-officer/000001a1-813b-d9b5-a3b5-cdbb98360000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3372342/2-men-charged-uk-helping-iran-over-air-force-base-incident",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372485/real-madrid-issues-apology-china-over-mbappes-mao-remarks",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_bolsonaro-in-florida-after-vanishing-from-public-281026?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -209,44 +218,20 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3372253/jordan-strikes-targets-syria-after-deadly-church-attack",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-thousands-celebrate-student-movement-election-victory-in-serbia/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/victims-of-jordans-air-strikes-in-syria?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-israelis-vote-in-tense-election-seen-as-referendum-on-netanyahu/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-israelis-to-vote-in-election-widely-seen-as-a-referendum-on-netanyahu/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3372273/israelis-vote-tense-election-testing-netanyahus-grip-power",
+      "url": "https://www.scmp.com/week-asia/politics/article/3372484/hegseth-pitches-us-asean-defence-framework-will-it-be-hard-sell",
       "reason": "HTTP 403"
     }
   ]
