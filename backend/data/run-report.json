@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-28T17:00:15.151Z",
-  "finishedAt": "2026-10-28T17:06:24.018Z",
+  "startedAt": "2026-10-29T17:19:20.679Z",
+  "finishedAt": "2026-10-29T17:26:24.133Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,44 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1066,
-    "totalItems": 1061,
-    "clusters": 981,
+    "rssItems": 1044,
+    "totalItems": 1039,
+    "clusters": 943,
     "candidates": 12,
-    "articlesRead": 31
+    "articlesRead": 44
   },
   "balance": {
-    "left": 7,
-    "centre": 7,
-    "right": 5,
-    "none": 2
+    "left": 6,
+    "centre": 11,
+    "right": 7,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 2,
+      "availableInRegion": 2
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 35
+      "availableInRegion": 45
     }
   },
   "starvedSides": [],
   "notes": [
-    "23 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "33 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -149,13 +150,20 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
+      "source": "Democracy Now!",
+      "id": "democracynow",
+      "url": "https://www.democracynow.org/democracynow.rss",
       "reason": "fetch failed"
     },
     {
       "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
@@ -165,73 +173,37 @@
     {
       "layer": "article",
       "source": "NPR",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
       "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/international/second-deadly-train-disaster-strikes-spain-this-year-scores-dead-canadians-among-injured/78240",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/10/28/421865/bharat/button-or-ballot-result-is-the-same-bjp-slams-congress-after-mlc-poll-defeat-across-four-states/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-10-28/ty-article/.premium/attacker-shot-dead-near-israeli-embassy-in-serbia-after-assaulting-officer/000001a1-813b-d9b5-a3b5-cdbb98360000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372485/real-madrid-issues-apology-china-over-mbappes-mao-remarks",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
+      "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_bolsonaro-in-florida-after-vanishing-from-public-281026?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-strikes-terrorist-groups-in-syria-following-deadly-church-attack/000001a1-79cb-dd27-a1ef-fbfb86050000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-10-26/ty-article/jordan-arrests-three-over-karak-church-attack-state-tv-says/000001a1-76e8-de58-a9eb-fefeb0050000",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/travel/video/2026/oct/29/cruise-residents-stranded-in-cambodia-after-fuel-crisis-halts-operations-video",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/victims-of-jordans-air-strikes-in-syria?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/rising-fuel-costs-force-passengers-off-cruise-ship?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/week-asia/politics/article/3372484/hegseth-pitches-us-asean-defence-framework-will-it-be-hard-sell",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3372576/south-korean-prosecutor-seeks-death-penalty-yoon-over-martial-law",
       "reason": "HTTP 403"
     }
   ]
