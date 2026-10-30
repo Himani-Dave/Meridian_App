@@ -1,6 +1,6 @@
 [
   {
-    "id": "c1t2zqgq",
+    "id": "c1gccxg3",
     "regions": [
       "Canada",
       "Europe",
@@ -8,16 +8,14 @@
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 9,
+        "Canada": 5,
         "India": 1,
-        "Europe": 11
+        "Europe": 4
       },
       "matched": {
         "Canada": [
           "canada",
-          "carney",
           "canadians",
-          "montreal",
           "(an outlet from the region covered it)"
         ],
         "India": [
@@ -25,34 +23,27 @@
         ],
         "Europe": [
           "spain",
-          "ukraine",
-          "madrid",
-          "europe",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-28T10:09:46.000Z",
-    "lastSeen": "2026-10-29T10:31:32.000Z",
-    "outletCount": 9,
+    "firstSeen": "2026-10-28T10:39:28.000Z",
+    "lastSeen": "2026-10-30T15:03:39.000Z",
+    "outletCount": 5,
     "outlets": [
       "NPR",
       "BBC News",
       "Fox News",
       "Globe and Mail",
-      "Scroll.in",
-      "Euronews",
-      "Brussels Signal",
-      "Arab News",
-      "South China Morning Post"
+      "Scroll.in"
     ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 9 outlets",
+    "tier": "primary",
+    "tierBasis": "confirmed against 5 primary document(s)",
     "clustering": {
-      "min": 0.3615805286916569,
-      "max": 0.600287014001246,
-      "pairs": 16,
-      "prunedForCohesion": 1
+      "min": 0.4100933439634275,
+      "max": 0.6107042311342677,
+      "pairs": 7,
+      "prunedForCohesion": 0
     },
     "sources": [
       {
@@ -65,20 +56,7 @@
         "t": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
         "u": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
         "publishedAt": "2026-10-29T06:10:11.000Z",
-        "retrievedAt": "2026-10-29T17:20:00.700Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Dozens are dead in a high-speed train crash in Spain",
-        "u": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-        "publishedAt": "2026-10-28T10:09:46.000Z",
-        "retrievedAt": "2026-10-29T17:20:00.700Z",
+        "retrievedAt": "2026-10-30T16:56:47.481Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -88,18 +66,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "What we know so far about deadly Spain train crash",
-        "u": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-29T10:02:37.000Z",
-        "retrievedAt": "2026-10-29T17:20:02.042Z",
+        "t": "Spain transport minister says he won't resign over high-speed rail disaster",
+        "u": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T15:03:39.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Opposition conservative leader Alberto Núñez Feijóo, whose People's Party leads most opinion polls ahead of 29 November elections, said it was not the day to talk about political responsibility, but …",
-          "Iryo said its train was \"struck from behind\" by a Renfe train \"due to causes that are still unknown\".",
-          "That decision, Puente said, was made \"under inexplicable circumstances\"."
+          "\"My duty right now is not to talk about whether I should remain in my position, but to resolve the problem,\" Puente said.",
+          "On Friday Puente said he was \"not going to use any worker as a shield\".",
+          "But he said \"many questions\" arose as a result of the tragedy and he wanted to look at them \"one by one\"."
         ],
         "figures": [],
-        "wordsRead": 1047
+        "wordsRead": 711
       },
       {
         "n": "Fox News",
@@ -111,7 +89,7 @@
         "t": "Spain high-speed railway crash kills at least 68 after train stopped on tracks",
         "u": "https://www.foxnews.com/world/spain-high-speed-railway-crash-kills-train-stopped-tracks",
         "publishedAt": "2026-10-28T11:08:48.000Z",
-        "retrievedAt": "2026-10-29T17:20:07.810Z",
+        "retrievedAt": "2026-10-30T16:56:54.870Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"It was a high-speed impact, so we are expecting this to be a tragedy,\" García said.",
@@ -119,7 +97,7 @@
           "\"We all felt the train abruptly slowing down and then the impact,\" he said."
         ],
         "figures": [],
-        "wordsRead": 814
+        "wordsRead": 795
       },
       {
         "n": "Globe and Mail",
@@ -131,7 +109,7 @@
         "t": "Spain’s second deadly train crash of the year raises rail network safety concerns ahead of national election",
         "u": "https://www.theglobeandmail.com/world/article-spain-train-crash-rescue-death-toll/",
         "publishedAt": "2026-10-29T10:31:32.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“As a society, we have once again suffered a devastating blow, and we must adopt measures so that this doesn’t happen again,” Spain’s King Felipe VI said after visiting injured …",
@@ -151,7 +129,7 @@
         "t": "At least 68 dead after two high-speed trains collide in Spain",
         "u": "https://www.theglobeandmail.com/world/article-spain-train-crash-people-killed/",
         "publishedAt": "2026-10-28T10:39:28.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“It is unacceptable for a country like Spain to suffer two high-speed rail accidents in the same year,” said Sánchez, who faces a national election on Nov. 29.",
@@ -171,8 +149,13 @@
         "t": "At least 68 dead after two high-speed trains collide in Spain",
         "u": "https://www.theglobeandmail.com/world/video-at-least-68-dead-after-two-high-speed-trains-collide-in-spain/",
         "publishedAt": "2026-10-28T20:11:06.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
-        "read": "headline and feed excerpt"
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A high-speed train collided with …"
+        ],
+        "figures": [],
+        "wordsRead": 53
       },
       {
         "n": "Scroll.in",
@@ -184,59 +167,7 @@
         "t": "Spain: 64 dead as two high-speed trains collide",
         "u": "https://scroll.in/latest/1096715/spain-64-dead-as-two-high-speed-trains-collide?utm_source=rss&utm_medium=public",
         "publishedAt": "2026-10-28T15:02:23.000Z",
-        "retrievedAt": "2026-10-29T17:20:18.554Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Europe Today: Second high-speed rail disaster in nine months leaves Spain in grief",
-        "u": "https://www.euronews.com/2026/10/29/europe-today-second-high-speed-rail-disaster-in-nine-months-leaves-spain-in-grief",
-        "publishedAt": "2026-10-29T07:01:59.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Spain tops world toll for high-speed rail deaths after Urda crash",
-        "u": "https://brusselssignal.eu/2026/10/spain-tops-world-toll-for-high-speed-rail-deaths-after-urda-crash/",
-        "publishedAt": "2026-10-29T04:00:54.000Z",
-        "retrievedAt": "2026-10-29T17:20:37.558Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Spain mourns after latest train tragedy kills 68",
-        "u": "https://www.arabnews.com/world/spain-mourns-after-latest-train-tragedy-kills-68-3008810",
-        "publishedAt": "2026-10-29T07:59:17.000Z",
-        "retrievedAt": "2026-10-29T17:20:48.107Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Spain begins 3 days of mourning after high-speed train disaster",
-        "u": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster",
-        "publishedAt": "2026-10-29T08:31:55.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
+        "retrievedAt": "2026-10-30T16:57:06.243Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -255,20 +186,11 @@
             "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates"
           },
           {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Dozens are dead in a high-speed train crash in Spain",
-            "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster"
-          },
-          {
             "outlet": "Scroll.in",
             "outletId": "scroll-in",
             "lean": "left",
             "country": "IN",
-            "evidenceIndex": 7,
+            "evidenceIndex": 6,
             "headline": "Spain: 64 dead as two high-speed trains collide",
             "url": "https://scroll.in/latest/1096715/spain-64-dead-as-two-high-speed-trains-collide?utm_source=rss&utm_medium=public"
           }
@@ -285,16 +207,16 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "What we know so far about deadly Spain train crash",
-            "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 1,
+            "headline": "Spain transport minister says he won't resign over high-speed rail disaster",
+            "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 4,
+            "evidenceIndex": 3,
             "headline": "Spain’s second deadly train crash of the year raises rail network safety concerns ahead of national election",
             "url": "https://www.theglobeandmail.com/world/article-spain-train-crash-rescue-death-toll/"
           },
@@ -303,7 +225,7 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 5,
+            "evidenceIndex": 4,
             "headline": "At least 68 dead after two high-speed trains collide in Spain",
             "url": "https://www.theglobeandmail.com/world/article-spain-train-crash-people-killed/"
           },
@@ -312,18 +234,9 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 6,
+            "evidenceIndex": 5,
             "headline": "At least 68 dead after two high-speed trains collide in Spain",
             "url": "https://www.theglobeandmail.com/world/video-at-least-68-dead-after-two-high-speed-trains-collide-in-spain/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 8,
-            "headline": "Europe Today: Second high-speed rail disaster in nine months leaves Spain in grief",
-            "url": "https://www.euronews.com/2026/10/29/europe-today-second-high-speed-rail-disaster-in-nine-months-leaves-spain-in-grief"
           }
         ],
         "status": "sourced",
@@ -338,18 +251,9 @@
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 3,
+            "evidenceIndex": 2,
             "headline": "Spain high-speed railway crash kills at least 68 after train stopped on tracks",
             "url": "https://www.foxnews.com/world/spain-high-speed-railway-crash-kills-train-stopped-tracks"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 9,
-            "headline": "Spain tops world toll for high-speed rail deaths after Urda crash",
-            "url": "https://brusselssignal.eu/2026/10/spain-tops-world-toll-for-high-speed-rail-deaths-after-urda-crash/"
           }
         ],
         "status": "sourced",
@@ -360,51 +264,66 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 10,
-        "headline": "Spain mourns after latest train tragedy kills 68",
-        "url": "https://www.arabnews.com/world/spain-mourns-after-latest-train-tragedy-kills-68-3008810",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 11,
-        "headline": "Spain begins 3 days of mourning after high-speed train disaster",
-        "url": "https://www.scmp.com/news/world/europe/article/3372573/spain-begins-3-days-mourning-after-high-speed-train-disaster",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Spain",
-        "Europe Today",
-        "Dozens",
-        "Second",
-        "What",
-        "Urda"
+        "Spain"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
           "attempted": true,
-          "found": [],
+          "found": [
+            {
+              "title": "Investigation Into Conditions Affecting Shipping in the Foreign Trade and Denial of Entry of Vessels Into Spanish Ports and Proposed Remedies To Meet or Adjust the Unfavorable Conditions",
+              "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21067/investigation-into-conditions-affecting-shipping-in-the-foreign-trade-and-denial-of-entry-of-vessels",
+              "published": "2026-10-15",
+              "publisher": "Federal Maritime Commission",
+              "docType": "Proposed Rule",
+              "ref": "2026-21067",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Methionine From France, Japan, and Spain: Final Results of the Expedited First Sunset Reviews of the Antidumping Duty Orders",
+              "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20384/methionine-from-france-japan-and-spain-final-results-of-the-expedited-first-sunset-reviews-of-the",
+              "published": "2026-10-05",
+              "publisher": "Commerce Department, International Trade Administration",
+              "docType": "Notice",
+              "ref": "2026-20384",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Thermal Paper From Germany, Japan, South Korea, and Spain; Institution of Five-Year Reviews",
+              "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20136/thermal-paper-from-germany-japan-south-korea-and-spain-institution-of-five-year-reviews",
+              "published": "2026-10-01",
+              "publisher": "International Trade Commission",
+              "docType": "Notice",
+              "ref": "2026-20136",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Common Alloy Aluminum Sheet From Bahrain, Brazil, Croatia, Egypt, Germany, India, Indonesia, Italy, Oman, Romania, Serbia, Slovenia, South Africa, Spain, Taiwan, and Turkey; Scheduling of Full Five-Year Reviews",
+              "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20904/common-alloy-aluminum-sheet-from-bahrain-brazil-croatia-egypt-germany-india-indonesia-italy-oman",
+              "published": "2026-10-14",
+              "publisher": "International Trade Commission",
+              "docType": "Notice",
+              "ref": "2026-20904",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Prestressed Concrete Steel Wire Strand From Spain: Final Results of Antidumping Duty Administrative Review; 2024-2025",
+              "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21791/prestressed-concrete-steel-wire-strand-from-spain-final-results-of-antidumping-duty-administrative",
+              "published": "2026-10-26",
+              "publisher": "Commerce Department, International Trade Administration",
+              "docType": "Notice",
+              "ref": "2026-21791",
+              "read": "metadata only — document not retrieved or read"
+            }
+          ],
           "terms": [
-            "Spain",
-            "Europe Today",
-            "Dozens",
-            "Second",
-            "What",
-            "Urda"
+            "Spain"
           ]
         },
         {
@@ -468,8 +387,59 @@
           "reason": "does not apply to this story's countries or terms"
         }
       ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+      "primary": [
+        {
+          "title": "Investigation Into Conditions Affecting Shipping in the Foreign Trade and Denial of Entry of Vessels Into Spanish Ports and Proposed Remedies To Meet or Adjust the Unfavorable Conditions",
+          "url": "https://www.federalregister.gov/documents/2026/10/15/2026-21067/investigation-into-conditions-affecting-shipping-in-the-foreign-trade-and-denial-of-entry-of-vessels",
+          "published": "2026-10-15",
+          "publisher": "Federal Maritime Commission",
+          "docType": "Proposed Rule",
+          "ref": "2026-21067",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Methionine From France, Japan, and Spain: Final Results of the Expedited First Sunset Reviews of the Antidumping Duty Orders",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20384/methionine-from-france-japan-and-spain-final-results-of-the-expedited-first-sunset-reviews-of-the",
+          "published": "2026-10-05",
+          "publisher": "Commerce Department, International Trade Administration",
+          "docType": "Notice",
+          "ref": "2026-20384",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Thermal Paper From Germany, Japan, South Korea, and Spain; Institution of Five-Year Reviews",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20136/thermal-paper-from-germany-japan-south-korea-and-spain-institution-of-five-year-reviews",
+          "published": "2026-10-01",
+          "publisher": "International Trade Commission",
+          "docType": "Notice",
+          "ref": "2026-20136",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Common Alloy Aluminum Sheet From Bahrain, Brazil, Croatia, Egypt, Germany, India, Indonesia, Italy, Oman, Romania, Serbia, Slovenia, South Africa, Spain, Taiwan, and Turkey; Scheduling of Full Five-Year Reviews",
+          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20904/common-alloy-aluminum-sheet-from-bahrain-brazil-croatia-egypt-germany-india-indonesia-italy-oman",
+          "published": "2026-10-14",
+          "publisher": "International Trade Commission",
+          "docType": "Notice",
+          "ref": "2026-20904",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Prestressed Concrete Steel Wire Strand From Spain: Final Results of Antidumping Duty Administrative Review; 2024-2025",
+          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21791/prestressed-concrete-steel-wire-strand-from-spain-final-results-of-antidumping-duty-administrative",
+          "published": "2026-10-26",
+          "publisher": "Commerce Department, International Trade Administration",
+          "docType": "Notice",
+          "ref": "2026-21791",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        }
+      ],
+      "gap": null
     },
     "disputedCandidates": [],
     "headline": null,
@@ -517,8 +487,8 @@
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.40587807703926665,
-      "max": 0.40587807703926665,
+      "min": 0.41769326683289065,
+      "max": 0.41769326683289065,
       "pairs": 1,
       "prunedForCohesion": 0
     },
@@ -533,7 +503,7 @@
         "t": "Canada and EU drop idea of ‘associate member’ from summit declaration",
         "u": "https://www.theglobeandmail.com/canada/article-canada-eu-summit-drop-associate-member/",
         "publishedAt": "2026-10-28T17:10:21.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Canada’s exports of $22-billion in services to the EU in 2025 are “barely a blip considering the EU’s more than $2-trillion in services imports from non-EU countries,” TD Economics said …",
@@ -553,7 +523,7 @@
         "t": "Listen : Will Canada ever become an associate member of the EU?",
         "u": "https://euobserver.com/245661/listen-will-canada-ever-become-an-associate-member-of-the-eu/",
         "publishedAt": "2026-10-29T09:33:53.000Z",
-        "retrievedAt": "2026-10-29T17:20:29.496Z",
+        "retrievedAt": "2026-10-30T16:57:18.171Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The EU-Canada summit opens today in Montreal and runs until tomorrow (30 October).",
@@ -703,157 +673,57 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "crvwqvp",
+    "id": "c4x7lua",
     "regions": [
-      "Europe",
+      "India",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 0,
-        "Europe": 11
+        "India": 4,
+        "Europe": 0
       },
       "matched": {
-        "Europe": [
-          "eurozone",
-          "european central bank",
-          "france",
-          "european",
+        "India": [
+          "india",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-29T10:25:59.000Z",
-    "lastSeen": "2026-10-29T16:34:55.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-10-30T10:02:05.000Z",
+    "lastSeen": "2026-10-30T14:01:03.000Z",
+    "outletCount": 2,
     "outlets": [
-      "Euronews",
-      "Deutsche Welle",
-      "Brussels Signal",
+      "Scroll.in",
       "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3625947537591507,
-      "max": 0.676332695235044,
-      "pairs": 8,
+      "min": 0.4351285501321571,
+      "max": 0.4351285501321571,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
-        "b": "centre",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "ECB holds rates at 2.5% as Lagarde announces early exit with inflation near double the target",
-        "u": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe",
-        "publishedAt": "2026-10-29T13:24:45.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
+        "t": "Flood alerts, evacuations in Bengal, Assam after Bhutan glacial lake outburst",
+        "u": "https://scroll.in/latest/1096753/flood-alerts-evacuations-in-bengal-assam-after-bhutan-glacial-lake-outburst?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-30T10:02:05.000Z",
+        "retrievedAt": "2026-10-30T16:57:06.243Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In its statement, the ECB said energy prices had \"continued to rise, posing upside risks to the inflation outlook and downside risks to the growth outlook\".",
-          "Underlying inflation has \"remained broadly stable so far and wages do not show a material response at this stage\", it said, but warned that the size and duration of the …",
-          "\"I leave this institution with a sense of a …"
-        ],
-        "figures": [
-          {
-            "value": "2.5%",
-            "context": "The European Central Bank kept its deposit rate at 2.5% on Thursday, hours after President Christine Laga"
-          },
-          {
-            "value": "3.8%",
-            "context": ", as France's bond market turmoil and inflation at 3.8% cloud the outlook for the eurozone. The European"
-          },
-          {
-            "value": "2.5%",
-            "context": "Bank (ECB) left its key deposit rate unchanged at 2.5% on Thursday, at a meeting overshadowed by Preside"
-          },
-          {
-            "value": "3.8%",
-            "context": "costs across the eurozone, while inflation runs at 3.8%, almost double the ECB's 2% target. The decision"
-          },
-          {
-            "value": "2%",
-            "context": "le inflation runs at 3.8%, almost double the ECB's 2% target. The decision by the Governing Council, wh"
-          },
-          {
-            "value": "2.65%",
-            "context": "rations and marginal lending facility also stay at 2.65% and 2.90% respectively. In its statement, the ECB"
-          }
-        ],
-        "wordsRead": 662
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
-        "u": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
-        "publishedAt": "2026-10-29T10:25:59.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "During her press conference after the rate decision, the ECB president also said she is stepping down before the end of her term so that she has \"greater freedom to …",
-          "The departing ECB president said in February that chairing the World Economic Forum, the organisation behind the annual Davos meeting, was \"one of the many options\" for her future, and …",
-          "\"I can be useful as a French national, European citizen and citizen of the world,\" Lagarde added."
-        ],
-        "figures": [
-          {
-            "value": "2.5%",
-            "context": "ay, hours before it kept interest rates on hold at 2.5%. Christine Lagarde will leave her post as preside"
-          },
-          {
-            "value": "2.5%",
-            "context": "before the ECB left its deposit rate unchanged at 2.5% , as turmoil in France's bond market weighs on bo"
-          }
-        ],
-        "wordsRead": 1031
-      },
-      {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-        "u": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-29T10:33:00.000Z",
-        "retrievedAt": "2026-10-29T17:20:31.427Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"European Central Bank President Christine Lagarde today informed the Governing Council and the president of the European Council Antonio Costa that she will step down from her position on 7 …",
-          "\"To ensure a smooth transition to the next leadership of the ECB, the process for the appointment of her successor will be initiated today and will …"
+          "West Bengal Water Resources Minister Nisith Pramanik said that persons living near tea gardens in the northern part of the state and riverbeds “ must evacuate immediately”, reported The Indian …"
         ],
         "figures": [],
-        "wordsRead": 576
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Lagarde announces early ECB exit as succession race opens",
-        "u": "https://brusselssignal.eu/2026/10/lagarde-announces-early-ecb-exit-as-succession-race-opens/",
-        "publishedAt": "2026-10-29T11:15:04.000Z",
-        "retrievedAt": "2026-10-29T17:20:37.558Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "It said the Governing Council, which sets interest rates for the 21 countries that use the euro, had thanked her warmly and “gave her a long standing ovation”.",
-          "European Central Bank President Christine Lagarde has announced that she is to step down on February 7, 2027, nearly nine months before the end of her mandate.",
-          "The ECB said on October 29 that Lagarde had informed its Governing Council …"
-        ],
-        "figures": [],
-        "wordsRead": 681
+        "wordsRead": 335
       },
       {
         "n": "Al Jazeera",
@@ -862,83 +732,56 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "European Central Bank President Lagarde to step down early",
-        "u": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
-        "publishedAt": "2026-10-29T16:34:55.000Z",
-        "retrievedAt": "2026-10-29T17:20:45.338Z",
+        "t": "Bhutan hot springs hit by flood from glacial lake burst",
+        "u": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
+        "publishedAt": "2026-10-30T14:01:03.000Z",
+        "retrievedAt": "2026-10-30T16:57:33.307Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "She said in a filmed statement posted on X that she was leaving “with a sense of good work done and an ECB that is fit for the future”.",
-          "However, Markus Ferber, a German member of the European Parliament, warned: “If the impression arises that such a departure is timed around national elections, it damages trust in an institution …"
+          "According to state broadcaster BBS on Friday, no injuries or loss of life had been reported from Thursday night’s flash flood.",
+          "It added that the extent of the damage was …"
         ],
         "figures": [],
-        "wordsRead": 591
+        "wordsRead": 308
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Flood alerts, evacuations in Bengal, Assam after Bhutan glacial lake outburst",
+            "url": "https://scroll.in/latest/1096753/flood-alerts-evacuations-in-bengal-assam-after-bhutan-glacial-lake-outburst?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "ECB holds rates at 2.5% as Lagarde announces early exit with inflation near double the target",
-            "url": "https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
-            "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 2,
-            "headline": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-            "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "Lagarde announces early ECB exit as succession race opens",
-            "url": "https://brusselssignal.eu/2026/10/lagarde-announces-early-ecb-exit-as-succession-race-opens/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
@@ -946,21 +789,19 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 4,
-        "headline": "European Central Bank President Lagarde to step down early",
-        "url": "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
+        "evidenceIndex": 1,
+        "headline": "Bhutan hot springs hit by flood from glacial lake burst",
+        "url": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Lagarde",
-        "February",
-        "ECB President Christine Lagarde",
-        "European Central Bank President",
-        "European Central Bank",
-        "Christine Lagarde"
+        "Bhutan",
+        "Bengal",
+        "Flood",
+        "Assam"
       ],
       "attempts": [
         {
@@ -1046,38 +887,255 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cutqo71",
+    "id": "coo1atv",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 7,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "bjp",
+          "uttar pradesh",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-30T10:48:47.000Z",
+    "lastSeen": "2026-10-30T16:51:16.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Scroll.in",
+      "The Hindu"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.477076774918039,
+      "max": 0.477076774918039,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Amit Shah promises UCC in Uttar Pradesh if BJP retains power in 2027",
+        "u": "https://scroll.in/latest/1096759/amit-shah-promises-ucc-in-uttar-pradesh-if-bjp-retains-power-in-2027?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-10-30T10:48:47.000Z",
+        "retrievedAt": "2026-10-30T16:57:06.243Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Union Home Minister Amit Shah on Friday said that a Uniform Civil Code would be implemented in Uttar Pradesh if the Bharatiya Janata Party retains power in the 2027 Assembly …",
+          "“UCC has already been implemented in many states,” the newspaper quoted the BJP leader as saying."
+        ],
+        "figures": [],
+        "wordsRead": 500
+      },
+      {
+        "n": "The Hindu",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Uniform Civil Code in U.P. if BJP voted to power again: Amit Shah",
+        "u": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-will-bring-ucc-in-uttar-pradesh-if-voted-to-power-again-says-amit-shah/article71644484.ece",
+        "publishedAt": "2026-10-30T16:51:16.000Z",
+        "retrievedAt": "2026-10-30T16:57:07.966Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Union Home Minister Amit Shah on Friday (October 30, 2026) said a Uniform Civil Code (UCC) will be implemented in Uttar Pradesh if the Bharatiya Janata Party (BJP) won the …",
+          "Urging party workers to work towards winning the polls, he said, “The Uniform Civil Code has …"
+        ],
+        "figures": [],
+        "wordsRead": 471
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Amit Shah promises UCC in Uttar Pradesh if BJP retains power in 2027",
+            "url": "https://scroll.in/latest/1096759/amit-shah-promises-ucc-in-uttar-pradesh-if-bjp-retains-power-in-2027?utm_source=rss&utm_medium=public"
+          },
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Uniform Civil Code in U.P. if BJP voted to power again: Amit Shah",
+            "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-will-bring-ucc-in-uttar-pradesh-if-voted-to-power-again-says-amit-shah/article71644484.ece"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (left)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Amit Shah",
+        "Uniform Civil Code",
+        "Uttar Pradesh"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c19ixqy2",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 4
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
           "ukraine",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-29T11:43:23.000Z",
-    "lastSeen": "2026-10-29T14:17:35.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-10-30T10:22:26.000Z",
+    "lastSeen": "2026-10-30T16:26:11.000Z",
+    "outletCount": 5,
     "outlets": [
       "BBC News",
+      "Globe and Mail",
       "Euronews",
-      "Politico Europe",
-      "Arab News"
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.38411057549442384,
-      "max": 0.6262930347663929,
+      "min": 0.3705495967580459,
+      "max": 0.4179397224479213,
       "pairs": 4,
       "prunedForCohesion": 0
     },
@@ -1089,18 +1147,37 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-        "u": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-29T14:17:35.000Z",
-        "retrievedAt": "2026-10-29T17:20:02.042Z",
+        "t": "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
+        "u": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T16:26:11.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"But unfortunately there were still a large number of people on the platform\" when the drone struck, he said.",
-          "Ukrainian President Volodymyr Zelensky said \"the Russians used a drone to attack a platform where a regular commuter train and a regular passenger train were standing.\"",
-          "At least 14 people have been killed after a Russian jet-powered drone hit …"
+          "\"Everything unfolded without any incidents, and both sides noted the high level of organisation,\" Russia's human rights ombudsman Yana Lantratova said.",
+          "Melania Trump said that \"all elements of the convoy, including the safe passageway in and out of Oleshky, was established through mutual agreement between Russian and Ukrainian leaders\".",
+          "\"I was told that it was their own choice, we will do everything possible for the humanitarian aid to arrive.\""
         ],
         "figures": [],
-        "wordsRead": 584
+        "wordsRead": 830
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Humanitarian mission reaches Ukraine’s battered Oleshky as localized truce holds",
+        "u": "https://www.theglobeandmail.com/world/article-humanitarian-mission-reaches-oleshky-as-ukraine-russia-truce-holds/",
+        "publishedAt": "2026-10-30T10:22:26.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Everyone who wishes to leave Oleshky will have the opportunity to do so safely,” the warring countries said in identical statements.",
+          "A humanitarian mission entered the devastated city of Oleshky on Friday, officials said, as Russia and Ukraine observed the most …"
+        ],
+        "figures": [],
+        "wordsRead": 416
       },
       {
         "n": "Euronews",
@@ -1109,35 +1186,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Russian drone attack on Ukrainian railway station kills at least 14 people",
-        "u": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station",
-        "publishedAt": "2026-10-29T11:57:39.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
+        "t": "Residents leave Russian-occupied Oleshky amid local ceasefire",
+        "u": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire",
+        "publishedAt": "2026-10-30T15:55:40.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Moscow Mayor Sergei Sobyanin said on Telegram that \"613 UAVs flew towards the Moscow region\" between Wednesday night and Thursday morning.",
-          "\"But unfortunately there were still a large number of people on the platform,\" he wrote …"
+          "“At this moment, the humanitarian operation is underway in Oleshky,” Kyrylo Budanov, head of Ukraine’s presidential office, wrote in an post online.",
+          "\"We are completing our humanitarian mission in Oleshky,\" Russia's human rights ombudsman Yana …"
         ],
         "figures": [],
-        "wordsRead": 361
-      },
-      {
-        "n": "Politico Europe",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Russian strike on busy train platform kills at least 14 in Dnipro",
-        "u": "https://www.politico.eu/article/russia-attacks-ukrainian-civilians-in-several-regions-killing-dozens-within-few-hours/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-        "publishedAt": "2026-10-29T14:04:04.000Z",
-        "retrievedAt": "2026-10-29T17:20:27.199Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This is precisely why Ukraine has always said that just and decisive action by America and Europe is needed in response to Russian escalation … It is time for new …"
-        ],
-        "figures": [],
-        "wordsRead": 326
+        "wordsRead": 357
       },
       {
         "n": "Arab News",
@@ -1146,18 +1205,31 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "‘Horrific’ Russian drone strike kills 13 at Ukraine train station: Kyiv",
-        "u": "https://www.arabnews.com/world/horrific-russian-drone-strike-kills-13-at-ukraine-train-station-kyiv-3008850",
-        "publishedAt": "2026-10-29T11:43:23.000Z",
-        "retrievedAt": "2026-10-29T17:20:48.107Z",
+        "t": "Residents evacuated from Russian-occupied Oleshky as Melania Trump-backed truce holds",
+        "u": "https://www.arabnews.com/world/residents-evacuated-from-russian-occupied-oleshky-as-melania-trump-backed-truce-holds-3009037",
+        "publishedAt": "2026-10-30T15:24:06.000Z",
+        "retrievedAt": "2026-10-30T16:57:36.254Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The truce was holding into its third day, both countries said, with the Ukrainian human rights ombudsman Dmytro Lubinets announcing that he had “set out with the Ukrainian delegation toward …",
-          "The strike at the Dnipro train station hit a platform “where a regular commuter train and a regular passenger train were standing,” Zelensky said.",
-          "“But unfortunately there were still a large number of people on …"
+          "“The problem is that a lot of people are staying,” one woman told Ukraine’s human rights ombudsman Dmytro Lubinets, who was on the ground to coordinate the operation with Lantratova.",
+          "“I’ve been told that it’s their own choice,” Lubinets replied.",
+          "Kremlin spokesman Dmitry Peskov said there was a “high degree of coordination” between Lantratova and Lubinets."
         ],
         "figures": [],
-        "wordsRead": 669
+        "wordsRead": 706
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia-Ukraine truce for Oleshky allows aid mission to help starving residents",
+        "u": "https://www.scmp.com/news/world/europe/article/3372778/russia-ukraine-truce-oleshky-allows-aid-mission-help-starving-residents",
+        "publishedAt": "2026-10-30T14:30:07.000Z",
+        "retrievedAt": "2026-10-30T16:57:40.519Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -1178,26 +1250,26 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-            "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+            "headline": "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
+            "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Humanitarian mission reaches Ukraine’s battered Oleshky as localized truce holds",
+            "url": "https://www.theglobeandmail.com/world/article-humanitarian-mission-reaches-oleshky-as-ukraine-russia-truce-holds/"
           },
           {
             "outlet": "Euronews",
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "Russian drone attack on Ukrainian railway station kills at least 14 people",
-            "url": "https://www.euronews.com/2026/10/29/at-least-13-killed-several-injured-in-russian-drone-strike-on-ukrainian-railway-station"
-          },
-          {
-            "outlet": "Politico Europe",
-            "outletId": "politico-eu",
-            "lean": "centre",
-            "country": "EU",
             "evidenceIndex": 2,
-            "headline": "Russian strike on busy train platform kills at least 14 in Dnipro",
-            "url": "https://www.politico.eu/article/russia-attacks-ukrainian-civilians-in-several-regions-killing-dozens-within-few-hours/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+            "headline": "Residents leave Russian-occupied Oleshky amid local ceasefire",
+            "url": "https://www.euronews.com/2026/10/30/residents-leave-russian-occupied-oleshky-amid-local-ceasefire"
           }
         ],
         "status": "sourced",
@@ -1223,20 +1295,30 @@
         "lean": "varies",
         "country": "SA",
         "evidenceIndex": 3,
-        "headline": "‘Horrific’ Russian drone strike kills 13 at Ukraine train station: Kyiv",
-        "url": "https://www.arabnews.com/world/horrific-russian-drone-strike-kills-13-at-ukraine-train-station-kyiv-3008850",
+        "headline": "Residents evacuated from Russian-occupied Oleshky as Melania Trump-backed truce holds",
+        "url": "https://www.arabnews.com/world/residents-evacuated-from-russian-occupied-oleshky-as-melania-trump-backed-truce-holds-3009037",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Russia-Ukraine truce for Oleshky allows aid mission to help starving residents",
+        "url": "https://www.scmp.com/news/world/europe/article/3372778/russia-ukraine-truce-oleshky-allows-aid-mission-help-starving-residents",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Russian",
-        "Ukrainian",
-        "Horrific",
-        "Ukraine",
-        "Dnipro",
-        "Kyiv"
+        "Russian-occupied Oleshky",
+        "Residents",
+        "Oleshky",
+        "Melania Trump-backed",
+        "Russia-Ukraine",
+        "Humanitarian"
       ],
       "attempts": [
         {
@@ -1322,7 +1404,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c17aigep",
+    "id": "c1rjgesr",
     "regions": [
       "Europe",
       "Global"
@@ -1331,56 +1413,35 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 10
+        "Europe": 4
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
-          "finland",
-          "norway",
           "ukraine",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-27T12:41:20.000Z",
-    "lastSeen": "2026-10-28T17:04:00.000Z",
+    "firstSeen": "2026-10-29T12:23:08.000Z",
+    "lastSeen": "2026-10-30T14:19:49.000Z",
     "outletCount": 3,
     "outlets": [
-      "Fox News",
       "Globe and Mail",
-      "Deutsche Welle"
+      "Euronews",
+      "Al Jazeera"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.37384214182289977,
-      "max": 0.42473139361748713,
+      "min": 0.36758378854159596,
+      "max": 0.3729559526457312,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city",
-        "u": "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city",
-        "publishedAt": "2026-10-27T12:41:20.000Z",
-        "retrievedAt": "2026-10-29T17:20:07.810Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The pause in fighting in Oleshky started around 3 a.m. local time as \"part of a humanitarian mission being carried out with the mediation and coordination of U.S. first lady …",
-          "The White House said both Ukraine and Russia \"agreed to temporarily stop all military action in …"
-        ],
-        "figures": [],
-        "wordsRead": 470
-      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -1388,38 +1449,50 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ceasefire brokered by Melania Trump begins in Russian-occupied Oleshky",
-        "u": "https://www.theglobeandmail.com/world/article-oleshky-ceasefire-melania-trump-russia-ukraine-war/",
-        "publishedAt": "2026-10-27T13:32:16.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "t": "Humanitarian aid to enter Oleshky as localized Russia-Ukraine truce holds for a third day",
+        "u": "https://www.theglobeandmail.com/world/article-aid-mission-oleshky-russia-ukraine-war/",
+        "publishedAt": "2026-10-29T12:23:08.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Melania Trump said in a post on X that the ceasefire began two days earlier than initially planned “to protect the safety of civilians and to facilitate the delivery of …",
-          "“People say they are genuinely afraid that the Russians will check their phones and look for evidence of Ukrainian relatives or ties to the Armed Forces of Ukraine – something …",
-          "“It’s unusual when it’s this quiet,” said Oleksandra Kostenko, who runs a small coffee kiosk."
+          "“Demining of the designated routes has been completed, and the humanitarian convoy has been assembled and is ready,” ombudsman Dmytro Lubinets, who heads Ukraine’s negotiating team, said Thursday.",
+          "“The parties are fully adhering to the agreements, and no violations of the ceasefire have been reported,” Lubinets said.",
+          "“Both sides are fully honouring their commitments,” she said, continuing."
         ],
         "figures": [],
-        "wordsRead": 1026
+        "wordsRead": 987
       },
       {
-        "n": "Deutsche Welle",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Evacuation from Oleshky: How are preparations going?",
-        "u": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-28T17:04:00.000Z",
-        "retrievedAt": "2026-10-29T17:20:31.427Z",
+        "t": "Ukraine holds its breath as humanitarian operation begins in Russian-occupied Oleshky",
+        "u": "https://www.euronews.com/2026/10/30/ukraine-holds-its-breath-as-humanitarian-operation-begins-in-russian-occupied-oleshky",
+        "publishedAt": "2026-10-30T11:43:34.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "According to the Save Ukraine Foundation, it has rescued at least 300 civilians from Oleshky over the past six months.",
-          "Since a ceasefire took effect in the Russian-occupied town of Oleshky in Ukraine's Kherson region on October 27, preparations have been underway to evacuate residents trapped there.",
-          "The localized truce comes as Ukrainian President Zelenskyy said negotiators would meet for wider talks next month."
+          "\"Our main task is to ensure that this assistance reaches every person in need,\" Lubinets said.",
+          "Ukraine's Human Rights Ombudsman Dmytro Lubinets confirmed on Friday that the delegation had safely arrived in the town in the southern Kherson region, with the ceasefire still holding after 80 …"
         ],
         "figures": [],
-        "wordsRead": 976
+        "wordsRead": 479
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russian, Ukrainian humanitarian officials enter Oleshky",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-ukrainian-humanitarian-officials-enter-oleshky?traffic_source=rss",
+        "publishedAt": "2026-10-30T14:19:49.000Z",
+        "retrievedAt": "2026-10-30T16:57:33.307Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -1439,18 +1512,705 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Ceasefire brokered by Melania Trump begins in Russian-occupied Oleshky",
-            "url": "https://www.theglobeandmail.com/world/article-oleshky-ceasefire-melania-trump-russia-ukraine-war/"
+            "evidenceIndex": 0,
+            "headline": "Humanitarian aid to enter Oleshky as localized Russia-Ukraine truce holds for a third day",
+            "url": "https://www.theglobeandmail.com/world/article-aid-mission-oleshky-russia-ukraine-war/"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "DE",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Ukraine holds its breath as humanitarian operation begins in Russian-occupied Oleshky",
+            "url": "https://www.euronews.com/2026/10/30/ukraine-holds-its-breath-as-humanitarian-operation-begins-in-russian-occupied-oleshky"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Russian, Ukrainian humanitarian officials enter Oleshky",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-ukrainian-humanitarian-officials-enter-oleshky?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Oleshky",
+        "Russian-occupied Oleshky",
+        "Russia-Ukraine",
+        "Humanitarian",
+        "Ukrainian",
+        "Ukraine"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c745whd",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 4
+      },
+      "matched": {
+        "Europe": [
+          "ukraine",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-30T11:23:06.000Z",
+    "lastSeen": "2026-10-30T15:08:00.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "BBC News",
+      "Euronews"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.502321949398002,
+      "max": 0.502321949398002,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Prominent Russian newspaper shuts down under pressure from authorities",
+        "u": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T11:23:06.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The paper said that over time six journalists connected with the paper were killed for \"fulfilling their professional and civic duty.\"",
+          "\"Human rights and freedoms have been eliminated in the country and their protection has been equated to a crime,\" the statement said.",
+          "In 2021, Muratov was awarded the Nobel Peace Prize …"
+        ],
+        "figures": [],
+        "wordsRead": 528
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russian independent newspaper Novaya Gazeta says it will shut down following pressure from Kremlin",
+        "u": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from",
+        "publishedAt": "2026-10-30T15:08:00.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"On November 9th, we will turn off the lights in the home where we have lived for 30 years, shut down our servers, and leave,\" the paper said.",
+          "It added that since the start of Russia's full-scale invasion of Ukraine in February 2022, it had been unable to report on the \"most critical …"
+        ],
+        "figures": [],
+        "wordsRead": 535
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Prominent Russian newspaper shuts down under pressure from authorities",
+            "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Russian independent newspaper Novaya Gazeta says it will shut down following pressure from Kremlin",
+            "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Prominent Russian",
+        "Novaya Gazeta",
+        "Russian",
+        "Kremlin"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c5xyz26",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 1,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "India": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-30T01:25:51.000Z",
+    "lastSeen": "2026-10-30T16:35:44.000Z",
+    "outletCount": 8,
+    "outlets": [
+      "Guardian US",
+      "BBC News",
+      "Globe and Mail",
+      "OpIndia",
+      "Brussels Signal",
+      "Al Jazeera",
+      "Arab News",
+      "Nikkei Asia"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 8 outlets",
+    "clustering": {
+      "min": 0.3650726123449051,
+      "max": 0.7351164939953444,
+      "pairs": 13,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+        "u": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+        "publishedAt": "2026-10-30T16:35:44.000Z",
+        "retrievedAt": "2026-10-30T16:56:45.773Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This is almost certainly the largest theft of any kind in history,” said Tom Robinson, chief scientist at crypto consultancy Elliptic.",
+          "Richard Teng, a co-chief executive of Binance, said: “Bottom line – your money is safe, and we’re covering every loss.”",
+          "“It may further dampen risk appetite and prompt investors to reassess the safety of assets held on centralised exchanges,” said Tim Sun, a senior researcher at HashKey Group, based in …"
+        ],
+        "figures": [
+          {
+            "value": "$6.3bn",
+            "context": "cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in h"
+          },
+          {
+            "value": "£4.7bn",
+            "context": "urrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in history,"
+          },
+          {
+            "value": "$3bn",
+            "context": "id it would cover all customer losses as it froze $3bn of the affected assets. Analysts said the exchang"
+          },
+          {
+            "value": "$1.5bn",
+            "context": "s said the theft was the biggest ever, dwarfing a $1.5bn crypto raid last year and the $1bn taken from …"
+          },
+          {
+            "value": "$1bn",
+            "context": ", dwarfing a $1.5bn crypto raid last year and the $1bn taken from Iraq’s central bank by Saddam Hussein"
+          },
+          {
+            "value": "$1.5bn",
+            "context": "crypto hacking and was behind the theft of about $1.5bn in virtual assets from a Dubai-based cryptocurren"
+          }
+        ],
+        "wordsRead": 1008
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "What we know about Binance's $6.3bn hack",
+        "u": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T12:27:28.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Half of the assets have been frozen but many remain …"
+        ],
+        "figures": [
+          {
+            "value": "$6.3bn",
+            "context": "orld's biggest crypto exchange, has been hit by a $6.3bn (£4.7bn) hack - thought to be the biggest in hist"
+          },
+          {
+            "value": "£4.7bn",
+            "context": "iggest crypto exchange, has been hit by a $6.3bn (£4.7bn) hack - thought to be the biggest in history. Hal"
+          }
+        ],
+        "wordsRead": 104
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hackers steal $6.3-billion from Binance in record heist blamed on North Korea",
+        "u": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/",
+        "publishedAt": "2026-10-30T13:16:21.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This was a complex attack, and we are doing all we can in coordination with law enforcement to resolve it,” Binance said in a post on X .",
+          "“This incident is almost certainly the single largest known theft of any kind,” Elliptic said.",
+          "Abu Dhabi’s Financial Services Regulatory Authority, which issued Binance’s main operating licence, said it was “engaging closely with Binance and monitoring the incident”."
+        ],
+        "figures": [
+          {
+            "value": "US$6.3",
+            "context": "Hackers stole US$6.3-billion from Binance, the world’s biggest cryptoc"
+          },
+          {
+            "value": "US$3",
+            "context": "to freeze some of the affected assets, with about US$3-billion located so far. It said earlier on Friday"
+          },
+          {
+            "value": "US$3.3",
+            "context": "s. It did not mention the status of the remaining US$3.3-billion. Binance said it had set aside about US$6"
+          },
+          {
+            "value": "US$6.34",
+            "context": "$3.3-billion. Binance said it had set aside about US$6.34-billion of company funds internally to cover the"
+          },
+          {
+            "value": "US$1",
+            "context": "where the funds had come from. The company has a US$1-billion bitcoin reserve fund designed to protect"
+          },
+          {
+            "value": "US$1",
+            "context": "t the company owned SpaceX shares worth more than US$1-billion."
+          }
+        ],
+        "wordsRead": 909
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Binance freezes assets after $6.3-billion heist, crypto industry’s biggest",
+        "u": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/",
+        "publishedAt": "2026-10-30T01:25:51.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We make this judgment with high confidence,” it said in a statement.",
+          "“It’s the biggest hack in history,” said Aravind Srinivasan, head of large crypto market maker GSR’s systematic OTC business.",
+          "“It may further dampen risk appetite and prompt investors to reassess the safety of assets held on centralized exchanges, as well as counterparty, solvency and liquidity risks,” said Tim Sun …"
+        ],
+        "figures": [
+          {
+            "value": "$6.3",
+            "context": "Hackers stole $6.3-billion from Binance, the world’s largest cryptoc"
+          },
+          {
+            "value": "$3",
+            "context": "partners to freeze the affected assets with about $3-billion located so far. It did not mention the st"
+          },
+          {
+            "value": "$3.3",
+            "context": "r. It did not mention the status of the remaining $3.3-billion, and its co-founder Yi He said the exchan"
+          }
+        ],
+        "wordsRead": 838
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Binance freezes assets after record $6.3-billion heist",
+        "u": "https://www.theglobeandmail.com/world/video-binance-freezes-assets-after-record-63-billion-heist/",
+        "publishedAt": "2026-10-30T10:42:47.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Hackers stole $6.3-billion from Binance, the …"
+        ],
+        "figures": [
+          {
+            "value": "$6.3",
+            "context": "Hackers stole $6.3-billion from Binance, the world's largest cryptoc"
+          }
+        ],
+        "wordsRead": 67
+      },
+      {
+        "n": "OpIndia",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "$6.3 billion Binance heist: North Korea’s notorious hacking unit suspected of pulling off world’s biggest crypto robbery, drains billions in just 20 minutes",
+        "u": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/",
+        "publishedAt": "2026-10-30T16:30:00.000Z",
+        "retrievedAt": "2026-10-30T16:57:11.275Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "North Korean hackers steal €5.85 billion from Binance",
+        "u": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/",
+        "publishedAt": "2026-10-30T10:21:47.000Z",
+        "retrievedAt": "2026-10-30T16:57:25.807Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Binance says $6.3bn stolen in biggest crypto heist in history: What we know",
+        "u": "https://www.aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know?traffic_source=rss",
+        "publishedAt": "2026-10-30T12:38:47.000Z",
+        "retrievedAt": "2026-10-30T16:57:33.307Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hackers steal $6.3 billion from Binance in record heist blamed on North Korea",
+        "u": "https://www.arabnews.com/world/hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north-korea-3009040",
+        "publishedAt": "2026-10-30T15:49:29.000Z",
+        "retrievedAt": "2026-10-30T16:57:36.254Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Nikkei Asia",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Binance suspends withdrawals and freezes funds after $6.3bn hack",
+        "u": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-suspends-withdrawals-and-freezes-funds-after-6.3bn-hack",
+        "publishedAt": null,
+        "retrievedAt": "2026-10-30T16:57:44.659Z",
+        "read": "headline only"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+            "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "What we know about Binance's $6.3bn hack",
+            "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
             "evidenceIndex": 2,
-            "headline": "Evacuation from Oleshky: How are preparations going?",
-            "url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-world-4025-rdf"
+            "headline": "Hackers steal $6.3-billion from Binance in record heist blamed on North Korea",
+            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Binance freezes assets after $6.3-billion heist, crypto industry’s biggest",
+            "url": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 4,
+            "headline": "Binance freezes assets after record $6.3-billion heist",
+            "url": "https://www.theglobeandmail.com/world/video-binance-freezes-assets-after-record-63-billion-heist/"
+          },
+          {
+            "outlet": "Nikkei Asia",
+            "outletId": "nikkeiasia",
+            "lean": "centre",
+            "country": "JP",
+            "evidenceIndex": 9,
+            "headline": "Binance suspends withdrawals and freezes funds after $6.3bn hack",
+            "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-suspends-withdrawals-and-freezes-funds-after-6.3bn-hack"
           }
         ],
         "status": "sourced",
@@ -1461,13 +2221,22 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
+            "outlet": "OpIndia",
+            "outletId": "opindia",
             "lean": "right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Ceasefire negotiated by Melania Trump holds in Russia-occupied Ukrainian city",
-            "url": "https://www.foxnews.com/world/ceasefire-negotiated-melania-trump-holds-russia-occupied-ukrainian-city"
+            "country": "IN",
+            "evidenceIndex": 5,
+            "headline": "$6.3 billion Binance heist: North Korea’s notorious hacking unit suspected of pulling off world’s biggest crypto robbery, drains billions in just 20 minutes",
+            "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/"
+          },
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 6,
+            "headline": "North Korean hackers steal €5.85 billion from Binance",
+            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
           }
         ],
         "status": "sourced",
@@ -1478,16 +2247,37 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 7,
+        "headline": "Binance says $6.3bn stolen in biggest crypto heist in history: What we know",
+        "url": "https://www.aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 8,
+        "headline": "Hackers steal $6.3 billion from Binance in record heist blamed on North Korea",
+        "url": "https://www.arabnews.com/world/hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north-korea-3009040",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Melania Trump",
-        "Ceasefire",
-        "Russia-occupied Ukrainian",
-        "Russian-occupied Oleshky",
-        "Evacuation",
-        "Oleshky"
+        "Binance",
+        "North Korea",
+        "Hackers",
+        "What",
+        "North Korean",
+        "Binance's"
       ],
       "attempts": [
         {
@@ -1496,12 +2286,454 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Melania Trump",
-            "Ceasefire",
-            "Russia-occupied Ukrainian",
-            "Russian-occupied Oleshky",
-            "Evacuation",
-            "Oleshky"
+            "Binance",
+            "North Korea",
+            "Hackers",
+            "What",
+            "North Korean",
+            "Binance's"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [
+      {
+        "kind": "currency",
+        "about": [
+          "heist",
+          "binance"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Guardian US",
+            "value": "$6.3bn",
+            "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "value": "$6.3",
+            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "currency",
+        "about": [
+          "located",
+          "freeze"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Guardian US",
+            "value": "$3bn",
+            "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "value": "$3",
+            "url": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "currency",
+        "about": [
+          "binance",
+          "heist"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "$6.3",
+            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
+          },
+          {
+            "outlet": "OpIndia",
+            "value": "$6.3 billion",
+            "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "currency",
+        "about": [
+          "from",
+          "binance",
+          "record",
+          "heist"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "$6.3",
+            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
+          },
+          {
+            "outlet": "Arab News",
+            "value": "$6.3 billion",
+            "url": "https://www.arabnews.com/world/hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north-korea-3009040"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "currency",
+        "about": [
+          "heist",
+          "crypto",
+          "biggest"
+        ],
+        "spread": 1,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "$6.3",
+            "url": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "$6.3bn",
+            "url": "https://www.aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      }
+    ],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c6uf8a6",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-10-30T14:04:32.000Z",
+    "lastSeen": "2026-10-30T15:59:17.000Z",
+    "outletCount": 6,
+    "outlets": [
+      "Guardian US",
+      "BBC News",
+      "Washington Examiner",
+      "Globe and Mail",
+      "Euronews",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 6 outlets",
+    "clustering": {
+      "min": 0.40879998189039435,
+      "max": 0.7416940116874116,
+      "pairs": 15,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike makes first public comments since failed execution: ‘There is pain in my mind and in my soul’",
+        "u": "https://www.theguardian.com/us-news/2026/oct/30/christa-pike-statement-tennessee-execution",
+        "publishedAt": "2026-10-30T14:15:48.000Z",
+        "retrievedAt": "2026-10-30T16:56:45.773Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I’m deeply hurt by the incompetence that has put so many people in this terrible position,” she said.",
+          "She is being kept largely in solitary confinement, she said, “away from other people and the human connections that mean so much to me”.",
+          "In comments released by her legal team on Friday, the prisoner said that there had not …"
+        ],
+        "figures": [],
+        "wordsRead": 589
+      },
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+        "u": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T15:59:17.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"There hasn't been a moment since that night when I haven't been in pain,\" she said in the statement.",
+          "\"I am recovering, and I know that I am getting stronger,\" she said in her statement on Friday.",
+          "\"I had not contemplated life beyond that night, and I'm …"
+        ],
+        "figures": [],
+        "wordsRead": 471
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike describes pain in first public statement since botched execution",
+        "u": "https://www.washingtonexaminer.com/news/justice/4785800/christa-pike-first-public-statement-after-botched-execution/",
+        "publishedAt": "2026-10-30T14:37:45.000Z",
+        "retrievedAt": "2026-10-30T16:56:53.507Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In a public statement released …"
+        ],
+        "figures": [],
+        "wordsRead": 54
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike says she’s in constant pain after failed Tennessee execution",
+        "u": "https://www.theglobeandmail.com/world/article-christa-pike-says-shes-in-constant-pain-after-failed-tennessee/",
+        "publishedAt": "2026-10-30T15:02:48.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I’m deeply hurt by the incompetence that has put so many people in this terrible position,” she said.",
+          "Lee told reporters this week that, “I suspect her sentence will be the same as before unless determined otherwise by the courts.”",
+          "Christa Pike said Friday that she …"
+        ],
+        "figures": [],
+        "wordsRead": 460
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike describes 'pain in my mind and in my soul' in first statement after failed execution",
+        "u": "https://www.euronews.com/2026/10/30/christa-pike-describes-pain-in-my-mind-and-in-my-soul-in-first-statement-after-failed-exec",
+        "publishedAt": "2026-10-30T14:04:32.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Christa Pike said she has been in constant pain since surviving a lethal injection in Tennessee last month, but remains grateful for the love and support she has received.",
+          "“I suspect her sentence will be the same …"
+        ],
+        "figures": [],
+        "wordsRead": 377
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Christa Pike says she’s in constant pain after failed US execution, slams ‘incompetence’",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3372789/christa-pike-says-shes-constant-pain-after-failed-us-execution-slams-incompetence",
+        "publishedAt": "2026-10-30T15:13:30.000Z",
+        "retrievedAt": "2026-10-30T16:57:40.519Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Christa Pike makes first public comments since failed execution: ‘There is pain in my mind and in my soul’",
+            "url": "https://www.theguardian.com/us-news/2026/oct/30/christa-pike-statement-tennessee-execution"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+            "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Christa Pike says she’s in constant pain after failed Tennessee execution",
+            "url": "https://www.theglobeandmail.com/world/article-christa-pike-says-shes-in-constant-pain-after-failed-tennessee/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "Christa Pike describes 'pain in my mind and in my soul' in first statement after failed execution",
+            "url": "https://www.euronews.com/2026/10/30/christa-pike-describes-pain-in-my-mind-and-in-my-soul-in-first-statement-after-failed-exec"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Christa Pike describes pain in first public statement since botched execution",
+            "url": "https://www.washingtonexaminer.com/news/justice/4785800/christa-pike-first-public-statement-after-botched-execution/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "Christa Pike says she’s in constant pain after failed US execution, slams ‘incompetence’",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3372789/christa-pike-says-shes-constant-pain-after-failed-us-execution-slams-incompetence",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Christa Pike",
+        "Tennessee",
+        "There"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Christa Pike",
+            "Tennessee",
+            "There"
           ]
         },
         {
@@ -1581,7 +2813,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1q6e0gw",
+    "id": "c5jujkd",
     "regions": [
       "Global"
     ],
@@ -1600,64 +2832,24 @@
         ]
       }
     },
-    "firstSeen": "2026-10-28T10:54:10.000Z",
-    "lastSeen": "2026-10-30T00:00:00.000Z",
-    "outletCount": 6,
+    "firstSeen": "2026-10-29T20:00:47.000Z",
+    "lastSeen": "2026-10-31T00:00:00.000Z",
+    "outletCount": 4,
     "outlets": [
-      "NPR",
-      "BBC News",
       "The Daily Caller",
       "Globe and Mail",
-      "Deutsche Welle",
+      "Euronews",
       "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.39503285841664937,
-      "max": 0.5860938329151734,
-      "pairs": 6,
-      "prunedForCohesion": 1
+      "min": 0.36061011365256523,
+      "max": 0.6318096573357718,
+      "pairs": 9,
+      "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
-        "u": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
-        "publishedAt": "2026-10-28T21:46:27.000Z",
-        "retrievedAt": "2026-10-29T17:20:00.700Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-        "u": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-29T14:58:28.000Z",
-        "retrievedAt": "2026-10-29T17:20:02.042Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "However, he had posted a previous version, that was later deleted, in which he wrote: \"I address the Brazilian people and the international community as the rightful president of Brazil.\"",
-          "In the letter, he says it was \"an electoral fraud unfolding before my eyes\".",
-          "His party recognised the election result and while some of its politicians have described Bolsonaro as a \"political …"
-        ],
-        "figures": [
-          {
-            "value": "4.4 million",
-            "context": "Silva, in the run-off on Sunday by a difference of 4.4 million votes, but has not conceded defeat. In the …"
-          }
-        ],
-        "wordsRead": 624
-      },
       {
         "n": "The Daily Caller",
         "b": "right",
@@ -1665,35 +2857,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Flavio Bolsonaro Declares Himself Rightful President Of Brazil, Denounces ‘Tyranny’ After Fleeing To US",
-        "u": "https://dailycaller.com/2026/10/28/flavio-bolsonaro-declares-president-brazil-fled-us",
-        "publishedAt": "2026-10-29T00:39:03.000Z",
-        "retrievedAt": "2026-10-29T17:20:10.711Z",
+        "t": "‘Star Trek’ Star Patrick Stewart Dead At 86",
+        "u": "https://dailycaller.com/2026/10/29/star-trek-x-men-star-patrick-stewart-dead-86-dementia-alzheimers-obituary",
+        "publishedAt": "2026-10-29T20:05:02.000Z",
+        "retrievedAt": "2026-10-30T16:56:58.420Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I want to make this clear: I did not flee Brazil,” he wrote, according to Reuters.",
-          "Flavio Bolsonaro reached Miami on Tuesday, having refused to surrender his passports, according to Reuters.",
-          "Lula won the runoff with 51.79% of the vote …"
+          "Longtime spokesperson Kelly Bush Novak announced that he died at his home in Los Angeles, following “a brief and poignant journey with Alzheimer’s disease and Lewy body …"
         ],
-        "figures": [
-          {
-            "value": "51.79%",
-            "context": "uiz Inacio Lula da Silva. Lula won the runoff with 51.79% of the vote to Bolsonaro’s 48.21%, a gap of …"
-          },
-          {
-            "value": "48.21%",
-            "context": "the runoff with 51.79% of the vote to Bolsonaro’s 48.21%, a gap of about 4.43 million ballots, according t"
-          },
-          {
-            "value": "4.43 million",
-            "context": "of the vote to Bolsonaro’s 48.21%, a gap of about 4.43 million ballots, according to Latin Times. The federal el"
-          },
-          {
-            "value": "0.03%",
-            "context": "uth, Reuters noted. Fewer than 35,000 votes, about 0.03% of the total, came in during the extension, accor"
-          }
-        ],
-        "wordsRead": 406
+        "figures": [],
+        "wordsRead": 273
       },
       {
         "n": "Globe and Mail",
@@ -1702,42 +2875,74 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Defeated presidential candidate Bolsonaro and his family land in Miami after fleeing Brazil",
-        "u": "https://www.theglobeandmail.com/world/article-bolsonaro-flees-brazil-through-argentina-expected-to-land-in-miami/",
-        "publishedAt": "2026-10-28T10:54:10.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "t": "Patrick Stewart, acting great known for Star Trek and X-Men, dies at 86",
+        "u": "https://www.theglobeandmail.com/world/article-patrick-stewart-obituary-actor/",
+        "publishedAt": "2026-10-29T20:00:47.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I want to tell not only my 60 million voters but also the Brazilian people as a whole that I am the president-elect, and that the criminals who stole Brazil’s …",
-          "“I regret that he left Brazil, because he could have stayed here and proven that the accusations are not true,” he said.",
-          "Bolsonaro left for Argentina on Tuesday with his wife and two daughters, then travelled to Ecuador, according to Argentine officials and flight data."
+          "Stewart died Wednesday in Los Angeles, following “a brief and poignant journey” with Alzheimer’s disease and Lewy Body Dementia, spokesperson Kelly Bush Novak said.",
+          "“Nearly 50 years I’ve waited,” Stewart told The Associated Press in 2008.",
+          "The Times of London said his Macbeth was “an enthralling creation of frailty, appetite, egotism and grim humour.”"
         ],
-        "figures": [
-          {
-            "value": "60 million",
-            "context": "e Lula-Alckmin ticket. “I want to tell not only my 60 million voters but also the Brazilian people as a …"
-          }
-        ],
-        "wordsRead": 918
+        "figures": [],
+        "wordsRead": 1035
       },
       {
-        "n": "Deutsche Welle",
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
-        "u": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-10-28T22:26:00.000Z",
-        "retrievedAt": "2026-10-29T17:20:31.427Z",
+        "t": "Patrick Stewart, legendary actor known for Star Trek and X-Men, dies at 86",
+        "u": "https://www.theglobeandmail.com/culture/film-and-tv/video-patrick-stewart-legendary-actor-known-for-star-trek-and-x-men-dies-at/",
+        "publishedAt": "2026-10-30T00:17:17.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"I want to say, not only to my 60 million voters but to the Brazilian people, that I am the leader and that the criminals who stole Brazil’s election are …",
-          "On Monday, he had said in an Instagram post that he had no intention of leaving the country and that he would \"hand over my passports and defend myself against …"
+          "Patrick Stewart, the classically …"
         ],
         "figures": [],
-        "wordsRead": 616
+        "wordsRead": 48
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US: flowers laid at Patrick Stewart's Hollywood star after his death",
+        "u": "https://www.euronews.com/video/2026/10/30/us-flowers-laid-at-patrick-stewarts-hollywood-star-after-his-death",
+        "publishedAt": "2026-10-30T10:21:59.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Stewart died at his Los Angeles home on Wednesday, aged 86 , with his wife Sunny Ozell beside …"
+        ],
+        "figures": [],
+        "wordsRead": 188
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "‘Godspeed, Captain’: Heartfelt tributes pour in for Sir Patrick Stewart",
+        "u": "https://www.euronews.com/2026/10/30/godspeed-captain-heartfelt-tributes-pour-in-for-sir-patrick-stewart",
+        "publishedAt": "2026-10-30T08:16:56.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Rebecca Romijn, who played Mystique in X-Men said: \"I feel so grateful to have known him for the last 25 years, and to have been in his orbit.\"",
+          "A captain unlike any other,\" the account says, adding: \"Sir Patrick Stewart gave generations of fans an icon who inspired us to look toward the stars.",
+          "In a post on Instagram, he wrote: \"We lost one of the greats of stage and screen today.\""
+        ],
+        "figures": [],
+        "wordsRead": 1143
       },
       {
         "n": "Taipei Times",
@@ -1746,36 +2951,26 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Bolsonaro says he is Brazil’s true leader",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/30/2003866880",
-        "publishedAt": "2026-10-30T00:00:00.000Z",
-        "retrievedAt": "2026-10-29T17:20:55.142Z",
+        "t": "‘Star Trek,’ Shakespeare actor Patrick Stewart dies",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866930",
+        "publishedAt": "2026-10-31T00:00:00.000Z",
+        "retrievedAt": "2026-10-30T16:57:43.289Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I am the elected president and the criminals who stole Brazil’s election are part of a criminal organization that has established a tyranny,” Bolsonaro wrote on X, slamming “electoral fraud.”",
-          "“A person who sneaks out of their country must have something to hide,” he said in Brasilia during his 81st birthday celebration on Tuesday.",
-          "“The Liberal Party cannot make that claim,” he said."
+          "Stewart died on Wednesday in Los Angeles, following “a brief and poignant journey” with Alzheimer’s disease and Lewy body dementia, spokesperson Kelly Bush Novak said.",
+          "“We lost one of the greats of stage and screen today,” Hugh Jackman, a frequent Stewart costar in the X-Men universe, said on social media.",
+          "The Times of London said his Macbeth was “an enthralling creation of frailty, appetite, egotism and grim humor.”"
         ],
         "figures": [],
-        "wordsRead": 841
+        "wordsRead": 1225
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
-            "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -1783,31 +2978,40 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
             "lean": "centre",
-            "country": "UK",
+            "country": "CA",
             "evidenceIndex": 1,
-            "headline": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-            "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss"
+            "headline": "Patrick Stewart, acting great known for Star Trek and X-Men, dies at 86",
+            "url": "https://www.theglobeandmail.com/world/article-patrick-stewart-obituary-actor/"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 3,
-            "headline": "Defeated presidential candidate Bolsonaro and his family land in Miami after fleeing Brazil",
-            "url": "https://www.theglobeandmail.com/world/article-bolsonaro-flees-brazil-through-argentina-expected-to-land-in-miami/"
+            "evidenceIndex": 2,
+            "headline": "Patrick Stewart, legendary actor known for Star Trek and X-Men, dies at 86",
+            "url": "https://www.theglobeandmail.com/culture/film-and-tv/video-patrick-stewart-legendary-actor-known-for-star-trek-and-x-men-dies-at/"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "DE",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "US: flowers laid at Patrick Stewart's Hollywood star after his death",
+            "url": "https://www.euronews.com/video/2026/10/30/us-flowers-laid-at-patrick-stewarts-hollywood-star-after-his-death"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
             "evidenceIndex": 4,
-            "headline": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
-            "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-world-4025-rdf"
+            "headline": "‘Godspeed, Captain’: Heartfelt tributes pour in for Sir Patrick Stewart",
+            "url": "https://www.euronews.com/2026/10/30/godspeed-captain-heartfelt-tributes-pour-in-for-sir-patrick-stewart"
           }
         ],
         "status": "sourced",
@@ -1822,9 +3026,9 @@
             "outletId": "dailycaller",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Flavio Bolsonaro Declares Himself Rightful President Of Brazil, Denounces ‘Tyranny’ After Fleeing To US",
-            "url": "https://dailycaller.com/2026/10/28/flavio-bolsonaro-declares-president-brazil-fled-us"
+            "evidenceIndex": 0,
+            "headline": "‘Star Trek’ Star Patrick Stewart Dead At 86",
+            "url": "https://dailycaller.com/2026/10/29/star-trek-x-men-star-patrick-stewart-dead-86-dementia-alzheimers-obituary"
           }
         ],
         "status": "sourced",
@@ -1842,20 +3046,20 @@
         "lean": "pro_sovereignty",
         "country": "TW",
         "evidenceIndex": 5,
-        "headline": "Bolsonaro says he is Brazil’s true leader",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/30/2003866880",
+        "headline": "‘Star Trek,’ Shakespeare actor Patrick Stewart dies",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866930",
         "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Brazil",
-        "Bolsonaro",
-        "Flavio Bolsonaro",
-        "Miami",
-        "Flavio Bolsonaro Declares Himself",
-        "Rightful President Of Brazil"
+        "Star Trek",
+        "Patrick Stewart",
+        "X-Men",
+        "Patrick Stewart's Hollywood",
+        "Star Patrick Stewart Dead",
+        "Sir Patrick Stewart"
       ],
       "attempts": [
         {
@@ -1864,12 +3068,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Brazil",
-            "Bolsonaro",
-            "Flavio Bolsonaro",
-            "Miami",
-            "Flavio Bolsonaro Declares Himself",
-            "Rightful President Of Brazil"
+            "Star Trek",
+            "Patrick Stewart",
+            "X-Men",
+            "Patrick Stewart's Hollywood",
+            "Star Patrick Stewart Dead",
+            "Sir Patrick Stewart"
           ]
         },
         {
@@ -1949,7 +3153,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ch741dn",
+    "id": "c1yr1pvx",
     "regions": [
       "Global"
     ],
@@ -1957,68 +3161,53 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-28T23:41:49.000Z",
-    "lastSeen": "2026-10-29T13:26:38.000Z",
+    "firstSeen": "2026-10-30T13:49:20.000Z",
+    "lastSeen": "2026-10-30T14:48:22.000Z",
     "outletCount": 4,
     "outlets": [
-      "Guardian US",
-      "The Daily Caller",
+      "BBC News",
       "Globe and Mail",
-      "Al Jazeera"
+      "Euronews",
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3682812145509586,
-      "max": 0.5478645313544505,
+      "min": 0.4399669576511643,
+      "max": 0.5893363643192174,
       "pairs": 4,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
+        "n": "BBC News",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Cruise residents stranded in Cambodia after fuel crisis halts operations – video",
-        "u": "https://www.theguardian.com/travel/video/2026/oct/29/cruise-residents-stranded-in-cambodia-after-fuel-crisis-halts-operations-video",
-        "publishedAt": "2026-10-29T12:35:29.000Z",
-        "retrievedAt": "2026-10-29T17:19:58.396Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Cruise Ship Strands 200 Passengers In Cambodia, Citing Fuel Costs",
-        "u": "https://dailycaller.com/2026/10/28/villa-vie-odyssey-strands-passengers-cambodia-fuel-costs",
-        "publishedAt": "2026-10-28T23:41:49.000Z",
-        "retrievedAt": "2026-10-29T17:20:10.711Z",
+        "t": "Pope Leo XIV becomes first pontiff to vote in a US election",
+        "u": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T14:48:22.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“For less than the price of an average home, you can secure a lifetime of experiences,” founder Mikael Petterson said in 2024, according to Fox Business.",
-          "“The sudden order to disembark has left many retirees and remote …"
+          "\"The Holy Father expresses his belief in the right and the duty of citizens to participate in democratic processes,\" the Holy See Press Office said in a statement.",
+          "\"Pope Leo XIV has exercised his right to vote as a United States citizen, whenever he was …"
         ],
-        "figures": [
-          {
-            "value": "$120,000",
-            "context": "Lynn Montoya told the AP. Carol Larson, who paid $120,000 for her cabin, voiced no regrets about the investm"
-          }
-        ],
-        "wordsRead": 371
+        "figures": [],
+        "wordsRead": 455
       },
       {
         "n": "Globe and Mail",
@@ -2027,47 +3216,48 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Passengers stranded after cruise ship forced to suspend global voyage due to soaring fuel prices",
-        "u": "https://www.theglobeandmail.com/world/article-cruise-ship-suspends-global-voyage-fuel-costs/",
-        "publishedAt": "2026-10-29T12:49:50.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
+        "t": "Pope Leo becomes first pope to vote in U.S. general election",
+        "u": "https://www.theglobeandmail.com/world/article-pope-leo-becomes-first-pope-to-vote-in-us-general-election/",
+        "publishedAt": "2026-10-30T13:49:20.000Z",
+        "retrievedAt": "2026-10-30T16:56:59.997Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Its operator had offered to “make the Odyssey your permanent home,” with the purchase price of a suite for the lifetime of the vessel starting around US$230,000.",
-          "“We have been unable to continue carrying the resulting operating losses,” Villa Vie Residences said in a statement issued Tuesday.",
-          "“The company is working with residents to co-ordinate disembarkation and identify temporary living arrangements,” it said."
+          "Leo, formerly Robert Prevost, “has exercised his right to vote as a United States citizen” and has done so “whenever he was eligible to do so,” the Holy See press …",
+          "Responding to Trump’s public rebuke, Leo told reporters en route to Algeria: “I’m not afraid of the Trump administration or …"
         ],
-        "figures": [
-          {
-            "value": "US$230,000",
-            "context": "te for the lifetime of the vessel starting around US$230,000. For now, it is docked at the Cambodian port of …"
-          },
-          {
-            "value": "US$1,800",
-            "context": "uel expenses per cabin that historically averaged US$1,800 have reached an estimated US$6,000 to US$8,000 in"
-          },
-          {
-            "value": "US$6,000",
-            "context": "cally averaged US$1,800 have reached an estimated US$6,000 to US$8,000 in parts of Asia due to the war in Ira"
-          },
-          {
-            "value": "US$8,000",
-            "context": "ed US$1,800 have reached an estimated US$6,000 to US$8,000 in parts of Asia due to the war in Iran. The …"
-          }
-        ],
-        "wordsRead": 991
+        "figures": [],
+        "wordsRead": 518
       },
       {
-        "n": "Al Jazeera",
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Pope Leo XIV has voted in US midterm elections, Vatican says",
+        "u": "https://www.euronews.com/2026/10/30/pope-leo-xiv-has-voted-in-us-midterm-elections-vatican-says",
+        "publishedAt": "2026-10-30T13:59:38.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Vatican Press Office said in a statement that Chicago-born Leo had \"exercised his right to vote as a United States citizen.\"",
+          "\"The Holy Father has also confirmed that, during …"
+        ],
+        "figures": [],
+        "wordsRead": 303
+      },
+      {
+        "n": "South China Morning Post",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Rising fuel costs force passengers off cruise ship",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/10/29/rising-fuel-costs-force-passengers-off-cruise-ship?traffic_source=rss",
-        "publishedAt": "2026-10-29T13:26:38.000Z",
-        "retrievedAt": "2026-10-29T17:20:45.338Z",
+        "t": "Pope Leo becomes first pope ever to vote in US election, submits mail-in ballot",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
+        "publishedAt": "2026-10-30T14:02:26.000Z",
+        "retrievedAt": "2026-10-30T16:57:40.519Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -2075,330 +3265,8 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Cruise residents stranded in Cambodia after fuel crisis halts operations – video",
-            "url": "https://www.theguardian.com/travel/video/2026/oct/29/cruise-residents-stranded-in-cambodia-after-fuel-crisis-halts-operations-video"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Passengers stranded after cruise ship forced to suspend global voyage due to soaring fuel prices",
-            "url": "https://www.theglobeandmail.com/world/article-cruise-ship-suspends-global-voyage-fuel-costs/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Cruise Ship Strands 200 Passengers In Cambodia, Citing Fuel Costs",
-            "url": "https://dailycaller.com/2026/10/28/villa-vie-odyssey-strands-passengers-cambodia-fuel-costs"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Rising fuel costs force passengers off cruise ship",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/rising-fuel-costs-force-passengers-off-cruise-ship?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Passengers In Cambodia",
-        "Cruise Ship Strands",
-        "Citing Fuel Costs",
-        "Passengers",
-        "Cambodia",
-        "Cruise"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Passengers In Cambodia",
-            "Cruise Ship Strands",
-            "Citing Fuel Costs",
-            "Passengers",
-            "Cambodia",
-            "Cruise"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1isxten",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-29T13:10:39.000Z",
-    "lastSeen": "2026-10-29T16:44:08.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "Guardian US",
-      "BBC News",
-      "Washington Examiner",
-      "The Daily Caller"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.37263445091863856,
-      "max": 0.5549448094877881,
-      "pairs": 4,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alaska Senate race: what to know about Democrats’ alleged ballot-stacking effort",
-        "u": "https://www.theguardian.com/us-news/2026/oct/29/alaska-senate-race-ballot-stacking-allegation-explained",
-        "publishedAt": "2026-10-29T16:44:08.000Z",
-        "retrievedAt": "2026-10-29T17:19:58.396Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Lisa Murkowski, a Republican Alaska senator, denounced ballot stacking and said the report revealed “a pattern of lies and coverups and a culture of deception”.",
-          "Though Peltola’s campaign denied encouraging or soliciting a man named Dan J Sullivan to run, a recent New York Times report indicated Peltola’s campaign did recruit him.",
-          "Trump accused Democrats of …"
-        ],
-        "figures": [],
-        "wordsRead": 564
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alaska governor orders investigation into Democrat Mary Peltola’s Senate campaign",
-        "u": "https://www.theguardian.com/us-news/2026/oct/29/alaska-investigation-mary-peltola-dan-sullivan",
-        "publishedAt": "2026-10-29T13:10:39.000Z",
-        "retrievedAt": "2026-10-29T17:19:58.396Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Governor Mike Dunleavy wrote on social media that he was “directing the department of public safety to investigate whether this scheme violated Alaska’s laws and whether criminal charges or civil …",
-          "But Dunleavy said the report “reveals disturbing new …"
-        ],
-        "figures": [],
-        "wordsRead": 399
-      },
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-        "u": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-10-29T16:26:02.000Z",
-        "retrievedAt": "2026-10-29T17:20:02.042Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The governor's post on X said he would investigate \"whether this scheme violated Alaska's laws\".",
-          "\"I am therefore directing the Department of Public Safety to investigate whether this scheme violated Alaska's laws and whether criminal charges or civil action are warranted,\" he wrote.",
-          "\"It turns out that convincing somebody to run for office is not a crime, even if their name happens to be the same as an incumbent,\" said Justin Levitt, an …"
-        ],
-        "figures": [],
-        "wordsRead": 985
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "House Oversight launches fraud investigation into Alaska Senate race",
-        "u": "https://www.washingtonexaminer.com/news/campaigns/congressional/4784191/house-oversight-launches-fraud-investigation-into-alaska-senate-race/",
-        "publishedAt": "2026-10-29T16:36:08.000Z",
-        "retrievedAt": "2026-10-29T17:20:06.509Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The House Oversight Committee launched an investigation into …"
-        ],
-        "figures": [],
-        "wordsRead": 82
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Alaska Governor Orders Investigation Into Mary Peltola’s Ballot Scheme",
-        "u": "https://dailycaller.com/2026/10/29/alaska-governor-mike-dunleavy-investigation-mary-peltola-ballot-scheme",
-        "publishedAt": "2026-10-29T13:46:32.000Z",
-        "retrievedAt": "2026-10-29T17:20:10.711Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Division of Elections Director Carol Beecher informed Sullivan in an Aug. 26 letter that his declaration of candidacy “was not filed in order to declare an actual good-faith candidacy,” but …",
-          "Dunleavy said he directed the Department of Public Safety to investigate whether the scheme violated Alaska’s laws and if criminal charges are warranted.",
-          "The evidence will determine what happens next,” Dunleavy said on X."
-        ],
-        "figures": [],
-        "wordsRead": 753
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Alaska Senate race: what to know about Democrats’ alleged ballot-stacking effort",
-            "url": "https://www.theguardian.com/us-news/2026/oct/29/alaska-senate-race-ballot-stacking-allegation-explained"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Alaska governor orders investigation into Democrat Mary Peltola’s Senate campaign",
-            "url": "https://www.theguardian.com/us-news/2026/oct/29/alaska-investigation-mary-peltola-dan-sullivan"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -2410,9 +3278,27 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Pope Leo XIV becomes first pontiff to vote in a US election",
+            "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Pope Leo becomes first pope to vote in U.S. general election",
+            "url": "https://www.theglobeandmail.com/world/article-pope-leo-becomes-first-pope-to-vote-in-us-general-election/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
             "evidenceIndex": 2,
-            "headline": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-            "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss"
+            "headline": "Pope Leo XIV has voted in US midterm elections, Vatican says",
+            "url": "https://www.euronews.com/2026/10/30/pope-leo-xiv-has-voted-in-us-midterm-elections-vatican-says"
           }
         ],
         "status": "sourced",
@@ -2421,44 +3307,34 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "House Oversight launches fraud investigation into Alaska Senate race",
-            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4784191/house-oversight-launches-fraud-investigation-into-alaska-senate-race/"
-          },
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 4,
-            "headline": "Alaska Governor Orders Investigation Into Mary Peltola’s Ballot Scheme",
-            "url": "https://dailycaller.com/2026/10/29/alaska-governor-mike-dunleavy-investigation-mary-peltola-ballot-scheme"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Pope Leo becomes first pope ever to vote in US election, submits mail-in ballot",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Alaska Senate",
-        "Alaska",
-        "Alaska Governor Orders Investigation",
-        "Democrat Mary Peltola",
-        "Into Mary Peltola",
-        "House Oversight"
+        "Pope Leo XIV",
+        "Pope Leo",
+        "Vatican"
       ],
       "attempts": [
         {
@@ -2467,12 +3343,9 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Alaska Senate",
-            "Alaska",
-            "Alaska Governor Orders Investigation",
-            "Democrat Mary Peltola",
-            "Into Mary Peltola",
-            "House Oversight"
+            "Pope Leo XIV",
+            "Pope Leo",
+            "Vatican"
           ]
         },
         {
@@ -2552,7 +3425,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c17b1t6w",
+    "id": "cvnzmnk",
     "regions": [
       "Global"
     ],
@@ -2560,31 +3433,52 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 1
+        "Europe": 2
       },
       "matched": {
         "Europe": [
+          "europe",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-29T13:42:46.000Z",
-    "lastSeen": "2026-10-29T16:09:42.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-10-30T10:30:07.000Z",
+    "lastSeen": "2026-10-31T00:00:00.000Z",
+    "outletCount": 4,
     "outlets": [
+      "BBC News",
       "Euronews",
-      "Middle East Eye",
-      "Arab News"
+      "South China Morning Post",
+      "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3801987975984806,
-      "max": 0.8037271004309768,
-      "pairs": 2,
+      "min": 0.36162920645461155,
+      "max": 0.49280222610248414,
+      "pairs": 5,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "China denies allegations of spy operation targeting Nvidia CEO",
+        "u": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-10-30T12:20:04.000Z",
+        "retrievedAt": "2026-10-30T16:56:49.012Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "At a regular briefing on Friday, Chinese foreign ministry spokesman Guo Jiakun said: \"The report in question is based on groundless speculation and is nothing more than an attempt to …",
+          "In response to the allegations made by the Times, John Rizzo, a spokesman for Nvidia, said: \"Jensen's interactions with Ms …"
+        ],
+        "figures": [],
+        "wordsRead": 512
+      },
       {
         "n": "Euronews",
         "b": "centre",
@@ -2592,272 +3486,37 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Palestinian President Abbas signals readiness for talks with Israel, seeks Cyprus mediation",
-        "u": "https://www.euronews.com/2026/10/29/palestinian-president-abbas-signals-readiness-for-talks-with-israel-seeks-cyprus-mediation",
-        "publishedAt": "2026-10-29T16:09:42.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
+        "t": "Nvidia CEO sees Kazakhstan as potential AI hub for Europe",
+        "u": "https://www.euronews.com/2026/10/30/nvidia-ceo-sees-kazakhstan-as-potential-ai-hub-for-europe",
+        "publishedAt": "2026-10-30T14:29:33.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"For many years now, we have been extending a hand to the Israeli side in order to achieve peace with them, so that Israel and Palestine may …"
+          "“In the future, you will have your own electric grid, your own internet, your own telecommunications and your own intelligence grid,” Huang said.",
+          "“Physical AI is not just robotics,” Huang said.",
+          "“The first thing and the last thing is you invest in people, not companies,” Huang said, describing Higgsfield's founders as “visionary” and capable of competing with leading AI companies globally."
         ],
         "figures": [],
-        "wordsRead": 274
+        "wordsRead": 749
       },
       {
-        "n": "Middle East Eye",
-        "b": "left",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Palestinian president says he hopes for peace talks with new Israeli government",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-president-says-hopes-peace-talks-new-israeli-government",
-        "publishedAt": "2026-10-29T15:32:03.000Z",
-        "retrievedAt": "2026-10-29T17:20:46.768Z",
+        "t": "China rejects report of spy plot targeting Nvidia's Jensen Huang",
+        "u": "https://www.euronews.com/2026/10/30/china-rejects-report-of-spy-plot-targeting-nvidias-jensen-huang",
+        "publishedAt": "2026-10-30T12:14:31.000Z",
+        "retrievedAt": "2026-10-30T16:57:14.715Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"For many years now, we have been extending a hand …"
+          "\"Our regional cloud customers receive ordinary business information - not sensitive NVIDIA trade secrets - and zero information relevant to national security,\" a spokesperson for Nvidia told the AFP news …",
+          "Addressing the report in a briefing on …"
         ],
         "figures": [],
-        "wordsRead": 102
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Palestinian president says hopes for peace talks with new Israeli government",
-        "u": "https://www.arabnews.com/middle-east/palestinian-president-says-hopes-for-peace-talks-with-new-israeli-government-3008861",
-        "publishedAt": "2026-10-29T13:42:46.000Z",
-        "retrievedAt": "2026-10-29T17:20:48.107Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“For many years now, we have been extending a hand to the Israeli side in order to achieve peace with them, so that Israel and Palestine …"
-        ],
-        "figures": [],
-        "wordsRead": 266
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 1,
-            "headline": "Palestinian president says he hopes for peace talks with new Israeli government",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-president-says-hopes-peace-talks-new-israeli-government"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "Palestinian President Abbas signals readiness for talks with Israel, seeks Cyprus mediation",
-            "url": "https://www.euronews.com/2026/10/29/palestinian-president-abbas-signals-readiness-for-talks-with-israel-seeks-cyprus-mediation"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Palestinian president says hopes for peace talks with new Israeli government",
-        "url": "https://www.arabnews.com/middle-east/palestinian-president-says-hopes-for-peace-talks-with-new-israeli-government-3008861",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Palestinian",
-        "Israeli",
-        "Palestinian President Abbas",
-        "Israel",
-        "Cyprus"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c6lhe66",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {}
-    },
-    "firstSeen": "2026-10-29T07:51:07.000Z",
-    "lastSeen": "2026-10-29T12:36:43.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Al Jazeera",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.5308474200246436,
-      "max": 0.8013647658332195,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "South Korean prosecutors press for death sentence in Yoon martial law case",
-        "u": "https://www.aljazeera.com/news/2026/10/29/south-korean-prosecutors-press-for-death-sentence-in-yoon-martial-law-case?traffic_source=rss",
-        "publishedAt": "2026-10-29T12:36:43.000Z",
-        "retrievedAt": "2026-10-29T17:20:45.338Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Speaking at the Seoul High Court on October 27, Yoon also denied seeking to establish a long-term dictatorship, according to the Hankyoreh newspaper.",
-          "At Thursday’s hearing at the Seoul High …"
-        ],
-        "figures": [],
-        "wordsRead": 309
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "South Korean prosecutor seeks death penalty for ex-President Yoon over martial law debacle",
-        "u": "https://www.arabnews.com/world/south-korean-prosecutor-seeks-death-penalty-for-ex-president-yoon-over-martial-law-debacle-3008804",
-        "publishedAt": "2026-10-29T07:51:07.000Z",
-        "retrievedAt": "2026-10-29T17:20:48.107Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Yoon’s legal team told reporters that prosecutors were repeating an argument “devoid of evidence and legal logic” and claimed that Yoon’s martial law was intended to raise public awareness about …",
-          "Yoon’s martial law decree, announced late at night on …"
-        ],
-        "figures": [],
-        "wordsRead": 409
+        "wordsRead": 386
       },
       {
         "n": "South China Morning Post",
@@ -2866,264 +3525,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "South Korean prosecutor seeks death penalty for Yoon over martial law",
-        "u": "https://www.scmp.com/news/asia/east-asia/article/3372576/south-korean-prosecutor-seeks-death-penalty-yoon-over-martial-law",
-        "publishedAt": "2026-10-29T08:43:41.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 0 of 3 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "South Korean prosecutors press for death sentence in Yoon martial law case",
-        "url": "https://www.aljazeera.com/news/2026/10/29/south-korean-prosecutors-press-for-death-sentence-in-yoon-martial-law-case?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "South Korean prosecutor seeks death penalty for ex-President Yoon over martial law debacle",
-        "url": "https://www.arabnews.com/world/south-korean-prosecutor-seeks-death-penalty-for-ex-president-yoon-over-martial-law-debacle-3008804",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "South Korean prosecutor seeks death penalty for Yoon over martial law",
-        "url": "https://www.scmp.com/news/asia/east-asia/article/3372576/south-korean-prosecutor-seeks-death-penalty-yoon-over-martial-law",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "South Korean",
-        "Yoon",
-        "President Yoon"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1yfl21y",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {}
-    },
-    "firstSeen": "2026-10-29T06:40:49.000Z",
-    "lastSeen": "2026-10-30T00:00:00.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "South China Morning Post",
-      "Taipei Times",
-      "Nikkei Asia"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.38247579950989885,
-      "max": 0.5101427577645719,
-      "pairs": 6,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hong Kong’s John Lee apologises for Tai Po fire, unveils reforms as housing chief resigns",
-        "u": "https://www.scmp.com/news/hong-kong/society/article/3372634/hong-kongs-john-lee-apologises-tai-po-fire-unveils-reforms-housing-chief-resigns",
-        "publishedAt": "2026-10-29T16:08:24.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
+        "t": "China dismisses US report of suspected spy targeting Nvidia CEO Jensen Huang as ‘groundless’",
+        "u": "https://www.scmp.com/tech/tech-war/article/3372743/china-dismisses-us-report-suspected-spy-targeting-nvidia-ceo-jensen-huang-groundless",
+        "publishedAt": "2026-10-30T10:30:07.000Z",
+        "retrievedAt": "2026-10-30T16:57:40.519Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“It has caused pain and sorrow to the affected families …"
+          "“The relevant report is based on groundless speculation and [is] purely …"
         ],
         "figures": [],
-        "wordsRead": 104
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hong Kong housing chief quits over Tai Po fire, accepts political responsibility",
-        "u": "https://www.scmp.com/news/hong-kong/society/article/3372620/hong-kong-housing-chief-quits-over-tai-po-fire-accepts-political-responsibility",
-        "publishedAt": "2026-10-29T13:45:18.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Winnie Ho Wing-yin said on Thursday that she submitted her resignation …"
-        ],
-        "figures": [],
-        "wordsRead": 115
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hong Kong to replace disgraced housing unit over deadly Tai Po fire",
-        "u": "https://www.scmp.com/news/hong-kong/society/article/3372616/hong-kong-replace-disgraced-housing-unit-over-deadly-tai-po-fire",
-        "publishedAt": "2026-10-29T13:04:36.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Chief Executive John Lee Ka-chiu said on Thursday that the Housing Bureau would undergo …"
-        ],
-        "figures": [],
-        "wordsRead": 148
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Housing chief Winnie Ho resigns, government admits ‘decades of failure’ led to Tai Po fire – as it happened",
-        "u": "https://www.scmp.com/news/hong-kong/society/article/3372542/tai-po-fire-inquiry-hard-hitting-report-tragedy-set-be-released",
-        "publishedAt": "2026-10-29T06:40:49.000Z",
-        "retrievedAt": "2026-10-29T17:20:52.507Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Sources earlier said that at least one senior official would take the rap for the tragedy as part of a set of “bold, comprehensive and …"
-        ],
-        "figures": [],
-        "wordsRead": 255
+        "wordsRead": 111
       },
       {
         "n": "Taipei Times",
@@ -3132,36 +3543,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "HK housing chief quits after fire probe",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/30/2003866879",
-        "publishedAt": "2026-10-30T00:00:00.000Z",
-        "retrievedAt": "2026-10-29T17:20:55.142Z",
+        "t": "Beijing denies spying on Nvidia CEO Jensen Huang",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866928",
+        "publishedAt": "2026-10-31T00:00:00.000Z",
+        "retrievedAt": "2026-10-30T16:57:43.289Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Lee said that Hong Kong Secretary of Housing Winnie Ho (何永賢) “should bear political responsibility,” although no personal wrongdoing was found.",
-          "“There is no doubt that they are the main culprits responsible for the occurrence of the inferno and the high fatalities in the tragic incident,” the report said.",
-          "“However ... deception succeeded because the regulators’ own practices enabled it,” the report said."
+          "“The report in question is based on groundless speculation and is nothing more than an attempt to smear China,” Chinese Ministry of Foreign Affairs spokesman Guo Jiakun (郭嘉昆) told a …",
+          "An Nvidia spokesperson yesterday said that Megaspeed was like any other regional customer and “Jensen’s interactions with Ms Huang are not unusual or unexpected.”",
+          "Some users also experienced a white patch or other display malfunction on the right side of the screen."
         ],
         "figures": [],
-        "wordsRead": 996
-      },
-      {
-        "n": "Nikkei Asia",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hong Kong government apologizes for deadly fire as housing chief resigns",
-        "u": "https://asia.nikkei.com/economy/fires/hong-kong-government-apologizes-for-deadly-fire-as-housing-chief-resigns",
-        "publishedAt": null,
-        "retrievedAt": "2026-10-29T17:20:56.433Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "HONG KONG -- Hong …"
-        ],
-        "figures": [],
-        "wordsRead": 40
+        "wordsRead": 765
       }
     ],
     "views": [
@@ -3177,13 +3570,31 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 5,
-            "headline": "Hong Kong government apologizes for deadly fire as housing chief resigns",
-            "url": "https://asia.nikkei.com/economy/fires/hong-kong-government-apologizes-for-deadly-fire-as-housing-chief-resigns"
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "China denies allegations of spy operation targeting Nvidia CEO",
+            "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Nvidia CEO sees Kazakhstan as potential AI hub for Europe",
+            "url": "https://www.euronews.com/2026/10/30/nvidia-ceo-sees-kazakhstan-as-potential-ai-hub-for-europe"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "China rejects report of spy plot targeting Nvidia's Jensen Huang",
+            "url": "https://www.euronews.com/2026/10/30/china-rejects-report-of-spy-plot-targeting-nvidias-jensen-huang"
           }
         ],
         "status": "sourced",
@@ -3200,7 +3611,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 6 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
@@ -3208,39 +3619,9 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 0,
-        "headline": "Hong Kong’s John Lee apologises for Tai Po fire, unveils reforms as housing chief resigns",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3372634/hong-kongs-john-lee-apologises-tai-po-fire-unveils-reforms-housing-chief-resigns",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 1,
-        "headline": "Hong Kong housing chief quits over Tai Po fire, accepts political responsibility",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3372620/hong-kong-housing-chief-quits-over-tai-po-fire-accepts-political-responsibility",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Hong Kong to replace disgraced housing unit over deadly Tai Po fire",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3372616/hong-kong-replace-disgraced-housing-unit-over-deadly-tai-po-fire",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
         "evidenceIndex": 3,
-        "headline": "Housing chief Winnie Ho resigns, government admits ‘decades of failure’ led to Tai Po fire – as it happened",
-        "url": "https://www.scmp.com/news/hong-kong/society/article/3372542/tai-po-fire-inquiry-hard-hitting-report-tragedy-set-be-released",
+        "headline": "China dismisses US report of suspected spy targeting Nvidia CEO Jensen Huang as ‘groundless’",
+        "url": "https://www.scmp.com/tech/tech-war/article/3372743/china-dismisses-us-report-suspected-spy-targeting-nvidia-ceo-jensen-huang-groundless",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -3249,265 +3630,20 @@
         "lean": "pro_sovereignty",
         "country": "TW",
         "evidenceIndex": 4,
-        "headline": "HK housing chief quits after fire probe",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/30/2003866879",
+        "headline": "Beijing denies spying on Nvidia CEO Jensen Huang",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/10/31/2003866928",
         "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Hong Kong",
-        "Tai Po",
-        "Winnie Ho",
-        "John Lee",
-        "Housing"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c160ubza",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 4
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "serbia",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-27T12:15:46.000Z",
-    "lastSeen": "2026-10-29T13:46:45.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Fox News",
-      "Globe and Mail",
-      "Euronews"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3835280510014144,
-      "max": 0.41578307173950674,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Serbia’s student movement topples Vucic’s party after 14 years, but political agenda remains unclear",
-        "u": "https://www.foxnews.com/world/serbias-student-movement-topples-vucics-party-after-14-years-political-agenda-remains-unclear",
-        "publishedAt": "2026-10-27T17:59:28.000Z",
-        "retrievedAt": "2026-10-29T17:20:07.810Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"The ultimate goal is to build a system in which institutions function in the interests of all citizens,\" Jevtic said.",
-          "Turnout reached 69 %, the highest this century, with more than 4.4 million people casting their ballots, according to Rasa Nedeljkov, head of the CRTA Election Observation Mission.",
-          "Sen Dan Sullivan urges voters not to 'waste their vote,' calls '2 Dan Sullivans' controversy 'corruption at highest level'"
-        ],
-        "figures": [],
-        "wordsRead": 1084
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Thousands celebrate student movement election victory in Serbia",
-        "u": "https://www.theglobeandmail.com/world/video-thousands-celebrate-student-movement-election-victory-in-serbia/",
-        "publishedAt": "2026-10-27T12:15:46.000Z",
-        "retrievedAt": "2026-10-29T17:20:12.450Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Thousands turned out to celebrate in …"
-        ],
-        "figures": [],
-        "wordsRead": 62
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "After the victory: The foreign policy and governing challenges facing Serbia’s student movement",
-        "u": "https://www.euronews.com/2026/10/29/after-the-victory-the-foreign-policy-and-governing-challenges-facing-serbias-student-movem",
-        "publishedAt": "2026-10-29T13:46:45.000Z",
-        "retrievedAt": "2026-10-29T17:20:25.896Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“As we stated in our programme, the Students’ List does not advocate imposing sanctions against Russia,” Saičić said.",
-          "“Problems should be resolved through dialogue, negotiations and agreements, not sanctions,” Saičić said.",
-          "Marta Kos said that “Serbia will not be able to make significant progress towards EU accession unless it aligns its foreign and security policy with Brussels, including its position on …"
-        ],
-        "figures": [],
-        "wordsRead": 2810
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Thousands celebrate student movement election victory in Serbia",
-            "url": "https://www.theglobeandmail.com/world/video-thousands-celebrate-student-movement-election-victory-in-serbia/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "After the victory: The foreign policy and governing challenges facing Serbia’s student movement",
-            "url": "https://www.euronews.com/2026/10/29/after-the-victory-the-foreign-policy-and-governing-challenges-facing-serbias-student-movem"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Serbia’s student movement topples Vucic’s party after 14 years, but political agenda remains unclear",
-            "url": "https://www.foxnews.com/world/serbias-student-movement-topples-vucics-party-after-14-years-political-agenda-remains-unclear"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Serbia",
-        "Thousands",
-        "Vucic",
-        "After"
+        "China",
+        "Nvidia CEO Jensen Huang",
+        "Nvidia CEO",
+        "Nvidia's Jensen Huang",
+        "Kazakhstan",
+        "Beijing"
       ],
       "attempts": [
         {
@@ -3516,10 +3652,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Serbia",
-            "Thousands",
-            "Vucic",
-            "After"
+            "China",
+            "Nvidia CEO Jensen Huang",
+            "Nvidia CEO",
+            "Nvidia's Jensen Huang",
+            "Kazakhstan",
+            "Beijing"
           ]
         },
         {

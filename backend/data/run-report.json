@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-29T17:19:20.679Z",
-  "finishedAt": "2026-10-29T17:26:24.133Z",
+  "startedAt": "2026-10-30T16:56:41.144Z",
+  "finishedAt": "2026-10-30T17:01:13.898Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1044,
-    "totalItems": 1039,
-    "clusters": 943,
+    "rssItems": 1073,
+    "totalItems": 1069,
+    "clusters": 976,
     "candidates": 12,
-    "articlesRead": 44
+    "articlesRead": 43
   },
   "balance": {
     "left": 6,
-    "centre": 11,
-    "right": 7,
-    "none": 1
+    "centre": 10,
+    "right": 4,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,26 @@
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 45
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "33 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"India policy\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -150,19 +151,7 @@
     },
     {
       "layer": "discovery",
-      "source": "Democracy Now!",
-      "id": "democracynow",
-      "url": "https://www.democracynow.org/democracynow.rss",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
@@ -178,32 +167,32 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/travel/video/2026/oct/29/cruise-residents-stranded-in-cambodia-after-fuel-crisis-halts-operations-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3372778/russia-ukraine-truce-oleshky-allows-aid-mission-help-starving-residents",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/rising-fuel-costs-force-passengers-off-cruise-ship?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-ukrainian-humanitarian-officials-enter-oleshky?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3372576/south-korean-prosecutor-seeks-death-penalty-yoon-over-martial-law",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372789/christa-pike-says-shes-constant-pain-after-failed-us-execution-slams-incompetence",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
       "reason": "HTTP 403"
     }
   ]
