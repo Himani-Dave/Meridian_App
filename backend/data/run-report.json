@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-30T16:56:41.144Z",
-  "finishedAt": "2026-10-30T17:01:13.898Z",
+  "startedAt": "2026-10-31T15:57:25.024Z",
+  "finishedAt": "2026-10-31T16:00:57.780Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,46 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1073,
-    "totalItems": 1069,
-    "clusters": 976,
+    "rssItems": 1034,
+    "totalItems": 1033,
+    "clusters": 960,
     "candidates": 12,
-    "articlesRead": 43
+    "articlesRead": 34
   },
   "balance": {
-    "left": 6,
-    "centre": 10,
-    "right": 4,
+    "left": 2,
+    "centre": 11,
+    "right": 5,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 3,
+      "availableInRegion": 3
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 12
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 37
     }
   },
   "starvedSides": [],
   "notes": [
     "GDELT \"India policy\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "25 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,6 +150,13 @@
     },
     {
       "layer": "discovery",
+      "source": "National Post",
+      "id": "natpost",
+      "url": "https://nationalpost.com/feed",
+      "reason": "robots.txt disallows https://nationalpost.com/feed"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: Canada federal",
       "reason": "HTTP 429"
     },
@@ -161,21 +167,27 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
-      "reason": "timeout after 20000ms"
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/10/31/422775/law/gujarat-hc-restores-non-veg-food-ban-near-somnath-mandir-stays-single-judge-ruling/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3372778/russia-ukraine-truce-oleshky-allows-aid-mission-help-starving-residents",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-ukrainian-humanitarian-officials-enter-oleshky?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -186,13 +198,7 @@
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372789/christa-pike-says-shes-constant-pain-after-failed-us-execution-slams-incompetence",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
+      "url": "https://www.scmp.com/news/world/africa/article/3372849/dr-congo-ebola-deaths-top-5000-cases-recorded-other-african-nations",
       "reason": "HTTP 403"
     }
   ]
