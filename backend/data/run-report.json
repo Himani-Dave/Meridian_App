@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-31T15:57:25.024Z",
-  "finishedAt": "2026-10-31T16:00:57.780Z",
+  "startedAt": "2026-11-01T17:47:42.484Z",
+  "finishedAt": "2026-11-01T17:51:20.023Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,44 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1034,
-    "totalItems": 1033,
-    "clusters": 960,
+    "rssItems": 980,
+    "totalItems": 978,
+    "clusters": 908,
     "candidates": 12,
-    "articlesRead": 34
+    "articlesRead": 31
   },
   "balance": {
-    "left": 2,
-    "centre": 11,
+    "left": 4,
+    "centre": 6,
     "right": 5,
-    "none": 0
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 3
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 12
+      "availableInRegion": 11
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 37
+      "availableInRegion": 36
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"India policy\": 0 articles, 0 from roster outlets, 0 from outlets not in the roster (discovery only, not ingested).",
-    "25 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -158,36 +157,47 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
+      "reason": "fetch failed"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
+    },
+    {
+      "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/10/illegal-cow-slaughter-gujarat-animal-preservation-amendment-life-imprisonment-punishment-details/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Organiser",
-      "url": "https://organiser.org/2026/10/31/422775/law/gujarat-hc-restores-non-veg-food-ban-near-somnath-mandir-stays-single-judge-ruling/",
+      "url": "https://organiser.org/2026/11/01/423030/bharat/gujarat-court-awards-life-imprisonment-to-three-in-cow-slaughter-case-how-2017-law-made-strict-punishment-possible/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372828/russia-occupied-oleshky-evacuees-arrive-belarus-ukraine-next",
+      "url": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/life/2026-11-01/ty-article-magazine/.premium/a-full-house-for-free-palestine-macklemore-wraps-up-solidarity-tour-in-london/000001a1-96dd-db9a-a1b3-9eff49c60000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
-      "reason": "HTTP 403"
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -197,8 +207,26 @@
     },
     {
       "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/gaza/2026-11-01/ty-article/.premium/report-nine-people-including-a-child-killed-in-israeli-strikes-in-gaza/000001a1-96c1-df63-ade5-f6d76ef20000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3372849/dr-congo-ebola-deaths-top-5000-cases-recorded-other-african-nations",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-us-3009286",
       "reason": "HTTP 403"
     }
   ]
