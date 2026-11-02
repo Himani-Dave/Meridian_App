@@ -1,13 +1,13 @@
 # Feed validation report
 
-Run: 2026-10-26T19:00:10.777Z
-Verified: 39/56
+Run: 2026-11-02T22:04:42.166Z
+Verified: 38/56
 
 ## Balance by lean
 
 - centre: 8/16 verified
 - lean_left: 4/6 verified
-- lean_right: 7/7 verified
+- lean_right: 6/7 verified
 - left: 5/6 verified
 - pro_sovereignty: 1/1 verified
 - right: 9/11 verified
@@ -29,6 +29,8 @@ Verified: 39/56
   - tried: ``
 - **CBC News** (centre) — HTTP 403
   - tried: `https://www.cbc.ca/webfeed/rss/rss-world`
+- **National Post** (lean_right) — HTTP 402
+  - tried: `https://nationalpost.com/feed`
 - **Le Devoir** (lean_left) — HTTP 403
   - tried: `https://www.ledevoir.com/rss/manchettes.xml`
 - **The Wire** (left) — 200 but not a feed (probably an HTML page)
