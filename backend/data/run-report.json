@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-01T17:47:42.484Z",
-  "finishedAt": "2026-11-01T17:51:20.023Z",
+  "startedAt": "2026-11-02T21:34:33.096Z",
+  "finishedAt": "2026-11-02T21:39:16.954Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 980,
-    "totalItems": 978,
-    "clusters": 908,
+    "rssItems": 976,
+    "totalItems": 971,
+    "clusters": 894,
     "candidates": 12,
-    "articlesRead": 31
+    "articlesRead": 35
   },
   "balance": {
-    "left": 4,
-    "centre": 6,
-    "right": 5,
-    "none": 1
+    "left": 6,
+    "centre": 8,
+    "right": 3,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -43,17 +43,17 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 11
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 36
+      "availableInRegion": 48
     }
   },
   "starvedSides": [],
   "notes": [
-    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "36 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
@@ -152,7 +152,7 @@
       "source": "National Post",
       "id": "natpost",
       "url": "https://nationalpost.com/feed",
-      "reason": "robots.txt disallows https://nationalpost.com/feed"
+      "reason": "HTTP 402"
     },
     {
       "layer": "discovery",
@@ -162,71 +162,59 @@
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/10/illegal-cow-slaughter-gujarat-animal-preservation-amendment-life-imprisonment-punishment-details/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/11/01/423030/bharat/gujarat-court-awards-life-imprisonment-to-three-in-cow-slaughter-case-how-2017-law-made-strict-punishment-possible/",
+      "url": "https://www.opindia.com/2026/11/bmc-deletes-dia-mirzas-anti-cracker-video-after-backlash-a-look-at-her-history-of-performative-environmental-activism/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/life/2026-11-01/ty-article-magazine/.premium/a-full-house-for-free-palestine-macklemore-wraps-up-solidarity-tour-in-london/000001a1-96dd-db9a-a1b3-9eff49c60000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/gaza/2026-11-01/ty-article/.premium/report-nine-people-including-a-child-killed-in-israeli-strikes-in-gaza/000001a1-96c1-df63-ade5-f6d76ef20000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/nov/02/why-did-a-democrat-endorse-a-rival-republican-in-michigan-the-latest",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-us-3009286",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/world/video/2026/nov/02/burning-crater-florida-plane-crash-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
       "reason": "HTTP 403"
     }
   ]

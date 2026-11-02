@@ -1,6 +1,6 @@
 [
   {
-    "id": "c1w2ajdf",
+    "id": "chi8y0h",
     "regions": [
       "India",
       "Global"
@@ -8,139 +8,151 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 10,
-        "Europe": 2
+        "India": 8,
+        "Europe": 0
       },
       "matched": {
         "India": [
-          "india",
-          "new delhi",
-          "modi",
-          "delhi"
-        ],
-        "Europe": [
-          "commissioner",
+          "bjp",
+          "mumbai",
+          "indians",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-01T07:00:55.000Z",
-    "lastSeen": "2026-11-01T14:46:03.000Z",
-    "outletCount": 2,
+    "firstSeen": "2026-11-02T11:17:23.000Z",
+    "lastSeen": "2026-11-02T17:25:23.000Z",
+    "outletCount": 3,
     "outlets": [
-      "BBC News",
-      "Al Jazeera"
+      "Scroll.in",
+      "The Hindu",
+      "OpIndia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.4561356172934001,
-      "max": 0.4561356172934001,
-      "pairs": 1,
+      "min": 0.3962627525280843,
+      "max": 0.40280455036294255,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "India's opposition holds mega rally seeking election chief's resignation",
-        "u": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-01T07:00:55.000Z",
-        "retrievedAt": "2026-11-01T17:47:52.102Z",
+        "t": "Mumbai: BMC deletes Dia Mirza video calling for pollution-free Diwali after BJP objection",
+        "u": "https://scroll.in/latest/1096808/mumbai-bmc-deletes-dia-mirza-video-calling-for-pollution-free-diwali-after-bjp-objection?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-02T11:17:23.000Z",
+        "retrievedAt": "2026-11-02T21:34:57.283Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"We don't even know if this is a people's mandate or a stolen mandate,\" Isha, a development sector professional from Delhi, told the BBC.",
-          "Protesters waved flags and chanted \"Save the vote, save the country\" and \"Vote thief, give up power\".",
-          "He described the rally as a \"calculated conspiracy to plunge the nation into anarchy - in the name of democracy\"."
+          "On Sunday, the BJP’s Mumbai unit chief Ameet Satam said on social media: “We don’t need lessons on how to celebrate Diwali from Dia Mirza.”",
+          "Tagging the actor and the BMC in his …"
         ],
         "figures": [],
-        "wordsRead": 874
+        "wordsRead": 333
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "The Hindu",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Photos: Thousands join India’s opposition rally against election chief",
-        "u": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss",
-        "publishedAt": "2026-11-01T14:46:03.000Z",
-        "retrievedAt": "2026-11-01T17:48:35.560Z",
+        "t": "BJP forces BMC to pull down Dia Mirza’s video on eco-friendly Diwali",
+        "u": "https://www.thehindu.com/news/national/maharashtra/bmc-takes-down-actor-dia-mirzas-pollution-free-diwali-video-after-bjp-leaders-objection/article71655835.ece",
+        "publishedAt": "2026-11-02T17:25:23.000Z",
+        "retrievedAt": "2026-11-02T21:34:58.664Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Opposition leaders say the removal of more than 130 million names disproportionately …"
+          "“@mybmc We don’t need lessons on howt o celebrate #Diwali from @deespeak Our traditions are deeply rooted in our culture,” he posted.",
+          "A political controversy erupted in Maharashtra on Monday (November 2, 2026) after the BJP forced the Mumbai municipal corporation administration to pull down a video message recorded by actor Dia …",
+          "Mumbai mayor Ritu Tawde warned the administration on Monday that it should seek her clearance in the …"
         ],
-        "figures": [
-          {
-            "value": "130 million",
-            "context": "s. Opposition leaders say the removal of more than 130 million names disproportionately affected Muslims and oth"
-          }
-        ],
-        "wordsRead": 125
+        "figures": [],
+        "wordsRead": 702
+      },
+      {
+        "n": "OpIndia",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "BMC deletes Dia Mirza’s anti-cracker video after backlash: A look at her history of performative environmental activism and public sermons",
+        "u": "https://www.opindia.com/2026/11/bmc-deletes-dia-mirzas-anti-cracker-video-after-backlash-a-look-at-her-history-of-performative-environmental-activism/",
+        "publishedAt": "2026-11-02T11:32:28.000Z",
+        "retrievedAt": "2026-11-02T21:35:03.634Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
             "evidenceIndex": 0,
-            "headline": "India's opposition holds mega rally seeking election chief's resignation",
-            "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
+            "headline": "Mumbai: BMC deletes Dia Mirza video calling for pollution-free Diwali after BJP objection",
+            "url": "https://scroll.in/latest/1096808/mumbai-bmc-deletes-dia-mirza-video-calling-for-pollution-free-diwali-after-bjp-objection?utm_source=rss&utm_medium=public"
+          },
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "BJP forces BMC to pull down Dia Mirza’s video on eco-friendly Diwali",
+            "url": "https://www.thehindu.com/news/national/maharashtra/bmc-takes-down-actor-dia-mirzas-pollution-free-diwali-video-after-bjp-leaders-objection/article71655835.ece"
           }
         ],
         "status": "sourced",
         "text": null
       },
       {
-        "side": "right",
-        "label": "Right / conservative",
+        "side": "centre",
+        "label": "Centre",
         "outlets": [],
         "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "OpIndia",
+            "outletId": "opindia",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 2,
+            "headline": "BMC deletes Dia Mirza’s anti-cracker video after backlash: A look at her history of performative environmental activism and public sermons",
+            "url": "https://www.opindia.com/2026/11/bmc-deletes-dia-mirzas-anti-cracker-video-after-backlash-a-look-at-her-history-of-performative-environmental-activism/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Photos: Thousands join India’s opposition rally against election chief",
-        "url": "https://www.aljazeera.com/gallery/2026/11/1/photos-indian-opposition-rallies-against-elections-chief?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Thousands",
-        "India's",
-        "Photos",
-        "India"
+        "Dia Mirza",
+        "Diwali",
+        "Mumbai"
       ],
       "attempts": [
         {
@@ -226,7 +238,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1kakhnu",
+    "id": "cq92c5v",
     "regions": [
       "India",
       "Global"
@@ -234,19 +246,19 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 7,
+        "India": 5,
         "Europe": 0
       },
       "matched": {
         "India": [
-          "india",
-          "modi",
+          "bjp",
+          "delhi",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-01T12:44:41.000Z",
-    "lastSeen": "2026-11-01T16:14:45.000Z",
+    "firstSeen": "2026-11-02T07:59:26.000Z",
+    "lastSeen": "2026-11-02T17:31:06.000Z",
     "outletCount": 2,
     "outlets": [
       "Scroll.in",
@@ -255,8 +267,8 @@
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5084173475014323,
-      "max": 0.5084173475014323,
+      "min": 0.4947638447394791,
+      "max": 0.4947638447394791,
       "pairs": 1,
       "prunedForCohesion": 0
     },
@@ -268,18 +280,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "INDIA bloc rally: Rahul Gandhi alleges CEC Gyanesh Kumar helped Modi become PM",
-        "u": "https://scroll.in/latest/1096792/thousands-gather-at-ramlila-maidan-for-india-bloc-rally-demanding-cec-gyanesh-kumars-removal?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-01T12:44:41.000Z",
-        "retrievedAt": "2026-11-01T17:48:07.057Z",
+        "t": "Punjab: Three AAP MLAs join BJP ahead of Assembly polls",
+        "u": "https://scroll.in/latest/1096803/punjab-three-aap-mlas-join-bjp-ahead-of-assembly-polls?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-02T07:59:26.000Z",
+        "retrievedAt": "2026-11-02T21:34:57.283Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“This is not regular chori [theft],” the leader of Opposition in the Lok Sabha said.",
-          "“We didn’t lose, we were made to lose,” she said.",
-          "“BJP wants only its members to be voters and citizens of India,” Yadav said."
+          "“It is a question mark on the party as to why MLAs are leaving despite the government in power with over 90 MLAs.”",
+          "“We welcome all three who joined our party,” he was quoted …"
         ],
         "figures": [],
-        "wordsRead": 691
+        "wordsRead": 342
       },
       {
         "n": "The Hindu",
@@ -288,18 +299,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Gyanesh Kumar will go to jail: Rahul Gandhi",
-        "u": "https://www.thehindu.com/news/national/pm-modi-hm-shah-will-face-legal-action-for-vote-chori-will-not-be-able-to-escape-law-rahul-gandhi/article71652785.ece",
-        "publishedAt": "2026-11-01T16:14:45.000Z",
-        "retrievedAt": "2026-11-01T17:48:08.664Z",
+        "t": "Three AAP leaders join BJP ahead of Punjab Assembly election",
+        "u": "https://www.thehindu.com/news/national/punjab/three-aap-mlas-join-bjp-in-punjab/article71655539.ece",
+        "publishedAt": "2026-11-02T17:31:06.000Z",
+        "retrievedAt": "2026-11-02T21:34:58.664Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Venugopal, without quantifying the number of participants, in a post on X, said, “The scale of today’s uprising has never before been seen in Delhi.”",
-          "Rashtriya Janata Dal leader Tejashwi Yadav, evoking Hindu mythology, said that while Ramlila Maidan is traditionally used to stage the Ramayana, today the Opposition has organised a “Mahabharata for those …",
-          "“The first step to bring the nation back on track is to remove Gyanesh Kumar,” he said."
+          "They both said they were quitting the AAP as it had failed to fulfil the promises it had made ahead of the 2022 Assembly election.",
+          "The Aam Aadmi Party (AAP) on Monday (November 2, 2026) suffered a setback ahead of the Punjab …"
         ],
         "figures": [],
-        "wordsRead": 943
+        "wordsRead": 427
       }
     ],
     "views": [
@@ -313,8 +323,8 @@
             "lean": "left",
             "country": "IN",
             "evidenceIndex": 0,
-            "headline": "INDIA bloc rally: Rahul Gandhi alleges CEC Gyanesh Kumar helped Modi become PM",
-            "url": "https://scroll.in/latest/1096792/thousands-gather-at-ramlila-maidan-for-india-bloc-rally-demanding-cec-gyanesh-kumars-removal?utm_source=rss&utm_medium=public"
+            "headline": "Punjab: Three AAP MLAs join BJP ahead of Assembly polls",
+            "url": "https://scroll.in/latest/1096803/punjab-three-aap-mlas-join-bjp-ahead-of-assembly-polls?utm_source=rss&utm_medium=public"
           },
           {
             "outlet": "The Hindu",
@@ -322,8 +332,8 @@
             "lean": "lean_left",
             "country": "IN",
             "evidenceIndex": 1,
-            "headline": "Gyanesh Kumar will go to jail: Rahul Gandhi",
-            "url": "https://www.thehindu.com/news/national/pm-modi-hm-shah-will-face-legal-action-for-vote-chori-will-not-be-able-to-escape-law-rahul-gandhi/article71652785.ece"
+            "headline": "Three AAP leaders join BJP ahead of Punjab Assembly election",
+            "url": "https://www.thehindu.com/news/national/punjab/three-aap-mlas-join-bjp-in-punjab/article71655539.ece"
           }
         ],
         "status": "sourced",
@@ -353,11 +363,11 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Rahul Gandhi",
-        "CEC Gyanesh Kumar",
-        "Gyanesh Kumar",
-        "INDIA",
-        "Modi"
+        "Punjab Assembly",
+        "Three AAP MLAs",
+        "Three AAP",
+        "Assembly",
+        "Punjab"
       ],
       "attempts": [
         {
@@ -443,7 +453,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1q20xug",
+    "id": "c1nu43w1",
     "regions": [
       "India",
       "Global"
@@ -451,33 +461,52 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 5,
+        "India": 4,
         "Europe": 0
       },
       "matched": {
         "India": [
-          "gujarat",
-          "lakh",
+          "india",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-10-31T05:24:49.000Z",
-    "lastSeen": "2026-11-01T15:10:52.000Z",
+    "firstSeen": "2026-11-02T13:19:42.000Z",
+    "lastSeen": "2026-11-02T13:33:08.000Z",
     "outletCount": 2,
     "outlets": [
-      "OpIndia",
-      "Organiser"
+      "Scroll.in",
+      "OpIndia"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5038559901823082,
-      "max": 0.5038559901823082,
+      "min": 0.3951579507699506,
+      "max": 0.3951579507699506,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "HC says OCI cardholders don’t have right to protest, asks actor Imran Khan to apologise",
+        "u": "https://scroll.in/latest/1096818/hc-says-oci-cardholders-dont-have-right-to-protest-asks-actor-imran-khan-to-apologise?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-02T13:19:42.000Z",
+        "retrievedAt": "2026-11-02T21:34:57.283Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“You are a celebrity, you are a star,” said the court.",
+          "“I am here as a citizen, as a person who lives in this city,” he had said.",
+          "The Bombay High Court on Monday said that Overseas …"
+        ],
+        "figures": [],
+        "wordsRead": 372
+      },
       {
         "n": "OpIndia",
         "b": "right",
@@ -485,32 +514,36 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "As Wasim and others are awarded life imprisonment for illegal cow slaughter in Gujarat, read about the 2017 law that made it possible",
-        "u": "https://www.opindia.com/2026/10/illegal-cow-slaughter-gujarat-animal-preservation-amendment-life-imprisonment-punishment-details/",
-        "publishedAt": "2026-10-31T05:24:49.000Z",
-        "retrievedAt": "2026-11-01T17:48:11.108Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Organiser",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Gujarat court awards life imprisonment to three in cow slaughter case: How 2017 law made strict punishment possible",
-        "u": "https://organiser.org/2026/11/01/423030/bharat/gujarat-court-awards-life-imprisonment-to-three-in-cow-slaughter-case-how-2017-law-made-strict-punishment-possible/",
-        "publishedAt": "2026-11-01T15:10:52.000Z",
-        "retrievedAt": "2026-11-01T17:48:13.000Z",
-        "read": "headline and feed excerpt"
+        "t": "‘OCI cardholder not at par with Indian citizens’: Bombay High Court pulls up Imran Khan, who joined the CJP protest; actor tenders unconditional apology, gets interim relief on Leave India notice; read details",
+        "u": "https://www.opindia.com/2026/11/oci-card-holder-not-indian-citizens-bombay-high-court-imran-khan-cjp-protest-unconditional-apology-leave-india-notice/",
+        "publishedAt": "2026-11-02T13:33:08.000Z",
+        "retrievedAt": "2026-11-02T21:35:03.634Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“In our order, we will say that you will give him some time to file his response… He will file his undertaking and unconditional apology etc. because (at) some point …",
+          "In his apology submitted before the Bombay High Court, actor Imran Khan said that he has no association with the organisers of the 10th of October protest and was not …",
+          "The Bombay High Court stated that Overseas Citizen of India (OCI) cardholders are not Indian citizens."
+        ],
+        "figures": [],
+        "wordsRead": 1779
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "HC says OCI cardholders don’t have right to protest, asks actor Imran Khan to apologise",
+            "url": "https://scroll.in/latest/1096818/hc-says-oci-cardholders-dont-have-right-to-protest-asks-actor-imran-khan-to-apologise?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -529,18 +562,9 @@
             "outletId": "opindia",
             "lean": "right",
             "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "As Wasim and others are awarded life imprisonment for illegal cow slaughter in Gujarat, read about the 2017 law that made it possible",
-            "url": "https://www.opindia.com/2026/10/illegal-cow-slaughter-gujarat-animal-preservation-amendment-life-imprisonment-punishment-details/"
-          },
-          {
-            "outlet": "Organiser",
-            "outletId": "organiser",
-            "lean": "right",
-            "country": "IN",
             "evidenceIndex": 1,
-            "headline": "Gujarat court awards life imprisonment to three in cow slaughter case: How 2017 law made strict punishment possible",
-            "url": "https://organiser.org/2026/11/01/423030/bharat/gujarat-court-awards-life-imprisonment-to-three-in-cow-slaughter-case-how-2017-law-made-strict-punishment-possible/"
+            "headline": "‘OCI cardholder not at par with Indian citizens’: Bombay High Court pulls up Imran Khan, who joined the CJP protest; actor tenders unconditional apology, gets interim relief on Leave India notice; read details",
+            "url": "https://www.opindia.com/2026/11/oci-card-holder-not-indian-citizens-bombay-high-court-imran-khan-cjp-protest-unconditional-apology-leave-india-notice/"
           }
         ],
         "status": "sourced",
@@ -548,16 +572,17 @@
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (right)"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Gujarat",
-        "As Wasim"
+        "Imran Khan",
+        "Bombay High Court",
+        "Leave India",
+        "Indian"
       ],
       "attempts": [
         {
@@ -643,58 +668,102 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1dgpxuz",
+    "id": "cpqvnnu",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 4
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
-          "european union",
-          "european"
+          "ukraine",
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-01T14:08:07.000Z",
-    "lastSeen": "2026-11-01T14:54:00.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-02T18:23:02.000Z",
+    "lastSeen": "2026-11-02T21:10:04.000Z",
+    "outletCount": 5,
     "outlets": [
-      "Washington Examiner",
+      "BBC News",
+      "Globe and Mail",
+      "Al Jazeera",
       "Arab News",
       "South China Morning Post"
     ],
-    "tier": "primary",
-    "tierBasis": "confirmed against 2 primary document(s)",
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.4147040954036563,
-      "max": 0.7660031475426965,
-      "pairs": 3,
+      "min": 0.3643149107235007,
+      "max": 0.6887495162963506,
+      "pairs": 7,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Washington Examiner",
-        "b": "lean_right",
+        "n": "BBC News",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-        "u": "https://www.washingtonexaminer.com/news/world/4787243/somali-pirates-seize-iran-fishing-vessel/",
-        "publishedAt": "2026-11-01T14:08:07.000Z",
-        "retrievedAt": "2026-11-01T17:47:56.628Z",
+        "t": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+        "u": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-02T21:10:04.000Z",
+        "retrievedAt": "2026-11-02T21:34:40.112Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "MOGADISHU, Somalia (AP) — Somali pirates have …"
+          "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "He earlier said that \"the Russians could not have been …"
         ],
         "figures": [],
-        "wordsRead": 70
+        "wordsRead": 395
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russia bombs aid centre in Ukraine, killing 26, officials say",
+        "u": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-putin-zelensky-2/",
+        "publishedAt": "2026-11-02T18:47:28.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“There was a moment when the next steps could have shown that progress toward peace was possible,” Zelensky said.",
+          "“All government bodies must take steps to improve the cybersecurity of our digital resources,” Kremlin spokesperson Dmitry Peskov said.",
+          "Russia bombed an aid distribution centre and neighbouring shelter in southern Ukraine on Monday, killing 26 people, Ukrainian officials said."
+        ],
+        "figures": [],
+        "wordsRead": 844
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Russian bombing of Ukrainian aid centre kills 24 people",
+        "u": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
+        "publishedAt": "2026-11-02T18:23:02.000Z",
+        "retrievedAt": "2026-11-02T21:35:25.269Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“After the first air strike, there was a repeat strike with nine more bombs, ⁠directly on the shelter ⁠where people were gathered,” Ukraine’s president wrote on Telegram."
+        ],
+        "figures": [],
+        "wordsRead": 293
       },
       {
         "n": "Arab News",
@@ -703,17 +772,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-        "u": "https://www.arabnews.com/world/somali-pirates-seize-iranian-fishing-vessel-raising-fears-of-attacks-on-cargo-ships-3009275",
-        "publishedAt": "2026-11-01T14:35:16.000Z",
-        "retrievedAt": "2026-11-01T17:48:38.393Z",
+        "t": "Russia bombs aid center and shelter in southern Ukraine, killing 24, authorities say",
+        "u": "https://www.arabnews.com/world/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say-3009490",
+        "publishedAt": "2026-11-02T19:54:55.000Z",
+        "retrievedAt": "2026-11-02T21:35:28.506Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "MOGADISHU: Somali pirates have seized an Iranian fishing vessel carrying 23 people, the Maritime Security Center Indian Ocean said, warning that the ship was approaching a commercial shipping lane and …",
-          "The Azini was hijacked on Thursday between the …"
+          "“There was a moment when the next steps could have shown that progress toward peace was possible,” Zelensky said.",
+          "In a Telegram post late Sunday following the breach, Ukraine’s air raid alert channel said “unauthorized parties” had interfered with the app’s operation and warned users not to click on …",
+          "“All government bodies must take steps to improve the cybersecurity of our digital resources,” Peskov said."
         ],
         "figures": [],
-        "wordsRead": 393
+        "wordsRead": 907
       },
       {
         "n": "South China Morning Post",
@@ -722,10 +792,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Somali piracy resurges as Iranian vessel seized carrying 23 crew",
-        "u": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew",
-        "publishedAt": "2026-11-01T14:54:00.000Z",
-        "retrievedAt": "2026-11-01T17:48:42.097Z",
+        "t": "Russia bombs aid centre and shelter in southern Ukraine, killing 24, authorities say",
+        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
+        "publishedAt": "2026-11-02T19:06:35.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -740,6 +810,267 @@
       {
         "side": "centre",
         "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+            "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Russia bombs aid centre in Ukraine, killing 26, officials say",
+            "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-putin-zelensky-2/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Russian bombing of Ukrainian aid centre kills 24 people",
+        "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Russia bombs aid center and shelter in southern Ukraine, killing 24, authorities say",
+        "url": "https://www.arabnews.com/world/russia-bombs-aid-center-and-shelter-in-southern-ukraine-killing-24-authorities-say-3009490",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Russia bombs aid centre and shelter in southern Ukraine, killing 24, authorities say",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Ukraine",
+        "Russia",
+        "Russian",
+        "Ukrainian",
+        "Kyiv"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1lkzzxb",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 3
+      },
+      "matched": {
+        "Europe": [
+          "spain"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-02T07:19:35.000Z",
+    "lastSeen": "2026-11-02T20:43:44.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "NPR",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.41395889255872176,
+      "max": 0.4729143452141845,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+        "u": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+        "publishedAt": "2026-11-02T07:19:35.000Z",
+        "retrievedAt": "2026-11-02T21:34:38.736Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "What’s the future of the Western Sahara conflict?",
+        "u": "https://www.aljazeera.com/video/inside-story/2026/11/2/whats-the-future-of-the-western-sahara-conflict?traffic_source=rss",
+        "publishedAt": "2026-11-02T20:43:44.000Z",
+        "retrievedAt": "2026-11-02T21:35:25.269Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The dispute over the territory of Western Sahara started more …"
+        ],
+        "figures": [],
+        "wordsRead": 106
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "As UN peacekeeping mission in Western Sahara ends, refugees cling to hopes of return",
+        "u": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
+        "publishedAt": "2026-11-02T12:15:06.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+            "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
         "outlets": [],
         "status": "not sourced",
         "text": null
@@ -747,18 +1078,8 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-            "url": "https://www.washingtonexaminer.com/news/world/4787243/somali-pirates-seize-iran-fishing-vessel/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -769,13 +1090,13 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
+        "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-        "url": "https://www.arabnews.com/world/somali-pirates-seize-iranian-fishing-vessel-raising-fears-of-attacks-on-cargo-ships-3009275",
+        "headline": "What’s the future of the Western Sahara conflict?",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/11/2/whats-the-future-of-the-western-sahara-conflict?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -784,16 +1105,981 @@
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 2,
-        "headline": "Somali piracy resurges as Iranian vessel seized carrying 23 crew",
-        "url": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew",
+        "headline": "As UN peacekeeping mission in Western Sahara ends, refugees cling to hopes of return",
+        "url": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Iranian",
-        "Somali"
+        "Western Sahara",
+        "As UN",
+        "UN's",
+        "What"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Western Sahara",
+            "As UN",
+            "UN's",
+            "What"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1srhkk0",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 21
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "france",
+          "netherlands",
+          "sweden",
+          "finland",
+          "ireland",
+          "belgium",
+          "europe",
+          "european"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-02T10:25:56.000Z",
+    "lastSeen": "2026-11-02T14:18:58.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Euronews",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.40045804593041795,
+      "max": 0.4026192921206344,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "European supermarket fridges hit by second suspected cyberattack",
+        "u": "https://www.theglobeandmail.com/world/article-europe-supermarkets-fridge-freezer-cyber-attack/",
+        "publishedAt": "2026-11-02T11:50:30.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A spokesperson for privately held ICA said the company was aware that a “limited number of stores were affected by an incident overnight, which impacted their refrigeration and freezer systems.”",
+          "“It is not known who is behind this attack, and it may never be determined,” said Katrien Eggers, spokesperson for Belgium’s Centre for Cybersecurity, adding she was concerned about the …",
+          "“The repeated occurrence of these cyberattacks is deeply concerning.”"
+        ],
+        "figures": [],
+        "wordsRead": 840
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Cyberattacks hit supermarket fridges and freezers in Europe, Belgium launches investigation",
+        "u": "https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers",
+        "publishedAt": "2026-11-02T10:25:56.000Z",
+        "retrievedAt": "2026-11-02T21:35:07.020Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "CCB spokesperson Katrien Eggers told Euronews Next, \"We are aware of an incident, but have no further information.\"",
+          "Meanwhile later this morning Carrefour Belgium spokesman Mich Vergauwen said, \"It's a cyberattack, there is no other reason,\" adding that the \"impact is very limited\".",
+          "\"Over the past few weeks, we've been working very hard to protect our customers' fridges against this vulnerability,\" Moelans said."
+        ],
+        "figures": [],
+        "wordsRead": 744
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+        "u": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
+        "publishedAt": "2026-11-02T14:18:58.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Everything is destroyed,” Engla Ingwall, sales manager at an ICA franchise …"
+        ],
+        "figures": [],
+        "wordsRead": 119
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "European supermarket fridges hit by second suspected cyberattack",
+            "url": "https://www.theglobeandmail.com/world/article-europe-supermarkets-fridge-freezer-cyber-attack/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Cyberattacks hit supermarket fridges and freezers in Europe, Belgium launches investigation",
+            "url": "https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 2,
+        "headline": "Supermarket fridges in Europe hit by new cyberattack: ‘everything is destroyed’",
+        "url": "https://www.scmp.com/news/world/europe/article/3373032/supermarket-fridges-europe-hit-new-cyberattack-everything-destroyed",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Europe",
+        "Cyberattacks",
+        "Supermarket",
+        "European",
+        "Belgium"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ced8q1t",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-01T18:01:21.000Z",
+    "lastSeen": "2026-11-02T21:05:09.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "Mother Jones",
+      "Guardian US",
+      "Globe and Mail",
+      "Haaretz",
+      "Middle East Eye"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.362862160087418,
+      "max": 0.5608166527740318,
+      "pairs": 18,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Mother Jones",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Haley Stevens Turned Michigan’s Senate Race Into a Soap Opera",
+        "u": "https://www.motherjones.com/politics/2026/11/haley-stevens-turned-michigans-senate-race-into-a-soap-opera/",
+        "publishedAt": "2026-11-02T18:34:05.000Z",
+        "retrievedAt": "2026-11-02T21:34:35.883Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Nancy Pelosi (D-Calif.) said Stevens chose to “dangerously betray Michigan families’ healthcare, freedoms and future with her horrific endorsement.”",
+          "Chair of the Michigan Democratic party, Curtis Hertel, wrote on social media Sunday that Stevens is not a current member of the party, “nor will she be in the future.”",
+          "In response to Stevens’ endorsement of Rogers, El-Sayed said: “I actually don’t think about Haley Stevens.”"
+        ],
+        "figures": [],
+        "wordsRead": 1072
+      },
+      {
+        "n": "Mother Jones",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Haley Stevens Abandons Fellow Democrats in Opposition to Abdul El-Sayed",
+        "u": "https://www.motherjones.com/politics/2026/11/haley-stevens-abandons-fellow-democrats-in-opposition-to-abdul-el-sayed/",
+        "publishedAt": "2026-11-01T19:38:27.000Z",
+        "retrievedAt": "2026-11-02T21:34:35.883Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I don’t belong in Abdul’s campaign,” Stevens said in the social media video .",
+          "“Abdul made very clear that I was not welcome in his campaign,” Stevens told reporters Sunday, saying it was a “personal and private decision” to vote for Rogers.",
+          "Michigan Democratic Party Chair Curtis Hertel said in a statement that it “shows that she has abandoned everything she claims to care about.”"
+        ],
+        "figures": [],
+        "wordsRead": 880
+      },
+      {
+        "n": "Mother Jones",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Here Are Some Things Haley Stevens Said About Mike Rogers Before Endorsing Him",
+        "u": "https://www.motherjones.com/politics/2026/11/here-are-some-things-haley-stevens-said-about-mike-rogers-before-endorsing-him/",
+        "publishedAt": "2026-11-01T19:27:53.000Z",
+        "retrievedAt": "2026-11-02T21:34:35.883Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Mike Rogers “will be another rubber stamp” for Donald Trump’s agenda. (August, 2026.) “Rubber stamp” is also a phrase she used regarding Rogers at least 13 other times across her …",
+          "He “can’t hide his terrible record on abortion rights.” (June, 2026.) As a congressman, Rogers supported …"
+        ],
+        "figures": [],
+        "wordsRead": 474
+      },
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+        "u": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
+        "publishedAt": "2026-11-02T21:05:09.000Z",
+        "retrievedAt": "2026-11-02T21:34:37.189Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Zohran Mamdani, the New York mayor, also said that “working class people’s lives are on the ballot on Tuesday”.",
+          "“Haley Stevens just betrayed them by endorsing the very Republican she said she wanted to run against,” Mamdani posted .",
+          "“I’m just casting my one vote this way,” Stevens said, while insisting she still wanted Democrats to win the majority on election day."
+        ],
+        "figures": [
+          {
+            "value": "$2.4",
+            "context": "day, El-Sayed’s campaign said it raised more than $2.4m, a fundraising record in the final days of a rac"
+          }
+        ],
+        "wordsRead": 945
+      },
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Why did a Democrat endorse a rival Republican in Michigan? - The Latest",
+        "u": "https://www.theguardian.com/news/video/2026/nov/02/why-did-a-democrat-endorse-a-rival-republican-in-michigan-the-latest",
+        "publishedAt": "2026-11-02T18:51:35.000Z",
+        "retrievedAt": "2026-11-02T21:34:37.189Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Michigan Democrat's surprise GOP endorsement shakes up key U.S. Senate race",
+        "u": "https://www.theglobeandmail.com/world/us-politics/video-michigan-democrats-surprise-gop-endorsement-shakes-up-key-us-senate/",
+        "publishedAt": "2026-11-02T14:33:30.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A prominent Michigan Democrat endorsed …"
+        ],
+        "figures": [],
+        "wordsRead": 52
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Democrat Haley Stevens endorses GOP candidate for Michigan Senate after spat with El-Sayed",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-haley-stevens-el-sayed-midterm-senate/",
+        "publishedAt": "2026-11-01T18:40:15.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Democrat Stevens backs Republican over El-Sayed in Michigan",
+        "u": "https://www.theglobeandmail.com/world/video-democrat-stevens-backs-republican-over-el-sayed-in-michigan/",
+        "publishedAt": "2026-11-02T14:31:33.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Democrat Haley Stevens backs GOP in Michigan Senate race after Israel feud with El-Sayed",
+        "u": "https://www.haaretz.com/usmidterms2026/2026-11-01/ty-article/.premium/haley-stevens-backs-gop-in-michigan-senate-race-after-israel-feud-with-el-sayed/000001a1-983c-df63-ade5-fa7f36ff0000",
+        "publishedAt": "2026-11-01T18:01:21.000Z",
+        "retrievedAt": "2026-11-02T21:35:20.707Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Despicable betrayal': Haley Stevens endorses Republican candidate over party nominee Abdul El-Sayed",
+        "u": "https://www.middleeasteye.net/news/democrat-haley-stevens-endorses-republican-candidate-over-party-nominee-abdul-el-sayed",
+        "publishedAt": "2026-11-02T11:33:03.000Z",
+        "retrievedAt": "2026-11-02T21:35:27.126Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Mother Jones",
+            "outletId": "motherjones",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Haley Stevens Turned Michigan’s Senate Race Into a Soap Opera",
+            "url": "https://www.motherjones.com/politics/2026/11/haley-stevens-turned-michigans-senate-race-into-a-soap-opera/"
+          },
+          {
+            "outlet": "Mother Jones",
+            "outletId": "motherjones",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Haley Stevens Abandons Fellow Democrats in Opposition to Abdul El-Sayed",
+            "url": "https://www.motherjones.com/politics/2026/11/haley-stevens-abandons-fellow-democrats-in-opposition-to-abdul-el-sayed/"
+          },
+          {
+            "outlet": "Mother Jones",
+            "outletId": "motherjones",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Here Are Some Things Haley Stevens Said About Mike Rogers Before Endorsing Him",
+            "url": "https://www.motherjones.com/politics/2026/11/here-are-some-things-haley-stevens-said-about-mike-rogers-before-endorsing-him/"
+          },
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 3,
+            "headline": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+            "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers"
+          },
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 4,
+            "headline": "Why did a Democrat endorse a rival Republican in Michigan? - The Latest",
+            "url": "https://www.theguardian.com/news/video/2026/nov/02/why-did-a-democrat-endorse-a-rival-republican-in-michigan-the-latest"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 8,
+            "headline": "Democrat Haley Stevens backs GOP in Michigan Senate race after Israel feud with El-Sayed",
+            "url": "https://www.haaretz.com/usmidterms2026/2026-11-01/ty-article/.premium/haley-stevens-backs-gop-in-michigan-senate-race-after-israel-feud-with-el-sayed/000001a1-983c-df63-ade5-fa7f36ff0000"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 9,
+            "headline": "'Despicable betrayal': Haley Stevens endorses Republican candidate over party nominee Abdul El-Sayed",
+            "url": "https://www.middleeasteye.net/news/democrat-haley-stevens-endorses-republican-candidate-over-party-nominee-abdul-el-sayed"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 5,
+            "headline": "Michigan Democrat's surprise GOP endorsement shakes up key U.S. Senate race",
+            "url": "https://www.theglobeandmail.com/world/us-politics/video-michigan-democrats-surprise-gop-endorsement-shakes-up-key-us-senate/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 6,
+            "headline": "Democrat Haley Stevens endorses GOP candidate for Michigan Senate after spat with El-Sayed",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-haley-stevens-el-sayed-midterm-senate/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 7,
+            "headline": "Democrat Stevens backs Republican over El-Sayed in Michigan",
+            "url": "https://www.theglobeandmail.com/world/video-democrat-stevens-backs-republican-over-el-sayed-in-michigan/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Republican",
+        "El-Sayed",
+        "Democrat Haley Stevens",
+        "Michigan Senate",
+        "Abdul El-Sayed",
+        "Haley Stevens"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Republican",
+            "El-Sayed",
+            "Democrat Haley Stevens",
+            "Michigan Senate",
+            "Abdul El-Sayed",
+            "Haley Stevens"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "chc17w2",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-02T17:13:54.000Z",
+    "lastSeen": "2026-11-02T19:13:00.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Globe and Mail",
+      "Deutsche Welle",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "primary",
+    "tierBasis": "confirmed against 4 primary document(s)",
+    "clustering": {
+      "min": 0.5815290176834395,
+      "max": 0.7110601091648414,
+      "pairs": 6,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump administration asks U.S. Supreme Court to sideline 20,000 California mail ballots",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-trump-supreme-court-california-mail-ballots/",
+        "publishedAt": "2026-11-02T17:13:54.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“If the Executive can discount votes and threaten an ongoing election due to unproven allegations, then our democracy is in danger,” wrote U.S.",
+          "The federal government says those ballots should not be counted …"
+        ],
+        "figures": [],
+        "wordsRead": 336
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump asks Supreme Court to block 20,000 California midterm ballots",
+        "u": "https://www.dw.com/en/trump-asks-supreme-court-to-block-20-000-california-midterm-ballots/a-79833739?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-02T19:13:00.000Z",
+        "retrievedAt": "2026-11-02T21:35:12.048Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"If the Executive can discount votes and threaten an ongoing election due to unproven allegations, then our democracy is in danger,\" wrote Los Angeles District Judge David Carter in rejecting …",
+          "\"Never before in American history has the federal government, on the eve of an election, sought to coerce a state and local government to abandon their own ​constitutional elections procedures …"
+        ],
+        "figures": [],
+        "wordsRead": 633
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
+        "u": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
+        "publishedAt": "2026-11-02T19:06:52.000Z",
+        "retrievedAt": "2026-11-02T21:35:25.269Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“If the executive can discount votes and threaten an ongoing election due to unproven allegations, then our democracy is in danger,” Judge David Carter wrote.",
+          "The administration of United States President Donald Trump …"
+        ],
+        "figures": [
+          {
+            "value": "23 million",
+            "context": "since early October, with ballots mailed to around 23 million registered voters and hundreds of thousands alrea"
+          }
+        ],
+        "wordsRead": 333
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump administration asks Supreme Court to set aside 20,000 disputed California ballots",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
+        "publishedAt": "2026-11-02T17:57:38.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Trump administration asks U.S. Supreme Court to sideline 20,000 California mail ballots",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-supreme-court-california-mail-ballots/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "Trump asks Supreme Court to block 20,000 California midterm ballots",
+            "url": "https://www.dw.com/en/trump-asks-supreme-court-to-block-20-000-california-midterm-ballots/a-79833739?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
+        "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Trump administration asks Supreme Court to set aside 20,000 disputed California ballots",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "California",
+        "Trump",
+        "Supreme Court",
+        "U.S. Supreme Court"
       ],
       "attempts": [
         {
@@ -802,27 +2088,47 @@
           "attempted": true,
           "found": [
             {
-              "title": "Notification of the Imposition of Conditions of Entry on Vessels Arriving from Somalia",
-              "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21865/notification-of-the-imposition-of-conditions-of-entry-on-vessels-arriving-from-somalia",
-              "published": "2026-10-27",
-              "publisher": "Homeland Security Department, Coast Guard",
-              "docType": "Notice",
-              "ref": "2026-21865",
+              "title": "Approval and Promulgation of State Implementation Plans; New Jersey; RACT Certifications for the 2008 and 2015 Ozone National Ambient Air Quality Standards",
+              "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20638/approval-and-promulgation-of-state-implementation-plans-new-jersey-ract-certifications-for-the-2008",
+              "published": "2026-10-08",
+              "publisher": "Environmental Protection Agency",
+              "docType": "Rule",
+              "ref": "2026-20638",
               "read": "metadata only — document not retrieved or read"
             },
             {
-              "title": "Millennium Challenge Corporation Selection Criteria and Methodology Report for Fiscal Year 2027",
-              "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20704/millennium-challenge-corporation-selection-criteria-and-methodology-report-for-fiscal-year-2027",
-              "published": "2026-10-09",
-              "publisher": "Millennium Challenge Corporation",
-              "docType": "Notice",
-              "ref": "2026-20704",
+              "title": "Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets",
+              "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+              "published": "2026-10-13",
+              "publisher": "Commodity Futures Trading Commission",
+              "docType": "Proposed Rule",
+              "ref": "2026-20888",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
+              "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+              "published": "2026-10-14",
+              "publisher": "Homeland Security Department",
+              "docType": "Rule",
+              "ref": "2026-20955",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Additional Reconsideration Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+              "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22082/additional-reconsideration-standards-of-performance-for-new-reconstructed-and-modified-sources-and",
+              "published": "2026-10-29",
+              "publisher": "Environmental Protection Agency",
+              "docType": "Proposed Rule",
+              "ref": "2026-22082",
               "read": "metadata only — document not retrieved or read"
             }
           ],
           "terms": [
-            "Iranian",
-            "Somali"
+            "California",
+            "Trump",
+            "Supreme Court",
+            "U.S. Supreme Court"
           ]
         },
         {
@@ -888,29 +2194,71 @@
       ],
       "primary": [
         {
-          "title": "Notification of the Imposition of Conditions of Entry on Vessels Arriving from Somalia",
-          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21865/notification-of-the-imposition-of-conditions-of-entry-on-vessels-arriving-from-somalia",
-          "published": "2026-10-27",
-          "publisher": "Homeland Security Department, Coast Guard",
-          "docType": "Notice",
-          "ref": "2026-21865",
+          "title": "Approval and Promulgation of State Implementation Plans; New Jersey; RACT Certifications for the 2008 and 2015 Ozone National Ambient Air Quality Standards",
+          "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20638/approval-and-promulgation-of-state-implementation-plans-new-jersey-ract-certifications-for-the-2008",
+          "published": "2026-10-08",
+          "publisher": "Environmental Protection Agency",
+          "docType": "Rule",
+          "ref": "2026-20638",
           "read": "metadata only — document not retrieved or read",
           "source": "US Federal Register"
         },
         {
-          "title": "Millennium Challenge Corporation Selection Criteria and Methodology Report for Fiscal Year 2027",
-          "url": "https://www.federalregister.gov/documents/2026/10/09/2026-20704/millennium-challenge-corporation-selection-criteria-and-methodology-report-for-fiscal-year-2027",
-          "published": "2026-10-09",
-          "publisher": "Millennium Challenge Corporation",
-          "docType": "Notice",
-          "ref": "2026-20704",
+          "title": "Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets",
+          "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+          "published": "2026-10-13",
+          "publisher": "Commodity Futures Trading Commission",
+          "docType": "Proposed Rule",
+          "ref": "2026-20888",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
+          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+          "published": "2026-10-14",
+          "publisher": "Homeland Security Department",
+          "docType": "Rule",
+          "ref": "2026-20955",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Additional Reconsideration Standards of Performance for New, Reconstructed, and Modified Sources and Emissions Guidelines for Existing Sources: Oil and Natural Gas Sector Climate Review",
+          "url": "https://www.federalregister.gov/documents/2026/10/29/2026-22082/additional-reconsideration-standards-of-performance-for-new-reconstructed-and-modified-sources-and",
+          "published": "2026-10-29",
+          "publisher": "Environmental Protection Agency",
+          "docType": "Proposed Rule",
+          "ref": "2026-22082",
           "read": "metadata only — document not retrieved or read",
           "source": "US Federal Register"
         }
       ],
       "gap": null
     },
-    "disputedCandidates": [],
+    "disputedCandidates": [
+      {
+        "kind": "count",
+        "about": [
+          "registered",
+          "voters"
+        ],
+        "spread": 0.999,
+        "readings": [
+          {
+            "outlet": "Al Jazeera",
+            "value": "23 million",
+            "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss"
+          },
+          {
+            "outlet": "South China Morning Post",
+            "value": "20,000",
+            "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      }
+    ],
     "headline": null,
     "sub": null,
     "cat": null,
@@ -923,86 +2271,81 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cz3lyby",
+    "id": "c1c81ahq",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 1,
-        "Europe": 11
+        "Canada": 1,
+        "India": 0,
+        "Europe": 2
       },
       "matched": {
-        "India": [
+        "Canada": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
-          "germany",
-          "france",
-          "berlin",
           "europe",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-01T11:57:48.000Z",
-    "lastSeen": "2026-11-01T16:35:08.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-02T12:31:00.000Z",
+    "lastSeen": "2026-11-02T21:25:52.000Z",
+    "outletCount": 4,
     "outlets": [
-      "BBC News",
-      "Organiser",
-      "Euronews"
+      "Globe and Mail",
+      "Euronews",
+      "Deutsche Welle",
+      "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.46556951905398314,
-      "max": 0.5598346787334126,
-      "pairs": 3,
+      "min": 0.3929124212897732,
+      "max": 0.695082245766589,
+      "pairs": 12,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Shops looted as German cost-of-living protests turn violent",
-        "u": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-01T11:57:48.000Z",
-        "retrievedAt": "2026-11-01T17:47:52.102Z",
+        "t": "British adventurer returns home after 28-year odyssey to walk around the world",
+        "u": "https://www.theglobeandmail.com/world/article-uk-man-karl-bushby-walk-around-world/",
+        "publishedAt": "2026-11-02T17:38:51.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Roman Poseck, interior minister of Hesse state, of which Frankfurt is the biggest city, said that \"around 100 clearly identified left-wing extremists\" had infiltrated the protest in the city.",
-          "On Sunday, Germany's Interior Minister Alexander Dobrindt told Bild newspaper that overnight police had prevented \"violence like that seen in Paris\" in recent weeks and called for \"harsh punishments\" for …",
-          "France must not be held up as a model in this regard.\""
+          "“They say it takes a village but literally it took a world to get me here,” Bushby said.",
+          "“You just dump a whole bucket full of reality on that,” he said.",
+          "He said it was an emotional reunion that was “one great, big, blurry mess” he was trying to process."
         ],
         "figures": [],
-        "wordsRead": 892
+        "wordsRead": 990
       },
       {
-        "n": "Organiser",
-        "b": "right",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Germany: Left protests turn violent as Hooded demonstrators loot shops in Frankfurt amid widening unrest across Europe",
-        "u": "https://organiser.org/2026/11/01/423091/international/germany-left-protests-turn-violent-as-hooded-demonstrators-loot-shops-in-frankfurt-amid-widening-unrest-across-europe/",
-        "publishedAt": "2026-11-01T16:35:08.000Z",
-        "retrievedAt": "2026-11-01T17:48:13.000Z",
+        "t": "British adventurer arrives home after 28 years of walking around the world",
+        "u": "https://www.theglobeandmail.com/world/video-british-adventurer-arrives-home-after-28-years-of-walking-around-the/",
+        "publishedAt": "2026-11-02T17:25:49.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Violent disturbances are continuing,” the German police said in a post on X.",
-          "“We are here today to fight for peace and freedom, rather than for war and coercion,” Friedrich said.",
-          "“The government has offered no response to our concerns other than to continue making cuts and piling further burdens upon us,” he said."
+          "Bushby began his journey at …"
         ],
         "figures": [],
-        "wordsRead": 1018
+        "wordsRead": 57
       },
       {
         "n": "Euronews",
@@ -1011,216 +2354,56 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Germany 'Gen Z' protests turn violent as shops looted",
-        "u": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted",
-        "publishedAt": "2026-11-01T12:46:01.000Z",
-        "retrievedAt": "2026-11-01T17:48:14.276Z",
+        "t": "British adventurer returns home after 28-year journey around the world",
+        "u": "https://www.euronews.com/video/2026/11/02/british-adventurer-returns-home-after-28-year-journey-around-the-world",
+        "publishedAt": "2026-11-02T21:25:52.000Z",
+        "retrievedAt": "2026-11-02T21:35:07.020Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Unfortunately, troublemakers have today mingled with the peaceful demonstrators in order to deliberately provoke and commit criminal offences,\" a spokesperson for the Hamburg Police said.",
-          "\"Following the gathering, attacks were carried out on the emergency services; the police deployed water cannons against the groups causing disruption,\" Cologne police said in …"
+          "British adventurer Karl Bushby returns to his mother’s home in Hull after completing …"
         ],
         "figures": [],
-        "wordsRead": 504
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
+        "wordsRead": 135
       },
       {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Shops looted as German cost-of-living protests turn violent",
-            "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "Germany 'Gen Z' protests turn violent as shops looted",
-            "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Organiser",
-            "outletId": "organiser",
-            "lean": "right",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Germany: Left protests turn violent as Hooded demonstrators loot shops in Frankfurt amid widening unrest across Europe",
-            "url": "https://organiser.org/2026/11/01/423091/international/germany-left-protests-turn-violent-as-hooded-demonstrators-loot-shops-in-frankfurt-amid-widening-unrest-across-europe/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Germany",
-        "Frankfurt",
-        "German",
-        "Hooded",
-        "Europe",
-        "Shops"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cyin8h3",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 3
-      },
-      "matched": {
-        "Europe": [
-          "paris"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-01T10:07:13.000Z",
-    "lastSeen": "2026-11-01T14:13:55.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Haaretz",
-      "Al Jazeera",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.39832994703981583,
-      "max": 0.5470378024716513,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "A full house for 'Free Palestine': Macklemore wraps up solidarity tour in London",
-        "u": "https://www.haaretz.com/life/2026-11-01/ty-article-magazine/.premium/a-full-house-for-free-palestine-macklemore-wraps-up-solidarity-tour-in-london/000001a1-96dd-db9a-a1b3-9eff49c60000",
-        "publishedAt": "2026-11-01T14:13:55.000Z",
-        "retrievedAt": "2026-11-01T17:48:31.074Z",
-        "read": "headline and feed excerpt"
+        "t": "28 years and 50,000 kilometres: British adventurer Karl Bushby arrives home after epic trek",
+        "u": "https://www.euronews.com/2026/11/02/28-years-and-50000-kilometres-british-adventurer-karl-bushby-arrives-home-after-epic-trek",
+        "publishedAt": "2026-11-02T12:56:13.000Z",
+        "retrievedAt": "2026-11-02T21:35:07.020Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"I didn't do this alone,\" he said, adding it was a \"global effort\" after winning praise from Hull Mayor Maria Coward.",
+          "\"Feels good to have UK soil under my feet after all these years,\" he said later in a statement, adding his journey \"hadn't been easy\".",
+          "“I’ve been welcomed in by the poorest of the poor,” he said."
+        ],
+        "figures": [],
+        "wordsRead": 973
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
+        "u": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-02T12:31:00.000Z",
+        "retrievedAt": "2026-11-02T21:35:12.048Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"I've got to try and get established in the grown-up world again,\" he said.",
+          "British adventurer Karl Bushby, 57, arrived back his hometown in England on Monday after crossing four continents on foot.",
+          "He was met by a cheering crowd of …"
+        ],
+        "figures": [],
+        "wordsRead": 411
       },
       {
         "n": "Al Jazeera",
@@ -1229,55 +2412,78 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Macklemore concludes ‘Free Palestine’ tour with solidarity message",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss",
-        "publishedAt": "2026-11-01T13:47:53.000Z",
-        "retrievedAt": "2026-11-01T17:48:35.560Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Zeyne thanks Macklemore for Free Palestine tour",
-        "u": "https://www.arabnews.com/lifestyle/zeyne-thanks-macklemore-for-free-palestine-tour-3009224",
-        "publishedAt": "2026-11-01T10:07:13.000Z",
-        "retrievedAt": "2026-11-01T17:48:38.393Z",
+        "t": "British adventurer Karl Bushby returns home after 28-year walk around world",
+        "u": "https://www.aljazeera.com/news/2026/11/2/british-adventurer-karl-bushby-returns-home-after-28-year-walk-around-world?traffic_source=rss",
+        "publishedAt": "2026-11-02T17:42:05.000Z",
+        "retrievedAt": "2026-11-02T21:35:25.269Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "She also posted a message of appreciation for the rapper and his team, writing: “Thank you @macklemore and the entire team for putting together the most beautiful tour … filled …",
-          "LATEST NEWS / Middle East Arab Views …"
+          "“They say it takes a village, but literally it took a world to get me here,” he said as he arrived in Hull.",
+          "“Sorry to keep you waiting,” he joked to the …"
         ],
         "figures": [],
-        "wordsRead": 380
+        "wordsRead": 326
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 0,
-            "headline": "A full house for 'Free Palestine': Macklemore wraps up solidarity tour in London",
-            "url": "https://www.haaretz.com/life/2026-11-01/ty-article-magazine/.premium/a-full-house-for-free-palestine-macklemore-wraps-up-solidarity-tour-in-london/000001a1-96dd-db9a-a1b3-9eff49c60000"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "British adventurer returns home after 28-year odyssey to walk around the world",
+            "url": "https://www.theglobeandmail.com/world/article-uk-man-karl-bushby-walk-around-world/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "British adventurer arrives home after 28 years of walking around the world",
+            "url": "https://www.theglobeandmail.com/world/video-british-adventurer-arrives-home-after-28-years-of-walking-around-the/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "British adventurer returns home after 28-year journey around the world",
+            "url": "https://www.euronews.com/video/2026/11/02/british-adventurer-returns-home-after-28-year-journey-around-the-world"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "28 years and 50,000 kilometres: British adventurer Karl Bushby arrives home after epic trek",
+            "url": "https://www.euronews.com/2026/11/02/28-years-and-50000-kilometres-british-adventurer-karl-bushby-arrives-home-after-epic-trek"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 4,
+            "headline": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
+            "url": "https://www.dw.com/en/global-pedestrian-karl-bushby-returns-home-to-uk-after-28-year-trek/a-79829564?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1291,7 +2497,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
@@ -1299,29 +2505,18 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Macklemore concludes ‘Free Palestine’ tour with solidarity message",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/macklemore-concludes-free-palestine-tour-with-solidarity-message?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Zeyne thanks Macklemore for Free Palestine tour",
-        "url": "https://www.arabnews.com/lifestyle/zeyne-thanks-macklemore-for-free-palestine-tour-3009224",
+        "evidenceIndex": 5,
+        "headline": "British adventurer Karl Bushby returns home after 28-year walk around world",
+        "url": "https://www.aljazeera.com/news/2026/11/2/british-adventurer-karl-bushby-returns-home-after-28-year-walk-around-world?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Free Palestine",
-        "Macklemore",
-        "London",
-        "Zeyne"
+        "British",
+        "Karl Bushby",
+        "Global"
       ],
       "attempts": [
         {
@@ -1407,21 +2602,18 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c8cxvke",
+    "id": "c1smyeex",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 1,
-        "India": 1,
+        "India": 0,
         "Europe": 1
       },
       "matched": {
         "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "India": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
@@ -1429,144 +2621,55 @@
         ]
       }
     },
-    "firstSeen": "2026-10-30T01:25:51.000Z",
-    "lastSeen": "2026-11-02T00:00:00.000Z",
-    "outletCount": 7,
+    "firstSeen": "2026-11-01T23:33:22.000Z",
+    "lastSeen": "2026-11-02T10:56:00.000Z",
+    "outletCount": 3,
     "outlets": [
+      "Guardian US",
       "Globe and Mail",
-      "OpIndia",
-      "Euronews",
-      "Deutsche Welle",
-      "Brussels Signal",
-      "South China Morning Post",
-      "Taipei Times"
+      "Deutsche Welle"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3644503503325589,
-      "max": 0.5715768547323261,
-      "pairs": 8,
+      "min": 0.36352251910177524,
+      "max": 0.48790042119974864,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "Guardian US",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Hackers steal $6.3-billion from Binance in record heist blamed on North Korea",
-        "u": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/",
-        "publishedAt": "2026-10-30T13:16:21.000Z",
-        "retrievedAt": "2026-11-01T17:48:02.638Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This was a complex attack, and we are doing all we can in coordination with law enforcement to resolve it,” Binance said in a post on X .",
-          "“This incident is almost certainly the single largest known theft of any kind,” Elliptic said.",
-          "Abu Dhabi’s Financial Services Regulatory Authority, which issued Binance’s main operating licence, said it was “engaging closely with Binance and monitoring the incident”."
-        ],
-        "figures": [
-          {
-            "value": "US$6.3",
-            "context": "Hackers stole US$6.3-billion from Binance, the world’s biggest cryptoc"
-          },
-          {
-            "value": "US$3",
-            "context": "to freeze some of the affected assets, with about US$3-billion located so far. It said earlier on Friday"
-          },
-          {
-            "value": "US$3.3",
-            "context": "s. It did not mention the status of the remaining US$3.3-billion. Binance said it had set aside about US$6"
-          },
-          {
-            "value": "US$6.34",
-            "context": "$3.3-billion. Binance said it had set aside about US$6.34-billion of company funds internally to cover the"
-          },
-          {
-            "value": "US$1",
-            "context": "where the funds had come from. The company has a US$1-billion bitcoin reserve fund designed to protect"
-          },
-          {
-            "value": "US$1",
-            "context": "t the company owned SpaceX shares worth more than US$1-billion."
-          }
-        ],
-        "wordsRead": 909
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Binance freezes assets after $6.3-billion heist, crypto industry’s biggest",
-        "u": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/",
-        "publishedAt": "2026-10-30T01:25:51.000Z",
-        "retrievedAt": "2026-11-01T17:48:02.638Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“We make this judgment with high confidence,” it said in a statement.",
-          "“It’s the biggest hack in history,” said Aravind Srinivasan, head of large crypto market maker GSR’s systematic OTC business.",
-          "“It may further dampen risk appetite and prompt investors to reassess the safety of assets held on centralized exchanges, as well as counterparty, solvency and liquidity risks,” said Tim Sun …"
-        ],
-        "figures": [
-          {
-            "value": "$6.3",
-            "context": "Hackers stole $6.3-billion from Binance, the world’s largest cryptoc"
-          },
-          {
-            "value": "$3",
-            "context": "partners to freeze the affected assets with about $3-billion located so far. It did not mention the st"
-          },
-          {
-            "value": "$3.3",
-            "context": "r. It did not mention the status of the remaining $3.3-billion, and its co-founder Yi He said the exchan"
-          }
-        ],
-        "wordsRead": 838
-      },
-      {
-        "n": "OpIndia",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "$6.3 billion Binance heist: North Korea’s notorious hacking unit suspected of pulling off world’s biggest crypto robbery, drains billions in just 20 minutes",
-        "u": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/",
-        "publishedAt": "2026-10-30T16:30:00.000Z",
-        "retrievedAt": "2026-11-01T17:48:11.108Z",
+        "t": "Burning crater seen on ground after Florida plane crash – video",
+        "u": "https://www.theguardian.com/world/video/2026/nov/02/burning-crater-florida-plane-crash-video",
+        "publishedAt": "2026-11-02T10:56:00.000Z",
+        "retrievedAt": "2026-11-02T21:34:37.189Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Euronews",
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "FBI blames North Korea for $6.3 billion Binance crypto hack",
-        "u": "https://www.euronews.com/2026/11/01/fbi-blames-north-korea-for-63-billion-binance-crypto-hack",
-        "publishedAt": "2026-11-01T08:15:37.000Z",
-        "retrievedAt": "2026-11-01T17:48:14.276Z",
+        "t": "All 9 people aboard jet that crashed in Florida have died, U.S. transportation secretary says",
+        "u": "https://www.theglobeandmail.com/world/article-all-9-people-aboard-jet-that-crashed-in-florida-have-died-us/",
+        "publishedAt": "2026-11-01T23:33:22.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"The Federal Bureau of Investigation (FBI) is releasing information advising the Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in …"
+          "“It was a cataclysmic plane crash,” DeSantis told reporters at the scene.",
+          "“We have light, clear ice that is manageable and moderate turbulence,” the pilot told controllers.",
+          "“We’re descending 8,000 – mayday, mayday – we’re descending 10,000 feet per minute,” the pilot radioed."
         ],
-        "figures": [
-          {
-            "value": "$6.3 billion",
-            "context": "hackers gain access to its hot wallets and steal $6.3 billion in digital assets. \"The Federal Bureau of Investi"
-          },
-          {
-            "value": "$6 billion",
-            "context": "Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchang"
-          }
-        ],
-        "wordsRead": 336
+        "figures": [],
+        "wordsRead": 667
       },
       {
         "n": "Deutsche Welle",
@@ -1575,101 +2678,35 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "FBI says North Korea behind $6 billion Binance crypto theft",
-        "u": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-01T07:33:00.000Z",
-        "retrievedAt": "2026-11-01T17:48:19.985Z",
+        "t": "US: 9 killed in Florida jet crash",
+        "u": "https://www.dw.com/en/us-9-killed-in-florida-jet-crash/a-79825921?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-02T07:46:00.000Z",
+        "retrievedAt": "2026-11-02T21:35:12.048Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"The Democratic People's Republic of Korea (North Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchange Binance, on or about October …",
-          "The agency said it had \"observed TraderTraitor actors converting stolen assets\" primarily into …"
+          "\"We're going to crash into ⁠the ground\" the voice from the cockpit says and then goes on to report that the descent was at 22,000 feet and the plane was …",
+          "A person from the plane's cockpit is heard saying \"Mayday, mayday, we are descending 10,000 feet per minute.\""
         ],
-        "figures": [
-          {
-            "value": "$6 billion",
-            "context": "hat North Korea was behind the theft of more than $6 billion (€5.36 billion) in virtual assets from the crypto"
-          },
-          {
-            "value": "€5.36 billion",
-            "context": "rea was behind the theft of more than $6 billion (€5.36 billion) in virtual assets from the cryptocurrency exchan"
-          },
-          {
-            "value": "$6 billion",
-            "context": "Korea) was responsible for the theft of more than $6 billion USD in virtual assets from cryptocurrency exchang"
-          }
-        ],
-        "wordsRead": 442
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "North Korean hackers steal €5.85 billion from Binance",
-        "u": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/",
-        "publishedAt": "2026-10-30T10:21:47.000Z",
-        "retrievedAt": "2026-11-01T17:48:27.871Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A Binance spokesperson said the company was “working closely with our law enforcement partners to confirm the identity of the criminals and bring them to justice”.",
-          "Binance, the world’s largest cryptocurrency exchange, has been struck by a cyberattack in which state-backed North Korean operatives drained roughly $6.36 billion (€5.85 billion) in digital assets across 10 distinct …",
-          "Tether moved first, at 9.01pm UTC, according to TRM Labs."
-        ],
-        "figures": [
-          {
-            "value": "$6.36 billion",
-            "context": "te-backed North Korean operatives drained roughly $6.36 billion (€5.85 billion) in digital assets across 10 disti"
-          },
-          {
-            "value": "€5.85 billion",
-            "context": "Korean operatives drained roughly $6.36 billion (€5.85 billion) in digital assets across 10 distinct blockchains"
-          },
-          {
-            "value": "$1.5 billion",
-            "context": "the digital asset industry, about four times the $1.5 billion (€1.38 billion) taken from Dubai-based exchange B"
-          },
-          {
-            "value": "€1.38 billion",
-            "context": "sset industry, about four times the $1.5 billion (€1.38 billion) taken from Dubai-based exchange Bybit in Februar"
-          }
-        ],
-        "wordsRead": 1088
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
-        "publishedAt": "2026-10-31T23:49:22.000Z",
-        "retrievedAt": "2026-11-01T17:48:42.097Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "N Korea behind US$6bn crypto theft, FBI says",
-        "u": "https://www.taipeitimes.com/News/biz/archives/2026/11/02/2003866975",
-        "publishedAt": "2026-11-02T00:00:00.000Z",
-        "retrievedAt": "2026-11-01T17:48:45.011Z",
-        "read": "headline only"
+        "figures": [],
+        "wordsRead": 511
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Burning crater seen on ground after Florida plane crash – video",
+            "url": "https://www.theguardian.com/world/video/2026/nov/02/burning-crater-florida-plane-crash-video"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1681,36 +2718,18 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Hackers steal $6.3-billion from Binance in record heist blamed on North Korea",
-            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
             "evidenceIndex": 1,
-            "headline": "Binance freezes assets after $6.3-billion heist, crypto industry’s biggest",
-            "url": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "FBI blames North Korea for $6.3 billion Binance crypto hack",
-            "url": "https://www.euronews.com/2026/11/01/fbi-blames-north-korea-for-63-billion-binance-crypto-hack"
+            "headline": "All 9 people aboard jet that crashed in Florida have died, U.S. transportation secretary says",
+            "url": "https://www.theglobeandmail.com/world/article-all-9-people-aboard-jet-that-crashed-in-florida-have-died-us/"
           },
           {
             "outlet": "Deutsche Welle",
             "outletId": "dw",
             "lean": "centre",
             "country": "DE",
-            "evidenceIndex": 4,
-            "headline": "FBI says North Korea behind $6 billion Binance crypto theft",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
+            "evidenceIndex": 2,
+            "headline": "US: 9 killed in Florida jet crash",
+            "url": "https://www.dw.com/en/us-9-killed-in-florida-jet-crash/a-79825921?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -1719,27 +2738,8 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "OpIndia",
-            "outletId": "opindia",
-            "lean": "right",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "$6.3 billion Binance heist: North Korea’s notorious hacking unit suspected of pulling off world’s biggest crypto robbery, drains billions in just 20 minutes",
-            "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 5,
-            "headline": "North Korean hackers steal €5.85 billion from Binance",
-            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -1747,36 +2747,12 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 6,
-        "headline": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 7,
-        "headline": "N Korea behind US$6bn crypto theft, FBI says",
-        "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/02/2003866975",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Binance",
-        "North Korea",
-        "North Korean",
-        "Hackers",
-        "Korea"
+        "Florida",
+        "Burning"
       ],
       "attempts": [
         {
@@ -1785,11 +2761,8 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Binance",
-            "North Korea",
-            "North Korean",
-            "Hackers",
-            "Korea"
+            "Florida",
+            "Burning"
           ]
         },
         {
@@ -1858,148 +2831,23 @@
     },
     "disputedCandidates": [
       {
-        "kind": "currency",
+        "kind": "count",
         "about": [
-          "binance",
-          "heist"
+          "mayday",
+          "feet",
+          "minute"
         ],
-        "spread": 1,
+        "spread": 0.2,
         "readings": [
           {
             "outlet": "Globe and Mail",
-            "value": "$6.3",
-            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
-          },
-          {
-            "outlet": "OpIndia",
-            "value": "$6.3 billion",
-            "url": "https://www.opindia.com/2026/10/6-3-billion-binance-heist-north-korea-notorious-hacking-unit-suspected-of-pulling-off-worlds-biggest-crypto-robbery/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "from",
-          "binance"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "$6.3",
-            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
+            "value": "8,000",
+            "url": "https://www.theglobeandmail.com/world/article-all-9-people-aboard-jet-that-crashed-in-florida-have-died-us/"
           },
           {
             "outlet": "Deutsche Welle",
-            "value": "$6 billion",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "billion",
-          "from"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "$6.3",
-            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "value": "$1.5 billion",
-            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "binance",
-          "said"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "$3.3",
-            "url": "https://www.theglobeandmail.com/business/international-business/us-business/article-hackers-steal-63-billion-from-binance-in-record-heist-blamed-on-north/"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "value": "$6 billion",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "from",
-          "exchange"
-        ],
-        "spread": 0.75,
-        "readings": [
-          {
-            "outlet": "Deutsche Welle",
-            "value": "$6 billion",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "value": "$1.5 billion",
-            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "from",
-          "theft"
-        ],
-        "spread": 0.084,
-        "readings": [
-          {
-            "outlet": "Deutsche Welle",
-            "value": "€5.36 billion",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "value": "€5.85 billion",
-            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "billion",
-          "assets"
-        ],
-        "spread": 0.057,
-        "readings": [
-          {
-            "outlet": "Deutsche Welle",
-            "value": "$6 billion",
-            "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf"
-          },
-          {
-            "outlet": "Brussels Signal",
-            "value": "$6.36 billion",
-            "url": "https://brusselssignal.eu/2026/10/north-korean-hackers-steal-e5-85-billion-from-binance/"
+            "value": "10,000",
+            "url": "https://www.dw.com/en/us-9-killed-in-florida-jet-crash/a-79825921?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
@@ -2017,679 +2865,78 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1j08q4x",
+    "id": "c1x9atd",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-01T11:21:33.000Z",
-    "lastSeen": "2026-11-01T17:07:54.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "BBC News",
-      "Haaretz",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3635293682877679,
-      "max": 0.6848552778911169,
-      "pairs": 9,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli strikes in Gaza kill eight including child, hospitals say",
-        "u": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-01T17:06:32.000Z",
-        "retrievedAt": "2026-11-01T17:47:52.102Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Israeli strikes in Gaza have killed at least eight people, including a child, according to hospitals, despite a year-old ceasefire.",
-          "In Gaza City to the north, hospital officials said a missile attack hit a group of civilians …"
-        ],
-        "figures": [],
-        "wordsRead": 377
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Report: Child among nine killed in Israeli strikes in Gaza",
-        "u": "https://www.haaretz.com/gaza/2026-11-01/ty-article/.premium/report-nine-people-including-a-child-killed-in-israeli-strikes-in-gaza/000001a1-96c1-df63-ade5-f6d76ef20000",
-        "publishedAt": "2026-11-01T11:21:33.000Z",
-        "retrievedAt": "2026-11-01T17:48:31.074Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli attacks on Gaza kill at least nine people",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
-        "publishedAt": "2026-11-01T14:10:59.000Z",
-        "retrievedAt": "2026-11-01T17:48:35.560Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "At least eight Palestinians killed in Israeli attacks across Gaza",
-        "u": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
-        "publishedAt": "2026-11-01T13:36:16.000Z",
-        "retrievedAt": "2026-11-01T17:48:35.560Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Israeli forces had targeted a number of police officers while they were “performing their routine duties”, according to the Palestinian Ministry of Interior and National Security.",
-          "“It’s hard to remember a day gone by when we haven’t reported on deadly attacks across the Gaza Strip,” said Al …"
-        ],
-        "figures": [],
-        "wordsRead": 474
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli strikes kill nine people in Gaza",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-ten-people-gaza",
-        "publishedAt": "2026-11-01T17:07:54.000Z",
-        "retrievedAt": "2026-11-01T17:48:37.051Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"Occupation aircraft targeted several on-duty police officers\" …"
-        ],
-        "figures": [],
-        "wordsRead": 72
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli strikes in Gaza kill eight: civil defense, hospitals",
-        "u": "https://www.arabnews.com/middle-east/israeli-strikes-in-gaza-kill-eight-civil-defense-hospitals-3009260",
-        "publishedAt": "2026-11-01T11:29:31.000Z",
-        "retrievedAt": "2026-11-01T17:48:38.393Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "GAZA CITY, Palestinian Territories: Israeli strikes in …"
-        ],
-        "figures": [],
-        "wordsRead": 73
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 1,
-            "headline": "Report: Child among nine killed in Israeli strikes in Gaza",
-            "url": "https://www.haaretz.com/gaza/2026-11-01/ty-article/.premium/report-nine-people-including-a-child-killed-in-israeli-strikes-in-gaza/000001a1-96c1-df63-ade5-f6d76ef20000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 4,
-            "headline": "Israeli strikes kill nine people in Gaza",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-ten-people-gaza"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Israeli strikes in Gaza kill eight including child, hospitals say",
-            "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "Israeli attacks on Gaza kill at least nine people",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-attacks-on-gaza-kill-at-least-nine-people?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "At least eight Palestinians killed in Israeli attacks across Gaza",
-        "url": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 5,
-        "headline": "Israeli strikes in Gaza kill eight: civil defense, hospitals",
-        "url": "https://www.arabnews.com/middle-east/israeli-strikes-in-gaza-kill-eight-civil-defense-hospitals-3009260",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Israeli",
-        "Gaza",
-        "Palestinians",
-        "Report",
-        "Child"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cag5u8c",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-31T20:24:33.000Z",
-    "lastSeen": "2026-11-01T17:33:38.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "BBC News",
-      "Washington Examiner",
-      "The Daily Caller",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.43295646153305306,
-      "max": 0.6477819750247924,
-      "pairs": 6,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-        "u": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-01T00:41:24.000Z",
-        "retrievedAt": "2026-11-01T17:47:52.102Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In his 20-page ruling, Gayles noted the paper's \"thoughtful and detailed ​investigation\" that led to the story and said the lawsuit was \"grasping at ‌straws\" to \"manufacture flaws\" in their …",
-          "Trump's legal team had argued that because Trump denied writing the letter when contacted by the Journal, the …"
-        ],
-        "figures": [
-          {
-            "value": "$10bn",
-            "context": "US judge has thrown out President Donald Trump's $10bn (£7.4bn) lawsuit against The Wall Street Journal,"
-          },
-          {
-            "value": "£7.4bn",
-            "context": "ge has thrown out President Donald Trump's $10bn (£7.4bn) lawsuit against The Wall Street Journal, ruling"
-          },
-          {
-            "value": "$20 billion",
-            "context": "ce dismissed the defamation lawsuit, which sought $20 billion in damages. Trump's team refiled the suit seeking"
-          },
-          {
-            "value": "$10 billion",
-            "context": "in damages. Trump's team refiled the suit seeking $10 billion, and this time, the judge threw out the case \"wit"
-          }
-        ],
-        "wordsRead": 498
-      },
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Judge permanently tosses Trump suit against Wall Street Journal over Epstein letter",
-        "u": "https://www.washingtonexaminer.com/news/white-house/4787237/judge-trump-lawsuit-wall-street-journal-epstein-letter/",
-        "publishedAt": "2026-11-01T14:39:15.000Z",
-        "retrievedAt": "2026-11-01T17:47:56.628Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Gayles dismissed President Donald Trump’s lawsuit against the Wall …"
-        ],
-        "figures": [],
-        "wordsRead": 90
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Federal Judge Dismisses Trump’s $10 Billion Lawsuit Against Wall Street Journal - With Prejudice",
-        "u": "https://dailycaller.com/2026/11/01/trump-wsj-epstein-defamation-suit-dismissed-prejudice",
-        "publishedAt": "2026-11-01T17:33:38.000Z",
-        "retrievedAt": "2026-11-01T17:48:00.992Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“President Trump will continue to press forward in his powerhouse lawsuit against the Wall Street Journal and all of the other defendants,” a spokesperson for the legal team told CBS …",
-          "District Judge Darrin Gayles …"
-        ],
-        "figures": [
-          {
-            "value": "$10 billion",
-            "context": "tly shut down Republican President Donald Trump’s $10 billion defamation suit against The Wall Street Journal."
-          }
-        ],
-        "wordsRead": 351
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Judge throws out Trump lawsuit against Wall Street Journal over Epstein birthday letter",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
-        "publishedAt": "2026-10-31T20:24:33.000Z",
-        "retrievedAt": "2026-11-01T17:48:42.097Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-            "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Examiner",
-            "outletId": "washexaminer",
-            "lean": "lean_right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Judge permanently tosses Trump suit against Wall Street Journal over Epstein letter",
-            "url": "https://www.washingtonexaminer.com/news/white-house/4787237/judge-trump-lawsuit-wall-street-journal-epstein-letter/"
-          },
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Federal Judge Dismisses Trump’s $10 Billion Lawsuit Against Wall Street Journal - With Prejudice",
-            "url": "https://dailycaller.com/2026/11/01/trump-wsj-epstein-defamation-suit-dismissed-prejudice"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "Judge throws out Trump lawsuit against Wall Street Journal over Epstein birthday letter",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Wall Street Journal",
-        "Epstein",
-        "Judge",
-        "Trump",
-        "Federal Judge Dismisses Trump",
-        "Billion Lawsuit Against Wall"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Wall Street Journal",
-            "Epstein",
-            "Judge",
-            "Trump",
-            "Federal Judge Dismisses Trump",
-            "Billion Lawsuit Against Wall"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c552qh3",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 0
       },
-      "matched": {}
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-11-01T16:24:18.000Z",
-    "lastSeen": "2026-11-01T17:03:24.000Z",
+    "firstSeen": "2026-11-02T12:13:54.000Z",
+    "lastSeen": "2026-11-02T20:14:49.000Z",
     "outletCount": 3,
     "outlets": [
-      "Guardian US",
-      "Arab News",
+      "Globe and Mail",
+      "Al Jazeera",
       "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.43214098930348105,
-      "max": 0.807931809874114,
+      "min": 0.4312035132702313,
+      "max": 0.47024346287276464,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Multiple shootings in Dallas leave four dead and 15 injured on Halloween night",
-        "u": "https://www.theguardian.com/us-news/2026/nov/01/shootings-halloween-night-dallas-birmingham",
-        "publishedAt": "2026-11-01T16:24:18.000Z",
-        "retrievedAt": "2026-11-01T17:47:47.075Z",
+        "t": "Lindsay Clancy returns to court for hearing that could determine potential murder retrial",
+        "u": "https://www.theglobeandmail.com/world/article-lindsay-clancy-court-hearing-potential-murder-retrial/",
+        "publishedAt": "2026-11-02T12:13:54.000Z",
+        "retrievedAt": "2026-11-02T21:34:50.956Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The police chief, Daniel Comeaux, said police are still trying to determine if the shootings in the Deep Ellum neighborhood were related.",
-          "“We are interviewing some individuals right now that we have arrested, still trying to …"
+          "Kevin Reddington, another of Clancy’s lawyers, said she is entitled to know whether “they’re going to take a run at her again” with a second trial.",
+          "Assistant District Attorney Jennifer Sprague said prosecutors intend to retry Clancy but will wait to see how the judge rules on several pending motions to “decide what that looks like.”",
+          "“I am not going to have this woman sit incarcerated for the next year or two …"
         ],
         "figures": [],
-        "wordsRead": 360
+        "wordsRead": 724
       },
       {
-        "n": "Arab News",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Dozens injured, at least 6 dead in Halloween weekend gun violence at nightlife districts across US",
-        "u": "https://www.arabnews.com/world/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-us-3009286",
-        "publishedAt": "2026-11-01T17:03:24.000Z",
-        "retrievedAt": "2026-11-01T17:48:38.393Z",
-        "read": "headline and feed excerpt"
+        "t": "Lindsay Clancy back in court seeking to have murder charges dismissed",
+        "u": "https://www.aljazeera.com/news/2026/11/2/lindsay-clancy-in-court-to-drop-child-murder-charges-after-mistrial?traffic_source=rss",
+        "publishedAt": "2026-11-02T19:11:37.000Z",
+        "retrievedAt": "2026-11-02T21:35:25.269Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“It is clear from the record this ⁠⁠juror did not refuse to deliberate,” Sprague said.",
+          "Prosecutors said they intend to retry Clancy if the case moves forward but have not decided if she would face the same first-degree murder charges.",
+          "Clancy has never disputed killing her three young children in 2023 …"
+        ],
+        "figures": [],
+        "wordsRead": 514
       },
       {
         "n": "South China Morning Post",
@@ -2698,41 +2945,36 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "6 dead, dozens injured in Halloween weekend gun violence across US",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
-        "publishedAt": "2026-11-01T17:02:08.000Z",
-        "retrievedAt": "2026-11-01T17:48:42.097Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Police in Dallas, the site of the deadliest violence …"
-        ],
-        "figures": [],
-        "wordsRead": 94
+        "t": "Lindsay Clancy back in court in bid to dismiss charges she killed her 3 young children",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
+        "publishedAt": "2026-11-02T20:14:49.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Multiple shootings in Dallas leave four dead and 15 injured on Halloween night",
-            "url": "https://www.theguardian.com/us-news/2026/nov/01/shootings-halloween-night-dallas-birmingham"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Lindsay Clancy returns to court for hearing that could determine potential murder retrial",
+            "url": "https://www.theglobeandmail.com/world/article-lindsay-clancy-court-hearing-potential-murder-retrial/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -2750,13 +2992,13 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
+        "country": "QA",
         "evidenceIndex": 1,
-        "headline": "Dozens injured, at least 6 dead in Halloween weekend gun violence at nightlife districts across US",
-        "url": "https://www.arabnews.com/world/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-us-3009286",
+        "headline": "Lindsay Clancy back in court seeking to have murder charges dismissed",
+        "url": "https://www.aljazeera.com/news/2026/11/2/lindsay-clancy-in-court-to-drop-child-murder-charges-after-mistrial?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2765,31 +3007,22 @@
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 2,
-        "headline": "6 dead, dozens injured in Halloween weekend gun violence across US",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
+        "headline": "Lindsay Clancy back in court in bid to dismiss charges she killed her 3 young children",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Halloween",
-        "Multiple",
-        "Dallas",
-        "Dozens"
+        "Lindsay Clancy"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Halloween",
-            "Multiple",
-            "Dallas",
-            "Dozens"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -2868,63 +3101,101 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1aax1lh",
+    "id": "c1xpt505",
     "regions": [
+      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 0
+        "Europe": 4
       },
-      "matched": {}
+      "matched": {
+        "Europe": [
+          "belgium",
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-11-01T04:20:12.000Z",
-    "lastSeen": "2026-11-02T00:00:00.000Z",
+    "firstSeen": "2026-11-02T08:58:14.000Z",
+    "lastSeen": "2026-11-02T15:09:17.000Z",
     "outletCount": 3,
     "outlets": [
-      "Arab News",
-      "South China Morning Post",
-      "Taipei Times"
+      "Politico Europe",
+      "Brussels Signal",
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.47322761159951576,
-      "max": 0.7507878713344157,
-      "pairs": 2,
+      "min": 0.4728579358215783,
+      "max": 0.7499338235039358,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "Politico Europe",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "‘Air-con nation’ Singapore eyes alternatives to cool down",
-        "u": "https://www.arabnews.com/offbeat/air-con-nation-singapore-eyes-alternatives-to-cool-down-3009213",
-        "publishedAt": "2026-11-01T04:20:12.000Z",
-        "retrievedAt": "2026-11-01T17:48:38.393Z",
+        "t": "King mulls De Wever’s resignation as Belgian budget talks fail",
+        "u": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-02T08:58:14.000Z",
+        "retrievedAt": "2026-11-02T21:35:08.414Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Everybody’s more used to having air-conditioned office spaces, so for them to suddenly accept 26 degrees, I think the mindset shift has not reached a threshold where it’s generally accepted …",
-          "“We didn’t even realize how different the air cooling system is because it was very seamless, and in terms of the temperature, ideal for everybody in the office,” she said.",
-          "No one really commented about it,” she told AFP."
+          "After De Wever offered his resignation Monday morning, the palace said the king was “postponing his decision” and “will begin consultations tomorrow with the party leaders of the various coalition …",
+          "There were still “far too many taxes …"
         ],
         "figures": [
           {
-            "value": "99 percent",
-            "context": "ioner ownership rate in Southeast Asia, with about 99 percent of private residences equipped with cooling units"
+            "value": "€10 billion",
+            "context": "ts by his coalition government to agree to plug a €10 billion budget gap. In an 11th-hour attempt to reach …"
           },
           {
-            "value": "60 percent",
-            "context": "emissions, while cooling itself accounts for 40 to 60 percent of a building’s energy consumption, according to"
+            "value": "5.2 %",
+            "context": "its European obligations. Belgium had a deficit of 5.2 % of GDP in 2025, which is expected to rise further"
           }
         ],
-        "wordsRead": 845
+        "wordsRead": 385
+      },
+      {
+        "n": "Brussels Signal",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Belgian Government faces collapse as budget talks break down",
+        "u": "https://brusselssignal.eu/2026/11/belgian-government-faces-collapse-as-budget-talks-break-down/",
+        "publishedAt": "2026-11-02T09:53:26.000Z",
+        "retrievedAt": "2026-11-02T21:35:17.561Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Les Engagés said €1 billion from the “strongest shoulders” was its minimum.",
+          "MR Deputy Prime Minister David Clarinval said there had been too much tax in the package, which VRT reported included more than €3 billion in levies.",
+          "According to the National Bank of Belgium, the deficit reached 5.2 per cent of GDP in 2025, while debt stood at about 108 per cent, far above the EU’s …"
+        ],
+        "figures": [
+          {
+            "value": "€10 billion",
+            "context": "as spent months trying to agree how to find about €10 billion in savings by 2029. The dispute pitted Vooruit …"
+          },
+          {
+            "value": "€1.5 billion",
+            "context": "anted the wealthiest Belgians to contribute about €1.5 billion, against MR and the N-VA, which resisted new taxe"
+          },
+          {
+            "value": "€1 billion",
+            "context": "N-VA, which resisted new taxes. Les Engagés said €1 billion from the “strongest shoulders” was its minimum."
+          }
+        ],
+        "wordsRead": 677
       },
       {
         "n": "South China Morning Post",
@@ -2933,327 +3204,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Singapore turns up heat on power-hungry air conditioning with cool revolution",
-        "u": "https://www.scmp.com/news/asia/southeast-asia/article/3372868/singapore-turns-heat-power-hungry-air-conditioning-cool-revolution",
-        "publishedAt": "2026-11-01T05:34:21.000Z",
-        "retrievedAt": "2026-11-01T17:48:42.097Z",
+        "t": "Belgian government on the brink after budget talks collapse",
+        "u": "https://www.scmp.com/news/world/europe/article/3373036/belgian-government-brink-after-budget-talks-collapse",
+        "publishedAt": "2026-11-02T15:09:17.000Z",
+        "retrievedAt": "2026-11-02T21:35:32.840Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Singapore’s local building sector accounts for one-fifth …"
-        ],
-        "figures": [
-          {
-            "value": "99 per cent",
-            "context": "ioner ownership rate in Southeast Asia, with about 99 per cent of private residences equipped with cooling units"
-          },
-          {
-            "value": "60 per cent",
-            "context": "emissions, while cooling itself accounts for 40 to 60 per cent of a building’s energy consumption, according to"
-          }
-        ],
-        "wordsRead": 79
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "‘Air-con nation’ Singapore eyes alternatives to cool off",
-        "u": "https://www.taipeitimes.com/News/world/archives/2026/11/02/2003867018",
-        "publishedAt": "2026-11-02T00:00:00.000Z",
-        "retrievedAt": "2026-11-01T17:48:45.011Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The report in question is based on groundless speculation and is nothing more than an attempt to smear China,” Chinese Ministry of Foreign Affairs spokesman Guo Jiakun (郭嘉昆) told a …",
-          "Singapore’s local building sector accounts for one-fifth of its emissions, while cooling itself accounts for 40 to 60 percent of a building’s energy consumption, according to studies.",
-          "The city-state has an ambitious goal to achieve net zero carbon emissions by 2050."
-        ],
-        "figures": [
-          {
-            "value": "99 percent",
-            "context": "ioner ownership rate in Southeast Asia, with about 99 percent of private residences equipped with cooling units"
-          },
-          {
-            "value": "60 percent",
-            "context": "emissions, while cooling itself accounts for 40 to 60 percent of a building’s energy consumption, according to"
-          }
-        ],
-        "wordsRead": 927
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 0 of 3 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 0,
-        "headline": "‘Air-con nation’ Singapore eyes alternatives to cool down",
-        "url": "https://www.arabnews.com/offbeat/air-con-nation-singapore-eyes-alternatives-to-cool-down-3009213",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 1,
-        "headline": "Singapore turns up heat on power-hungry air conditioning with cool revolution",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372868/singapore-turns-heat-power-hungry-air-conditioning-cool-revolution",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 2,
-        "headline": "‘Air-con nation’ Singapore eyes alternatives to cool off",
-        "url": "https://www.taipeitimes.com/News/world/archives/2026/11/02/2003867018",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Singapore",
-        "Air-con"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1pfbtki",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 2
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "european",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-10-30T21:15:10.000Z",
-    "lastSeen": "2026-11-01T15:24:08.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Globe and Mail",
-      "Politico Europe",
-      "Al Jazeera"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3922647315279001,
-      "max": 0.5144475735044625,
-      "pairs": 4,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Calls for Britain to pay reparations for slave trade grow as King Charles visits Caribbean",
-        "u": "https://www.theglobeandmail.com/world/article-britain-pay-reparations-slave-trade-king-charles-visit-caribbean/",
-        "publishedAt": "2026-10-30T21:15:10.000Z",
-        "retrievedAt": "2026-11-01T17:48:02.638Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It is only right that we should acknowledge the great suffering of the past in these islands and beyond,” he said during a recent event in the Bahamas.",
-          "“What matters is the law as it stood at the time of the act, not at the time of its remote consequences,” he wrote in the London Times.",
-          "“It’s going to be a very interesting few days,” said Mr."
+          "The Royal Palace said the king would …"
         ],
         "figures": [],
-        "wordsRead": 1044
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Burnham ‘open’ to formal apology for Britain’s role in slavery, but rules out reparations",
-        "u": "https://www.theglobeandmail.com/world/article-burnham-open-to-formal-apology-for-britains-role-in-slavery-but-rules/",
-        "publishedAt": "2026-10-31T11:56:01.000Z",
-        "retrievedAt": "2026-11-01T17:48:02.638Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Writing in the Guardian newspaper, Burnham said Britain was “offering a structured dialogue with those affected by the transatlantic slave trade,” in which at least 12.5 million Africans were abducted …"
-        ],
-        "figures": [
-          {
-            "value": "12.5 million",
-            "context": "the transatlantic slave trade,” in which at least 12.5 million Africans were abducted and sold into slavery. “Li"
-          },
-          {
-            "value": "3.2 million",
-            "context": "an traders, with Britain transporting an estimated 3.2 million people across the Atlantic, according to the Tran"
-          }
-        ],
-        "wordsRead": 322
-      },
-      {
-        "n": "Politico Europe",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Burnham ‘open’ to formal apology for Britain’s slave trade",
-        "u": "https://www.politico.eu/article/andy-burnham-open-to-formal-apology-for-britain-slave-trade/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-        "publishedAt": "2026-10-31T12:55:45.000Z",
-        "retrievedAt": "2026-11-01T17:48:15.725Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I do not think that British people today can be held liable for historical wrongs, however heinous, that happened in a different age …"
-        ],
-        "figures": [],
-        "wordsRead": 235
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Burnham ‘open’ to UK slavery apology, but not reparations: Why now?",
-        "u": "https://www.aljazeera.com/news/2026/11/1/burnham-open-to-uk-slavery-apology-but-not-reparations-why-now?traffic_source=rss",
-        "publishedAt": "2026-11-01T15:24:08.000Z",
-        "retrievedAt": "2026-11-01T17:48:35.560Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I want to express my sorrow and regret for the pain and suffering of so many millions of people, and to recognise the way it still shapes our world today,” …",
-          "“In an increasingly divided and dangerous world, our family of nations in the Commonwealth is vital to our interests,” he wrote, adding that Britain “can seize opportunities for trade and …",
-          "list 2 of 4 King Charles’s Caribbean tour: Will he discuss slavery reparations?"
-        ],
-        "figures": [],
-        "wordsRead": 1202
+        "wordsRead": 78
       }
     ],
     "views": [
@@ -3269,31 +3229,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Calls for Britain to pay reparations for slave trade grow as King Charles visits Caribbean",
-            "url": "https://www.theglobeandmail.com/world/article-britain-pay-reparations-slave-trade-king-charles-visit-caribbean/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Burnham ‘open’ to formal apology for Britain’s role in slavery, but rules out reparations",
-            "url": "https://www.theglobeandmail.com/world/article-burnham-open-to-formal-apology-for-britains-role-in-slavery-but-rules/"
-          },
-          {
             "outlet": "Politico Europe",
             "outletId": "politico-eu",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "Burnham ‘open’ to formal apology for Britain’s slave trade",
-            "url": "https://www.politico.eu/article/andy-burnham-open-to-formal-apology-for-britain-slave-trade/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+            "evidenceIndex": 0,
+            "headline": "King mulls De Wever’s resignation as Belgian budget talks fail",
+            "url": "https://www.politico.eu/article/belgian-government-in-crisis-over-failed-budget-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -3302,36 +3244,44 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Brussels Signal",
+            "outletId": "brusselssig",
+            "lean": "right",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Belgian Government faces collapse as budget talks break down",
+            "url": "https://brusselssignal.eu/2026/11/belgian-government-faces-collapse-as-budget-talks-break-down/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
         "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Burnham ‘open’ to UK slavery apology, but not reparations: Why now?",
-        "url": "https://www.aljazeera.com/news/2026/11/1/burnham-open-to-uk-slavery-apology-but-not-reparations-why-now?traffic_source=rss",
+        "country": "HK",
+        "evidenceIndex": 2,
+        "headline": "Belgian government on the brink after budget talks collapse",
+        "url": "https://www.scmp.com/news/world/europe/article/3373036/belgian-government-brink-after-budget-talks-collapse",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Britain",
-        "Burnham",
-        "King Charles",
-        "Caribbean",
-        "Calls"
+        "Belgian",
+        "Belgian Government",
+        "De Wever",
+        "King"
       ],
       "attempts": [
         {
