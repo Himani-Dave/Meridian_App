@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-02T21:34:33.096Z",
-  "finishedAt": "2026-11-02T21:39:16.954Z",
+  "startedAt": "2026-11-03T19:18:18.654Z",
+  "finishedAt": "2026-11-03T19:22:58.835Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,23 +17,23 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 976,
-    "totalItems": 971,
-    "clusters": 894,
+    "rssItems": 1036,
+    "totalItems": 1030,
+    "clusters": 946,
     "candidates": 12,
-    "articlesRead": 35
+    "articlesRead": 39
   },
   "balance": {
-    "left": 6,
-    "centre": 8,
-    "right": 3,
+    "left": 8,
+    "centre": 7,
+    "right": 7,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
@@ -43,18 +43,18 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 48
+      "availableInRegion": 37
     }
   },
   "starvedSides": [],
   "notes": [
-    "36 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "25 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -79,6 +79,12 @@
       "layer": "discovery",
       "source": "CBC News",
       "id": "cbc",
+      "reason": "feed url not verified yet; skipped"
+    },
+    {
+      "layer": "discovery",
+      "source": "National Post",
+      "id": "natpost",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -149,15 +155,8 @@
     },
     {
       "layer": "discovery",
-      "source": "National Post",
-      "id": "natpost",
-      "url": "https://nationalpost.com/feed",
-      "reason": "HTTP 402"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
@@ -167,55 +166,61 @@
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/11/bmc-deletes-dia-mirzas-anti-cracker-video-after-backlash-a-look-at-her-history-of-performative-environmental-activism/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373043/russia-bombs-aid-centre-and-shelter-southern-ukraine-killing-24-authorities-say",
-      "reason": "HTTP 403"
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
+      "url": "https://www.scmp.com/news/world/africa/article/3373168/indian-navy-frees-hijacked-iranian-fishing-crew-somalia",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/nov/02/why-did-a-democrat-endorse-a-rival-republican-in-michigan-the-latest",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/11/oci-card-holder-not-indian-citizens-bombay-high-court-imran-khan-cjp-protest-unconditional-apology-leave-india-notice/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/spanish-soccer-player-dies-in-hospital-following-on-field-collision/78414",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
+      "url": "https://www.scmp.com/news/world/europe/article/3373177/spanish-police-open-manslaughter-inquiry-after-footballer-dies-pitch-clash",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/world/video/2026/nov/02/burning-crater-florida-plane-crash-video",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/trump-announces-deal-to-end-annual-us-aid-to-israel-as-americans-vote-in-midterms/78419",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-11-03/ty-article/.premium/israeli-opposition-leaders-vow-to-swiftly-oust-netanyahu-back-eisenkot-for-pm/000001a1-a0b8-db3a-a9b9-bcbd26760000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
