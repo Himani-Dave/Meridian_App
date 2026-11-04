@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-03T19:18:18.654Z",
-  "finishedAt": "2026-11-03T19:22:58.835Z",
+  "startedAt": "2026-11-04T19:35:05.429Z",
+  "finishedAt": "2026-11-04T19:38:45.229Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,44 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1036,
-    "totalItems": 1030,
-    "clusters": 946,
+    "rssItems": 1067,
+    "totalItems": 1063,
+    "clusters": 987,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 41
   },
   "balance": {
-    "left": 8,
-    "centre": 7,
-    "right": 7,
+    "left": 6,
+    "centre": 11,
+    "right": 3,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 3
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 37
+      "availableInRegion": 36
     }
   },
   "starvedSides": [],
   "notes": [
-    "25 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -166,61 +167,43 @@
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
-      "reason": "timeout after 20000ms"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3373168/indian-navy-frees-hijacked-iranian-fishing-crew-somalia",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/11/oci-card-holder-not-indian-citizens-bombay-high-court-imran-khan-cjp-protest-unconditional-apology-leave-india-notice/",
+      "url": "https://www.scmp.com/news/world/europe/article/3373302/needles-nails-pins-found-halloween-sweets-across-austria-germany",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/spanish-soccer-player-dies-in-hospital-following-on-field-collision/78414",
+      "url": "https://www.westernstandard.news/usa-news/trump-blames-iran-war-republicans-after-democratic-midterm-sweep/78473",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373177/spanish-police-open-manslaughter-inquiry-after-footballer-dies-pitch-clash",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/trump-announces-deal-to-end-annual-us-aid-to-israel-as-americans-vote-in-midterms/78419",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3373136/mid-air-helicopter-collision-nepals-everest-kills-indian-tourist",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/elections/2026-11-03/ty-article/.premium/israeli-opposition-leaders-vow-to-swiftly-oust-netanyahu-back-eisenkot-for-pm/000001a1-a0b8-db3a-a9b9-bcbd26760000",
+      "url": "https://www.haaretz.com/us-news/2026-11-04/ty-article/.premium/vance-republicans-lost-midterms-because-of-iran-war-trump-said-so-himself/000001a1-a749-d5c5-ade1-bf7f5c340000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3373307/danish-students-join-european-wave-youth-strikes-over-education-cuts",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/indonesia-deploys-20000-troops-to-capital-as-generals-probed-over-president-wiretapping-3009773",
+      "reason": "HTTP 403"
     }
   ]
 }
