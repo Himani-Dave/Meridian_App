@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-04T19:35:05.429Z",
-  "finishedAt": "2026-11-04T19:38:45.229Z",
+  "startedAt": "2026-11-05T19:44:02.202Z",
+  "finishedAt": "2026-11-05T19:50:20.385Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1067,
-    "totalItems": 1063,
-    "clusters": 987,
+    "rssItems": 1085,
+    "totalItems": 1084,
+    "clusters": 995,
     "candidates": 12,
     "articlesRead": 41
   },
   "balance": {
-    "left": 6,
-    "centre": 11,
-    "right": 3,
-    "none": 0
+    "left": 5,
+    "centre": 8,
+    "right": 5,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,26 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 36
+      "availableInRegion": 39
     }
   },
   "starvedSides": [],
   "notes": [
-    "24 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"European Union\": 24 articles, 1 from roster outlets, 23 from outlets not in the roster (discovery only, not ingested).",
+    "27 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -157,7 +158,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -165,44 +166,63 @@
       "reason": "fetch failed"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373302/needles-nails-pins-found-halloween-sweets-across-austria-germany",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373459/melania-trump-hosts-ukraine-russia-officials-calls-more-enduring-truce",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/usa-news/trump-blames-iran-war-republicans-after-democratic-midterm-sweep/78473",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/americas/article/3373458/paraguays-president-pena-resigns-under-mounting-pressure-bank-collapse",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-04/ty-article/.premium/vance-republicans-lost-midterms-because-of-iran-war-trump-said-so-himself/000001a1-a749-d5c5-ade1-bf7f5c340000",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-11-05/ty-article/.premium/in-presidential-talks-both-arab-majority-parties-endorse-eisenkot-to-form-govt/000001a1-ac3e-defa-a7f7-ac7f0e860000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/international/meghan-markles-half-brother-named-person-of-interest-in-fathers-child-pornography-probe/78513",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373307/danish-students-join-european-wave-youth-strikes-over-education-cuts",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373380/philippine-police-investigate-meghans-brother-markle-child-abuse-inquiry-widens",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Arab News",
-      "url": "https://www.arabnews.com/world/uk-ban-on-palestine-action-is-challenged-at-top-court-some-protesters-arrested-3009787",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/indonesia-deploys-20000-troops-to-capital-as-generals-probed-over-president-wiretapping-3009773",
+      "url": "https://www.arabnews.com/middle-east/israeli-settlers-move-into-homes-near-west-bank-city-3010020",
       "reason": "HTTP 403"
     }
   ]
