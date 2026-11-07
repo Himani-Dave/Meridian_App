@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-06T19:07:20.738Z",
-  "finishedAt": "2026-11-06T19:14:18.237Z",
+  "startedAt": "2026-11-07T17:38:36.512Z",
+  "finishedAt": "2026-11-07T17:46:25.440Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1055,
-    "totalItems": 1055,
-    "clusters": 933,
+    "rssItems": 994,
+    "totalItems": 993,
+    "clusters": 875,
     "candidates": 12,
-    "articlesRead": 45
+    "articlesRead": 41
   },
   "balance": {
-    "left": 7,
-    "centre": 11,
-    "right": 5,
-    "none": 0
+    "left": 8,
+    "centre": 10,
+    "right": 9,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
@@ -37,8 +37,8 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
@@ -48,15 +48,14 @@
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 55
+      "availableInRegion": 50
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 100 articles, 3 from roster outlets, 97 from outlets not in the roster (discovery only, not ingested).",
-    "43 multi-outlet clusters were left out by --max-stories 12.",
+    "38 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -166,10 +165,39 @@
       "reason": "HTTP 429"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3373637/air-indias-capital-ranked-worlds-most-polluted-eve-diwali",
+      "reason": "HTTP 403"
+    },
+    {
       "layer": "article",
       "source": "Organiser",
-      "url": "https://organiser.org/2026/11/06/424729/bharat/jharkhand/jharkhand-nisha-bhagat-a-tribal-activist-and-opponent-of-religious-conversion-dies-by-suicide-on-fb-live/",
+      "url": "https://organiser.org/2026/11/07/424925/bharat/supreme-court-issues-contempt-notice-to-keralam-congress-over-insulting-x-post-targeting-chief-justice/",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/watch-gunman-kills-five-wounds-about-a-dozen-in-krakow-poland-shooting/78580",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-11-07/ty-article/five-killed-in-shooting-in-main-square-of-polish-city-of-krakow-police-say/000001a1-b6b1-d1cd-aded-beb3cf2a0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -179,57 +207,9 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373589/eu-investigates-fraud-spain-rail-funds-after-fatal-madrid-crash",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/business/technology/video-protesters-break-into-data-centre-site-in-amsterdam/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
+      "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
       "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/who-is-kenyas-starvation-cult-leader?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3373594/kenyan-doomsday-cult-leader-jailed-200-years-murdering-191-followers",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/usa-news/breaking-meghan-markles-father-arrested-by-fbi-in-florida-amid-child-pornography-investigation/78550",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/hong-kong/politics/article/3373613/call-end-unjust-national-security-cases-hong-kong-slams-malicious-attacks",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -239,8 +219,32 @@
     },
     {
       "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/u-s-military-launches-task-force-to-restrict-irans-land-based-arms-trade/000001a1-b663-d146-ada9-fe7f731f0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373615/panda-fans-flock-zoo-atlanta-debut-ping-ping-and-fu-shuang",
+      "url": "https://www.scmp.com/news/asia/australasia/article/3373657/new-zealand-election-first-count-ends-2-main-parties-nearly-deadlocked",
       "reason": "HTTP 403"
     }
   ]
