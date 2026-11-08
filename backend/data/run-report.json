@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-07T17:38:36.512Z",
-  "finishedAt": "2026-11-07T17:46:25.440Z",
+  "startedAt": "2026-11-08T17:47:51.270Z",
+  "finishedAt": "2026-11-08T17:56:07.385Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 994,
-    "totalItems": 993,
-    "clusters": 875,
+    "rssItems": 935,
+    "totalItems": 933,
+    "clusters": 817,
     "candidates": 12,
-    "articlesRead": 41
+    "articlesRead": 48
   },
   "balance": {
-    "left": 8,
+    "left": 6,
     "centre": 10,
-    "right": 9,
-    "none": 1
+    "right": 7,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 9
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 50
+      "availableInRegion": 44
     }
   },
   "starvedSides": [],
   "notes": [
-    "38 multi-outlet clusters were left out by --max-stories 12.",
+    "32 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -157,7 +157,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -167,54 +167,42 @@
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3373637/air-indias-capital-ranked-worlds-most-polluted-eve-diwali",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/russian-attack-leaves-600000-people-without-electricity-in-eastern-ukraine-3010470",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/11/07/424925/bharat/supreme-court-issues-contempt-notice-to-keralam-congress-over-insulting-x-post-targeting-chief-justice/",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/watch-gunman-kills-five-wounds-about-a-dozen-in-krakow-poland-shooting/78580",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-11-07/ty-article/five-killed-in-shooting-in-main-square-of-polish-city-of-krakow-police-say/000001a1-b6b1-d1cd-aded-beb3cf2a0000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/could-ufc-boss-dana-white-be-next-white-house-press-secretary?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6033992/after-a-successful-trip-to-uruguay-pope-leo-heads-to-argentina",
       "reason": "timeout after 20000ms"
     },
     {
@@ -225,26 +213,20 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/u-s-military-launches-task-force-to-restrict-irans-land-based-arms-trade/000001a1-b663-d146-ada9-fe7f731f0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
+      "url": "https://www.haaretz.com/us-news/2026-11-06/ty-article/trump-names-far-right-pro-israel-stephen-miller-as-white-house-chief-of-staff/000001a1-b245-d2e9-a5ad-badf186e0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/australasia/article/3373657/new-zealand-election-first-count-ends-2-main-parties-nearly-deadlocked",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
       "reason": "HTTP 403"
     }
   ]
