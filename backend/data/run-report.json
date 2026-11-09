@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-08T17:47:51.270Z",
-  "finishedAt": "2026-11-08T17:56:07.385Z",
+  "startedAt": "2026-11-09T22:07:56.373Z",
+  "finishedAt": "2026-11-09T22:13:21.392Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 935,
-    "totalItems": 933,
-    "clusters": 817,
+    "rssItems": 951,
+    "totalItems": 947,
+    "clusters": 824,
     "candidates": 12,
-    "articlesRead": 48
+    "articlesRead": 50
   },
   "balance": {
-    "left": 6,
+    "left": 9,
     "centre": 10,
-    "right": 7,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
@@ -37,25 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 44
+      "availableInRegion": 48
     }
   },
   "starvedSides": [],
   "notes": [
-    "32 multi-outlet clusters were left out by --max-stories 12.",
+    "36 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -157,77 +157,83 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: European Union",
+      "source": "GDELT: India policy",
       "reason": "fetch failed"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "HTTP 429"
+    },
+    {
       "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/world/russian-attack-leaves-600000-people-without-electricity-in-eastern-ukraine-3010470",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-gunman-opens-fire-in-krakows-main-square-killing-at-least-six-and/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "New York Post",
+      "url": "https://pagesix.com/video/russell-brands-disturbing-joke-resurfaces-after-jail-sentence-for-rape-sexual-assault/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/09/donald-trump-kidding-about-making-ufc-boss-dana-white-us-press-secretary-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/could-ufc-boss-dana-white-be-next-white-house-press-secretary?traffic_source=rss",
+      "source": "Brussels Signal",
+      "url": "https://brusselssignal.eu/2026/11/israels-president-hands-eisenkot-mandate-to-form-government/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/08/nx-s1-6033992/after-a-successful-trip-to-uruguay-pope-leo-heads-to-argentina",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
-      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-06/ty-article/trump-names-far-right-pro-israel-stephen-miller-as-white-house-chief-of-staff/000001a1-b245-d2e9-a5ad-badf186e0000",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-11-08/ty-article/.premium/what-happens-next-the-timeline-of-eisenkots-race-to-61/000001a1-bc6d-dd01-a1e5-feff48f20000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
-      "reason": "HTTP 403"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/elections/2026-11-08/ty-article/.premium/gadi-eisenkot-officially-gets-first-chance-to-form-israels-next-government/000001a1-bba1-d903-a3b3-bbab998f0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
-      "reason": "HTTP 403"
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
