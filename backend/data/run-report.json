@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-09T22:07:56.373Z",
-  "finishedAt": "2026-11-09T22:13:21.392Z",
+  "startedAt": "2026-11-10T19:29:50.618Z",
+  "finishedAt": "2026-11-10T19:35:24.055Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 951,
-    "totalItems": 947,
-    "clusters": 824,
+    "rssItems": 1013,
+    "totalItems": 1008,
+    "clusters": 917,
     "candidates": 12,
-    "articlesRead": 50
+    "articlesRead": 37
   },
   "balance": {
-    "left": 9,
-    "centre": 10,
-    "right": 6,
-    "none": 0
+    "left": 7,
+    "centre": 11,
+    "right": 4,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 12
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 48
+      "availableInRegion": 41
     }
   },
   "starvedSides": [],
   "notes": [
-    "36 multi-outlet clusters were left out by --max-stories 12.",
+    "29 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -157,7 +157,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -167,54 +167,60 @@
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-gunman-opens-fire-in-krakows-main-square-killing-at-least-six-and/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "New York Post",
-      "url": "https://pagesix.com/video/russell-brands-disturbing-joke-resurfaces-after-jail-sentence-for-rape-sexual-assault/",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/11/10/425524/analysis/russia-ukraine-peace-talks-in-abu-dhabi-will-loud-rhetoric-by-trump-break-the-deadlock-yield-lasting-truce/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/nov/09/donald-trump-kidding-about-making-ufc-boss-dana-white-us-press-secretary-video",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373976/russia-ukraine-hold-us-backed-talks-first-time-february",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Brussels Signal",
-      "url": "https://brusselssignal.eu/2026/11/israels-president-hands-eisenkot-mandate-to-form-government/",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/elections/2026-11-08/ty-article/.premium/what-happens-next-the-timeline-of-eisenkots-race-to-61/000001a1-bc6d-dd01-a1e5-feff48f20000",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/10/its-a-farce-pete-hegseth-dismisses-impeachment-effort-against-him-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-pentagon-chief-hegseth-calls-impeachment-effort-a-farce/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -225,15 +231,21 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3373989/uk-childrens-author-david-walliams-accused-sexual-misconduct",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3373947/us-withdraws-9-military-aircraft-second-uk-airbase-after-iran-threat-reports",
+      "reason": "HTTP 403"
     }
   ]
 }
