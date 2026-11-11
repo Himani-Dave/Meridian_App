@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-10T19:29:50.618Z",
-  "finishedAt": "2026-11-10T19:35:24.055Z",
+  "startedAt": "2026-11-11T19:25:36.982Z",
+  "finishedAt": "2026-11-11T19:31:20.307Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1013,
-    "totalItems": 1008,
-    "clusters": 917,
+    "rssItems": 1045,
+    "totalItems": 1073,
+    "clusters": 956,
     "candidates": 12,
-    "articlesRead": 37
+    "articlesRead": 46
   },
   "balance": {
     "left": 7,
     "centre": 11,
     "right": 4,
-    "none": 1
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,28 @@
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 12
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 41
+      "availableInRegion": 43
     }
   },
   "starvedSides": [],
   "notes": [
-    "29 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"Canada federal\": 100 articles, 15 from roster outlets, 85 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 100 articles, 8 from roster outlets, 92 from outlets not in the roster (discovery only, not ingested).",
+    "31 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -155,24 +158,15 @@
       "reason": "no feed url in the roster"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: India policy",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3374108/sheikh-hasinas-plan-return-bangladesh-fuels-fears-renewed-unrest",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
       "reason": "timeout after 20000ms"
     },
     {
@@ -183,69 +177,63 @@
     },
     {
       "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/11/10/425524/analysis/russia-ukraine-peace-talks-in-abu-dhabi-will-loud-rhetoric-by-trump-break-the-deadlock-yield-lasting-truce/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/at-least-12-people-killed-in-bulgaria-motorway-pile-up?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373976/russia-ukraine-hold-us-backed-talks-first-time-february",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/nov/10/its-a-farce-pete-hegseth-dismisses-impeachment-effort-against-him-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-pentagon-chief-hegseth-calls-impeachment-effort-a-farce/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/elections/2026-11-08/ty-article/.premium/gadi-eisenkot-officially-gets-first-chance-to-form-israels-next-government/000001a1-bba1-d903-a3b3-bbab998f0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373989/uk-childrens-author-david-walliams-accused-sexual-misconduct",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+      "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-protesters-block-buses-during-spains-first-general-strike-in-14-years/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3373947/us-withdraws-9-military-aircraft-second-uk-airbase-after-iran-threat-reports",
+      "url": "https://www.scmp.com/news/world/europe/article/3374082/spanish-workers-stage-huge-general-strike-1st-14-years-angry-over-housing",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374046/us-treasury-chief-bessent-moved-military-base-after-iran-threats",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-nvidia-probes-whether-ceo-jensen-huang-had-affair-with-chinese-spy/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/article/3374047/nvidia-ceo-jensen-huangs-affair-everything-you-need-know",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/nov/11/trumps-10bn-bbc-battle-goes-ahead-the-latest",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374096/us-judge-rejects-bbc-bid-dismiss-trump-defamation-case",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/world-news/china-s-trade-surplus-tops-1-trn-for-2nd-straight-year-exports-jump-35-126111000109_1.html",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-polish-leaders-join-thousands-in-silent-march-to-mourn-mass-shooting/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
