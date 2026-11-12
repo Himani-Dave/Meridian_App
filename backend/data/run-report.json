@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-11T19:25:36.982Z",
-  "finishedAt": "2026-11-11T19:31:20.307Z",
+  "startedAt": "2026-11-12T19:43:06.693Z",
+  "finishedAt": "2026-11-12T19:49:39.716Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,48 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1045,
-    "totalItems": 1073,
-    "clusters": 956,
+    "rssItems": 1058,
+    "totalItems": 1056,
+    "clusters": 934,
     "candidates": 12,
-    "articlesRead": 46
+    "articlesRead": 44
   },
   "balance": {
     "left": 7,
-    "centre": 11,
-    "right": 4,
+    "centre": 12,
+    "right": 7,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 2,
-      "availableInRegion": 2
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 5
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 43
+      "availableInRegion": 35
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 15 from roster outlets, 85 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"India policy\": 100 articles, 9 from roster outlets, 91 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 100 articles, 8 from roster outlets, 92 from outlets not in the roster (discovery only, not ingested).",
-    "31 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
+    "23 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -158,15 +155,30 @@
       "reason": "no feed url in the roster"
     },
     {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/week-asia/politics/article/3374108/sheikh-hasinas-plan-return-bangladesh-fuels-fears-renewed-unrest",
-      "reason": "HTTP 403"
+      "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: India policy",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "fetch failed"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
       "reason": "timeout after 20000ms"
     },
     {
@@ -177,62 +189,68 @@
     },
     {
       "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/breaking-nvidia-ceo-jensen-huang-resigns-as-reports-of-second-affair-surface/78658",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/usa-news/trump-pulls-vance-from-iran-talks-orders-fraud-crackdown/78674",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/11/we-dont-need-a-deal-with-iran-after-midterm-defeat-trump-asks-vance-to-shift-focus-to-corruption-in-democrat-ruled-states/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-12/ty-article/.premium/trump-says-iran-deal-is-no-longer-needed-claims-u-s-has-got-their-strait/000001a1-cff5-d1ce-a9a3-eff730720000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-protesters-block-buses-during-spains-first-general-strike-in-14-years/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/nov/12/mississippi-makes-history-with-democrat-scott-coloms-senate-win-the-latest",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3374082/spanish-workers-stage-huge-general-strike-1st-14-years-angry-over-housing",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374046/us-treasury-chief-bessent-moved-military-base-after-iran-threats",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-nvidia-probes-whether-ceo-jensen-huang-had-affair-with-chinese-spy/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/article/3374047/nvidia-ceo-jensen-huangs-affair-everything-you-need-know",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374263/us-infant-survives-being-buried-alive-father-charged-attempted-murder",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/nov/11/trumps-10bn-bbc-battle-goes-ahead-the-latest",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374096/us-judge-rejects-bbc-bid-dismiss-trump-defamation-case",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/world-news/china-s-trade-surplus-tops-1-trn-for-2nd-straight-year-exports-jump-35-126111000109_1.html",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-polish-leaders-join-thousands-in-silent-march-to-mourn-mass-shooting/",
+      "url": "https://www.theguardian.com/global/video/2026/nov/12/historic-ocean-liner-sunk-off-the-coast-of-florida-to-become-artificial-reef-video",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
