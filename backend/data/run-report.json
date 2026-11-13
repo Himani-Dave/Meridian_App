@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-12T19:43:06.693Z",
-  "finishedAt": "2026-11-12T19:49:39.716Z",
+  "startedAt": "2026-11-13T19:25:22.089Z",
+  "finishedAt": "2026-11-13T19:31:18.855Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -18,16 +18,16 @@
   },
   "counts": {
     "rssItems": 1058,
-    "totalItems": 1056,
-    "clusters": 934,
+    "totalItems": 1069,
+    "clusters": 980,
     "candidates": 12,
-    "articlesRead": 44
+    "articlesRead": 40
   },
   "balance": {
     "left": 7,
-    "centre": 12,
-    "right": 7,
-    "none": 0
+    "centre": 9,
+    "right": 4,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,27 @@
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 5
+      "availableInRegion": 6
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 35
+      "availableInRegion": 39
     }
   },
   "starvedSides": [],
   "notes": [
-    "23 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"Canada federal\": 100 articles, 12 from roster outlets, 88 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 100 articles, 5 from roster outlets, 95 from outlets not in the roster (discovery only, not ingested).",
+    "27 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -156,18 +158,26 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "fetch failed"
+      "layer": "article",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/alberta-court-ruling-prompts-ottawa-to-revise-impact-assessment-act/78689",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -183,8 +193,14 @@
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -195,44 +211,8 @@
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/breaking-nvidia-ceo-jensen-huang-resigns-as-reports-of-second-affair-surface/78658",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/usa-news/trump-pulls-vance-from-iran-talks-orders-fraud-crackdown/78674",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/11/we-dont-need-a-deal-with-iran-after-midterm-defeat-trump-asks-vance-to-shift-focus-to-corruption-in-democrat-ruled-states/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-12/ty-article/.premium/trump-says-iran-deal-is-no-longer-needed-claims-u-s-has-got-their-strait/000001a1-cff5-d1ce-a9a3-eff730720000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+      "url": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -244,13 +224,13 @@
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374263/us-infant-survives-being-buried-alive-father-charged-attempted-murder",
+      "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/global/video/2026/nov/12/historic-ocean-liner-sunk-off-the-coast-of-florida-to-become-artificial-reef-video",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
