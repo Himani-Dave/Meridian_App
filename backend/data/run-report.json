@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-13T19:25:22.089Z",
-  "finishedAt": "2026-11-13T19:31:18.855Z",
+  "startedAt": "2026-11-14T17:49:23.195Z",
+  "finishedAt": "2026-11-14T17:53:04.331Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1058,
-    "totalItems": 1069,
-    "clusters": 980,
+    "rssItems": 994,
+    "totalItems": 998,
+    "clusters": 902,
     "candidates": 12,
-    "articlesRead": 40
+    "articlesRead": 38
   },
   "balance": {
-    "left": 7,
-    "centre": 9,
+    "left": 5,
+    "centre": 12,
     "right": 4,
-    "none": 1
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,27 +37,27 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 11
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 39
+      "availableInRegion": 45
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 12 from roster outlets, 88 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 100 articles, 5 from roster outlets, 95 from outlets not in the roster (discovery only, not ingested).",
-    "27 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"Canada federal\": 100 articles, 3 from roster outlets, 97 from outlets not in the roster (discovery only, not ingested).",
+    "GDELT \"European Union\": 80 articles, 4 from roster outlets, 76 from outlets not in the roster (discovery only, not ingested).",
+    "33 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -163,33 +163,33 @@
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/alberta-court-ruling-prompts-ottawa-to-revise-impact-assessment-act/78689",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
       "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
-      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
@@ -201,6 +201,18 @@
       "layer": "article",
       "source": "Haaretz",
       "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -217,21 +229,15 @@
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/nov/12/mississippi-makes-history-with-democrat-scott-coloms-senate-win-the-latest",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
+      "reason": "HTTP 403"
     }
   ]
 }

@@ -1,73 +1,80 @@
 [
   {
-    "id": "cua1o43",
+    "id": "c11p0dut",
     "regions": [
       "Canada",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 8,
+        "Canada": 7,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
       "matched": {
         "Canada": [
-          "ottawa",
-          "alberta",
-          "provincial",
+          "canada",
+          "carney",
+          "canadians"
+        ],
+        "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-12T20:28:18.000Z",
-    "lastSeen": "2026-11-13T08:12:37.000Z",
+    "firstSeen": "2026-11-14T08:16:15.000Z",
+    "lastSeen": "2026-11-14T15:09:25.000Z",
     "outletCount": 2,
     "outlets": [
-      "The Hub",
-      "Western Standard"
+      "Euronews",
+      "Arab News"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.5772470192135845,
-      "max": 0.5772470192135845,
+      "min": 0.3967816760449586,
+      "max": 0.3967816760449586,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "The Hub",
-        "b": "lean_right",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ottawa to amend Impact Assessment Act instead of appealing Alberta court loss",
-        "u": "https://thehub.ca/2026/11/13/ottawa-to-amend-impact-assessment-act-instead-of-appealing-alberta-court-loss/",
-        "publishedAt": "2026-11-13T08:12:37.000Z",
-        "retrievedAt": "2026-11-13T19:25:42.876Z",
+        "t": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
+        "u": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
+        "publishedAt": "2026-11-14T15:09:25.000Z",
+        "retrievedAt": "2026-11-14T17:49:52.610Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“In the interim, the Impact Assessment Agency of Canada will work with proponents to determine the best path forward for their specific project assessments as we finalize amendments to the …",
-          "They said it “will necessitate a major overhaul to the legislation that will result in the elimination of all federal interference in intra-provincial infrastructure projects.”",
-          "The government says it will move quickly."
+          "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney …",
+          "\"One year ago, Canada …"
         ],
         "figures": [],
-        "wordsRead": 1273
+        "wordsRead": 359
       },
       {
-        "n": "Western Standard",
-        "b": "right",
+        "n": "Arab News",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Alberta court ruling prompts Ottawa to revise Impact Assessment Act",
-        "u": "https://www.westernstandard.news/news/alberta-court-ruling-prompts-ottawa-to-revise-impact-assessment-act/78689",
-        "publishedAt": "2026-11-12T20:28:18.000Z",
-        "retrievedAt": "2026-11-13T19:25:44.363Z",
-        "read": "headline and feed excerpt"
+        "t": "Canada’s Carney touts Philippine trade deal on Asia tour",
+        "u": "https://www.arabnews.com/world/canadas-carney-touts-philippine-trade-deal-on-asia-tour-3011815",
+        "publishedAt": "2026-11-14T08:16:15.000Z",
+        "retrievedAt": "2026-11-14T17:50:12.563Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The deal with ASEAN, meanwhile, would be the “first trade agreement ... outside of Asia” for the bloc, Carney said, noting “more than $50 billion a year in two-way trade …",
+          "The pacts were “part of a …"
+        ],
+        "figures": [],
+        "wordsRead": 377
       }
     ],
     "views": [
@@ -81,49 +88,54 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 0,
+            "headline": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
+            "url": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Hub",
-            "outletId": "thehub-ca",
-            "lean": "lean_right",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Ottawa to amend Impact Assessment Act instead of appealing Alberta court loss",
-            "url": "https://thehub.ca/2026/11/13/ottawa-to-amend-impact-assessment-act-instead-of-appealing-alberta-court-loss/"
-          },
-          {
-            "outlet": "Western Standard",
-            "outletId": "westernstd",
-            "lean": "right",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Alberta court ruling prompts Ottawa to revise Impact Assessment Act",
-            "url": "https://www.westernstandard.news/news/alberta-court-ruling-prompts-ottawa-to-revise-impact-assessment-act/78689"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "coverage sits on one side only (right)"
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 1,
+        "headline": "Canada’s Carney touts Philippine trade deal on Asia tour",
+        "url": "https://www.arabnews.com/world/canadas-carney-touts-philippine-trade-deal-on-asia-tour-3011815",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Impact Assessment Act",
-        "Alberta",
-        "Ottawa"
+        "Canada",
+        "Philippines",
+        "Mark Carney",
+        "Philippine",
+        "Carney",
+        "Asia"
       ],
       "attempts": [
         {
@@ -209,44 +221,46 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1h3108m",
+    "id": "c1pqocn2",
     "regions": [
-      "India",
+      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 4,
-        "Europe": 1
+        "Canada": 1,
+        "India": 0,
+        "Europe": 5
       },
       "matched": {
-        "India": [
-          "india",
+        "Canada": [
           "(an outlet from the region covered it)"
         ],
         "Europe": [
+          "ukraine",
+          "nato",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-13T13:02:08.000Z",
-    "lastSeen": "2026-11-13T18:31:04.000Z",
-    "outletCount": 6,
+    "firstSeen": "2026-11-14T10:35:08.000Z",
+    "lastSeen": "2026-11-14T16:53:39.000Z",
+    "outletCount": 7,
     "outlets": [
       "BBC News",
-      "Scroll.in",
-      "The Hindu",
+      "Globe and Mail",
+      "Euronews",
+      "Politico Europe",
+      "Deutsche Welle",
       "Al Jazeera",
-      "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 6 outlets",
+    "tierBasis": "reported independently by 7 outlets",
     "clustering": {
-      "min": 0.3759453595736628,
-      "max": 0.7333795706664914,
-      "pairs": 10,
+      "min": 0.3745154245272238,
+      "max": 0.734905738838127,
+      "pairs": 14,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -257,54 +271,95 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "At least 24 killed after bus collides with truck in north-east India",
-        "u": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-13T15:16:50.000Z",
-        "retrievedAt": "2026-11-13T19:25:30.194Z",
+        "t": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "u": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-14T15:15:57.000Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Assam chief minister Himanta Biswa Sarma wrote in a post on X that \"the scale of this loss has shaken all of us\"."
+          "In the comments, made on Friday but only released on Saturday, Zelensky said that the US proposal made him believe that \"Nato is back on the agenda\".",
+          "Zelensky then accused US officials of limiting Ukraine's Starlink internet service , which it uses to co-ordinate defensive operations, while Trump said it was \"time for Ukraine to get a …",
+          "US negotiators have touted …"
         ],
         "figures": [],
-        "wordsRead": 258
+        "wordsRead": 623
       },
       {
-        "n": "Scroll.in",
-        "b": "left",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Assam: 23 killed in bus-truck collision near Kaziranga",
-        "u": "https://scroll.in/latest/1097066/assam-23-killed-in-bus-truck-collision-near-kaziranga?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-13T13:55:13.000Z",
-        "retrievedAt": "2026-11-13T19:25:45.849Z",
+        "t": "U.S. asked Ukraine if it would cede Donbas for NATO membership, Zelensky says",
+        "u": "https://www.theglobeandmail.com/world/article-us-ukraine-cede-donbas-nato-membership/",
+        "publishedAt": "2026-11-14T15:10:58.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Chief Minister Himanta Biswa Sarma said that the government would provide the …"
+          "“Putin simply wants us to leave Kostiantynivka so that they can move in and occupy the entire city that way,” he said.",
+          "U.S. negotiators have floated the idea of Ukraine’s potential withdrawal from its eastern region of Donbas in exchange for joining NATO, President Volodymyr Zelensky said, following the latest round of …",
+          "This is the first time …"
         ],
         "figures": [],
-        "wordsRead": 126
+        "wordsRead": 582
       },
       {
-        "n": "The Hindu",
-        "b": "lean_left",
+        "n": "Euronews",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Students among 24 dead in bus-truck collision in Assam’s Kaziranga",
-        "u": "https://www.thehindu.com/news/national/assam/12-people-die-in-bus-truck-collision-in-assams-kaziranga/article71697795.ece",
-        "publishedAt": "2026-11-13T18:31:04.000Z",
-        "retrievedAt": "2026-11-13T19:25:47.189Z",
+        "t": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+        "u": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+        "publishedAt": "2026-11-14T10:35:08.000Z",
+        "retrievedAt": "2026-11-14T17:49:52.610Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“The Traveller (minibus) directly hit our vehicle,” he said.",
-          "Officials said 39 people, including the driver, were on board when the accident occurred at around 1 p.m. on National Highway-715.",
-          "Chief Minister Himanta Biswa Sarma said 24 people lost their lives in the accident and that several critically injured were …"
+          "\"I have no right to make that decision on my own,\" he said.",
+          "\"This will allow us to address the broader postwar European security arrangements alongside the territorial issues between Ukraine and Russia,\" Kushner wrote …"
         ],
         "figures": [],
-        "wordsRead": 502
+        "wordsRead": 356
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+        "u": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-14T10:48:19.000Z",
+        "retrievedAt": "2026-11-14T17:49:54.059Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I have said repeatedly: Ukraine is not retreating and is not giving up its land to terrorists,” Zelenskyy told reporters.",
+          "Zelenskyy said he was discussing a “comprehensive security package” with partners that would …"
+        ],
+        "figures": [],
+        "wordsRead": 331
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Ukraine: Zelenskyy says security deal could go to referendum",
+        "u": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-14T11:40:00.000Z",
+        "retrievedAt": "2026-11-14T17:49:57.822Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Ukrainian President Volodymyr Zelenskyy said US peace envoys asked whether Kyiv would withdraw from its eastern region of ‌Donbas ⁠in exchange ⁠for joining NATO , according to remarks to the …",
+          "The Ukrainian leader told reporters: \"The Americans raised a question: 'What if Ukraine joins NATO?"
+        ],
+        "figures": [],
+        "wordsRead": 489
       },
       {
         "n": "Al Jazeera",
@@ -313,35 +368,30 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Truck and bus crash in India’s Assam state kills at least 24 people",
-        "u": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
-        "publishedAt": "2026-11-13T16:01:45.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
+        "t": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+        "u": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+        "publishedAt": "2026-11-14T16:53:39.000Z",
+        "retrievedAt": "2026-11-14T17:50:09.897Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Several children and the bus driver were among the dead, officials said, as Assam Chief Minister Himanta Biswa Sarma said on X he was “deeply distressed by …"
+          "“If Putin expects Ukraine’s neutrality to be enshrined, that’s not going to happen,” he said.",
+          "US negotiators have floated the idea that Ukraine should cede parts of eastern Donbas in exchange for NATO membership, Ukraine’s President Volodymyr Zelenskyy has said, after the latest rounds …"
         ],
         "figures": [],
-        "wordsRead": 273
+        "wordsRead": 446
       },
       {
-        "n": "Arab News",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Bus and truck collision in India’s Assam state kills at least 24 people",
-        "u": "https://www.arabnews.com/world/bus-and-truck-collision-in-indias-assam-state-kills-at-least-24-people-3011664",
-        "publishedAt": "2026-11-13T13:48:20.000Z",
-        "retrievedAt": "2026-11-13T19:26:15.342Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Assam Chief Minister Himanta Biswa Sarma said on X that he was “deeply distressed by the tragic accident.”",
-          "GUWAHATI, India: A bus collided …"
-        ],
-        "figures": [],
-        "wordsRead": 230
+        "t": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+        "u": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
+        "publishedAt": "2026-11-14T11:43:06.000Z",
+        "retrievedAt": "2026-11-14T17:50:09.897Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "South China Morning Post",
@@ -350,10 +400,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "India road crash between bus, container truck kills 23",
-        "u": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
-        "publishedAt": "2026-11-13T13:02:08.000Z",
-        "retrievedAt": "2026-11-13T19:26:19.644Z",
+        "t": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+        "u": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
+        "publishedAt": "2026-11-14T15:14:00.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -361,27 +411,8 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Assam: 23 killed in bus-truck collision near Kaziranga",
-            "url": "https://scroll.in/latest/1097066/assam-23-killed-in-bus-truck-collision-near-kaziranga?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Students among 24 dead in bus-truck collision in Assam’s Kaziranga",
-            "url": "https://www.thehindu.com/news/national/assam/12-people-die-in-bus-truck-collision-in-assams-kaziranga/article71697795.ece"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -394,8 +425,44 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "At least 24 killed after bus collides with truck in north-east India",
-            "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss"
+            "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+            "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "U.S. asked Ukraine if it would cede Donbas for NATO membership, Zelensky says",
+            "url": "https://www.theglobeandmail.com/world/article-us-ukraine-cede-donbas-nato-membership/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 2,
+            "headline": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+            "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+            "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 4,
+            "headline": "Ukraine: Zelenskyy says security deal could go to referendum",
+            "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -410,8 +477,9 @@
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
@@ -419,19 +487,19 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Truck and bus crash in India’s Assam state kills at least 24 people",
-        "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+        "evidenceIndex": 5,
+        "headline": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+        "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "Bus and truck collision in India’s Assam state kills at least 24 people",
-        "url": "https://www.arabnews.com/world/bus-and-truck-collision-in-indias-assam-state-kills-at-least-24-people-3011664",
+        "country": "QA",
+        "evidenceIndex": 6,
+        "headline": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+        "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -439,27 +507,36 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 5,
-        "headline": "India road crash between bus, container truck kills 23",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23",
+        "evidenceIndex": 7,
+        "headline": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+        "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "India",
-        "Assam",
-        "Kaziranga",
-        "Students",
-        "Truck"
+        "Ukraine",
+        "Donbas",
+        "NATO",
+        "Zelenskyy",
+        "Zelensky",
+        "Russia"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Ukraine",
+            "Donbas",
+            "NATO",
+            "Zelenskyy",
+            "Zelensky",
+            "Russia"
+          ]
         },
         {
           "source": "csis-canada",
@@ -538,7 +615,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ceym0m9",
+    "id": "c1l3px1g",
     "regions": [
       "Europe",
       "Global"
@@ -560,24 +637,76 @@
       }
     },
     "firstSeen": "2026-11-13T07:42:51.000Z",
-    "lastSeen": "2026-11-14T00:00:00.000Z",
-    "outletCount": 5,
+    "lastSeen": "2026-11-14T13:33:27.000Z",
+    "outletCount": 7,
     "outlets": [
+      "BBC News",
       "Globe and Mail",
       "Euronews",
+      "Deutsche Welle",
       "Brussels Signal",
-      "Al Jazeera",
-      "Taipei Times"
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 7 outlets",
     "clustering": {
-      "min": 0.37260960888074157,
-      "max": 0.43611887707530816,
-      "pairs": 6,
+      "min": 0.3621974765594623,
+      "max": 0.609321660553718,
+      "pairs": 12,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Microsoft says services fully restored after day-long global outage",
+        "u": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-14T06:42:27.000Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "By 13:32, the tech giant said there had been \"broader improvements\" in North America, \"sustained improvements\" across much of Europe and \"encouraging recovery signals\" in the Asia Pacific region.",
+          "\"The global Microsoft outage is a stark reminder of how heavily we rely on a handful of big tech providers,\" said Rob Demain, chief executive of cybersecurity firm e2e-assure.",
+          "More than 430 million people use the affected products worldwide."
+        ],
+        "figures": [
+          {
+            "value": "430 million",
+            "context": "government services and personal users. More than 430 million people use the affected products worldwide. Micro"
+          }
+        ],
+        "wordsRead": 781
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Microsoft services fully restored after massive outage disrupts workers across globe",
+        "u": "https://www.theglobeandmail.com/world/article-microsoft-fully-restored-global-outage-disruption/",
+        "publishedAt": "2026-11-14T13:33:27.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions,” the company said in an update on …",
+          "It said the incident “was introduced by an issue during an earlier network capacity upgrade that surfaced” following a recent network change.",
+          "Microsoft said Saturday that services were fully restored after a massive outage that lasted for hours."
+        ],
+        "figures": [
+          {
+            "value": "430 million",
+            "context": "pisode had impacted some of their operations. Over 430 million people use Microsoft 365 apps, Microsoft said on"
+          }
+        ],
+        "wordsRead": 771
+      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -588,7 +717,7 @@
         "t": "Some Microsoft services back online as global outage disrupts businesses and governments",
         "u": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/",
         "publishedAt": "2026-11-13T10:11:18.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“We’re seeing encouraging recovery progress, with service availability and e-mail delivery performance improving across a growing portion of affected Microsoft 365 infrastructure,” the company said, as some users started reporting …",
@@ -597,6 +726,19 @@
         ],
         "figures": [],
         "wordsRead": 1017
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Microsoft outage hits companies and governments worldwide",
+        "u": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/",
+        "publishedAt": "2026-11-13T11:19:37.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Euronews",
@@ -608,7 +750,7 @@
         "t": "Microsoft 365 global outage disrupts Portuguese government, health services and schools",
         "u": "https://www.euronews.com/2026/11/13/microsoft-365-global-outage-disrupts-portuguese-government-health-services-and-schools",
         "publishedAt": "2026-11-13T13:33:06.000Z",
-        "retrievedAt": "2026-11-13T19:25:54.163Z",
+        "retrievedAt": "2026-11-14T17:49:52.610Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "In a statement (source in Portuguese) , the secretary-general's office of the Government also confirmed that since Thursday there had been \"impacts on the various IT tools that support the …",
@@ -617,6 +759,24 @@
         ],
         "figures": [],
         "wordsRead": 622
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Microsoft says all services working again",
+        "u": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-14T09:06:00.000Z",
+        "retrievedAt": "2026-11-14T17:49:57.822Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The US technology conglomerate Microsoft said on Saturday that a more than 24-hour global outage affecting its Microsoft 365 applications used by businesses and governments across the world has now …"
+        ],
+        "figures": [],
+        "wordsRead": 337
       },
       {
         "n": "Brussels Signal",
@@ -628,53 +788,34 @@
         "t": "Microsoft fails to restore services as global outage enters second day",
         "u": "https://brusselssignal.eu/2026/11/microsoft-fails-to-restore-services-as-global-outage-enters-second-day/",
         "publishedAt": "2026-11-13T07:42:51.000Z",
-        "retrievedAt": "2026-11-13T19:26:05.048Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Charles Lamanna, Microsoft’s executive vice-president for Copilot, wrote on X that “there is no indication this is the result of malicious or cyber activity”.",
-          "Commission Executive Vice-President Henna Virkkunen said at the time: “We want to make sure that nobody has a so-called kill switch.”",
-          "Technology analyst Rupert Goodwins told Al Jazeera that pressure to find alternatives to Microsoft had been building in Europe and that “this sort …"
-        ],
-        "figures": [],
-        "wordsRead": 682
+        "retrievedAt": "2026-11-14T17:50:02.721Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Al Jazeera",
+        "n": "Arab News",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "You haven’t got mail: Global Microsoft outage disrupts services",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
-        "publishedAt": "2026-11-13T12:40:11.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
+        "t": "Microsoft says all services restored after global outage",
+        "u": "https://www.arabnews.com/world/microsoft-says-all-services-restored-after-global-outage-3011792",
+        "publishedAt": "2026-11-14T07:15:21.000Z",
+        "retrievedAt": "2026-11-14T17:50:12.563Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
+        "n": "South China Morning Post",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Microsoft struggles to fix services in global outage",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867713",
-        "publishedAt": "2026-11-14T00:00:00.000Z",
-        "retrievedAt": "2026-11-13T19:26:22.510Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Recovery actions are ongoing across affected Microsoft 365 infrastructure and progressing in phases,” the company said in a second post.",
-          "The company yesterday indicated that its recovery efforts were making progress, saying it was “seeing early stabilization and capacity improvements,” and that there was “incremental improvement in several workloads,” but …",
-          "The Microsoft Outlook logo on a laptop is pictured in Warsaw yesterday."
-        ],
-        "figures": [
-          {
-            "value": "450 million",
-            "context": "the company said in January that it had more than 450 million paid Microsoft 365 commercial subscriptions. The"
-          }
-        ],
-        "wordsRead": 922
+        "t": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
+        "u": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
+        "publishedAt": "2026-11-13T18:43:24.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -690,22 +831,58 @@
         "label": "Centre",
         "outlets": [
           {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Microsoft says services fully restored after day-long global outage",
+            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+          },
+          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 0,
+            "evidenceIndex": 1,
+            "headline": "Microsoft services fully restored after massive outage disrupts workers across globe",
+            "url": "https://www.theglobeandmail.com/world/article-microsoft-fully-restored-global-outage-disruption/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
             "headline": "Some Microsoft services back online as global outage disrupts businesses and governments",
             "url": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Microsoft outage hits companies and governments worldwide",
+            "url": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/"
           },
           {
             "outlet": "Euronews",
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 1,
+            "evidenceIndex": 4,
             "headline": "Microsoft 365 global outage disrupts Portuguese government, health services and schools",
             "url": "https://www.euronews.com/2026/11/13/microsoft-365-global-outage-disrupts-portuguese-government-health-services-and-schools"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 5,
+            "headline": "Microsoft says all services working again",
+            "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -720,7 +897,7 @@
             "outletId": "brusselssig",
             "lean": "right",
             "country": "EU",
-            "evidenceIndex": 2,
+            "evidenceIndex": 6,
             "headline": "Microsoft fails to restore services as global outage enters second day",
             "url": "https://brusselssignal.eu/2026/11/microsoft-fails-to-restore-services-as-global-outage-enters-second-day/"
           }
@@ -735,31 +912,30 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
+        "outlet": "Arab News",
+        "outletId": "arabnews",
         "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "You haven’t got mail: Global Microsoft outage disrupts services",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
+        "country": "SA",
+        "evidenceIndex": 7,
+        "headline": "Microsoft says all services restored after global outage",
+        "url": "https://www.arabnews.com/world/microsoft-says-all-services-restored-after-global-outage-3011792",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 4,
-        "headline": "Microsoft struggles to fix services in global outage",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/14/2003867713",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 8,
+        "headline": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
+        "url": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
+        "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
         "Microsoft",
-        "Global Microsoft",
         "Some Microsoft",
         "Portuguese"
       ],
@@ -847,159 +1023,99 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cvserj8",
+    "id": "cxstqwo",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
-        "Europe": 8
+        "Europe": 4
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
-          "ireland",
-          "ukraine",
-          "europe",
+          "croatia",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-12T09:38:46.000Z",
-    "lastSeen": "2026-11-13T16:18:55.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-11-14T04:24:22.000Z",
+    "lastSeen": "2026-11-15T00:00:00.000Z",
+    "outletCount": 3,
     "outlets": [
-      "NPR",
-      "Globe and Mail",
-      "Politico Europe",
-      "Deutsche Welle"
+      "Euronews",
+      "Focus Taiwan (CNA)",
+      "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3636422617549291,
-      "max": 0.5279786766572729,
-      "pairs": 5,
+      "min": 0.3612666457599609,
+      "max": 0.5113931053950751,
+      "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
-        "u": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-        "publishedAt": "2026-11-12T15:26:34.000Z",
-        "retrievedAt": "2026-11-13T19:25:28.488Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
-        "u": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
-        "publishedAt": "2026-11-12T09:38:46.000Z",
-        "retrievedAt": "2026-11-13T19:25:28.488Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Globe and Mail",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.S. envoys meet with Putin in Moscow, then meet Zelensky in Dublin",
-        "u": "https://www.theglobeandmail.com/world/article-us-envoys-meet-putin-ukraine-peace-talks/",
-        "publishedAt": "2026-11-12T13:50:30.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "t": "Judo: The Final Grand Prix of 2026 Kicks Off in Zagreb",
+        "u": "https://www.euronews.com/2026/11/14/judo-the-final-grand-prix-of-2026-kicks-off-in-zagreb",
+        "publishedAt": "2026-11-14T06:37:46.000Z",
+        "retrievedAt": "2026-11-14T17:49:52.610Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“In other words, the war would resume immediately,” the Russian President said.",
-          "Witkoff saying that “the Europeans will join at the next meeting,” but he did not elaborate.",
-          "Thursday’s talks were “substantive, constructive, frank and useful,” Mr."
+          "The Zagreb Grand Prix welcomes over 400 judoka from more than 60 countries.",
+          "Assunta Scutto claims her second Grand Prix gold of 2026, while Yang Yung Wei, Roza Gyertyas, Nurkanat Serikbayev and Shirlen Nascimento celebrate victories …"
         ],
         "figures": [],
-        "wordsRead": 1112
+        "wordsRead": 364
       },
       {
-        "n": "Politico Europe",
+        "n": "Focus Taiwan (CNA)",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "What Vladimir Putin won in Abu Dhabi Ukraine peace talks",
-        "u": "https://www.politico.eu/article/what-vladimir-putin-won-in-abu-dhabi-ukraine-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-        "publishedAt": "2026-11-13T16:18:55.000Z",
-        "retrievedAt": "2026-11-13T19:25:55.489Z",
+        "t": "Judoka Yang Yung-wei clinches gold at Zagreb Grand Prix",
+        "u": "https://focustaiwan.tw/sports/202611140004",
+        "publishedAt": "2026-11-14T04:24:22.000Z",
+        "retrievedAt": "2026-11-14T17:50:17.172Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "But it has been a longstanding Kremlin goal to get the U.S. to agree to the “let’s talk about everything” strategy, a process that will succeed in “diverting attention from …",
-          "“It is obvious that Putin is simply stalling for time, trying to destroy or capture Ukraine or win this war of attrition, waiting for aid to stop in Europe and …",
-          "And then to “find a pathway to settle them all at the same time,” Jared Kushner explained to reporters in a …"
+          "Liu said the victory would give Yang greater confidence in his bid to qualify for the 2028 Los Angeles Olympics.",
+          "Taipei, Nov. 14 (CNA) Yang Yung-wei (楊勇緯), Taiwan's Olympic medalist, won the men's 60-kilogram judo title at the Zagreb Grand Prix in Croatia after …"
         ],
         "figures": [],
-        "wordsRead": 837
+        "wordsRead": 442
       },
       {
-        "n": "Deutsche Welle",
-        "b": "centre",
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
-        "u": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-12T16:44:00.000Z",
-        "retrievedAt": "2026-11-13T19:25:59.718Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"We have agreed on the largest humanitarian release of prisoners, and tomorrow we will finalize the numbers,\" Jared Kushner announced after the talks.",
-          "Following the meetings, Zelenskyy wrote on Telegram that the parties had discussed security guarantees and that \"the first step should be ending this war and ensuring Ukraine's security.\"",
-          "He also stressed that Europe should be involved \"at every stage of genuine diplomacy.\""
-        ],
-        "figures": [],
-        "wordsRead": 1383
+        "t": "Athletes win gold and bronze in judo grand prix",
+        "u": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
+        "publishedAt": "2026-11-15T00:00:00.000Z",
+        "retrievedAt": "2026-11-14T17:50:18.875Z",
+        "read": "headline only"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "U.S. envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
-            "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
-            "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -1007,31 +1123,22 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "U.S. envoys meet with Putin in Moscow, then meet Zelensky in Dublin",
-            "url": "https://www.theglobeandmail.com/world/article-us-envoys-meet-putin-ukraine-peace-talks/"
-          },
-          {
-            "outlet": "Politico Europe",
-            "outletId": "politico-eu",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "What Vladimir Putin won in Abu Dhabi Ukraine peace talks",
-            "url": "https://www.politico.eu/article/what-vladimir-putin-won-in-abu-dhabi-ukraine-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+            "evidenceIndex": 0,
+            "headline": "Judo: The Final Grand Prix of 2026 Kicks Off in Zagreb",
+            "url": "https://www.euronews.com/2026/11/14/judo-the-final-grand-prix-of-2026-kicks-off-in-zagreb"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Focus Taiwan (CNA)",
+            "outletId": "focustaiwan",
             "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 4,
-            "headline": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
-            "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-world-4025-rdf"
+            "country": "TW",
+            "evidenceIndex": 1,
+            "headline": "Judoka Yang Yung-wei clinches gold at Zagreb Grand Prix",
+            "url": "https://focustaiwan.tw/sports/202611140004"
           }
         ],
         "status": "sourced",
@@ -1046,19 +1153,360 @@
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 2,
+        "headline": "Athletes win gold and bronze in judo grand prix",
+        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Putin",
-        "Zelenskyy",
-        "Abu Dhabi",
-        "Ukraine",
-        "Moscow",
-        "Dublin"
+        "The Final Grand Prix",
+        "Judoka Yang Yung-wei",
+        "Zagreb Grand Prix",
+        "Kicks Off",
+        "Athletes",
+        "Zagreb"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "chttqpc",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-13T20:47:49.000Z",
+    "lastSeen": "2026-11-13T23:40:45.000Z",
+    "outletCount": 6,
+    "outlets": [
+      "BBC News",
+      "The Daily Caller",
+      "Globe and Mail",
+      "Euronews",
+      "Deutsche Welle",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 6 outlets",
+    "clustering": {
+      "min": 0.3612698992288818,
+      "max": 0.7073477705614887,
+      "pairs": 11,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+        "u": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-13T23:40:45.000Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The exact cause of the crash remains under investigation, but US Coast Guard Capt Melanie Burnham said: \"There seems to be some type of a loss of steering.\"",
+          "New Orleans Mayor Helena Moreno told a news conference that all credit in the rescue effort should go …"
+        ],
+        "figures": [],
+        "wordsRead": 464
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
+        "u": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines",
+        "publishedAt": "2026-11-13T20:47:49.000Z",
+        "retrievedAt": "2026-11-14T17:49:39.223Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In addition to the crew, 129 passengers were on board during the incident, according to the ABC affiliate.",
+          "The Port of New Orleans said that the …"
+        ],
+        "figures": [],
+        "wordsRead": 264
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Tanker collides with New Orleans river cruise with 180 people aboard",
+        "u": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/",
+        "publishedAt": "2026-11-13T21:06:43.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We have zero people unaccounted for, which truly is a miracle on the Mississippi,” New Orleans Mayor Helena Moreno said at a news conference as rescuers and others cheered.",
+          "“For something like this to happen for an upbound ship indicates that something must have gone really badly wrong,” Davies said.",
+          "A tanker in New Orleans that apparently lost its steering slammed into a docked river cruise boat with 180 people aboard Friday, the mayor said."
+        ],
+        "figures": [],
+        "wordsRead": 789
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+        "u": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+        "publishedAt": "2026-11-13T21:04:32.000Z",
+        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"No critical injuries have been reported,\" it said in a post on social media.",
+          "\"At this moment, the information that we have, we have zero people …"
+        ],
+        "figures": [],
+        "wordsRead": 262
+      },
+      {
+        "n": "Deutsche Welle",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Tanker collides with cruise ship on Mississippi in New Orleans",
+        "u": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-13T21:31:00.000Z",
+        "retrievedAt": "2026-11-14T17:49:57.822Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The company operating The American Heritage , American Cruise Lines, said in a statement that \"guests and crew were evacuated, and we are deeply concerned for everyone involved.\"",
+          "\"We are aware of the incident on the Mississippi and we are in close contact …"
+        ],
+        "figures": [],
+        "wordsRead": 439
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+        "publishedAt": "2026-11-13T20:49:15.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+            "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Tanker collides with New Orleans river cruise with 180 people aboard",
+            "url": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+            "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 4,
+            "headline": "Tanker collides with cruise ship on Mississippi in New Orleans",
+            "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
+            "url": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "New Orleans",
+        "Mississippi",
+        "Miracle",
+        "Tanker",
+        "Rescue Effort Underway After",
+        "Tanker Collides With River"
       ],
       "attempts": [
         {
@@ -1067,12 +1515,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Putin",
-            "Zelenskyy",
-            "Abu Dhabi",
-            "Ukraine",
-            "Moscow",
-            "Dublin"
+            "New Orleans",
+            "Mississippi",
+            "Miracle",
+            "Tanker",
+            "Rescue Effort Underway After",
+            "Tanker Collides With River"
           ]
         },
         {
@@ -1152,43 +1600,92 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1h3nl3v",
+    "id": "c1v2dg23",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 3
+        "Europe": 0
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "ukraine"
         ]
       }
     },
-    "firstSeen": "2026-11-13T14:51:05.000Z",
-    "lastSeen": "2026-11-13T16:47:30.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-13T21:33:43.000Z",
+    "lastSeen": "2026-11-14T15:54:44.000Z",
+    "outletCount": 5,
     "outlets": [
+      "Guardian US",
+      "The Daily Caller",
       "Globe and Mail",
-      "Al Jazeera",
-      "Arab News"
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.5242698889293811,
-      "max": 0.7188245568898174,
-      "pairs": 2,
+      "min": 0.36206513117551153,
+      "max": 0.5423592315271157,
+      "pairs": 9,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+        "u": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "publishedAt": "2026-11-14T02:15:53.000Z",
+        "retrievedAt": "2026-11-14T17:49:27.544Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“So at 8.15 tonight, Eastern Time, we’ve opened up the airspace,” Sean Duffy, the US transportation secretary, said.",
+          "“What we have is an incredibly old air traffic control system,” he said.",
+          "A notice from the FAA had earlier said the ground stop was imposed “due to extraordinary circumstances and for reasons of safety”."
+        ],
+        "figures": [],
+        "wordsRead": 1018
+      },
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Rare nationwide ground stop halts US air traffic – video",
+        "u": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video",
+        "publishedAt": "2026-11-14T15:54:44.000Z",
+        "retrievedAt": "2026-11-14T17:49:27.544Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "FAA Issues Nationwide Ground Stop, Halting All US Flight Departures",
+        "u": "https://dailycaller.com/2026/11/13/faa-nationwide-ground-stop-us-flight-departures-sean-duffy",
+        "publishedAt": "2026-11-13T21:41:33.000Z",
+        "retrievedAt": "2026-11-14T17:49:39.223Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The FAA’s Air Traffic Control System Command Center (ATCSCC) announced the nationwide ground stop Friday, citing safety concerns in ATCSCC Advisory …"
+        ],
+        "figures": [],
+        "wordsRead": 219
+      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -1196,38 +1693,23 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Former Ukrainian prime minister’s adviser injured in another Moscow car bombing",
-        "u": "https://www.theglobeandmail.com/world/article-sergei-zavorotnyi-ukrainian-prime-minister-injured-moscow-car-bombing/",
-        "publishedAt": "2026-11-13T16:47:30.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "t": "U.S. lifts nationwide ground stop after FAA order triggers widespread flight disruptions",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-us-grounds-departing-flights-air-traffic-control-communication-issues/",
+        "publishedAt": "2026-11-13T22:05:42.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The explosion struck a car driven by Sergei Zavorotnyi, who previously worked as an adviser to former Prime Minister Mykola Azarov, according to Russia’s Investigative Committee.",
-          "Ukraine’s SBU security service said in December 2024 that it had organized the killing of Lt.",
-          "Azarov, who also lives in Russia, told state TV that he was “shocked” by the attack that left his former …"
+          "“This isn’t another 9/11,” he said, adding, “Everybody is safe, the flights are accounted for and there should be no fear to the public at all.”",
+          "Duffy said, placing blame on what he called “an incredibly old traffic control system.”",
+          "“This isn’t just going to be resolved and turned around within the hour,” he said."
         ],
-        "figures": [],
-        "wordsRead": 628
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
-        "u": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
-        "publishedAt": "2026-11-13T16:44:56.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The investigative committee has already launched a criminal case into this explosion,” she said.",
-          "“In both cases an explosive device was triggered remotely, and it was planted under their car,” Shapovalova said.",
-          "“Here in Russia, all the attacks are considered to …"
+        "figures": [
+          {
+            "value": "US$50",
+            "context": "system.” Mr. Duffy called on Congress to approve US$50-billion for a newly-built system to replace one t"
+          }
         ],
-        "figures": [],
-        "wordsRead": 411
+        "wordsRead": 1040
       },
       {
         "n": "Arab News",
@@ -1236,26 +1718,58 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Bombings in Russia kill a military officer and injure an adviser to Ukraine’s former PM",
-        "u": "https://www.arabnews.com/world/bombings-in-russia-kill-a-military-officer-and-injure-an-adviser-to-ukraines-former-pm-3011672",
-        "publishedAt": "2026-11-13T14:51:05.000Z",
-        "retrievedAt": "2026-11-13T19:26:15.342Z",
+        "t": "US flight departures resume after nationwide ground stop due to communications outage",
+        "u": "https://www.arabnews.com/world/us-flight-departures-resume-after-nationwide-ground-stop-due-to-communications-outage-3011797",
+        "publishedAt": "2026-11-14T10:52:46.000Z",
+        "retrievedAt": "2026-11-14T17:50:12.563Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The explosion struck a car driven by Sergei Zavorotnyi, who previously worked as an adviser to former Prime Minister Mykola Azarov, according to Russia’s Investigative Committee.",
-          "Ukraine’s SBU security service said in December 2024 that it had organized the killing of Lt.",
-          "LATEST NEWS / Middle East Can one security force …"
+          "Mullin said, “There is no indication, so far, that this is a malicious attack against us; it is merely a communication outage,” adding that officials “are not ruling out any …",
+          "The FAA stated, “All departing flights must remain grounded until further notice,” and clarified that international flights would be handled on a case-by-case basis.",
+          "“This is a legacy system …"
         ],
         "figures": [],
-        "wordsRead": 518
+        "wordsRead": 605
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US flight departures resume after FAA lifts nationwide ground stop",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+        "publishedAt": "2026-11-13T21:33:43.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+            "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+          },
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Rare nationwide ground stop halts US air traffic – video",
+            "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -1267,9 +1781,9 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Former Ukrainian prime minister’s adviser injured in another Moscow car bombing",
-            "url": "https://www.theglobeandmail.com/world/article-sergei-zavorotnyi-ukrainian-prime-minister-injured-moscow-car-bombing/"
+            "evidenceIndex": 3,
+            "headline": "U.S. lifts nationwide ground stop after FAA order triggers widespread flight disruptions",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-us-grounds-departing-flights-air-traffic-control-communication-issues/"
           }
         ],
         "status": "sourced",
@@ -1278,54 +1792,71 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "FAA Issues Nationwide Ground Stop, Halting All US Flight Departures",
+            "url": "https://dailycaller.com/2026/11/13/faa-nationwide-ground-stop-us-flight-departures-sean-duffy"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
-        "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
       {
         "outlet": "Arab News",
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Bombings in Russia kill a military officer and injure an adviser to Ukraine’s former PM",
-        "url": "https://www.arabnews.com/world/bombings-in-russia-kill-a-military-officer-and-injure-an-adviser-to-ukraines-former-pm-3011672",
+        "evidenceIndex": 4,
+        "headline": "US flight departures resume after nationwide ground stop due to communications outage",
+        "url": "https://www.arabnews.com/world/us-flight-departures-resume-after-nationwide-ground-stop-due-to-communications-outage-3011797",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "US flight departures resume after FAA lifts nationwide ground stop",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Russia",
-        "Former Ukrainian",
-        "Ukraine PM",
-        "Bombings",
-        "Ukraine",
-        "Moscow"
+        "FAA Issues Nationwide Ground",
+        "Halting All US Flight",
+        "Departures",
+        "Flights",
+        "Rare",
+        "Stop"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "FAA Issues Nationwide Ground",
+            "Halting All US Flight",
+            "Departures",
+            "Flights",
+            "Rare",
+            "Stop"
+          ]
         },
         {
           "source": "csis-canada",
@@ -1404,7 +1935,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ccrr8cy",
+    "id": "c1c0takt",
     "regions": [
       "Global"
     ],
@@ -1420,43 +1951,53 @@
         ]
       }
     },
-    "firstSeen": "2026-11-13T03:04:16.000Z",
-    "lastSeen": "2026-11-13T19:03:10.000Z",
+    "firstSeen": "2026-11-13T11:13:40.000Z",
+    "lastSeen": "2026-11-13T22:09:47.000Z",
     "outletCount": 5,
     "outlets": [
+      "Mother Jones",
       "Guardian US",
       "BBC News",
-      "The Daily Caller",
       "Haaretz",
-      "Middle East Eye"
+      "JNS"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.36328695064785466,
-      "max": 0.5622229330248771,
-      "pairs": 8,
+      "min": 0.3716979504754546,
+      "max": 0.5897512180812774,
+      "pairs": 10,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
+        "n": "Mother Jones",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Who is Chris Van Hollen? The senator challenging Schumer as a progressive voice for Democrats",
-        "u": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology",
-        "publishedAt": "2026-11-13T17:15:05.000Z",
-        "retrievedAt": "2026-11-13T19:25:26.353Z",
+        "t": "Van Hollen Pledges to “Shake Things Up” in Majority Leader Announcement",
+        "u": "https://www.motherjones.com/politics/2026/11/van-hollen-senate-majority-leader-campaign-schumer-congress-democrats/",
+        "publishedAt": "2026-11-13T22:09:47.000Z",
+        "retrievedAt": "2026-11-14T17:49:26.273Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“As we’ve seen time and again, cryptocurrency and digital assets are rife with opportunity for abuse if left unchecked,” Van Hollen said in a statement opposing the Clarity Act, a …",
-          "Speaking in post-election interviews last week, Van Hollen argued that Democrats “should not be overly cautious in going after corporations, billionaires and special interests that voters blame for making their …"
+          "Van Hollen, speaking Thursday at a conference sponsored by the moderate PAC Majority Democrats, talked about his candidacy and received thunderous applause: “We’ve been given a chance, and now it’s …",
+          "Voters, Van Hollen said, have elected a new class of Democrats who ran not on “the tired Washington labels of progressive versus moderate—they ran on an economic populist message” to …",
+          "“Voters demanded change last week, and Chris Van Hollen is the …"
         ],
-        "figures": [],
-        "wordsRead": 650
+        "figures": [
+          {
+            "value": "38 percent",
+            "context": "approval ratings among Democratic voters in polls—38 percent of Democratic likely voters approved of Schumer’s"
+          },
+          {
+            "value": "42 percent",
+            "context": "der in a pre-election Economist/YouGov poll , with 42 percent disapproving. Van Hollen, at 67, is only eight ye"
+          }
+        ],
+        "wordsRead": 738
       },
       {
         "n": "Guardian US",
@@ -1465,18 +2006,18 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
-        "u": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
-        "publishedAt": "2026-11-13T03:04:16.000Z",
-        "retrievedAt": "2026-11-13T19:25:26.353Z",
+        "t": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
+        "u": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
+        "publishedAt": "2026-11-13T21:28:45.000Z",
+        "retrievedAt": "2026-11-14T17:49:27.544Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I welcome any discussion about the future of our caucus and the important work ahead,” Schumer wrote.",
-          "Senator Chris Van Hollen told MSNOW on Thursday night that his run for Senate majority leader “is not about any one individual, but it is about answering the call of …",
-          "“That’s something that is central,” Raskin said of the firings that have taken place over the last two years."
+          "The election for Democratic Senate leader between Chuck Schumer and Chris Van Hollen must be understood for what it is.",
+          "This is not a personality contest.",
+          "This is a debate about the future of the Democratic party."
         ],
         "figures": [],
-        "wordsRead": 4526
+        "wordsRead": 439
       },
       {
         "n": "BBC News",
@@ -1488,34 +2029,14 @@
         "t": "Democratic Senate leader Schumer set to face leadership challenge",
         "u": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-13T19:03:10.000Z",
-        "retrievedAt": "2026-11-13T19:25:30.194Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Van Hollen, 67, said in a post on X on Thursday that Americans voted for change earlier this month and \"to deliver, we need new leadership\".",
+          "Van Hollen, 67, said in a post on X on Thursday that Americans had voted for change earlier this month and \"to deliver, we need new leadership\".",
           "Responding to the challenge, Schumer, who represents New York, said he welcomed \"any discussion about the future of our caucus and the important work ahead\"."
         ],
         "figures": [],
-        "wordsRead": 538
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Chris Van Hollen Launches Leadership Bid After Anti-Establishment Dems Turn Back On Chuck Schumer",
-        "u": "https://dailycaller.com/2026/11/13/van-hollen-majority-leader-bid-chuck-schumer",
-        "publishedAt": "2026-11-13T14:33:33.000Z",
-        "retrievedAt": "2026-11-13T19:25:39.851Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“In this election, Americans called on us to unrig an economy rigged against working people & fueled by political corruption,” Van Hollen said.",
-          "The Maryland senator said in his announcement that Senate Democrats needed new leadership to deliver on the economy and corruption.",
-          "Senate aides told the Daily Caller in April 2025 that Van Hollen’s trip was likely …"
-        ],
-        "figures": [],
-        "wordsRead": 585
+        "wordsRead": 535
       },
       {
         "n": "Haaretz",
@@ -1527,7 +2048,7 @@
         "t": "Van Hollen's challenge to Schumer comes amid upheaval over Israel in the Democratic Party",
         "u": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000",
         "publishedAt": "2026-11-13T17:24:54.000Z",
-        "retrievedAt": "2026-11-13T19:26:08.277Z",
+        "retrievedAt": "2026-11-14T17:50:05.930Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1540,21 +2061,27 @@
         "t": "Israel critic Van Hollen to challenge Schumer for U.S. Senate majority leader",
         "u": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000",
         "publishedAt": "2026-11-13T11:13:40.000Z",
-        "retrievedAt": "2026-11-13T19:26:08.277Z",
+        "retrievedAt": "2026-11-14T17:50:05.930Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Middle East Eye",
-        "b": "left",
+        "n": "JNS",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Leading progressive voice on Mideast to challenge Chuck Schumer for Senate leadership",
-        "u": "https://www.middleeasteye.net/news/chris-van-hollen-leading-progressive-voice-mideast-challenge-chuck-schumer-senate-leadership",
-        "publishedAt": "2026-11-13T17:27:49.000Z",
-        "retrievedAt": "2026-11-13T19:26:14.003Z",
-        "read": "headline and feed excerpt"
+        "t": "Van Hollen says he will challenge Schumer for majority leader",
+        "u": "https://www.jns.org/news/u-s-news/van-hollen-says-he-will-challenge-schumer-for-majority-leader",
+        "publishedAt": "2026-11-13T20:42:00.000Z",
+        "retrievedAt": "2026-11-14T17:50:08.599Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In a statement after his 2024 trip, he said that “Israel has every right to eliminate the military threat of Hamas” but also demanded a “humanitarian cessation of hostilities” to …",
+          "“In this election, Americans called on us to unrig an economy rigged against working people and fueled by political corruption,” Van Hollen stated ."
+        ],
+        "figures": [],
+        "wordsRead": 567
       }
     ],
     "views": [
@@ -1563,13 +2090,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
+            "outlet": "Mother Jones",
+            "outletId": "motherjones",
+            "lean": "left",
             "country": "US",
             "evidenceIndex": 0,
-            "headline": "Who is Chris Van Hollen? The senator challenging Schumer as a progressive voice for Democrats",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/chuck-schumer-democrat-party-control-ideology"
+            "headline": "Van Hollen Pledges to “Shake Things Up” in Majority Leader Announcement",
+            "url": "https://www.motherjones.com/politics/2026/11/van-hollen-senate-majority-leader-campaign-schumer-congress-democrats/"
           },
           {
             "outlet": "Guardian US",
@@ -1577,15 +2104,15 @@
             "lean": "lean_left",
             "country": "US",
             "evidenceIndex": 1,
-            "headline": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump"
+            "headline": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
+            "url": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader"
           },
           {
             "outlet": "Haaretz",
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 4,
+            "evidenceIndex": 3,
             "headline": "Van Hollen's challenge to Schumer comes amid upheaval over Israel in the Democratic Party",
             "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000"
           },
@@ -1594,18 +2121,9 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 5,
+            "evidenceIndex": 4,
             "headline": "Israel critic Van Hollen to challenge Schumer for U.S. Senate majority leader",
             "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 6,
-            "headline": "Leading progressive voice on Mideast to challenge Chuck Schumer for Senate leadership",
-            "url": "https://www.middleeasteye.net/news/chris-van-hollen-leading-progressive-voice-mideast-challenge-chuck-schumer-senate-leadership"
           }
         ],
         "status": "sourced",
@@ -1633,13 +2151,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
+            "outlet": "JNS",
+            "outletId": "jns",
             "lean": "right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "Chris Van Hollen Launches Leadership Bid After Anti-Establishment Dems Turn Back On Chuck Schumer",
-            "url": "https://dailycaller.com/2026/11/13/van-hollen-majority-leader-bid-chuck-schumer"
+            "country": "IL",
+            "evidenceIndex": 5,
+            "headline": "Van Hollen says he will challenge Schumer for majority leader",
+            "url": "https://www.jns.org/news/u-s-news/van-hollen-says-he-will-challenge-schumer-for-majority-leader"
           }
         ],
         "status": "sourced",
@@ -1655,11 +2173,11 @@
       "attempted": true,
       "terms": [
         "Schumer",
-        "Chris Van Hollen",
-        "Chuck Schumer",
-        "Senate",
+        "Van Hollen",
         "Israel",
-        "Leadership Bid After Anti-Establishment"
+        "Majority Leader Announcement",
+        "Van Hollen Pledges",
+        "Democratic Senate"
       ],
       "attempts": [
         {
@@ -1669,11 +2187,11 @@
           "found": [],
           "terms": [
             "Schumer",
-            "Chris Van Hollen",
-            "Chuck Schumer",
-            "Senate",
+            "Van Hollen",
             "Israel",
-            "Leadership Bid After Anti-Establishment"
+            "Majority Leader Announcement",
+            "Van Hollen Pledges",
+            "Democratic Senate"
           ]
         },
         {
@@ -1753,114 +2271,69 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cvzkk8l",
+    "id": "c1oedkqg",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
-        "Europe": 1
+        "Europe": 0
       },
       "matched": {
-        "Europe": [
+        "Canada": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-13T15:33:46.000Z",
-    "lastSeen": "2026-11-13T18:30:42.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-11-12T12:07:27.000Z",
+    "lastSeen": "2026-11-14T14:41:59.000Z",
+    "outletCount": 3,
     "outlets": [
-      "JNS",
-      "Al Jazeera",
-      "Middle East Eye",
+      "Globe and Mail",
+      "Haaretz",
       "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.4154903317132506,
-      "max": 0.6573899166097209,
-      "pairs": 6,
+      "min": 0.37348219912079533,
+      "max": 0.5326945082882358,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "JNS",
-        "b": "right",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Qatar, Turkey ink mutual defense pact",
-        "u": "https://www.jns.org/news/world/qatar-turkey-ink-mutual-defense-pact",
-        "publishedAt": "2026-11-13T18:30:42.000Z",
-        "retrievedAt": "2026-11-13T19:26:11.152Z",
+        "t": "Iranian men found guilty in U.K. of spying on dissident journalists for Tehran",
+        "u": "https://www.theglobeandmail.com/world/article-iranian-men-found-guilty-in-uk-assisting-iranian-intelligence/",
+        "publishedAt": "2026-11-12T12:07:27.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Turkish President Recep Tayyip Erdoğan said the two countries “would continue their joint efforts to prevent the resumption of hostilities in the Gulf region.”",
-          "“Turkey and Qatar would continue their joint efforts to prevent the resumption of hostilities in the Gulf region, pave the way for dialogue and establish peace, emphasizing the importance of …"
+          "Sepahvand was directed by the IRGC or “middlemen” for Iranian intelligence, Senior National Coordinator for Counter Terrorism Policing Vicki Evans said, adding the case “highlights the continuing and increasing …"
         ],
         "figures": [],
-        "wordsRead": 574
+        "wordsRead": 290
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Turkiye and Qatar sign mutual defence agreement",
-        "u": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
-        "publishedAt": "2026-11-13T15:49:51.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“President Erdogan stated that we would continue working together to prevent ⁠⁠the resurgence of ⁠⁠war in the Gulf region and establish a basis ⁠⁠for dialogue and ⁠⁠achieve peace,” ⁠⁠the Turkish …",
-          "Erdogan’s office said the agreement would “add …"
-        ],
-        "figures": [],
-        "wordsRead": 385
-      },
-      {
-        "n": "Middle East Eye",
+        "n": "Haaretz",
         "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Turkey and Qatar sign mutual defence agreement",
-        "u": "https://www.middleeasteye.net/news/turkey-and-qatar-sign-mutual-defence-agreement",
-        "publishedAt": "2026-11-13T15:56:32.000Z",
-        "retrievedAt": "2026-11-13T19:26:14.003Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "A statement by the Turkish president's office said that Friday's mutual defence agreement with Qatar \"would add another dimension to our brotherhood\".",
-          "Erdogan said Turkey and …"
-        ],
-        "figures": [],
-        "wordsRead": 260
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Turkey and Qatar sign mutual defence pact, Erdogan’s office says",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-and-qatar-sign-mutual-defence-pact-erdogans-office-says",
-        "publishedAt": "2026-11-13T15:51:35.000Z",
-        "retrievedAt": "2026-11-13T19:26:14.003Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "His office said the agreement would “add …"
-        ],
-        "figures": [],
-        "wordsRead": 77
+        "t": "Two Iranian men convicted of spying on dissident journalists in the U.K.",
+        "u": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000",
+        "publishedAt": "2026-11-13T08:57:21.000Z",
+        "retrievedAt": "2026-11-14T17:50:05.930Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Arab News",
@@ -1869,17 +2342,27 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Turkiye, Qatar sign mutual defense agreement, pledge unified stance against attack",
-        "u": "https://www.arabnews.com/middle-east/turkiye-qatar-sign-mutual-defense-agreement-pledge-unified-stance-against-attack-3011680",
-        "publishedAt": "2026-11-13T15:33:46.000Z",
-        "retrievedAt": "2026-11-13T19:26:15.342Z",
+        "t": "UK court convicts 2 Iranian men of spying on London-based journalists",
+        "u": "https://www.arabnews.com/media/uk-court-convicts-2-iranian-men-of-spying-on-london-based-journalists-3011865",
+        "publishedAt": "2026-11-14T14:41:59.000Z",
+        "retrievedAt": "2026-11-14T17:50:12.563Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“President Erdogan ⁠stated that we would continue working together to ‌prevent the resurgence of war ‌in the Gulf region and establish a ​basis for dialogue and ‌achieve peace,” the Turkish …",
-          "ISTANBUL: Turkiye and Qatar …"
+          "“Sepahvand and Manesh were promised rewards to send intelligence back to contacts in Iran and Sepahvand himself was willing to go beyond surveillance to commit serious violence against their targets,” …",
+          "“The shocking evidence presented in this trial once again shows the lengths Iran is prepared to go to in order to silence journalists, wherever they are in the world,” said …",
+          "“The Woolwich trial has …"
         ],
-        "figures": [],
-        "wordsRead": 353
+        "figures": [
+          {
+            "value": "£150,000",
+            "context": "ne message, Sepahvand asked a contact in Iran for £150,000 ($198,420) to “finish (the target) off” once they"
+          },
+          {
+            "value": "$198,420",
+            "context": ", Sepahvand asked a contact in Iran for £150,000 ($198,420) to “finish (the target) off” once they had been"
+          }
+        ],
+        "wordsRead": 662
       }
     ],
     "views": [
@@ -1888,22 +2371,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
             "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Turkey and Qatar sign mutual defence agreement",
-            "url": "https://www.middleeasteye.net/news/turkey-and-qatar-sign-mutual-defence-agreement"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "Turkey and Qatar sign mutual defence pact, Erdogan’s office says",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-and-qatar-sign-mutual-defence-pact-erdogans-office-says"
+            "country": "IL",
+            "evidenceIndex": 1,
+            "headline": "Two Iranian men convicted of spying on dissident journalists in the U.K.",
+            "url": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000"
           }
         ],
         "status": "sourced",
@@ -1912,25 +2386,25 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Iranian men found guilty in U.K. of spying on dissident journalists for Tehran",
+            "url": "https://www.theglobeandmail.com/world/article-iranian-men-found-guilty-in-uk-assisting-iranian-intelligence/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "JNS",
-            "outletId": "jns",
-            "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 0,
-            "headline": "Qatar, Turkey ink mutual defense pact",
-            "url": "https://www.jns.org/news/world/qatar-turkey-ink-mutual-defense-pact"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -1940,33 +2414,23 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Turkiye and Qatar sign mutual defence agreement",
-        "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
         "outlet": "Arab News",
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "Turkiye, Qatar sign mutual defense agreement, pledge unified stance against attack",
-        "url": "https://www.arabnews.com/middle-east/turkiye-qatar-sign-mutual-defense-agreement-pledge-unified-stance-against-attack-3011680",
+        "evidenceIndex": 2,
+        "headline": "UK court convicts 2 Iranian men of spying on London-based journalists",
+        "url": "https://www.arabnews.com/media/uk-court-convicts-2-iranian-men-of-spying-on-london-based-journalists-3011865",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Qatar",
-        "Turkey",
-        "Turkiye",
-        "Erdogan"
+        "Iranian",
+        "London-based",
+        "Two Iranian",
+        "Tehran"
       ],
       "attempts": [
         {
@@ -2052,7 +2516,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ctofb7i",
+    "id": "c15d3bnf",
     "regions": [
       "Global"
     ],
@@ -2060,33 +2524,270 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 2
+        "Europe": 0
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-14T08:53:09.000Z",
+    "lastSeen": "2026-11-14T16:58:33.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Guardian US",
+      "Globe and Mail",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.41126956493271777,
+      "max": 0.52216993859919,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+        "u": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins",
+        "publishedAt": "2026-11-14T16:58:33.000Z",
+        "retrievedAt": "2026-11-14T17:49:27.544Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Alaskans are hungry for change,” Kreiss-Tomkins said.",
+          "“We’ve been running the same campaign since we launched in February, and I don’t take anyone’s vote for granted.”",
+          "Former Alaska state legislator Jonathan Kreiss-Tomkins defeated three Republican opponents, including a candidate backed by Donald Trump , becoming the first Democrat elected governor of Alaska since 1998."
         ],
-        "Europe": [
-          "europe",
+        "figures": [],
+        "wordsRead": 714
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Kreiss-Tomkins elected as Alaska governor in state’s first Democrat win since 1998",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-alaska-us-midterms-kreiss-tomkins-governor-democrat-1988/",
+        "publishedAt": "2026-11-14T16:32:52.000Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "She said Kreiss-Tomkins “understands that governing requires listening to people with different perspectives and finding common ground to solve the problems all of us face.”",
+          "Begich’s campaign at the time said it had concluded that the “strongest path to victory is to bring Democratic voters, donors and resources together behind one candidate.”",
+          "Kreiss-Tomkins said compromise “is a virtue, not a dirty word,” and …"
+        ],
+        "figures": [],
+        "wordsRead": 630
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Alaska elects a Democratic governor for the first time since 1998",
+        "u": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000",
+        "publishedAt": "2026-11-14T08:53:09.000Z",
+        "retrievedAt": "2026-11-14T17:50:05.930Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+            "url": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins"
+          },
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Alaska elects a Democratic governor for the first time since 1998",
+            "url": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Kreiss-Tomkins elected as Alaska governor in state’s first Democrat win since 1998",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-alaska-us-midterms-kreiss-tomkins-governor-democrat-1988/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Alaska",
+        "Democrat",
+        "Kreiss-Tomkins",
+        "Democratic"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Alaska",
+            "Democrat",
+            "Kreiss-Tomkins",
+            "Democratic"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cats0y9",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {
+        "Canada": [
           "(an outlet from the region covered it)"
         ]
       }
     },
     "firstSeen": "2026-11-12T14:25:46.000Z",
-    "lastSeen": "2026-11-13T08:30:24.000Z",
-    "outletCount": 4,
+    "lastSeen": "2026-11-12T19:39:06.000Z",
+    "outletCount": 3,
     "outlets": [
       "Globe and Mail",
-      "Euronews",
       "Haaretz",
       "Nikkei Asia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3744342123219837,
-      "max": 0.4527456748189324,
-      "pairs": 6,
+      "min": 0.37696781706127075,
+      "max": 0.4727021511421886,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -2100,7 +2801,7 @@
         "t": "Ousted Nvidia CEO Huang had affair with second employee, sources say",
         "u": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-affair/",
         "publishedAt": "2026-11-12T19:39:06.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Ousted Nvidia NVDA-Q CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar with the matter, Reuters has learned.",
@@ -2119,28 +2820,8 @@
         "t": "Markets and AI trade brace as Jensen Huang resigns as Nvidia CEO",
         "u": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/",
         "publishedAt": "2026-11-12T15:35:05.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "What is next for Nvidia after CEO Jensen Huang resigns?",
-        "u": "https://www.euronews.com/2026/11/13/what-is-next-for-nvidia-after-ceo-jensen-huang-resigns",
-        "publishedAt": "2026-11-13T08:30:24.000Z",
-        "retrievedAt": "2026-11-13T19:25:54.163Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“There’s not someone who is sort of prepped and ready to go next in line,” said Carmem Domingues, who was a senior AI adviser in the Biden White House.",
-          "Martin Peers of tech outlet The Information has said there are “no obvious internal candidates”.",
-          "\"Investors have effectively been buying into Nvidia’s technology and Huang’s vision in equal measure,\" said Stephen Innes of SPI Asset Management."
-        ],
-        "figures": [],
-        "wordsRead": 816
       },
       {
         "n": "Haaretz",
@@ -2152,7 +2833,7 @@
         "t": "Jensen Huang resigns as Nvidia's CEO. Will an Israeli take over?",
         "u": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000",
         "publishedAt": "2026-11-12T14:25:46.000Z",
-        "retrievedAt": "2026-11-13T19:26:08.277Z",
+        "retrievedAt": "2026-11-14T17:50:05.930Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -2165,7 +2846,7 @@
         "t": "Jensen Huang resigns as Nvidia chief after alleged second affair",
         "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair",
         "publishedAt": null,
-        "retrievedAt": "2026-11-13T19:26:23.851Z",
+        "retrievedAt": "2026-11-14T17:50:20.140Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "PALO ALTO, California/WASHINGTON -- Jensen …"
@@ -2184,7 +2865,7 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 3,
+            "evidenceIndex": 2,
             "headline": "Jensen Huang resigns as Nvidia's CEO. Will an Israeli take over?",
             "url": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000"
           }
@@ -2215,20 +2896,11 @@
             "url": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/"
           },
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 2,
-            "headline": "What is next for Nvidia after CEO Jensen Huang resigns?",
-            "url": "https://www.euronews.com/2026/11/13/what-is-next-for-nvidia-after-ceo-jensen-huang-resigns"
-          },
-          {
             "outlet": "Nikkei Asia",
             "outletId": "nikkeiasia",
             "lean": "centre",
             "country": "JP",
-            "evidenceIndex": 4,
+            "evidenceIndex": 3,
             "headline": "Jensen Huang resigns as Nvidia chief after alleged second affair",
             "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair"
           }
@@ -2253,11 +2925,11 @@
       "attempted": true,
       "terms": [
         "Jensen Huang",
-        "Nvidia",
         "Ousted Nvidia CEO Huang",
         "Nvidia's CEO. Will",
-        "CEO Jensen Huang",
-        "Nvidia CEO"
+        "Nvidia CEO",
+        "Markets",
+        "Israeli"
       ],
       "attempts": [
         {
@@ -2343,116 +3015,39 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ckdc38s",
+    "id": "cslfk1a",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
         "Europe": 1
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-11T23:09:09.000Z",
-    "lastSeen": "2026-11-13T19:05:57.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-11-13T23:23:21.000Z",
+    "lastSeen": "2026-11-14T14:18:41.000Z",
+    "outletCount": 3,
     "outlets": [
-      "Democracy Now!",
-      "Guardian US",
       "BBC News",
-      "Globe and Mail"
+      "Deutsche Welle",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.4111460103690756,
-      "max": 0.5240890442844922,
-      "pairs": 6,
+      "min": 0.3676913968228054,
+      "max": 0.4676831035831326,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Democracy Now!",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Relatives of Slain Freedom Summer Activists Celebrate Scott Colom's Historic Senate Win in Mississippi",
-        "u": "http://www.democracynow.org/2026/11/12/mississippi_scott_colom_senate_win",
-        "publishedAt": "2026-11-12T13:19:37.000Z",
-        "retrievedAt": "2026-11-13T19:25:23.513Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The people of Mississippi have spoken,” adds David Goodman, the brother of Andrew Goodman.",
-          "“And we have to cease and desist this divide-and-conquer business, because it’s not in our collective interest as the United States of America.”",
-          "Early-Warning Radar as Trump Declares, “We Don’t Need a Deal with Iran”"
-        ],
-        "figures": [],
-        "wordsRead": 1738
-      },
-      {
-        "n": "Democracy Now!",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Scott Colom Wins Stunning Victory, Becomes Mississippi's First Black Senator Since Reconstruction",
-        "u": "http://www.democracynow.org/2026/11/12/scott_colom_victory_speech",
-        "publishedAt": "2026-11-12T13:14:15.000Z",
-        "retrievedAt": "2026-11-13T19:25:23.513Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“There are so many people that had faith in Mississippi at times where it seemed impossible, people like Medgar Evers.”",
-          "Early-Warning Radar as Trump Declares, “We Don’t Need a Deal with Iran”",
-          "Democrat Scott Colom has made history as Mississippi’s first Democratic senator since 1982 — and its first African American senator since the post-Civil War Reconstruction era."
-        ],
-        "figures": [],
-        "wordsRead": 896
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Across racial lines, Mississippians celebrate Scott Colom’s historic election: ‘The times they are a’ changin’",
-        "u": "https://www.theguardian.com/us-news/2026/nov/13/mississippians-scott-colom-election",
-        "publishedAt": "2026-11-13T19:05:57.000Z",
-        "retrievedAt": "2026-11-13T19:25:26.353Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Charmaine Rehg, 74, who lives in Eugene, Oregon, and is originally from St Louis, Missouri, said Colom’s victory will “mean much more respect for Mississippi, which has been belittled for …",
-          "Looking ahead, Rehg said she hopes Colom will pursue a range of policy changes, including a “healthcare system more in line with those in Europe”.",
-          "Park grew up in south Mississippi in the 1970s, when the “KKK was a real presence in the state”."
-        ],
-        "figures": [],
-        "wordsRead": 979
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Mississippi makes history with Democrat Scott Colom’s Senate win - The Latest",
-        "u": "https://www.theguardian.com/news/video/2026/nov/12/mississippi-makes-history-with-democrat-scott-coloms-senate-win-the-latest",
-        "publishedAt": "2026-11-12T19:00:53.000Z",
-        "retrievedAt": "2026-11-13T19:25:26.353Z",
-        "read": "headline and feed excerpt"
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -2460,82 +3055,59 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Before Scott Colom, these two men were the last black US senators from Mississippi",
-        "u": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-12T14:12:55.000Z",
-        "retrievedAt": "2026-11-13T19:25:30.194Z",
+        "t": "Second catch attempt for SpaceX Starship rocket",
+        "u": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-14T14:18:41.000Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"I really feel like a change is what we need,\" 18-year-old Jamyria Dunn said.",
-          "\"That's an example of the power of prayer, and through our history, there are so many people that lifted this state …"
+          "During a livestream of the launch, a SpaceX spokesperson said: \"Safety is always the number one priority and we're still testing out things that we haven't done before on these …",
+          "\"Full reusability has the potential to fundamentally change the economics of accessing space,\" he said.",
+          "Blue Origin had said its spacecraft would be back in action by the end of this year, but a return to flight has now been delayed to early in 2027."
         ],
         "figures": [],
-        "wordsRead": 358
+        "wordsRead": 792
       },
       {
-        "n": "Globe and Mail",
+        "n": "Deutsche Welle",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Democrat Colom defeats incumbent Republican in Mississippi Senate race",
-        "u": "https://www.theglobeandmail.com/world/us-politics/article-democrat-scott-colom-mississippi-senate/",
-        "publishedAt": "2026-11-11T23:09:09.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "t": "SpaceX launches Starship rocket, fails to recover booster",
+        "u": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-14T02:24:00.000Z",
+        "retrievedAt": "2026-11-14T17:49:57.822Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“It’s got to be about having a party that represents rural America again, suburban America, urban America – a party that makes sure we actually deliver for voters in ways …",
-          "Hyde-Smith to the stage, she said nine words in six seconds: “Is this not the best President in our lifetime?”",
-          "“My job is to do well enough as the next United States senator that the next time some young Black boy or girl has the work ethic, the vision, and …"
+          "\"Not sure right now why we weren't able to bring it back,\" SpaceX's Dan Huot said.",
+          "Musk said he expected SpaceX to conduct Starship launches once a week by early 2027.",
+          "Ukrainian President Zelensky and US envoy Kushner said Europe would participate in the next round of talks with Russia."
         ],
         "figures": [],
-        "wordsRead": 1426
+        "wordsRead": 551
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
+        "publishedAt": "2026-11-13T23:23:21.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Democracy Now!",
-            "outletId": "democracynow",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Relatives of Slain Freedom Summer Activists Celebrate Scott Colom's Historic Senate Win in Mississippi",
-            "url": "http://www.democracynow.org/2026/11/12/mississippi_scott_colom_senate_win"
-          },
-          {
-            "outlet": "Democracy Now!",
-            "outletId": "democracynow",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Scott Colom Wins Stunning Victory, Becomes Mississippi's First Black Senator Since Reconstruction",
-            "url": "http://www.democracynow.org/2026/11/12/scott_colom_victory_speech"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Across racial lines, Mississippians celebrate Scott Colom’s historic election: ‘The times they are a’ changin’",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippians-scott-colom-election"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "Mississippi makes history with Democrat Scott Colom’s Senate win - The Latest",
-            "url": "https://www.theguardian.com/news/video/2026/nov/12/mississippi-makes-history-with-democrat-scott-coloms-senate-win-the-latest"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -2547,253 +3119,21 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 4,
-            "headline": "Before Scott Colom, these two men were the last black US senators from Mississippi",
-            "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 0,
+            "headline": "Second catch attempt for SpaceX Starship rocket",
+            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
           },
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
             "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 5,
-            "headline": "Democrat Colom defeats incumbent Republican in Mississippi Senate race",
-            "url": "https://www.theglobeandmail.com/world/us-politics/article-democrat-scott-colom-mississippi-senate/"
+            "country": "DE",
+            "evidenceIndex": 1,
+            "headline": "SpaceX launches Starship rocket, fails to recover booster",
+            "url": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Mississippi",
-        "Becomes Mississippi's First Black",
-        "Celebrate Scott Colom's Historic",
-        "Slain Freedom Summer Activists",
-        "Senator Since Reconstruction",
-        "Scott Colom Wins Stunning"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Mississippi",
-            "Becomes Mississippi's First Black",
-            "Celebrate Scott Colom's Historic",
-            "Slain Freedom Summer Activists",
-            "Senator Since Reconstruction",
-            "Scott Colom Wins Stunning"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [
-      {
-        "kind": "count",
-        "about": [
-          "first",
-          "senator",
-          "since"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Democracy Now!",
-            "value": "1982",
-            "url": "http://www.democracynow.org/2026/11/12/scott_colom_victory_speech"
-          },
-          {
-            "outlet": "Guardian US",
-            "value": "43, M",
-            "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippians-scott-colom-election"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cf4p4j1",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {}
-    },
-    "firstSeen": "2026-11-13T13:10:08.000Z",
-    "lastSeen": "2026-11-13T16:31:46.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Al Jazeera",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.363757349375945,
-      "max": 0.9230126806942666,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Kenyan building collapse near Nairobi kills six people",
-        "u": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
-        "publishedAt": "2026-11-13T13:11:24.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Construction workers were reportedly at the site when the building’s uppermost concrete slab gave way, bringing down part of the structure, according to …"
-        ],
-        "figures": [],
-        "wordsRead": 233
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Six people dead near Kenya’s capital after building collapses, police say",
-        "u": "https://www.arabnews.com/world/six-people-dead-near-kenyas-capital-after-building-collapses-police-say-3011687",
-        "publishedAt": "2026-11-13T16:31:46.000Z",
-        "retrievedAt": "2026-11-13T19:26:15.342Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“So far we have confirmed six bodies, but also five people have been rushed to Imara Daima Hospital,” Duncan Ochieng, the assistant …"
-        ],
-        "figures": [],
-        "wordsRead": 229
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "6 dead near Kenya’s capital after building collapses",
-        "u": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
-        "publishedAt": "2026-11-13T13:10:08.000Z",
-        "retrievedAt": "2026-11-13T19:26:19.644Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
         "text": null
       },
       {
@@ -2807,46 +3147,27 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 0 of 3 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "Kenyan building collapse near Nairobi kills six people",
-        "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Six people dead near Kenya’s capital after building collapses, police say",
-        "url": "https://www.arabnews.com/world/six-people-dead-near-kenyas-capital-after-building-collapses-police-say-3011687",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
       {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 2,
-        "headline": "6 dead near Kenya’s capital after building collapses",
-        "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses",
+        "headline": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Kenya",
-        "Nairobi",
-        "Kenyan"
+        "Starship",
+        "SpaceX",
+        "SpaceX Starship",
+        "Second"
       ],
       "attempts": [
         {
@@ -2932,7 +3253,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cio2gxe",
+    "id": "cqdywp8",
     "regions": [
       "Global"
     ],
@@ -2952,42 +3273,22 @@
       }
     },
     "firstSeen": "2026-11-13T14:34:59.000Z",
-    "lastSeen": "2026-11-13T19:07:56.000Z",
+    "lastSeen": "2026-11-13T20:20:33.000Z",
     "outletCount": 3,
     "outlets": [
-      "Guardian US",
       "BBC News",
-      "Globe and Mail"
+      "Globe and Mail",
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3908542790403591,
-      "max": 0.4809250633357302,
-      "pairs": 2,
+      "min": 0.3893939144133796,
+      "max": 0.4218068931786584,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bessent blames Lutnick’s commerce department over delay blacklisting China-linked data firm – US politics live",
-        "u": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-        "publishedAt": "2026-11-13T19:07:56.000Z",
-        "retrievedAt": "2026-11-13T19:25:26.353Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "However, Bessent said this has been stalled because “commerce [department] has the pen” .",
-          "It comes after ⁠ Trump threatened yesterday to ​double tariffs ​on Mexico ​if it did not ​stop ‌the “huge CARAVANS” ​of ​migrants from reaching the US border, to which Sheinbaum …",
-          "“I believe the size and scale of these majorities provides an opportunity for the United States Senate to answer the call with the American people,” he said a the What’s …"
-        ],
-        "figures": [],
-        "wordsRead": 2299
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -2997,16 +3298,16 @@
         },
         "t": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
         "u": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-13T15:40:08.000Z",
-        "retrievedAt": "2026-11-13T19:25:30.194Z",
+        "publishedAt": "2026-11-13T19:53:57.000Z",
+        "retrievedAt": "2026-11-14T17:49:30.152Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"President Trump made it very clear that China should not receive any Nvidia chips above H100s, so any leakage is very frustrating because it hurts our great companies in the …",
           "Bessent told CNBC several agencies \"were in favour of putting Megaspeed on the entity list for months\".",
-          "\"The story has been thus far of Jensen Huang's personal foibles,\" he told CNBC's Squawk Box programme …"
+          "\"The story has been thus far of Jensen Huang's personal foibles,\" he told CNBC , external ."
         ],
         "figures": [],
-        "wordsRead": 652
+        "wordsRead": 716
       },
       {
         "n": "Globe and Mail",
@@ -3018,7 +3319,7 @@
         "t": "Bessent blames Lutnick for failing to blacklist firm at heart of Nvidia scandal",
         "u": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/",
         "publishedAt": "2026-11-13T14:34:59.000Z",
-        "retrievedAt": "2026-11-13T19:25:41.531Z",
+        "retrievedAt": "2026-11-14T17:49:41.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“But Commerce has the pen,” Bessent told CNBC’s Squawk Box .",
@@ -3026,24 +3327,27 @@
         ],
         "figures": [],
         "wordsRead": 445
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+        "u": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
+        "publishedAt": "2026-11-13T20:20:33.000Z",
+        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Bessent blames Lutnick’s commerce department over delay blacklisting China-linked data firm – US politics live",
-            "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -3055,7 +3359,7 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 1,
+            "evidenceIndex": 0,
             "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
             "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
           },
@@ -3064,7 +3368,7 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Bessent blames Lutnick for failing to blacklist firm at heart of Nvidia scandal",
             "url": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/"
           }
@@ -3081,18 +3385,31 @@
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 2,
+        "headline": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Bessent",
-        "Lutnick",
         "Nvidia",
-        "China-linked",
-        "Trump's"
+        "Bessent",
+        "US Commerce Department",
+        "Trump's",
+        "Lutnick",
+        "China"
       ],
       "attempts": [
         {
@@ -3101,11 +3418,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Bessent",
-            "Lutnick",
             "Nvidia",
-            "China-linked",
-            "Trump's"
+            "Bessent",
+            "US Commerce Department",
+            "Trump's",
+            "Lutnick",
+            "China"
           ]
         },
         {
@@ -3171,305 +3489,6 @@
       ],
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1pav7ze",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-13T13:42:49.000Z",
-    "lastSeen": "2026-11-14T00:00:00.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Euronews",
-      "Al Jazeera",
-      "Taipei Times"
-    ],
-    "tier": "primary",
-    "tierBasis": "confirmed against 3 primary document(s)",
-    "clustering": {
-      "min": 0.3628735476299026,
-      "max": 0.43224820631131267,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "China warns US over chip curbs as suspected spy’s firm got banned chips",
-        "u": "https://www.euronews.com/2026/11/13/china-warns-us-over-chip-curbs-as-suspected-spys-firm-got-banned-chips",
-        "publishedAt": "2026-11-13T13:48:12.000Z",
-        "retrievedAt": "2026-11-13T19:25:54.163Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Foreign ministry spokeswoman Mao Ning said on Friday that China opposed “the abuse of export control measures”.",
-          "China has warned the United States against tightening chip export controls, as a company founded by the …"
-        ],
-        "figures": [],
-        "wordsRead": 342
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "China warns against fresh US chip curbs",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
-        "publishedAt": "2026-11-13T13:42:49.000Z",
-        "retrievedAt": "2026-11-13T19:26:12.582Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US Congress eyes tighter curbs on chips to China",
-        "u": "https://www.taipeitimes.com/News/biz/archives/2026/11/14/2003867699",
-        "publishedAt": "2026-11-14T00:00:00.000Z",
-        "retrievedAt": "2026-11-13T19:26:22.510Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The export controls on chips to China has been a big issue around here,” Johnson, a Louisiana Republican, told reporters at the US Capitol, adding he favored limiting China’s access …",
-          "“Congress can still subpoena him and Nvidia should conduct an independent investigation to determine whether the problems extend beyond Huang,” Cheung said.",
-          "“I think there’s a developing consensus in Congress that is an important position to take.”"
-        ],
-        "figures": [],
-        "wordsRead": 749
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "China warns US over chip curbs as suspected spy’s firm got banned chips",
-            "url": "https://www.euronews.com/2026/11/13/china-warns-us-over-chip-curbs-as-suspected-spys-firm-got-banned-chips"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "China warns against fresh US chip curbs",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 2,
-        "headline": "US Congress eyes tighter curbs on chips to China",
-        "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/14/2003867699",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "China",
-        "US Congress"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [
-            {
-              "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
-              "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
-              "published": "2026-10-26",
-              "publisher": "Transportation Department, National Highway Traffic Safety Administration",
-              "docType": "Proposed Rule",
-              "ref": "2026-21794",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
-              "url": "https://www.federalregister.gov/documents/2026/10/16/2026-21149/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-amendment-no-1-and-order",
-              "published": "2026-10-16",
-              "publisher": "Securities and Exchange Commission",
-              "docType": "Notice",
-              "ref": "2026-21149",
-              "read": "metadata only — document not retrieved or read"
-            },
-            {
-              "title": "Heightened Requirements for Foreign Importers of Record",
-              "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record",
-              "published": "2026-11-06",
-              "publisher": "Homeland Security Department, U.S. Customs and Border Protection",
-              "docType": "Rule",
-              "ref": "2026-22735",
-              "read": "metadata only — document not retrieved or read"
-            }
-          ],
-          "terms": [
-            "China",
-            "US Congress"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [
-        {
-          "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
-          "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
-          "published": "2026-10-26",
-          "publisher": "Transportation Department, National Highway Traffic Safety Administration",
-          "docType": "Proposed Rule",
-          "ref": "2026-21794",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
-          "url": "https://www.federalregister.gov/documents/2026/10/16/2026-21149/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-amendment-no-1-and-order",
-          "published": "2026-10-16",
-          "publisher": "Securities and Exchange Commission",
-          "docType": "Notice",
-          "ref": "2026-21149",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        },
-        {
-          "title": "Heightened Requirements for Foreign Importers of Record",
-          "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record",
-          "published": "2026-11-06",
-          "publisher": "Homeland Security Department, U.S. Customs and Border Protection",
-          "docType": "Rule",
-          "ref": "2026-22735",
-          "read": "metadata only — document not retrieved or read",
-          "source": "US Federal Register"
-        }
-      ],
-      "gap": null
     },
     "disputedCandidates": [],
     "headline": null,
