@@ -1,6 +1,6 @@
 [
   {
-    "id": "c11p0dut",
+    "id": "cwjw0fi",
     "regions": [
       "Canada",
       "Global"
@@ -13,68 +13,67 @@
       },
       "matched": {
         "Canada": [
-          "canada",
-          "carney",
-          "canadians"
+          "ontario",
+          "alberta",
+          "edmonton"
         ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-14T08:16:15.000Z",
-    "lastSeen": "2026-11-14T15:09:25.000Z",
+    "firstSeen": "2026-11-15T09:26:37.000Z",
+    "lastSeen": "2026-11-15T18:11:38.000Z",
     "outletCount": 2,
     "outlets": [
-      "Euronews",
-      "Arab News"
+      "BBC News",
+      "Washington Examiner"
     ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tier": "primary",
+    "tierBasis": "confirmed against 4 primary document(s)",
     "clustering": {
-      "min": 0.3967816760449586,
-      "max": 0.3967816760449586,
+      "min": 0.6223328895838096,
+      "max": 0.6223328895838096,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
-        "u": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
-        "publishedAt": "2026-11-14T15:09:25.000Z",
-        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "t": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+        "u": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-15T09:26:37.000Z",
+        "retrievedAt": "2026-11-15T18:40:26.150Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney …",
-          "\"One year ago, Canada …"
+          "Prime Minister Mark Carney wrote on X: \"Canadians are holding Private Dal Bianco's loved ones, and all those still grieving in the wake of this terrible tragedy, in our hearts.\"",
+          "Canadian Chief of the Defence Staff Gen Jennie …"
         ],
         "figures": [],
-        "wordsRead": 359
+        "wordsRead": 380
       },
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "Washington Examiner",
+        "b": "lean_right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Canada’s Carney touts Philippine trade deal on Asia tour",
-        "u": "https://www.arabnews.com/world/canadas-carney-touts-philippine-trade-deal-on-asia-tour-3011815",
-        "publishedAt": "2026-11-14T08:16:15.000Z",
-        "retrievedAt": "2026-11-14T17:50:12.563Z",
+        "t": "Fifth Canadian soldier dies from injuries suffered in military training fire",
+        "u": "https://www.washingtonexaminer.com/news/world/4804223/fifth-canadian-soldier-dies-military-base-fire/",
+        "publishedAt": "2026-11-15T18:11:38.000Z",
+        "retrievedAt": "2026-11-15T18:40:30.377Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The deal with ASEAN, meanwhile, would be the “first trade agreement ... outside of Asia” for the bloc, Carney said, noting “more than $50 billion a year in two-way trade …",
-          "The pacts were “part of a …"
+          "William Douglas Dal Bianco died Friday …"
         ],
         "figures": [],
-        "wordsRead": 377
+        "wordsRead": 67
       }
     ],
     "views": [
@@ -90,13 +89,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "EU",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
-            "url": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says"
+            "headline": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+            "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss"
           }
         ],
         "status": "sourced",
@@ -105,44 +104,77 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Fifth Canadian soldier dies from injuries suffered in military training fire",
+            "url": "https://www.washingtonexaminer.com/news/world/4804223/fifth-canadian-soldier-dies-military-base-fire/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Canada’s Carney touts Philippine trade deal on Asia tour",
-        "url": "https://www.arabnews.com/world/canadas-carney-touts-philippine-trade-deal-on-asia-tour-3011815",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Canada",
-        "Philippines",
-        "Mark Carney",
-        "Philippine",
-        "Carney",
-        "Asia"
+        "Fifth Canadian"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [
+            {
+              "title": "Heightened Requirements for Foreign Importers of Record",
+              "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record",
+              "published": "2026-11-06",
+              "publisher": "Homeland Security Department, U.S. Customs and Border Protection",
+              "docType": "Rule",
+              "ref": "2026-22735",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Hazardous Materials: Harmonization With International Standards",
+              "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21922/hazardous-materials-harmonization-with-international-standards",
+              "published": "2026-10-27",
+              "publisher": "Transportation Department, Pipeline and Hazardous Materials Safety Administration",
+              "docType": "Proposed Rule",
+              "ref": "2026-21922",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Further Definition of “Swap” To Exclude Casino-Style Gambling Products",
+              "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21376/further-definition-of-swap-to-exclude-casino-style-gambling-products",
+              "published": "2026-10-19",
+              "publisher": "Commodity Futures Trading Commission",
+              "docType": "Rule",
+              "ref": "2026-21376",
+              "read": "metadata only — document not retrieved or read"
+            },
+            {
+              "title": "Pipeline Safety: Amendments to Liquefied Natural Gas Facilities",
+              "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22396/pipeline-safety-amendments-to-liquefied-natural-gas-facilities",
+              "published": "2026-11-03",
+              "publisher": "Transportation Department, Pipeline and Hazardous Materials Safety Administration",
+              "docType": "Proposed Rule",
+              "ref": "2026-22396",
+              "read": "metadata only — document not retrieved or read"
+            }
+          ],
+          "terms": [
+            "Fifth Canadian"
+          ]
         },
         {
           "source": "csis-canada",
@@ -205,8 +237,49 @@
           "reason": "does not apply to this story's countries or terms"
         }
       ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+      "primary": [
+        {
+          "title": "Heightened Requirements for Foreign Importers of Record",
+          "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record",
+          "published": "2026-11-06",
+          "publisher": "Homeland Security Department, U.S. Customs and Border Protection",
+          "docType": "Rule",
+          "ref": "2026-22735",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Hazardous Materials: Harmonization With International Standards",
+          "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21922/hazardous-materials-harmonization-with-international-standards",
+          "published": "2026-10-27",
+          "publisher": "Transportation Department, Pipeline and Hazardous Materials Safety Administration",
+          "docType": "Proposed Rule",
+          "ref": "2026-21922",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Further Definition of “Swap” To Exclude Casino-Style Gambling Products",
+          "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21376/further-definition-of-swap-to-exclude-casino-style-gambling-products",
+          "published": "2026-10-19",
+          "publisher": "Commodity Futures Trading Commission",
+          "docType": "Rule",
+          "ref": "2026-21376",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        },
+        {
+          "title": "Pipeline Safety: Amendments to Liquefied Natural Gas Facilities",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22396/pipeline-safety-amendments-to-liquefied-natural-gas-facilities",
+          "published": "2026-11-03",
+          "publisher": "Transportation Department, Pipeline and Hazardous Materials Safety Administration",
+          "docType": "Proposed Rule",
+          "ref": "2026-22396",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        }
+      ],
+      "gap": null
     },
     "disputedCandidates": [],
     "headline": null,
@@ -221,7 +294,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1pqocn2",
+    "id": "ck7vsm0",
     "regions": [
       "Europe",
       "Global"
@@ -244,45 +317,51 @@
       }
     },
     "firstSeen": "2026-11-14T10:35:08.000Z",
-    "lastSeen": "2026-11-14T16:53:39.000Z",
-    "outletCount": 7,
+    "lastSeen": "2026-11-15T17:02:35.000Z",
+    "outletCount": 5,
     "outlets": [
-      "BBC News",
+      "The Daily Caller",
       "Globe and Mail",
       "Euronews",
       "Politico Europe",
-      "Deutsche Welle",
-      "Al Jazeera",
-      "South China Morning Post"
+      "Deutsche Welle"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.3745154245272238,
-      "max": 0.734905738838127,
-      "pairs": 14,
+      "min": 0.43083600952728895,
+      "max": 0.48290028847145383,
+      "pairs": 5,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "The Daily Caller",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "u": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-14T15:15:57.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
+        "t": "Zelenskyy Says US Offered NATO Membership In Exchange For Giving Up Donbas To Russia",
+        "u": "https://dailycaller.com/2026/11/15/zelensky-us-putin-nato-membership-donbas-withdrawal",
+        "publishedAt": "2026-11-15T17:02:35.000Z",
+        "retrievedAt": "2026-11-15T18:40:34.649Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In the comments, made on Friday but only released on Saturday, Zelensky said that the US proposal made him believe that \"Nato is back on the agenda\".",
-          "Zelensky then accused US officials of limiting Ukraine's Starlink internet service , which it uses to co-ordinate defensive operations, while Trump said it was \"time for Ukraine to get a …",
-          "US negotiators have touted …"
+          "Kushner wrote on X that “several new ideas emerged from these discussions and are now being explored,” though he did not directly address the territory-for-membership swap.",
+          "Russia already holds about 80% of Donetsk and nearly all of Luhansk, the two mineral-rich provinces that make up the Donbas, according to the Institute for the Study of War."
         ],
-        "figures": [],
-        "wordsRead": 623
+        "figures": [
+          {
+            "value": "20%",
+            "context": "g the present front line, which would keep roughly 20% of Donetsk in Kyiv’s hands, the New York Post rep"
+          },
+          {
+            "value": "80%",
+            "context": "ew York Post reported . Russia already holds about 80% of Donetsk and nearly all of Luhansk, the two min"
+          }
+        ],
+        "wordsRead": 580
       },
       {
         "n": "Globe and Mail",
@@ -294,7 +373,7 @@
         "t": "U.S. asked Ukraine if it would cede Donbas for NATO membership, Zelensky says",
         "u": "https://www.theglobeandmail.com/world/article-us-ukraine-cede-donbas-nato-membership/",
         "publishedAt": "2026-11-14T15:10:58.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Putin simply wants us to leave Kostiantynivka so that they can move in and occupy the entire city that way,” he said.",
@@ -314,7 +393,7 @@
         "t": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
         "u": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
         "publishedAt": "2026-11-14T10:35:08.000Z",
-        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "retrievedAt": "2026-11-15T18:40:47.756Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"I have no right to make that decision on my own,\" he said.",
@@ -333,7 +412,7 @@
         "t": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
         "u": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
         "publishedAt": "2026-11-14T10:48:19.000Z",
-        "retrievedAt": "2026-11-14T17:49:54.059Z",
+        "retrievedAt": "2026-11-15T18:40:49.059Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“I have said repeatedly: Ukraine is not retreating and is not giving up its land to terrorists,” Zelenskyy told reporters.",
@@ -352,59 +431,15 @@
         "t": "Ukraine: Zelenskyy says security deal could go to referendum",
         "u": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
         "publishedAt": "2026-11-14T11:40:00.000Z",
-        "retrievedAt": "2026-11-14T17:49:57.822Z",
+        "retrievedAt": "2026-11-15T18:40:52.620Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Ukrainian President Volodymyr Zelenskyy said US peace envoys asked whether Kyiv would withdraw from its eastern region of ‌Donbas ⁠in exchange ⁠for joining NATO , according to remarks to the …",
-          "The Ukrainian leader told reporters: \"The Americans raised a question: 'What if Ukraine joins NATO?"
+          "The Ukrainian leader told reporters: \"The Americans raised a question: 'What if Ukraine joins NATO?",
+          "\"That ​is why ⁠I believe …"
         ],
         "figures": [],
-        "wordsRead": 489
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
-        "u": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
-        "publishedAt": "2026-11-14T16:53:39.000Z",
-        "retrievedAt": "2026-11-14T17:50:09.897Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“If Putin expects Ukraine’s neutrality to be enshrined, that’s not going to happen,” he said.",
-          "US negotiators have floated the idea that Ukraine should cede parts of eastern Donbas in exchange for NATO membership, Ukraine’s President Volodymyr Zelenskyy has said, after the latest rounds …"
-        ],
-        "figures": [],
-        "wordsRead": 446
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Three killed in Russia as Ukraine claims US floated NATO membership option",
-        "u": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-        "publishedAt": "2026-11-14T11:43:06.000Z",
-        "retrievedAt": "2026-11-14T17:50:09.897Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-        "u": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-        "publishedAt": "2026-11-14T15:14:00.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
-        "read": "headline and feed excerpt"
+        "wordsRead": 519
       }
     ],
     "views": [
@@ -419,15 +454,6 @@
         "side": "centre",
         "label": "Centre",
         "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-            "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
-          },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
@@ -471,57 +497,35 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Zelenskyy Says US Offered NATO Membership In Exchange For Giving Up Donbas To Russia",
+            "url": "https://dailycaller.com/2026/11/15/zelensky-us-putin-nato-membership-donbas-withdrawal"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
+      "applies": true,
+      "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
-        "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 6,
-        "headline": "Three killed in Russia as Ukraine claims US floated NATO membership option",
-        "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 7,
-        "headline": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-        "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
         "Ukraine",
-        "Donbas",
-        "NATO",
         "Zelenskyy",
-        "Zelensky",
-        "Russia"
+        "NATO",
+        "Donbas",
+        "NATO Membership In Exchange",
+        "Zelenskyy Says US Offered"
       ],
       "attempts": [
         {
@@ -531,11 +535,11 @@
           "found": [],
           "terms": [
             "Ukraine",
-            "Donbas",
-            "NATO",
             "Zelenskyy",
-            "Zelensky",
-            "Russia"
+            "NATO",
+            "Donbas",
+            "NATO Membership In Exchange",
+            "Zelenskyy Says US Offered"
           ]
         },
         {
@@ -615,7 +619,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1l3px1g",
+    "id": "c10rn7la",
     "regions": [
       "Europe",
       "Global"
@@ -623,207 +627,125 @@
     "regionEvidence": {
       "scores": {
         "Canada": 1,
-        "India": 0,
-        "Europe": 4
+        "India": 1,
+        "Europe": 3
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
-        "Europe": [
-          "portugal",
+        "India": [
           "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "spain"
         ]
       }
     },
-    "firstSeen": "2026-11-13T07:42:51.000Z",
-    "lastSeen": "2026-11-14T13:33:27.000Z",
-    "outletCount": 7,
+    "firstSeen": "2026-11-15T15:16:29.000Z",
+    "lastSeen": "2026-11-15T17:39:23.000Z",
+    "outletCount": 3,
     "outlets": [
-      "BBC News",
       "Globe and Mail",
-      "Euronews",
-      "Deutsche Welle",
-      "Brussels Signal",
-      "Arab News",
-      "South China Morning Post"
+      "The Hindu",
+      "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3621974765594623,
-      "max": 0.609321660553718,
-      "pairs": 12,
+      "min": 0.4415536593258729,
+      "max": 0.6541561580066855,
+      "pairs": 5,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Microsoft says services fully restored after day-long global outage",
-        "u": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-14T06:42:27.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "By 13:32, the tech giant said there had been \"broader improvements\" in North America, \"sustained improvements\" across much of Europe and \"encouraging recovery signals\" in the Asia Pacific region.",
-          "\"The global Microsoft outage is a stark reminder of how heavily we rely on a handful of big tech providers,\" said Rob Demain, chief executive of cybersecurity firm e2e-assure.",
-          "More than 430 million people use the affected products worldwide."
-        ],
-        "figures": [
-          {
-            "value": "430 million",
-            "context": "government services and personal users. More than 430 million people use the affected products worldwide. Micro"
-          }
-        ],
-        "wordsRead": 781
-      },
-      {
         "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Microsoft services fully restored after massive outage disrupts workers across globe",
-        "u": "https://www.theglobeandmail.com/world/article-microsoft-fully-restored-global-outage-disruption/",
-        "publishedAt": "2026-11-14T13:33:27.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "t": "Over 2,000 migrants reach Canary Islands in two days, Spain says",
+        "u": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/",
+        "publishedAt": "2026-11-15T16:20:34.000Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions,” the company said in an update on …",
-          "It said the incident “was introduced by an issue during an earlier network capacity upgrade that surfaced” following a recent network change.",
-          "Microsoft said Saturday that services were fully restored after a massive outage that lasted for hours."
-        ],
-        "figures": [
-          {
-            "value": "430 million",
-            "context": "pisode had impacted some of their operations. Over 430 million people use Microsoft 365 apps, Microsoft said on"
-          }
-        ],
-        "wordsRead": 771
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Some Microsoft services back online as global outage disrupts businesses and governments",
-        "u": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/",
-        "publishedAt": "2026-11-13T10:11:18.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“We’re seeing encouraging recovery progress, with service availability and e-mail delivery performance improving across a growing portion of affected Microsoft 365 infrastructure,” the company said, as some users started reporting …",
-          "“Our actions taken thus far have not provided the anticipated relief,” the company wrote as part of a series of 22 posts on X.",
-          "If the situation dragged on further, this could “impact the production timeline,” he said."
+          "Nearly 2,200 migrants have reached Spain’s Canary Islands by boat over the past two days, Spain’s maritime rescue service said on Sunday.",
+          "More than 13,000 of the just over 28,000 …"
         ],
         "figures": [],
-        "wordsRead": 1017
+        "wordsRead": 305
       },
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "The Hindu",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Microsoft outage hits companies and governments worldwide",
-        "u": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/",
-        "publishedAt": "2026-11-13T11:19:37.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Microsoft 365 global outage disrupts Portuguese government, health services and schools",
-        "u": "https://www.euronews.com/2026/11/13/microsoft-365-global-outage-disrupts-portuguese-government-health-services-and-schools",
-        "publishedAt": "2026-11-13T13:33:06.000Z",
-        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "t": "Nearly 2,200 migrants reach Canary Islands in two days, Spain says",
+        "u": "https://www.thehindu.com/news/national/nearly-2200-migrants-reach-canary-islands-in-two-days-spain-says/article71705702.ece",
+        "publishedAt": "2026-11-15T17:30:48.000Z",
+        "retrievedAt": "2026-11-15T18:40:42.316Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In a statement (source in Portuguese) , the secretary-general's office of the Government also confirmed that since Thursday there had been \"impacts on the various IT tools that support the …",
-          "In an update at 12h10, the company said it was already seeing \"encouraging progress in recovery\".",
-          "In a statement on X, the tech giant reported that \"email delivery performance was improving …"
+          "Nearly 2,200 migrants have reached Spain's Canary Islands by boat over the past two days, Spain's maritime rescue service said on Sunday.",
+          "More than 13,000 of the just over 28,000 people who arrived in Spain by sea between January and the …"
         ],
         "figures": [],
-        "wordsRead": 622
+        "wordsRead": 416
       },
       {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Microsoft says all services working again",
-        "u": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-14T09:06:00.000Z",
-        "retrievedAt": "2026-11-14T17:49:57.822Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The US technology conglomerate Microsoft said on Saturday that a more than 24-hour global outage affecting its Microsoft 365 applications used by businesses and governments across the world has now …"
-        ],
-        "figures": [],
-        "wordsRead": 337
-      },
-      {
-        "n": "Brussels Signal",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Microsoft fails to restore services as global outage enters second day",
-        "u": "https://brusselssignal.eu/2026/11/microsoft-fails-to-restore-services-as-global-outage-enters-second-day/",
-        "publishedAt": "2026-11-13T07:42:51.000Z",
-        "retrievedAt": "2026-11-14T17:50:02.721Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Microsoft says all services restored after global outage",
-        "u": "https://www.arabnews.com/world/microsoft-says-all-services-restored-after-global-outage-3011792",
-        "publishedAt": "2026-11-14T07:15:21.000Z",
-        "retrievedAt": "2026-11-14T17:50:12.563Z",
+        "t": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
+        "publishedAt": "2026-11-15T17:39:23.000Z",
+        "retrievedAt": "2026-11-15T18:41:04.617Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "South China Morning Post",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
-        "u": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
-        "publishedAt": "2026-11-13T18:43:24.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
-        "read": "headline and feed excerpt"
+        "t": "Record number of migrants arrive in Spain’s Canary Islands",
+        "u": "https://www.aljazeera.com/news/2026/11/15/record-number-of-migrants-arrive-in-spains-canary-islands?traffic_source=rss",
+        "publishedAt": "2026-11-15T15:16:29.000Z",
+        "retrievedAt": "2026-11-15T18:41:04.617Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“So when the weather conditions allow it, the boats go out there,” he said, noting that migrants use “wooden fishing vessels called pirogues” in which up to 100 people are …",
+          "“There’s been even more arrivals by Sunday afternoon”, Smith said, adding that the new …"
+        ],
+        "figures": [],
+        "wordsRead": 457
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Nearly 2,200 migrants reach Canary Islands in two days, Spain says",
+            "url": "https://www.thehindu.com/news/national/nearly-2200-migrants-reach-canary-islands-in-two-days-spain-says/article71705702.ece"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -831,58 +753,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
             "lean": "centre",
-            "country": "UK",
+            "country": "CA",
             "evidenceIndex": 0,
-            "headline": "Microsoft says services fully restored after day-long global outage",
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Microsoft services fully restored after massive outage disrupts workers across globe",
-            "url": "https://www.theglobeandmail.com/world/article-microsoft-fully-restored-global-outage-disruption/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Some Microsoft services back online as global outage disrupts businesses and governments",
-            "url": "https://www.theglobeandmail.com/world/article-microsoft-blames-server-problems-as-worldwide-outage-persists/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 3,
-            "headline": "Microsoft outage hits companies and governments worldwide",
-            "url": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 4,
-            "headline": "Microsoft 365 global outage disrupts Portuguese government, health services and schools",
-            "url": "https://www.euronews.com/2026/11/13/microsoft-365-global-outage-disrupts-portuguese-government-health-services-and-schools"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 5,
-            "headline": "Microsoft says all services working again",
-            "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf"
+            "headline": "Over 2,000 migrants reach Canary Islands in two days, Spain says",
+            "url": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/"
           }
         ],
         "status": "sourced",
@@ -891,18 +768,8 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Brussels Signal",
-            "outletId": "brusselssig",
-            "lean": "right",
-            "country": "EU",
-            "evidenceIndex": 6,
-            "headline": "Microsoft fails to restore services as global outage enters second day",
-            "url": "https://brusselssignal.eu/2026/11/microsoft-fails-to-restore-services-as-global-outage-enters-second-day/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -912,32 +779,34 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 7,
-        "headline": "Microsoft says all services restored after global outage",
-        "url": "https://www.arabnews.com/world/microsoft-says-all-services-restored-after-global-outage-3011792",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 8,
-        "headline": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
-        "url": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
+        "country": "QA",
+        "evidenceIndex": 3,
+        "headline": "Record number of migrants arrive in Spain’s Canary Islands",
+        "url": "https://www.aljazeera.com/news/2026/11/15/record-number-of-migrants-arrive-in-spains-canary-islands?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Microsoft",
-        "Some Microsoft",
-        "Portuguese"
+        "Canary Islands",
+        "Spain",
+        "Nearly",
+        "Record",
+        "Over"
       ],
       "attempts": [
         {
@@ -1010,7 +879,121 @@
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
-    "disputedCandidates": [],
+    "disputedCandidates": [
+      {
+        "kind": "count",
+        "about": [
+          "spain",
+          "service"
+        ],
+        "spread": 0.536,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "13,000",
+            "url": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/"
+          },
+          {
+            "outlet": "The Hindu",
+            "value": "28,000",
+            "url": "https://www.thehindu.com/news/national/nearly-2200-migrants-reach-canary-islands-in-two-days-spain-says/article71705702.ece"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "igrants",
+          "spain",
+          "canary",
+          "islands"
+        ],
+        "spread": 0.318,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "2,200 m",
+            "url": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "1,500 m",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "igrants",
+          "reach",
+          "canary",
+          "islands"
+        ],
+        "spread": 0.318,
+        "readings": [
+          {
+            "outlet": "The Hindu",
+            "value": "2,200 m",
+            "url": "https://www.thehindu.com/news/national/nearly-2200-migrants-reach-canary-islands-in-two-days-spain-says/article71705702.ece"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "1,500 m",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "igrants",
+          "reach",
+          "canary",
+          "islands"
+        ],
+        "spread": 0.25,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "2,000 m",
+            "url": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/"
+          },
+          {
+            "outlet": "Al Jazeera",
+            "value": "1,500 m",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "igrants",
+          "reach",
+          "canary",
+          "islands"
+        ],
+        "spread": 0.091,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "2,000 m",
+            "url": "https://www.theglobeandmail.com/world/article-migrants-canary-islands-spain-immigration/"
+          },
+          {
+            "outlet": "The Hindu",
+            "value": "2,200 m",
+            "url": "https://www.thehindu.com/news/national/nearly-2200-migrants-reach-canary-islands-in-two-days-spain-says/article71705702.ece"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      }
+    ],
     "headline": null,
     "sub": null,
     "cat": null,
@@ -1023,7 +1006,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cxstqwo",
+    "id": "cqn1gmk",
     "regions": [
       "Europe",
       "Global"
@@ -1042,19 +1025,18 @@
       }
     },
     "firstSeen": "2026-11-14T04:24:22.000Z",
-    "lastSeen": "2026-11-15T00:00:00.000Z",
-    "outletCount": 3,
+    "lastSeen": "2026-11-14T06:37:46.000Z",
+    "outletCount": 2,
     "outlets": [
       "Euronews",
-      "Focus Taiwan (CNA)",
-      "Taipei Times"
+      "Focus Taiwan (CNA)"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3612666457599609,
-      "max": 0.5113931053950751,
-      "pairs": 2,
+      "min": 0.511403770842789,
+      "max": 0.511403770842789,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1068,7 +1050,7 @@
         "t": "Judo: The Final Grand Prix of 2026 Kicks Off in Zagreb",
         "u": "https://www.euronews.com/2026/11/14/judo-the-final-grand-prix-of-2026-kicks-off-in-zagreb",
         "publishedAt": "2026-11-14T06:37:46.000Z",
-        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "retrievedAt": "2026-11-15T18:40:47.756Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The Zagreb Grand Prix welcomes over 400 judoka from more than 60 countries.",
@@ -1087,7 +1069,7 @@
         "t": "Judoka Yang Yung-wei clinches gold at Zagreb Grand Prix",
         "u": "https://focustaiwan.tw/sports/202611140004",
         "publishedAt": "2026-11-14T04:24:22.000Z",
-        "retrievedAt": "2026-11-14T17:50:17.172Z",
+        "retrievedAt": "2026-11-15T18:41:12.370Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Liu said the victory would give Yang greater confidence in his bid to qualify for the 2028 Los Angeles Olympics.",
@@ -1095,19 +1077,6 @@
         ],
         "figures": [],
         "wordsRead": 442
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Athletes win gold and bronze in judo grand prix",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
-        "publishedAt": "2026-11-15T00:00:00.000Z",
-        "retrievedAt": "2026-11-14T17:50:18.875Z",
-        "read": "headline only"
       }
     ],
     "views": [
@@ -1157,18 +1126,7 @@
       "name": null,
       "reason": "coverage sits on one side only (centre)"
     },
-    "offAxis": [
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 2,
-        "headline": "Athletes win gold and bronze in judo grand prix",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
@@ -1176,8 +1134,8 @@
         "Judoka Yang Yung-wei",
         "Zagreb Grand Prix",
         "Kicks Off",
-        "Athletes",
-        "Zagreb"
+        "Zagreb",
+        "Judo"
       ],
       "attempts": [
         {
@@ -1263,7 +1221,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "chttqpc",
+    "id": "cqv4d5q",
     "regions": [
       "Global"
     ],
@@ -1282,23 +1240,23 @@
         ]
       }
     },
-    "firstSeen": "2026-11-13T20:47:49.000Z",
-    "lastSeen": "2026-11-13T23:40:45.000Z",
+    "firstSeen": "2026-11-15T08:17:41.000Z",
+    "lastSeen": "2026-11-15T17:35:01.000Z",
     "outletCount": 6,
     "outlets": [
       "BBC News",
-      "The Daily Caller",
       "Globe and Mail",
-      "Euronews",
-      "Deutsche Welle",
+      "Politico Europe",
+      "JNS",
+      "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 6 outlets",
     "clustering": {
-      "min": 0.3612698992288818,
-      "max": 0.7073477705614887,
-      "pairs": 11,
+      "min": 0.4020792190283452,
+      "max": 0.6984646247955896,
+      "pairs": 13,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1309,36 +1267,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-        "u": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-13T23:40:45.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
+        "t": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+        "u": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-15T08:17:41.000Z",
+        "retrievedAt": "2026-11-15T18:40:26.150Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The exact cause of the crash remains under investigation, but US Coast Guard Capt Melanie Burnham said: \"There seems to be some type of a loss of steering.\"",
-          "New Orleans Mayor Helena Moreno told a news conference that all credit in the rescue effort should go …"
+          "Al-Qassam Brigades wrote on Telegram that Younis had \"participated in numerous high-profile operations and resisted enemy incursions\", and was \"one of the most important commanders involved in planning and overseeing …",
+          "The Israeli military said it had targeted him and that prior to the …"
         ],
         "figures": [],
-        "wordsRead": 464
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
-        "u": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines",
-        "publishedAt": "2026-11-13T20:47:49.000Z",
-        "retrievedAt": "2026-11-14T17:49:39.223Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In addition to the crew, 129 passengers were on board during the incident, according to the ABC affiliate.",
-          "The Port of New Orleans said that the …"
-        ],
-        "figures": [],
-        "wordsRead": 264
+        "wordsRead": 449
       },
       {
         "n": "Globe and Mail",
@@ -1347,56 +1286,72 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Tanker collides with New Orleans river cruise with 180 people aboard",
-        "u": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/",
-        "publishedAt": "2026-11-13T21:06:43.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "t": "Israel kills senior Hamas commander in Gaza airstrike",
+        "u": "https://www.theglobeandmail.com/world/article-israel-kills-senior-hamas-commander-in-gaza-airstrike/",
+        "publishedAt": "2026-11-15T13:03:27.000Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We have zero people unaccounted for, which truly is a miracle on the Mississippi,” New Orleans Mayor Helena Moreno said at a news conference as rescuers and others cheered.",
-          "“For something like this to happen for an upbound ship indicates that something must have gone really badly wrong,” Davies said.",
-          "A tanker in New Orleans that apparently lost its steering slammed into a docked river cruise boat with 180 people aboard Friday, the mayor said."
+          "Hamas said on Sunday that a senior commander who helped plan and oversee the Oct. 7, 2023, attack on Israel had been killed in an …"
         ],
         "figures": [],
-        "wordsRead": 789
+        "wordsRead": 259
       },
       {
-        "n": "Euronews",
+        "n": "Politico Europe",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-        "u": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-        "publishedAt": "2026-11-13T21:04:32.000Z",
-        "retrievedAt": "2026-11-14T17:49:52.610Z",
+        "t": "Israel kills Hamas commander in Gaza strike",
+        "u": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-15T09:43:15.000Z",
+        "retrievedAt": "2026-11-15T18:40:49.059Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"No critical injuries have been reported,\" it said in a post on social media.",
-          "\"At this moment, the information that we have, we have zero people …"
+          "“Abu Younis was appointed commander of the brigade approximately 2 months ago, following the elimination of his predecessor,” the IDF said in a statement posted on X …"
         ],
         "figures": [],
-        "wordsRead": 262
+        "wordsRead": 279
       },
       {
-        "n": "Deutsche Welle",
-        "b": "centre",
+        "n": "JNS",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Tanker collides with cruise ship on Mississippi in New Orleans",
-        "u": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-13T21:31:00.000Z",
-        "retrievedAt": "2026-11-14T17:49:57.822Z",
+        "t": "Israel kills third successive Hamas Rafah Brigade commander",
+        "u": "https://www.jns.org/news/israel-news/israel-kills-third-successive-hamas-rafah-brigade-commander",
+        "publishedAt": "2026-11-15T09:28:30.000Z",
+        "retrievedAt": "2026-11-15T18:41:03.337Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The company operating The American Heritage , American Cruise Lines, said in a statement that \"guests and crew were evacuated, and we are deeply concerned for everyone involved.\"",
-          "\"We are aware of the incident on the Mississippi and we are in close contact …"
+          "“To date, Hamas has not surrendered a single weapon,” the statement said, calling on mediators to demand the terrorist organization’s immediate disarmament throughout the Gaza Strip.",
+          "“The Guardian of Israel neither slumbers nor sleeps,” Katz wrote on X, adding that another Hamas leader had joined his predecessors “in …"
         ],
         "figures": [],
-        "wordsRead": 439
+        "wordsRead": 482
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Hamas confirms commander involved in Oct. 7 attack killed in Israeli strike",
+        "u": "https://www.arabnews.com/middle-east/hamas-confirms-commander-involved-in-oct-7-attack-killed-in-israeli-strike-3012110",
+        "publishedAt": "2026-11-15T17:35:01.000Z",
+        "retrievedAt": "2026-11-15T18:41:07.169Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“A short while ago, the IDF and ISA struck a senior terrorist in Hamas’s military wing,” the Israeli military said in a joint statement with the internal security agency Shin …",
+          "It said Younis was “among the most important commanders involved in the planning and supervision of …"
+        ],
+        "figures": [],
+        "wordsRead": 476
       },
       {
         "n": "South China Morning Post",
@@ -1405,10 +1360,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-        "publishedAt": "2026-11-13T20:49:15.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
+        "t": "Top Hamas commander killed in Israeli strike in Gaza",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
+        "publishedAt": "2026-11-15T12:02:08.000Z",
+        "retrievedAt": "2026-11-15T18:41:10.835Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1430,377 +1385,43 @@
             "lean": "centre",
             "country": "UK",
             "evidenceIndex": 0,
-            "headline": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-            "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+            "headline": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+            "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Tanker collides with New Orleans river cruise with 180 people aboard",
-            "url": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/"
+            "evidenceIndex": 1,
+            "headline": "Israel kills senior Hamas commander in Gaza airstrike",
+            "url": "https://www.theglobeandmail.com/world/article-israel-kills-senior-hamas-commander-in-gaza-airstrike/"
           },
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 3,
-            "headline": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-            "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 4,
-            "headline": "Tanker collides with cruise ship on Mississippi in New Orleans",
-            "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
-            "url": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 5,
-        "headline": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "New Orleans",
-        "Mississippi",
-        "Miracle",
-        "Tanker",
-        "Rescue Effort Underway After",
-        "Tanker Collides With River"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "New Orleans",
-            "Mississippi",
-            "Miracle",
-            "Tanker",
-            "Rescue Effort Underway After",
-            "Tanker Collides With River"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1v2dg23",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-13T21:33:43.000Z",
-    "lastSeen": "2026-11-14T15:54:44.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "Guardian US",
-      "The Daily Caller",
-      "Globe and Mail",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.36206513117551153,
-      "max": 0.5423592315271157,
-      "pairs": 9,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
-        "u": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-        "publishedAt": "2026-11-14T02:15:53.000Z",
-        "retrievedAt": "2026-11-14T17:49:27.544Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“So at 8.15 tonight, Eastern Time, we’ve opened up the airspace,” Sean Duffy, the US transportation secretary, said.",
-          "“What we have is an incredibly old air traffic control system,” he said.",
-          "A notice from the FAA had earlier said the ground stop was imposed “due to extraordinary circumstances and for reasons of safety”."
-        ],
-        "figures": [],
-        "wordsRead": 1018
-      },
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Rare nationwide ground stop halts US air traffic – video",
-        "u": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video",
-        "publishedAt": "2026-11-14T15:54:44.000Z",
-        "retrievedAt": "2026-11-14T17:49:27.544Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "FAA Issues Nationwide Ground Stop, Halting All US Flight Departures",
-        "u": "https://dailycaller.com/2026/11/13/faa-nationwide-ground-stop-us-flight-departures-sean-duffy",
-        "publishedAt": "2026-11-13T21:41:33.000Z",
-        "retrievedAt": "2026-11-14T17:49:39.223Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The FAA’s Air Traffic Control System Command Center (ATCSCC) announced the nationwide ground stop Friday, citing safety concerns in ATCSCC Advisory …"
-        ],
-        "figures": [],
-        "wordsRead": 219
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. lifts nationwide ground stop after FAA order triggers widespread flight disruptions",
-        "u": "https://www.theglobeandmail.com/world/us-politics/article-us-grounds-departing-flights-air-traffic-control-communication-issues/",
-        "publishedAt": "2026-11-13T22:05:42.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This isn’t another 9/11,” he said, adding, “Everybody is safe, the flights are accounted for and there should be no fear to the public at all.”",
-          "Duffy said, placing blame on what he called “an incredibly old traffic control system.”",
-          "“This isn’t just going to be resolved and turned around within the hour,” he said."
-        ],
-        "figures": [
-          {
-            "value": "US$50",
-            "context": "system.” Mr. Duffy called on Congress to approve US$50-billion for a newly-built system to replace one t"
-          }
-        ],
-        "wordsRead": 1040
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US flight departures resume after nationwide ground stop due to communications outage",
-        "u": "https://www.arabnews.com/world/us-flight-departures-resume-after-nationwide-ground-stop-due-to-communications-outage-3011797",
-        "publishedAt": "2026-11-14T10:52:46.000Z",
-        "retrievedAt": "2026-11-14T17:50:12.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Mullin said, “There is no indication, so far, that this is a malicious attack against us; it is merely a communication outage,” adding that officials “are not ruling out any …",
-          "The FAA stated, “All departing flights must remain grounded until further notice,” and clarified that international flights would be handled on a case-by-case basis.",
-          "“This is a legacy system …"
-        ],
-        "figures": [],
-        "wordsRead": 605
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US flight departures resume after FAA lifts nationwide ground stop",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
-        "publishedAt": "2026-11-13T21:33:43.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
-            "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
-          },
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Rare nationwide ground stop halts US air traffic – video",
-            "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 3,
-            "headline": "U.S. lifts nationwide ground stop after FAA order triggers widespread flight disruptions",
-            "url": "https://www.theglobeandmail.com/world/us-politics/article-us-grounds-departing-flights-air-traffic-control-communication-issues/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
             "evidenceIndex": 2,
-            "headline": "FAA Issues Nationwide Ground Stop, Halting All US Flight Departures",
-            "url": "https://dailycaller.com/2026/11/13/faa-nationwide-ground-stop-us-flight-departures-sean-duffy"
+            "headline": "Israel kills Hamas commander in Gaza strike",
+            "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "JNS",
+            "outletId": "jns",
+            "lean": "right",
+            "country": "IL",
+            "evidenceIndex": 3,
+            "headline": "Israel kills third successive Hamas Rafah Brigade commander",
+            "url": "https://www.jns.org/news/israel-news/israel-kills-third-successive-hamas-rafah-brigade-commander"
           }
         ],
         "status": "sourced",
@@ -1818,8 +1439,8 @@
         "lean": "varies",
         "country": "SA",
         "evidenceIndex": 4,
-        "headline": "US flight departures resume after nationwide ground stop due to communications outage",
-        "url": "https://www.arabnews.com/world/us-flight-departures-resume-after-nationwide-ground-stop-due-to-communications-outage-3011797",
+        "headline": "Hamas confirms commander involved in Oct. 7 attack killed in Israeli strike",
+        "url": "https://www.arabnews.com/middle-east/hamas-confirms-commander-involved-in-oct-7-attack-killed-in-israeli-strike-3012110",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -1828,35 +1449,27 @@
         "lean": "varies",
         "country": "HK",
         "evidenceIndex": 5,
-        "headline": "US flight departures resume after FAA lifts nationwide ground stop",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+        "headline": "Top Hamas commander killed in Israeli strike in Gaza",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "FAA Issues Nationwide Ground",
-        "Halting All US Flight",
-        "Departures",
-        "Flights",
-        "Rare",
-        "Stop"
+        "Israel",
+        "Hamas",
+        "Gaza",
+        "Israeli",
+        "Hamas Rafah Brigade",
+        "Top Hamas"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "FAA Issues Nationwide Ground",
-            "Halting All US Flight",
-            "Departures",
-            "Flights",
-            "Rare",
-            "Stop"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -1935,7 +1548,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1c0takt",
+    "id": "c2s64cc",
     "regions": [
       "Global"
     ],
@@ -1951,22 +1564,299 @@
         ]
       }
     },
-    "firstSeen": "2026-11-13T11:13:40.000Z",
-    "lastSeen": "2026-11-13T22:09:47.000Z",
+    "firstSeen": "2026-11-15T07:35:17.000Z",
+    "lastSeen": "2026-11-15T12:45:45.000Z",
     "outletCount": 5,
     "outlets": [
-      "Mother Jones",
-      "Guardian US",
       "BBC News",
       "Haaretz",
-      "JNS"
+      "JNS",
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.3716979504754546,
-      "max": 0.5897512180812774,
+      "min": 0.40943870428518797,
+      "max": 0.8672302548612429,
       "pairs": 10,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Three men sentenced to death in Jordan over fatal church mass shooting",
+        "u": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-15T11:06:32.000Z",
+        "retrievedAt": "2026-11-15T18:40:26.150Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Jordan's Armed Forces said in a statement on Sunday that the men had been convicted of committing \"terrorist acts\", as well as possessing weapons, \"promoting the ideas of a terrorist …",
+          "\"Those who delude themselves into thinking that they can divide Jordanians …"
+        ],
+        "figures": [],
+        "wordsRead": 420
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Jordan sentences three men to death over deadly church attack",
+        "u": "https://www.haaretz.com/middle-east-news/jordan/2026-11-15/ty-article/jordan-sentences-three-men-to-death-over-deadly-church-attack/000001a1-dede-d59b-a1f3-dede3c2b0000",
+        "publishedAt": "2026-11-15T12:17:15.000Z",
+        "retrievedAt": "2026-11-15T18:41:00.649Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "JNS",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Jordan sentences three to death over deadly church attack",
+        "u": "https://www.jns.org/news/world/jordan-sentences-three-to-death-over-deadly-church-attack",
+        "publishedAt": "2026-11-15T12:45:45.000Z",
+        "retrievedAt": "2026-11-15T18:41:03.337Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The U.N. nuclear watchdog said in a confidential report that the halt of inspections “needs …"
+        ],
+        "figures": [],
+        "wordsRead": 153
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Three men sentenced to death over Jordan church attack",
+        "u": "https://www.arabnews.com/middle-east/three-men-sentenced-to-death-over-jordan-church-attack-3012014",
+        "publishedAt": "2026-11-15T07:35:17.000Z",
+        "retrievedAt": "2026-11-15T18:41:07.169Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Jordan sentences 3 men to death over deadly church attack",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+        "publishedAt": "2026-11-15T12:13:48.000Z",
+        "retrievedAt": "2026-11-15T18:41:10.835Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 1,
+            "headline": "Jordan sentences three men to death over deadly church attack",
+            "url": "https://www.haaretz.com/middle-east-news/jordan/2026-11-15/ty-article/jordan-sentences-three-men-to-death-over-deadly-church-attack/000001a1-dede-d59b-a1f3-dede3c2b0000"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Three men sentenced to death in Jordan over fatal church mass shooting",
+            "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "JNS",
+            "outletId": "jns",
+            "lean": "right",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "Jordan sentences three to death over deadly church attack",
+            "url": "https://www.jns.org/news/world/jordan-sentences-three-to-death-over-deadly-church-attack"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Three men sentenced to death over Jordan church attack",
+        "url": "https://www.arabnews.com/middle-east/three-men-sentenced-to-death-over-jordan-church-attack-3012014",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Jordan sentences 3 men to death over deadly church attack",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Jordan",
+        "Three"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c3suve3",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {}
+    },
+    "firstSeen": "2026-11-13T11:13:40.000Z",
+    "lastSeen": "2026-11-15T17:27:57.000Z",
+    "outletCount": 5,
+    "outlets": [
+      "Mother Jones",
+      "Guardian US",
+      "Washington Examiner",
+      "New York Post",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 5 outlets",
+    "clustering": {
+      "min": 0.37114885497721145,
+      "max": 0.4825447609518279,
+      "pairs": 6,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1980,12 +1870,12 @@
         "t": "Van Hollen Pledges to “Shake Things Up” in Majority Leader Announcement",
         "u": "https://www.motherjones.com/politics/2026/11/van-hollen-senate-majority-leader-campaign-schumer-congress-democrats/",
         "publishedAt": "2026-11-13T22:09:47.000Z",
-        "retrievedAt": "2026-11-14T17:49:26.273Z",
+        "retrievedAt": "2026-11-15T18:40:21.949Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Van Hollen, speaking Thursday at a conference sponsored by the moderate PAC Majority Democrats, talked about his candidacy and received thunderous applause: “We’ve been given a chance, and now it’s …",
           "Voters, Van Hollen said, have elected a new class of Democrats who ran not on “the tired Washington labels of progressive versus moderate—they ran on an economic populist message” to …",
-          "“Voters demanded change last week, and Chris Van Hollen is the …"
+          "Get your news from a source that’s not owned and controlled by …"
         ],
         "figures": [
           {
@@ -1997,7 +1887,7 @@
             "context": "der in a pre-election Economist/YouGov poll , with 42 percent disapproving. Van Hollen, at 67, is only eight ye"
           }
         ],
-        "wordsRead": 738
+        "wordsRead": 741
       },
       {
         "n": "Guardian US",
@@ -2009,7 +1899,7 @@
         "t": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
         "u": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
         "publishedAt": "2026-11-13T21:28:45.000Z",
-        "retrievedAt": "2026-11-14T17:49:27.544Z",
+        "retrievedAt": "2026-11-15T18:40:23.208Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The election for Democratic Senate leader between Chuck Schumer and Chris Van Hollen must be understood for what it is.",
@@ -2017,39 +1907,44 @@
           "This is a debate about the future of the Democratic party."
         ],
         "figures": [],
-        "wordsRead": 439
+        "wordsRead": 440
       },
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "Washington Examiner",
+        "b": "lean_right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Democratic Senate leader Schumer set to face leadership challenge",
-        "u": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-13T19:03:10.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
+        "t": "Van Hollen says Schumer spreading ‘misinformation’ about majority leader vote tally",
+        "u": "https://www.washingtonexaminer.com/news/senate/4804139/van-hollen-schumer-misinformation-senate-majority-leader-votes/",
+        "publishedAt": "2026-11-15T15:42:04.000Z",
+        "retrievedAt": "2026-11-15T18:40:30.377Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Van Hollen, 67, said in a post on X on Thursday that Americans had voted for change earlier this month and \"to deliver, we need new leadership\".",
-          "Responding to the challenge, Schumer, who represents New York, said he welcomed \"any discussion about the future of our caucus and the important work ahead\"."
+          "Van Hollen announced Thursday night that he would …"
         ],
         "figures": [],
-        "wordsRead": 535
+        "wordsRead": 82
       },
       {
-        "n": "Haaretz",
-        "b": "left",
+        "n": "New York Post",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Van Hollen's challenge to Schumer comes amid upheaval over Israel in the Democratic Party",
-        "u": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000",
-        "publishedAt": "2026-11-13T17:24:54.000Z",
-        "retrievedAt": "2026-11-14T17:50:05.930Z",
-        "read": "headline and feed excerpt"
+        "t": "Dem Sen. Chris Van Hollen boasts he has ‘very open lane’ to take Senate leadership from Schumer",
+        "u": "https://nypost.com/2026/11/15/us-news/van-hollen-boasts-he-has-very-open-lane-take-senate-leadership-from-schumer/",
+        "publishedAt": "2026-11-15T17:27:57.000Z",
+        "retrievedAt": "2026-11-15T18:40:32.935Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We’re about 15 and growing,” Van Hollen told ABC’s “This Week” when asked how many votes he had lined up for his bid to lead Senate Democrats.",
+          "“I can tell you that a number of those people on that list have actually committed to …"
+        ],
+        "figures": [],
+        "wordsRead": 440
       },
       {
         "n": "Haaretz",
@@ -2061,27 +1956,8 @@
         "t": "Israel critic Van Hollen to challenge Schumer for U.S. Senate majority leader",
         "u": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000",
         "publishedAt": "2026-11-13T11:13:40.000Z",
-        "retrievedAt": "2026-11-14T17:50:05.930Z",
+        "retrievedAt": "2026-11-15T18:41:00.649Z",
         "read": "headline and feed excerpt"
-      },
-      {
-        "n": "JNS",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Van Hollen says he will challenge Schumer for majority leader",
-        "u": "https://www.jns.org/news/u-s-news/van-hollen-says-he-will-challenge-schumer-for-majority-leader",
-        "publishedAt": "2026-11-13T20:42:00.000Z",
-        "retrievedAt": "2026-11-14T17:50:08.599Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a statement after his 2024 trip, he said that “Israel has every right to eliminate the military threat of Hamas” but also demanded a “humanitarian cessation of hostilities” to …",
-          "“In this election, Americans called on us to unrig an economy rigged against working people and fueled by political corruption,” Van Hollen stated ."
-        ],
-        "figures": [],
-        "wordsRead": 567
       }
     ],
     "views": [
@@ -2112,15 +1988,6 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 3,
-            "headline": "Van Hollen's challenge to Schumer comes amid upheaval over Israel in the Democratic Party",
-            "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000"
-          },
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
             "evidenceIndex": 4,
             "headline": "Israel critic Van Hollen to challenge Schumer for U.S. Senate majority leader",
             "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000"
@@ -2132,18 +1999,8 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Democratic Senate leader Schumer set to face leadership challenge",
-            "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -2151,13 +2008,22 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "JNS",
-            "outletId": "jns",
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Van Hollen says Schumer spreading ‘misinformation’ about majority leader vote tally",
+            "url": "https://www.washingtonexaminer.com/news/senate/4804139/van-hollen-schumer-misinformation-senate-majority-leader-votes/"
+          },
+          {
+            "outlet": "New York Post",
+            "outletId": "nypost",
             "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 5,
-            "headline": "Van Hollen says he will challenge Schumer for majority leader",
-            "url": "https://www.jns.org/news/u-s-news/van-hollen-says-he-will-challenge-schumer-for-majority-leader"
+            "country": "US",
+            "evidenceIndex": 3,
+            "headline": "Dem Sen. Chris Van Hollen boasts he has ‘very open lane’ to take Senate leadership from Schumer",
+            "url": "https://nypost.com/2026/11/15/us-news/van-hollen-boasts-he-has-very-open-lane-take-senate-leadership-from-schumer/"
           }
         ],
         "status": "sourced",
@@ -2174,10 +2040,10 @@
       "terms": [
         "Schumer",
         "Van Hollen",
-        "Israel",
+        "Senate",
         "Majority Leader Announcement",
         "Van Hollen Pledges",
-        "Democratic Senate"
+        "Dem Sen. Chris Van"
       ],
       "attempts": [
         {
@@ -2188,10 +2054,10 @@
           "terms": [
             "Schumer",
             "Van Hollen",
-            "Israel",
+            "Senate",
             "Majority Leader Announcement",
             "Van Hollen Pledges",
-            "Democratic Senate"
+            "Dem Sen. Chris Van"
           ]
         },
         {
@@ -2271,7 +2137,565 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1oedkqg",
+    "id": "c1hi9xmb",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-13T20:47:49.000Z",
+    "lastSeen": "2026-11-15T14:33:59.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "The Daily Caller",
+      "Globe and Mail",
+      "Euronews"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.3724813204887375,
+      "max": 0.485766509529707,
+      "pairs": 4,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+        "u": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-15T14:33:59.000Z",
+        "retrievedAt": "2026-11-15T18:40:26.150Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The exact cause of the crash remains under investigation, but US Coast Guard Capt Melanie Burnham said: \"There seems to be some type of a loss of steering.\"",
+          "\"OSM Thome is fully complying with the local authorities as they carry out the necessary investigations,\" it said.",
+          "The port is claiming …"
+        ],
+        "figures": [
+          {
+            "value": "$1",
+            "context": "d from the Mississippi River and caused more than $1m (£756,000) in damage, according to court documen"
+          },
+          {
+            "value": "£756,000",
+            "context": "m the Mississippi River and caused more than $1m (£756,000) in damage, according to court documents. The col"
+          }
+        ],
+        "wordsRead": 502
+      },
+      {
+        "n": "The Daily Caller",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
+        "u": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines",
+        "publishedAt": "2026-11-13T20:47:49.000Z",
+        "retrievedAt": "2026-11-15T18:40:34.649Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In addition to the crew, 129 passengers were on board during the incident, according to the ABC affiliate.",
+          "The Port of New Orleans said that the …"
+        ],
+        "figures": [],
+        "wordsRead": 264
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Tanker collides with New Orleans river cruise with 180 people aboard",
+        "u": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/",
+        "publishedAt": "2026-11-13T21:06:43.000Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We have zero people unaccounted for, which truly is a miracle on the Mississippi,” New Orleans Mayor Helena Moreno said at a news conference as rescuers and others cheered.",
+          "“For something like this to happen for an upbound ship indicates that something must have gone really badly wrong,” Davies said.",
+          "A tanker in New Orleans that apparently lost its steering slammed into a docked river cruise boat with 180 people aboard Friday, the mayor said."
+        ],
+        "figures": [],
+        "wordsRead": 789
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+        "u": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+        "publishedAt": "2026-11-13T21:04:32.000Z",
+        "retrievedAt": "2026-11-15T18:40:47.756Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"No critical injuries have been reported,\" it said in a post on social media.",
+          "\"At this moment, the information that we have, we have zero people …"
+        ],
+        "figures": [],
+        "wordsRead": 262
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+            "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Tanker collides with New Orleans river cruise with 180 people aboard",
+            "url": "https://www.theglobeandmail.com/world/article-tanker-collides-with-new-orleans-river-cruise-mississippi-river/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 3,
+            "headline": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+            "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Rescue Effort Underway After Tanker Collides With River Boat Cruise Ship",
+            "url": "https://dailycaller.com/2026/11/13/rescue-effort-underway-tanker-collides-with-river-boat-cruise-ship-port-of-new-orleans-american-cruise-lines"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "New Orleans",
+        "Mississippi",
+        "Rescue Effort Underway After",
+        "Tanker Collides With River",
+        "Boat Cruise Ship",
+        "Miracle"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "New Orleans",
+            "Mississippi",
+            "Rescue Effort Underway After",
+            "Tanker Collides With River",
+            "Boat Cruise Ship",
+            "Miracle"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cy1z1gi",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-15T14:32:13.000Z",
+    "lastSeen": "2026-11-15T18:07:02.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Euronews",
+      "Politico Europe",
+      "Al Jazeera",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.38857840260721965,
+      "max": 0.587834886107302,
+      "pairs": 5,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Estonian drone maker targeted in 'GRU-ordered' sabotage attempt, PM says",
+        "u": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says",
+        "publishedAt": "2026-11-15T14:52:48.000Z",
+        "retrievedAt": "2026-11-15T18:40:47.756Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Prime Minister Kristen Michal said Estonia was preparing to potentially close its border with Russia to \"reduce the risks to our people and national security.\"",
+          "In a post on social media on Sunday, Michal said …"
+        ],
+        "figures": [],
+        "wordsRead": 354
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Estonia to close border with Russia after ‘sabotage attack’ on defense firm",
+        "u": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-15T14:32:13.000Z",
+        "retrievedAt": "2026-11-15T18:40:49.059Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Following the incident, Estonian Foreign Minister Margus Tsahkna wrote on X : \"Following clear evidence that Russia’s military intelligence service GRU ordered a sabotage attack against an Estonian defense industry …"
+        ],
+        "figures": [],
+        "wordsRead": 303
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Estonia to close border crossings with Russia after attack on drone maker",
+        "u": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
+        "publishedAt": "2026-11-15T18:07:02.000Z",
+        "retrievedAt": "2026-11-15T18:41:04.617Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Marko Mihkelson, chairman of the Estonian Parliament’s Foreign Affairs Committee, told Al Jazeera that the arrests demonstrated that Estonia was “prepared to respond swiftly to such attacks”.",
+          "“It is essential that Russia’s …"
+        ],
+        "figures": [],
+        "wordsRead": 320
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Estonia to close Russia border after ‘sabotage’ bid, foreign minister says",
+        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says",
+        "publishedAt": "2026-11-15T16:56:37.000Z",
+        "retrievedAt": "2026-11-15T18:41:10.835Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 0,
+            "headline": "Estonian drone maker targeted in 'GRU-ordered' sabotage attempt, PM says",
+            "url": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Estonia to close border with Russia after ‘sabotage attack’ on defense firm",
+            "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Estonia to close border crossings with Russia after attack on drone maker",
+        "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Estonia to close Russia border after ‘sabotage’ bid, foreign minister says",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Estonia",
+        "Russia",
+        "GRU-ordered",
+        "Estonian"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "ck7g8p",
     "regions": [
       "Global"
     ],
@@ -2287,23 +2711,47 @@
         ]
       }
     },
-    "firstSeen": "2026-11-12T12:07:27.000Z",
-    "lastSeen": "2026-11-14T14:41:59.000Z",
+    "firstSeen": "2026-11-15T15:59:09.000Z",
+    "lastSeen": "2026-11-15T18:18:45.000Z",
     "outletCount": 3,
     "outlets": [
+      "New York Post",
       "Globe and Mail",
-      "Haaretz",
-      "Arab News"
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.37348219912079533,
-      "max": 0.5326945082882358,
+      "min": 0.39988728164523984,
+      "max": 0.766501393246105,
       "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "New York Post",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Bessent says Nvidia should look outside the company new CEO after Huang: ‘Needs a dramatic shakeup’",
+        "u": "https://nypost.com/2026/11/15/us-news/treasury-secretary-scott-bessent-says-nvidia-should-look-outside-the-company-for-jensen-huangs-successor/",
+        "publishedAt": "2026-11-15T18:18:45.000Z",
+        "retrievedAt": "2026-11-15T18:40:32.935Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This makes me think that as the board conducts a search for a new leader that they need to go outside the company,” Bessent said.",
+          "“And I think we need answers in the next 10 days from the board and from the outside counsel.”"
+        ],
+        "figures": [
+          {
+            "value": "$4 trillion",
+            "context": "Sunday on Fox News’ “Sunday Morning Futures.” The $4 trillion firm also owes the Trump administration answers w"
+          }
+        ],
+        "wordsRead": 457
+      },
       {
         "n": "Globe and Mail",
         "b": "centre",
@@ -2311,16 +2759,263 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Iranian men found guilty in U.K. of spying on dissident journalists for Tehran",
-        "u": "https://www.theglobeandmail.com/world/article-iranian-men-found-guilty-in-uk-assisting-iranian-intelligence/",
-        "publishedAt": "2026-11-12T12:07:27.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "t": "Nvidia must ‘go outside the company’ to find Huang’s replacement, Bessent says",
+        "u": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-bessent/",
+        "publishedAt": "2026-11-15T15:59:09.000Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Sepahvand was directed by the IRGC or “middlemen” for Iranian intelligence, Senior National Coordinator for Counter Terrorism Policing Vicki Evans said, adding the case “highlights the continuing and increasing …"
+          "“This makes me think that as the board conducts a search for a new leader that they …"
         ],
         "figures": [],
-        "wordsRead": 290
+        "wordsRead": 175
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "US’ Bessent says Nvidia must ‘go outside the company’ to find new CEO after Jensen Huang",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374512/bessent-says-nvidia-must-go-outside-company-find-new-ceo",
+        "publishedAt": "2026-11-15T16:31:45.000Z",
+        "retrievedAt": "2026-11-15T18:41:10.835Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Nvidia must ‘go outside the company’ to find Huang’s replacement, Bessent says",
+            "url": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-bessent/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "New York Post",
+            "outletId": "nypost",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Bessent says Nvidia should look outside the company new CEO after Huang: ‘Needs a dramatic shakeup’",
+            "url": "https://nypost.com/2026/11/15/us-news/treasury-secretary-scott-bessent-says-nvidia-should-look-outside-the-company-for-jensen-huangs-successor/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 2,
+        "headline": "US’ Bessent says Nvidia must ‘go outside the company’ to find new CEO after Jensen Huang",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374512/bessent-says-nvidia-must-go-outside-company-find-new-ceo",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Bessent",
+        "Nvidia",
+        "Huang",
+        "Jensen Huang",
+        "Needs"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Bessent",
+            "Nvidia",
+            "Huang",
+            "Jensen Huang",
+            "Needs"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cx86m4",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-15T10:53:41.000Z",
+    "lastSeen": "2026-11-15T13:42:58.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Haaretz"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.3774980531946731,
+      "max": 0.5347447769792489,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Iran targets US military base in Bahrain with drone attack",
+        "u": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-15T13:42:58.000Z",
+        "retrievedAt": "2026-11-15T18:40:26.150Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Bahrain's military said its air defence systems intercepted and destroyed the Iranian air attacks \"before they could achieve their objectives\".",
+          "Bahrain's foreign ministry said: \"The Kingdom of Bahrain condemns in the strongest terms the continued brutal Iranian attacks on its territory and holds Iran fully responsible for their consequences.\""
+        ],
+        "figures": [],
+        "wordsRead": 516
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Bahrain intercepts Iranian aerial attacks as Tehran claims strikes on U.S. military base",
+        "u": "https://www.theglobeandmail.com/world/article-bahrain-intercepts-iranian-aerial-attacks-as-tehran-claims-strikes-on/",
+        "publishedAt": "2026-11-15T13:22:36.000Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Bahraini military said its air defences had intercepted several Iranian aerial attacks before they reached their targets, accusing Tehran of continuing its “systematic hostile approach” towards the kingdom.",
+          "Bahrain intercepted and destroyed several Iranian aerial attacks …"
+        ],
+        "figures": [],
+        "wordsRead": 376
       },
       {
         "n": "Haaretz",
@@ -2329,40 +3024,11 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Two Iranian men convicted of spying on dissident journalists in the U.K.",
-        "u": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000",
-        "publishedAt": "2026-11-13T08:57:21.000Z",
-        "retrievedAt": "2026-11-14T17:50:05.930Z",
+        "t": "Bahrain intercepts Iranian drone attacks as Tehran says it hit U.S. base",
+        "u": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
+        "publishedAt": "2026-11-15T10:53:41.000Z",
+        "retrievedAt": "2026-11-15T18:41:00.649Z",
         "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UK court convicts 2 Iranian men of spying on London-based journalists",
-        "u": "https://www.arabnews.com/media/uk-court-convicts-2-iranian-men-of-spying-on-london-based-journalists-3011865",
-        "publishedAt": "2026-11-14T14:41:59.000Z",
-        "retrievedAt": "2026-11-14T17:50:12.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Sepahvand and Manesh were promised rewards to send intelligence back to contacts in Iran and Sepahvand himself was willing to go beyond surveillance to commit serious violence against their targets,” …",
-          "“The shocking evidence presented in this trial once again shows the lengths Iran is prepared to go to in order to silence journalists, wherever they are in the world,” said …",
-          "“The Woolwich trial has …"
-        ],
-        "figures": [
-          {
-            "value": "£150,000",
-            "context": "ne message, Sepahvand asked a contact in Iran for £150,000 ($198,420) to “finish (the target) off” once they"
-          },
-          {
-            "value": "$198,420",
-            "context": ", Sepahvand asked a contact in Iran for £150,000 ($198,420) to “finish (the target) off” once they had been"
-          }
-        ],
-        "wordsRead": 662
       }
     ],
     "views": [
@@ -2375,9 +3041,9 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 1,
-            "headline": "Two Iranian men convicted of spying on dissident journalists in the U.K.",
-            "url": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000"
+            "evidenceIndex": 2,
+            "headline": "Bahrain intercepts Iranian drone attacks as Tehran says it hit U.S. base",
+            "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000"
           }
         ],
         "status": "sourced",
@@ -2388,13 +3054,22 @@
         "label": "Centre",
         "outlets": [
           {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Iran targets US military base in Bahrain with drone attack",
+            "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Iranian men found guilty in U.K. of spying on dissident journalists for Tehran",
-            "url": "https://www.theglobeandmail.com/world/article-iranian-men-found-guilty-in-uk-assisting-iranian-intelligence/"
+            "evidenceIndex": 1,
+            "headline": "Bahrain intercepts Iranian aerial attacks as Tehran claims strikes on U.S. military base",
+            "url": "https://www.theglobeandmail.com/world/article-bahrain-intercepts-iranian-aerial-attacks-as-tehran-claims-strikes-on/"
           }
         ],
         "status": "sourced",
@@ -2412,32 +3087,27 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "UK court convicts 2 Iranian men of spying on London-based journalists",
-        "url": "https://www.arabnews.com/media/uk-court-convicts-2-iranian-men-of-spying-on-london-based-journalists-3011865",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
+        "Bahrain",
         "Iranian",
-        "London-based",
-        "Two Iranian",
-        "Tehran"
+        "Tehran",
+        "Iran"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Bahrain",
+            "Iranian",
+            "Tehran",
+            "Iran"
+          ]
         },
         {
           "source": "csis-canada",
@@ -2543,9 +3213,9 @@
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.41126956493271777,
-      "max": 0.52216993859919,
-      "pairs": 2,
+      "min": 0.3680302660579742,
+      "max": 0.509601615531834,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -2559,7 +3229,7 @@
         "t": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
         "u": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins",
         "publishedAt": "2026-11-14T16:58:33.000Z",
-        "retrievedAt": "2026-11-14T17:49:27.544Z",
+        "retrievedAt": "2026-11-15T18:40:23.208Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Alaskans are hungry for change,” Kreiss-Tomkins said.",
@@ -2579,7 +3249,7 @@
         "t": "Kreiss-Tomkins elected as Alaska governor in state’s first Democrat win since 1998",
         "u": "https://www.theglobeandmail.com/world/us-politics/article-alaska-us-midterms-kreiss-tomkins-governor-democrat-1988/",
         "publishedAt": "2026-11-14T16:32:52.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
+        "retrievedAt": "2026-11-15T18:40:36.215Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "She said Kreiss-Tomkins “understands that governing requires listening to people with different perspectives and finding common ground to solve the problems all of us face.”",
@@ -2599,7 +3269,7 @@
         "t": "Alaska elects a Democratic governor for the first time since 1998",
         "u": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000",
         "publishedAt": "2026-11-14T08:53:09.000Z",
-        "retrievedAt": "2026-11-14T17:50:05.930Z",
+        "retrievedAt": "2026-11-15T18:41:00.649Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -2679,751 +3349,6 @@
             "Democrat",
             "Kreiss-Tomkins",
             "Democratic"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cats0y9",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 0
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-12T14:25:46.000Z",
-    "lastSeen": "2026-11-12T19:39:06.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Globe and Mail",
-      "Haaretz",
-      "Nikkei Asia"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.37696781706127075,
-      "max": 0.4727021511421886,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Ousted Nvidia CEO Huang had affair with second employee, sources say",
-        "u": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-affair/",
-        "publishedAt": "2026-11-12T19:39:06.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Ousted Nvidia NVDA-Q CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar with the matter, Reuters has learned.",
-          "The revelation follows two …"
-        ],
-        "figures": [],
-        "wordsRead": 292
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Markets and AI trade brace as Jensen Huang resigns as Nvidia CEO",
-        "u": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/",
-        "publishedAt": "2026-11-12T15:35:05.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jensen Huang resigns as Nvidia's CEO. Will an Israeli take over?",
-        "u": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000",
-        "publishedAt": "2026-11-12T14:25:46.000Z",
-        "retrievedAt": "2026-11-14T17:50:05.930Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Nikkei Asia",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jensen Huang resigns as Nvidia chief after alleged second affair",
-        "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair",
-        "publishedAt": null,
-        "retrievedAt": "2026-11-14T17:50:20.140Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "PALO ALTO, California/WASHINGTON -- Jensen …"
-        ],
-        "figures": [],
-        "wordsRead": 51
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "Jensen Huang resigns as Nvidia's CEO. Will an Israeli take over?",
-            "url": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Ousted Nvidia CEO Huang had affair with second employee, sources say",
-            "url": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-affair/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Markets and AI trade brace as Jensen Huang resigns as Nvidia CEO",
-            "url": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/"
-          },
-          {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
-            "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 3,
-            "headline": "Jensen Huang resigns as Nvidia chief after alleged second affair",
-            "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Jensen Huang",
-        "Ousted Nvidia CEO Huang",
-        "Nvidia's CEO. Will",
-        "Nvidia CEO",
-        "Markets",
-        "Israeli"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cslfk1a",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-13T23:23:21.000Z",
-    "lastSeen": "2026-11-14T14:18:41.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "BBC News",
-      "Deutsche Welle",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3676913968228054,
-      "max": 0.4676831035831326,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Second catch attempt for SpaceX Starship rocket",
-        "u": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-14T14:18:41.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "During a livestream of the launch, a SpaceX spokesperson said: \"Safety is always the number one priority and we're still testing out things that we haven't done before on these …",
-          "\"Full reusability has the potential to fundamentally change the economics of accessing space,\" he said.",
-          "Blue Origin had said its spacecraft would be back in action by the end of this year, but a return to flight has now been delayed to early in 2027."
-        ],
-        "figures": [],
-        "wordsRead": 792
-      },
-      {
-        "n": "Deutsche Welle",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "SpaceX launches Starship rocket, fails to recover booster",
-        "u": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-14T02:24:00.000Z",
-        "retrievedAt": "2026-11-14T17:49:57.822Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"Not sure right now why we weren't able to bring it back,\" SpaceX's Dan Huot said.",
-          "Musk said he expected SpaceX to conduct Starship launches once a week by early 2027.",
-          "Ukrainian President Zelensky and US envoy Kushner said Europe would participate in the next round of talks with Russia."
-        ],
-        "figures": [],
-        "wordsRead": 551
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
-        "publishedAt": "2026-11-13T23:23:21.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Second catch attempt for SpaceX Starship rocket",
-            "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
-            "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 1,
-            "headline": "SpaceX launches Starship rocket, fails to recover booster",
-            "url": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-world-4025-rdf"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Starship",
-        "SpaceX",
-        "SpaceX Starship",
-        "Second"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cqdywp8",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-13T14:34:59.000Z",
-    "lastSeen": "2026-11-13T20:20:33.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "BBC News",
-      "Globe and Mail",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3893939144133796,
-      "max": 0.4218068931786584,
-      "pairs": 3,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-        "u": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-13T19:53:57.000Z",
-        "retrievedAt": "2026-11-14T17:49:30.152Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"President Trump made it very clear that China should not receive any Nvidia chips above H100s, so any leakage is very frustrating because it hurts our great companies in the …",
-          "Bessent told CNBC several agencies \"were in favour of putting Megaspeed on the entity list for months\".",
-          "\"The story has been thus far of Jensen Huang's personal foibles,\" he told CNBC , external ."
-        ],
-        "figures": [],
-        "wordsRead": 716
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bessent blames Lutnick for failing to blacklist firm at heart of Nvidia scandal",
-        "u": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/",
-        "publishedAt": "2026-11-13T14:34:59.000Z",
-        "retrievedAt": "2026-11-14T17:49:41.070Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“But Commerce has the pen,” Bessent told CNBC’s Squawk Box .",
-          "Treasury Secretary Scott Bessent said Friday that four government agencies favoured putting Megaspeed, the Singapore company at the heart of the Nvidia scandal, on a trade black list, but not …"
-        ],
-        "figures": [],
-        "wordsRead": 445
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
-        "u": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
-        "publishedAt": "2026-11-13T20:20:33.000Z",
-        "retrievedAt": "2026-11-14T17:50:15.836Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-            "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "Bessent blames Lutnick for failing to blacklist firm at heart of Nvidia scandal",
-            "url": "https://www.theglobeandmail.com/business/article-scott-bessent-howard-lutnick-chip-export-controls-nvidia-scandal/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Nvidia",
-        "Bessent",
-        "US Commerce Department",
-        "Trump's",
-        "Lutnick",
-        "China"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Nvidia",
-            "Bessent",
-            "US Commerce Department",
-            "Trump's",
-            "Lutnick",
-            "China"
           ]
         },
         {

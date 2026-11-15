@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-14T17:49:23.195Z",
-  "finishedAt": "2026-11-14T17:53:04.331Z",
+  "startedAt": "2026-11-15T18:40:19.088Z",
+  "finishedAt": "2026-11-15T18:43:58.427Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 994,
-    "totalItems": 998,
-    "clusters": 902,
+    "rssItems": 886,
+    "totalItems": 885,
+    "clusters": 812,
     "candidates": 12,
-    "articlesRead": 38
+    "articlesRead": 36
   },
   "balance": {
     "left": 5,
-    "centre": 12,
-    "right": 4,
+    "centre": 11,
+    "right": 7,
     "none": 0
   },
   "regionFill": {
@@ -43,19 +43,17 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 11
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 45
+      "availableInRegion": 35
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 3 from roster outlets, 97 from outlets not in the roster (discovery only, not ingested).",
-    "GDELT \"European Union\": 80 articles, 4 from roster outlets, 76 from outlets not in the roster (discovery only, not ingested).",
-    "33 multi-outlet clusters were left out by --max-stories 12.",
+    "23 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
     "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
@@ -158,44 +156,55 @@
     },
     {
       "layer": "discovery",
+      "source": "Taipei Times",
+      "id": "taipeitimes",
+      "url": "https://www.taipeitimes.com/xml/index.rss",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: Canada federal",
+      "reason": "HTTP 429"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-microsoft-outage-hits-companies-and-governments-worldwide/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/15/2003867757",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/world/video/2026/nov/14/rare-nationwide-ground-stop-halts-us-air-traffic-video",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/.premium/van-hollen-takes-on-schumer-as-democrats-split-over-israel/000001a1-d5d9-d59b-a1f3-dddd1c600000",
+      "url": "https://www.haaretz.com/middle-east-news/jordan/2026-11-15/ty-article/jordan-sentences-three-men-to-death-over-deadly-church-attack/000001a1-dede-d59b-a1f3-dede3c2b0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/three-men-sentenced-to-death-over-jordan-church-attack-3012014",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -205,8 +214,20 @@
     },
     {
       "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374512/bessent-says-nvidia-must-go-outside-company-find-new-ceo",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/europe/2026-11-13/ty-article/two-iranian-men-convicted-of-spying-on-dissident-journalists-in-the-u-k/000001a1-d3e9-da30-a7fb-dbfdd0bb0000",
+      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -214,30 +235,6 @@
       "source": "Haaretz",
       "url": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-markets-and-ai-trade-brace-as-jensen-huang-resigns-as-nvidia-ceo/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/2026-11-12/ty-article/.premium/jensen-huang-resigns-as-nvidias-ceo-will-an-israeli-take-over/000001a1-cfd4-d1ce-a9a3-efd7c9290000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
-      "reason": "HTTP 403"
     }
   ]
 }
