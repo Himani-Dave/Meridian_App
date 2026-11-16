@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-15T18:40:19.088Z",
-  "finishedAt": "2026-11-15T18:43:58.427Z",
+  "startedAt": "2026-11-16T21:49:51.321Z",
+  "finishedAt": "2026-11-16T21:54:20.548Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 886,
-    "totalItems": 885,
-    "clusters": 812,
+    "rssItems": 960,
+    "totalItems": 957,
+    "clusters": 872,
     "candidates": 12,
-    "articlesRead": 36
+    "articlesRead": 39
   },
   "balance": {
-    "left": 5,
-    "centre": 11,
-    "right": 7,
+    "left": 7,
+    "centre": 10,
+    "right": 8,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 35
+      "availableInRegion": 41
     }
   },
   "starvedSides": [],
   "notes": [
-    "23 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 14 articles, 3 from roster outlets, 11 from outlets not in the roster (discovery only, not ingested).",
+    "29 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -156,15 +157,8 @@
     },
     {
       "layer": "discovery",
-      "source": "Taipei Times",
-      "id": "taipeitimes",
-      "url": "https://www.taipeitimes.com/xml/index.rss",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -172,69 +166,70 @@
       "reason": "HTTP 429"
     },
     {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "HTTP 429"
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3374648/five-eu-countries-unveil-plans-rwanda-deportation-hub",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/us/article/3374640/trump-floats-kim-meeting-china-says-hell-discuss-ukraine-xi-and-putin",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-robert-pattinson-named-as-next-james-bond/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374644/judge-sets-march-retrial-lindsay-clancy-accused-killing-her-3-children",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-11-16/ty-article/reports-third-u-s-aircraft-carrier-deployed-to-middle-east/000001a1-e243-da30-a7fb-faff85dc0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-tv-tanker-ablaze-after-hitting-mine-strait-hormuz-fourth-24",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/17/2003867899",
       "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/jordan/2026-11-15/ty-article/jordan-sentences-three-men-to-death-over-deadly-church-attack/000001a1-dede-d59b-a1f3-dede3c2b0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/middle-east/three-men-sentenced-to-death-over-jordan-church-attack-3012014",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-13/ty-article/israel-critic-van-hollen-to-challenge-schumer-for-u-s-senate-majority-leader/000001a1-d443-d59b-a1f3-dcd776dc0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374514/estonia-close-russia-border-after-sabotage-bid-foreign-minister-says",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374512/bessent-says-nvidia-must-go-outside-company-find-new-ceo",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-14/ty-article/alaska-elects-a-democratic-governor-for-the-first-time-since-1998/000001a1-d911-da30-a7fb-d9bd00550000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
