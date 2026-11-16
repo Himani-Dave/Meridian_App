@@ -1,16 +1,16 @@
 # Feed validation report
 
-Run: 2026-11-09T22:50:43.657Z
-Verified: 38/56
+Run: 2026-11-16T22:42:39.448Z
+Verified: 40/56
 
 ## Balance by lean
 
-- centre: 8/16 verified
+- centre: 9/16 verified
 - lean_left: 4/6 verified
 - lean_right: 6/7 verified
 - left: 5/6 verified
 - pro_sovereignty: 1/1 verified
-- right: 9/11 verified
+- right: 10/11 verified
 - state: 1/2 verified
 - unrated: 0/1 verified
 - varies: 3/3 verified
@@ -23,8 +23,6 @@ Verified: 38/56
   - tried: `(none)`
 - **Axios** (centre) — refused by robots.txt — the ingest pipeline will refuse it too
   - tried: `https://api.axios.com/feed/`
-- **Washington Times** (right) — HTTP 403
-  - tried: `https://www.washingtontimes.com/rss/headlines/news/world/`
 - **Toronto Star** (lean_left) — no feed url in roster
   - tried: ``
 - **CBC News** (centre) — HTTP 403
@@ -35,8 +33,6 @@ Verified: 38/56
   - tried: `https://www.ledevoir.com/rss/manchettes.xml`
 - **The Wire** (left) — 200 but not a feed (probably an HTML page)
   - tried: `https://thewire.in/rss`
-- **Indian Express** (centre) — HTTP 403
-  - tried: `https://indianexpress.com/feed/`
 - **The Print** (centre) — 200 but not a feed (probably an HTML page)
   - tried: `https://theprint.in/feed/`
 - **Business Standard** (centre) — HTTP 403
