@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-16T21:49:51.321Z",
-  "finishedAt": "2026-11-16T21:54:20.548Z",
+  "startedAt": "2026-11-17T20:40:15.429Z",
+  "finishedAt": "2026-11-17T20:45:07.221Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,46 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 960,
-    "totalItems": 957,
-    "clusters": 872,
+    "rssItems": 1027,
+    "totalItems": 1025,
+    "clusters": 920,
     "candidates": 12,
     "articlesRead": 39
   },
   "balance": {
-    "left": 7,
-    "centre": 10,
-    "right": 8,
-    "none": 0
+    "left": 6,
+    "centre": 9,
+    "right": 6,
+    "none": 2
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 6
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 6
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 41
+      "availableInRegion": 45
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 14 articles, 3 from roster outlets, 11 from outlets not in the roster (discovery only, not ingested).",
-    "29 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 10 articles, 2 from roster outlets, 8 from outlets not in the roster (discovery only, not ingested).",
+    "33 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -69,12 +68,6 @@
       "layer": "discovery",
       "source": "Axios",
       "id": "axios",
-      "reason": "feed url not verified yet; skipped"
-    },
-    {
-      "layer": "discovery",
-      "source": "Washington Times",
-      "id": "washtimes",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -99,12 +92,6 @@
       "layer": "discovery",
       "source": "The Wire",
       "id": "thewire-in",
-      "reason": "feed url not verified yet; skipped"
-    },
-    {
-      "layer": "discovery",
-      "source": "Indian Express",
-      "id": "indianexp",
       "reason": "feed url not verified yet; skipped"
     },
     {
@@ -157,8 +144,22 @@
     },
     {
       "layer": "discovery",
+      "source": "Washington Times",
+      "id": "washtimes",
+      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "Indian Express",
+      "id": "indianexp",
+      "url": "https://indianexpress.com/feed/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
@@ -168,68 +169,74 @@
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3374648/five-eu-countries-unveil-plans-rwanda-deportation-hub",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/us/article/3374640/trump-floats-kim-meeting-china-says-hell-discuss-ukraine-xi-and-putin",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-robert-pattinson-named-as-next-james-bond/",
+      "source": "New York Post",
+      "url": "https://pagesix.com/video/meghan-markles-dad-thomas-hit-with-child-abuse-charges-as-william-and-kate-remain-united-in-india/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374644/judge-sets-march-retrial-lindsay-clancy-accused-killing-her-3-children",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-11-16/ty-article/reports-third-u-s-aircraft-carrier-deployed-to-middle-east/000001a1-e243-da30-a7fb-faff85dc0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Middle East Eye",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-tv-tanker-ablaze-after-hitting-mine-strait-hormuz-fourth-24",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/usa-news/meghan-markles-father-faces-new-child-abuse-material-charges-in-philippines/78800",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/indias-footballers-celebrate-saff-final-win-against-pakistan?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/17/2003867899",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-trump-meets-leaders-of-the-quad-nations-as-he-kicks-off-asia-trip/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-nvidia-rules-out-huang-comeback-as-campaign-for-his-return-grows/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-11-17/ty-article/iran-developing-plans-for-dirty-bomb-or-chemical-attack-in-d-c-report-says/000001a1-e8c8-d848-abeb-fac893430000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/17/us-loses-measles-elimination-status-major-setback-for-us-public-health-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-17/ty-article/iran-attacks-u-s-military-radar-system-in-bahrain-despite-talks-with-mediators/000001a1-e9e9-d848-abeb-fbe924550000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
