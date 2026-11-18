@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-17T20:40:15.429Z",
-  "finishedAt": "2026-11-17T20:45:07.221Z",
+  "startedAt": "2026-11-18T20:14:17.706Z",
+  "finishedAt": "2026-11-18T20:18:51.960Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1027,
-    "totalItems": 1025,
-    "clusters": 920,
+    "rssItems": 1321,
+    "totalItems": 1318,
+    "clusters": 1202,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 35
   },
   "balance": {
-    "left": 6,
-    "centre": 9,
-    "right": 6,
-    "none": 2
+    "left": 9,
+    "centre": 11,
+    "right": 5,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 7
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 6
+      "availableInRegion": 7
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 45
+      "availableInRegion": 62
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 10 articles, 2 from roster outlets, 8 from outlets not in the roster (discovery only, not ingested).",
-    "33 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 13 articles, 1 from roster outlets, 12 from outlets not in the roster (discovery only, not ingested).",
+    "50 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -144,22 +144,8 @@
     },
     {
       "layer": "discovery",
-      "source": "Washington Times",
-      "id": "washtimes",
-      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
-      "source": "Indian Express",
-      "id": "indianexp",
-      "url": "https://indianexpress.com/feed/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -168,27 +154,15 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/11/rahul-gandhi-distorted-picture-india-economy-columbia-university-calls-india-disaster-economy-electoral-fraud-what-data-reveals/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "New York Post",
-      "url": "https://pagesix.com/video/meghan-markles-dad-thomas-hit-with-child-abuse-charges-as-william-and-kate-remain-united-in-india/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/usa-news/meghan-markles-father-faces-new-child-abuse-material-charges-in-philippines/78800",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/indias-footballers-celebrate-saff-final-win-against-pakistan?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/11/18/427175/politics/economic-disaster-attack-of-rahul-gandhi-why-is-he-running-down-india-on-foreign-soil/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -199,13 +173,31 @@
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374785/ukraine-damages-russias-crimean-bridge-major-strike",
+      "url": "https://www.scmp.com/news/world/europe/article/3374943/spanish-court-opens-sexual-abuse-probe-julio-iglesias",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/2026-11-17/ty-article-magazine/.premium/did-israel-commit-genocide-in-gaza-watch-this-court-case-for-clues/000001a1-e962-d848-abeb-fbeac9b70000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/us-news/2026-11-18/ty-article/u-s-democrats-flip-alaska-senate-seat-winning-a-56-seat-majority/000001a1-ed73-d9ff-a7b5-fdffe27b0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/19/2003868026",
       "reason": "HTTP 403"
     },
     {
@@ -216,26 +208,26 @@
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-17/ty-article/iran-developing-plans-for-dirty-bomb-or-chemical-attack-in-d-c-report-says/000001a1-e8c8-d848-abeb-fac893430000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/us-news/video/2026/nov/17/us-loses-measles-elimination-status-major-setback-for-us-public-health-video",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/17/knesset-elects-new-speaker-tapped-benjamin-netanyahus-opponents/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-17/ty-article/.premium/knesset-votes-to-replace-likud-speaker-with-eisenkot-ally-matan-kahana/000001a1-eb2a-d3e7-a9ff-ef7ab0900000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-17/ty-article/iran-attacks-u-s-military-radar-system-in-bahrain-despite-talks-with-mediators/000001a1-e9e9-d848-abeb-fbe924550000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-17/ty-article/.premium/who-is-matan-kahana-poised-to-be-israels-next-knesset-speaker/000001a1-e99c-d848-abeb-fb9c8f3e0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
