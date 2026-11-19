@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-18T20:14:17.706Z",
-  "finishedAt": "2026-11-18T20:18:51.960Z",
+  "startedAt": "2026-11-19T20:18:12.390Z",
+  "finishedAt": "2026-11-19T20:23:53.333Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,45 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1321,
-    "totalItems": 1318,
-    "clusters": 1202,
+    "rssItems": 1100,
+    "totalItems": 1098,
+    "clusters": 987,
     "candidates": 12,
-    "articlesRead": 35
+    "articlesRead": 38
   },
   "balance": {
-    "left": 9,
-    "centre": 11,
-    "right": 5,
-    "none": 0
+    "left": 8,
+    "centre": 10,
+    "right": 6,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 7
+      "filled": 1,
+      "availableInRegion": 1
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 62
+      "availableInRegion": 40
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 13 articles, 1 from roster outlets, 12 from outlets not in the roster (discovery only, not ingested).",
-    "50 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "28 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -144,8 +144,22 @@
     },
     {
       "layer": "discovery",
+      "source": "Washington Times",
+      "id": "washtimes",
+      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "Indian Express",
+      "id": "indianexp",
+      "url": "https://indianexpress.com/feed/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
@@ -153,21 +167,62 @@
       "reason": "HTTP 429"
     },
     {
+      "layer": "discovery",
+      "source": "GDELT: European Union",
+      "reason": "fetch failed"
+    },
+    {
       "layer": "article",
-      "source": "OpIndia",
-      "url": "https://www.opindia.com/2026/11/rahul-gandhi-distorted-picture-india-economy-columbia-university-calls-india-disaster-economy-electoral-fraud-what-data-reveals/",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/canadian/christianity-to-decline-as-islam-triples-in-canada/78890",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375123/violence-rises-bangladesh-ex-pm-hasinas-supporters-escalate-protests",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Organiser",
-      "url": "https://organiser.org/2026/11/18/427175/politics/economic-disaster-attack-of-rahul-gandhi-why-is-he-running-down-india-on-foreign-soil/",
-      "reason": "HTTP 403"
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-trump-meets-leaders-of-the-quad-nations-as-he-kicks-off-asia-trip/",
+      "url": "https://www.theglobeandmail.com/world/video-myanmar-committed-genocide-against-muslim-rohingya-top-un-court-finds/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/life/2026-11-19/ty-article/van-gogh-reportedly-fetches-190-million-after-last-minute-nazi-era-settlement/000001a1-f3d5-d287-adbb-f7df9e9b0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3375094/danish-lawmakers-approve-us-greenland-security-deal",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375130/xi-trump-and-putin-peace-declaration-suggests-summit-more-photo-op",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/news/video/2026/nov/19/troublesome-trio-trump-xi-and-putin-hold-historic-meeting-the-latest",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
@@ -178,57 +233,39 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3374943/spanish-court-opens-sexual-abuse-probe-julio-iglesias",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/world-news/2026-11-17/ty-article-magazine/.premium/did-israel-commit-genocide-in-gaza-watch-this-court-case-for-clues/000001a1-e962-d848-abeb-fbeac9b70000",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-18/ty-article/u-s-democrats-flip-alaska-senate-seat-winning-a-56-seat-majority/000001a1-ed73-d9ff-a7b5-fdffe27b0000",
+      "url": "https://www.haaretz.com/us-news/2026-11-18/ty-article/.premium/citing-gaza-newly-elected-democrats-vote-against-hakeem-jeffries-for-speaker/000001a1-efea-d9ff-a7b5-ffee3a3d0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/19/2003868026",
-      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-nvidia-rules-out-huang-comeback-as-campaign-for-his-return-grows/",
+      "url": "https://www.theglobeandmail.com/world/video-nasas-voyager-1-is-an-awe-inspiring-one-light-day-away-from-earth/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/voyager-1-reaches-one-light-day-from-earth-after-49-years-in-space?traffic_source=rss",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/news/voyager-1-phoned-home-from-259-billion-kilometres-away-49-years-after-launch/78888",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/17/knesset-elects-new-speaker-tapped-benjamin-netanyahus-opponents/",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375126/nasas-voyager-1-phones-home-awe-inspiring-1-light-day-away",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-17/ty-article/.premium/knesset-votes-to-replace-likud-speaker-with-eisenkot-ally-matan-kahana/000001a1-eb2a-d3e7-a9ff-ef7ab0900000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-17/ty-article/.premium/who-is-matan-kahana-poised-to-be-israels-next-knesset-speaker/000001a1-e99c-d848-abeb-fb9c8f3e0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375108/houthis-hit-riyadhs-tallest-skyscraper-strike-saudi-wealth-fund-hq",
+      "reason": "HTTP 403"
     }
   ]
 }
