@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-19T20:18:12.390Z",
-  "finishedAt": "2026-11-19T20:23:53.333Z",
+  "startedAt": "2026-11-20T19:49:40.096Z",
+  "finishedAt": "2026-11-20T19:55:22.045Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,17 +17,17 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1100,
-    "totalItems": 1098,
-    "clusters": 987,
+    "rssItems": 1300,
+    "totalItems": 1300,
+    "clusters": 1186,
     "candidates": 12,
-    "articlesRead": 38
+    "articlesRead": 39
   },
   "balance": {
-    "left": 8,
-    "centre": 10,
-    "right": 6,
-    "none": 1
+    "left": 6,
+    "centre": 12,
+    "right": 2,
+    "none": 0
   },
   "regionFill": {
     "Canada": {
@@ -37,25 +37,25 @@
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 7
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 10
+      "availableInRegion": 15
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 40
+      "availableInRegion": 49
     }
   },
   "starvedSides": [],
   "notes": [
-    "28 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"European Union\": 100 articles, 5 from roster outlets, 95 from outlets not in the roster (discovery only, not ingested).",
+    "37 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -144,38 +144,13 @@
     },
     {
       "layer": "discovery",
-      "source": "Washington Times",
-      "id": "washtimes",
-      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
-      "source": "Indian Express",
-      "id": "indianexp",
-      "url": "https://indianexpress.com/feed/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
       "source": "GDELT: Canada federal",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
       "reason": "HTTP 429"
-    },
-    {
-      "layer": "discovery",
-      "source": "GDELT: European Union",
-      "reason": "fetch failed"
-    },
-    {
-      "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/canadian/christianity-to-decline-as-islam-triples-in-canada/78890",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -185,86 +160,56 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375123/violence-rises-bangladesh-ex-pm-hasinas-supporters-escalate-protests",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
       "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-myanmar-committed-genocide-against-muslim-rohingya-top-un-court-finds/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/life/2026-11-19/ty-article/van-gogh-reportedly-fetches-190-million-after-last-minute-nazi-era-settlement/000001a1-f3d5-d287-adbb-f7df9e9b0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375094/danish-lawmakers-approve-us-greenland-security-deal",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375130/xi-trump-and-putin-peace-declaration-suggests-summit-more-photo-op",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/news/video/2026/nov/19/troublesome-trio-trump-xi-and-putin-hold-historic-meeting-the-latest",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-18/ty-article/.premium/citing-gaza-newly-elected-democrats-vote-against-hakeem-jeffries-for-speaker/000001a1-efea-d9ff-a7b5-ffee3a3d0000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/19/takeaways-historic-summit-donald-trump-xi-jinping-vladimir-putin/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-nasas-voyager-1-is-an-awe-inspiring-one-light-day-away-from-earth/",
+      "url": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/news/voyager-1-phoned-home-from-259-billion-kilometres-away-49-years-after-launch/78888",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+      "source": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868122",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375126/nasas-voyager-1-phones-home-awe-inspiring-1-light-day-away",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/20/tusk-says-russian-missile-landing-poland-appears-intentional/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375108/houthis-hit-riyadhs-tallest-skyscraper-strike-saudi-wealth-fund-hq",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
       "reason": "HTTP 403"
     }
   ]
