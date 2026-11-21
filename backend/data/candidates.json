@@ -1,6 +1,6 @@
 [
   {
-    "id": "c1ppuwwk",
+    "id": "c16t4mwb",
     "regions": [
       "Canada",
       "Global"
@@ -8,33 +8,29 @@
     "regionEvidence": {
       "scores": {
         "Canada": 4,
-        "India": 1,
+        "India": 0,
         "Europe": 0
       },
       "matched": {
         "Canada": [
           "canada",
           "(an outlet from the region covered it)"
-        ],
-        "India": [
-          "(an outlet from the region covered it)"
         ]
       }
     },
     "firstSeen": "2026-11-19T15:22:03.000Z",
-    "lastSeen": "2026-11-20T04:25:45.000Z",
-    "outletCount": 3,
+    "lastSeen": "2026-11-19T17:01:03.000Z",
+    "outletCount": 2,
     "outlets": [
       "Globe and Mail",
-      "Indian Express",
       "Haaretz"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.38250151891012824,
-      "max": 0.5564890500193447,
-      "pairs": 2,
+      "min": 0.5631496193611666,
+      "max": 0.5631496193611666,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -48,7 +44,7 @@
         "t": "Islam projected to surpass Christianity as the world’s largest religion within next decade",
         "u": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/",
         "publishedAt": "2026-11-19T15:22:03.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“The ‘clash of civilization’ theory still looms large in some religious communities and there is a lot of misunderstanding of both religions from both sides,” she said via e-mail.",
@@ -84,51 +80,6 @@
         "wordsRead": 1077
       },
       {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Islam will be world’s largest religion by 2035, study cites higher birth rate",
-        "u": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/",
-        "publishedAt": "2026-11-20T04:25:45.000Z",
-        "retrievedAt": "2026-11-20T19:50:08.426Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Islam is projected to surpass Christianity as the world’s largest religious group by 2035, driven primarily by higher global birth rates among Muslim women, according to Pew Research Center.",
-          "Source: Pew Research Center, “The Future of World Religions: Population Growth Projections, 2020-2070” and Conrad Hackett’s analysis (18 Nov 2026); AP.",
-          "Pew’s senior demographer Conrad Hackett says births, not conversion, drive the gap."
-        ],
-        "figures": [
-          {
-            "value": "2.27 billion",
-            "context": "affiliation. Pew estimates that in 2020 there were 2.27 billion Christians and 2.02 billion Muslims. By 2035, the"
-          },
-          {
-            "value": "2.02 billion",
-            "context": "hat in 2020 there were 2.27 billion Christians and 2.02 billion Muslims. By 2035, the Muslim population is projec"
-          },
-          {
-            "value": "2.57 billion",
-            "context": "2035, the Muslim population is projected to reach 2.57 billion, edging past the Christian population at 2.52 bil"
-          },
-          {
-            "value": "2.52 billion",
-            "context": "7 billion, edging past the Christian population at 2.52 billion. If current trends continue, the number of Muslim"
-          },
-          {
-            "value": "3.6 billion",
-            "context": "rends continue, the number of Muslims could exceed 3.6 billion by 2070, while Christians are projected to remain"
-          },
-          {
-            "value": "3 billion",
-            "context": "hile Christians are projected to remain just below 3 billion. Pew’s projections track seven religious groups f"
-          }
-        ],
-        "wordsRead": 1017
-      },
-      {
         "n": "Haaretz",
         "b": "left",
         "labelSource": {
@@ -138,7 +89,7 @@
         "t": "Islam expected to surpass Christianity as the world's largest religion by 2035",
         "u": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000",
         "publishedAt": "2026-11-19T17:01:03.000Z",
-        "retrievedAt": "2026-11-20T19:50:27.348Z",
+        "retrievedAt": "2026-11-21T18:56:10.058Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -152,7 +103,7 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Islam expected to surpass Christianity as the world's largest religion by 2035",
             "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
           }
@@ -172,15 +123,6 @@
             "evidenceIndex": 0,
             "headline": "Islam projected to surpass Christianity as the world’s largest religion within next decade",
             "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Islam will be world’s largest religion by 2035, study cites higher birth rate",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
           }
         ],
         "status": "sourced",
@@ -202,8 +144,8 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Islam",
-        "Christianity"
+        "Christianity",
+        "Islam"
       ],
       "attempts": [
         {
@@ -280,137 +222,6 @@
       {
         "kind": "count",
         "about": [
-          "christians",
-          "billion",
-          "muslims"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2.27 billion",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2020",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "christians",
-          "billion"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2.27 billion",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2035,",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "muslims",
-          "there",
-          "were",
-          "billion"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2.02 billion",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2020",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "there",
-          "were",
-          "billion"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2.02 billion",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2035,",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "that",
-          "billion",
-          "christians"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2020",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2.27 billion",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "that",
-          "billion"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Globe and Mail",
-            "value": "2020",
-            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "2.02 billion",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
           "billion",
           "christians"
         ],
@@ -432,21 +243,107 @@
       {
         "kind": "count",
         "about": [
-          "muslims",
           "billion",
-          "christians"
+          "muslims"
         ],
         "spread": 1,
         "readings": [
           {
             "outlet": "Globe and Mail",
-            "value": "2.57 billion",
+            "value": "2035",
             "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
           },
           {
-            "outlet": "Indian Express",
-            "value": "2020",
-            "url": "https://indianexpress.com/article/world/islam-population-cross-christians-largest-religion-2035-pew-research-10970746/"
+            "outlet": "Haaretz",
+            "value": "2.57 billion",
+            "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "muslims",
+          "billion",
+          "christians"
+        ],
+        "spread": 0.286,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "3.6 billion",
+            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
+          },
+          {
+            "outlet": "Haaretz",
+            "value": "2.57 billion",
+            "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "muslims",
+          "billion"
+        ],
+        "spread": 0.214,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "2.02 billion",
+            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
+          },
+          {
+            "outlet": "Haaretz",
+            "value": "2.57 billion",
+            "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "christians",
+          "billion",
+          "muslims"
+        ],
+        "spread": 0.143,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "3 billion",
+            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
+          },
+          {
+            "outlet": "Haaretz",
+            "value": "2.57 billion",
+            "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
+          }
+        ],
+        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
+      },
+      {
+        "kind": "count",
+        "about": [
+          "christians",
+          "billion",
+          "muslims"
+        ],
+        "spread": 0.117,
+        "readings": [
+          {
+            "outlet": "Globe and Mail",
+            "value": "2.27 billion",
+            "url": "https://www.theglobeandmail.com/world/article-islam-projected-to-surpass-christianity-as-the-worlds-largest-religion/"
+          },
+          {
+            "outlet": "Haaretz",
+            "value": "2.57 billion",
+            "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000"
           }
         ],
         "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
@@ -464,7 +361,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1ez5zhn",
+    "id": "c2ekk3",
     "regions": [
       "India",
       "Global"
@@ -488,51 +385,24 @@
         ]
       }
     },
-    "firstSeen": "2026-11-20T17:09:32.000Z",
-    "lastSeen": "2026-11-20T19:40:07.000Z",
-    "outletCount": 7,
+    "firstSeen": "2026-11-20T17:45:47.000Z",
+    "lastSeen": "2026-11-21T02:22:56.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Guardian US",
       "BBC News",
       "Globe and Mail",
-      "The Hindu",
-      "Indian Express",
-      "Al Jazeera",
+      "Scroll.in",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.36021935700785157,
-      "max": 0.7540280992103857,
-      "pairs": 15,
+      "min": 0.41952749629002667,
+      "max": 0.7376507942382584,
+      "pairs": 5,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-        "u": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist",
-        "publishedAt": "2026-11-20T18:24:12.000Z",
-        "retrievedAt": "2026-11-20T19:49:44.485Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“This case cuts to the very core of American values,” prosecutor Ashley ⁠Nicolas said in court.",
-          "“I’m ​sorry to Mr ‌Pannun, I’m sorry ​to the communities I hurt, ​I’m sorry to my own family,” Gupta …"
-        ],
-        "figures": [
-          {
-            "value": "$15,000",
-            "context": "vernment official, Vikash Yadav, arranged to have $15,000 in cash delivered to a purported hitman who ‌was a"
-          }
-        ],
-        "wordsRead": 352
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -543,7 +413,7 @@
         "t": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
         "u": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-20T19:27:49.000Z",
-        "retrievedAt": "2026-11-20T19:49:47.912Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "In September 2023, then-Canadian Prime Minister Justin Trudeau said there were \"credible allegations potentially linking\" India to the murder of Hardeep Singh Nijjar, another advocate for the creation of Khalistan …",
@@ -562,79 +432,40 @@
         "t": "Indian man sentenced to more than 19 years in U.S. for plot to kill Sikh separatist",
         "u": "https://www.theglobeandmail.com/world/article-indian-man-sentenced-us-plot-kill-sikh-separatist/",
         "publishedAt": "2026-11-20T17:45:47.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“This case cuts to the very core of American values,” prosecutor Ashley Nicolas said in court.",
-          "“Self-determination for my people and my homeland, Punjab, is my lifetime goal,” he said.",
-          "“We don’t condone the use of …"
+          "“This case cuts to the very core of American values,” prosecutor Ashley Nicolas said in a Manhattan courthouse that was surrounded by heavy security, Sikh protestors and media.",
+          "“I do not stand before you for my personal safety because my life belongs entirely to my people,” he said.",
+          "“We don’t condone the use of violence to silence voices in this country, ever.”"
         ],
         "figures": [
           {
-            "value": "US$15,000",
-            "context": "vernment official, Vikash Yadav, arranged to have US$15,000 in cash delivered to a purported hitman who was ac"
+            "value": "$15,000",
+            "context": "a hit man, and was caught arranging an advance of $15,000 cash for Mr. Pannun’s murder. U.S. prosecutors all"
           }
         ],
-        "wordsRead": 362
+        "wordsRead": 961
       },
       {
-        "n": "The Hindu",
-        "b": "lean_left",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.S. court sentences Indian national Nikhil Gupta to 235 months in jail in Pannun murder plot",
-        "u": "https://www.thehindu.com/news/national/us-court-sentences-indian-national-nikhil-gupta-to-235-months-in-jail-in-murder-for-hire-plot/article71725795.ece",
-        "publishedAt": "2026-11-20T17:40:56.000Z",
-        "retrievedAt": "2026-11-20T19:50:06.435Z",
+        "t": "Nikhil Gupta gets 20-year sentence in plot to assassinate Sikh separatist leader in New York",
+        "u": "https://scroll.in/article/1097218/nikhil-gupta-sentenced-for-20-years-in-plot-to-assassinate-sikh-separatist-leader-in-new-york?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-21T02:22:56.000Z",
+        "retrievedAt": "2026-11-21T18:55:50.110Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In imposing the 235-month sentence, the judge said it is “reasonable and appropriate” given the nature of the crime.",
-          "Judge Victor Marrero of the Southern District of New York announced 235 months prison term to Gupta after an almost 80-minute hearing.",
-          "Indian national Nikhil Gupta was sentenced to 235 months in jail …"
+          "“No one can achieve anything by a bullet,” he said.",
+          "“And if, if, if he’s not alone, he has one more, two guys always with him… Fucking finish them also!” said Gupta, as per a transcript of a phone call …",
+          "“Most things will depend upon the task at hand.. if it’s done in an impeccable manner…all will be take care of bhai ji,” a message from Yadav to Gupta purportedly …"
         ],
         "figures": [],
-        "wordsRead": 520
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Nikhil Gupta sentenced to 19.5 years in US jail for plot to kill Khalistani separatist Pannun",
-        "u": "https://indianexpress.com/article/world/us-court-sentences-indian-national-nikhil-gupta-235-months-jail-gurpatwant-singh-pannun-murder-plot-10971983/",
-        "publishedAt": "2026-11-20T17:09:32.000Z",
-        "retrievedAt": "2026-11-20T19:50:08.426Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Under the law, all defendants have the right to address the court orally and in connection with our sentencing submission. ‘Victims’ of crimes also have the right to speak at …",
-          "Judge Victor Marrero of the …"
-        ],
-        "figures": [],
-        "wordsRead": 369
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
-        "u": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
-        "publishedAt": "2026-11-20T19:40:07.000Z",
-        "retrievedAt": "2026-11-20T19:50:31.401Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I’m sorry to Mr Pannun, I’m sorry to the communities I hurt, I’m sorry to my own family,” he said.",
-          "“This case cuts to the very core of ⁠⁠American values,” prosecutor Ashley Nicolas said in court.",
-          "Pannun said the Modi government wanted him dead “because I lead …"
-        ],
-        "figures": [],
-        "wordsRead": 472
+        "wordsRead": 1327
       },
       {
         "n": "South China Morning Post",
@@ -646,7 +477,7 @@
         "t": "Indian man jailed over US murder plot against Sikh separatist",
         "u": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
         "publishedAt": "2026-11-20T19:27:53.000Z",
-        "retrievedAt": "2026-11-20T19:50:38.779Z",
+        "retrievedAt": "2026-11-21T18:56:20.455Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -656,22 +487,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Indian man sentenced to 19 years in prison for conspiring to kill Sikh separatist in New York",
-            "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist"
-          },
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
             "country": "IN",
-            "evidenceIndex": 3,
-            "headline": "U.S. court sentences Indian national Nikhil Gupta to 235 months in jail in Pannun murder plot",
-            "url": "https://www.thehindu.com/news/national/us-court-sentences-indian-national-nikhil-gupta-to-235-months-in-jail-in-murder-for-hire-plot/article71725795.ece"
+            "evidenceIndex": 2,
+            "headline": "Nikhil Gupta gets 20-year sentence in plot to assassinate Sikh separatist leader in New York",
+            "url": "https://scroll.in/article/1097218/nikhil-gupta-sentenced-for-20-years-in-plot-to-assassinate-sikh-separatist-leader-in-new-york?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -686,7 +508,7 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 1,
+            "evidenceIndex": 0,
             "headline": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
             "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss"
           },
@@ -695,18 +517,9 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Indian man sentenced to more than 19 years in U.S. for plot to kill Sikh separatist",
             "url": "https://www.theglobeandmail.com/world/article-indian-man-sentenced-us-plot-kill-sikh-separatist/"
-          },
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 4,
-            "headline": "Nikhil Gupta sentenced to 19.5 years in US jail for plot to kill Khalistani separatist Pannun",
-            "url": "https://indianexpress.com/article/world/us-court-sentences-indian-national-nikhil-gupta-235-months-jail-gurpatwant-singh-pannun-murder-plot-10971983/"
           }
         ],
         "status": "sourced",
@@ -726,21 +539,11 @@
     },
     "offAxis": [
       {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
-        "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 6,
+        "evidenceIndex": 3,
         "headline": "Indian man jailed over US murder plot against Sikh separatist",
         "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
         "reason": "lean \"varies\" is not a left-right position"
@@ -751,10 +554,9 @@
       "terms": [
         "Indian",
         "Sikh",
-        "Nikhil Gupta",
-        "Pannun",
         "US-based Sikh",
-        "Khalistani"
+        "Nikhil Gupta",
+        "New York"
       ],
       "attempts": [
         {
@@ -765,10 +567,9 @@
           "terms": [
             "Indian",
             "Sikh",
-            "Nikhil Gupta",
-            "Pannun",
             "US-based Sikh",
-            "Khalistani"
+            "Nikhil Gupta",
+            "New York"
           ]
         },
         {
@@ -848,7 +649,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1vfuqjd",
+    "id": "c1uuhnku",
     "regions": [
       "India",
       "Global"
@@ -857,83 +658,55 @@
       "scores": {
         "Canada": 0,
         "India": 7,
-        "Europe": 0
+        "Europe": 1
       },
       "matched": {
         "India": [
-          "tamil nadu",
-          "karnataka",
+          "india",
+          "modi",
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T05:36:59.000Z",
-    "lastSeen": "2026-11-20T12:37:52.000Z",
-    "outletCount": 2,
+    "firstSeen": "2026-11-20T23:28:17.000Z",
+    "lastSeen": "2026-11-21T12:21:43.000Z",
+    "outletCount": 3,
     "outlets": [
-      "Scroll.in",
-      "Indian Express"
+      "BBC News",
+      "Indian Express",
+      "Nikkei Asia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.38180622248965934,
-      "max": 0.8138964923929597,
+      "min": 0.3863504410223254,
+      "max": 0.39126784254436375,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Scroll.in",
-        "b": "left",
+        "n": "BBC News",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Rush Hour: SC rejects TN plea for more Cauvery water, US panel says SIR targeting Muslims and more",
-        "u": "https://scroll.in/latest/1097215/rush-hour-sc-rejects-tn-plea-for-more-cauvery-water-us-panel-says-sir-targeting-muslims-and-more?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-20T12:37:52.000Z",
-        "retrievedAt": "2026-11-20T19:50:04.817Z",
+        "t": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
+        "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-20T23:28:17.000Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Bike taxi is already there in 25 states.”",
-          "The US Commission on International Religious Freedom quoted its head Asif Mahmood as alleging that the Indian government was “targeting Muslim citizens by removing them from voter rolls, calling them …",
-          "The panel also quoted its Commissioner Gene Mills as …"
+          "\"The new Nepali leadership says they do not have the political baggage of the past and they want to focus on development, diplomacy and economic partnership,\" Ranjit Rae, a former …",
+          "The 36-year-old rapper-turned-politician arrives in Delhi on Sunday for a two-day visit, during which he will meet his Indian counterpart Narendra Modi and other senior officials.",
+          "\"They seem to be more pragmatic, less ideological."
         ],
         "figures": [],
-        "wordsRead": 489
-      },
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Cauvery water dispute: SC rejects Tamil Nadu’s plea for Karnataka to release additional water",
-        "u": "https://scroll.in/latest/1097208/cauvery-water-dispute-sc-rejects-plea-by-tamil-nadu-for-release-of-additional-water-by-karnataka?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-20T09:40:50.000Z",
-        "retrievedAt": "2026-11-20T19:50:04.817Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Tamil Nadu government had approached the court seeking the immediate release of 3,500 cusecs of water a day for 15 days from the Kabini and Krishna Raja Sagara reservoirs …",
-          "Readers’ comments: On Tagore, can …"
-        ],
-        "figures": [
-          {
-            "value": "4.5 thousand",
-            "context": "Karnataka. The state contended that the release of 4.5 thousand million cubic feet of water by August 12 was in …"
-          },
-          {
-            "value": "77.5 thousand",
-            "context": "a Raja Sagara, Kabini, Harangi and Hemavathy – was 77.5 thousand million cubic feet. This indicates that the state"
-          },
-          {
-            "value": "26.9 thousand",
-            "context": "gara and Kabini dams meant that it was entitled to 26.9 thousand million cubic feet of water at Biligundlu under …"
-          }
-        ],
-        "wordsRead": 363
+        "wordsRead": 962
       },
       {
         "n": "Indian Express",
@@ -942,49 +715,47 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "SC rejects Tamil Nadu plea for additional Cauvery water from Karnataka",
-        "u": "https://indianexpress.com/article/legal-news/cauvery-water-row-tamil-nadu-plea-for-karnataka-dismissed-sc-10970957/",
-        "publishedAt": "2026-11-20T05:36:59.000Z",
-        "retrievedAt": "2026-11-20T19:50:08.426Z",
+        "t": "India-Nepal rail connectivity: PM Modi, Balendra Shah to flag off Ayodhya-Janakpur Express on Nov 23",
+        "u": "https://indianexpress.com/article/india/india-nepal-rail-connectivity-pm-modi-balendra-shah-to-flag-off-ayodhya-janakpur-express-on-nov-23-10972853/",
+        "publishedAt": "2026-11-21T12:21:43.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Seeking more water from Karnataka, Tamil Nadu said that the Cauvery Water Management Authority (CWMA)’s direction to release 3,500 cusecs for 15 days was inadequate given the situation it was …",
-          "Tamil Nadu alleged that Karnataka was withholding water despite having 77.537 TMC …"
+          "Ayodhya-Janakpur Express will connect two important Ramayana destinations as PM Modi and Nepal PM Balendra Shah are set to flag off the service on November 23."
+        ],
+        "figures": [],
+        "wordsRead": 289
+      },
+      {
+        "n": "Nikkei Asia",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Nepal's Shah to meet Modi for Indian flood aid and connectivity",
+        "u": "https://asia.nikkei.com/politics/international-relations/nepal-s-shah-to-meet-modi-for-indian-flood-aid-and-connectivity",
+        "publishedAt": null,
+        "retrievedAt": "2026-11-21T18:56:24.510Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Trump meets Quad leaders, says …"
         ],
         "figures": [
           {
-            "value": "11.719 thousand",
-            "context": "nal river water. Tamil Nadu claimed a shortfall of 11.719 thousand million cubic feet (TMC) in the inflow of Cauvery"
+            "value": "$4.8 billion",
+            "context": "es to raise a flood recovery fund of an estimated $4.8 billion. Trump meets Quad leaders, says 4 nations agree …"
           }
         ],
-        "wordsRead": 437
+        "wordsRead": 56
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "Rush Hour: SC rejects TN plea for more Cauvery water, US panel says SIR targeting Muslims and more",
-            "url": "https://scroll.in/latest/1097215/rush-hour-sc-rejects-tn-plea-for-more-cauvery-water-us-panel-says-sir-targeting-muslims-and-more?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Cauvery water dispute: SC rejects Tamil Nadu’s plea for Karnataka to release additional water",
-            "url": "https://scroll.in/latest/1097208/cauvery-water-dispute-sc-rejects-plea-by-tamil-nadu-for-release-of-additional-water-by-karnataka?utm_source=rss&utm_medium=public"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -992,13 +763,31 @@
         "label": "Centre",
         "outlets": [
           {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
+            "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss"
+          },
+          {
             "outlet": "Indian Express",
             "outletId": "indianexp",
             "lean": "centre",
             "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "India-Nepal rail connectivity: PM Modi, Balendra Shah to flag off Ayodhya-Janakpur Express on Nov 23",
+            "url": "https://indianexpress.com/article/india/india-nepal-rail-connectivity-pm-modi-balendra-shah-to-flag-off-ayodhya-janakpur-express-on-nov-23-10972853/"
+          },
+          {
+            "outlet": "Nikkei Asia",
+            "outletId": "nikkeiasia",
+            "lean": "centre",
+            "country": "JP",
             "evidenceIndex": 2,
-            "headline": "SC rejects Tamil Nadu plea for additional Cauvery water from Karnataka",
-            "url": "https://indianexpress.com/article/legal-news/cauvery-water-row-tamil-nadu-plea-for-karnataka-dismissed-sc-10970957/"
+            "headline": "Nepal's Shah to meet Modi for Indian flood aid and connectivity",
+            "url": "https://asia.nikkei.com/politics/international-relations/nepal-s-shah-to-meet-modi-for-indian-flood-aid-and-connectivity"
           }
         ],
         "status": "sourced",
@@ -1013,280 +802,19 @@
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Cauvery",
-        "Tamil Nadu",
-        "Karnataka",
-        "Rush Hour",
-        "Muslims"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Cauvery",
-            "Tamil Nadu",
-            "Karnataka",
-            "Rush Hour",
-            "Muslims"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [
-      {
-        "kind": "count",
-        "about": [
-          "million",
-          "cubic",
-          "feet"
-        ],
-        "spread": 0.849,
-        "readings": [
-          {
-            "outlet": "Scroll.in",
-            "value": "77.5 thousand",
-            "url": "https://scroll.in/latest/1097208/cauvery-water-dispute-sc-rejects-plea-by-tamil-nadu-for-release-of-additional-water-by-karnataka?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "11.719 thousand",
-            "url": "https://indianexpress.com/article/legal-news/cauvery-water-row-tamil-nadu-plea-for-karnataka-dismissed-sc-10970957/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "count",
-        "about": [
-          "million",
-          "cubic",
-          "feet"
-        ],
-        "spread": 0.616,
-        "readings": [
-          {
-            "outlet": "Scroll.in",
-            "value": "4.5 thousand",
-            "url": "https://scroll.in/latest/1097208/cauvery-water-dispute-sc-rejects-plea-by-tamil-nadu-for-release-of-additional-water-by-karnataka?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "11.719 thousand",
-            "url": "https://indianexpress.com/article/legal-news/cauvery-water-row-tamil-nadu-plea-for-karnataka-dismissed-sc-10970957/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cfafsdq",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 4,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "modi",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-20T15:23:33.000Z",
-    "lastSeen": "2026-11-20T17:37:00.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "The Hindu",
-      "Indian Express"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.49924914243324564,
-      "max": 0.49924914243324564,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "PM Modi says cultural connect can guarantee global peace",
-        "u": "https://www.thehindu.com/news/national/pm-modi-address-at-sco-civilisational-dialogue-forum/article71725120.ece",
-        "publishedAt": "2026-11-20T17:37:00.000Z",
-        "retrievedAt": "2026-11-20T19:50:06.435Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Modi highlighted the ancient history of the Purana Qila and said that Indian culture had taught “‘ Vasudhaiva Kutumbakam ’, that is, the whole world is our family”.",
-          "Cultural connect is the biggest guarantee of global peace, Prime Minister Narendra Modi said on Friday.",
-          "The forum also has exhibitions showcasing India’s archaeological, artistic and literary heritage titled “ASTITVA – The Essence of Our Existence.”"
-        ],
-        "figures": [],
-        "wordsRead": 713
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "In world of conflicts, cultural ties strongest guarantee for peace: PM Modi",
-        "u": "https://indianexpress.com/article/india/sco-civilisational-dialogue-forum-pm-modi-delhi-10971889/",
-        "publishedAt": "2026-11-20T15:23:33.000Z",
-        "retrievedAt": "2026-11-20T19:50:08.426Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Highlighting the role of technology in building greater connections and preserving shared heritage, he said, “The 21st century technology has created new possibilities for cultural connectivity in the world.”",
-          "Underlining the importance of civilisational dialogue for global peace, Prime Minister Narendra Modi said Friday India was engaging in dialogue on cultural and civilisational connections at a …"
-        ],
-        "figures": [],
-        "wordsRead": 565
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "PM Modi says cultural connect can guarantee global peace",
-            "url": "https://www.thehindu.com/news/national/pm-modi-address-at-sco-civilisational-dialogue-forum/article71725120.ece"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "In world of conflicts, cultural ties strongest guarantee for peace: PM Modi",
-            "url": "https://indianexpress.com/article/india/sco-civilisational-dialogue-forum-pm-modi-delhi-10971889/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
+        "Ayodhya-Janakpur Express",
+        "Balendra Shah's India",
+        "Balendra Shah",
+        "Nepal's Shah",
+        "India-Nepal",
         "PM Modi"
       ],
       "attempts": [
@@ -1373,7 +901,213 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c19ca1ly",
+    "id": "c1avsrne",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 4,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "india",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-21T02:06:00.000Z",
+    "lastSeen": "2026-11-21T11:36:40.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Scroll.in",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.3831089006034427,
+      "max": 0.3831089006034427,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Manipur: 11 dead, over 180 taken to hospital after drinking spurious liquor",
+        "u": "https://scroll.in/latest/1097219/manipur-11-dead-over-180-taken-to-hospital-after-drinking-spurious-liquor?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-21T02:06:00.000Z",
+        "retrievedAt": "2026-11-21T18:55:50.110Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In view of the deaths in Chandel, the authorities in Kakching advised the public “to refrain …"
+        ],
+        "figures": [],
+        "wordsRead": 169
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
+        "u": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+        "publishedAt": "2026-11-21T11:36:40.000Z",
+        "retrievedAt": "2026-11-21T18:56:20.455Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Manipur: 11 dead, over 180 taken to hospital after drinking spurious liquor",
+            "url": "https://scroll.in/latest/1097219/manipur-11-dead-over-180-taken-to-hospital-after-drinking-spurious-liquor?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 1,
+        "headline": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "In India",
+        "Manipur"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1qnb745",
     "regions": [
       "Europe",
       "Global"
@@ -1382,7 +1116,7 @@
       "scores": {
         "Canada": 1,
         "India": 1,
-        "Europe": 4
+        "Europe": 3
       },
       "matched": {
         "Canada": [
@@ -1392,33 +1126,29 @@
           "(an outlet from the region covered it)"
         ],
         "Europe": [
-          "the hague",
-          "(an outlet from the region covered it)"
+          "the hague"
         ]
       }
     },
     "firstSeen": "2026-11-19T08:06:05.000Z",
-    "lastSeen": "2026-11-20T19:42:15.000Z",
-    "outletCount": 11,
+    "lastSeen": "2026-11-21T08:02:24.000Z",
+    "outletCount": 8,
     "outlets": [
       "Democracy Now!",
-      "NPR",
       "Christian Science Monitor",
+      "Washington Times",
       "Globe and Mail",
       "Scroll.in",
-      "Deutsche Welle",
+      "Indian Express",
       "Haaretz",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News",
       "Nikkei Asia"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 11 outlets",
+    "tierBasis": "reported independently by 8 outlets",
     "clustering": {
-      "min": 0.3600892075204544,
-      "max": 0.6309806829225659,
-      "pairs": 46,
+      "min": 0.3632920815470489,
+      "max": 0.6718983940295372,
+      "pairs": 36,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1432,7 +1162,7 @@
         "t": "\"Historic Judgment\": World Court Rules Burma Guilty of Genocide Against Rohingya",
         "u": "http://www.democracynow.org/2026/11/20/myanmar_rohingya_genocide_icj",
         "publishedAt": "2026-11-20T13:17:20.000Z",
-        "retrievedAt": "2026-11-20T19:49:41.871Z",
+        "retrievedAt": "2026-11-21T18:55:30.570Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“This is a vindication of what Rohingyas have been saying for the last almost 50 years, since 1978, when the first wave of genocidal expulsion was conducted by the very …",
@@ -1441,19 +1171,6 @@
         ],
         "figures": [],
         "wordsRead": 2673
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
-        "u": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
-        "publishedAt": "2026-11-19T12:29:41.000Z",
-        "retrievedAt": "2026-11-20T19:49:46.550Z",
-        "read": "headline and feed excerpt"
       },
       {
         "n": "Christian Science Monitor",
@@ -1465,7 +1182,7 @@
         "t": "Step toward accountability: Top UN court finds Myanmar guilty of Rohingya genocide",
         "u": "https://www.csmonitor.com/World/Asia-South-Central/2026/1119/rohingya-myanmar-genocide-ruling-un-court?icid=rss",
         "publishedAt": "2026-11-19T22:35:14.000Z",
-        "retrievedAt": "2026-11-20T19:49:49.386Z",
+        "retrievedAt": "2026-11-21T18:55:37.072Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Reading the judgment, Judge Iwasawa said the court was “fully convinced” that Myanmar’s government violated the 1948 Genocide Convention “with an intent to destroy a substantial part of the Rohingya …",
@@ -1478,7 +1195,20 @@
             "context": "d women subjected to sexual violence. Today, about 1.2 million Rohingya live in cramped refugee camps in Banglad"
           }
         ],
-        "wordsRead": 744
+        "wordsRead": 757
+      },
+      {
+        "n": "Washington Times",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Myanmar dismisses the U.N. court's ruling on its responsibility for Rohingya genocide as 'unfair'",
+        "u": "https://www.washingtontimes.com/news/2026/nov/20/unfair-myanmar-dismisses-un-courts-ruling-responsibility-rohingya/",
+        "publishedAt": "2026-11-20T16:38:30.000Z",
+        "retrievedAt": "2026-11-21T18:55:44.592Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Globe and Mail",
@@ -1490,7 +1220,7 @@
         "t": "Rohingya refugees hope UN court’s genocide verdict means they could return home to Myanmar someday",
         "u": "https://www.theglobeandmail.com/world/article-rohingya-bangladesh-genocide-verdict-want-to-go-home-to-myanmar/",
         "publishedAt": "2026-11-20T12:50:17.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“Myanmar denies the existence of the Rohingya, but now the (UN) court made it clear,” he said.",
@@ -1510,7 +1240,7 @@
         "t": "Myanmar committed genocide against Rohingya minority, top UN court finds",
         "u": "https://www.theglobeandmail.com/world/article-myanmar-committed-genocide-against-rohingya-minority-top-un-court/",
         "publishedAt": "2026-11-19T16:14:31.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“The court finds that Myanmar security forces killed thousands of Rohingya civilians, perpetrated widespread acts of sexual violence, as well as acts of extreme violence against children, and attacked fleeing …",
@@ -1529,7 +1259,7 @@
         "t": "Myanmar committed genocide against Rohingya minority, top UN court finds",
         "u": "https://www.theglobeandmail.com/world/article-myanmar-committed-genocide-against-rohingya-un-court/",
         "publishedAt": "2026-11-19T12:26:30.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "“The court finds that Myanmar security forces killed thousands of Rohingya civilians, perpetrated widespread acts of sexual violence, as well as acts of extreme violence against children, and attacked fleeing …",
@@ -1548,7 +1278,7 @@
         "t": "Myanmar committed genocide against Muslim Rohingya, top UN court finds",
         "u": "https://www.theglobeandmail.com/world/video-myanmar-committed-genocide-against-muslim-rohingya-top-un-court-finds/",
         "publishedAt": "2026-11-19T14:28:53.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1561,7 +1291,7 @@
         "t": "ICJ ruling that Myanmar committed genocide is likely to impact case against Israel for Gaza carnage",
         "u": "https://scroll.in/article/1097204/icj-ruling-that-myanmar-committed-genocide-is-likely-to-impact-case-against-israel-for-gaza-carnage?utm_source=rss&utm_medium=public",
         "publishedAt": "2026-11-20T06:30:03.000Z",
-        "retrievedAt": "2026-11-20T19:50:04.817Z",
+        "retrievedAt": "2026-11-21T18:55:50.110Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1574,21 +1304,34 @@
         "t": "Myanmar committed acts of genocide against Rohingya minority, says UN court",
         "u": "https://scroll.in/latest/1097173/myanmar-committed-acts-of-genocide-against-rohingya-minority-says-un-court?utm_source=rss&utm_medium=public",
         "publishedAt": "2026-11-19T11:54:08.000Z",
-        "retrievedAt": "2026-11-20T19:50:04.817Z",
+        "retrievedAt": "2026-11-21T18:55:50.110Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Deutsche Welle",
+        "n": "Indian Express",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
-        "u": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-20T13:38:00.000Z",
-        "retrievedAt": "2026-11-20T19:50:19.186Z",
-        "read": "headline and feed excerpt"
+        "t": "Why Myanmar’s genocide verdict matters, including for Israel’s case",
+        "u": "https://indianexpress.com/article/explained/explained-global/why-myanmars-genocide-verdict-matters-including-for-israels-case-10972612/",
+        "publishedAt": "2026-11-21T08:02:24.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Indian Express",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "ICJ’s Rohingya verdict is not enough",
+        "u": "https://indianexpress.com/article/opinion/editorials/icjs-rohingya-verdict-is-not-enough-10972174/",
+        "publishedAt": "2026-11-21T01:25:10.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
+        "read": "headline only"
       },
       {
         "n": "Haaretz",
@@ -1600,7 +1343,7 @@
         "t": "Myanmar dismisses UN court's ruling of genocide against Rohingya as 'unfair'",
         "u": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-20/ty-article/myanmar-dismisses-un-courts-genocide-ruling-as-unfair/000001a1-f825-d9ff-a7b5-f9afd75a0000",
         "publishedAt": "2026-11-20T09:28:05.000Z",
-        "retrievedAt": "2026-11-20T19:50:27.348Z",
+        "retrievedAt": "2026-11-21T18:56:10.058Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1613,7 +1356,7 @@
         "t": "ICJ rules Myanmar committed genocide in historic first-of-its-kind ruling",
         "u": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-19/ty-article/top-un-court-rules-myanmars-actions-against-rohingya-meet-genocide-threshold/000001a1-f36d-d9ff-a7b5-f3efc1c90000",
         "publishedAt": "2026-11-19T11:02:39.000Z",
-        "retrievedAt": "2026-11-20T19:50:27.348Z",
+        "retrievedAt": "2026-11-21T18:56:10.058Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1626,46 +1369,7 @@
         "t": "Top UN court to rule on Myanmar's Rohingya genocide case",
         "u": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-19/ty-article/top-un-court-to-rule-on-myanmars-rohingya-genocide-case/000001a1-f2a1-d175-abf5-feb508aa0000",
         "publishedAt": "2026-11-19T08:06:05.000Z",
-        "retrievedAt": "2026-11-20T19:50:27.348Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "What are the implications of the ICJ Rohingya genocide ruling?",
-        "u": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
-        "publishedAt": "2026-11-20T19:12:14.000Z",
-        "retrievedAt": "2026-11-20T19:50:31.401Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli experts warn Myanmar genocide ruling could strengthen Gaza case at ICJ",
-        "u": "https://www.middleeasteye.net/news/israeli-experts-warn-myanmar-genocide-ruling-could-strengthen-gaza-case-icj",
-        "publishedAt": "2026-11-20T13:42:43.000Z",
-        "retrievedAt": "2026-11-20T19:50:32.845Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "How an OIC-led case made legal history against Myanmar over the Rohingya genocide",
-        "u": "https://www.arabnews.com/world/how-an-oic-led-case-made-legal-history-against-myanmar-over-the-rohingya-genocide-3013150",
-        "publishedAt": "2026-11-20T19:42:15.000Z",
-        "retrievedAt": "2026-11-20T19:50:34.720Z",
+        "retrievedAt": "2026-11-21T18:56:10.058Z",
         "read": "headline and feed excerpt"
       },
       {
@@ -1678,7 +1382,7 @@
         "t": "Myanmar committed genocide against Rohingya, ICJ rules in landmark verdict",
         "u": "https://asia.nikkei.com/politics/international-relations/myanmar-committed-genocide-against-rohingya-icj-rules-in-landmark-verdict",
         "publishedAt": null,
-        "retrievedAt": "2026-11-20T19:50:43.098Z",
+        "retrievedAt": "2026-11-21T18:56:24.510Z",
         "read": "headline only"
       }
     ],
@@ -1695,15 +1399,6 @@
             "evidenceIndex": 0,
             "headline": "\"Historic Judgment\": World Court Rules Burma Guilty of Genocide Against Rohingya",
             "url": "http://www.democracynow.org/2026/11/20/myanmar_rohingya_genocide_icj"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
-            "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya"
           },
           {
             "outlet": "Scroll.in",
@@ -1728,7 +1423,7 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 10,
+            "evidenceIndex": 11,
             "headline": "Myanmar dismisses UN court's ruling of genocide against Rohingya as 'unfair'",
             "url": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-20/ty-article/myanmar-dismisses-un-courts-genocide-ruling-as-unfair/000001a1-f825-d9ff-a7b5-f9afd75a0000"
           },
@@ -1737,7 +1432,7 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 11,
+            "evidenceIndex": 12,
             "headline": "ICJ rules Myanmar committed genocide in historic first-of-its-kind ruling",
             "url": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-19/ty-article/top-un-court-rules-myanmars-actions-against-rohingya-meet-genocide-threshold/000001a1-f36d-d9ff-a7b5-f3efc1c90000"
           },
@@ -1746,18 +1441,9 @@
             "outletId": "haaretz",
             "lean": "left",
             "country": "IL",
-            "evidenceIndex": 12,
+            "evidenceIndex": 13,
             "headline": "Top UN court to rule on Myanmar's Rohingya genocide case",
             "url": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-19/ty-article/top-un-court-to-rule-on-myanmars-rohingya-genocide-case/000001a1-f2a1-d175-abf5-feb508aa0000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 14,
-            "headline": "Israeli experts warn Myanmar genocide ruling could strengthen Gaza case at ICJ",
-            "url": "https://www.middleeasteye.net/news/israeli-experts-warn-myanmar-genocide-ruling-could-strengthen-gaza-case-icj"
           }
         ],
         "status": "sourced",
@@ -1772,7 +1458,7 @@
             "outletId": "csmonitor",
             "lean": "centre",
             "country": "US",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Step toward accountability: Top UN court finds Myanmar guilty of Rohingya genocide",
             "url": "https://www.csmonitor.com/World/Asia-South-Central/2026/1119/rohingya-myanmar-genocide-ruling-un-court?icid=rss"
           },
@@ -1813,20 +1499,29 @@
             "url": "https://www.theglobeandmail.com/world/video-myanmar-committed-genocide-against-muslim-rohingya-top-un-court-finds/"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Indian Express",
+            "outletId": "indianexp",
             "lean": "centre",
-            "country": "DE",
+            "country": "IN",
             "evidenceIndex": 9,
-            "headline": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
-            "url": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365?maca=en-rss-en-world-4025-rdf"
+            "headline": "Why Myanmar’s genocide verdict matters, including for Israel’s case",
+            "url": "https://indianexpress.com/article/explained/explained-global/why-myanmars-genocide-verdict-matters-including-for-israels-case-10972612/"
+          },
+          {
+            "outlet": "Indian Express",
+            "outletId": "indianexp",
+            "lean": "centre",
+            "country": "IN",
+            "evidenceIndex": 10,
+            "headline": "ICJ’s Rohingya verdict is not enough",
+            "url": "https://indianexpress.com/article/opinion/editorials/icjs-rohingya-verdict-is-not-enough-10972174/"
           },
           {
             "outlet": "Nikkei Asia",
             "outletId": "nikkeiasia",
             "lean": "centre",
             "country": "JP",
-            "evidenceIndex": 16,
+            "evidenceIndex": 14,
             "headline": "Myanmar committed genocide against Rohingya, ICJ rules in landmark verdict",
             "url": "https://asia.nikkei.com/politics/international-relations/myanmar-committed-genocide-against-rohingya-icj-rules-in-landmark-verdict"
           }
@@ -1837,8 +1532,18 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Washington Times",
+            "outletId": "washtimes",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Myanmar dismisses the U.N. court's ruling on its responsibility for Rohingya genocide as 'unfair'",
+            "url": "https://www.washingtontimes.com/news/2026/nov/20/unfair-myanmar-dismisses-un-courts-ruling-responsibility-rohingya/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
@@ -1846,35 +1551,14 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 13,
-        "headline": "What are the implications of the ICJ Rohingya genocide ruling?",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 15,
-        "headline": "How an OIC-led case made legal history against Myanmar over the Rohingya genocide",
-        "url": "https://www.arabnews.com/world/how-an-oic-led-case-made-legal-history-against-myanmar-over-the-rohingya-genocide-3013150",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
         "Myanmar",
         "Rohingya",
         "Top UN",
-        "Gaza",
+        "Israel",
         "Genocide Against Rohingya",
         "World Court Rules Burma"
       ],
@@ -1888,7 +1572,7 @@
             "Myanmar",
             "Rohingya",
             "Top UN",
-            "Gaza",
+            "Israel",
             "Genocide Against Rohingya",
             "World Court Rules Burma"
           ]
@@ -1970,123 +1654,45 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cgyg64y",
+    "id": "c1tnf31s",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
-        "India": 1,
-        "Europe": 3
+        "Canada": 0,
+        "India": 0,
+        "Europe": 11
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "India": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
-          "ukraine"
+          "poland",
+          "finland",
+          "ukraine",
+          "nato",
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-19T09:44:40.000Z",
-    "lastSeen": "2026-11-20T12:22:08.000Z",
-    "outletCount": 8,
+    "firstSeen": "2026-11-21T13:44:07.000Z",
+    "lastSeen": "2026-11-21T18:11:02.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Democracy Now!",
-      "NPR",
-      "Fox News",
-      "The Daily Caller",
       "Washington Times",
-      "Globe and Mail",
-      "Scroll.in",
-      "JNS"
+      "Euronews",
+      "Al Jazeera",
+      "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.36034128844346924,
-      "max": 0.6061801538523314,
-      "pairs": 13,
+      "min": 0.4255742071262475,
+      "max": 0.8157515348574188,
+      "pairs": 6,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "Democracy Now!",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "A New International Order? Xi, Trump & Putin Hold Historic Trilateral Summit in China",
-        "u": "http://www.democracynow.org/2026/11/19/china_us_russia",
-        "publishedAt": "2026-11-19T13:14:11.000Z",
-        "retrievedAt": "2026-11-20T19:49:41.871Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It’s a significant post-1945 moment, which was the last time that we had great summits,” says Scott Lucas, professor of international politics at University College Dublin.",
-          "The declaration also announced a commitment to increase petroleum production, called for reforms at the United Nations and urged the International Criminal Court and similar bodies to “not abuse their …",
-          "It was China that really set the terms of what was said.”"
-        ],
-        "figures": [],
-        "wordsRead": 2217
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump, Xi and Putin meet as global alliances hang in the balance",
-        "u": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
-        "publishedAt": "2026-11-19T09:44:40.000Z",
-        "retrievedAt": "2026-11-20T19:49:46.550Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump, Putin, Xi issue 4-point declaration after historic summit",
-        "u": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit",
-        "publishedAt": "2026-11-19T18:20:42.000Z",
-        "retrievedAt": "2026-11-20T19:49:53.495Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"The three heads of state had an in-depth exchange of views on the current international situation and committed to maintaining strategic stability and international security,\" the White House said in …",
-          "The statement referred to the theme of the historic meeting between the three leaders, the first time in history the three nations' heads …"
-        ],
-        "figures": [],
-        "wordsRead": 541
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump, Putin, Xi Unveil Historic ‘Peace’ Declaration, But Major Wars Remain Unresolved",
-        "u": "https://dailycaller.com/2026/11/19/trump-putin-xi-peace-declaration-major-wars-unsolved",
-        "publishedAt": "2026-11-19T18:29:33.000Z",
-        "retrievedAt": "2026-11-20T19:49:57.296Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The president described his trip as “Great and Highly Consequential” and said he would also discuss trade agreements with Thailand, the Philippines and other countries in a Truth Social post …",
-          "The three leaders reaffirmed that a nuclear war “cannot be won and must never be fought,” according to the White House .",
-          "The three leaders issued a four-point declaration following their unprecedented summit in Shenzhen, China, according to the White House ."
-        ],
-        "figures": [],
-        "wordsRead": 841
-      },
       {
         "n": "Washington Times",
         "b": "right",
@@ -2094,112 +1700,77 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Takeaways from the historic summit between Trump, Xi and Putin",
-        "u": "https://www.washingtontimes.com/news/2026/nov/19/takeaways-historic-summit-donald-trump-xi-jinping-vladimir-putin/",
-        "publishedAt": "2026-11-19T16:30:23.000Z",
-        "retrievedAt": "2026-11-20T19:49:58.596Z",
+        "t": "Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores",
+        "u": "https://www.washingtontimes.com/news/2026/nov/21/ballistic-missile-attack-kryvyi-rih-hometown-volodymyr-zelenskyy/",
+        "publishedAt": "2026-11-21T13:44:07.000Z",
+        "retrievedAt": "2026-11-21T18:55:44.592Z",
         "read": "headline and feed excerpt"
       },
       {
-        "n": "Globe and Mail",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Historic, or just a photo op? Reading Trump's summit with Xi and Putin",
-        "u": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/",
-        "publishedAt": "2026-11-20T12:22:08.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
-        "read": "headline and feed excerpt"
+        "t": "Ballistic missile attack on Zelenskyy's hometown kills two people",
+        "u": "https://www.euronews.com/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-kills-two-people",
+        "publishedAt": "2026-11-21T13:57:15.000Z",
+        "retrievedAt": "2026-11-21T18:55:58.562Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Zelensky, who met allies in Berlin Thursday, said Putin's attempts to \"redraw the world\" with Xi and Trump had been a \"failure\".",
+          "\"Putin launched this attack in a highly demonstrative manner – following weak meetings in China …"
+        ],
+        "figures": [],
+        "wordsRead": 371
       },
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "Al Jazeera",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump, Xi and Putin meet for historic trilateral summit in China",
-        "u": "https://www.theglobeandmail.com/world/article-trump-xi-and-putin-meet-for-historic-trilateral-summit-in-china/",
-        "publishedAt": "2026-11-19T10:05:39.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
-        "read": "headline and feed excerpt"
+        "t": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+        "u": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+        "publishedAt": "2026-11-21T17:20:03.000Z",
+        "retrievedAt": "2026-11-21T18:56:13.851Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "A Russian attack on Ukrainian President Volodymyr Zelenskyy’s hometown of Kryvyi Rih has killed two people and wounded 60 others, according to local officials.",
+          "About 25 apartment buildings, a hospital, schools and businesses were damaged, according …"
+        ],
+        "figures": [],
+        "wordsRead": 368
       },
       {
-        "n": "Globe and Mail",
-        "b": "centre",
+        "n": "Arab News",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Trump, Xi and Putin meet in Shenzhen",
-        "u": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
-        "publishedAt": "2026-11-19T10:30:23.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump, Putin and Xi say nuclear war ‘must never be fought’ in joint peace declaration",
-        "u": "https://scroll.in/latest/1097196/trump-putin-and-xi-say-nuclear-war-must-never-be-fought-in-joint-peace-declaration?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-19T13:19:21.000Z",
-        "retrievedAt": "2026-11-20T19:50:04.817Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "JNS",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Trump, Xi and Putin issue ‘peace declaration’ at historic summit",
-        "u": "https://www.jns.org/news/world/trump-xi-and-putin-issue-peace-declaration-at-historic-summit",
-        "publishedAt": "2026-11-20T06:30:26.000Z",
-        "retrievedAt": "2026-11-20T19:50:30.009Z",
-        "read": "headline and feed excerpt"
+        "t": "Ballistic missile attack on Zelensky’s hometown in central Ukraine kills 2 and wounds scores",
+        "u": "https://www.arabnews.com/world/ballistic-missile-attack-on-zelenskys-hometown-in-central-ukraine-kills-2-and-wounds-scores-3013401",
+        "publishedAt": "2026-11-21T18:11:02.000Z",
+        "retrievedAt": "2026-11-21T18:56:16.431Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Not the number of missiles — the number of attacks,” he said.",
+          "The Ukrainian leader said that Putin “doesn’t want to stop the war” and is looking to escalate.",
+          "“If he can use Internet, he can use it and see tanks, armored vehicles, artillery,” the Ukrainian leader said."
+        ],
+        "figures": [],
+        "wordsRead": 841
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Democracy Now!",
-            "outletId": "democracynow",
-            "lean": "left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "A New International Order? Xi, Trump & Putin Hold Historic Trilateral Summit in China",
-            "url": "http://www.democracynow.org/2026/11/19/china_us_russia"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Trump, Xi and Putin meet as global alliances hang in the balance",
-            "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
-          },
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 8,
-            "headline": "Trump, Putin and Xi say nuclear war ‘must never be fought’ in joint peace declaration",
-            "url": "https://scroll.in/latest/1097196/trump-putin-and-xi-say-nuclear-war-must-never-be-fought-in-joint-peace-declaration?utm_source=rss&utm_medium=public"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -2207,31 +1778,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 5,
-            "headline": "Historic, or just a photo op? Reading Trump's summit with Xi and Putin",
-            "url": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 6,
-            "headline": "Trump, Xi and Putin meet for historic trilateral summit in China",
-            "url": "https://www.theglobeandmail.com/world/article-trump-xi-and-putin-meet-for-historic-trilateral-summit-in-china/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 7,
-            "headline": "Trump, Xi and Putin meet in Shenzhen",
-            "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/"
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Ballistic missile attack on Zelenskyy's hometown kills two people",
+            "url": "https://www.euronews.com/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-kills-two-people"
           }
         ],
         "status": "sourced",
@@ -2242,40 +1795,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Trump, Putin, Xi issue 4-point declaration after historic summit",
-            "url": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit"
-          },
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 3,
-            "headline": "Trump, Putin, Xi Unveil Historic ‘Peace’ Declaration, But Major Wars Remain Unresolved",
-            "url": "https://dailycaller.com/2026/11/19/trump-putin-xi-peace-declaration-major-wars-unsolved"
-          },
-          {
             "outlet": "Washington Times",
             "outletId": "washtimes",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 4,
-            "headline": "Takeaways from the historic summit between Trump, Xi and Putin",
-            "url": "https://www.washingtontimes.com/news/2026/nov/19/takeaways-historic-summit-donald-trump-xi-jinping-vladimir-putin/"
-          },
-          {
-            "outlet": "JNS",
-            "outletId": "jns",
-            "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 9,
-            "headline": "Trump, Xi and Putin issue ‘peace declaration’ at historic summit",
-            "url": "https://www.jns.org/news/world/trump-xi-and-putin-issue-peace-declaration-at-historic-summit"
+            "evidenceIndex": 0,
+            "headline": "Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores",
+            "url": "https://www.washingtontimes.com/news/2026/nov/21/ballistic-missile-attack-kryvyi-rih-hometown-volodymyr-zelenskyy/"
           }
         ],
         "status": "sourced",
@@ -2286,16 +1812,37 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [],
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+        "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Ballistic missile attack on Zelensky’s hometown in central Ukraine kills 2 and wounds scores",
+        "url": "https://www.arabnews.com/world/ballistic-missile-attack-on-zelenskys-hometown-in-central-ukraine-kills-2-and-wounds-scores-3013401",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Trump",
-        "Putin",
-        "China",
-        "Putin Hold Historic Trilateral",
-        "New International Order",
-        "But Major Wars Remain"
+        "Ballistic",
+        "Zelenskyy's",
+        "Ukraine",
+        "Zelenskyy",
+        "Zelensky",
+        "Russian"
       ],
       "attempts": [
         {
@@ -2304,12 +1851,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Trump",
-            "Putin",
-            "China",
-            "Putin Hold Historic Trilateral",
-            "New International Order",
-            "But Major Wars Remain"
+            "Ballistic",
+            "Zelenskyy's",
+            "Ukraine",
+            "Zelenskyy",
+            "Zelensky",
+            "Russian"
           ]
         },
         {
@@ -2389,68 +1936,61 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1kub9ts",
+    "id": "c5qvdh8",
     "regions": [
       "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 1,
+        "Canada": 0,
         "India": 0,
-        "Europe": 9
+        "Europe": 7
       },
       "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
         "Europe": [
-          "european union",
-          "brussels",
-          "european",
-          "brexit",
+          "finland",
+          "ukraine",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T10:41:21.000Z",
-    "lastSeen": "2026-11-21T00:00:00.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-11-21T12:36:56.000Z",
+    "lastSeen": "2026-11-21T18:22:09.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Globe and Mail",
+      "BBC News",
       "Euronews",
-      "Deutsche Welle",
-      "Arab News",
-      "Taipei Times"
+      "Politico Europe",
+      "Al Jazeera"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.3672527566208153,
-      "max": 0.695099948127335,
-      "pairs": 4,
+      "min": 0.3719435277692212,
+      "max": 0.4694260001670516,
+      "pairs": 5,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Globe and Mail",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.K. and EU strike deals on trade, youth travel as they seek to rebuild post-Brexit ties",
-        "u": "https://www.theglobeandmail.com/world/article-uk-eu-summit-burnham-brexit/",
-        "publishedAt": "2026-11-20T10:41:21.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "t": "Russia-bound ship attacked in Gulf of Finland",
+        "u": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-21T18:22:09.000Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We’ve had a decade of drift, too much division, low growth in the economy and higher prices in the shops,” he said during a press conference.",
-          "“Brexit has done more harm than good,” he told delegates at the Labour Party conference in October.",
-          "“The important point is that the Britain of today and the EU of today is not the one of 2016,” Mr."
+          "\"War is spilling over into our immediate vicinity,\" Finnish Prime Minister Petteri Orpo said, adding: \"Ukraine has the right to fight back against the aggressor.\"",
+          "Shortly after the incident, Finland's defence ministry said a Russian helicopter was …"
         ],
         "figures": [],
-        "wordsRead": 820
+        "wordsRead": 375
       },
       {
         "n": "Euronews",
@@ -2459,71 +1999,56 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Burnham drew a line under Brexit at the EU-UK summit. But where does Britain go next?",
-        "u": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next",
-        "publishedAt": "2026-11-20T15:05:49.000Z",
-        "retrievedAt": "2026-11-20T19:50:13.811Z",
+        "t": "Russian cargo ship struck by drones in Gulf of Finland",
+        "u": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+        "publishedAt": "2026-11-21T14:01:37.000Z",
+        "retrievedAt": "2026-11-21T18:55:58.562Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"Today, we do draw a line on a decade of drift and division by reconnecting with old friends, by building a much more constructive relationship with our nearest neighbours and …",
-          "“Difficult geopolitical circumstances call for keeping like-minded countries close,” an EU diplomat told Euronews.",
-          "\"What we are announcing today is probably the limit of what we can achieve in this Parliament, given what needs to be done to implement it,\" he said."
+          "\"The Finnish Border Guard is leading maritime rescue and environmental damage control operations on the cargo vessel Sparta II, which is currently in Finnish territorial waters on the open sea …",
+          "While it was not immediately clear who was behind the strike, Prime Minister …"
         ],
         "figures": [],
-        "wordsRead": 1191
+        "wordsRead": 444
       },
       {
-        "n": "Deutsche Welle",
+        "n": "Politico Europe",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
-        "u": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-20T14:30:00.000Z",
-        "retrievedAt": "2026-11-20T19:50:19.186Z",
+        "t": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
+        "u": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-21T12:36:56.000Z",
+        "retrievedAt": "2026-11-21T18:55:59.816Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "During the delegations' meeting, Burnham said the deal was a \"landmark agreement,\" while European Commission President Ursula von der Leyen called it a \"turning point\" in relations.",
-          "He said jokingly that the EU and UK \"may drive on the opposite sides of the road, but what matters is they are heading for the same direction.\"",
-          "Von der Leyen said the youth experience project would \"open horizons and create friendships that will last a lifetime.\""
+          "“War is spilling over into our neighboring regions,” Finnish Prime Minister Petteri Orpo said in a statement on X .",
+          "A cargo ship sailing under the Russian flag was damaged by a drone attack in the Gulf of …"
         ],
         "figures": [],
-        "wordsRead": 829
+        "wordsRead": 382
       },
       {
-        "n": "Arab News",
+        "n": "Al Jazeera",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "EU and UK agree ‘landmark’ deal at Burnham’s Brussels summit",
-        "u": "https://www.arabnews.com/world/eu-and-uk-agree-landmark-deal-at-burnhams-brussels-summit-3013159",
-        "publishedAt": "2026-11-20T13:34:12.000Z",
-        "retrievedAt": "2026-11-20T19:50:34.720Z",
+        "t": "Russian crew evacuating ship hit by drones off coast of Finland",
+        "u": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+        "publishedAt": "2026-11-21T12:45:24.000Z",
+        "retrievedAt": "2026-11-21T18:56:13.851Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Burnham said ahead of the meeting London would afterwards look to “initiate a discussion with our EU partners about options for our long-term relationship.”",
-          "A potential dampener emerged as the 27-nation bloc and London jostled over linking ultimate implementation of the deals to Britain agreeing to cut university fees for EU students — but …",
-          "This is a good day for Europe,” Burnham …"
+          "A restricted area has been set up around the site to ensure safety,” the Finnish Border Guard said in a statement, adding that it is in “close international cooperation” with …",
+          "“At the moment, ⁠⁠⁠⁠there is no confirmed information about ⁠⁠⁠⁠what cargo is on ⁠⁠⁠⁠board, but ⁠⁠⁠⁠it cannot be ruled out that there ‌‌‌‌is military materiel on board,” Iljin said.",
+          "list 1 of 3 Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?"
         ],
         "figures": [],
-        "wordsRead": 636
-      },
-      {
-        "n": "Taipei Times",
-        "b": "pro_sovereignty",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "EU, UK agree on ‘landmark’ deal at Brussels summit",
-        "u": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868122",
-        "publishedAt": "2026-11-21T00:00:00.000Z",
-        "retrievedAt": "2026-11-20T19:50:41.839Z",
-        "read": "headline only"
+        "wordsRead": 836
       }
     ],
     "views": [
@@ -2539,13 +2064,13 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "CA",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "U.K. and EU strike deals on trade, youth travel as they seek to rebuild post-Brexit ties",
-            "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-burnham-brexit/"
+            "headline": "Russia-bound ship attacked in Gulf of Finland",
+            "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Euronews",
@@ -2553,17 +2078,17 @@
             "lean": "centre",
             "country": "EU",
             "evidenceIndex": 1,
-            "headline": "Burnham drew a line under Brexit at the EU-UK summit. But where does Britain go next?",
-            "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next"
+            "headline": "Russian cargo ship struck by drones in Gulf of Finland",
+            "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say"
           },
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
             "lean": "centre",
-            "country": "DE",
+            "country": "EU",
             "evidenceIndex": 2,
-            "headline": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
-            "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf"
+            "headline": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
+            "url": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -2584,34 +2109,25 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "SA",
+        "country": "QA",
         "evidenceIndex": 3,
-        "headline": "EU and UK agree ‘landmark’ deal at Burnham’s Brussels summit",
-        "url": "https://www.arabnews.com/world/eu-and-uk-agree-landmark-deal-at-burnhams-brussels-summit-3013159",
+        "headline": "Russian crew evacuating ship hit by drones off coast of Finland",
+        "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Taipei Times",
-        "outletId": "taipeitimes",
-        "lean": "pro_sovereignty",
-        "country": "TW",
-        "evidenceIndex": 4,
-        "headline": "EU, UK agree on ‘landmark’ deal at Brussels summit",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868122",
-        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Brexit",
-        "Brussels",
-        "Burnham",
-        "Britain",
-        "EU-UK"
+        "Finland",
+        "Russian",
+        "Gulf",
+        "Russia-bound",
+        "Helsinki",
+        "Moscow"
       ],
       "attempts": [
         {
@@ -2697,7 +2213,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "ccwi2ed",
+    "id": "c1gwfhhd",
     "regions": [
       "Global"
     ],
@@ -2719,25 +2235,44 @@
         ]
       }
     },
-    "firstSeen": "2026-11-18T19:06:51.000Z",
-    "lastSeen": "2026-11-20T19:38:46.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-11-21T11:53:56.000Z",
+    "lastSeen": "2026-11-21T18:22:26.000Z",
+    "outletCount": 11,
     "outlets": [
+      "NPR",
       "BBC News",
+      "Washington Examiner",
+      "Fox News",
+      "Washington Times",
       "Globe and Mail",
       "Indian Express",
+      "Euronews",
       "Al Jazeera",
-      "Nikkei Asia"
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 11 outlets",
     "clustering": {
-      "min": 0.3669109115388909,
-      "max": 0.5320216696096481,
-      "pairs": 5,
+      "min": 0.36194949119620656,
+      "max": 0.7709341927792057,
+      "pairs": 66,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+        "u": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+        "publishedAt": "2026-11-21T18:08:55.000Z",
+        "retrievedAt": "2026-11-21T18:55:34.609Z",
+        "read": "headline and feed excerpt"
+      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -2745,43 +2280,78 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-        "u": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-20T19:38:46.000Z",
-        "retrievedAt": "2026-11-20T19:49:47.912Z",
+        "t": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+        "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-21T13:15:21.000Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"As we've gone through the past past few weeks, it seems that there's been more risks that have surfaced,\" he said.",
-          "\"Right now you're starting to see Wall Street is trying to shift from rewarding growth at any price, to demanding stronger cash flow and a clearer path to profitability.\"",
-          "The fall in tech stocks continued to weigh on markets …"
+          "Meza Flores was wanted in Mexico on organised crime charges, while he has been accused of \"flooding the US with fentanyl, cocaine, heroin and other deadly drugs\" by the FBI.",
+          "Fausto Isidro \"Chapo Isidro\" Meza Flores was detained along with his lieutenant by Mexican special forces in Guasave, Sinaloa …"
+        ],
+        "figures": [],
+        "wordsRead": 490
+      },
+      {
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico captures cartel leader listed as one of top 10 most wanted in US",
+        "u": "https://www.washingtonexaminer.com/news/crime/4811249/mexico-capture-cartel-leader-top-10-wanted/",
+        "publishedAt": "2026-11-21T17:46:23.000Z",
+        "retrievedAt": "2026-11-21T18:55:39.565Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Drug Enforcement Administration said his capture “represents a significant victory against one of Mexico’s most violent criminal networks.”",
+          "On Saturday, Mexican officials said U.S. intelligence …"
         ],
         "figures": [
           {
-            "value": "2%",
-            "context": "weigh on markets, with the S&P 500 down more than 2% and the Dow Jones Industrial Average down 0.7% by"
-          },
-          {
-            "value": "0.7%",
-            "context": "than 2% and the Dow Jones Industrial Average down 0.7% by lunchtime. Both US indexes touched correction"
-          },
-          {
-            "value": "10%",
-            "context": "ction territory, a point where they are trading at 10% or more down from a recent high. The tech-heavy N"
-          },
-          {
-            "value": "3.4%",
-            "context": "h-heavy Nasdaq Composite Index also fell more than 3.4% by the middle of trading on Friday. The speed at"
-          },
-          {
-            "value": "$1 trillion",
-            "context": "h AI investment has been growing - with more than $1 trillion spent in the last year alone by a …"
-          },
-          {
-            "value": "12%",
-            "context": "hropic's shares fell on Friday, dropping more than 12% to about $85 by lunchtime, close to its initial p"
+            "value": "$5 million",
+            "context": "s top 10 most wanted list in February 2025 with a $5 million reward offered by the U.S. government. The …"
           }
         ],
-        "wordsRead": 605
+        "wordsRead": 264
+      },
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "FBI Ten Most Wanted cartel leader 'Chapo Isidro' captured by Mexico's 'elite military forces' after US help",
+        "u": "https://www.foxnews.com/world/fbi-ten-most-wanted-cartel-leader-chapo-isidro-captured-mexicos-elite-military-forces-us-help",
+        "publishedAt": "2026-11-21T13:17:33.000Z",
+        "retrievedAt": "2026-11-21T18:55:40.848Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "One of the FBI's Ten Most Wanted fugitives has been captured in Mexico following a joint U.S.-Mexico operation where the arresting force \"came under attack with gunfire and explosives,\" authorities …",
+          "\"The operation to carry out these arrests was conducted by elite military forces, which, after precisely locating the target using various technological …"
+        ],
+        "figures": [
+          {
+            "value": "$5 million",
+            "context": "Guasave. The State Department previously issued a $5 million reward for information leading to the arrest and"
+          }
+        ],
+        "wordsRead": 531
+      },
+      {
+        "n": "Washington Times",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico detains top cartel boss 'El Chapo Isidro,' one of FBI's 10 most wanted fugitives",
+        "u": "https://www.washingtontimes.com/news/2026/nov/21/top-cartel-boss-el-chapo-isidro-one-fbis-10-wanted-fugitives-detained/",
+        "publishedAt": "2026-11-21T14:16:36.000Z",
+        "retrievedAt": "2026-11-21T18:55:44.592Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Globe and Mail",
@@ -2790,35 +2360,23 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "What to know about Anthropic’s blockbuster IPO",
-        "u": "https://www.theglobeandmail.com/business/article-what-to-know-about-anthropics-blockbuster-ipo-ai-investors/",
-        "publishedAt": "2026-11-18T19:06:51.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "t": "Mexico captures top drug lord ‘El Chapo Isidro,’ sparking wave of violence in Sinaloa",
+        "u": "https://www.theglobeandmail.com/world/article-mexico-el-chapo-isidro-drug-lord-cartel-fbi-most-wanted-list-sinaloa/",
+        "publishedAt": "2026-11-21T15:03:03.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Anthropic says it too will consider its stockholders, but it will balance their interests against another fundamental goal: “the responsible development and maintenance of advanced AI for the long-term benefit …",
-          "Anthropic is planning to sell shares of its stock for between US$70 and $78 apiece, which would likely give it a total value of more than $1-trillion.",
-          "Anthropic could join the Nasdaq 100 index within just a few weeks, for example."
+          "“Getting him (Meza Flores) out was extraordinary,” the official said, describing an intense response by members of the criminal group who maintained at least “10 roadblocks” with burning vehicles on …",
+          "“Last night, many businesses were burned ... along with cars and trucks,” Sánchez told The Associated Press.",
+          "“What is evident is this is a product of pressure from the United States,” Saucedo said."
         ],
         "figures": [
           {
-            "value": "US$70",
-            "context": "planning to sell shares of its stock for between US$70 and $78 apiece, which would likely give it a total"
-          },
-          {
-            "value": "$78",
-            "context": "to sell shares of its stock for between US$70 and $78 apiece, which would likely give it a total value …"
-          },
-          {
-            "value": "$1",
-            "context": "h would likely give it a total value of more than $1-trillion. Such a size would rival Walmart, which"
-          },
-          {
-            "value": "$457",
-            "context": "nd that mimics it, Invesco’s QQQ ETF, has roughly $457-billion invested in it. If Anthropic joins the in"
+            "value": "$5",
+            "context": "es criminal organization. The United States had a $5-million reward offer for information leading to h"
           }
         ],
-        "wordsRead": 906
+        "wordsRead": 903
       },
       {
         "n": "Indian Express",
@@ -2827,42 +2385,37 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Anthropic has a mega IPO – and an uncertain path ahead",
-        "u": "https://indianexpress.com/article/opinion/columns/anthropic-has-a-mega-ipo-and-an-uncertain-path-ahead-10971679/",
-        "publishedAt": "2026-11-20T12:53:02.000Z",
-        "retrievedAt": "2026-11-20T19:50:08.426Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Just two weeks earlier, 56 per cent of surveyed voters post the US midterms said data centres were a crucial factor in their vote, with 76 per cent reporting they …",
-          "In its S-1 prospectus, it devoted roughly 90 pages to “ risk factors ”, including doomsday warnings that its AI systems could pose …"
-        ],
-        "figures": [
-          {
-            "value": "$81 billion",
-            "context": "els, listed on Nasdaq in a record IPO that raised $81 billion at a valuation of about $1.5 trillion. While …"
-          },
-          {
-            "value": "$1.5 trillion",
-            "context": "O that raised $81 billion at a valuation of about $1.5 trillion. While headlines will dwell on the numbers, two …"
-          },
-          {
-            "value": "56 per cent",
-            "context": "ention. First, the timing. Just two weeks earlier, 56 per cent of surveyed voters post the US midterms said data"
-          },
-          {
-            "value": "76 per cent",
-            "context": "centres were a crucial factor in their vote, with 76 per cent reporting they would oppose a new buildout in …"
-          },
-          {
-            "value": "$518 billion",
-            "context": "nue is growing fast, but still dwarfs the roughly $518 billion in compute the company has committed over the nex"
-          },
-          {
-            "value": "80 per cent",
-            "context": "company has committed over the next decade. About 80 per cent is non-cancellable and payable regardless of usag"
-          }
-        ],
-        "wordsRead": 548
+        "t": "Interactive: How Mexico captured El Chapo Isidro, FBI’s most wanted cartel boss",
+        "u": "https://indianexpress.com/article/world/el-chapo-isidro-arrest-mexico-drug-cartel-fbi-most-wanted-10973097/",
+        "publishedAt": "2026-11-21T18:22:26.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Indian Express",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "FBI’s most-wanted drug cartel fugitive El Chapo Isidro arrested in Mexico; clashes erupt",
+        "u": "https://indianexpress.com/article/world/el-chapo-isidro-arrested-mexico-fbi-most-wanted-fugitive-10972901/",
+        "publishedAt": "2026-11-21T13:19:23.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+        "u": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+        "publishedAt": "2026-11-21T14:20:35.000Z",
+        "retrievedAt": "2026-11-21T18:55:58.562Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Al Jazeera",
@@ -2871,68 +2424,68 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US tech sell-off continues as Anthropic tumbles after mega IPO",
-        "u": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo?traffic_source=rss",
-        "publishedAt": "2026-11-20T17:44:18.000Z",
-        "retrievedAt": "2026-11-20T19:50:31.401Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Investors still believe in AI but are becoming more selective about what they will pay for that growth,” said David Miller, chief investment officer at Catalyst Funds.",
-          "On Friday, the stock, the biggest public stock offering ever and which surpassed $2 …"
-        ],
-        "figures": [
-          {
-            "value": "$2 trillion",
-            "context": "st public stock offering ever and which surpassed $2 trillion in value at one point, was trading at $87.95, abo"
-          },
-          {
-            "value": "$87.95",
-            "context": "$2 trillion in value at one point, was trading at $87.95, about 9.5 percent down from Thursday’s close, at"
-          },
-          {
-            "value": "9.5 percent",
-            "context": "n value at one point, was trading at $87.95, about 9.5 percent down from Thursday’s close, at about 11:30am in …"
-          },
-          {
-            "value": "$83.30",
-            "context": "ing – though still higher than its offer price of $83.30 – while losses across other technology heavyweight"
-          },
-          {
-            "value": "7 percent",
-            "context": "e Magnificent Seven stocks, Nvidia was down nearly 7 percent, Meta Platforms fell almost 4 percent, while Amaz"
-          },
-          {
-            "value": "4 percent",
-            "context": "down nearly 7 percent, Meta Platforms fell almost 4 percent, while Amazon and Microsoft dropped 2.1 percent a"
-          }
-        ],
-        "wordsRead": 413
+        "t": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+        "u": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+        "publishedAt": "2026-11-21T16:03:16.000Z",
+        "retrievedAt": "2026-11-21T18:56:13.851Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Nikkei Asia",
-        "b": "centre",
+        "n": "Al Jazeera",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
-        "u": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo",
-        "publishedAt": null,
-        "retrievedAt": "2026-11-20T19:50:43.098Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "TOKYO -- Asian tech …"
-        ],
-        "figures": [],
-        "wordsRead": 49
+        "t": "Mexico captures FBI-wanted cartel boss in military raid",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+        "publishedAt": "2026-11-21T11:53:56.000Z",
+        "retrievedAt": "2026-11-21T18:56:13.851Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "u": "https://www.arabnews.com/world/mexico-captures-drug-kingpin-on-fbis-most-wanted-list-3013342",
+        "publishedAt": "2026-11-21T13:55:13.000Z",
+        "retrievedAt": "2026-11-21T18:56:16.431Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "u": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+        "publishedAt": "2026-11-21T14:00:45.000Z",
+        "retrievedAt": "2026-11-21T18:56:20.455Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+            "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -2944,36 +2497,45 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-            "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+            "evidenceIndex": 1,
+            "headline": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+            "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
           },
           {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "What to know about Anthropic’s blockbuster IPO",
-            "url": "https://www.theglobeandmail.com/business/article-what-to-know-about-anthropics-blockbuster-ipo-ai-investors/"
+            "evidenceIndex": 5,
+            "headline": "Mexico captures top drug lord ‘El Chapo Isidro,’ sparking wave of violence in Sinaloa",
+            "url": "https://www.theglobeandmail.com/world/article-mexico-el-chapo-isidro-drug-lord-cartel-fbi-most-wanted-list-sinaloa/"
           },
           {
             "outlet": "Indian Express",
             "outletId": "indianexp",
             "lean": "centre",
             "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Anthropic has a mega IPO – and an uncertain path ahead",
-            "url": "https://indianexpress.com/article/opinion/columns/anthropic-has-a-mega-ipo-and-an-uncertain-path-ahead-10971679/"
+            "evidenceIndex": 6,
+            "headline": "Interactive: How Mexico captured El Chapo Isidro, FBI’s most wanted cartel boss",
+            "url": "https://indianexpress.com/article/world/el-chapo-isidro-arrest-mexico-drug-cartel-fbi-most-wanted-10973097/"
           },
           {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
+            "outlet": "Indian Express",
+            "outletId": "indianexp",
             "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 4,
-            "headline": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
-            "url": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo"
+            "country": "IN",
+            "evidenceIndex": 7,
+            "headline": "FBI’s most-wanted drug cartel fugitive El Chapo Isidro arrested in Mexico; clashes erupt",
+            "url": "https://indianexpress.com/article/world/el-chapo-isidro-arrested-mexico-fbi-most-wanted-fugitive-10972901/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 8,
+            "headline": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+            "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence"
           }
         ],
         "status": "sourced",
@@ -2982,15 +2544,42 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Mexico captures cartel leader listed as one of top 10 most wanted in US",
+            "url": "https://www.washingtonexaminer.com/news/crime/4811249/mexico-capture-cartel-leader-top-10-wanted/"
+          },
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 3,
+            "headline": "FBI Ten Most Wanted cartel leader 'Chapo Isidro' captured by Mexico's 'elite military forces' after US help",
+            "url": "https://www.foxnews.com/world/fbi-ten-most-wanted-cartel-leader-chapo-isidro-captured-mexicos-elite-military-forces-us-help"
+          },
+          {
+            "outlet": "Washington Times",
+            "outletId": "washtimes",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 4,
+            "headline": "Mexico detains top cartel boss 'El Chapo Isidro,' one of FBI's 10 most wanted fugitives",
+            "url": "https://www.washingtontimes.com/news/2026/nov/21/top-cartel-boss-el-chapo-isidro-one-fbis-10-wanted-fugitives-detained/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "coverage sits on one side only (centre)"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
       {
@@ -2998,19 +2587,51 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "US tech sell-off continues as Anthropic tumbles after mega IPO",
-        "url": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo?traffic_source=rss",
+        "evidenceIndex": 9,
+        "headline": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+        "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 10,
+        "headline": "Mexico captures FBI-wanted cartel boss in military raid",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 11,
+        "headline": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "url": "https://www.arabnews.com/world/mexico-captures-drug-kingpin-on-fbis-most-wanted-list-3013342",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 12,
+        "headline": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Anthropic",
-        "Anthropic's",
-        "Asian",
-        "What"
+        "Mexico",
+        "El Chapo Isidro",
+        "FBI's",
+        "FBI Ten Most Wanted",
+        "Chapo Isidro",
+        "Interactive"
       ],
       "attempts": [
         {
@@ -3019,10 +2640,12 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Anthropic",
-            "Anthropic's",
-            "Asian",
-            "What"
+            "Mexico",
+            "El Chapo Isidro",
+            "FBI's",
+            "FBI Ten Most Wanted",
+            "Chapo Isidro",
+            "Interactive"
           ]
         },
         {
@@ -3093,62 +2716,21 @@
       {
         "kind": "currency",
         "about": [
-          "billion",
-          "that"
+          "reward",
+          "information",
+          "leading"
         ],
         "spread": 1,
         "readings": [
           {
+            "outlet": "Fox News",
+            "value": "$5 million",
+            "url": "https://www.foxnews.com/world/fbi-ten-most-wanted-cartel-leader-chapo-isidro-captured-mexicos-elite-military-forces-us-help"
+          },
+          {
             "outlet": "Globe and Mail",
-            "value": "$457",
-            "url": "https://www.theglobeandmail.com/business/article-what-to-know-about-anthropics-blockbuster-ipo-ai-investors/"
-          },
-          {
-            "outlet": "Indian Express",
-            "value": "$1.5 trillion",
-            "url": "https://indianexpress.com/article/opinion/columns/anthropic-has-a-mega-ipo-and-an-uncertain-path-ahead-10971679/"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "currency",
-        "about": [
-          "about",
-          "trillion"
-        ],
-        "spread": 0.96,
-        "readings": [
-          {
-            "outlet": "Indian Express",
-            "value": "$81 billion",
-            "url": "https://indianexpress.com/article/opinion/columns/anthropic-has-a-mega-ipo-and-an-uncertain-path-ahead-10971679/"
-          },
-          {
-            "outlet": "Al Jazeera",
-            "value": "$2 trillion",
-            "url": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo?traffic_source=rss"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      },
-      {
-        "kind": "percent",
-        "about": [
-          "about",
-          "close"
-        ],
-        "spread": 0.208,
-        "readings": [
-          {
-            "outlet": "BBC News",
-            "value": "12%",
-            "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Al Jazeera",
-            "value": "9.5 percent",
-            "url": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo?traffic_source=rss"
+            "value": "$5",
+            "url": "https://www.theglobeandmail.com/world/article-mexico-el-chapo-isidro-drug-lord-cartel-fbi-most-wanted-list-sinaloa/"
           }
         ],
         "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
@@ -3166,81 +2748,79 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c19jrkyy",
+    "id": "cmxpf9r",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 1,
-        "India": 0,
-        "Europe": 12
+        "India": 1,
+        "Europe": 1
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
+        "India": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
-          "poland",
-          "ukraine",
-          "warsaw",
-          "european",
-          "nato",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T11:35:57.000Z",
-    "lastSeen": "2026-11-20T16:54:29.000Z",
-    "outletCount": 4,
+    "firstSeen": "2026-11-21T03:20:43.000Z",
+    "lastSeen": "2026-11-21T14:07:23.000Z",
+    "outletCount": 5,
     "outlets": [
-      "BBC News",
-      "Washington Times",
+      "NPR",
+      "Washington Examiner",
       "Globe and Mail",
-      "Al Jazeera"
+      "Indian Express",
+      "Euronews"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.36391592121357924,
-      "max": 0.5591682989157488,
-      "pairs": 4,
+      "min": 0.3737246794302913,
+      "max": 0.9917185953196801,
+      "pairs": 7,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "NPR",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-        "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-20T16:54:29.000Z",
-        "retrievedAt": "2026-11-20T19:49:47.912Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The cruise missile, designed for precision targets, crashed at about 06:30 (5:30GMT) and Natalie Szponar, a local resident, said she was getting her children ready for school when she heard …",
-          "Nato Secretary General Mark Rutte condemned \"grave violations of Polish airspace\" and said Nato jets had been scrambled in response.",
-          "\"This incident is clearly dangerous - a consequence of Russia's ongoing war against Ukraine,\" said Rutte …"
-        ],
-        "figures": [],
-        "wordsRead": 674
+        "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+        "u": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
+        "publishedAt": "2026-11-21T12:30:16.000Z",
+        "retrievedAt": "2026-11-21T18:55:34.609Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Washington Times",
-        "b": "right",
+        "n": "Washington Examiner",
+        "b": "lean_right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Warsaw says a Russian missile crash in Poland is a provocation as Ukraine allies hold drills",
-        "u": "https://www.washingtontimes.com/news/2026/nov/20/tusk-says-russian-missile-landing-poland-appears-intentional/",
-        "publishedAt": "2026-11-20T13:33:00.000Z",
-        "retrievedAt": "2026-11-20T19:49:58.596Z",
-        "read": "headline and feed excerpt"
+        "t": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+        "u": "https://www.washingtonexaminer.com/policy/technology/4811052/anthropic-riemann-hypothesis-solve-ai/",
+        "publishedAt": "2026-11-21T14:07:23.000Z",
+        "retrievedAt": "2026-11-21T18:55:39.565Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line,” Alpöge wrote.",
+          "“This is an announcement of historic significance, which holds the promise of a dramatic transformation in the perception of what is possible in the struggle to extend the human understanding …",
+          "Alpöge said he is “presenting the world with a complete …"
+        ],
+        "figures": [],
+        "wordsRead": 698
       },
       {
         "n": "Globe and Mail",
@@ -3249,45 +2829,79 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "NATO condemns Russian violation of Polish airspace as Ukraine allies hold drills",
-        "u": "https://www.theglobeandmail.com/world/article-russia-retaliates-ukraine-crimea-bridge-attacks/",
-        "publishedAt": "2026-11-20T11:35:57.000Z",
-        "retrievedAt": "2026-11-20T19:50:00.199Z",
+        "t": "Anthropic worker claims to have solved a famed math problem with help of AI tool Claude",
+        "u": "https://www.theglobeandmail.com/business/article-anthropic-riemann-hypothesis-proof-claude-ai/",
+        "publishedAt": "2026-11-21T13:24:06.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Polish Prime Minister Donald Tusk said it appeared that “we are dealing with an intentional provocation” by Russia.",
-          "“This incident is clearly dangerous – a consequence of Russia’s ongoing war against Ukraine,” Rutte wrote on X.",
-          "European Council President António Costa said that Russia “continues to spread [its] threats.”"
+          "“Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line,” Alpöge wrote.",
+          "“This is an announcement of historic significance, which holds the promise of a dramatic transformation in the perception of what is possible in the struggle to extend the human understanding …",
+          "Alpöge said he is “presenting the world with a complete argument before having …"
         ],
         "figures": [],
-        "wordsRead": 801
+        "wordsRead": 727
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "Indian Express",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Poland condemns Russian ‘provocation’ after airspace violations",
-        "u": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations?traffic_source=rss",
-        "publishedAt": "2026-11-20T15:18:26.000Z",
-        "retrievedAt": "2026-11-20T19:50:31.401Z",
+        "t": "Can AI solve a 167-year-old maths problem? Anthropic researcher says Claude may have done it",
+        "u": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-claude-ai-riemann-hypothesis-proof-claim-10972258/",
+        "publishedAt": "2026-11-21T03:20:43.000Z",
+        "retrievedAt": "2026-11-21T18:55:53.320Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“These exercises, combined with the presence of defence ministers from France, the United Kingdom, and the Baltic states – along with eight chiefs of staff, including those from our key …",
-          "“It seems we are dealing with an intentional provocation,” he said."
+          "An Anthropic mathematician says Claude AI helped him develop a proof of the 165-year-old Riemann Hypothesis.",
+          "“One dawn across science of something far greater.”",
+          "In September, OpenAI announced that an internal AI system had produced a proposed solution to the Navier–Stokes problem, another of the seven Millennium Prize Problems."
+        ],
+        "figures": [
+          {
+            "value": "$1 million",
+            "context": "t by the Clay Mathematics Institute, it carries a $1 million prize for a solution that meets the institute’s c"
+          }
+        ],
+        "wordsRead": 1252
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Anthropic worker claims to have solved famed 167-year-old maths problem with help of AI",
+        "u": "https://www.euronews.com/2026/11/21/anthropic-worker-claims-to-have-solved-famed-167-year-old-maths-problem-with-help-of-ai",
+        "publishedAt": "2026-11-21T10:18:01.000Z",
+        "retrievedAt": "2026-11-21T18:55:58.562Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line,\" Alpöge wrote."
         ],
         "figures": [],
-        "wordsRead": 457
+        "wordsRead": 293
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+            "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -3295,22 +2909,31 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-            "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
-          },
-          {
             "outlet": "Globe and Mail",
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
             "evidenceIndex": 2,
-            "headline": "NATO condemns Russian violation of Polish airspace as Ukraine allies hold drills",
-            "url": "https://www.theglobeandmail.com/world/article-russia-retaliates-ukraine-crimea-bridge-attacks/"
+            "headline": "Anthropic worker claims to have solved a famed math problem with help of AI tool Claude",
+            "url": "https://www.theglobeandmail.com/business/article-anthropic-riemann-hypothesis-proof-claude-ai/"
+          },
+          {
+            "outlet": "Indian Express",
+            "outletId": "indianexp",
+            "lean": "centre",
+            "country": "IN",
+            "evidenceIndex": 3,
+            "headline": "Can AI solve a 167-year-old maths problem? Anthropic researcher says Claude may have done it",
+            "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-claude-ai-riemann-hypothesis-proof-claim-10972258/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "Anthropic worker claims to have solved famed 167-year-old maths problem with help of AI",
+            "url": "https://www.euronews.com/2026/11/21/anthropic-worker-claims-to-have-solved-famed-167-year-old-maths-problem-with-help-of-ai"
           }
         ],
         "status": "sourced",
@@ -3321,13 +2944,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "Washington Times",
-            "outletId": "washtimes",
-            "lean": "right",
+            "outlet": "Washington Examiner",
+            "outletId": "washexaminer",
+            "lean": "lean_right",
             "country": "US",
             "evidenceIndex": 1,
-            "headline": "Warsaw says a Russian missile crash in Poland is a provocation as Ukraine allies hold drills",
-            "url": "https://www.washingtontimes.com/news/2026/nov/20/tusk-says-russian-missile-landing-poland-appears-intentional/"
+            "headline": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+            "url": "https://www.washingtonexaminer.com/policy/technology/4811052/anthropic-riemann-hypothesis-solve-ai/"
           }
         ],
         "status": "sourced",
@@ -3338,27 +2961,14 @@
       "applies": true,
       "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Poland condemns Russian ‘provocation’ after airspace violations",
-        "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Russian",
-        "Poland",
-        "Ukraine",
-        "Ukraine's",
-        "Warsaw",
-        "Polish"
+        "Anthropic",
+        "Holy Grail",
+        "Claude",
+        "Can AI"
       ],
       "attempts": [
         {
@@ -3367,12 +2977,10 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Russian",
-            "Poland",
-            "Ukraine",
-            "Ukraine's",
-            "Warsaw",
-            "Polish"
+            "Anthropic",
+            "Holy Grail",
+            "Claude",
+            "Can AI"
           ]
         },
         {
@@ -3452,89 +3060,158 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cqzd1kh",
+    "id": "c1npdarn",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
+        "Canada": 1,
+        "India": 1,
+        "Europe": 0
       },
       "matched": {
-        "Europe": [
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "India": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T15:03:20.000Z",
-    "lastSeen": "2026-11-20T17:54:55.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-19T10:05:39.000Z",
+    "lastSeen": "2026-11-20T12:22:08.000Z",
+    "outletCount": 5,
     "outlets": [
-      "Euronews",
-      "Al Jazeera",
-      "South China Morning Post"
+      "Democracy Now!",
+      "Fox News",
+      "Globe and Mail",
+      "Scroll.in",
+      "JNS"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.5412121845903581,
-      "max": 0.7592681718446814,
-      "pairs": 3,
+      "min": 0.36147432889997144,
+      "max": 0.610803511298001,
+      "pairs": 8,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
+        "n": "Democracy Now!",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "A New International Order? Xi, Trump & Putin Hold Historic Trilateral Summit in China",
+        "u": "http://www.democracynow.org/2026/11/19/china_us_russia",
+        "publishedAt": "2026-11-19T13:14:11.000Z",
+        "retrievedAt": "2026-11-21T18:55:30.570Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“It’s a significant post-1945 moment, which was the last time that we had great summits,” says Scott Lucas, professor of international politics at University College Dublin.",
+          "The declaration also announced a commitment to increase petroleum production, called for reforms at the United Nations and urged the International Criminal Court and similar bodies to “not abuse their …",
+          "It was China that really set the terms of what was said.”"
+        ],
+        "figures": [],
+        "wordsRead": 2233
+      },
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump, Putin, Xi issue 4-point declaration after historic summit",
+        "u": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit",
+        "publishedAt": "2026-11-19T18:20:42.000Z",
+        "retrievedAt": "2026-11-21T18:55:40.848Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The three heads of state had an in-depth exchange of views on the current international situation and committed to maintaining strategic stability and international security,\" the White House said in …",
+          "The statement referred to the theme of the historic meeting between the three leaders, the first time in history the three nations' heads of …"
+        ],
+        "figures": [],
+        "wordsRead": 552
+      },
+      {
+        "n": "Globe and Mail",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
-        "u": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
-        "publishedAt": "2026-11-20T15:03:20.000Z",
-        "retrievedAt": "2026-11-20T19:50:13.811Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“It is time to finally close Rikers Island,” Mamdani said in a statement released on Friday.",
-          "\"Year after year, Rikers has taken a toll,\" Mamdani said in a press conference on Friday."
-        ],
-        "figures": [],
-        "wordsRead": 353
+        "t": "Historic, or just a photo op? Reading Trump's summit with Xi and Putin",
+        "u": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/",
+        "publishedAt": "2026-11-20T12:22:08.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Zohran Mamdani unveils plan to close New York’s Rikers Island jail by 2032",
-        "u": "https://www.aljazeera.com/news/2026/11/20/mamdani-unveils-plan-to-close-new-yorks-rikers-island-by-2032?traffic_source=rss",
-        "publishedAt": "2026-11-20T17:54:55.000Z",
-        "retrievedAt": "2026-11-20T19:50:31.401Z",
+        "t": "Trump, Xi and Putin meet for historic trilateral summit in China",
+        "u": "https://www.theglobeandmail.com/world/article-trump-xi-and-putin-meet-for-historic-trilateral-summit-in-china/",
+        "publishedAt": "2026-11-19T10:05:39.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“For decades, New Yorkers have demanded a correctional system that is safe and humane,” said Mamdani in a statement.",
-          "“We have a legal and moral obligation to close Rikers,” he said.",
-          "Court delays can leave people “detained for years in what is essentially legal purgatory” …"
+          "President Donald Trump said the three men had “a special responsibility to maintain open, respectful and constructive dialogue.”",
+          "“Too often, past leaders avoided talking to nations with whom they had disagreements; we feel the opposite,” he said.",
+          "Xi described nuclear weapons as a “sword of Damocles hanging over humanity” and said they should be prohibited and destroyed, adding all three leaders agreed on the “ultimate goal of …"
         ],
         "figures": [],
-        "wordsRead": 453
+        "wordsRead": 1196
       },
       {
-        "n": "South China Morning Post",
-        "b": "varies",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Mamdani unveils plan to close New York’s notorious Rikers Island jail",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
-        "publishedAt": "2026-11-20T17:00:43.000Z",
-        "retrievedAt": "2026-11-20T19:50:38.779Z",
+        "t": "Trump, Xi and Putin meet in Shenzhen",
+        "u": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
+        "publishedAt": "2026-11-19T10:30:23.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump, Putin and Xi say nuclear war ‘must never be fought’ in joint peace declaration",
+        "u": "https://scroll.in/latest/1097196/trump-putin-and-xi-say-nuclear-war-must-never-be-fought-in-joint-peace-declaration?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-19T13:19:21.000Z",
+        "retrievedAt": "2026-11-21T18:55:50.110Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "United States President Donald Trump, Russian President Vladimir Putin and Chinese President Xi Jinping on Thursday said that “nuclear war cannot be won …"
+        ],
+        "figures": [],
+        "wordsRead": 236
+      },
+      {
+        "n": "JNS",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump, Xi and Putin issue ‘peace declaration’ at historic summit",
+        "u": "https://www.jns.org/news/world/trump-xi-and-putin-issue-peace-declaration-at-historic-summit",
+        "publishedAt": "2026-11-20T06:30:26.000Z",
+        "retrievedAt": "2026-11-21T18:56:12.616Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -3542,8 +3219,27 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Democracy Now!",
+            "outletId": "democracynow",
+            "lean": "left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "A New International Order? Xi, Trump & Putin Hold Historic Trilateral Summit in China",
+            "url": "http://www.democracynow.org/2026/11/19/china_us_russia"
+          },
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 5,
+            "headline": "Trump, Putin and Xi say nuclear war ‘must never be fought’ in joint peace declaration",
+            "url": "https://scroll.in/latest/1097196/trump-putin-and-xi-say-nuclear-war-must-never-be-fought-in-joint-peace-declaration?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -3551,13 +3247,31 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
             "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
-            "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032"
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Historic, or just a photo op? Reading Trump's summit with Xi and Putin",
+            "url": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Trump, Xi and Putin meet for historic trilateral summit in China",
+            "url": "https://www.theglobeandmail.com/world/article-trump-xi-and-putin-meet-for-historic-trilateral-summit-in-china/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 4,
+            "headline": "Trump, Xi and Putin meet in Shenzhen",
+            "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/"
           }
         ],
         "status": "sourced",
@@ -3566,52 +3280,59 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Trump, Putin, Xi issue 4-point declaration after historic summit",
+            "url": "https://www.foxnews.com/world/trump-putin-xi-issue-4-point-declaration-historic-summit"
+          },
+          {
+            "outlet": "JNS",
+            "outletId": "jns",
+            "lean": "right",
+            "country": "IL",
+            "evidenceIndex": 6,
+            "headline": "Trump, Xi and Putin issue ‘peace declaration’ at historic summit",
+            "url": "https://www.jns.org/news/world/trump-xi-and-putin-issue-peace-declaration-at-historic-summit"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Zohran Mamdani unveils plan to close New York’s Rikers Island jail by 2032",
-        "url": "https://www.aljazeera.com/news/2026/11/20/mamdani-unveils-plan-to-close-new-yorks-rikers-island-by-2032?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Mamdani unveils plan to close New York’s notorious Rikers Island jail",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
+    "offAxis": [],
     "verification": {
       "attempted": true,
       "terms": [
-        "Rikers Island",
-        "New York",
-        "Zohran Mamdani",
-        "Mamdani"
+        "Trump",
+        "Putin",
+        "China",
+        "Putin Hold Historic Trilateral",
+        "New International Order",
+        "Reading Trump's"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Trump",
+            "Putin",
+            "China",
+            "Putin Hold Historic Trilateral",
+            "New International Order",
+            "Reading Trump's"
+          ]
         },
         {
           "source": "csis-canada",
@@ -3690,79 +3411,126 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "co40zwg",
+    "id": "c8rnqn5",
     "regions": [
-      "Europe",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
-        "Europe": 7
+        "Europe": 1
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
-          "denmark",
-          "ukraine",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T13:10:11.000Z",
-    "lastSeen": "2026-11-20T19:39:16.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-20T19:38:55.000Z",
+    "lastSeen": "2026-11-21T14:17:08.000Z",
+    "outletCount": 5,
     "outlets": [
-      "Euronews",
-      "Arab News",
+      "Guardian US",
+      "BBC News",
+      "The Daily Caller",
+      "Globe and Mail",
       "South China Morning Post"
     ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tier": "primary",
+    "tierBasis": "confirmed against 1 primary document(s)",
     "clustering": {
-      "min": 0.4385846425195245,
-      "max": 0.6680900826157892,
-      "pairs": 3,
+      "min": 0.36036620929728647,
+      "max": 0.5794361109743593,
+      "pairs": 8,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+        "u": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+        "publishedAt": "2026-11-20T21:47:41.000Z",
+        "retrievedAt": "2026-11-21T18:55:33.042Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The president called it a “rumour” and said: “If they do, we’re going to fight.”",
+          "Responding to a question about reports of a rift with Vance, Trump said the vice-president’s remark blaming the Republican collapse on the Iran war was “a very accurate statement”.",
+          "“I didn’t say I was unhappy with it,” the president said."
+        ],
+        "figures": [],
+        "wordsRead": 735
+      },
+      {
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Denmark expels Russian defence attaché over alleged assassination plot",
-        "u": "https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper",
-        "publishedAt": "2026-11-20T13:10:11.000Z",
-        "retrievedAt": "2026-11-20T19:50:13.811Z",
+        "t": "Trump threatens ban on US firms building AI data centres overseas",
+        "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-20T20:54:12.000Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"He must leave Denmark within seven days,\" Rasmussen said, referring to the Russian defence attaché.",
-          "\"Police will now further intensify their overall efforts in response to this particular case,\" Lasse Boje, national police commissioner of Danish police, said in …"
+          "\"We're going to keep it all in this country,\" the US president said, while providing little detail on the potential policy he said others in his cabinet were hearing about …",
+          "\"We're not going to allow our companies to build data centres outside of our country,\" Trump told reporters in a press briefing following his return from his trip to …"
         ],
         "figures": [],
-        "wordsRead": 396
+        "wordsRead": 603
       },
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "The Daily Caller",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Denmark expels Russian diplomat over attempt to kill Ukrainian rapper",
-        "u": "https://www.arabnews.com/world/denmark-expels-russian-diplomat-over-attempt-to-kill-ukrainian-rapper-3013218",
-        "publishedAt": "2026-11-20T19:39:16.000Z",
-        "retrievedAt": "2026-11-20T19:50:34.720Z",
+        "t": "Trump Threatens ‘Tremendous Tax’ On Companies That Build Data Centers Overseas",
+        "u": "https://dailycaller.com/2026/11/21/trump-tremendous-tax-data-centers-overseas-china-ai",
+        "publishedAt": "2026-11-21T14:17:08.000Z",
+        "retrievedAt": "2026-11-21T18:55:43.339Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We have just summoned the Russian ambassador to the ministry of foreign affairs and notified him of the government’s decision to expel the Russian defense attache from Denmark” within seven …",
-          "“We are facing a cornered Russia, acting more aggressively and with a greater propensity to take risks,” she said, quoted in a …"
+          "“We’re not going to allow our companies to build data centers outside of our country,” Trump stated.",
+          "Trump has said China welcomes what he called the “anti-Data Center movement,” …"
+        ],
+        "figures": [
+          {
+            "value": "$200 billion",
+            "context": "placed data-processing machine imports at roughly $200 billion in 2024, drawn mostly from Mexico, Taiwan, China"
+          }
+        ],
+        "wordsRead": 292
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
+        "u": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/",
+        "publishedAt": "2026-11-20T19:38:55.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“We’re not going to allow companies to build data centres in other countries,” the president said.",
+          "He contrasted his push to keep AI infrastructure in the U.S. with the foreign production of advanced computer chips, which he said had been “very destructive to our country.”",
+          "Trump praised the Senate bill, which now goes to the House: “It’s going to cause tremendous amounts of new building,” he said."
         ],
         "figures": [],
-        "wordsRead": 534
+        "wordsRead": 816
       },
       {
         "n": "South China Morning Post",
@@ -3771,10 +3539,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
-        "u": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper",
-        "publishedAt": "2026-11-20T18:14:12.000Z",
-        "retrievedAt": "2026-11-20T19:50:38.779Z",
+        "t": "Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
+        "publishedAt": "2026-11-21T00:48:00.000Z",
+        "retrievedAt": "2026-11-21T18:56:20.455Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -3782,8 +3550,18 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+            "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -3791,13 +3569,22 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "Denmark expels Russian defence attaché over alleged assassination plot",
-            "url": "https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper"
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "Trump threatens ban on US firms building AI data centres overseas",
+            "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
+            "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/"
           }
         ],
         "status": "sourced",
@@ -3806,52 +3593,69 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "The Daily Caller",
+            "outletId": "dailycaller",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Trump Threatens ‘Tremendous Tax’ On Companies That Build Data Centers Overseas",
+            "url": "https://dailycaller.com/2026/11/21/trump-tremendous-tax-data-centers-overseas-china-ai"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "applies": true,
+      "name": "left-right"
     },
     "offAxis": [
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Denmark expels Russian diplomat over attempt to kill Ukrainian rapper",
-        "url": "https://www.arabnews.com/world/denmark-expels-russian-diplomat-over-attempt-to-kill-ukrainian-rapper-3013218",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
       {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
-        "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper",
+        "evidenceIndex": 4,
+        "headline": "Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Denmark",
-        "Russian",
-        "Ukrainian",
-        "Ukraine"
+        "Trump",
+        "On Companies That Build",
+        "Data Centers Overseas",
+        "Trump Threatens",
+        "Tremendous Tax"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [
+            {
+              "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+              "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+              "published": "2026-11-06",
+              "publisher": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+              "docType": "Rule",
+              "ref": "2026-22739",
+              "read": "metadata only — document not retrieved or read"
+            }
+          ],
+          "terms": [
+            "Trump",
+            "On Companies That Build",
+            "Data Centers Overseas",
+            "Trump Threatens",
+            "Tremendous Tax"
+          ]
         },
         {
           "source": "csis-canada",
@@ -3914,8 +3718,19 @@
           "reason": "does not apply to this story's countries or terms"
         }
       ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+      "primary": [
+        {
+          "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+          "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+          "published": "2026-11-06",
+          "publisher": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+          "docType": "Rule",
+          "ref": "2026-22739",
+          "read": "metadata only — document not retrieved or read",
+          "source": "US Federal Register"
+        }
+      ],
+      "gap": null
     },
     "disputedCandidates": [],
     "headline": null,
@@ -3930,89 +3745,122 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1yn3ik8",
+    "id": "c1fkmd8i",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 0,
+        "Canada": 1,
         "India": 0,
         "Europe": 1
       },
       "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-20T11:52:05.000Z",
-    "lastSeen": "2026-11-20T18:33:16.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-21T00:57:31.000Z",
+    "lastSeen": "2026-11-22T00:00:00.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Euronews",
-      "Arab News",
-      "South China Morning Post"
+      "BBC News",
+      "Globe and Mail",
+      "Deutsche Welle",
+      "Taipei Times"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.46889541019405806,
-      "max": 0.47837497298891585,
-      "pairs": 2,
+      "min": 0.45349370524902965,
+      "max": 0.6949898086323034,
+      "pairs": 4,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Euronews",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Estonia to shut border with Russia over GRU-linked sabotage attack",
-        "u": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
-        "publishedAt": "2026-11-20T14:41:57.000Z",
-        "retrievedAt": "2026-11-20T19:50:13.811Z",
+        "t": "Man convicted of starting Palisades fire in Los Angeles",
+        "u": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-21T04:34:00.000Z",
+        "retrievedAt": "2026-11-21T18:55:35.830Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Prime Minister Kristen Michal said Estonia would \"not allow Russia to use our openness against us.\"",
-          "The government described the move as \"a response to Russia's ongoing hostile actions against Estonia and other …"
+          "\"We were determined to hold him accountable, and today's guilty verdict delivers a measure of justice for the families who lost loved ones and the thousands whose lives were upended,\" …",
+          "Los Angeles Mayor Karen Bass, who was widely …"
         ],
         "figures": [],
-        "wordsRead": 338
+        "wordsRead": 393
       },
       {
-        "n": "Arab News",
-        "b": "varies",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
-        "u": "https://www.arabnews.com/world/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain-3013212",
-        "publishedAt": "2026-11-20T18:33:16.000Z",
-        "retrievedAt": "2026-11-20T19:50:34.720Z",
+        "t": "U.S. jury finds man guilty of starting deadly Palisades Fire",
+        "u": "https://www.theglobeandmail.com/world/article-us-jury-finds-man-guilty-of-starting-deadly-palisades-fire/",
+        "publishedAt": "2026-11-21T00:57:31.000Z",
+        "retrievedAt": "2026-11-21T18:55:46.018Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"Such moves are tantamount to attempts to erect a new Iron Curtain under the false pretence of some sort of threat from the East,\" Zakharova said.",
-          "VILNIUS: Estonia will close its road border …"
+          "Bill Essayli, the top federal prosecutor in LA, said the verdict was a “testament of the hard work” his team put into the case.",
+          "“After a lengthy deliberation, they clearly gave this case a great deal of consideration,” Haney said.",
+          "“It took a lot for me to be convinced otherwise,” he said."
         ],
         "figures": [],
-        "wordsRead": 338
+        "wordsRead": 954
       },
       {
-        "n": "South China Morning Post",
-        "b": "varies",
+        "n": "Deutsche Welle",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Estonia to close border with Russia for at least 6 months over foiled sabotage",
-        "u": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
-        "publishedAt": "2026-11-20T11:52:05.000Z",
-        "retrievedAt": "2026-11-20T19:50:38.779Z",
-        "read": "headline and feed excerpt"
+        "t": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+        "u": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
+        "publishedAt": "2026-11-21T07:10:00.000Z",
+        "retrievedAt": "2026-11-21T18:56:02.842Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "First Assistant US Attorney Bill Essayli told reporters that he could face up to 40 years in prison.",
+          "Prosecutors said security camera footage and location data from the defendant's cellphone showed he was the only person nearby when ​the January 1 blaze began in the Santa Monica Mountains …"
+        ],
+        "figures": [
+          {
+            "value": "$150 billion",
+            "context": "structures, causing estimated property losses of $150 billion (€136.7 billion). A US District Court jury in Los"
+          },
+          {
+            "value": "€136.7 billion",
+            "context": "ausing estimated property losses of $150 billion (€136.7 billion). A US District Court jury in Los Angeles found t"
+          }
+        ],
+        "wordsRead": 508
+      },
+      {
+        "n": "Taipei Times",
+        "b": "pro_sovereignty",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Jury convicts man of sparking deadly LA fire",
+        "u": "https://www.taipeitimes.com/News/world/archives/2026/11/22/2003868192",
+        "publishedAt": "2026-11-22T00:00:00.000Z",
+        "retrievedAt": "2026-11-21T18:56:23.183Z",
+        "read": "headline only"
       }
     ],
     "views": [
@@ -4028,13 +3876,31 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Euronews",
-            "outletId": "euronews",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "EU",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Estonia to shut border with Russia over GRU-linked sabotage attack",
-            "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack"
+            "headline": "Man convicted of starting Palisades fire in Los Angeles",
+            "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "U.S. jury finds man guilty of starting deadly Palisades Fire",
+            "url": "https://www.theglobeandmail.com/world/article-us-jury-finds-man-guilty-of-starting-deadly-palisades-fire/"
+          },
+          {
+            "outlet": "Deutsche Welle",
+            "outletId": "dw",
+            "lean": "centre",
+            "country": "DE",
+            "evidenceIndex": 2,
+            "headline": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+            "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf"
           }
         ],
         "status": "sourced",
@@ -4051,45 +3917,40 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
-        "url": "https://www.arabnews.com/world/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain-3013212",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Estonia to close border with Russia for at least 6 months over foiled sabotage",
-        "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
-        "reason": "lean \"varies\" is not a left-right position"
+        "outlet": "Taipei Times",
+        "outletId": "taipeitimes",
+        "lean": "pro_sovereignty",
+        "country": "TW",
+        "evidenceIndex": 3,
+        "headline": "Jury convicts man of sparking deadly LA fire",
+        "url": "https://www.taipeitimes.com/News/world/archives/2026/11/22/2003868192",
+        "reason": "lean \"pro_sovereignty\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Estonia",
-        "Russia",
-        "Iron Curtain",
-        "GRU-linked",
-        "Moscow"
+        "Los Angeles",
+        "Palisades",
+        "Palisades Fire",
+        "Jury"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Los Angeles",
+            "Palisades",
+            "Palisades Fire",
+            "Jury"
+          ]
         },
         {
           "source": "csis-canada",

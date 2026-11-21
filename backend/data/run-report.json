@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-20T19:49:40.096Z",
-  "finishedAt": "2026-11-20T19:55:22.045Z",
+  "startedAt": "2026-11-21T18:55:29.035Z",
+  "finishedAt": "2026-11-21T19:00:39.906Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1300,
-    "totalItems": 1300,
-    "clusters": 1186,
+    "rssItems": 1246,
+    "totalItems": 1262,
+    "clusters": 1125,
     "candidates": 12,
     "articlesRead": 39
   },
   "balance": {
-    "left": 6,
-    "centre": 12,
-    "right": 2,
+    "left": 8,
+    "centre": 11,
+    "right": 6,
     "none": 0
   },
   "regionFill": {
@@ -43,18 +43,18 @@
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 15
+      "availableInRegion": 16
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 49
+      "availableInRegion": 57
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"European Union\": 100 articles, 5 from roster outlets, 95 from outlets not in the roster (discovery only, not ingested).",
-    "37 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"Canada federal\": 100 articles, 18 from roster outlets, 82 from outlets not in the roster (discovery only, not ingested).",
+    "45 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
@@ -144,12 +144,12 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "fetch failed"
+      "source": "GDELT: India policy",
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "GDELT: European Union",
       "reason": "HTTP 429"
     },
     {
@@ -160,21 +160,45 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
-      "reason": "timeout after 20000ms"
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/20/unfair-myanmar-dismisses-un-courts-ruling-responsibility-rohingya/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/21/ballistic-missile-attack-kryvyi-rih-hometown-volodymyr-zelenskyy/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
       "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
       "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/19/takeaways-historic-summit-donald-trump-xi-jinping-vladimir-putin/",
+      "url": "https://www.washingtontimes.com/news/2026/nov/21/top-cartel-boss-el-chapo-isidro-one-fbis-10-wanted-fugitives-detained/",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "article",
@@ -184,32 +208,20 @@
     },
     {
       "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
       "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868122",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/20/tusk-says-russian-missile-landing-poland-appears-intentional/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/22/2003868192",
       "reason": "HTTP 403"
     }
   ]
