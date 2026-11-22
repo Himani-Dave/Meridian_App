@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-21T18:55:29.035Z",
-  "finishedAt": "2026-11-21T19:00:39.906Z",
+  "startedAt": "2026-11-22T19:15:36.075Z",
+  "finishedAt": "2026-11-22T19:21:18.325Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1246,
-    "totalItems": 1262,
-    "clusters": 1125,
+    "rssItems": 948,
+    "totalItems": 951,
+    "clusters": 843,
     "candidates": 12,
-    "articlesRead": 39
+    "articlesRead": 35
   },
   "balance": {
     "left": 8,
     "centre": 11,
-    "right": 6,
+    "right": 4,
     "none": 0
   },
   "regionFill": {
@@ -38,23 +38,23 @@
     "India": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 7
+      "availableInRegion": 6
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 16
+      "availableInRegion": 10
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 57
+      "availableInRegion": 51
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 18 from roster outlets, 82 from outlets not in the roster (discovery only, not ingested).",
-    "45 multi-outlet clusters were left out by --max-stories 12.",
+    "GDELT \"European Union\": 100 articles, 8 from roster outlets, 92 from outlets not in the roster (discovery only, not ingested).",
+    "39 multi-outlet clusters were left out by --max-stories 12.",
     "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
@@ -144,43 +144,63 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: India policy",
+      "source": "Washington Times",
+      "id": "washtimes",
+      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "Indian Express",
+      "id": "indianexp",
+      "url": "https://indianexpress.com/feed/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "GDELT: Canada federal",
       "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
-      "source": "GDELT: European Union",
+      "source": "GDELT: India policy",
       "reason": "HTTP 429"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/jewish/tradition-and-judaism/religion-and-belifes/2026-11-19/ty-article/islam-expected-to-surpass-christianity-as-the-worlds-largest-religion-by-2035/000001a1-f3f3-d175-abf5-fff7a20e0000",
+      "source": "Business Standard",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-eu-free-trade-pact-likely-to-be-signed-on-dec-16-in-brussels-126112200436_1.html",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/11/22/428277/bharat/west-bengal-bjp-mla-rekha-patra-critical-on-ventilator-after-suspected-poisoning-health-minister-reports-improvement/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
-      "reason": "HTTP 403"
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/world-news/asia-and-australia/2026-11-20/ty-article/myanmar-dismisses-un-courts-genocide-ruling-as-unfair/000001a1-f825-d9ff-a7b5-f9afd75a0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/20/unfair-myanmar-dismisses-un-courts-ruling-responsibility-rohingya/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/21/ballistic-missile-attack-kryvyi-rih-hometown-volodymyr-zelenskyy/",
-      "reason": "HTTP 403"
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/world/video/2026/nov/22/vehicles-burn-on-mexican-highway-after-capture-of-el-chapo-isidro-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
@@ -190,38 +210,50 @@
     },
     {
       "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/21/top-cartel-boss-el-chapo-isidro-one-fbis-10-wanted-fugitives-detained/",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375375/indonesia-searches-50-recovers-7-body-bags-after-factory-fire",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/world/video-historic-or-just-a-photo-op-reading-trumps-summit-with-xi-and-putin/",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/west-bank/2026-11-22/ty-article/.premium/hebrew-graffiti-found-alongside-arson-in-five-west-bank-palestinian-villages/000001a2-0183-dad7-a9ff-43cb7ce60000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
-      "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-trump-xi-and-putin-meet-in-shenzhen/",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375395/israel-investigates-west-bank-fires-blamed-israeli-settlers",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Taipei Times",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/11/22/2003868192",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-22/ty-article/.premium/members-of-eisenkots-yashar-netanyahus-likud-meet-for-coalition-talks/000001a2-030b-d175-abf6-1f3f54b90000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-21/ty-article/.premium/eisenkot-seeks-marathon-of-talks-with-likud-as-bennett-rules-out-netanyahu/000001a1-ff3d-d381-ade5-fffd68400000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-20/ty-article/.premium/netanyahu-says-israels-security-situation-demands-a-national-unity-government/000001a1-f8e2-d175-abf5-fef667ef0000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
       "reason": "HTTP 403"
     }
   ]
