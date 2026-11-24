@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-23T23:38:22.376Z",
-  "finishedAt": "2026-11-23T23:43:43.320Z",
+  "startedAt": "2026-11-24T22:09:46.197Z",
+  "finishedAt": "2026-11-24T22:14:29.891Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,45 +17,44 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 974,
-    "totalItems": 972,
-    "clusters": 866,
+    "rssItems": 981,
+    "totalItems": 979,
+    "clusters": 898,
     "candidates": 12,
-    "articlesRead": 47
+    "articlesRead": 36
   },
   "balance": {
-    "left": 9,
-    "centre": 11,
-    "right": 5,
-    "none": 0
+    "left": 8,
+    "centre": 8,
+    "right": 6,
+    "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 1,
+      "availableInRegion": 1
     },
     "India": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 3,
+      "availableInRegion": 5
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 8
+      "availableInRegion": 4
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 50
+      "availableInRegion": 40
     }
   },
   "starvedSides": [],
   "notes": [
-    "38 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "28 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -120,6 +119,12 @@
     },
     {
       "layer": "discovery",
+      "source": "Taipei Times",
+      "id": "taipeitimes",
+      "reason": "feed url not verified yet; skipped"
+    },
+    {
+      "layer": "discovery",
       "source": "Reuters",
       "id": "reuters",
       "reason": "no feed url in the roster"
@@ -164,12 +169,12 @@
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "fetch failed"
+      "reason": "HTTP 429"
     },
     {
       "layer": "discovery",
       "source": "GDELT: European Union",
-      "reason": "timeout after 20000ms"
+      "reason": "HTTP 429"
     },
     {
       "layer": "article",
@@ -179,68 +184,38 @@
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/ceo-jensen-huang-returns-to-nvidias-office?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "Globe and Mail",
-      "url": "https://www.theglobeandmail.com/canada/video-cop31-talks-end-without-an-overarching-un-climate-deal/",
+      "url": "https://www.theglobeandmail.com/world/video-ukraine-strikes-russian-warship-off-libya/",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/uk-news/video/2026/nov/23/concertgoers-evacuated-after-unknown-substance-released-at-manchester-arena-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375481/thousands-evacuated-uk-concert-after-unknown-substance-released",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/trump-postpones-us-army-plan-to-detonate-toxic-explosives-in-iowa?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Guardian US",
-      "url": "https://www.theguardian.com/world/video/2026/nov/22/vehicles-burn-on-mexican-highway-after-capture-of-el-chapo-isidro-video",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/week-asia/politics/article/3375480/south-koreas-education-chief-has-gone-its-ai-exam-headache-has-not",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-24/ty-article/.premium/katz-says-iran-is-developing-chemical-weapons-and-plotting-to-kill-trump/000001a2-0e94-dba8-adea-3e9e70230000",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/israeli-defense-minister-says-iran-developing-chemical-weapons-local-media-3013904",
       "reason": "HTTP 403"
     }
   ]
