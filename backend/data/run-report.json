@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-24T22:09:46.197Z",
-  "finishedAt": "2026-11-24T22:14:29.891Z",
+  "startedAt": "2026-11-25T21:25:33.844Z",
+  "finishedAt": "2026-11-25T21:29:40.499Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,44 +17,44 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 981,
-    "totalItems": 979,
-    "clusters": 898,
+    "rssItems": 1003,
+    "totalItems": 1001,
+    "clusters": 924,
     "candidates": 12,
-    "articlesRead": 36
+    "articlesRead": 22
   },
   "balance": {
-    "left": 8,
-    "centre": 8,
-    "right": 6,
+    "left": 7,
+    "centre": 6,
+    "right": 4,
     "none": 1
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 0,
+      "availableInRegion": 0
     },
     "India": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 5
+      "availableInRegion": 3
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 4
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 40
+      "availableInRegion": 33
     }
   },
   "starvedSides": [],
   "notes": [
-    "28 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "21 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -149,6 +149,13 @@
     },
     {
       "layer": "discovery",
+      "source": "Democracy Now!",
+      "id": "democracynow",
+      "url": "https://www.democracynow.org/democracynow.rss",
+      "reason": "fetch failed"
+    },
+    {
+      "layer": "discovery",
       "source": "Washington Times",
       "id": "washtimes",
       "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
@@ -169,7 +176,7 @@
     {
       "layer": "discovery",
       "source": "GDELT: India policy",
-      "reason": "HTTP 429"
+      "reason": "fetch failed"
     },
     {
       "layer": "discovery",
@@ -178,9 +185,27 @@
     },
     {
       "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-      "reason": "timeout after 20000ms"
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/11/25/428954/law/thiruparankundram-deepathoon-row-governor-seeks-answer-from-vijay-govt-collector-apologises-contempt-plea-filed/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "OpIndia",
+      "url": "https://www.opindia.com/2026/11/who-is-yash-maheshwari-comedian-booked-over-vulgar-chhath-puja-jokes-old-videos-mocking-pm-modi-ram-mandir-resurface/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375712/migrant-who-became-symbol-trump-crackdown-leaves-us-voluntarily",
+      "reason": "HTTP 403"
     },
     {
       "layer": "article",
@@ -190,32 +215,74 @@
     },
     {
       "layer": "article",
+      "source": "Guardian US",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-detonation-of-iowa-explosives-exceeded-expectations-us-army-says/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-smoke-rises-after-controlled-detonation-of-explosives-in-iowa/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/uk-moving-military-planes-into-hangars-to-guard-from-drones-reports-3014025",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-24/ty-article/.premium/katz-says-iran-is-developing-chemical-weapons-and-plotting-to-kill-trump/000001a2-0e94-dba8-adea-3e9e70230000",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Arab News",
-      "url": "https://www.arabnews.com/middle-east/israeli-defense-minister-says-iran-developing-chemical-weapons-local-media-3013904",
+      "url": "https://www.arabnews.com/world/colombia-police-reveal-76-hostages-were-caught-in-supermarket-siege-3014058",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Middle East Eye",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-gaza-kills-three",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/world/9-dead-17-believed-trapped-after-flood-hits-an-unauthorized-gold-mine-in-indonesia-3014020",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
       "reason": "HTTP 403"
     }
   ]

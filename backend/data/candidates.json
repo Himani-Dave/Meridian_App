@@ -1,99 +1,72 @@
 [
   {
-    "id": "c1xxeaaa",
+    "id": "ct4nyrb",
     "regions": [
-      "Canada",
+      "India",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 6,
-        "India": 0,
+        "Canada": 0,
+        "India": 7,
         "Europe": 0
       },
       "matched": {
-        "Canada": [
-          "canada",
-          "canadians",
-          "toronto",
+        "India": [
+          "bjp",
+          "chennai",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-24T16:57:29.000Z",
-    "lastSeen": "2026-11-24T20:17:40.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-25T13:17:18.000Z",
+    "lastSeen": "2026-11-25T16:45:56.000Z",
+    "outletCount": 2,
     "outlets": [
-      "Guardian US",
-      "The Daily Caller",
-      "Western Standard"
+      "Scroll.in",
+      "Organiser"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.4453796537185132,
-      "max": 0.5231895661849096,
-      "pairs": 2,
+      "min": 0.45473867046971783,
+      "max": 0.45473867046971783,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Guardian US",
-        "b": "lean_left",
+        "n": "Scroll.in",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "‘I botched it’: Singer apologizes for O Canada errors before Maple Leafs-Islanders game",
-        "u": "https://www.theguardian.com/sport/2026/nov/24/i-botched-it-singer-apologizes-for-o-canada-lyrics-before-maple-leafs-islanders-game",
-        "publishedAt": "2026-11-24T20:17:40.000Z",
-        "retrievedAt": "2026-11-24T22:09:50.496Z",
+        "t": "Thiruparankundram lamp row: Contempt plea filed against collector for non-compliance of SC order",
+        "u": "https://scroll.in/latest/1097302/thiruparankundram-lamp-row-contempt-plea-filed-against-collector-for-non-compliance-of-sc-order?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-25T13:17:18.000Z",
+        "retrievedAt": "2026-11-25T21:26:31.676Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“I sang both anthems, and I just wanted to apologize to all of my Canadians,” Bentley said in an Instagram video.",
-          "“I thought something sounded different, but sometimes as you’re listening to the anthem, you …"
+          "India has been providing meals to students for 30 years.",
+          "On Wednesday, the Tamil Nadu government told the Supreme Court that it could not comply with the order because the Arulmigu Subramania Swamy temple administration had refused to authorise the …",
+          "In a status report filed before the court, Krishna said that he had made efforts to …"
         ],
         "figures": [],
-        "wordsRead": 357
+        "wordsRead": 572
       },
       {
-        "n": "The Daily Caller",
+        "n": "Organiser",
         "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Singer Sarrah Strimel Bentley Apologizes For Botching Anthem In Tearful Apology",
-        "u": "https://dailycaller.com/2026/11/24/anthem-singer-sarrah-strimel-bentley-blames-cancer-induced-menopause-botched-anthem-tearful-apology-new-york-islanders-toronto-maple-leafs",
-        "publishedAt": "2026-11-24T16:57:29.000Z",
-        "retrievedAt": "2026-11-24T22:10:01.532Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Getting up in front of 18,000 people, singing an anthem that you haven’t heard for your whole life is scary, and I botched the lyrics, and I’m really sorry,” she …"
-        ],
-        "figures": [],
-        "wordsRead": 335
-      },
-      {
-        "n": "Western Standard",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Singer who flubbed 'O Canada' at Leafs-Islanders game apologizes to Canadians",
-        "u": "https://www.westernstandard.news/sports/singer-who-flubbed-o-canada-at-leafs-islanders-game-apologizes-to-canadians/79010",
-        "publishedAt": "2026-11-24T18:56:55.000Z",
-        "retrievedAt": "2026-11-24T22:10:12.260Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [],
-        "figures": [
-          {
-            "value": "$18",
-            "context": "wing botched attempt at 'O Canada' Taxpayers paid $18K for artist to study Hungarian dance — but where"
-          }
-        ],
-        "wordsRead": 29
+        "t": "Thiruparankundram Deepathoon Row: Governor seeks answer from Vijay Govt; Collector apologises, contempt plea filed",
+        "u": "https://organiser.org/2026/11/25/428954/law/thiruparankundram-deepathoon-row-governor-seeks-answer-from-vijay-govt-collector-apologises-contempt-plea-filed/",
+        "publishedAt": "2026-11-25T16:45:56.000Z",
+        "retrievedAt": "2026-11-25T21:26:39.600Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -102,13 +75,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
             "evidenceIndex": 0,
-            "headline": "‘I botched it’: Singer apologizes for O Canada errors before Maple Leafs-Islanders game",
-            "url": "https://www.theguardian.com/sport/2026/nov/24/i-botched-it-singer-apologizes-for-o-canada-lyrics-before-maple-leafs-islanders-game"
+            "headline": "Thiruparankundram lamp row: Contempt plea filed against collector for non-compliance of SC order",
+            "url": "https://scroll.in/latest/1097302/thiruparankundram-lamp-row-contempt-plea-filed-against-collector-for-non-compliance-of-sc-order?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -126,22 +99,13 @@
         "label": "Right / conservative",
         "outlets": [
           {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
+            "outlet": "Organiser",
+            "outletId": "organiser",
             "lean": "right",
-            "country": "US",
+            "country": "IN",
             "evidenceIndex": 1,
-            "headline": "Singer Sarrah Strimel Bentley Apologizes For Botching Anthem In Tearful Apology",
-            "url": "https://dailycaller.com/2026/11/24/anthem-singer-sarrah-strimel-bentley-blames-cancer-induced-menopause-botched-anthem-tearful-apology-new-york-islanders-toronto-maple-leafs"
-          },
-          {
-            "outlet": "Western Standard",
-            "outletId": "westernstd",
-            "lean": "right",
-            "country": "CA",
-            "evidenceIndex": 2,
-            "headline": "Singer who flubbed 'O Canada' at Leafs-Islanders game apologizes to Canadians",
-            "url": "https://www.westernstandard.news/sports/singer-who-flubbed-o-canada-at-leafs-islanders-game-apologizes-to-canadians/79010"
+            "headline": "Thiruparankundram Deepathoon Row: Governor seeks answer from Vijay Govt; Collector apologises, contempt plea filed",
+            "url": "https://organiser.org/2026/11/25/428954/law/thiruparankundram-deepathoon-row-governor-seeks-answer-from-vijay-govt-collector-apologises-contempt-plea-filed/"
           }
         ],
         "status": "sourced",
@@ -156,27 +120,19 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Singer",
-        "Canada",
-        "Apologizes For Botching Anthem",
-        "Singer Sarrah Strimel Bentley",
-        "Maple Leafs-Islanders",
-        "In Tearful Apology"
+        "Thiruparankundram Deepathoon Row",
+        "Thiruparankundram",
+        "Vijay Govt",
+        "Collector",
+        "Contempt",
+        "Governor"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Singer",
-            "Canada",
-            "Apologizes For Botching Anthem",
-            "Singer Sarrah Strimel Bentley",
-            "Maple Leafs-Islanders",
-            "In Tearful Apology"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
@@ -255,7 +211,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1nr40dz",
+    "id": "c1edg8cr",
     "regions": [
       "India",
       "Global"
@@ -264,487 +220,17 @@
       "scores": {
         "Canada": 0,
         "India": 4,
-        "Europe": 1
-      },
-      "matched": {
-        "India": [
-          "bjp",
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-24T06:23:01.000Z",
-    "lastSeen": "2026-11-24T14:10:46.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "BBC News",
-      "Scroll.in"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.45259337214432427,
-      "max": 0.7066363900305579,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
-        "u": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-24T06:23:01.000Z",
-        "retrievedAt": "2026-11-24T22:09:53.463Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"Since Sheikh Hasina was flown to India on a Bangladesh aircraft on 5 August 2024, she now calls upon the government to arrange for her air transport from Delhi back …",
-          "\"Sheikh Hasina will not be able to return to the country as an ordinary commercial passenger; she will be brought back in handcuffs,\" he told a press briefing on Tuesday.",
-          "In April, ​the ministry said it was ⁠examining Bangladesh's request …"
-        ],
-        "figures": [],
-        "wordsRead": 715
-      },
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Rush Hour: BJP-SAD alliance for Punjab polls, Hasina plans Bangladesh return on December 16 and more",
-        "u": "https://scroll.in/latest/1097280/rush-hour-bjp-sad-alliance-for-punjab-polls-hasina-plans-bangladesh-return-on-december-16-and-more?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-24T14:10:46.000Z",
-        "retrievedAt": "2026-11-24T22:10:13.721Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Shiromani Akali Dal and the Bharatiya Janata Party announced the revival of their alliance for the Punjab Assembly elections expected to be held early in 2027.",
-          "At a press conference on Tuesday, Das said his passport had been issued in 2019.",
-          "“Why did you give me the passport at the time?” he asked the authorities."
-        ],
-        "figures": [],
-        "wordsRead": 711
-      },
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Sheikh Hasina plans to return to Bangladesh on December 16, reports Reuters",
-        "u": "https://scroll.in/latest/1097269/sheikh-hasina-plans-to-return-to-bangladesh-on-december-16-reports-reuters?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-24T10:50:41.000Z",
-        "retrievedAt": "2026-11-24T22:10:13.721Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Since Sheikh Hasina was flown to India on a Bangladesh aircraft on August 5, 2024, she now ​calls upon the government to arrange for her air transport from Delhi ​back …",
-          "“Having exiled her contrary ‌to ⁠the Constitution under …"
-        ],
-        "figures": [],
-        "wordsRead": 399
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Rush Hour: BJP-SAD alliance for Punjab polls, Hasina plans Bangladesh return on December 16 and more",
-            "url": "https://scroll.in/latest/1097280/rush-hour-bjp-sad-alliance-for-punjab-polls-hasina-plans-bangladesh-return-on-december-16-and-more?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Sheikh Hasina plans to return to Bangladesh on December 16, reports Reuters",
-            "url": "https://scroll.in/latest/1097269/sheikh-hasina-plans-to-return-to-bangladesh-on-december-16-reports-reuters?utm_source=rss&utm_medium=public"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
-            "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "December",
-        "Bangladesh",
-        "PM Sheikh Hasina",
-        "Sheikh Hasina",
-        "Bangladesh's",
-        "Rush Hour"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1ubo42w",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 8,
         "Europe": 0
       },
       "matched": {
         "India": [
-          "india",
-          "modi",
-          "crore",
+          "uttar pradesh",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-23T12:35:59.000Z",
-    "lastSeen": "2026-11-23T12:35:59.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "Scroll.in",
-      "Nikkei Asia"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.44090338666716133,
-      "max": 0.44090338666716133,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "India announces Rs 15,000 crore development package for Nepal",
-        "u": "https://scroll.in/latest/1097264/india-announces-rs-15000-crore-development-package-for-nepal?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-23T12:35:59.000Z",
-        "retrievedAt": "2026-11-24T22:10:13.721Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The relationship between India and Nepal is not just one of neighbourhood but one of closeness and unwavering trust,” Modi said in a joint press conference.",
-          "Prime Minister Narendra Modi on Monday announced an economic development package for Nepal with a value of Rs 15,000 crores …"
-        ],
-        "figures": [],
-        "wordsRead": 463
-      },
-      {
-        "n": "Nikkei Asia",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "India announces $1.6bn flood-recovery package for Nepal",
-        "u": "https://asia.nikkei.com/politics/international-relations/india-announces-1.6bn-flood-recovery-package-for-nepal",
-        "publishedAt": null,
-        "retrievedAt": "2026-11-24T22:10:49.376Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "NEW DELHI -- Indian Prime …"
-        ],
-        "figures": [
-          {
-            "value": "240 billion",
-            "context": "Modi on Monday announced an economic package worth 240 billion Nepalese rupees ($1.6 billion) to help Nepal's re"
-          },
-          {
-            "value": "$1.6 billion",
-            "context": "onomic package worth 240 billion Nepalese rupees ($1.6 billion) to help Nepal's recovery from catastrophic flood"
-          }
-        ],
-        "wordsRead": 58
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "India announces Rs 15,000 crore development package for Nepal",
-            "url": "https://scroll.in/latest/1097264/india-announces-rs-15000-crore-development-package-for-nepal?utm_source=rss&utm_medium=public"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Nikkei Asia",
-            "outletId": "nikkeiasia",
-            "lean": "centre",
-            "country": "JP",
-            "evidenceIndex": 1,
-            "headline": "India announces $1.6bn flood-recovery package for Nepal",
-            "url": "https://asia.nikkei.com/politics/international-relations/india-announces-1.6bn-flood-recovery-package-for-nepal"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "India",
-        "Nepal"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "ccnllg3",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 5,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "chennai",
-          "delhi",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-24T14:41:59.000Z",
-    "lastSeen": "2026-11-24T19:47:16.000Z",
+    "firstSeen": "2026-11-24T11:42:39.000Z",
+    "lastSeen": "2026-11-25T17:48:51.000Z",
     "outletCount": 2,
     "outlets": [
       "Scroll.in",
@@ -753,8 +239,8 @@
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.6334436700561104,
-      "max": 0.6334436700561104,
+      "min": 0.3824528096444132,
+      "max": 0.3824528096444132,
       "pairs": 1,
       "prunedForCohesion": 0
     },
@@ -766,18 +252,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "CJP’s Saurav Das alleges he was stopped at Delhi airport from travelling to UK",
-        "u": "https://scroll.in/latest/1097267/cjps-saurav-das-alleges-he-was-stopped-at-delhi-airport-from-travelling-to-uk?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-24T14:41:59.000Z",
-        "retrievedAt": "2026-11-24T22:10:13.721Z",
+        "t": "Uttar Pradesh polls: 26 of 403 seats offered to Congress, says Samajwadi Party",
+        "u": "https://scroll.in/latest/1097285/uttar-pradesh-polls-26-of-403-seats-offered-to-congress-says-samajwadi-party?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-24T11:42:39.000Z",
+        "retrievedAt": "2026-11-25T21:26:31.676Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "In a social media post on Monday night, Das said that he had been “invited by prestigious universities like Oxford, Cambridge, LSE [London School of Economics], Edinburgh to deliver talks …",
-          "“The manner in which Saurav was not allowed to board today raises deeply troubling questions about the state of freedom of expression and the space being allowed for young voices …",
-          "Das said he was stopped at …"
+          "Samajwadi Party leader Ram Gopal Yadav on Tuesday said that his party has offered 26 of the 403 Assembly seats to the Congress for the Uttar Pradesh elections, PTI reported."
         ],
         "figures": [],
-        "wordsRead": 680
+        "wordsRead": 314
       },
       {
         "n": "The Hindu",
@@ -786,18 +270,23 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Chennai Regional Passport Office notice led to CJP’s Saurav Das being stopped at Delhi airport",
-        "u": "https://www.thehindu.com/news/national/cjp-saurav-das-stopped-delhi-airport-passport-november-24-2026/article71737903.ece",
-        "publishedAt": "2026-11-24T19:47:16.000Z",
-        "retrievedAt": "2026-11-24T22:10:15.016Z",
+        "t": "SP, Congress alliance failed even before polls, says Yogi Adityanath",
+        "u": "https://www.thehindu.com/news/national/uttar-pradesh/sp-congress-alliance-failed-even-before-polls-says-yogi-adityanath/article71743598.ece",
+        "publishedAt": "2026-11-25T17:48:51.000Z",
+        "retrievedAt": "2026-11-25T21:26:33.234Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Saurav Das, co-convenor of the Cockroach Janata Party (CJP), was stopped from boarding a flight to London at Delhi’s Indira Gandhi International Airport (IGI) on Monday night (November 23, 2026) …",
-          "Das’ passport application dated August 8, 2019, stating that “particulars (place of birth) furnished in it are incorrect” and his passport dated August 21, 2019 was “obtained by material suppression …",
-          "“I have no issue in providing any explanation."
+          "Uttar Pradesh Chief Minister Yogi Adityanath on Wednesday (November 25, 2026) hit out at the Samajwadi Party and Congress alliance over their seat-sharing, saying on one side, meetings were being …",
+          "On one side, meetings are being held between the two parties over seat-sharing, while on the other, candidates are being announced.",
+          "Highlighting Uttar Pradesh’s growth in the last …"
         ],
-        "figures": [],
-        "wordsRead": 986
+        "figures": [
+          {
+            "value": "60%",
+            "context": "Adityanath said Uttar Pradesh accounted for nearly 60% of the country’s expressway network. “Metro servi"
+          }
+        ],
+        "wordsRead": 597
       }
     ],
     "views": [
@@ -811,8 +300,8 @@
             "lean": "left",
             "country": "IN",
             "evidenceIndex": 0,
-            "headline": "CJP’s Saurav Das alleges he was stopped at Delhi airport from travelling to UK",
-            "url": "https://scroll.in/latest/1097267/cjps-saurav-das-alleges-he-was-stopped-at-delhi-airport-from-travelling-to-uk?utm_source=rss&utm_medium=public"
+            "headline": "Uttar Pradesh polls: 26 of 403 seats offered to Congress, says Samajwadi Party",
+            "url": "https://scroll.in/latest/1097285/uttar-pradesh-polls-26-of-403-seats-offered-to-congress-says-samajwadi-party?utm_source=rss&utm_medium=public"
           },
           {
             "outlet": "The Hindu",
@@ -820,8 +309,8 @@
             "lean": "lean_left",
             "country": "IN",
             "evidenceIndex": 1,
-            "headline": "Chennai Regional Passport Office notice led to CJP’s Saurav Das being stopped at Delhi airport",
-            "url": "https://www.thehindu.com/news/national/cjp-saurav-das-stopped-delhi-airport-passport-november-24-2026/article71737903.ece"
+            "headline": "SP, Congress alliance failed even before polls, says Yogi Adityanath",
+            "url": "https://www.thehindu.com/news/national/uttar-pradesh/sp-congress-alliance-failed-even-before-polls-says-yogi-adityanath/article71743598.ece"
           }
         ],
         "status": "sourced",
@@ -851,9 +340,226 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Saurav Das",
-        "Delhi",
-        "Chennai Regional Passport Office"
+        "Congress",
+        "Samajwadi Party",
+        "Yogi Adityanath",
+        "Uttar Pradesh"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Congress",
+            "Samajwadi Party",
+            "Yogi Adityanath",
+            "Uttar Pradesh"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1lo0xu",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 4,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "modi",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-25T12:42:50.000Z",
+    "lastSeen": "2026-11-25T18:22:23.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "The Hindu",
+      "OpIndia"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.36755105281937595,
+      "max": 0.36755105281937595,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "The Hindu",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Patna cyber police register FIR against stand-up comedian Yash Maheshwari",
+        "u": "https://www.thehindu.com/news/national/bihar/comedian-yash-maheshwari-booked-in-patna-over-remarks-on-women-observing-chhath/article71742426.ece",
+        "publishedAt": "2026-11-25T18:22:23.000Z",
+        "retrievedAt": "2026-11-25T21:26:33.234Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Kumar said in the FIR copy.",
+          "Earlier in the day, the Bihar State president of the Lok Janshakti Party (Ram Vilas), Surendra Vivek, wrote to Chief Minister Samrat Choudhary demanding that an FIR be registered against …",
+          "He also said he had no intention of hurting anyone’s sentiments and promised to be more careful with …"
+        ],
+        "figures": [],
+        "wordsRead": 556
+      },
+      {
+        "n": "OpIndia",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Who is Yash Maheshwari? Comedian booked over vulgar Chhath Puja jokes; old videos mocking PM Modi and Ram Mandir resurface",
+        "u": "https://www.opindia.com/2026/11/who-is-yash-maheshwari-comedian-booked-over-vulgar-chhath-puja-jokes-old-videos-mocking-pm-modi-ram-mandir-resurface/",
+        "publishedAt": "2026-11-25T12:42:50.000Z",
+        "retrievedAt": "2026-11-25T21:26:37.524Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "The Hindu",
+            "outletId": "thehindu",
+            "lean": "lean_left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "Patna cyber police register FIR against stand-up comedian Yash Maheshwari",
+            "url": "https://www.thehindu.com/news/national/bihar/comedian-yash-maheshwari-booked-in-patna-over-remarks-on-women-observing-chhath/article71742426.ece"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "OpIndia",
+            "outletId": "opindia",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "Who is Yash Maheshwari? Comedian booked over vulgar Chhath Puja jokes; old videos mocking PM Modi and Ram Mandir resurface",
+            "url": "https://www.opindia.com/2026/11/who-is-yash-maheshwari-comedian-booked-over-vulgar-chhath-puja-jokes-old-videos-mocking-pm-modi-ram-mandir-resurface/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Yash Maheshwari",
+        "Chhath Puja",
+        "Ram Mandir",
+        "Comedian",
+        "PM Modi",
+        "Patna"
       ],
       "attempts": [
         {
@@ -939,7 +645,285 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cjohcq5",
+    "id": "c1hqrvob",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 6
+      },
+      "matched": {
+        "Europe": [
+          "spain",
+          "madrid"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-25T06:42:57.000Z",
+    "lastSeen": "2026-11-25T20:14:28.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Guardian US",
+      "Al Jazeera",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.403129934627258,
+      "max": 0.5292738295488261,
+      "pairs": 2,
+      "prunedForCohesion": 3
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+        "u": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+        "publishedAt": "2026-11-25T19:36:24.000Z",
+        "retrievedAt": "2026-11-25T21:26:11.276Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I feel free of everything evil that has followed me up until this point,” he told reporters on a video call just hours after he touched down.",
+          "On Wednesday, his lawyer, Simon Sandoval-Moshenberg, said the Trump administration had wanted to deport Ábrego García “handcuffed, on an ICE flight bound for Liberia” on Tuesday.",
+          "“I’m happy … because this time I’m leaving with my freedom, not like before when they took me out inhumanely.”"
+        ],
+        "figures": [],
+        "wordsRead": 847
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Migrant wrongly deported by Trump leaves US for Spain",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
+        "publishedAt": "2026-11-25T20:14:28.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Kilmar Ábrego García, a Salvadoran national mistakenly deported from the US, arrives in Spain",
+        "u": "https://www.arabnews.com/world/kilmar-ábrego-garcía-a-salvadoran-national-mistakenly-deported-from-the-us-arrives-in-spain-3014038",
+        "publishedAt": "2026-11-25T17:50:55.000Z",
+        "retrievedAt": "2026-11-25T21:27:01.828Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Ábrego García was arrested in Baltimore in March 2025 and deported to a Salvadoran prison in what an official later called an …"
+        ],
+        "figures": [
+          {
+            "value": "1 million",
+            "context": "up its immigration crackdown, promising to deport 1 million people annually. Through an infusion of billions"
+          }
+        ],
+        "wordsRead": 227
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Migrant who became a symbol in Trump crackdown leaves US voluntarily",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3375712/migrant-who-became-symbol-trump-crackdown-leaves-us-voluntarily",
+        "publishedAt": "2026-11-25T06:42:57.000Z",
+        "retrievedAt": "2026-11-25T21:27:05.210Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+            "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 4 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Migrant wrongly deported by Trump leaves US for Spain",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 2,
+        "headline": "Kilmar Ábrego García, a Salvadoran national mistakenly deported from the US, arrives in Spain",
+        "url": "https://www.arabnews.com/world/kilmar-ábrego-garcía-a-salvadoran-national-mistakenly-deported-from-the-us-arrives-in-spain-3014038",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Migrant who became a symbol in Trump crackdown leaves US voluntarily",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3375712/migrant-who-became-symbol-trump-crackdown-leaves-us-voluntarily",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Trump",
+        "Spain",
+        "Migrant",
+        "Kilmar",
+        "Garc",
+        "Salvadoran"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Trump",
+            "Spain",
+            "Migrant",
+            "Kilmar",
+            "Garc",
+            "Salvadoran"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "czzqgkx",
     "regions": [
       "Europe",
       "Global"
@@ -948,7 +932,7 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 5
+        "Europe": 4
       },
       "matched": {
         "Canada": [
@@ -956,42 +940,27 @@
         ],
         "Europe": [
           "ukraine",
-          "europe",
           "(an outlet from the region covered it)"
         ]
       }
     },
     "firstSeen": "2026-11-23T01:30:56.000Z",
     "lastSeen": "2026-11-23T17:29:18.000Z",
-    "outletCount": 4,
+    "outletCount": 3,
     "outlets": [
-      "NPR",
       "BBC News",
       "Fox News",
       "Globe and Mail"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
+    "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.392107596205864,
-      "max": 0.48682970696366196,
-      "pairs": 5,
+      "min": 0.4161245261163399,
+      "max": 0.4959057391932953,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-        "u": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-        "publishedAt": "2026-11-23T10:16:33.000Z",
-        "retrievedAt": "2026-11-24T22:09:51.987Z",
-        "read": "headline and feed excerpt"
-      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -1002,7 +971,7 @@
         "t": "Ukraine shares video of strikes on Russian ships off Libya",
         "u": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-23T11:34:10.000Z",
-        "retrievedAt": "2026-11-24T22:09:53.463Z",
+        "retrievedAt": "2026-11-25T21:26:14.526Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Following the strikes, the Kremlin warned of an \"escalation of tensions in …"
@@ -1020,7 +989,7 @@
         "t": "Zelenskyy hails ‘exemplary Ukrainian operation’ sinking Russian warship off Libya",
         "u": "https://www.foxnews.com/world/zelenskyy-hails-exemplary-ukrainian-operation-sinking-russian-warship-libya",
         "publishedAt": "2026-11-23T12:35:40.000Z",
-        "retrievedAt": "2026-11-24T22:09:58.930Z",
+        "retrievedAt": "2026-11-25T21:26:20.212Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"We continue our operations in designated waters,\" Zelenskyy wrote early Monday morning in a statement on X.",
@@ -1040,7 +1009,7 @@
         "t": "Russian warship sinks off Libya as suspected Ukrainian strikes take war beyond Black Sea",
         "u": "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea",
         "publishedAt": "2026-11-23T01:30:56.000Z",
-        "retrievedAt": "2026-11-24T22:09:58.930Z",
+        "retrievedAt": "2026-11-25T21:26:20.212Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"The Libyan government will not allow Libyan ports, territory or territorial waters to be turned into an arena for settling scores or exporting international conflicts,\" the government said.",
@@ -1057,30 +1026,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Ukraine behind surprise attack on Russian warship in Libya, Zelensky confirms",
-        "u": "https://www.theglobeandmail.com/world/article-ukraine-drones-russian-warship-libya/",
-        "publishedAt": "2026-11-23T11:30:29.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Zelensky described Sunday’s attack as “exemplary” and said “the targets we set were achieved.”",
-          "“We keep finding ways to get back on our feet after every Russian attack,” Zelensky said.",
-          "“Ukraine’s defence forces have once again shown that the Russian navy and its logistics have no safe routes,” the SBU said."
-        ],
-        "figures": [],
-        "wordsRead": 1075
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
         "t": "Ukraine strikes Russian warship off Libya",
         "u": "https://www.theglobeandmail.com/world/video-ukraine-strikes-russian-warship-off-libya/",
         "publishedAt": "2026-11-23T17:29:18.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -1088,18 +1037,8 @@
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-            "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -1111,7 +1050,7 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 1,
+            "evidenceIndex": 0,
             "headline": "Ukraine shares video of strikes on Russian ships off Libya",
             "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss"
           },
@@ -1120,16 +1059,7 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "Ukraine behind surprise attack on Russian warship in Libya, Zelensky confirms",
-            "url": "https://www.theglobeandmail.com/world/article-ukraine-drones-russian-warship-libya/"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 5,
+            "evidenceIndex": 3,
             "headline": "Ukraine strikes Russian warship off Libya",
             "url": "https://www.theglobeandmail.com/world/video-ukraine-strikes-russian-warship-off-libya/"
           }
@@ -1146,7 +1076,7 @@
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Zelenskyy hails ‘exemplary Ukrainian operation’ sinking Russian warship off Libya",
             "url": "https://www.foxnews.com/world/zelenskyy-hails-exemplary-ukrainian-operation-sinking-russian-warship-libya"
           },
@@ -1155,7 +1085,7 @@
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 3,
+            "evidenceIndex": 2,
             "headline": "Russian warship sinks off Libya as suspected Ukrainian strikes take war beyond Black Sea",
             "url": "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea"
           }
@@ -1174,10 +1104,10 @@
       "terms": [
         "Russian",
         "Libya",
+        "Ukrainian",
         "Ukraine",
         "Zelenskyy",
-        "Ukrainian",
-        "Ukraine's"
+        "Black Sea"
       ],
       "attempts": [
         {
@@ -1188,10 +1118,10 @@
           "terms": [
             "Russian",
             "Libya",
+            "Ukrainian",
             "Ukraine",
             "Zelenskyy",
-            "Ukrainian",
-            "Ukraine's"
+            "Black Sea"
           ]
         },
         {
@@ -1271,7 +1201,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c1k9k8sn",
+    "id": "c6gdyfv",
     "regions": [
       "Europe",
       "Global"
@@ -1284,246 +1214,46 @@
       },
       "matched": {
         "Europe": [
-          "ukraine",
+          "rome",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-23T20:48:35.000Z",
-    "lastSeen": "2026-11-24T18:38:49.000Z",
+    "firstSeen": "2026-11-23T19:18:06.000Z",
+    "lastSeen": "2026-11-25T14:58:01.000Z",
     "outletCount": 2,
     "outlets": [
-      "BBC News",
-      "Al Jazeera"
+      "Fox News",
+      "Euronews"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.37769320414178764,
-      "max": 0.37769320414178764,
+      "min": 0.4414823047941635,
+      "max": 0.4414823047941635,
       "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "BBC News",
-        "b": "centre",
+        "n": "Fox News",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "What strike on Russian ship in Libya says about spread of Ukraine war",
-        "u": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-23T20:48:35.000Z",
-        "retrievedAt": "2026-11-24T22:09:53.463Z",
+        "t": "Captain who abandoned passengers on sinking Costa Concordia cruise ship released early from prison",
+        "u": "https://www.foxnews.com/world/captain-abandoned-passengers-sinking-costa-concordia-cruise-ship-released-early-prison",
+        "publishedAt": "2026-11-23T19:18:06.000Z",
+        "retrievedAt": "2026-11-25T21:26:20.212Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Anchored in a Mediterranean harbour nearly 2,000 miles from Moscow, the Captain of Russia's corvette Merkury might well have thought his ship was safe from attack.",
-          "This, said Poland's PM Donald Tusk, was \"a deliberate provocation\" by Moscow.",
-          "The audacious and successful night-time attack in Benghazi , co-ordinated by Ukraine's SBU security agency and its armed forces, has raised the obvious question: is the Ukraine war spreading well …"
+          "American Nicholas Taliaferro, who survived the tragedy, told Fox News, \"We have an opportunity to ask ourselves, a very important question was justice truly served? and that question is not …",
+          "Taliaferro said: \"Whether you’re in United States or …"
         ],
         "figures": [],
-        "wordsRead": 785
+        "wordsRead": 390
       },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Is Libya a new front in the Ukraine war?",
-        "u": "https://www.aljazeera.com/video/inside-story/2026/11/24/is-libya-a-new-front-in-the-ukraine-war?traffic_source=rss",
-        "publishedAt": "2026-11-24T18:38:49.000Z",
-        "retrievedAt": "2026-11-24T22:10:40.672Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Ukraine’s President Volodymyr Zelenskyy says two Russian vessels were …"
-        ],
-        "figures": [],
-        "wordsRead": 97
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
-            "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Is Libya a new front in the Ukraine war?",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/11/24/is-libya-a-new-front-in-the-ukraine-war?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Ukraine",
-        "Is Libya",
-        "Russian",
-        "Libya",
-        "What"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c63shvl",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 9
-      },
-      "matched": {
-        "Europe": [
-          "poland",
-          "strasbourg",
-          "europe",
-          "european",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-23T19:00:00.000Z",
-    "lastSeen": "2026-11-24T14:07:35.000Z",
-    "outletCount": 2,
-    "outlets": [
-      "Euronews",
-      "EUobserver"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 2 outlets",
-    "clustering": {
-      "min": 0.3943667449602622,
-      "max": 0.3943667449602622,
-      "pairs": 1,
-      "prunedForCohesion": 0
-    },
-    "sources": [
       {
         "n": "Euronews",
         "b": "centre",
@@ -1531,53 +1261,25 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "European court rules against Poland and Latvia over migrant pushbacks at Belarus border",
-        "u": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border",
-        "publishedAt": "2026-11-24T14:07:35.000Z",
-        "retrievedAt": "2026-11-24T22:10:24.187Z",
+        "t": "Captain of sunken Costa Concordia hired by tourism agency in Sorrento",
+        "u": "https://www.euronews.com/2026/11/25/captain-of-sunken-costa-concordia-hired-by-tourism-agency-in-sorrento",
+        "publishedAt": "2026-11-25T14:58:01.000Z",
+        "retrievedAt": "2026-11-25T21:26:40.913Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Both situations occurred in the context of hostile actions by the Belarusian authorities, described as \" instrumentalisation of migration \".",
-          "The judgment from the European Court of Human Rights concerns separate incidents from 2021, when Belarus facilitated the movement of irregular migrants towards EU borders as a …"
+          "Schettino is reported to have told his lawyer Francesca Carnicelli: \"I can hardly wait to get started.\"",
+          "The former captain of the Costa Concordia, the cruise ship that ran aground and then sank …"
         ],
         "figures": [],
-        "wordsRead": 470
-      },
-      {
-        "n": "EUobserver",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "As people die in the forests, Europe asks its human-rights court to bless pushbacks to Belarus",
-        "u": "https://euobserver.com/250759/as-people-die-in-the-forests-europe-asks-its-human-rights-court-to-bless-pushbacks-to-belarus/",
-        "publishedAt": "2026-11-23T19:00:00.000Z",
-        "retrievedAt": "2026-11-24T22:10:27.245Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Instead, Castaneda said a Lithuanian border guard had placed a taser to the back of her head and walked her back into the freezing forest in …"
-        ],
-        "figures": [],
-        "wordsRead": 269
+        "wordsRead": 336
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "EUobserver",
-            "outletId": "euobserver",
-            "lean": "lean_left",
-            "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "As people die in the forests, Europe asks its human-rights court to bless pushbacks to Belarus",
-            "url": "https://euobserver.com/250759/as-people-die-in-the-forests-europe-asks-its-human-rights-court-to-bless-pushbacks-to-belarus/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -1589,9 +1291,9 @@
             "outletId": "euronews",
             "lean": "centre",
             "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "European court rules against Poland and Latvia over migrant pushbacks at Belarus border",
-            "url": "https://www.euronews.com/2026/11/24/european-court-rules-against-poland-and-latvia-over-migrant-pushbacks-at-belarus-border"
+            "evidenceIndex": 1,
+            "headline": "Captain of sunken Costa Concordia hired by tourism agency in Sorrento",
+            "url": "https://www.euronews.com/2026/11/25/captain-of-sunken-costa-concordia-hired-by-tourism-agency-in-sorrento"
           }
         ],
         "status": "sourced",
@@ -1600,8 +1302,18 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Captain who abandoned passengers on sinking Costa Concordia cruise ship released early from prison",
+            "url": "https://www.foxnews.com/world/captain-abandoned-passengers-sinking-costa-concordia-cruise-ship-released-early-prison"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
@@ -1613,394 +1325,9 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Belarus",
-        "European",
-        "Poland",
-        "Latvia",
-        "Europe"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "cp5ij2z",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 1,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Canada": [
-          "(an outlet from the region covered it)"
-        ],
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-24T20:36:38.000Z",
-    "lastSeen": "2026-11-24T21:51:47.000Z",
-    "outletCount": 8,
-    "outlets": [
-      "BBC News",
-      "New York Post",
-      "The Daily Caller",
-      "Globe and Mail",
-      "Euronews",
-      "Al Jazeera",
-      "Arab News",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 8 outlets",
-    "clustering": {
-      "min": 0.3680256696285838,
-      "max": 0.8860876948431724,
-      "pairs": 24,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-        "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-24T21:32:34.000Z",
-        "retrievedAt": "2026-11-24T22:09:53.463Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a statement, Huawei said the racketeering acquittal \"confirms that these allegations lack factual basis and vindicates our consistent position over the past eight years\".",
-          "\"If I know Huawei, that fight will continue, and the company's not going to rest until …"
-        ],
-        "figures": [],
-        "wordsRead": 415
-      },
-      {
-        "n": "New York Post",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets",
-        "u": "https://nypost.com/2026/11/24/business/jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets/",
-        "publishedAt": "2026-11-24T21:49:30.000Z",
-        "retrievedAt": "2026-11-24T22:10:00.224Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The tone was set at the top by Huawei leaders and executives who themselves engaged in criminal conduct, like lying to Congress, lying to banks, violating US sanctions and trying …",
-          "In his closing argument to jurors, Huawei lawyer Brian Heberlig said prosecutors leaned on “innuendo and facts ripped out of context,” and testimony from ex-employees “with a bone to pick,” …",
-          "“Huawei didn’t steal its way to success,” …"
-        ],
-        "figures": [],
-        "wordsRead": 695
-      },
-      {
-        "n": "The Daily Caller",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Chinese Telecom Giant Huawei Found Guilty Of Stealing US Trade Secrets, Bank Fraud",
-        "u": "https://dailycaller.com/2026/11/24/chinese-telecom-giant-huawei-guilty-of-stealing-us-trade-secrets-bank-fraud",
-        "publishedAt": "2026-11-24T21:32:41.000Z",
-        "retrievedAt": "2026-11-24T22:10:01.532Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Huawei has denied all wrongdoing and ties to the Chinese Communist Party (CCP), while its products have been effectively banned in the U.S. since 2019."
-        ],
-        "figures": [],
-        "wordsRead": 272
-      },
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Huawei guilty of conspiracy to steal trade secrets, U.S. jury finds",
-        "u": "https://www.theglobeandmail.com/world/article-huawei-conspiracy-trade-secrets/",
-        "publishedAt": "2026-11-24T21:39:27.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The allegations that the government made in this case overreached and simply weren’t consistent with the successful, innovative and hardworking company that we came to know and deeply respect,” Heberlig …",
-          "“The tone was set at the top by Huawei leaders and executives who themselves engaged in criminal conduct, like lying to Congress, lying to banks, violating U.S. sanctions and trying …",
-          "Its smartphones and other telecom equipment are sold globally."
-        ],
-        "figures": [],
-        "wordsRead": 820
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Tech giant Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-        "u": "https://www.euronews.com/2026/11/24/tech-giant-huawei-found-guilty-of-stealing-trade-secrets-but-acquitted-of-racketeering",
-        "publishedAt": "2026-11-24T21:51:47.000Z",
-        "retrievedAt": "2026-11-24T22:10:24.187Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a statement, Huawei said the acquittal on the racketeering charge \"confirms that these allegations lack factual basis and vindicates our consistent position over the …"
-        ],
-        "figures": [],
-        "wordsRead": 255
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Chinese tech giant Huawei found guilty of conspiracy to steal trade secrets",
-        "u": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-        "publishedAt": "2026-11-24T21:43:34.000Z",
-        "retrievedAt": "2026-11-24T22:10:40.672Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“That was the only count that brought all of the allegations together,” and the jury rejected it, he said outside court, saying that the verdict “repudiated the central government narrative …",
-          "He said Huawei succeeded through “hard work, innovation, and investment in research and development”.",
-          "Huawei lawyer Brian Heberlig said the company would appeal the convictions but saw the racketeering conspiracy acquittal as vindication."
-        ],
-        "figures": [],
-        "wordsRead": 739
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US jury convicts China tech giant Huawei of stealing trade secrets: media",
-        "u": "https://www.arabnews.com/world/us-jury-convicts-china-tech-giant-huawei-of-stealing-trade-secrets-media-3013927",
-        "publishedAt": "2026-11-24T20:54:56.000Z",
-        "retrievedAt": "2026-11-24T22:10:43.306Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Huawei guilty on 10 of 12 counts after months-long battle in US courtroom",
-        "u": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
-        "publishedAt": "2026-11-24T20:36:38.000Z",
-        "retrievedAt": "2026-11-24T22:10:46.747Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-            "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 3,
-            "headline": "Huawei guilty of conspiracy to steal trade secrets, U.S. jury finds",
-            "url": "https://www.theglobeandmail.com/world/article-huawei-conspiracy-trade-secrets/"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 4,
-            "headline": "Tech giant Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-            "url": "https://www.euronews.com/2026/11/24/tech-giant-huawei-found-guilty-of-stealing-trade-secrets-but-acquitted-of-racketeering"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "New York Post",
-            "outletId": "nypost",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Jury finds Chinese tech giant Huawei guilty of conspiracy to steal trade secrets",
-            "url": "https://nypost.com/2026/11/24/business/jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets/"
-          },
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "Chinese Telecom Giant Huawei Found Guilty Of Stealing US Trade Secrets, Bank Fraud",
-            "url": "https://dailycaller.com/2026/11/24/chinese-telecom-giant-huawei-guilty-of-stealing-us-trade-secrets-bank-fraud"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "Chinese tech giant Huawei found guilty of conspiracy to steal trade secrets",
-        "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 6,
-        "headline": "US jury convicts China tech giant Huawei of stealing trade secrets: media",
-        "url": "https://www.arabnews.com/world/us-jury-convicts-china-tech-giant-huawei-of-stealing-trade-secrets-media-3013927",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 7,
-        "headline": "Huawei guilty on 10 of 12 counts after months-long battle in US courtroom",
-        "url": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Huawei",
-        "Chinese",
-        "Chinese Telecom Giant Huawei",
-        "Found Guilty Of Stealing",
-        "US Trade Secrets",
-        "Bank Fraud"
+        "Costa Concordia",
+        "Captain",
+        "Sorrento"
       ],
       "attempts": [
         {
@@ -2009,12 +1336,9 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Huawei",
-            "Chinese",
-            "Chinese Telecom Giant Huawei",
-            "Found Guilty Of Stealing",
-            "US Trade Secrets",
-            "Bank Fraud"
+            "Costa Concordia",
+            "Captain",
+            "Sorrento"
           ]
         },
         {
@@ -2094,297 +1418,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cxx4vi5",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-24T12:16:18.000Z",
-    "lastSeen": "2026-11-24T18:20:00.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "BBC News",
-      "Euronews",
-      "JNS",
-      "Al Jazeera",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3805020085045259,
-      "max": 0.650470555753954,
-      "pairs": 8,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "BBC News",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli air strike kills Hamas internal security chief in Gaza",
-        "u": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-24T15:35:53.000Z",
-        "retrievedAt": "2026-11-24T22:09:53.463Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Israeli military said Abu Nahel had \"possessed extensive institutional knowledge\" about Hamas's internal security service - which is responsible for enforcing discipline, protecting infrastructure and rooting out informants - …",
-          "Gaza's interior ministry said Abu Nahel's killing followed what it described as the internal security service's \"important achievements in combating gangs collaborating with the occupation [Israel] and operating in …"
-        ],
-        "figures": [],
-        "wordsRead": 609
-      },
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli strikes kill Hamas security chief and six others in Gaza",
-        "u": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
-        "publishedAt": "2026-11-24T12:16:18.000Z",
-        "retrievedAt": "2026-11-24T22:10:24.187Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Israel's military said it had \"struck terrorists in the area\" of the police station, but did not confirm the strike that is believed to have killed the 17-year-old.",
-          "Israeli airstrikes in the Gaza Strip killed seven people on Tuesday, including …"
-        ],
-        "figures": [],
-        "wordsRead": 401
-      },
-      {
-        "n": "JNS",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "IDF eliminates Hamas internal security chief in Gaza",
-        "u": "https://www.jns.org/news/israel-news/idf-eliminates-hamas-internal-security-chief-in-gaza",
-        "publishedAt": "2026-11-24T12:45:52.000Z",
-        "retrievedAt": "2026-11-24T22:10:39.353Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“We commend the IDF and the Israel Security Agency [Shin Bet] for implementing our government’s offensive policy,” wrote Netanyahu and Katz, adding, “No terrorist will escape the long arm of …",
-          "It said they were conducting a “reconnaissance tour between …"
-        ],
-        "figures": [],
-        "wordsRead": 406
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Senior Hamas security official killed in Israeli drone strikes",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-        "publishedAt": "2026-11-24T18:20:00.000Z",
-        "retrievedAt": "2026-11-24T22:10:40.672Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hamas security chief killed in Israeli air strike on Gaza City",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-        "publishedAt": "2026-11-24T13:28:18.000Z",
-        "retrievedAt": "2026-11-24T22:10:46.747Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "BBC News",
-            "outletId": "bbc",
-            "lean": "centre",
-            "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Israeli air strike kills Hamas internal security chief in Gaza",
-            "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 1,
-            "headline": "Israeli strikes kill Hamas security chief and six others in Gaza",
-            "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "JNS",
-            "outletId": "jns",
-            "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "IDF eliminates Hamas internal security chief in Gaza",
-            "url": "https://www.jns.org/news/israel-news/idf-eliminates-hamas-internal-security-chief-in-gaza"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Senior Hamas security official killed in Israeli drone strikes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 4,
-        "headline": "Hamas security chief killed in Israeli air strike on Gaza City",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Israeli",
-        "Hamas",
-        "Gaza",
-        "Senior Hamas",
-        "Gaza City"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1lh78vs",
+    "id": "cm4l382",
     "regions": [
       "Global"
     ],
@@ -2392,30 +1426,33 @@
       "scores": {
         "Canada": 1,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-22T18:20:36.000Z",
-    "lastSeen": "2026-11-24T22:08:40.000Z",
+    "firstSeen": "2026-11-23T18:47:45.000Z",
+    "lastSeen": "2026-11-25T20:36:41.000Z",
     "outletCount": 5,
     "outlets": [
       "Guardian US",
-      "The Daily Caller",
       "Globe and Mail",
+      "Euronews",
       "Al Jazeera",
-      "Arab News"
+      "South China Morning Post"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 5 outlets",
     "clustering": {
-      "min": 0.36550970119063503,
-      "max": 0.5169082734411292,
-      "pairs": 6,
+      "min": 0.3642719788031124,
+      "max": 0.5289216857964694,
+      "pairs": 11,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -2426,37 +1463,77 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US army maps show projected path of toxic dust from Iowa detonation",
-        "u": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
-        "publishedAt": "2026-11-24T19:35:02.000Z",
-        "retrievedAt": "2026-11-24T22:09:50.496Z",
+        "t": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+        "u": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+        "publishedAt": "2026-11-25T18:24:48.000Z",
+        "retrievedAt": "2026-11-25T21:26:11.276Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The “imminent threat alert” told those up to 20 miles away to remain indoors with windows closed “to avoid airborne lead dust, noise and vibration”.",
-          "He said it was “unanimous judgment” of various government entities that the army “should proceed with an extensively mitigated, carefully controlled detonation”.",
-          "“We are proceeding with the controlled removal in …"
+          "An emergency notification that was sent to phones on Tuesday said that some people within five miles south-west of the plant may be evacuated and warned those up to 20 …",
+          "A local reporter in Iowa , who was live on air when the detonation happened, said he heard “a big boom” and and could “actually visibly see the shockwave coming …",
+          "The army said that the deterioration had “created a new and growing risk of spontaneous, uncontrolled detonation.”"
         ],
         "figures": [],
-        "wordsRead": 553
+        "wordsRead": 959
       },
       {
-        "n": "The Daily Caller",
-        "b": "right",
+        "n": "Guardian US",
+        "b": "lean_left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Army Releases New Map Showing Projected Path Of Toxic Lead Dust Plume",
-        "u": "https://dailycaller.com/2026/11/24/us-army-new-map-lead-dust-plume-iowa-army-ammunition-plant-lead-azide-detonation",
-        "publishedAt": "2026-11-24T17:03:41.000Z",
-        "retrievedAt": "2026-11-24T22:10:01.532Z",
+        "t": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
+        "u": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video",
+        "publishedAt": "2026-11-25T18:30:56.000Z",
+        "retrievedAt": "2026-11-25T21:26:11.276Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "U.S. Army detonates toxic material in Iowa amid health, environmental concerns",
+        "u": "https://www.theglobeandmail.com/world/article-iowa-planned-detonation-lead-azide/",
+        "publishedAt": "2026-11-25T12:17:44.000Z",
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“An uncontrolled detonation of nearly five tons of primary explosive would endanger soldiers, contractors, and the surrounding communities, all without many of the protective measures meant to minimize the risks …",
-          "“A routine monitoring inspection on March 11, 2026, found that decades-old …"
+          "The risk to the surrounding communities was “reduced as close to zero as it’s absolutely humanly possible,” Shirley said.",
+          "“Our water treatment facilities down the Mississippi River and on the Missouri River in particular will be testing periodically, starting in a few hours,” he said, “just to make sure …",
+          "“I don’t think lead danger goes away any time soon,” said Lucy Giehl, who lives nearby in West Burlington."
         ],
         "figures": [],
-        "wordsRead": 421
+        "wordsRead": 908
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Detonation of Iowa explosives 'exceeded expectations,' U.S. Army says",
+        "u": "https://www.theglobeandmail.com/world/video-detonation-of-iowa-explosives-exceeded-expectations-us-army-says/",
+        "publishedAt": "2026-11-25T20:36:41.000Z",
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Smoke rises after controlled detonation of explosives in Iowa",
+        "u": "https://www.theglobeandmail.com/world/video-smoke-rises-after-controlled-detonation-of-explosives-in-iowa/",
+        "publishedAt": "2026-11-25T17:15:55.000Z",
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Globe and Mail",
@@ -2468,15 +1545,15 @@
         "t": "U.S. Army plays down dangers of lead azide detonation in Iowa",
         "u": "https://www.theglobeandmail.com/world/article-lead-azide-iowa-blast-detonation/",
         "publishedAt": "2026-11-24T20:17:08.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
         "read": "full article read; short extracts retained",
         "quotes": [
+          "“It concerns me, but not overly,” said Chris Fullenkamp, 62, who has lived his whole life near the plant.",
           "“Inaction is no longer an option,” said Maj.",
-          "“We don’t believe that the public should be in a panic,” said Acting Secretary of the Army Adam Telle.",
-          "“We just don’t want people out,” he said."
+          "“We don’t believe that the public should be in a panic,” said Acting Secretary of the Army Adam Telle."
         ],
         "figures": [],
-        "wordsRead": 1001
+        "wordsRead": 1050
       },
       {
         "n": "Globe and Mail",
@@ -2488,34 +1565,21 @@
         "t": "U.S. Army to detonate bomb-making chemicals in Iowa",
         "u": "https://www.theglobeandmail.com/world/article-trump-army-bomb-lead-chemicals-iowa/",
         "publishedAt": "2026-11-23T18:47:45.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Today, the 8th circuit decided to let the Army proceed with its plan, and we respect that decision,” Rintelmann said in a statement Monday. ”But the Army created this emergency …",
-          "Sand said in a social media post on Monday that the administration should “make this decision based on the information they have from the people they brought in to do …",
-          "Middletown Mayor Rodney Johnson said the detonation must take place “so we can move on with our lives.”"
-        ],
-        "figures": [],
-        "wordsRead": 1141
+        "retrievedAt": "2026-11-25T21:26:27.305Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Globe and Mail",
+        "n": "Euronews",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "U.S. Army to detonate toxic lead azide in Iowa, bypassing court order",
-        "u": "https://www.theglobeandmail.com/world/article-us-army-toxic-lead-iowa/",
-        "publishedAt": "2026-11-22T18:20:36.000Z",
-        "retrievedAt": "2026-11-24T22:10:09.563Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The Army must perform a controlled detonation to protect the public from the more significant threat from an uncontrolled explosion, and the Army intends to act by November 24, 2026,” …",
-          "“One of the pieces that especially raised our concerns was the lack of prior notice and the fact that many folks, including state officials, did not have any heads-up …"
-        ],
-        "figures": [],
-        "wordsRead": 607
+        "t": "US Army detonates toxic explosives in Iowa despite contamination fears",
+        "u": "https://www.euronews.com/2026/11/25/us-army-detonates-toxic-explosives-in-iowa-despite-contamination-fears",
+        "publishedAt": "2026-11-25T17:55:45.000Z",
+        "retrievedAt": "2026-11-25T21:26:40.913Z",
+        "read": "headline and feed excerpt"
       },
       {
         "n": "Al Jazeera",
@@ -2524,30 +1588,23 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "US Army to detonate more than 4 tonnes of lead azide in Iowa on Wednesday",
-        "u": "https://www.aljazeera.com/news/2026/11/24/us-army-to-detonate-more-than-4-tonnes-of-lead-azide-in-iowa-on-wednesday?traffic_source=rss",
-        "publishedAt": "2026-11-24T20:28:40.000Z",
-        "retrievedAt": "2026-11-24T22:10:40.672Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“Inaction is no longer an option,” Major General Eric Shirley, the army official in charge of the disposal effort, told reporters on Tuesday.",
-          "“I believe, based on the information I’ve been given, that the danger is immediate, and I trust the Army will do everything in its power to protect the people who …",
-          "“You’re just kind of transferring the pollutant from one surface to another,” O’Shaughnessy said."
-        ],
-        "figures": [],
-        "wordsRead": 1184
+        "t": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+        "u": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss",
+        "publishedAt": "2026-11-25T19:41:49.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
+        "read": "headline and feed excerpt"
       },
       {
-        "n": "Arab News",
+        "n": "South China Morning Post",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Army set to detonate entire US stockpile of bomb-making chemicals at Iowa plant",
-        "u": "https://www.arabnews.com/world/army-set-to-detonate-entire-us-stockpile-of-bomb-making-chemicals-at-iowa-plant-3013934",
-        "publishedAt": "2026-11-24T22:08:40.000Z",
-        "retrievedAt": "2026-11-24T22:10:43.306Z",
+        "t": "US Army detonates lead-based explosives in Iowa despite fears of toxic dust",
+        "u": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
+        "publishedAt": "2026-11-25T15:48:57.000Z",
+        "retrievedAt": "2026-11-25T21:27:05.210Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -2562,8 +1619,17 @@
             "lean": "lean_left",
             "country": "US",
             "evidenceIndex": 0,
-            "headline": "US army maps show projected path of toxic dust from Iowa detonation",
-            "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation"
+            "headline": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+            "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide"
+          },
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 1,
+            "headline": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
+            "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video"
           }
         ],
         "status": "sourced",
@@ -2579,6 +1645,33 @@
             "lean": "centre",
             "country": "CA",
             "evidenceIndex": 2,
+            "headline": "U.S. Army detonates toxic material in Iowa amid health, environmental concerns",
+            "url": "https://www.theglobeandmail.com/world/article-iowa-planned-detonation-lead-azide/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Detonation of Iowa explosives 'exceeded expectations,' U.S. Army says",
+            "url": "https://www.theglobeandmail.com/world/video-detonation-of-iowa-explosives-exceeded-expectations-us-army-says/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 4,
+            "headline": "Smoke rises after controlled detonation of explosives in Iowa",
+            "url": "https://www.theglobeandmail.com/world/video-smoke-rises-after-controlled-detonation-of-explosives-in-iowa/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 5,
             "headline": "U.S. Army plays down dangers of lead azide detonation in Iowa",
             "url": "https://www.theglobeandmail.com/world/article-lead-azide-iowa-blast-detonation/"
           },
@@ -2587,18 +1680,18 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 3,
+            "evidenceIndex": 6,
             "headline": "U.S. Army to detonate bomb-making chemicals in Iowa",
             "url": "https://www.theglobeandmail.com/world/article-trump-army-bomb-lead-chemicals-iowa/"
           },
           {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
+            "outlet": "Euronews",
+            "outletId": "euronews",
             "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 4,
-            "headline": "U.S. Army to detonate toxic lead azide in Iowa, bypassing court order",
-            "url": "https://www.theglobeandmail.com/world/article-us-army-toxic-lead-iowa/"
+            "country": "EU",
+            "evidenceIndex": 7,
+            "headline": "US Army detonates toxic explosives in Iowa despite contamination fears",
+            "url": "https://www.euronews.com/2026/11/25/us-army-detonates-toxic-explosives-in-iowa-despite-contamination-fears"
           }
         ],
         "status": "sourced",
@@ -2607,18 +1700,8 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "The Daily Caller",
-            "outletId": "dailycaller",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Army Releases New Map Showing Projected Path Of Toxic Lead Dust Plume",
-            "url": "https://dailycaller.com/2026/11/24/us-army-new-map-lead-dust-plume-iowa-army-ammunition-plant-lead-azide-detonation"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -2632,19 +1715,19 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 5,
-        "headline": "US Army to detonate more than 4 tonnes of lead azide in Iowa on Wednesday",
-        "url": "https://www.aljazeera.com/news/2026/11/24/us-army-to-detonate-more-than-4-tonnes-of-lead-azide-in-iowa-on-wednesday?traffic_source=rss",
+        "evidenceIndex": 8,
+        "headline": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+        "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
         "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 6,
-        "headline": "Army set to detonate entire US stockpile of bomb-making chemicals at Iowa plant",
-        "url": "https://www.arabnews.com/world/army-set-to-detonate-entire-us-stockpile-of-bomb-making-chemicals-at-iowa-plant-3013934",
+        "country": "HK",
+        "evidenceIndex": 9,
+        "headline": "US Army detonates lead-based explosives in Iowa despite fears of toxic dust",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
@@ -2653,10 +1736,10 @@
       "terms": [
         "Iowa",
         "U.S. Army",
-        "Showing Projected Path Of",
-        "Army Releases New Map",
-        "Toxic Lead Dust Plume",
-        "Wednesday"
+        "US Army",
+        "Smoke",
+        "Detonation",
+        "Cloud"
       ],
       "attempts": [
         {
@@ -2667,10 +1750,10 @@
           "terms": [
             "Iowa",
             "U.S. Army",
-            "Showing Projected Path Of",
-            "Army Releases New Map",
-            "Toxic Lead Dust Plume",
-            "Wednesday"
+            "US Army",
+            "Smoke",
+            "Detonation",
+            "Cloud"
           ]
         },
         {
@@ -2750,7 +1833,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c14d3lor",
+    "id": "c1u388vm",
     "regions": [
       "Global"
     ],
@@ -2758,27 +1841,50 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
-      "matched": {}
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-11-24T10:46:01.000Z",
-    "lastSeen": "2026-11-24T20:31:54.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-25T18:43:55.000Z",
+    "lastSeen": "2026-11-25T19:56:45.000Z",
+    "outletCount": 4,
     "outlets": [
+      "Euronews",
       "Al Jazeera",
       "Arab News",
       "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.38982431642120957,
-      "max": 0.6449485214437464,
-      "pairs": 2,
+      "min": 0.42570896653972534,
+      "max": 0.7640636553891497,
+      "pairs": 4,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "At least 30 killed in highway fire in Cairo district",
+        "u": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+        "publishedAt": "2026-11-25T19:56:45.000Z",
+        "retrievedAt": "2026-11-25T21:26:40.913Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "At least 30 people were killed and 15 others injured after a fire broke out on a major highway in the Egyptian …"
+        ],
+        "figures": [],
+        "wordsRead": 227
+      },
       {
         "n": "Al Jazeera",
         "b": "varies",
@@ -2786,22 +1892,29 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Global landmine casualties hit a five-year high, driven by Myanmar, Syria",
-        "u": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss",
-        "publishedAt": "2026-11-24T18:47:05.000Z",
-        "retrievedAt": "2026-11-24T22:10:40.672Z",
+        "t": "Dozens killed in Egypt vehicle fire",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
+        "publishedAt": "2026-11-25T19:41:14.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "At least 30 killed in Egypt vehicle fire, health ministry says",
+        "u": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says?traffic_source=rss",
+        "publishedAt": "2026-11-25T18:55:23.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“Myanmar has gone beyond crisis to catastrophe, and has claimed the ignoble title of top producer of landmine victims for a third year in a row,” said Yeshua Moser-Puangsuwan, a …",
-          "“Syria is huge, but it is a post-war …"
+          "The official spokesman for the Egyptian presidency said that President Abdel Fattah el-Sisi “expresses his sincere condolences and sincere sympathy to the families of the victims” …"
         ],
-        "figures": [
-          {
-            "value": "84 percent",
-            "context": "d civilians were the most affected, making up some 84 percent of the 6,929 casualties recorded in 2025, half of"
-          }
-        ],
-        "wordsRead": 396
+        "figures": [],
+        "wordsRead": 261
       },
       {
         "n": "Arab News",
@@ -2810,29 +1923,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Syria accounts for almost a quarter of global landmine victims in 2025",
-        "u": "https://www.arabnews.com/middle-east/syria-accounts-for-almost-a-quarter-of-global-landmine-victims-in-2025-3013914",
-        "publishedAt": "2026-11-24T20:31:54.000Z",
-        "retrievedAt": "2026-11-24T22:10:43.306Z",
+        "t": "At least 30 killed in blaze after vehicle overturns in Egypt, health ministry says",
+        "u": "https://www.arabnews.com/middle-east/at-least-30-killed-in-blaze-after-vehicle-overturns-in-egypt-health-ministry-says-3014042",
+        "publishedAt": "2026-11-25T18:43:55.000Z",
+        "retrievedAt": "2026-11-25T21:27:01.828Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The engineering department of the Syrian Ministry of Defense said this month it had neutralized more than 315,000 mines and other unexploded ordnance nationwide."
+          "CAIRO: At least 30 people were killed and ​15 injured when a vehicle carrying …"
         ],
-        "figures": [
-          {
-            "value": "23.1 percent",
-            "context": "s of war in the Syrian Arab Republic accounted for 23.1 percent of all such global casualties in 2025. The …"
-          },
-          {
-            "value": "84 percent",
-            "context": "nual global figure was the highest since 2020, and 84 percent the victims were civilians in war-torn countries"
-          },
-          {
-            "value": "50 percent",
-            "context": "ties in Syria represented an increase of more than 50 percent compared with the previous year. The engineering"
-          }
-        ],
-        "wordsRead": 243
+        "figures": [],
+        "wordsRead": 141
       },
       {
         "n": "South China Morning Post",
@@ -2841,10 +1941,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000",
-        "u": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
-        "publishedAt": "2026-11-24T10:46:01.000Z",
-        "retrievedAt": "2026-11-24T22:10:46.747Z",
+        "t": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
+        "publishedAt": "2026-11-25T19:41:27.000Z",
+        "retrievedAt": "2026-11-25T21:27:05.210Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -2859,8 +1959,18 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 0,
+            "headline": "At least 30 killed in highway fire in Cairo district",
+            "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district"
+          }
+        ],
+        "status": "sourced",
         "text": null
       },
       {
@@ -2874,7 +1984,7 @@
     "axis": {
       "applies": false,
       "name": null,
-      "reason": "only 0 of 3 items come from outlets placed on the left-right axis"
+      "reason": "only 1 of 5 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
       {
@@ -2882,9 +1992,19 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "Global landmine casualties hit a five-year high, driven by Myanmar, Syria",
-        "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss",
+        "evidenceIndex": 1,
+        "headline": "Dozens killed in Egypt vehicle fire",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "At least 30 killed in Egypt vehicle fire, health ministry says",
+        "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2892,9 +2012,9 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 1,
-        "headline": "Syria accounts for almost a quarter of global landmine victims in 2025",
-        "url": "https://www.arabnews.com/middle-east/syria-accounts-for-almost-a-quarter-of-global-landmine-victims-in-2025-3013914",
+        "evidenceIndex": 3,
+        "headline": "At least 30 killed in blaze after vehicle overturns in Egypt, health ministry says",
+        "url": "https://www.arabnews.com/middle-east/at-least-30-killed-in-blaze-after-vehicle-overturns-in-egypt-health-ministry-says-3014042",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -2902,18 +2022,19 @@
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 2,
-        "headline": "Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
+        "evidenceIndex": 4,
+        "headline": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Syria",
-        "Myanmar",
-        "Global"
+        "Egypt",
+        "Cairo",
+        "Massive",
+        "Dozens"
       ],
       "attempts": [
         {
@@ -2986,29 +2107,7 @@
       "primary": [],
       "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
     },
-    "disputedCandidates": [
-      {
-        "kind": "count",
-        "about": [
-          "unexploded",
-          "ordnance"
-        ],
-        "spread": 1,
-        "readings": [
-          {
-            "outlet": "Arab News",
-            "value": "315,000 m",
-            "url": "https://www.arabnews.com/middle-east/syria-accounts-for-almost-a-quarter-of-global-landmine-victims-in-2025-3013914"
-          },
-          {
-            "outlet": "South China Morning Post",
-            "value": "7,000",
-            "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000"
-          }
-        ],
-        "note": "Automated numeric-disagreement check. Confirm against the sources before this becomes a `disputed` entry."
-      }
-    ],
+    "disputedCandidates": [],
     "headline": null,
     "sub": null,
     "cat": null,
@@ -3021,7 +2120,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cp8b94p",
+    "id": "cdd1ycj",
     "regions": [
       "Global"
     ],
@@ -3029,59 +2128,77 @@
       "scores": {
         "Canada": 0,
         "India": 0,
-        "Europe": 0
+        "Europe": 1
       },
-      "matched": {}
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
     },
-    "firstSeen": "2026-11-24T17:27:03.000Z",
-    "lastSeen": "2026-11-24T22:01:25.000Z",
+    "firstSeen": "2026-11-25T16:26:35.000Z",
+    "lastSeen": "2026-11-25T19:15:01.000Z",
     "outletCount": 3,
     "outlets": [
-      "Fox News",
-      "Haaretz",
+      "Al Jazeera",
+      "Middle East Eye",
       "Arab News"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.372299808852725,
-      "max": 0.5482056166799886,
+      "min": 0.43220171847768085,
+      "max": 0.8333564876865749,
       "pairs": 2,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Fox News",
-        "b": "right",
+        "n": "Al Jazeera",
+        "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Israel raises prospect of preemptive strike over emerging Iranian chemical weapons threat",
-        "u": "https://www.foxnews.com/world/israel-raises-prospect-preemptive-strike-emerging-iranian-chemical-weapons-threat",
-        "publishedAt": "2026-11-24T22:01:25.000Z",
-        "retrievedAt": "2026-11-24T22:09:58.930Z",
+        "t": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+        "u": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
+        "publishedAt": "2026-11-25T19:15:01.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"Iran is in the process of developing chemical weapons,\" Katz said, according to Israel's i24NEWS .",
-          "\"This intelligence information reached both the United States and Israel,\" he said.",
-          "\"They came out of the tunnels and saw what happened to them,\" Katz said of Iranian forces following the April ceasefire, according to comments …"
+          "Britain’s Ministry of Defence (MoD) says it takes “the security of our bases, equipment and personnel very seriously,” after media outlets reported the Royal Air Force (RAF) had taken new …",
+          "The MoD said it was investing an additional 470 million pounds ($615m) “to strengthen security at military sites, including better physical protection, surveillance and counter-drone capabilities”, and that 15 million …",
+          "The MoD did not …"
         ],
         "figures": [],
-        "wordsRead": 524
+        "wordsRead": 660
       },
       {
-        "n": "Haaretz",
+        "n": "Middle East Eye",
         "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Katz says Iran is developing chemical weapons and plotting to kill Trump",
-        "u": "https://www.haaretz.com/israel-news/israel-security/2026-11-24/ty-article/.premium/katz-says-iran-is-developing-chemical-weapons-and-plotting-to-kill-trump/000001a2-0e94-dba8-adea-3e9e70230000",
-        "publishedAt": "2026-11-24T17:27:03.000Z",
-        "retrievedAt": "2026-11-24T22:10:36.534Z",
-        "read": "headline and feed excerpt"
+        "t": "UK moving military planes into hangars amid drone threat: reports",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-moving-military-planes-hangars-amid-drone-threat-reports",
+        "publishedAt": "2026-11-25T18:05:10.000Z",
+        "retrievedAt": "2026-11-25T21:27:00.439Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Ministry of Defence did not confirm the reports, but in a statement …"
+        ],
+        "figures": [
+          {
+            "value": "£470 million",
+            "context": "The ministry said it was \"investing an additional £470 million ($615 million) to strengthen security at military"
+          },
+          {
+            "value": "$615 million",
+            "context": "aid it was \"investing an additional £470 million ($615 million) to strengthen security at military sites, includ"
+          }
+        ],
+        "wordsRead": 138
       },
       {
         "n": "Arab News",
@@ -3090,10 +2207,10 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Israeli defense minister says Iran developing chemical weapons: local media",
-        "u": "https://www.arabnews.com/middle-east/israeli-defense-minister-says-iran-developing-chemical-weapons-local-media-3013904",
-        "publishedAt": "2026-11-24T18:19:00.000Z",
-        "retrievedAt": "2026-11-24T22:10:43.306Z",
+        "t": "UK moving military planes into hangars to guard from drones: reports",
+        "u": "https://www.arabnews.com/world/uk-moving-military-planes-into-hangars-to-guard-from-drones-reports-3014025",
+        "publishedAt": "2026-11-25T16:26:35.000Z",
+        "retrievedAt": "2026-11-25T21:27:01.828Z",
         "read": "headline and feed excerpt"
       }
     ],
@@ -3103,13 +2220,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
             "lean": "left",
-            "country": "IL",
+            "country": "UK",
             "evidenceIndex": 1,
-            "headline": "Katz says Iran is developing chemical weapons and plotting to kill Trump",
-            "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-24/ty-article/.premium/katz-says-iran-is-developing-chemical-weapons-and-plotting-to-kill-trump/000001a2-0e94-dba8-adea-3e9e70230000"
+            "headline": "UK moving military planes into hangars amid drone threat: reports",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-moving-military-planes-hangars-amid-drone-threat-reports"
           }
         ],
         "status": "sourced",
@@ -3125,18 +2242,502 @@
       {
         "side": "right",
         "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 0,
+        "headline": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+        "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 2,
+        "headline": "UK moving military planes into hangars to guard from drones: reports",
+        "url": "https://www.arabnews.com/world/uk-moving-military-planes-into-hangars-to-guard-from-drones-reports-3014025",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cfyw3np",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-25T16:44:22.000Z",
+    "lastSeen": "2026-11-25T21:02:37.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "BBC News",
+      "Al Jazeera",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.36357337033590376,
+      "max": 0.568738823712124,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+        "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-25T18:41:33.000Z",
+        "retrievedAt": "2026-11-25T21:26:14.526Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "De la Espriella described it as \"an extraordinary joint operation\", which he said had been carried out \"flawlessly\".",
+          "\"It's not that a terrorist group carried out a kidnapping - no, these are criminals who were caught off guard, had no way out and then kidnapped a group of …",
+          "\"We had just started our shift when some guys dressed as police officers came in and started robbing the place,\" he said."
+        ],
+        "figures": [],
+        "wordsRead": 825
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Colombian forces rescue all hostages after supermarket siege",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
+        "publishedAt": "2026-11-25T16:44:22.000Z",
+        "retrievedAt": "2026-11-25T21:26:59.070Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Colombia police reveal 76 hostages were caught in supermarket siege",
+        "u": "https://www.arabnews.com/world/colombia-police-reveal-76-hostages-were-caught-in-supermarket-siege-3014058",
+        "publishedAt": "2026-11-25T21:02:37.000Z",
+        "retrievedAt": "2026-11-25T21:27:01.828Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
         "outlets": [
           {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
             "evidenceIndex": 0,
-            "headline": "Israel raises prospect of preemptive strike over emerging Iranian chemical weapons threat",
-            "url": "https://www.foxnews.com/world/israel-raises-prospect-preemptive-strike-emerging-iranian-chemical-weapons-threat"
+            "headline": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+            "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
           }
         ],
         "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 3 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Colombian forces rescue all hostages after supermarket siege",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 2,
+        "headline": "Colombia police reveal 76 hostages were caught in supermarket siege",
+        "url": "https://www.arabnews.com/world/colombia-police-reveal-76-hostages-were-caught-in-supermarket-siege-3014058",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Colombian",
+        "Colombia"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cj32xyb",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-25T09:27:55.000Z",
+    "lastSeen": "2026-11-25T21:22:30.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "BBC News",
+      "Middle East Eye",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.37396191467454,
+      "max": 0.6141562496439643,
+      "pairs": 3,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israeli strike kills senior Hamas security official and family in Gaza City",
+        "u": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-25T14:06:13.000Z",
+        "retrievedAt": "2026-11-25T21:26:14.526Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Israeli military said Abu al-Ouf was a \"terrorist\" and that he was eliminated \"to remove the threat he posed\".",
+          "Israel's military said in a statement that Abu al-Ouf was a \"significant figure\" who had served as \"a key source …"
+        ],
+        "figures": [],
+        "wordsRead": 409
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israeli drone strike on Gaza kills three",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-gaza-kills-three",
+        "publishedAt": "2026-11-25T21:22:30.000Z",
+        "retrievedAt": "2026-11-25T21:27:00.439Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israel kills security official and family in Gaza, as UN warns of 'real threat' to Palestinian existence",
+        "u": "https://www.middleeasteye.net/news/israeli-kills-gaza-security-official-wife-daughters-un-warns-real-threat-palestinian-existence",
+        "publishedAt": "2026-11-25T13:28:20.000Z",
+        "retrievedAt": "2026-11-25T21:27:00.439Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The Ministry of Interior and National Security condemns this heinous crime against security personnel and affirms that it comes within the context of ongoing attempts to undermine the security apparatus …",
+          "“Across society, the incitement to hatred and to perpetration of violations amounting to atrocity crimes - war crimes, crimes against humanity and even genocide - …"
+        ],
+        "figures": [],
+        "wordsRead": 562
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
+        "publishedAt": "2026-11-25T09:27:55.000Z",
+        "retrievedAt": "2026-11-25T21:27:05.210Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 1,
+            "headline": "Israeli drone strike on Gaza kills three",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-gaza-kills-three"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 2,
+            "headline": "Israel kills security official and family in Gaza, as UN warns of 'real threat' to Palestinian existence",
+            "url": "https://www.middleeasteye.net/news/israeli-kills-gaza-security-official-wife-daughters-un-warns-real-threat-palestinian-existence"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Israeli strike kills senior Hamas security official and family in Gaza City",
+            "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
@@ -3146,40 +2747,226 @@
     },
     "offAxis": [
       {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
         "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 2,
-        "headline": "Israeli defense minister says Iran developing chemical weapons: local media",
-        "url": "https://www.arabnews.com/middle-east/israeli-defense-minister-says-iran-developing-chemical-weapons-local-media-3013904",
+        "country": "HK",
+        "evidenceIndex": 3,
+        "headline": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Iran",
-        "Iranian",
         "Israeli",
-        "Israel",
-        "Trump",
-        "Katz"
+        "Gaza",
+        "Hamas",
+        "Palestinian",
+        "Gaza City",
+        "Israel"
       ],
       "attempts": [
         {
           "source": "federal-register",
           "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Iran",
-            "Iranian",
-            "Israeli",
-            "Israel",
-            "Trump",
-            "Katz"
-          ]
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c15uof4q",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {}
+    },
+    "firstSeen": "2026-11-25T10:59:19.000Z",
+    "lastSeen": "2026-11-25T16:01:25.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.859223242350414,
+      "max": 0.859223242350414,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "9 dead, 17 believed trapped after flood hits an unauthorized gold mine in Indonesia",
+        "u": "https://www.arabnews.com/world/9-dead-17-believed-trapped-after-flood-hits-an-unauthorized-gold-mine-in-indonesia-3014020",
+        "publishedAt": "2026-11-25T16:01:25.000Z",
+        "retrievedAt": "2026-11-25T21:27:01.828Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
+        "u": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+        "publishedAt": "2026-11-25T10:59:19.000Z",
+        "retrievedAt": "2026-11-25T21:27:05.210Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 0 of 2 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 0,
+        "headline": "9 dead, 17 believed trapped after flood hits an unauthorized gold mine in Indonesia",
+        "url": "https://www.arabnews.com/world/9-dead-17-believed-trapped-after-flood-hits-an-unauthorized-gold-mine-in-indonesia-3014020",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 1,
+        "headline": "9 dead, 17 trapped in Indonesia after illegal gold mine floods",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Indonesia"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
         },
         {
           "source": "csis-canada",
