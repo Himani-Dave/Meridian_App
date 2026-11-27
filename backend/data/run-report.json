@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-26T21:12:36.074Z",
-  "finishedAt": "2026-11-26T21:16:21.175Z",
+  "startedAt": "2026-11-27T20:56:02.905Z",
+  "finishedAt": "2026-11-27T21:01:01.265Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,16 +17,16 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1002,
-    "totalItems": 1018,
-    "clusters": 926,
+    "rssItems": 1210,
+    "totalItems": 1209,
+    "clusters": 1110,
     "candidates": 12,
     "articlesRead": 37
   },
   "balance": {
-    "left": 6,
-    "centre": 10,
-    "right": 6,
+    "left": 10,
+    "centre": 9,
+    "right": 7,
     "none": 0
   },
   "regionFill": {
@@ -37,26 +37,24 @@
     },
     "India": {
       "quota": 3,
-      "filled": 0,
-      "availableInRegion": 0
+      "filled": 3,
+      "availableInRegion": 9
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 5
+      "availableInRegion": 9
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 35
+      "availableInRegion": 50
     }
   },
   "starvedSides": [],
   "notes": [
-    "GDELT \"Canada federal\": 100 articles, 21 from roster outlets, 79 from outlets not in the roster (discovery only, not ingested).",
-    "23 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere.",
-    "Region \"India\": wanted 3 stories, only 0 available. The briefing must say so rather than substitute stories from elsewhere."
+    "38 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -151,17 +149,8 @@
     },
     {
       "layer": "discovery",
-      "source": "Washington Times",
-      "id": "washtimes",
-      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "discovery",
-      "source": "Indian Express",
-      "id": "indianexp",
-      "url": "https://indianexpress.com/feed/",
-      "reason": "HTTP 403"
+      "source": "GDELT: Canada federal",
+      "reason": "timeout after 20000ms"
     },
     {
       "layer": "discovery",
@@ -175,8 +164,20 @@
     },
     {
       "layer": "article",
-      "source": "CBC News",
-      "url": "https://www.cbc.ca/news/politics/pentagon-criticizes-canadian-military-readiness-9.7433335",
+      "source": "Western Standard",
+      "url": "https://www.westernstandard.news/canadian/breaking-supreme-court-upholds-quebecs-secularism-law/79108",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/27/norse-atlantic-airways-idle-thanksgiving-aims-bankruptcy/",
       "reason": "HTTP 403"
     },
     {
@@ -187,51 +188,57 @@
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3375961/french-actor-gerard-depardieu-stand-trial-rape-after-paris-court-rejects-appeal",
+      "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/saudi-arabia/houthi-attack-on-saudi-arabias-jazan-refinery-kills-nepali-worker-3014153",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Arab News",
-      "url": "https://www.arabnews.com/football/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information-3014182",
+      "source": "Organiser",
+      "url": "https://organiser.org/2026/11/27/429348/international/cyber-attack-hits-us-air-force-cloud-platform-sensitive-military-data-and-operations-potentially-exposed-to-hackers/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-25/ty-article/.premium/netanyahu-says-truth-has-come-to-light-after-judges-urge-dropping-key-charges/000001a2-13a7-d577-a3ea-bfefd5bc0000",
+      "url": "https://www.haaretz.com/us-news/2026-11-27/ty-article/hackers-breach-one-of-pentagons-top-systems-access-u-s-air-force-data-radars/000001a2-1ce1-d0a2-afb7-5efbaab20000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3375926/tai-po-fire-remembering-victims",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
       "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/27/pakistan-hosting-defense-talks-saudi-arabia-turkey-mecca-pact/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Washington Times",
+      "url": "https://www.washingtontimes.com/news/2026/nov/27/us-military-says-disabled-another-ship-attempted-breach-naval/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/middle-east/son-of-hamas-chief-survives-israeli-strike-hamas-says-3014272",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
 }
