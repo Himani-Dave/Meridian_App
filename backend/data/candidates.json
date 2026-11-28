@@ -1,47 +1,39 @@
 [
   {
-    "id": "c77osxm",
+    "id": "c194jk7m",
     "regions": [
       "Canada",
       "Global"
     ],
     "regionEvidence": {
       "scores": {
-        "Canada": 13,
+        "Canada": 6,
         "India": 0,
         "Europe": 1
       },
       "matched": {
         "Canada": [
           "canada",
-          "ottawa",
-          "quebec",
-          "ontario",
-          "(an outlet from the region covered it)"
+          "quebec"
         ],
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-27T14:57:31.000Z",
+    "firstSeen": "2026-11-27T16:53:46.000Z",
     "lastSeen": "2026-11-27T20:43:00.000Z",
-    "outletCount": 7,
+    "outletCount": 2,
     "outlets": [
       "BBC News",
-      "Western Standard",
-      "Deutsche Welle",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News",
-      "South China Morning Post"
+      "Deutsche Welle"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 7 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3759355956608159,
-      "max": 0.8162785956211408,
-      "pairs": 14,
+      "min": 0.5905583172901259,
+      "max": 0.5905583172901259,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -55,7 +47,7 @@
         "t": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
         "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-27T16:53:46.000Z",
-        "retrievedAt": "2026-11-27T20:56:11.150Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Reacting to the ruling on CBC, Prime Minister Mark Carney said his government would study its implications, adding it was important for all legislatures \"to respect the rights and liberties …",
@@ -63,19 +55,6 @@
         ],
         "figures": [],
         "wordsRead": 586
-      },
-      {
-        "n": "Western Standard",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UPDATED: Supreme Court upholds Quebec's secularism law",
-        "u": "https://www.westernstandard.news/canadian/breaking-supreme-court-upholds-quebecs-secularism-law/79108",
-        "publishedAt": "2026-11-27T14:57:31.000Z",
-        "retrievedAt": "2026-11-27T20:56:25.726Z",
-        "read": "headline and feed excerpt"
       },
       {
         "n": "Deutsche Welle",
@@ -87,117 +66,22 @@
         "t": "Canada: Supreme Court largely upholds Quebec secularism bill",
         "u": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-rdf",
         "publishedAt": "2026-11-27T20:43:00.000Z",
-        "retrievedAt": "2026-11-27T20:56:42.571Z",
+        "retrievedAt": "2026-11-28T19:46:52.293Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "Chief Justice Richard Wagner said that the law \"is rooted in Quebec's legitimate and historical commitment to ensuring the (secularism) of the state in a free and democratic society.\"",
-          "\"This is a victory for the Quebec nation and for [CAQ], whose actions …"
+          "\"This is a victory for the Quebec nation and for [CAQ], whose actions have today been fully validated,\" …"
         ],
         "figures": [],
-        "wordsRead": 425
-      },
-      {
-        "n": "Al Jazeera",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-        "u": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
-        "publishedAt": "2026-11-27T15:15:36.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Speaking after the ruling, NCCM’s chief executive Stephen Brown said, “ In our country, in the 21st century, entire categories of people are now barred from entire sectors of employment …",
-          "The Canadian Civil Liberties Association, which also challenged Bill 21, said the ruling “sends a message that even shielded laws cannot escape scrutiny entirely”.",
-          "“But for the people this law affects every day, that door remains closed,” said the CCLA."
-        ],
-        "figures": [],
-        "wordsRead": 1169
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada's Supreme Court upholds law banning hijabs in Quebec public sector",
-        "u": "https://www.middleeasteye.net/news/canadas-supreme-court-upholds-law-banning-hijabs-quebec-public-sector",
-        "publishedAt": "2026-11-27T18:04:59.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Former Prime Minister Justin Trudeau said in 2022 that Canada's charter \"cannot become a suggestion\".",
-          "\"Once invoked, the notwithstanding clause prevents a court from declaring that legislation covered by a section 33 declaration is of no force or effect, despite any inconsistency in the legislation …",
-          "Quebec's population is 5 percent Muslim , according to the last census carried out in 2021."
-        ],
-        "figures": [
-          {
-            "value": "5 percent",
-            "context": "Sikhs and other minorities. Quebec's population is 5 percent Muslim , according to the last census carried out"
-          },
-          {
-            "value": "71%",
-            "context": "rly Muslim women who wear the hijab. In one study, 71% of Muslim women surveyed had considered leaving Q"
-          },
-          {
-            "value": "$3.2 billion",
-            "context": ", with the province standing to lose an estimated $3.2 billion in income. It may also open the door for …"
-          }
-        ],
-        "wordsRead": 784
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada’s top court upholds Quebec law banning religious symbols in test of unity",
-        "u": "https://www.arabnews.com/world/canadas-top-court-upholds-quebec-law-banning-religious-symbols-in-test-of-unity-3014317",
-        "publishedAt": "2026-11-27T20:05:07.000Z",
-        "retrievedAt": "2026-11-27T20:56:58.410Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In its ruling, Canada’s top court confirmed the validity ⁠of Bill 21, saying ⁠it is “rooted in Quebec’s legitimate and historical commitment to ensuring the laicity of the state in …",
-          "In a post on X, Mathieu Levesque, interim leader of the Coalition Avenir Quebec (CAQ), the Quebec provincial party that passed Bill 21, said the ruling was “a victory for …"
-        ],
-        "figures": [],
-        "wordsRead": 650
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
-        "publishedAt": "2026-11-27T20:25:58.000Z",
-        "retrievedAt": "2026-11-27T20:57:01.883Z",
-        "read": "headline and feed excerpt"
+        "wordsRead": 474
       }
     ],
     "views": [
       {
         "side": "left",
         "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 4,
-            "headline": "Canada's Supreme Court upholds law banning hijabs in Quebec public sector",
-            "url": "https://www.middleeasteye.net/news/canadas-supreme-court-upholds-law-banning-hijabs-quebec-public-sector"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
@@ -218,7 +102,7 @@
             "outletId": "dw",
             "lean": "centre",
             "country": "DE",
-            "evidenceIndex": 2,
+            "evidenceIndex": 1,
             "headline": "Canada: Supreme Court largely upholds Quebec secularism bill",
             "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-rdf"
           }
@@ -229,66 +113,439 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Western Standard",
-            "outletId": "westernstd",
-            "lean": "right",
-            "country": "CA",
-            "evidenceIndex": 1,
-            "headline": "UPDATED: Supreme Court upholds Quebec's secularism law",
-            "url": "https://www.westernstandard.news/canadian/breaking-supreme-court-upholds-quebecs-secularism-law/79108"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Quebec",
+        "Supreme Court",
+        "Canada's",
+        "Canada"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c14gdukp",
+    "regions": [
+      "Canada",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 4,
+        "India": 0,
+        "Europe": 0
+      },
+      "matched": {
+        "Canada": [
+          "canada",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-26T19:45:00Z",
+    "lastSeen": "2026-11-27T01:45:00Z",
+    "outletCount": 2,
+    "outlets": [
+      "CBC News",
+      "Globe and Mail"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.7340924003062078,
+      "max": 0.7340924003062078,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "CBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Canada puts more money down on F - 35s as fighter review drags on",
+        "u": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398",
+        "publishedAt": "2026-11-26T19:45:00Z",
+        "retrievedAt": "2026-11-28T19:47:44.981Z",
+        "read": "headline only"
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Politics Insider : Canada puts money down for more F - 35s",
+        "u": "https://www.theglobeandmail.com/politics/article-politics-insider-canada-puts-money-down-for-more-f-35s/",
+        "publishedAt": "2026-11-27T01:45:00Z",
+        "retrievedAt": "2026-11-28T19:47:44.981Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Meanwhile, Conservative Leader Pierre Poilievre also said Thursday that his party now opposes C-39.",
+          "In the rural New Brunswick community of Notre-Dame, Justice Minister Sean Fraser , also the minister responsible for the Atlantic Canada Opportunities Agency, visited an equipment-manufacturing company and announced a …",
+          "In Toronto, Rechie Valdez, the minister of women and gender equality, announced support for crisis hotlines across Ontario."
+        ],
+        "figures": [],
+        "wordsRead": 984
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "CBC News",
+            "outletId": "cbc",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Canada puts more money down on F - 35s as fighter review drags on",
+            "url": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Politics Insider : Canada puts money down for more F - 35s",
+            "url": "https://www.theglobeandmail.com/politics/article-politics-insider-canada-puts-money-down-for-more-f-35s/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Canada",
+        "Politics Insider"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c4zi7ts",
+    "regions": [
+      "India",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 4,
+        "Europe": 0
+      },
+      "matched": {
+        "India": [
+          "india",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-28T06:30:21.000Z",
+    "lastSeen": "2026-11-28T08:44:00.000Z",
+    "outletCount": 2,
+    "outlets": [
+      "Scroll.in",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 2 outlets",
+    "clustering": {
+      "min": 0.474140352143946,
+      "max": 0.474140352143946,
+      "pairs": 1,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Scroll.in",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "FSSAI found coliform bacteria in Bisleri bottled water sample, reports Reuters",
+        "u": "https://scroll.in/latest/1097395/fssai-found-coliform-bacteria-in-bisleri-bottled-water-sample-reports-reuters?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-28T08:44:00.000Z",
+        "retrievedAt": "2026-11-28T19:46:36.331Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "This came after the food regulator on November 22 said that another sample from Bisleri was “non-compliant” with prescribed bromate limits and contained polynuclear aromatic hydrocarbons.",
+          "“The primary and referral laboratories reported the presence of coliform …"
+        ],
+        "figures": [],
+        "wordsRead": 361
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "India finds unsafe Bisleri sample due to bacteria amid bottled water crackdown",
+        "u": "https://www.scmp.com/news/asia/south-asia/article/3376119/india-finds-unsafe-bisleri-sample-due-bacteria-amid-bottled-water-crackdown",
+        "publishedAt": "2026-11-28T06:30:21.000Z",
+        "retrievedAt": "2026-11-28T19:47:11.701Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Scroll.in",
+            "outletId": "scroll-in",
+            "lean": "left",
+            "country": "IN",
+            "evidenceIndex": 0,
+            "headline": "FSSAI found coliform bacteria in Bisleri bottled water sample, reports Reuters",
+            "url": "https://scroll.in/latest/1097395/fssai-found-coliform-bacteria-in-bisleri-bottled-water-sample-reports-reuters?utm_source=rss&utm_medium=public"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 2 items come from outlets placed on the left-right axis"
     },
     "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-        "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 5,
-        "headline": "Canada’s top court upholds Quebec law banning religious symbols in test of unity",
-        "url": "https://www.arabnews.com/world/canadas-top-court-upholds-quebec-law-banning-religious-symbols-in-test-of-unity-3014317",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
       {
         "outlet": "South China Morning Post",
         "outletId": "scmp",
         "lean": "varies",
         "country": "HK",
-        "evidenceIndex": 6,
-        "headline": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
+        "evidenceIndex": 1,
+        "headline": "India finds unsafe Bisleri sample due to bacteria amid bottled water crackdown",
+        "url": "https://www.scmp.com/news/asia/south-asia/article/3376119/india-finds-unsafe-bisleri-sample-due-bacteria-amid-bottled-water-crackdown",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Quebec",
-        "Canada",
-        "Supreme Court",
-        "Canada's Supreme Court",
-        "Canada's",
-        "Quebec's"
+        "Bisleri",
+        "Reuters",
+        "FSSAI",
+        "India"
       ],
       "attempts": [
         {
@@ -374,7 +631,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c8tsenb",
+    "id": "c6paga8",
     "regions": [
       "India",
       "Global"
@@ -382,534 +639,32 @@
     "regionEvidence": {
       "scores": {
         "Canada": 0,
-        "India": 4,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "india",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-26T22:36:55.000Z",
-    "lastSeen": "2026-11-27T06:57:21.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Guardian US",
-      "NPR",
-      "Indian Express"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.39876748440875476,
-      "max": 0.8659185979852808,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Guardian US",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Strobe Talbott, Time magazine reporter and deputy US secretary of state, dies aged 80",
-        "u": "https://www.theguardian.com/us-news/2026/nov/26/strobe-talbott-time-secretary-of-state-dead",
-        "publishedAt": "2026-11-26T22:36:55.000Z",
-        "retrievedAt": "2026-11-27T20:56:07.175Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "His son, Devin Talbott, confirmed he died peacefully after a long illness in his East Hampton, New York, home.",
-          "He was born in Dayton, Ohio, in 1946, and …"
-        ],
-        "figures": [],
-        "wordsRead": 286
-      },
-      {
-        "n": "NPR",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
-        "u": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
-        "publishedAt": "2026-11-27T06:12:45.000Z",
-        "retrievedAt": "2026-11-27T20:56:09.559Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Strobe Talbott, ex-Time journalist who led 1998 India-US nuclear talks, dies at 80",
-        "u": "https://indianexpress.com/article/world/strobe-talbott-former-us-deputy-secretary-of-state-india-nuclear-negotiator-dies-at-80-10980689/",
-        "publishedAt": "2026-11-27T06:57:21.000Z",
-        "retrievedAt": "2026-11-27T20:56:30.967Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "He wrote more than a dozen books, the last being “Our Founders’ Warning: The Age of Reason Meets the Age of Trump,” published in 2020.",
-          "Recalling their Oxford days, he said it was his job to make Talbott breakfast every day while Talbott translated Khrushchev’s memoirs, adding that “somehow, I got …"
-        ],
-        "figures": [],
-        "wordsRead": 517
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Guardian US",
-            "outletId": "guardian-us",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Strobe Talbott, Time magazine reporter and deputy US secretary of state, dies aged 80",
-            "url": "https://www.theguardian.com/us-news/2026/nov/26/strobe-talbott-time-secretary-of-state-dead"
-          },
-          {
-            "outlet": "NPR",
-            "outletId": "npr",
-            "lean": "lean_left",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
-            "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Strobe Talbott, ex-Time journalist who led 1998 India-US nuclear talks, dies at 80",
-            "url": "https://indianexpress.com/article/world/strobe-talbott-former-us-deputy-secretary-of-state-india-nuclear-negotiator-dies-at-80-10980689/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Strobe Talbott",
-        "Time",
-        "India-US"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Strobe Talbott",
-            "Time",
-            "India-US"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1wd4q1g",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 4,
-        "Europe": 0
-      },
-      "matched": {
-        "India": [
-          "india",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-27T12:53:08.000Z",
-    "lastSeen": "2026-11-27T17:38:59.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "Scroll.in",
-      "The Hindu",
-      "Indian Express"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.42147248917419816,
-      "max": 0.46246520522001666,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Scroll.in",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "NCP(SP) to support delimitation bill, says party leader",
-        "u": "https://scroll.in/latest/1097381/ncp-sp-to-support-delimitation-bill-says-party-leader?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-27T16:06:20.000Z",
-        "retrievedAt": "2026-11-27T20:56:27.239Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“The discussion [with party chief Sharad Pawar on Friday] wasn’t about our party’s official stance,” Awhad told reporters.",
-          "But the Opposition has stated that the government is attempting to get the “ super-tainted two-thirds majority ” to pass the delimitation bill that was rejected in April.",
-          "It also proposes to maintain the proportion of seats …"
-        ],
-        "figures": [
-          {
-            "value": "50%",
-            "context": "poses to increase Lok Sabha seats in all states by 50%. It also proposes to maintain the proportion of s"
-          }
-        ],
-        "wordsRead": 558
-      },
-      {
-        "n": "The Hindu",
-        "b": "lean_left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "NCP-SP announces support to delimitation, Congress calls it ‘unfortunate’",
-        "u": "https://www.thehindu.com/news/national/ncpsp-decides-to-back-delimitation-says-jitendra-awhad/article71751118.ece",
-        "publishedAt": "2026-11-27T17:38:59.000Z",
-        "retrievedAt": "2026-11-27T20:56:28.931Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Nationalist Congress Party–Sharadchandra Pawar (NCP-SP) on Friday (November 27, 2026) announced its support for the delimitation Bills.",
-          "NCP-SP leader Jitendra Awhad on Friday (November 27, 2026) said in Mumbai, “We will support the delimitation Bill.",
-          "She will go to Delhi only on Monday (November 30) to attend the parliamentary session, she announced on her WhatsApp status."
-        ],
-        "figures": [],
-        "wordsRead": 601
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "INDIA bloc meet tomorrow, Sharad Pawar’s NCP formally extends support to delimitation bill",
-        "u": "https://indianexpress.com/article/india/ncp-sp-support-delimitation-bill-congress-india-bloc-10981405/",
-        "publishedAt": "2026-11-27T12:53:08.000Z",
-        "retrievedAt": "2026-11-27T20:56:30.967Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Nationalist Congress Party (Sharadchandra Pawar) has formally extended support to the delimitation bill, MLA and national spokesperson Jitendra Awhad announced on Friday, even as its INDIA bloc allies prepare to …",
-          "Parliament has been reconvened for a special sitting, with the …"
-        ],
-        "figures": [
-          {
-            "value": "50 per cent",
-            "context": "sed delimitation bill if it provides for a uniform 50 per cent increase in Lok Sabha seats across all states. …"
-          },
-          {
-            "value": "50 per cent",
-            "context": "d formula cleared by the Union Cabinet, provides a 50 per cent increase in Lok Sabha seats across states while …"
-          }
-        ],
-        "wordsRead": 411
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Scroll.in",
-            "outletId": "scroll-in",
-            "lean": "left",
-            "country": "IN",
-            "evidenceIndex": 0,
-            "headline": "NCP(SP) to support delimitation bill, says party leader",
-            "url": "https://scroll.in/latest/1097381/ncp-sp-to-support-delimitation-bill-says-party-leader?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "NCP-SP announces support to delimitation, Congress calls it ‘unfortunate’",
-            "url": "https://www.thehindu.com/news/national/ncpsp-decides-to-back-delimitation-says-jitendra-awhad/article71751118.ece"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "INDIA bloc meet tomorrow, Sharad Pawar’s NCP formally extends support to delimitation bill",
-            "url": "https://indianexpress.com/article/india/ncp-sp-support-delimitation-bill-congress-india-bloc-10981405/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Sharad Pawar",
-        "Congress",
-        "NCP-SP",
-        "INDIA"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Sharad Pawar",
-            "Congress",
-            "NCP-SP",
-            "INDIA"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c13uwm8x",
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 4,
+        "India": 13,
         "Europe": 0
       },
       "matched": {
         "India": [
           "lok sabha",
+          "rajya sabha",
+          "bjp",
+          "tamil nadu",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-27T16:05:38.000Z",
-    "lastSeen": "2026-11-27T20:13:09.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-28T09:01:56.000Z",
+    "lastSeen": "2026-11-28T15:30:47.000Z",
+    "outletCount": 2,
     "outlets": [
       "Scroll.in",
-      "The Hindu",
-      "Indian Express"
+      "Organiser"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 2 outlets",
     "clustering": {
-      "min": 0.3657948530499088,
-      "max": 0.37200834320910664,
-      "pairs": 2,
+      "min": 0.37988843528417904,
+      "max": 0.37988843528417904,
+      "pairs": 1,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -920,90 +675,39 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Cabinet clears delimitation bill with 50% seat increase for all states, freeze till 2051: Reports",
-        "u": "https://scroll.in/latest/1097370/cabinet-clears-delimitation-bill-with-50-seat-increase-for-all-states-freeze-till-2051-reports?utm_source=rss&utm_medium=public",
-        "publishedAt": "2026-11-27T16:05:38.000Z",
-        "retrievedAt": "2026-11-27T20:56:27.239Z",
+        "t": "DMK to support delimitation bill",
+        "u": "https://scroll.in/latest/1097391/dmk-announces-support-for-delimitation-bill-ahead-of-special-session?utm_source=rss&utm_medium=public",
+        "publishedAt": "2026-11-28T09:01:56.000Z",
+        "retrievedAt": "2026-11-28T19:46:36.331Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The Congress said that it was “extraordinary and totally unacceptable ” that the bill had not been shared with MPs as of 6 pm on Friday even as Parliament was …",
-          "While it did not provide details of the agenda for the session, the Opposition has stated that the government is attempting to get the “ super-tainted two-thirds majority ” to …",
-          "“Games continue to be played by the PM-HM jodi,” party leader Jairam Ramesh said."
+          "Party leader A Raja said after the meeting that the DMK’s “ consistent demand is that the share of 7.18% [state’s seat share in Lok Sabha] should not be altered” …",
+          "A day ago, Stalin said that “there is no question of compromise” when it comes to the delimitation exercise and that the DMK was among the …"
         ],
         "figures": [
           {
             "value": "50%",
-            "context": "poses to increase Lok Sabha seats in all states by 50% , according to reports. The bill also reportedly"
+            "context": "poses to increase Lok Sabha seats in all states by 50%. The bill will be introduced by the Bharatiya Jan"
+          },
+          {
+            "value": "7.18%",
+            "context": "the DMK’s “ consistent demand is that the share of 7.18% [state’s seat share in Lok Sabha] should not be …"
           }
         ],
-        "wordsRead": 1012
+        "wordsRead": 577
       },
       {
-        "n": "The Hindu",
-        "b": "lean_left",
+        "n": "Organiser",
+        "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Centre proposes freeze on Lok Sabha seat proportions for States until 2051",
-        "u": "https://www.thehindu.com/news/national/centre-proposes-freeze-on-lok-sabha-seat-proportions-for-states-until-2051/article71752150.ece",
-        "publishedAt": "2026-11-27T20:13:09.000Z",
-        "retrievedAt": "2026-11-27T20:56:28.931Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The existing provision in Article 82 that says that “until the relevant figures for the first census taken after the year 2026 have been published, it shall not be necessary …",
-          "The 132nd Constitutional Amendment Bill marks a significant turn from the 131st Amendment Bill moved by the Centre in April 2026 that sought to redistribute Lok Sabha seats …"
-        ],
-        "figures": [
-          {
-            "value": "50%",
-            "context": "icle 334A of the Constitution. The guarantee for a 50% increase in the number of Lok Sabha seats for eac"
-          },
-          {
-            "value": "50%",
-            "context": "ase the number of Lok Sabha seats in each State by 50%, while the maximum strength of the lower House …"
-          },
-          {
-            "value": "33%",
-            "context": "on will open, which will also bring into force the 33% reservation for women in the Lok Sabha. Amendment"
-          }
-        ],
-        "wordsRead": 590
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Delimitation Bill full text: 850 Lok Sabha seats, women’s quota, 25-year freeze",
-        "u": "https://indianexpress.com/article/india/delimitation-bill-full-text-constitution-132nd-amendment-bill-lok-sabha-seats-10981637/",
-        "publishedAt": "2026-11-27T16:13:08.000Z",
-        "retrievedAt": "2026-11-27T20:56:30.967Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The Constitution (132nd Amendment) Bill says Lok Sabha seats will go up 50% for every state and Union territory at …"
-        ],
-        "figures": [
-          {
-            "value": "50 per cent",
-            "context": "hirds majority, did not have the provision for the 50 per cent increase in the number of seats in all …"
-          },
-          {
-            "value": "50%",
-            "context": "nd Amendment) Bill says Lok Sabha seats will go up 50% for every state and Union territory at the first"
-          },
-          {
-            "value": "50 per cent",
-            "context": "at would increase Lok Sabha seats in all states by 50 per cent, sources said. The current inter-state ratio of …"
-          },
-          {
-            "value": "50 per cent",
-            "context": "hirds majority, did not have the provision for the 50 per cent increase in the number of seats in all …"
-          }
-        ],
-        "wordsRead": 205
+        "t": "DMK is backing delimitation bill to retain 7.18% seat share of Tamil Nadu: TKS Elangovan",
+        "u": "https://organiser.org/2026/11/28/429527/interviews/dmk-is-backing-delimitation-bill-to-retain-7-18-seat-share-of-tamil-nadu-tks-elangovan/",
+        "publishedAt": "2026-11-28T15:30:47.000Z",
+        "retrievedAt": "2026-11-28T19:46:45.078Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -1017,17 +721,8 @@
             "lean": "left",
             "country": "IN",
             "evidenceIndex": 0,
-            "headline": "Cabinet clears delimitation bill with 50% seat increase for all states, freeze till 2051: Reports",
-            "url": "https://scroll.in/latest/1097370/cabinet-clears-delimitation-bill-with-50-seat-increase-for-all-states-freeze-till-2051-reports?utm_source=rss&utm_medium=public"
-          },
-          {
-            "outlet": "The Hindu",
-            "outletId": "thehindu",
-            "lean": "lean_left",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Centre proposes freeze on Lok Sabha seat proportions for States until 2051",
-            "url": "https://www.thehindu.com/news/national/centre-proposes-freeze-on-lok-sabha-seat-proportions-for-states-until-2051/article71752150.ece"
+            "headline": "DMK to support delimitation bill",
+            "url": "https://scroll.in/latest/1097391/dmk-announces-support-for-delimitation-bill-ahead-of-special-session?utm_source=rss&utm_medium=public"
           }
         ],
         "status": "sourced",
@@ -1036,25 +731,25 @@
       {
         "side": "centre",
         "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Delimitation Bill full text: 850 Lok Sabha seats, women’s quota, 25-year freeze",
-            "url": "https://indianexpress.com/article/india/delimitation-bill-full-text-constitution-132nd-amendment-bill-lok-sabha-seats-10981637/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       },
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
+        "outlets": [
+          {
+            "outlet": "Organiser",
+            "outletId": "organiser",
+            "lean": "right",
+            "country": "IN",
+            "evidenceIndex": 1,
+            "headline": "DMK is backing delimitation bill to retain 7.18% seat share of Tamil Nadu: TKS Elangovan",
+            "url": "https://organiser.org/2026/11/28/429527/interviews/dmk-is-backing-delimitation-bill-to-retain-7-18-seat-share-of-tamil-nadu-tks-elangovan/"
+          }
+        ],
+        "status": "sourced",
         "text": null
       }
     ],
@@ -1066,12 +761,8 @@
     "verification": {
       "attempted": true,
       "terms": [
-        "Lok Sabha",
-        "Delimitation Bill",
-        "Cabinet",
-        "Reports",
-        "Centre",
-        "States"
+        "TKS Elangovan",
+        "Tamil Nadu"
       ],
       "attempts": [
         {
@@ -1157,7 +848,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "c47d9wj",
+    "id": "c19tw0e4",
     "regions": [
       "Europe",
       "Global"
@@ -1170,80 +861,76 @@
       },
       "matched": {
         "Europe": [
-          "norway",
+          "germany",
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-26T13:56:57.000Z",
-    "lastSeen": "2026-11-27T17:31:01.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-11-28T13:24:24.000Z",
+    "lastSeen": "2026-11-28T18:01:05.000Z",
+    "outletCount": 4,
     "outlets": [
-      "Fox News",
-      "Washington Times",
-      "Deutsche Welle",
+      "BBC News",
+      "Euronews",
       "Al Jazeera",
       "Arab News"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 4 outlets",
     "clustering": {
-      "min": 0.36264560426575326,
-      "max": 0.45073787842966273,
-      "pairs": 9,
+      "min": 0.37456223851981263,
+      "max": 0.7515502389608608,
+      "pairs": 4,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Norse Atlantic airline suspends all flights, on brink of bankruptcy amid rising fuel costs",
-        "u": "https://www.foxnews.com/world/norse-atlantic-airlines-suspends-all-flights-brink-bankruptcy-amid-rising-fuel-costs",
-        "publishedAt": "2026-11-26T13:56:57.000Z",
-        "retrievedAt": "2026-11-27T20:56:16.697Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "\"If a short-term financing solution is not secured urgently, it is the Board's intention to file for bankruptcy,\" the company said in a statement .",
-          "The airline, which provides long-haul flights between …"
-        ],
-        "figures": [],
-        "wordsRead": 322
-      },
-      {
-        "n": "Washington Times",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Norse Atlantic Airways idle on Thanksgiving, aims for bankruptcy",
-        "u": "https://www.washingtontimes.com/news/2026/nov/27/norse-atlantic-airways-idle-thanksgiving-aims-bankruptcy/",
-        "publishedAt": "2026-11-27T14:43:03.000Z",
-        "retrievedAt": "2026-11-27T20:56:21.628Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Deutsche Welle",
+        "n": "BBC News",
         "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-        "u": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-rdf",
-        "publishedAt": "2026-11-27T14:20:00.000Z",
-        "retrievedAt": "2026-11-27T20:56:42.571Z",
+        "t": "Argentina's bid to stop Falklands oil drilling rejected",
+        "u": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-28T18:01:05.000Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"The Board of Norse Atlantic Airways AS has made the difficult decision to file for bankruptcy despite extensive efforts from the company and the group to find a solution,\" Norse …",
-          "\"The board, management and advisers of the listed entity Norse Atlantic ASA and the UK subsidiary are working to find a solution for the remaining part of the business to …"
+          "After the ruling, Argentina's President Javier Milei said \"this decision is not the final word\" and declared \"the Falkland Islands are Argentine\".",
+          "Attorney General for England and Wales, Ellie Reeves, who presented the UK's legal arguments in Hamburg earlier this month, told the BBC the ruling was \"really significant\" and an \"a …",
+          "\"The message is clear: those who participate in the illegal exploitation of our …"
         ],
         "figures": [],
-        "wordsRead": 634
+        "wordsRead": 669
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Argentina loses bid to halt oil drilling off Falkland Islands",
+        "u": "https://www.euronews.com/2026/11/28/argentina-loses-bid-to-halt-oil-drilling-off-falkland-islands",
+        "publishedAt": "2026-11-28T14:23:34.000Z",
+        "retrievedAt": "2026-11-28T19:46:46.397Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Hamburg-based tribunal voted 18-3 against Argentina’s request to suspend operations at the $2.1 billion (€1.8 billion) Sea Lion offshore oil project.",
+          "The office of Argentine President Javier Milei said it respected the tribunal’s decision but disagreed with its conclusions, insisting that the legal …"
+        ],
+        "figures": [
+          {
+            "value": "$2.1 billion",
+            "context": "Argentina’s request to suspend operations at the $2.1 billion (€1.8 billion) Sea Lion offshore oil project. Jud"
+          },
+          {
+            "value": "€1.8 billion",
+            "context": "equest to suspend operations at the $2.1 billion (€1.8 billion) Sea Lion offshore oil project. Judges found that"
+          }
+        ],
+        "wordsRead": 443
       },
       {
         "n": "Al Jazeera",
@@ -1252,26 +939,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
-        "u": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
-        "publishedAt": "2026-11-27T16:31:20.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
+        "t": "Court rejects Argentina’s request to stop UK oil activity near Falklands",
+        "u": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
+        "publishedAt": "2026-11-28T13:24:24.000Z",
+        "retrievedAt": "2026-11-28T19:47:05.356Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“We were unable to absorb the extra cost … Fuel is what toppled this company,” CEO Eivind Roald told Norwegian public broadcaster NRK.",
-          "On Wednesday, the airline, which was founded in 2021, said its …"
+          "“This decision is not the final word,” Milei said in a statement, noting that Argentina will continue to “assert its rights through all diplomatic, legal and administrative channels at its …",
+          "The UK government’s chief legal adviser, Ellie Reeves, told the judges in a two-day hearing earlier this month that the order sought by Argentina “would prevent the people of the …"
         ],
-        "figures": [
-          {
-            "value": "71 percent",
-            "context": "out of business in May. Jet fuel prices have risen 71 percent globally over the past year and more than …"
-          },
-          {
-            "value": "78 percent",
-            "context": "percent globally over the past year and more than 78 percent in Europe, according to the International Air Tra"
-          }
-        ],
-        "wordsRead": 344
+        "figures": [],
+        "wordsRead": 629
       },
       {
         "n": "Arab News",
@@ -1280,17 +958,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Norse Atlantic’s Norwegian unit files for bankruptcy as Iran war jolts airlines",
-        "u": "https://www.arabnews.com/world/norse-atlantics-norwegian-unit-files-for-bankruptcy-as-iran-war-jolts-airlines-3014297",
-        "publishedAt": "2026-11-27T17:31:01.000Z",
-        "retrievedAt": "2026-11-27T20:56:58.410Z",
+        "t": "Argentina loses bid to halt oil drilling at nearby UK-held Falkland Islands",
+        "u": "https://www.arabnews.com/world/argentina-loses-bid-to-halt-oil-drilling-at-nearby-uk-held-falkland-islands-3014379",
+        "publishedAt": "2026-11-28T13:31:35.000Z",
+        "retrievedAt": "2026-11-28T19:47:08.065Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“The Board, management and advisers of the listed entity Norse Atlantic ASA and the UK subsidiary are working to find a solution for the remaining part of the business to …",
-          "“The company contests the validity of …"
+          "The UK has said drilling at the field about 220 kilometers (140 miles) north of the islands won’t commence until March 2027 …"
         ],
         "figures": [],
-        "wordsRead": 377
+        "wordsRead": 225
       }
     ],
     "views": [
@@ -1306,13 +983,22 @@
         "label": "Centre",
         "outlets": [
           {
-            "outlet": "Deutsche Welle",
-            "outletId": "dw",
+            "outlet": "BBC News",
+            "outletId": "bbc",
             "lean": "centre",
-            "country": "DE",
-            "evidenceIndex": 2,
-            "headline": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-            "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-rdf"
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Argentina's bid to stop Falklands oil drilling rejected",
+            "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Argentina loses bid to halt oil drilling off Falkland Islands",
+            "url": "https://www.euronews.com/2026/11/28/argentina-loses-bid-to-halt-oil-drilling-off-falkland-islands"
           }
         ],
         "status": "sourced",
@@ -1321,33 +1007,15 @@
       {
         "side": "right",
         "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Fox News",
-            "outletId": "foxnews",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 0,
-            "headline": "Norse Atlantic airline suspends all flights, on brink of bankruptcy amid rising fuel costs",
-            "url": "https://www.foxnews.com/world/norse-atlantic-airlines-suspends-all-flights-brink-bankruptcy-amid-rising-fuel-costs"
-          },
-          {
-            "outlet": "Washington Times",
-            "outletId": "washtimes",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 1,
-            "headline": "Norse Atlantic Airways idle on Thanksgiving, aims for bankruptcy",
-            "url": "https://www.washingtontimes.com/news/2026/nov/27/norse-atlantic-airways-idle-thanksgiving-aims-bankruptcy/"
-          }
-        ],
-        "status": "sourced",
+        "outlets": [],
+        "status": "not sourced",
         "text": null
       }
     ],
     "axis": {
-      "applies": true,
-      "name": "left-right"
+      "applies": false,
+      "name": null,
+      "reason": "coverage sits on one side only (centre)"
     },
     "offAxis": [
       {
@@ -1355,9 +1023,9 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 3,
-        "headline": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
-        "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
+        "evidenceIndex": 2,
+        "headline": "Court rejects Argentina’s request to stop UK oil activity near Falklands",
+        "url": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       },
       {
@@ -1365,298 +1033,21 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "Norse Atlantic’s Norwegian unit files for bankruptcy as Iran war jolts airlines",
-        "url": "https://www.arabnews.com/world/norse-atlantics-norwegian-unit-files-for-bankruptcy-as-iran-war-jolts-airlines-3014297",
+        "evidenceIndex": 3,
+        "headline": "Argentina loses bid to halt oil drilling at nearby UK-held Falkland Islands",
+        "url": "https://www.arabnews.com/world/argentina-loses-bid-to-halt-oil-drilling-at-nearby-uk-held-falkland-islands-3014379",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Norse Atlantic",
-        "Norse Atlantic Airways",
-        "Airline Norse Atlantic",
-        "Thanksgiving",
-        "Norwegian",
-        "Iran"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Norse Atlantic",
-            "Norse Atlantic Airways",
-            "Airline Norse Atlantic",
-            "Thanksgiving",
-            "Norwegian",
-            "Iran"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1747o75",
-    "regions": [
-      "Europe",
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 5
-      },
-      "matched": {
-        "Europe": [
-          "italy",
-          "european",
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-26T13:11:46.000Z",
-    "lastSeen": "2026-11-27T14:51:50.000Z",
-    "outletCount": 4,
-    "outlets": [
-      "Euronews",
-      "Haaretz",
-      "JNS",
-      "Middle East Eye"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 4 outlets",
-    "clustering": {
-      "min": 0.3704936931326765,
-      "max": 0.43897690709006887,
-      "pairs": 4,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Euronews",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-        "u": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-        "publishedAt": "2026-11-27T10:20:33.000Z",
-        "retrievedAt": "2026-11-27T20:56:37.037Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Araghchi spoke by telephone with his Kuwaiti and Italian counterparts, Sheikh Jarrah Jaber Al-Ahmad Al-Sabah and Antonio Tajani, and later wrote on X that the incident was \"suspicious and looks …",
-          "Kuwait called it \"a heinous Iranian aggression\".",
-          "\"We stand ready to cooperate with Kuwait and …"
-        ],
-        "figures": [],
-        "wordsRead": 464
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Two Italians killed in Iranian drone attack on Kuwait's 'vital site'",
-        "u": "https://www.haaretz.com/middle-east-news/2026-11-26/ty-article/.premium/kuwait-army-says-four-hurt-in-iranian-attack-on-vital-site/000001a2-17f8-dfd9-a5b7-1ffc56950000",
-        "publishedAt": "2026-11-26T13:11:46.000Z",
-        "retrievedAt": "2026-11-27T20:56:51.119Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "JNS",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Israeli FM expresses 'deep sorrow' over Italians killed in Kuwait drone attack",
-        "u": "https://www.jns.org/news/world/israeli-fm-expresses-deep-sorrow-over-italians-killed-in-kuwait-drone-attack",
-        "publishedAt": "2026-11-26T19:19:42.000Z",
-        "retrievedAt": "2026-11-27T20:56:53.779Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "“I extend our sincere condolences to their families and loved ones, and to the people of Italy,” he wrote on X.",
-          "Italian Foreign Minister Antonio …"
-        ],
-        "figures": [],
-        "wordsRead": 254
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Kuwait summons Iranian ambassador over 'continuing attacks'",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-summons-iranian-ambassador-over-continuing-attacks",
-        "publishedAt": "2026-11-27T14:51:50.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Kuwait has summoned Iran's ambassador and handed him …"
-        ],
-        "figures": [],
-        "wordsRead": 82
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 1,
-            "headline": "Two Italians killed in Iranian drone attack on Kuwait's 'vital site'",
-            "url": "https://www.haaretz.com/middle-east-news/2026-11-26/ty-article/.premium/kuwait-army-says-four-hurt-in-iranian-attack-on-vital-site/000001a2-17f8-dfd9-a5b7-1ffc56950000"
-          },
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "Kuwait summons Iranian ambassador over 'continuing attacks'",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-summons-iranian-ambassador-over-continuing-attacks"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Euronews",
-            "outletId": "euronews",
-            "lean": "centre",
-            "country": "EU",
-            "evidenceIndex": 0,
-            "headline": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-            "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "JNS",
-            "outletId": "jns",
-            "lean": "right",
-            "country": "IL",
-            "evidenceIndex": 2,
-            "headline": "Israeli FM expresses 'deep sorrow' over Italians killed in Kuwait drone attack",
-            "url": "https://www.jns.org/news/world/israeli-fm-expresses-deep-sorrow-over-italians-killed-in-kuwait-drone-attack"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Kuwait",
-        "Italians",
-        "Iranian",
-        "Two Italians",
-        "Israeli FM",
-        "Kuwait's"
+        "Argentina",
+        "Falklands",
+        "UK-held Falkland Islands",
+        "Falkland Islands",
+        "Argentina's",
+        "Court"
       ],
       "attempts": [
         {
@@ -1742,7 +1133,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cygq1tz",
+    "id": "c18cdtz4",
     "regions": [
       "Europe",
       "Global"
@@ -1764,19 +1155,19 @@
       }
     },
     "firstSeen": "2026-11-26T22:06:20.000Z",
-    "lastSeen": "2026-11-27T18:00:40.000Z",
+    "lastSeen": "2026-11-28T13:19:17.000Z",
     "outletCount": 3,
     "outlets": [
       "BBC News",
-      "Globe and Mail",
-      "South China Morning Post"
+      "Fox News",
+      "Globe and Mail"
     ],
     "tier": "multi",
     "tierBasis": "reported independently by 3 outlets",
     "clustering": {
-      "min": 0.3742766982006287,
-      "max": 0.6826522128389054,
-      "pairs": 5,
+      "min": 0.3878043676674421,
+      "max": 0.4905335477915668,
+      "pairs": 3,
       "prunedForCohesion": 0
     },
     "sources": [
@@ -1790,7 +1181,7 @@
         "t": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
         "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-27T18:00:40.000Z",
-        "retrievedAt": "2026-11-27T20:56:11.150Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"Of course it's up to the president of the United States, but... it's strange,\" Zelensky said, speaking in English.",
@@ -1810,13 +1201,33 @@
         "t": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
         "u": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
         "publishedAt": "2026-11-26T22:06:20.000Z",
-        "retrievedAt": "2026-11-27T20:56:11.150Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "\"Of course it's up to the President of …"
         ],
         "figures": [],
         "wordsRead": 89
+      },
+      {
+        "n": "Fox News",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Zelenskyy compares Putin to Hitler as Trump pushes to end Ukraine war: 'He's an aggressor and a killer'",
+        "u": "https://www.foxnews.com/world/zelenskyy-compares-putin-hitler-trump-pushes-end-ukraine-war-aggressor-killer",
+        "publishedAt": "2026-11-28T13:19:17.000Z",
+        "retrievedAt": "2026-11-28T19:46:24.370Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"They're gonna end up with a little bit different shaped Ukraine,\" Trump told Ross Douthat of CBS' \"60 Minutes.\"",
+          "\"It's a pity they made a focus on the Middle East and they helped them more, but it's their choice,\" he said.",
+          "\"It's not about Russia or not Russia,\" he added."
+        ],
+        "figures": [],
+        "wordsRead": 619
       },
       {
         "n": "Globe and Mail",
@@ -1828,7 +1239,7 @@
         "t": "Zelensky likens Trump calling Putin a ‘friend’ to friendship with Hitler during WWII",
         "u": "https://www.theglobeandmail.com/world/article-zelensky-trump-putin-friend-remark-hitler/",
         "publishedAt": "2026-11-27T11:59:48.000Z",
-        "retrievedAt": "2026-11-27T20:56:23.146Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
         "read": "full article read; short extracts retained",
         "quotes": [
           "The Ukrainian president described Trump calling Putin “my friend” at a recent summit in China as “strange” because the Russian leader is “an aggressor and a killer.”",
@@ -1837,19 +1248,6 @@
         ],
         "figures": [],
         "wordsRead": 670
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-        "u": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
-        "publishedAt": "2026-11-27T09:22:39.000Z",
-        "retrievedAt": "2026-11-27T20:57:01.883Z",
-        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -1887,9 +1285,259 @@
             "outletId": "globemail",
             "lean": "centre",
             "country": "CA",
-            "evidenceIndex": 2,
+            "evidenceIndex": 3,
             "headline": "Zelensky likens Trump calling Putin a ‘friend’ to friendship with Hitler during WWII",
             "url": "https://www.theglobeandmail.com/world/article-zelensky-trump-putin-friend-remark-hitler/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [
+          {
+            "outlet": "Fox News",
+            "outletId": "foxnews",
+            "lean": "right",
+            "country": "US",
+            "evidenceIndex": 2,
+            "headline": "Zelenskyy compares Putin to Hitler as Trump pushes to end Ukraine war: 'He's an aggressor and a killer'",
+            "url": "https://www.foxnews.com/world/zelenskyy-compares-putin-hitler-trump-pushes-end-ukraine-war-aggressor-killer"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Zelensky",
+        "Trump-Putin",
+        "Hitler",
+        "Putin",
+        "Trump",
+        "Zelenskyy"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Zelensky",
+            "Trump-Putin",
+            "Hitler",
+            "Putin",
+            "Trump",
+            "Zelenskyy"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c13t3zoq",
+    "regions": [
+      "Europe",
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 4
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "serbia",
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-28T14:57:51.000Z",
+    "lastSeen": "2026-11-28T17:40:30.000Z",
+    "outletCount": 3,
+    "outlets": [
+      "Globe and Mail",
+      "Politico Europe",
+      "Al Jazeera"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 3 outlets",
+    "clustering": {
+      "min": 0.38321369109764625,
+      "max": 0.47885615208810617,
+      "pairs": 2,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Anti-government protests in Albania turn violent",
+        "u": "https://www.theglobeandmail.com/world/article-albania-anti-government-protests-tirana/",
+        "publishedAt": "2026-11-28T17:40:30.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Everyone is angry at Rama,” said Gea Alibeaj, 26, a corporate lawyer.",
+          "He said that at least 500 protesters have been arrested in Tirana by the police since May “even though they were not violent.”",
+          "Gentian Sejrani, a human rights lawyer who was taking part in the Saturday protest, said: “I just want the prime minister to resign.”"
+        ],
+        "figures": [],
+        "wordsRead": 604
+      },
+      {
+        "n": "Politico Europe",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Albania’s Independence Day rocked by violent protests over corruption",
+        "u": "https://www.politico.eu/article/albania-independence-day-rocked-by-violent-protests-over-corruption/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+        "publishedAt": "2026-11-28T17:23:47.000Z",
+        "retrievedAt": "2026-11-28T19:46:47.875Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“This year, 2026, was an amazing year for Albania, but 2027 can be the year of Albania,” Kos said.",
+          "“I know when I see the protests, and when I say the protests, I’m really against the violent …"
+        ],
+        "figures": [],
+        "wordsRead": 370
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Violence erupts at anti-government protests in Albania",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/violence-erupts-at-anti-government-protests-in-albania?traffic_source=rss",
+        "publishedAt": "2026-11-28T14:57:51.000Z",
+        "retrievedAt": "2026-11-28T19:47:05.356Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 0,
+            "headline": "Anti-government protests in Albania turn violent",
+            "url": "https://www.theglobeandmail.com/world/article-albania-anti-government-protests-tirana/"
+          },
+          {
+            "outlet": "Politico Europe",
+            "outletId": "politico-eu",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 1,
+            "headline": "Albania’s Independence Day rocked by violent protests over corruption",
+            "url": "https://www.politico.eu/article/albania-independence-day-rocked-by-violent-protests-over-corruption/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
           }
         ],
         "status": "sourced",
@@ -1910,25 +1558,23 @@
     },
     "offAxis": [
       {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
         "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 3,
-        "headline": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-        "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Violence erupts at anti-government protests in Albania",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/violence-erupts-at-anti-government-protests-in-albania?traffic_source=rss",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Zelensky",
-        "Trump-Putin",
-        "Hitler",
-        "Trump",
-        "Putin",
-        "WWII"
+        "Albania",
+        "Independence Day",
+        "Anti-government",
+        "Violence"
       ],
       "attempts": [
         {
@@ -2014,339 +1660,59 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cfknv01",
+    "id": "coknrqk",
     "regions": [
       "Global"
     ],
     "regionEvidence": {
       "scores": {
         "Canada": 1,
-        "India": 1,
-        "Europe": 0
+        "India": 0,
+        "Europe": 1
       },
       "matched": {
         "Canada": [
           "(an outlet from the region covered it)"
         ],
-        "India": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-27T11:35:30.000Z",
-    "lastSeen": "2026-11-27T15:40:48.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "Globe and Mail",
-      "Indian Express",
-      "Organiser",
-      "Haaretz",
-      "South China Morning Post"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.3744827409128155,
-      "max": 0.7734522007249113,
-      "pairs": 9,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Globe and Mail",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hackers breach U.S. Air Force’s flagship cloud computing platform",
-        "u": "https://www.theglobeandmail.com/world/article-hackers-breach-us-air-force-cloud-one-computing-platform/",
-        "publishedAt": "2026-11-27T12:38:29.000Z",
-        "retrievedAt": "2026-11-27T20:56:23.146Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a 2023 commentary carried by the online publication FedScoop, Cloud One’s leadership touted what they called a “100 per cent success rate” in beating back what they said was …",
-          "“A breach here is a big deal,” one of the sources said.",
-          "“There is no room for error when it comes to security,” Cloud One’s leadership wrote."
-        ],
-        "figures": [],
-        "wordsRead": 613
-      },
-      {
-        "n": "Indian Express",
-        "b": "centre",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hackers breach US Air Force’s Cloud One platform; Cyber Command called in: Report",
-        "u": "https://indianexpress.com/article/world/us-news/hackers-breach-us-air-force-cloud-one-platform-cyber-command-10981280/",
-        "publishedAt": "2026-11-27T11:35:30.000Z",
-        "retrievedAt": "2026-11-27T20:56:30.967Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "In a statement to Reuters, the US Air Force said it “does not comment on the security posture, vulnerabilities or operational status of specific networks and systems”.",
-          "“A breach here is a big deal,” one of them said.",
-          "“There is no room for error when it comes to security,” Cloud One’s leadership wrote at the time."
-        ],
-        "figures": [],
-        "wordsRead": 684
-      },
-      {
-        "n": "Organiser",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Cyber attack hits US Air Force cloud platform; Sensitive military data and operations potentially exposed to hackers",
-        "u": "https://organiser.org/2026/11/27/429348/international/cyber-attack-hits-us-air-force-cloud-platform-sensitive-military-data-and-operations-potentially-exposed-to-hackers/",
-        "publishedAt": "2026-11-27T15:40:48.000Z",
-        "retrievedAt": "2026-11-27T20:56:35.631Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Haaretz",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hackers breach one of Pentagon's top systems, access U.S. Air Force data, radars",
-        "u": "https://www.haaretz.com/us-news/2026-11-27/ty-article/hackers-breach-one-of-pentagons-top-systems-access-u-s-air-force-data-radars/000001a2-1ce1-d0a2-afb7-5efbaab20000",
-        "publishedAt": "2026-11-27T13:01:27.000Z",
-        "retrievedAt": "2026-11-27T20:56:51.119Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "South China Morning Post",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-        "u": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-        "publishedAt": "2026-11-27T12:25:16.000Z",
-        "retrievedAt": "2026-11-27T20:57:01.883Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Haaretz",
-            "outletId": "haaretz",
-            "lean": "left",
-            "country": "IL",
-            "evidenceIndex": 3,
-            "headline": "Hackers breach one of Pentagon's top systems, access U.S. Air Force data, radars",
-            "url": "https://www.haaretz.com/us-news/2026-11-27/ty-article/hackers-breach-one-of-pentagons-top-systems-access-u-s-air-force-data-radars/000001a2-1ce1-d0a2-afb7-5efbaab20000"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [
-          {
-            "outlet": "Globe and Mail",
-            "outletId": "globemail",
-            "lean": "centre",
-            "country": "CA",
-            "evidenceIndex": 0,
-            "headline": "Hackers breach U.S. Air Force’s flagship cloud computing platform",
-            "url": "https://www.theglobeandmail.com/world/article-hackers-breach-us-air-force-cloud-one-computing-platform/"
-          },
-          {
-            "outlet": "Indian Express",
-            "outletId": "indianexp",
-            "lean": "centre",
-            "country": "IN",
-            "evidenceIndex": 1,
-            "headline": "Hackers breach US Air Force’s Cloud One platform; Cyber Command called in: Report",
-            "url": "https://indianexpress.com/article/world/us-news/hackers-breach-us-air-force-cloud-one-platform-cyber-command-10981280/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Organiser",
-            "outletId": "organiser",
-            "lean": "right",
-            "country": "IN",
-            "evidenceIndex": 2,
-            "headline": "Cyber attack hits US Air Force cloud platform; Sensitive military data and operations potentially exposed to hackers",
-            "url": "https://organiser.org/2026/11/27/429348/international/cyber-attack-hits-us-air-force-cloud-platform-sensitive-military-data-and-operations-potentially-exposed-to-hackers/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "South China Morning Post",
-        "outletId": "scmp",
-        "lean": "varies",
-        "country": "HK",
-        "evidenceIndex": 4,
-        "headline": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-        "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Hackers",
-        "U.S. Air Force",
-        "US Air Force",
-        "US Air Force Cloud",
-        "Cyber Command",
-        "Pentagon's"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Hackers",
-            "U.S. Air Force",
-            "US Air Force",
-            "US Air Force Cloud",
-            "Cyber Command",
-            "Pentagon's"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c5oapzv",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
         "Europe": [
           "(an outlet from the region covered it)"
         ]
       }
     },
-    "firstSeen": "2026-11-27T06:04:51.000Z",
-    "lastSeen": "2026-11-27T18:46:09.000Z",
-    "outletCount": 5,
+    "firstSeen": "2026-11-28T11:07:35.000Z",
+    "lastSeen": "2026-11-28T18:42:38.000Z",
+    "outletCount": 7,
     "outlets": [
+      "NPR",
       "BBC News",
-      "Washington Times",
-      "Al Jazeera",
-      "Middle East Eye",
-      "Arab News"
+      "Washington Examiner",
+      "Fox News",
+      "Globe and Mail",
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
+    "tierBasis": "reported independently by 7 outlets",
     "clustering": {
-      "min": 0.390276804534035,
-      "max": 0.6898780442478973,
-      "pairs": 7,
+      "min": 0.3755760792505615,
+      "max": 0.9568294688829014,
+      "pairs": 17,
       "prunedForCohesion": 0
     },
     "sources": [
+      {
+        "n": "NPR",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+        "u": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+        "publishedAt": "2026-11-28T11:32:37.000Z",
+        "retrievedAt": "2026-11-28T19:46:16.892Z",
+        "read": "headline and feed excerpt"
+      },
       {
         "n": "BBC News",
         "b": "centre",
@@ -2354,69 +1720,72 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-        "u": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
-        "publishedAt": "2026-11-27T06:04:51.000Z",
-        "retrievedAt": "2026-11-27T20:56:11.150Z",
+        "t": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+        "u": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-28T14:10:01.000Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "\"I walked out of Sanaa, I crossed the front line,\" he says, adding that he \"hitched a ride into Saudi Arabia\".",
-          "Families in Yemen are \"struggling to provide for [their] children\", he says, as he tries to earn enough to send some money home.",
-          "\"I went to him in shock, asking him, 'Are you OK?'\" He says he saw injured and unconscious passengers being taken to the airport's first aid clinic."
+          "Posting on X, Abdul Mateen Qani said that according to initial investigations, the blast was caused by \"negligence and carelessness\" at an …"
         ],
         "figures": [],
-        "wordsRead": 1376
+        "wordsRead": 228
       },
       {
-        "n": "Washington Times",
+        "n": "Washington Examiner",
+        "b": "lean_right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+        "u": "https://www.washingtonexaminer.com/news/world/4816936/afghanistan-middle-school-explosion/",
+        "publishedAt": "2026-11-28T18:42:38.000Z",
+        "retrievedAt": "2026-11-28T19:46:23.052Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "KABUL, Afghanistan (AP) — An explosion at a primary …"
+        ],
+        "figures": [],
+        "wordsRead": 97
+      },
+      {
+        "n": "Fox News",
         "b": "right",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Pakistan hosts defense talks with Saudi Arabia and Turkey under Mecca pact",
-        "u": "https://www.washingtontimes.com/news/2026/nov/27/pakistan-hosting-defense-talks-saudi-arabia-turkey-mecca-pact/",
-        "publishedAt": "2026-11-27T15:16:39.000Z",
-        "retrievedAt": "2026-11-27T20:56:21.628Z",
-        "read": "headline and feed excerpt"
+        "t": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+        "u": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital",
+        "publishedAt": "2026-11-28T15:25:06.000Z",
+        "retrievedAt": "2026-11-28T19:46:24.370Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "An explosion at a school in northeast Afghanistan has killed at least 10 people and injured 110 more, according to a spokesperson for the Taliban's Interior Ministry and …"
+        ],
+        "figures": [],
+        "wordsRead": 287
       },
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "Globe and Mail",
+        "b": "centre",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
-        "u": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
-        "publishedAt": "2026-11-27T17:41:24.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
+        "t": "Explosion at school in eastern Afghanistan kills 10 and wounds 110, mostly children",
+        "u": "https://www.theglobeandmail.com/world/article-explosion-at-school-in-eastern-afghanistan-kills-10-and-wounds-110/",
+        "publishedAt": "2026-11-28T13:42:43.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "“The SPDC meeting reviewed the evolving regional security situation and reaffirmed the determination of the three countries to continue working collectively towards regional peace, security and stability,” he told reporters.",
-          "“The three sides reiterated their strong condemnation of the persistent and heinous attacks by the Houthi militia, targeting civilians and civilian infrastructure in the Kingdom of Saudi Arabia,” he said.",
-          "list 1 of 3 Can the …"
+          "“I ran straight into the dust, our own children were there,” he said.",
+          "“Pieces of wood and human flesh were flying everywhere,” he said from his son’s bedside in a hospital, adding that he ran toward the school.",
+          "“UNICEF is devastated by reports of an explosion near a school in Kunar province, Afghanistan, that has claimed …"
         ],
         "figures": [],
-        "wordsRead": 662
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Mecca pact members meet in Islamabad and condemn Houthi attacks on Saudi Arabia",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-pact-members-meet-islamabad-condemn-houthi-attacks-saudi-arabia",
-        "publishedAt": "2026-11-27T17:29:50.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The three countries pledged to intensify efforts to support the kingdom …"
-        ],
-        "figures": [],
-        "wordsRead": 117
+        "wordsRead": 569
       },
       {
         "n": "Arab News",
@@ -2425,17 +1794,31 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Saudi Arabia, Pakistan and Turkiye to accelerate support for Kingdom’s security in face of Houthi attacks",
-        "u": "https://www.arabnews.com/saudi-arabia/saudi-arabia-pakistan-and-turkiye-to-accelerate-support-for-kingdoms-security-in-face-of-houthi-attacks-3014302",
-        "publishedAt": "2026-11-27T18:46:09.000Z",
-        "retrievedAt": "2026-11-27T20:56:58.410Z",
+        "t": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+        "u": "https://www.arabnews.com/world/an-explosion-at-a-school-in-eastern-afghanistan-kills-10-wounds-110-3014390",
+        "publishedAt": "2026-11-28T15:00:05.000Z",
+        "retrievedAt": "2026-11-28T19:47:08.065Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "The committee said the countries resolved to “continue exerting and accelerating efforts to support the Kingdom in safeguarding its security,” a joint statement said.",
-          "The committee “reviewed the evolving …"
+          "“I ran straight into the dust, our own children were there,” he said.",
+          "“Pieces of wood and human flesh were flying everywhere,” said Sulaiman, adding that he ran toward the school.",
+          "KABUL: An explosion at a primary and middle school in the …"
         ],
         "figures": [],
-        "wordsRead": 299
+        "wordsRead": 422
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+        "u": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
+        "publishedAt": "2026-11-28T11:07:35.000Z",
+        "retrievedAt": "2026-11-28T19:47:11.701Z",
+        "read": "headline and feed excerpt"
       }
     ],
     "views": [
@@ -2444,13 +1827,13 @@
         "label": "Left / progressive",
         "outlets": [
           {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "Mecca pact members meet in Islamabad and condemn Houthi attacks on Saudi Arabia",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mecca-pact-members-meet-islamabad-condemn-houthi-attacks-saudi-arabia"
+            "outlet": "NPR",
+            "outletId": "npr",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+            "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan"
           }
         ],
         "status": "sourced",
@@ -2465,306 +1848,21 @@
             "outletId": "bbc",
             "lean": "centre",
             "country": "UK",
-            "evidenceIndex": 0,
-            "headline": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-            "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [
-          {
-            "outlet": "Washington Times",
-            "outletId": "washtimes",
-            "lean": "right",
-            "country": "US",
             "evidenceIndex": 1,
-            "headline": "Pakistan hosts defense talks with Saudi Arabia and Turkey under Mecca pact",
-            "url": "https://www.washingtontimes.com/news/2026/nov/27/pakistan-hosting-defense-talks-saudi-arabia-turkey-mecca-pact/"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": true,
-      "name": "left-right"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 2,
-        "headline": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
-        "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "Saudi Arabia, Pakistan and Turkiye to accelerate support for Kingdom’s security in face of Houthi attacks",
-        "url": "https://www.arabnews.com/saudi-arabia/saudi-arabia-pakistan-and-turkiye-to-accelerate-support-for-kingdoms-security-in-face-of-houthi-attacks-3014302",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Saudi Arabia",
-        "Houthi",
-        "Mecca",
-        "Pakistan",
-        "Inside Saudi Arabia",
-        "Islamabad"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": true,
-          "found": [],
-          "terms": [
-            "Saudi Arabia",
-            "Houthi",
-            "Mecca",
-            "Pakistan",
-            "Inside Saudi Arabia",
-            "Islamabad"
-          ]
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "chpvckb",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-27T17:38:26.000Z",
-    "lastSeen": "2026-11-27T20:18:41.000Z",
-    "outletCount": 5,
-    "outlets": [
-      "Washington Examiner",
-      "Fox News",
-      "Washington Times",
-      "Middle East Eye",
-      "Arab News"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 5 outlets",
-    "clustering": {
-      "min": 0.36498862494349626,
-      "max": 0.5541035442485043,
-      "pairs": 9,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "Washington Examiner",
-        "b": "lean_right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US strikes commercial ship in Gulf of Oman for attempting to run naval blockade after leaving Iran",
-        "u": "https://www.washingtonexaminer.com/news/world/4816605/us-strikes-commercial-ship-gulf-of-oman/",
-        "publishedAt": "2026-11-27T20:18:41.000Z",
-        "retrievedAt": "2026-11-27T20:56:15.404Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Central Command (CENTCOM) disabled a commercial vessel in …"
-        ],
-        "figures": [],
-        "wordsRead": 85
-      },
-      {
-        "n": "Fox News",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US military disables tanker ship attempting to slip through Iran blockade on Thanksgiving Day",
-        "u": "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day",
-        "publishedAt": "2026-11-27T18:48:07.000Z",
-        "retrievedAt": "2026-11-27T20:56:16.697Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Trump said that if the U.S. were to resume strikes, CENTCOM forces would \"absolutely hit Pickaxe Mountain,\" an underground complex near Iran's Natanz enrichment complex .",
-          "The civilian crew was unharmed in the strike, CENTCOM said.",
-          "President Donald Trump said Thursday, while celebrating …"
-        ],
-        "figures": [],
-        "wordsRead": 437
-      },
-      {
-        "n": "Washington Times",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
-        "u": "https://www.washingtontimes.com/news/2026/nov/27/us-military-says-disabled-another-ship-attempted-breach-naval/",
-        "publishedAt": "2026-11-27T18:08:46.000Z",
-        "retrievedAt": "2026-11-27T20:56:21.628Z",
-        "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Centcom says it disabled commercial ship trying to run Iran blockade",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-disabled-commercial-ship-trying-run-iran-blockade",
-        "publishedAt": "2026-11-27T17:38:26.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The US military said on Friday that it had …"
-        ],
-        "figures": [],
-        "wordsRead": 96
-      },
-      {
-        "n": "Arab News",
-        "b": "varies",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-        "u": "https://www.arabnews.com/middle-east/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade-3014303",
-        "publishedAt": "2026-11-27T18:14:49.000Z",
-        "retrievedAt": "2026-11-27T20:56:58.410Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "Meanwhile, ‌Mohammad Mokhber, an adviser to ‌Iran’s Supreme Leader Ayatollah Mojtaba Khamenei, said: “Neither will the Strait of Hormuz be reopened …"
-        ],
-        "figures": [],
-        "wordsRead": 213
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
+            "headline": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+            "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss"
+          },
           {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 3,
-            "headline": "Centcom says it disabled commercial ship trying to run Iran blockade",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-disabled-commercial-ship-trying-run-iran-blockade"
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 4,
+            "headline": "Explosion at school in eastern Afghanistan kills 10 and wounds 110, mostly children",
+            "url": "https://www.theglobeandmail.com/world/article-explosion-at-school-in-eastern-afghanistan-kills-10-and-wounds-110/"
           }
         ],
         "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
         "text": null
       },
       {
@@ -2776,27 +1874,18 @@
             "outletId": "washexaminer",
             "lean": "lean_right",
             "country": "US",
-            "evidenceIndex": 0,
-            "headline": "US strikes commercial ship in Gulf of Oman for attempting to run naval blockade after leaving Iran",
-            "url": "https://www.washingtonexaminer.com/news/world/4816605/us-strikes-commercial-ship-gulf-of-oman/"
+            "evidenceIndex": 2,
+            "headline": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+            "url": "https://www.washingtonexaminer.com/news/world/4816936/afghanistan-middle-school-explosion/"
           },
           {
             "outlet": "Fox News",
             "outletId": "foxnews",
             "lean": "right",
             "country": "US",
-            "evidenceIndex": 1,
-            "headline": "US military disables tanker ship attempting to slip through Iran blockade on Thanksgiving Day",
-            "url": "https://www.foxnews.com/world/us-military-disables-tanker-ship-attempting-slip-through-iran-blockade-thanksgiving-day"
-          },
-          {
-            "outlet": "Washington Times",
-            "outletId": "washtimes",
-            "lean": "right",
-            "country": "US",
-            "evidenceIndex": 2,
-            "headline": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
-            "url": "https://www.washingtontimes.com/news/2026/nov/27/us-military-says-disabled-another-ship-attempted-breach-naval/"
+            "evidenceIndex": 3,
+            "headline": "Explosion near Afghan school kills at least 10, injures 110 as children rushed to hospital",
+            "url": "https://www.foxnews.com/world/explosion-near-afghan-school-kills-least-10-injures-110-children-rushed-hospital"
           }
         ],
         "status": "sourced",
@@ -2813,21 +1902,28 @@
         "outletId": "arabnews",
         "lean": "varies",
         "country": "SA",
-        "evidenceIndex": 4,
-        "headline": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-        "url": "https://www.arabnews.com/middle-east/us-disables-ship-trying-to-leave-iran-as-tehran-vows-to-confront-blockade-3014303",
+        "evidenceIndex": 5,
+        "headline": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+        "url": "https://www.arabnews.com/world/an-explosion-at-a-school-in-eastern-afghanistan-kills-10-wounds-110-3014390",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 6,
+        "headline": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+        "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Iran",
-        "Thanksgiving Day",
-        "Iranian",
-        "Centcom",
-        "Tehran",
-        "Gulf"
+        "Afghanistan",
+        "Explosion",
+        "Afghan"
       ],
       "attempts": [
         {
@@ -2836,12 +1932,9 @@
           "attempted": true,
           "found": [],
           "terms": [
-            "Iran",
-            "Thanksgiving Day",
-            "Iranian",
-            "Centcom",
-            "Tehran",
-            "Gulf"
+            "Afghanistan",
+            "Explosion",
+            "Afghan"
           ]
         },
         {
@@ -2921,7 +2014,7 @@
     "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
   },
   {
-    "id": "cdrz1ac",
+    "id": "cgq9l7y",
     "regions": [
       "Global"
     ],
@@ -2937,35 +2030,58 @@
         ]
       }
     },
-    "firstSeen": "2026-11-27T15:23:37.000Z",
-    "lastSeen": "2026-11-27T20:18:45.000Z",
-    "outletCount": 3,
+    "firstSeen": "2026-11-28T16:21:19.000Z",
+    "lastSeen": "2026-11-28T18:59:47.000Z",
+    "outletCount": 6,
     "outlets": [
+      "Haaretz",
+      "JNS",
       "Al Jazeera",
       "Middle East Eye",
-      "Arab News"
+      "Arab News",
+      "South China Morning Post"
     ],
     "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
+    "tierBasis": "reported independently by 6 outlets",
     "clustering": {
-      "min": 0.390228944378098,
-      "max": 0.5827329045493148,
-      "pairs": 5,
+      "min": 0.36677201888937816,
+      "max": 0.6718369589699219,
+      "pairs": 9,
       "prunedForCohesion": 0
     },
     "sources": [
       {
-        "n": "Al Jazeera",
-        "b": "varies",
+        "n": "Haaretz",
+        "b": "left",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-        "publishedAt": "2026-11-27T20:18:45.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
+        "t": "Netanyahu offers Eisenkot first turn as prime minister in rotational deal",
+        "u": "https://www.haaretz.com/israel-news/2026-11-28/ty-article/.premium/netanyahu-proposes-rotational-agreement-with-eisenkot-serving-first-as-pm/000001a2-22ef-d809-adef-6befad4f0000",
+        "publishedAt": "2026-11-28T16:21:19.000Z",
+        "retrievedAt": "2026-11-28T19:47:01.159Z",
         "read": "headline and feed excerpt"
+      },
+      {
+        "n": "JNS",
+        "b": "right",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Netanyahu offers Eisenkot first turn as prime minister in unity government",
+        "u": "https://www.jns.org/news/israel-news/netanyahu-offers-eisenkot-first-turn-as-prime-minister-in-unity-government",
+        "publishedAt": "2026-11-28T18:59:47.000Z",
+        "retrievedAt": "2026-11-28T19:47:03.902Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Naturally,” Netanyahu wrote in a Hebrew-language post on X, “I should lead the unity government, or at least be first in the rotation,” meaning because his Likud faction won the …",
+          "“But given the gravity of the existential danger and the possibility that a government will be formed that lacks the ability to confront it, my responsibility as a leader requires …",
+          "“But everyone needs to be clear: This is just a ploy,” Liberman wrote in a statement."
+        ],
+        "figures": [],
+        "wordsRead": 2061
       },
       {
         "n": "Al Jazeera",
@@ -2974,18 +2090,17 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-        "u": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-        "publishedAt": "2026-11-27T19:53:25.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
+        "t": "Netanyahu offers to rotate Israeli premiership with Gadi Eisenkot",
+        "u": "https://www.aljazeera.com/news/2026/11/28/israels-eisenkot-offers-immediate-talks-with-netanyahu-to-test-seriousness?traffic_source=rss",
+        "publishedAt": "2026-11-28T18:48:52.000Z",
+        "retrievedAt": "2026-11-28T19:47:05.356Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Hamas said the “cowardly act” exposes the “complete detachment from human and moral values” of Israeli leaders.",
-          "The Israeli claim “comes as part of the ongoing incitement against hospitals in the Gaza Strip”, Hamas said in a statement.",
-          "A son of Hamas leader Khalil al-Hayya has survived an Israeli air strike targeting his family in …"
+          "“If Likud is ready for genuine unity, I am prepared to see how serious it is over the next 24 hours,” Eisenkot said in a statement on Saturday.",
+          "“Given the gravity of the existential danger and the possibility that a government will be formed that lacks the ability to confront it, my responsibility as a …"
         ],
         "figures": [],
-        "wordsRead": 558
+        "wordsRead": 550
       },
       {
         "n": "Middle East Eye",
@@ -2994,16 +2109,16 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Hamas says son of leader Khalil al-Hayya survived Israeli attack",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-says-son-leader-khalil-al-hayya-survived-israeli-attack",
-        "publishedAt": "2026-11-27T16:00:50.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
+        "t": "Netanyahu says he is willing to let Eisenkot serve as prime minister first in proposed rotation",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-says-he-willing-let-eisenkot-serve-prime-minister-first",
+        "publishedAt": "2026-11-28T17:17:02.000Z",
+        "retrievedAt": "2026-11-28T19:47:06.713Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "Hamas official Bassem Naim has told …"
+          "Israel's Prime Minister Benjamin …"
         ],
         "figures": [],
-        "wordsRead": 62
+        "wordsRead": 49
       },
       {
         "n": "Arab News",
@@ -3012,260 +2127,30 @@
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "Son of Hamas chief survives Israeli strike, Hamas says",
-        "u": "https://www.arabnews.com/middle-east/son-of-hamas-chief-survives-israeli-strike-hamas-says-3014272",
-        "publishedAt": "2026-11-27T15:23:37.000Z",
-        "retrievedAt": "2026-11-27T20:56:58.410Z",
-        "read": "headline and feed excerpt"
-      }
-    ],
-    "views": [
-      {
-        "side": "left",
-        "label": "Left / progressive",
-        "outlets": [
-          {
-            "outlet": "Middle East Eye",
-            "outletId": "middleeasteye",
-            "lean": "left",
-            "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "Hamas says son of leader Khalil al-Hayya survived Israeli attack",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-says-son-leader-khalil-al-hayya-survived-israeli-attack"
-          }
-        ],
-        "status": "sourced",
-        "text": null
-      },
-      {
-        "side": "centre",
-        "label": "Centre",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      },
-      {
-        "side": "right",
-        "label": "Right / conservative",
-        "outlets": [],
-        "status": "not sourced",
-        "text": null
-      }
-    ],
-    "axis": {
-      "applies": false,
-      "name": null,
-      "reason": "only 1 of 4 items come from outlets placed on the left-right axis"
-    },
-    "offAxis": [
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 0,
-        "headline": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Al Jazeera",
-        "outletId": "aljazeera",
-        "lean": "varies",
-        "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
-        "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss",
-        "reason": "lean \"varies\" is not a left-right position"
-      },
-      {
-        "outlet": "Arab News",
-        "outletId": "arabnews",
-        "lean": "varies",
-        "country": "SA",
-        "evidenceIndex": 3,
-        "headline": "Son of Hamas chief survives Israeli strike, Hamas says",
-        "url": "https://www.arabnews.com/middle-east/son-of-hamas-chief-survives-israeli-strike-hamas-says-3014272",
-        "reason": "lean \"varies\" is not a left-right position"
-      }
-    ],
-    "verification": {
-      "attempted": true,
-      "terms": [
-        "Hamas",
-        "Israeli",
-        "Hayya",
-        "Gaza",
-        "Israel",
-        "Khalil"
-      ],
-      "attempts": [
-        {
-          "source": "federal-register",
-          "name": "US Federal Register",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "csis-canada",
-          "name": "CSIS public reports",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "statcan",
-          "name": "Statistics Canada WDS",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "boc-valet",
-          "name": "Bank of Canada Valet",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "egazette",
-          "name": "India eGazette",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "pib",
-          "name": "Press Information Bureau",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "mea-india",
-          "name": "India Ministry of External Affairs",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eur-lex",
-          "name": "EUR-Lex CELLAR",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "eurostat",
-          "name": "Eurostat",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "congress-gov",
-          "name": "Congress.gov",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        },
-        {
-          "source": "reliefweb",
-          "name": "ReliefWeb",
-          "attempted": false,
-          "reason": "does not apply to this story's countries or terms"
-        }
-      ],
-      "primary": [],
-      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
-    },
-    "disputedCandidates": [],
-    "headline": null,
-    "sub": null,
-    "cat": null,
-    "dateline": null,
-    "context": null,
-    "facts": null,
-    "disputed": null,
-    "coverage": null,
-    "watch": null,
-    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
-  },
-  {
-    "id": "c1oh511i",
-    "regions": [
-      "Global"
-    ],
-    "regionEvidence": {
-      "scores": {
-        "Canada": 0,
-        "India": 0,
-        "Europe": 1
-      },
-      "matched": {
-        "Europe": [
-          "(an outlet from the region covered it)"
-        ]
-      }
-    },
-    "firstSeen": "2026-11-27T18:30:19.000Z",
-    "lastSeen": "2026-11-27T20:10:30.000Z",
-    "outletCount": 3,
-    "outlets": [
-      "JNS",
-      "Al Jazeera",
-      "Middle East Eye"
-    ],
-    "tier": "multi",
-    "tierBasis": "reported independently by 3 outlets",
-    "clustering": {
-      "min": 0.3639388537203312,
-      "max": 0.574584815693816,
-      "pairs": 2,
-      "prunedForCohesion": 0
-    },
-    "sources": [
-      {
-        "n": "JNS",
-        "b": "right",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "Costa Rica denies Francesa Albanese entry due to terror link alert",
-        "u": "https://www.jns.org/news/world/costa-rica-denies-francesa-albanese-entry-due-to-terror-link-alert",
-        "publishedAt": "2026-11-27T19:01:50.000Z",
-        "retrievedAt": "2026-11-27T20:56:53.779Z",
+        "t": "Netanyahu offers to rotate Israeli premiership with Eisenkot",
+        "u": "https://www.arabnews.com/middle-east/netanyahu-offers-to-rotate-israeli-premiership-with-eisenkot-3014401",
+        "publishedAt": "2026-11-28T17:27:37.000Z",
+        "retrievedAt": "2026-11-28T19:47:08.065Z",
         "read": "full article read; short extracts retained",
         "quotes": [
-          "There should be “consequences” for those who “exploit their U.N. mandate to spread vile propaganda,” stated Israel’s envoy to the global body.",
-          "Omer Badilla, Costa Rican immigration chief, said that Albanese was barred on Thursday as “the subject of an international alert over links with terrorist activities” who represents …"
+          "Proposing a unity government in a social media post, Netanyahu said “my responsibility as a leader requires me to set everything aside... and agree that Gadi Eisenkot will serve first …",
+          "“Likud... has been unwilling to compromise and, over …"
         ],
         "figures": [],
-        "wordsRead": 495
+        "wordsRead": 398
       },
       {
-        "n": "Al Jazeera",
+        "n": "South China Morning Post",
         "b": "varies",
         "labelSource": {
           "provider": "roster",
           "note": "hand-assigned when the roster was built; not a rating service"
         },
-        "t": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
-        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
-        "publishedAt": "2026-11-27T20:10:30.000Z",
-        "retrievedAt": "2026-11-27T20:56:55.339Z",
+        "t": "Netanyahu offers to rotate Israel PM role with Eisenkot, let rival go first",
+        "u": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
+        "publishedAt": "2026-11-28T17:33:20.000Z",
+        "retrievedAt": "2026-11-28T19:47:11.701Z",
         "read": "headline and feed excerpt"
-      },
-      {
-        "n": "Middle East Eye",
-        "b": "left",
-        "labelSource": {
-          "provider": "roster",
-          "note": "hand-assigned when the roster was built; not a rating service"
-        },
-        "t": "UN rights chief voices concern as Costa Rica bars Francesca Albanese",
-        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-chief-voices-concern-costa-rica-bars-francesca-albanese",
-        "publishedAt": "2026-11-27T18:30:19.000Z",
-        "retrievedAt": "2026-11-27T20:56:56.645Z",
-        "read": "full article read; short extracts retained",
-        "quotes": [
-          "The UN human rights office said on X that Albanese was denied entry on \"claimed national security grounds\".",
-          "\"I am deeply indignant that the government …"
-        ],
-        "figures": [],
-        "wordsRead": 251
       }
     ],
     "views": [
@@ -3274,13 +2159,22 @@
         "label": "Left / progressive",
         "outlets": [
           {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 0,
+            "headline": "Netanyahu offers Eisenkot first turn as prime minister in rotational deal",
+            "url": "https://www.haaretz.com/israel-news/2026-11-28/ty-article/.premium/netanyahu-proposes-rotational-agreement-with-eisenkot-serving-first-as-pm/000001a2-22ef-d809-adef-6befad4f0000"
+          },
+          {
             "outlet": "Middle East Eye",
             "outletId": "middleeasteye",
             "lean": "left",
             "country": "UK",
-            "evidenceIndex": 2,
-            "headline": "UN rights chief voices concern as Costa Rica bars Francesca Albanese",
-            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-rights-chief-voices-concern-costa-rica-bars-francesca-albanese"
+            "evidenceIndex": 3,
+            "headline": "Netanyahu says he is willing to let Eisenkot serve as prime minister first in proposed rotation",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-says-he-willing-let-eisenkot-serve-prime-minister-first"
           }
         ],
         "status": "sourced",
@@ -3302,9 +2196,9 @@
             "outletId": "jns",
             "lean": "right",
             "country": "IL",
-            "evidenceIndex": 0,
-            "headline": "Costa Rica denies Francesa Albanese entry due to terror link alert",
-            "url": "https://www.jns.org/news/world/costa-rica-denies-francesa-albanese-entry-due-to-terror-link-alert"
+            "evidenceIndex": 1,
+            "headline": "Netanyahu offers Eisenkot first turn as prime minister in unity government",
+            "url": "https://www.jns.org/news/israel-news/netanyahu-offers-eisenkot-first-turn-as-prime-minister-in-unity-government"
           }
         ],
         "status": "sourced",
@@ -3321,19 +2215,959 @@
         "outletId": "aljazeera",
         "lean": "varies",
         "country": "QA",
-        "evidenceIndex": 1,
-        "headline": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+        "evidenceIndex": 2,
+        "headline": "Netanyahu offers to rotate Israeli premiership with Gadi Eisenkot",
+        "url": "https://www.aljazeera.com/news/2026/11/28/israels-eisenkot-offers-immediate-talks-with-netanyahu-to-test-seriousness?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 4,
+        "headline": "Netanyahu offers to rotate Israeli premiership with Eisenkot",
+        "url": "https://www.arabnews.com/middle-east/netanyahu-offers-to-rotate-israeli-premiership-with-eisenkot-3014401",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 5,
+        "headline": "Netanyahu offers to rotate Israel PM role with Eisenkot, let rival go first",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
         "reason": "lean \"varies\" is not a left-right position"
       }
     ],
     "verification": {
       "attempted": true,
       "terms": [
-        "Costa Rica",
-        "Francesca Albanese",
-        "Francesa Albanese",
-        "UN Gaza"
+        "Netanyahu",
+        "Eisenkot",
+        "Israeli",
+        "Gadi Eisenkot",
+        "Israel PM"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1lhwy39",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 0,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-28T14:19:31.000Z",
+    "lastSeen": "2026-11-28T17:29:28.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Al Jazeera",
+      "Arab News",
+      "South China Morning Post"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.4027899601229811,
+      "max": 0.5881301976293621,
+      "pairs": 6,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Dozens killed in Myanmar military strikes on wedding venue and school",
+        "u": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-28T16:53:20.000Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Rescuers said at least 21 were confirmed dead, and at least 35 others injured, at the wedding site in Moe Bye village, in the country's southern Shan state, on Saturday …"
+        ],
+        "figures": [],
+        "wordsRead": 303
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Dozens reported killed in series of Myanmar air attacks",
+        "u": "https://www.aljazeera.com/news/2026/11/28/dozens-reported-killed-in-series-of-myanmar-air-attacks?traffic_source=rss",
+        "publishedAt": "2026-11-28T17:29:28.000Z",
+        "retrievedAt": "2026-11-28T19:47:05.356Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "At least 30 people have been killed in two separate air attacks by the Myanmar military, according to witnesses and rescue officials.",
+          "A strike on a wedding venue in Moe Bye district in the northeast on Saturday killed 21 people, including five …"
+        ],
+        "figures": [],
+        "wordsRead": 420
+      },
+      {
+        "n": "Al Jazeera",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
+        "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
+        "publishedAt": "2026-11-28T15:59:08.000Z",
+        "retrievedAt": "2026-11-28T19:47:05.356Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Airstrike on Myanmar wedding venue kills around 20: witnesses",
+        "u": "https://www.arabnews.com/world/airstrike-on-myanmar-wedding-venue-kills-around-20-witnesses-3014386",
+        "publishedAt": "2026-11-28T14:19:31.000Z",
+        "retrievedAt": "2026-11-28T19:47:08.065Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "South China Morning Post",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+        "u": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+        "publishedAt": "2026-11-28T15:25:22.000Z",
+        "retrievedAt": "2026-11-28T19:47:11.701Z",
+        "read": "headline and feed excerpt"
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Dozens killed in Myanmar military strikes on wedding venue and school",
+            "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": false,
+      "name": null,
+      "reason": "only 1 of 5 items come from outlets placed on the left-right axis"
+    },
+    "offAxis": [
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 1,
+        "headline": "Dozens reported killed in series of Myanmar air attacks",
+        "url": "https://www.aljazeera.com/news/2026/11/28/dozens-reported-killed-in-series-of-myanmar-air-attacks?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Al Jazeera",
+        "outletId": "aljazeera",
+        "lean": "varies",
+        "country": "QA",
+        "evidenceIndex": 2,
+        "headline": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 3,
+        "headline": "Airstrike on Myanmar wedding venue kills around 20: witnesses",
+        "url": "https://www.arabnews.com/world/airstrike-on-myanmar-wedding-venue-kills-around-20-witnesses-3014386",
+        "reason": "lean \"varies\" is not a left-right position"
+      },
+      {
+        "outlet": "South China Morning Post",
+        "outletId": "scmp",
+        "lean": "varies",
+        "country": "HK",
+        "evidenceIndex": 4,
+        "headline": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Myanmar",
+        "Dozens",
+        "Airstrike",
+        "Video"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "c1k3ddiu",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-26T14:47:58.000Z",
+    "lastSeen": "2026-11-28T18:11:12.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "Guardian US",
+      "Globe and Mail",
+      "Euronews",
+      "Arab News"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.37303308320546946,
+      "max": 0.49680285339787955,
+      "pairs": 8,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "Guardian US",
+        "b": "lean_left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Storms clear for first ever postponed Macy’s Thanksgiving Day parade",
+        "u": "https://www.theguardian.com/us-news/2026/nov/28/macys-thanksgiving-parade-new-york",
+        "publishedAt": "2026-11-28T15:20:13.000Z",
+        "retrievedAt": "2026-11-28T19:46:14.844Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The band’s performance was two years in the making after spending 18 months fundraising, including “lots of selling of fruit and various products”, the band’s director, Lafe Cook, told CNN.",
+          "The National Weather Service …"
+        ],
+        "figures": [
+          {
+            "value": "$800,000",
+            "context": "night, they announced that they raised more than $800,000 to cover the added costs of extending their stay."
+          }
+        ],
+        "wordsRead": 345
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macy’s 100th Thanksgiving Day parade gets a do-over after storm forced postponement",
+        "u": "https://www.theglobeandmail.com/world/article-macys-100th-thanksgiving-day-parade-begins-after-storm-forced/",
+        "publishedAt": "2026-11-28T14:14:40.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "Macy’s milestone 100th Thanksgiving Day parade got a do-over, long after most of the turkey leftovers have been repurposed into sandwiches.",
+          "The parade stepped off Saturday morning with the same balloons and floats, 1,000 clowns and most of the original celebrities – plus the addition of LL Cool J and Gloria …",
+          "The crisp, dry fall day was worth …"
+        ],
+        "figures": [],
+        "wordsRead": 595
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macy’s Thanksgiving Day Parade postponed to Saturday because of bad weather",
+        "u": "https://www.theglobeandmail.com/world/article-macys-thanksgiving-day-parade-postponed-weather/",
+        "publishedAt": "2026-11-26T14:47:58.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The annual parade, originally scheduled for Thursday, has been moved “out of an abundance of caution” and following consultation with city officials about the severe weather, Macy’s said in a …",
+          "“Our team is now working through the complex operational logistics required to bring the Parade to life on Saturday, and we will share additional details as they are finalized,” the …",
+          "“It’s been his lifelong wish to go to New York and see all the …"
+        ],
+        "figures": [],
+        "wordsRead": 760
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Macy's Thanksgiving Day Parade postponed for first time in 100 years",
+        "u": "https://www.theglobeandmail.com/world/video-macys-thanksgiving-day-parade-postponed-for-first-time-in-100-years/",
+        "publishedAt": "2026-11-26T14:59:02.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Euronews",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "New York City: Macy’s 100th Thanksgiving Day Parade takes place after historic weather delay",
+        "u": "https://www.euronews.com/2026/11/28/new-york-city-macys-100th-thanksgiving-day-parade-takes-place-after-historic-weather-delay",
+        "publishedAt": "2026-11-28T15:48:12.000Z",
+        "retrievedAt": "2026-11-28T19:46:46.397Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"The safety of our participants and spectators is our top priority,\" Macy’s said in a statement on Wednesday.",
+          "A marching band from Hawaii raised more than $700,000 (€605,000) to extend its stay in New York, according to the Associated Press.",
+          "Heavy rain and strong winds forced organisers to postpone the iconic New York parade for the first time in its history, disrupting preparations for …"
+        ],
+        "figures": [],
+        "wordsRead": 648
+      },
+      {
+        "n": "Arab News",
+        "b": "varies",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Postponed Macy’s 100th Thanksgiving Day parade gets a do-over with 100 balloons and 1,000 clowns",
+        "u": "https://www.arabnews.com/offbeat/postponed-macys-100th-thanksgiving-day-parade-gets-a-do-over-with-100-balloons-and-1000-clowns-3014412",
+        "publishedAt": "2026-11-28T18:11:12.000Z",
+        "retrievedAt": "2026-11-28T19:47:08.065Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“I’m pleased to say that we will deliver the 100th Macy’s Thanksgiving Day Parade that we’ve been planning for the last couple of years,” Will Coss, vice president and executive …",
+          "Macy’s milestone 100th Thanksgiving Day parade got a do-over, long after most of the turkey leftovers have been …"
+        ],
+        "figures": [],
+        "wordsRead": 491
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Guardian US",
+            "outletId": "guardian-us",
+            "lean": "lean_left",
+            "country": "US",
+            "evidenceIndex": 0,
+            "headline": "Storms clear for first ever postponed Macy’s Thanksgiving Day parade",
+            "url": "https://www.theguardian.com/us-news/2026/nov/28/macys-thanksgiving-parade-new-york"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Macy’s 100th Thanksgiving Day parade gets a do-over after storm forced postponement",
+            "url": "https://www.theglobeandmail.com/world/article-macys-100th-thanksgiving-day-parade-begins-after-storm-forced/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 2,
+            "headline": "Macy’s Thanksgiving Day Parade postponed to Saturday because of bad weather",
+            "url": "https://www.theglobeandmail.com/world/article-macys-thanksgiving-day-parade-postponed-weather/"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 3,
+            "headline": "Macy's Thanksgiving Day Parade postponed for first time in 100 years",
+            "url": "https://www.theglobeandmail.com/world/video-macys-thanksgiving-day-parade-postponed-for-first-time-in-100-years/"
+          },
+          {
+            "outlet": "Euronews",
+            "outletId": "euronews",
+            "lean": "centre",
+            "country": "EU",
+            "evidenceIndex": 4,
+            "headline": "New York City: Macy’s 100th Thanksgiving Day Parade takes place after historic weather delay",
+            "url": "https://www.euronews.com/2026/11/28/new-york-city-macys-100th-thanksgiving-day-parade-takes-place-after-historic-weather-delay"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [
+      {
+        "outlet": "Arab News",
+        "outletId": "arabnews",
+        "lean": "varies",
+        "country": "SA",
+        "evidenceIndex": 5,
+        "headline": "Postponed Macy’s 100th Thanksgiving Day parade gets a do-over with 100 balloons and 1,000 clowns",
+        "url": "https://www.arabnews.com/offbeat/postponed-macys-100th-thanksgiving-day-parade-gets-a-do-over-with-100-balloons-and-1000-clowns-3014412",
+        "reason": "lean \"varies\" is not a left-right position"
+      }
+    ],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Macy",
+        "Thanksgiving Day",
+        "Thanksgiving Day Parade",
+        "Macy's Thanksgiving Day Parade",
+        "Postponed Macy",
+        "New York City"
+      ],
+      "attempts": [
+        {
+          "source": "federal-register",
+          "name": "US Federal Register",
+          "attempted": true,
+          "found": [],
+          "terms": [
+            "Macy",
+            "Thanksgiving Day",
+            "Thanksgiving Day Parade",
+            "Macy's Thanksgiving Day Parade",
+            "Postponed Macy",
+            "New York City"
+          ]
+        },
+        {
+          "source": "csis-canada",
+          "name": "CSIS public reports",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "statcan",
+          "name": "Statistics Canada WDS",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "boc-valet",
+          "name": "Bank of Canada Valet",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "egazette",
+          "name": "India eGazette",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "pib",
+          "name": "Press Information Bureau",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "mea-india",
+          "name": "India Ministry of External Affairs",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eur-lex",
+          "name": "EUR-Lex CELLAR",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "eurostat",
+          "name": "Eurostat",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "congress-gov",
+          "name": "Congress.gov",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        },
+        {
+          "source": "reliefweb",
+          "name": "ReliefWeb",
+          "attempted": false,
+          "reason": "does not apply to this story's countries or terms"
+        }
+      ],
+      "primary": [],
+      "gap": "No primary document found. 10 of 11 document sources are not wired yet, so absence here is not evidence of absence."
+    },
+    "disputedCandidates": [],
+    "headline": null,
+    "sub": null,
+    "cat": null,
+    "dateline": null,
+    "context": null,
+    "facts": null,
+    "disputed": null,
+    "coverage": null,
+    "watch": null,
+    "_prose": "unwritten: context, facts, disputed, coverage, watch and each view's text require reading the sources. Do not fill these from the fields above."
+  },
+  {
+    "id": "cx394jb",
+    "regions": [
+      "Global"
+    ],
+    "regionEvidence": {
+      "scores": {
+        "Canada": 1,
+        "India": 0,
+        "Europe": 1
+      },
+      "matched": {
+        "Canada": [
+          "(an outlet from the region covered it)"
+        ],
+        "Europe": [
+          "(an outlet from the region covered it)"
+        ]
+      }
+    },
+    "firstSeen": "2026-11-27T23:58:41.000Z",
+    "lastSeen": "2026-11-28T18:12:48.000Z",
+    "outletCount": 4,
+    "outlets": [
+      "BBC News",
+      "Globe and Mail",
+      "Haaretz",
+      "Middle East Eye"
+    ],
+    "tier": "multi",
+    "tierBasis": "reported independently by 4 outlets",
+    "clustering": {
+      "min": 0.39368616914522386,
+      "max": 0.7077158487061446,
+      "pairs": 7,
+      "prunedForCohesion": 0
+    },
+    "sources": [
+      {
+        "n": "BBC News",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+        "u": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+        "publishedAt": "2026-11-28T10:34:58.000Z",
+        "retrievedAt": "2026-11-28T19:46:18.347Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "In a statement, the Israel Defense Forces (IDF) said the two people were Hamas operatives \"acting as security guards at a clinic operated by MSF\".",
+          "The head of the World Health Organization (WHO) said that attacks on health facilities and health workers in Gaza were \"outrageous and unacceptable\".",
+          "In a post on X, Dr Tedros Adhanom Ghebreyesus wrote: \"Those risking their lives to save others must be …"
+        ],
+        "figures": [],
+        "wordsRead": 670
+      },
+      {
+        "n": "Globe and Mail",
+        "b": "centre",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Doctors Without Borders condemns Israeli drone strike that killed 2 clinic staff in Gaza",
+        "u": "https://www.theglobeandmail.com/world/article-doctors-without-borders-drone-strike-kills-2-gaza-clinic-staff/",
+        "publishedAt": "2026-11-28T17:42:52.000Z",
+        "retrievedAt": "2026-11-28T19:46:31.579Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "“Our premises were clearly marked with MSF logos, and their location had been communicated to and was known by the Israeli military,” it said.",
+          "Israel’s military confirmed Friday’s strike but said the two MSF workers were “terrorists posing as humanitarian workers.”"
+        ],
+        "figures": [],
+        "wordsRead": 432
+      },
+      {
+        "n": "Haaretz",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "IDF says it killed two Hamas members working as guards at Gaza MSF clinic",
+        "u": "https://www.haaretz.com/israel-news/israel-security/2026-11-28/ty-article/.premium/idf-says-it-killed-two-hamas-members-working-as-guards-at-gaza-msf-clinic/000001a2-1f55-d809-adef-7ffd06be0000",
+        "publishedAt": "2026-11-27T23:58:41.000Z",
+        "retrievedAt": "2026-11-28T19:47:01.159Z",
+        "read": "headline and feed excerpt"
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Doctors Without Borders condemns Israeli drone strike that killed two staff in Gaza",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/doctors-without-borders-condemns-israeli-drone-strike-killed-two-staff",
+        "publishedAt": "2026-11-28T18:12:48.000Z",
+        "retrievedAt": "2026-11-28T19:47:06.713Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "\"Our premises were clearly marked with MSF logos, and their location had been communicated to and was …"
+        ],
+        "figures": [],
+        "wordsRead": 174
+      },
+      {
+        "n": "Middle East Eye",
+        "b": "left",
+        "labelSource": {
+          "provider": "roster",
+          "note": "hand-assigned when the roster was built; not a rating service"
+        },
+        "t": "Israeli army acknowledges Gaza strike that killed two MSF workers",
+        "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-acknowledges-gaza-strike-killed-two-msf-workers",
+        "publishedAt": "2026-11-28T11:01:11.000Z",
+        "retrievedAt": "2026-11-28T19:47:06.713Z",
+        "read": "full article read; short extracts retained",
+        "quotes": [
+          "The Israeli military has confirmed it carried out a strike in Gaza City that killed two employees at a clinic run by Doctors Without Borders …"
+        ],
+        "figures": [],
+        "wordsRead": 250
+      }
+    ],
+    "views": [
+      {
+        "side": "left",
+        "label": "Left / progressive",
+        "outlets": [
+          {
+            "outlet": "Haaretz",
+            "outletId": "haaretz",
+            "lean": "left",
+            "country": "IL",
+            "evidenceIndex": 2,
+            "headline": "IDF says it killed two Hamas members working as guards at Gaza MSF clinic",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-28/ty-article/.premium/idf-says-it-killed-two-hamas-members-working-as-guards-at-gaza-msf-clinic/000001a2-1f55-d809-adef-7ffd06be0000"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 3,
+            "headline": "Doctors Without Borders condemns Israeli drone strike that killed two staff in Gaza",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/doctors-without-borders-condemns-israeli-drone-strike-killed-two-staff"
+          },
+          {
+            "outlet": "Middle East Eye",
+            "outletId": "middleeasteye",
+            "lean": "left",
+            "country": "UK",
+            "evidenceIndex": 4,
+            "headline": "Israeli army acknowledges Gaza strike that killed two MSF workers",
+            "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-acknowledges-gaza-strike-killed-two-msf-workers"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "centre",
+        "label": "Centre",
+        "outlets": [
+          {
+            "outlet": "BBC News",
+            "outletId": "bbc",
+            "lean": "centre",
+            "country": "UK",
+            "evidenceIndex": 0,
+            "headline": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+            "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "outlet": "Globe and Mail",
+            "outletId": "globemail",
+            "lean": "centre",
+            "country": "CA",
+            "evidenceIndex": 1,
+            "headline": "Doctors Without Borders condemns Israeli drone strike that killed 2 clinic staff in Gaza",
+            "url": "https://www.theglobeandmail.com/world/article-doctors-without-borders-drone-strike-kills-2-gaza-clinic-staff/"
+          }
+        ],
+        "status": "sourced",
+        "text": null
+      },
+      {
+        "side": "right",
+        "label": "Right / conservative",
+        "outlets": [],
+        "status": "not sourced",
+        "text": null
+      }
+    ],
+    "axis": {
+      "applies": true,
+      "name": "left-right"
+    },
+    "offAxis": [],
+    "verification": {
+      "attempted": true,
+      "terms": [
+        "Israeli",
+        "Gaza",
+        "Doctors Without Borders",
+        "Gaza MSF",
+        "Hamas"
       ],
       "attempts": [
         {

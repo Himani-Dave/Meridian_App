@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-27T20:56:02.905Z",
-  "finishedAt": "2026-11-27T21:01:01.265Z",
+  "startedAt": "2026-11-28T19:46:10.407Z",
+  "finishedAt": "2026-11-28T19:51:08.669Z",
   "options": {
     "includeUnverified": false,
     "gdelt": true,
@@ -17,44 +17,46 @@
     "dryRun": false
   },
   "counts": {
-    "rssItems": 1210,
-    "totalItems": 1209,
-    "clusters": 1110,
+    "rssItems": 925,
+    "totalItems": 938,
+    "clusters": 847,
     "candidates": 12,
-    "articlesRead": 37
+    "articlesRead": 35
   },
   "balance": {
-    "left": 10,
+    "left": 6,
     "centre": 9,
-    "right": 7,
+    "right": 4,
     "none": 0
   },
   "regionFill": {
     "Canada": {
       "quota": 3,
-      "filled": 1,
-      "availableInRegion": 1
+      "filled": 2,
+      "availableInRegion": 2
     },
     "India": {
       "quota": 3,
-      "filled": 3,
-      "availableInRegion": 9
+      "filled": 2,
+      "availableInRegion": 2
     },
     "Europe": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 9
+      "availableInRegion": 8
     },
     "Global": {
       "quota": 3,
       "filled": 3,
-      "availableInRegion": 50
+      "availableInRegion": 48
     }
   },
   "starvedSides": [],
   "notes": [
-    "38 multi-outlet clusters were left out by --max-stories 12.",
-    "Region \"Canada\": wanted 3 stories, only 1 available. The briefing must say so rather than substitute stories from elsewhere."
+    "GDELT \"Canada federal\": 100 articles, 16 from roster outlets, 84 from outlets not in the roster (discovery only, not ingested).",
+    "36 multi-outlet clusters were left out by --max-stories 12.",
+    "Region \"Canada\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere.",
+    "Region \"India\": wanted 3 stories, only 2 available. The briefing must say so rather than substitute stories from elsewhere."
   ],
   "failures": [
     {
@@ -149,8 +151,17 @@
     },
     {
       "layer": "discovery",
-      "source": "GDELT: Canada federal",
-      "reason": "timeout after 20000ms"
+      "source": "Washington Times",
+      "id": "washtimes",
+      "url": "https://www.washingtontimes.com/rss/headlines/news/world/",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "discovery",
+      "source": "Indian Express",
+      "id": "indianexp",
+      "url": "https://indianexpress.com/feed/",
+      "reason": "HTTP 403"
     },
     {
       "layer": "discovery",
@@ -164,80 +175,74 @@
     },
     {
       "layer": "article",
-      "source": "Western Standard",
-      "url": "https://www.westernstandard.news/canadian/breaking-supreme-court-upholds-quebecs-secularism-law/79108",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
-      "reason": "timeout after 20000ms"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/27/norse-atlantic-airways-idle-thanksgiving-aims-bankruptcy/",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Haaretz",
-      "url": "https://www.haaretz.com/middle-east-news/2026-11-26/ty-article/.premium/kuwait-army-says-four-hurt-in-iranian-attack-on-vital-site/000001a2-17f8-dfd9-a5b7-1ffc56950000",
-      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
-    },
-    {
-      "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3376119/india-finds-unsafe-bisleri-sample-due-bacteria-amid-bottled-water-crackdown",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Organiser",
-      "url": "https://organiser.org/2026/11/27/429348/international/cyber-attack-hits-us-air-force-cloud-platform-sensitive-military-data-and-operations-potentially-exposed-to-hackers/",
+      "url": "https://organiser.org/2026/11/28/429527/interviews/dmk-is-backing-delimitation-bill-to-retain-7-18-seat-share-of-tamil-nadu-tks-elangovan/",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/violence-erupts-at-anti-government-protests-in-albania?traffic_source=rss",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+      "reason": "timeout after 20000ms"
+    },
+    {
+      "layer": "article",
       "source": "Haaretz",
-      "url": "https://www.haaretz.com/us-news/2026-11-27/ty-article/hackers-breach-one-of-pentagons-top-systems-access-u-s-air-force-data-radars/000001a2-1ce1-d0a2-afb7-5efbaab20000",
+      "url": "https://www.haaretz.com/israel-news/2026-11-28/ty-article/.premium/netanyahu-proposes-rotational-agreement-with-eisenkot-serving-first-as-pm/000001a2-22ef-d809-adef-6befad4f0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/27/pakistan-hosting-defense-talks-saudi-arabia-turkey-mecca-pact/",
-      "reason": "HTTP 403"
-    },
-    {
-      "layer": "article",
-      "source": "Washington Times",
-      "url": "https://www.washingtontimes.com/news/2026/nov/27/us-military-says-disabled-another-ship-attempted-breach-naval/",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     },
     {
       "layer": "article",
       "source": "Arab News",
-      "url": "https://www.arabnews.com/middle-east/son-of-hamas-chief-survives-israeli-strike-hamas-says-3014272",
+      "url": "https://www.arabnews.com/world/airstrike-on-myanmar-wedding-venue-kills-around-20-witnesses-3014386",
       "reason": "HTTP 403"
     },
     {
       "layer": "article",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+      "reason": "HTTP 403"
+    },
+    {
+      "layer": "article",
+      "source": "Globe and Mail",
+      "url": "https://www.theglobeandmail.com/world/video-macys-thanksgiving-day-parade-postponed-for-first-time-in-100-years/",
+      "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
+    },
+    {
+      "layer": "article",
+      "source": "Haaretz",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-28/ty-article/.premium/idf-says-it-killed-two-hamas-members-working-as-guards-at-gaza-msf-clinic/000001a2-1f55-d809-adef-7ffd06be0000",
       "reason": "no readable article text found (paywall, JS-rendered, or an unusual layout)"
     }
   ]
